@@ -72,7 +72,8 @@ function compareFingerprints(id, expected, actual) {
 }
 
 function ensureRepoPath(targetPath) {
-  const resolved = path.resolve(root, targetPath);
+  const normalized = targetPath.replace(/\\/g, "/");
+  const resolved = path.resolve(root, normalized.split("/").join(path.sep));
   const normalizedRoot = path.resolve(root);
   if (!resolved.startsWith(normalizedRoot + path.sep)) {
     throw new Error(`Path ${targetPath} must be within repository root`);

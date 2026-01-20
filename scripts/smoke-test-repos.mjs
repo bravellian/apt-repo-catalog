@@ -45,7 +45,8 @@ function getKeyId(repo) {
 }
 
 function getOutputPath(keyEntry, keyId) {
-  return keyEntry.outputPath ?? keyEntry.keyring ?? path.join("keys", `${keyId}.asc`);
+  const raw = keyEntry.outputPath ?? keyEntry.keyring ?? path.posix.join("keys", `${keyId}.asc`);
+  return raw.replace(/\\/g, "/");
 }
 
 function stripDebPrefix(source) {

@@ -8,7 +8,7 @@
       "expectedFingerprints": [
         "BC528686B50D79E339D3721CEB3E94ADBE1229CF"
       ],
-      "outputPath": "keys\\microsoft-microsoft-eb3e94adbe1229cf.asc",
+      "outputPath": "keys/microsoft-microsoft-eb3e94adbe1229cf.asc",
       "status": "active",
       "documentationUrl": "https://learn.microsoft.com/en-us/linux/packages",
       "tags": [
@@ -25,7 +25,7 @@
       "expectedFingerprints": [
         "9DC858229FC7DD38854AE2D88D81803C0EBFCD88"
       ],
-      "outputPath": "keys\\docker-gpg-8d81803c0ebfcd88.asc",
+      "outputPath": "keys/docker-gpg-8d81803c0ebfcd88.asc",
       "status": "active",
       "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
       "createdAt": "2026-01-20T20:35:59.752Z",
@@ -39,7 +39,7 @@
       "expectedFingerprints": [
         "DE15B14486CD377B9E876E1A234654DA9A296436"
       ],
-      "outputPath": "keys\\kubernetes-release-key-234654da9a296436.asc",
+      "outputPath": "keys/kubernetes-release-key-234654da9a296436.asc",
       "status": "active",
       "documentationUrl": "https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/",
       "createdAt": "2026-01-20T20:58:18.689Z",
