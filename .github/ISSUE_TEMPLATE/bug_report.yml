@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a problem with validation, scripts, or catalog behavior
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Describe the issue and what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Include exact commands, OS, and relevant IDs.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Logs / output
+      description: Paste any relevant output from scripts or workflows.
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: Environment
+      description: OS + Node version (e.g., Windows 11, Node 20.11).
+    validations:
+      required: false

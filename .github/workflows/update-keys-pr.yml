@@ -1,0 +1,44 @@
+name: Refresh Signing Keys
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: node scripts/update-keys.mjs
+      - id: date
+        run: echo "date=$(date +%Y%m%d)" >> "$GITHUB_OUTPUT"
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          branch: bot/keys-refresh-${{ steps.date.outputs.date }}
+          title: "chore(keys): refresh signing keys"
+          commit-message: "chore(keys): refresh signing keys"
+          body: |
+            ## Summary
+            - Refresh signing keys from upstream sources.
+            - Update provenance metadata for verification.
+
+            ## Reference
+            - keys/index.json
+          base: main
+          delete-branch: true
+          add-paths: |
+            keys/
+            keys/index.json
+          if-no-changes: exit

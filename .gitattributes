@@ -1,0 +1,27 @@
+# Default to LF in repo; let editors handle working copy conversions.
+* text=auto eol=lf
+
+# Shell scripts always LF
+*.sh text eol=lf
+
+# YAML/JSON always LF
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.jsonc text eol=lf
+
+# Markdown always LF
+*.md text eol=lf
+
+# PowerShell: choose one policy (pick one)
+# Option A (recommended): keep PS scripts LF too (consistent across repo)
+*.ps1 text eol=lf
+*.psm1 text eol=lf
+
+# If you prefer CRLF for PowerShell working copies, comment the two lines above
+# and use the following instead:
+# *.ps1 text eol=crlf
+# *.psm1 text eol=crlf
+
+# GitHub workflows always LF
+.github/workflows/* text eol=lf

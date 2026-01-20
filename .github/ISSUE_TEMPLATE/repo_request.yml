@@ -1,0 +1,39 @@
+name: Add repository definition
+description: Request a new APT repository entry (sources line + OS targets)
+labels: ["repo"]
+body:
+  - type: input
+    attributes:
+      label: Repository / vendor
+      placeholder: e.g., HashiCorp, Grafana, Kubernetes
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: OS targets
+      placeholder: e.g., ubuntu-24.04, ubuntu-22.04, debian-12
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: APT source line(s)
+      description: Provide exact `deb ...` line(s).
+      render: shell
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Key ID (catalog/keys.json)
+      placeholder: e.g., grafana-archive-9FC7DD38...
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Notes
+      description: Anything special (repo supports only some distros, fallback notes, etc.)
+    validations:
+      required: false

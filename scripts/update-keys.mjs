@@ -1,0 +1,221 @@
+import { readFile, writeFile, mkdir } from "node:fs/promises";
+import path from "node:path";
+import {
+  fetchBytes,
+  sniffContentType,
+  parsePublicKeys,
+  normalizeArmored,
+  keyFingerprints,
+  getUserIds,
+  deriveKeyIdsFromFingerprints,
+  sha256Hex
+} from "./lib/openpgp-utils.mjs";
+
+const root = process.cwd();
+const catalogPath = path.join(root, "catalog", "keys.json");
+const outputIndexPath = path.join(root, "keys", "index.json");
+const outputMetaDir = path.join(root, "keys", "meta");
+
+function normalizeFingerprint(value) {
+  return String(value).replace(/\s+/g, "").toUpperCase();
+}
+
+function normalizeExpected(entry) {
+  if (Array.isArray(entry.expectedFingerprints)) {
+    return entry.expectedFingerprints.map(normalizeFingerprint);
+  }
+  if (entry.expectedFingerprint) {
+    return [normalizeFingerprint(entry.expectedFingerprint)];
+  }
+  if (entry.fingerprint) {
+    return [normalizeFingerprint(entry.fingerprint)];
+  }
+  throw new Error(`Key ${entry.id} missing expected fingerprints`);
+}
+
+function getSourceUrl(entry) {
+  return entry.sourceUrl ?? entry.key_url;
+}
+
+function getOutputPath(entry) {
+  return entry.outputPath ?? entry.keyring;
+}
+
+function getVendor(entry) {
+  return entry.vendor ?? entry.name ?? entry.id;
+}
+
+function getLabel(entry) {
+  return entry.label ?? entry.name ?? entry.id;
+}
+
+function compareFingerprints(id, expected, actual) {
+  const expectedSet = new Set(expected.map(normalizeFingerprint));
+  const actualSet = new Set(actual.map(normalizeFingerprint));
+
+  const expectedSorted = Array.from(expectedSet).sort();
+  const actualSorted = Array.from(actualSet).sort();
+
+  const sameLength = expectedSorted.length === actualSorted.length;
+  const sameItems =
+    sameLength &&
+    expectedSorted.every((value, index) => value === actualSorted[index]);
+
+  if (!sameItems) {
+    console.error(`Fingerprint mismatch for ${id}`);
+    console.error(`Expected (${expectedSorted.length}): ${expectedSorted.join(", ")}`);
+    console.error(`Actual   (${actualSorted.length}): ${actualSorted.join(", ")}`);
+    return false;
+  }
+
+  return true;
+}
+
+function ensureRepoPath(targetPath) {
+  const resolved = path.resolve(root, targetPath);
+  const normalizedRoot = path.resolve(root);
+  if (!resolved.startsWith(normalizedRoot + path.sep)) {
+    throw new Error(`Path ${targetPath} must be within repository root`);
+  }
+  return resolved;
+}
+
+function buildMetadata({
+  entry,
+  sourceUrl,
+  outputPath,
+  retrievedAt,
+  fingerprints,
+  keyCount,
+  userIds,
+  keyIds,
+  downloaded,
+  cached
+}) {
+  const primaryFingerprint = fingerprints[0] ?? "";
+  return {
+    id: entry.id,
+    vendor: getVendor(entry),
+    label: getLabel(entry),
+    status: entry.status ?? "active",
+    sourceUrl,
+    retrievedAt,
+    fingerprints,
+    keyCount,
+    userIds,
+    primaryUserId: userIds?.[0] ?? null,
+    keyIds,
+    downloaded,
+    cached: {
+      ...cached,
+      outputPath
+    },
+    hints: {
+      primaryFingerprint,
+      fingerprintSuffix16: primaryFingerprint.slice(-16)
+    }
+  };
+}
+
+async function main() {
+  const raw = await readFile(catalogPath, "utf8");
+  const catalog = JSON.parse(raw);
+
+  if (!Array.isArray(catalog.keys) || catalog.keys.length === 0) {
+    throw new Error("catalog/keys.json must include a non-empty keys array");
+  }
+
+  await mkdir(outputMetaDir, { recursive: true });
+
+  const retrievedAt = new Date().toISOString();
+  const indexEntries = [];
+  let failed = false;
+
+  for (const entry of catalog.keys) {
+    if (!entry.id) {
+      throw new Error("Key entry missing id");
+    }
+
+    const sourceUrl = getSourceUrl(entry);
+    if (!sourceUrl) {
+      throw new Error(`Key ${entry.id} missing sourceUrl`);
+    }
+
+    const outputPath = getOutputPath(entry);
+    if (!outputPath) {
+      throw new Error(`Key ${entry.id} missing outputPath`);
+    }
+
+    const expectedFingerprints = normalizeExpected(entry);
+
+    const downloadedBytes = await fetchBytes(sourceUrl);
+    const contentType = sniffContentType(downloadedBytes);
+    if (contentType === "html") {
+      throw new Error(`Downloaded content for ${entry.id} appears to be HTML`);
+    }
+    const downloadedKeys = await parsePublicKeys(downloadedBytes);
+    if (downloadedKeys.length === 0) {
+      throw new Error(`No public keys found for ${entry.id}`);
+    }
+    const downloadedFingerprints = keyFingerprints(downloadedKeys).sort();
+    const userIds = getUserIds(downloadedKeys);
+    const keyIds = deriveKeyIdsFromFingerprints(downloadedFingerprints);
+
+    if (!compareFingerprints(entry.id, expectedFingerprints, downloadedFingerprints)) {
+      failed = true;
+    }
+
+    const armored = await normalizeArmored(downloadedKeys);
+    const resolvedOutputPath = ensureRepoPath(outputPath);
+    await writeFile(resolvedOutputPath, armored, "utf8");
+
+    const cachedBytes = new Uint8Array(Buffer.from(armored, "utf8"));
+    const metadata = buildMetadata({
+      entry,
+      sourceUrl,
+      outputPath,
+      retrievedAt,
+      fingerprints: downloadedFingerprints,
+      keyCount: downloadedKeys.length,
+      userIds,
+      keyIds,
+      downloaded: {
+        sha256: sha256Hex(downloadedBytes),
+        sizeBytes: downloadedBytes.length,
+        contentType: contentType === "binary" || contentType === "armored" ? contentType : "unknown"
+      },
+      cached: {
+        sha256: sha256Hex(cachedBytes),
+        sizeBytes: cachedBytes.length
+      }
+    });
+    indexEntries.push(metadata);
+
+    const metaPath = path.join(outputMetaDir, `${entry.id}.json`);
+    const metaData = JSON.stringify(metadata, null, 2) + "\n";
+    await writeFile(metaPath, metaData, "utf8");
+  }
+
+  if (failed) {
+    process.exit(1);
+  }
+
+  const payload =
+    JSON.stringify(
+      {
+        generatedAt: retrievedAt,
+        keyCount: indexEntries.length,
+        keys: indexEntries
+      },
+      null,
+      2
+    ) + "\n";
+  await writeFile(outputIndexPath, payload, "utf8");
+}
+
+try {
+  await main();
+} catch (error) {
+  console.error(error instanceof Error ? error.message : error);
+  process.exit(1);
+}

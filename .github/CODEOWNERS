@@ -1,0 +1,5 @@
+# Require review for anything that changes trust material.
+catalog/ @SamuelMcAravey
+keys/ @SamuelMcAravey
+scripts/ @SamuelMcAravey
+.github/workflows/ @SamuelMcAravey

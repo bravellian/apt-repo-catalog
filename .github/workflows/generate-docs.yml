@@ -1,0 +1,43 @@
+name: Generate Catalog Docs
+
+on:
+  schedule:
+    - cron: "33 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: node scripts/generate-catalog-md.mjs
+      - run: node scripts/generate-repo-docs.mjs
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          branch: bot/catalog-docs-${{ github.run_id }}
+          title: "chore(docs): refresh catalog docs"
+          commit-message: "chore(docs): refresh catalog docs"
+          body: |
+            ## Summary
+            - Regenerate CATALOG.md and per-repo installation docs.
+
+            ## Reference
+            - CATALOG.md
+          base: main
+          delete-branch: true
+          add-paths: |
+            CATALOG.md
+            docs/README.md
+            docs/repos/
+          if-no-changes: exit
