@@ -6,7 +6,7 @@
     "node": ">=20"
   },
   "dependencies": {
-    "openpgp": "^5.11.0"
+    "openpgp": "^6.3.0"
   },
   "scripts": {
     "add:key": "node scripts/add-key.mjs",
