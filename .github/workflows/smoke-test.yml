@@ -28,7 +28,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             node scripts/detect-changed-repos.mjs
-            node -e "const fs=require('node:fs');const payload=JSON.parse(fs.readFileSync('reports/changed-repos.json','utf8'));const output=process.env.GITHUB_OUTPUT;fs.appendFileSync(output,`changedRepoIds=\${(payload.changedRepoIds||[]).join(',')}\n`);fs.appendFileSync(output,`changedReposByOs=\${JSON.stringify(payload.changedReposByOs||{})}\n`);fs.appendFileSync(output,`hasRepoChanges=\${payload.hasRepoChanges}\n`);fs.appendFileSync(output,`removedRepoIds=\${(payload.removedRepoIds||[]).join(',')}\n`);"
+            node -e 'const fs=require("node:fs");const payload=JSON.parse(fs.readFileSync("reports/changed-repos.json","utf8"));const output=process.env.GITHUB_OUTPUT;fs.appendFileSync(output,"changedRepoIds="+(payload.changedRepoIds||[]).join(",")+"\n");fs.appendFileSync(output,"changedReposByOs="+JSON.stringify(payload.changedReposByOs||{})+"\n");fs.appendFileSync(output,"hasRepoChanges="+payload.hasRepoChanges+"\n");fs.appendFileSync(output,"removedRepoIds="+(payload.removedRepoIds||[]).join(",")+"\n");'
           else
             echo "changedRepoIds=" >> "$GITHUB_OUTPUT"
             echo "changedReposByOs={}" >> "$GITHUB_OUTPUT"
