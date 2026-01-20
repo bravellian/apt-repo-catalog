@@ -1,0 +1,21 @@
+{
+  "name": "apt-repo-catalog",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "openpgp": "^5.11.0"
+  },
+  "scripts": {
+    "add:key": "node scripts/add-key.mjs",
+    "add:repo": "node scripts/add-repo.mjs",
+    "backfill:keys": "node scripts/backfill-keys-metadata.mjs",
+    "dev:sanity": "node scripts/dev-sanity-check.mjs",
+    "import:repos": "node scripts/import-repos-from-list.mjs",
+    "generate:repos": "node scripts/generate-repos.mjs",
+    "validate": "node scripts/validate-all.mjs",
+    "update:keys": "node scripts/update-keys.mjs"
+  }
+}

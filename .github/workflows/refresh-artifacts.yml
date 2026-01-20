@@ -1,0 +1,74 @@
+name: Refresh Reports and Docs
+
+on:
+  schedule:
+    - cron: "21 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, ubuntu-22.04, debian-13, debian-12, debian-11]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: sudo apt-get update && sudo apt-get install -y ca-certificates curl gnupg
+      - run: npm ci
+      - run: node scripts/smoke-test-repos.mjs --os ${{ matrix.os }}
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-report-${{ matrix.os }}
+          path: reports/smoke/${{ matrix.os }}.json
+
+  refresh:
+    needs: [smoke]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          path: reports/smoke
+          merge-multiple: true
+      - run: node scripts/build-latest-report.mjs --inDir reports/smoke --out reports/latest.json
+      - run: node scripts/generate-catalog-md.mjs
+      - run: node scripts/generate-repo-docs.mjs
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          branch: bot/refresh-reports-docs-${{ github.run_id }}
+          title: "chore: refresh reports and docs"
+          commit-message: "chore: refresh reports and docs"
+          body: |
+            ## Summary
+            - Refresh reports/latest.json from smoke test reports.
+            - Regenerate CATALOG.md and repo installation docs.
+
+            ## Reference
+            - CATALOG.md
+          base: main
+          delete-branch: true
+          add-paths: |
+            reports/latest.json
+            CATALOG.md
+            docs/README.md
+            docs/repos/
+          if-no-changes: exit

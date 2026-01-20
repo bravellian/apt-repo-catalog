@@ -1,0 +1,870 @@
+{
+  "repos": [
+    {
+      "id": "microsoft-default-ubuntu-14-04-trusty-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-14.04 - default",
+      "os": "ubuntu-14.04",
+      "name": "microsoft",
+      "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/14.04/prod trusty main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/14.04",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-15-10-wily-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-15.10 - default",
+      "os": "ubuntu-15.10",
+      "name": "microsoft",
+      "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/15.10/prod wily main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/15.10",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-16.04 - default",
+      "os": "ubuntu-16.04",
+      "name": "microsoft",
+      "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/prod xenial main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/16.04",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-16.10 - default",
+      "os": "ubuntu-16.10",
+      "name": "microsoft",
+      "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.10/prod yakkety main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/16.10",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-17.04 - default",
+      "os": "ubuntu-17.04",
+      "name": "microsoft",
+      "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/17.04/prod zesty main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/17.04",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-17-10-artful-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-17.10 - default",
+      "os": "ubuntu-17.10",
+      "name": "microsoft",
+      "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/17.10/prod artful main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/17.10",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-18.04 - default",
+      "os": "ubuntu-18.04",
+      "name": "microsoft",
+      "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/18.04/prod bionic main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/18.04",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-18.10 - default",
+      "os": "ubuntu-18.10",
+      "name": "microsoft",
+      "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/18.10/prod cosmic main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/18.10",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-19-04-disco-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-19.04 - default",
+      "os": "ubuntu-19.04",
+      "name": "microsoft",
+      "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/19.04/prod disco main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/19.04",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-19-10-eoan-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-19.10 - default",
+      "os": "ubuntu-19.10",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/ubuntu/19.10/prod eoan main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/19.10",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-20-04-focal-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-20.04 - default",
+      "os": "ubuntu-20.04",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/20.04/prod focal main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/20.04",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-20.10 - default",
+      "os": "ubuntu-20.10",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/20.10/prod groovy main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/20.10",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-21.04 - default",
+      "os": "ubuntu-21.04",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/21.04/prod hirsute main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/21.04",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-21.10 - default",
+      "os": "ubuntu-21.10",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/21.10/prod impish main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/21.10",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-22.04 - default",
+      "os": "ubuntu-22.04",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/ubuntu/22.04/prod jammy main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/22.04",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-22.10 - default",
+      "os": "ubuntu-22.10",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/22.10/prod kinetic main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/22.10",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-23.04 - default",
+      "os": "ubuntu-23.04",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/23.04/prod lunar main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/23.04",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-23.10 - default",
+      "os": "ubuntu-23.10",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/ubuntu/23.10/prod mantic main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/23.10",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-24-04-noble-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-24.04 - default",
+      "os": "ubuntu-24.04",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/ubuntu/24.04/prod noble main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/24.04",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-24.10 - default",
+      "os": "ubuntu-24.10",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/ubuntu/24.10/prod oracular main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/24.10",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-25.04 - default",
+      "os": "ubuntu-25.04",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/ubuntu/25.04/prod plucky main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/25.04",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-ubuntu-25-10-questing-packages-microsoft-com",
+      "label": "Microsoft - ubuntu-25.10 - default",
+      "os": "ubuntu-25.10",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/ubuntu/25.10/prod questing main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/ubuntu/25.10",
+      "tags": [
+        "microsoft",
+        "apt",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "microsoft-default-debian-10-buster-packages-microsoft-com",
+      "label": "Microsoft - debian-10 - default",
+      "os": "debian-10",
+      "name": "microsoft",
+      "source": "deb [arch=amd64] https://packages.microsoft.com/debian/10/prod buster main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/debian/10",
+      "tags": [
+        "microsoft",
+        "apt",
+        "debian"
+      ]
+    },
+    {
+      "id": "microsoft-default-debian-11-bullseye-packages-microsoft-com",
+      "label": "Microsoft - debian-11 - default",
+      "os": "debian-11",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/debian/11/prod bullseye main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/debian/11",
+      "tags": [
+        "microsoft",
+        "apt",
+        "debian"
+      ]
+    },
+    {
+      "id": "microsoft-default-debian-12-bookworm-packages-microsoft-com",
+      "label": "Microsoft - debian-12 - default",
+      "os": "debian-12",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/debian/12/prod bookworm main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/debian/12",
+      "tags": [
+        "microsoft",
+        "apt",
+        "debian"
+      ]
+    },
+    {
+      "id": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "label": "Microsoft - debian-13 - default",
+      "os": "debian-13",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/debian/13/prod trixie main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/debian/13",
+      "tags": [
+        "microsoft",
+        "apt",
+        "debian"
+      ]
+    },
+    {
+      "id": "microsoft-default-debian-8-jessie-packages-microsoft-com",
+      "label": "Microsoft - debian-8 - default",
+      "os": "debian-8",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/8/prod jessie main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/debian/8",
+      "tags": [
+        "microsoft",
+        "apt",
+        "debian"
+      ]
+    },
+    {
+      "id": "microsoft-default-debian-9-stretch-packages-microsoft-com",
+      "label": "Microsoft - debian-9 - default",
+      "os": "debian-9",
+      "name": "microsoft",
+      "source": "deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/9/prod stretch main",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "documentationUrl": "https://packages.microsoft.com/config/debian/9",
+      "tags": [
+        "microsoft",
+        "apt",
+        "debian"
+      ]
+    },
+    {
+      "id": "docker-debian-bookworm-stable",
+      "label": "Docker - Debian (Bookworm) - stable",
+      "os": "debian-12",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/debian bookworm stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/debian",
+      "tags": [
+        "docker",
+        "apt",
+        "debian"
+      ],
+      "notes": "Docker APT repository for Debian"
+    },
+    {
+      "id": "docker-debian-bullseye-stable",
+      "label": "Docker - Debian (Bullseye) - stable",
+      "os": "debian-11",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/debian bullseye stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/debian",
+      "tags": [
+        "docker",
+        "apt",
+        "debian"
+      ],
+      "notes": "Docker APT repository for Debian"
+    },
+    {
+      "id": "docker-debian-buster-stable",
+      "label": "Docker - Debian (Buster) - stable",
+      "os": "debian-10",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/debian buster stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/debian",
+      "tags": [
+        "docker",
+        "apt",
+        "debian"
+      ],
+      "notes": "Docker APT repository for Debian"
+    },
+    {
+      "id": "docker-debian-jessie-stable",
+      "label": "Docker - Debian (Jessie) - stable",
+      "os": "debian-8",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/debian jessie stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/debian",
+      "tags": [
+        "docker",
+        "apt",
+        "debian"
+      ],
+      "notes": "Docker APT repository for Debian"
+    },
+    {
+      "id": "docker-debian-stretch-stable",
+      "label": "Docker - Debian (Stretch) - stable",
+      "os": "debian-9",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/debian stretch stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/debian",
+      "tags": [
+        "docker",
+        "apt",
+        "debian"
+      ],
+      "notes": "Docker APT repository for Debian"
+    },
+    {
+      "id": "docker-debian-trixie-stable",
+      "label": "Docker - Debian (Trixie) - stable",
+      "os": "debian-13",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/debian trixie stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/debian",
+      "tags": [
+        "docker",
+        "apt",
+        "debian"
+      ],
+      "notes": "Docker APT repository for Debian"
+    },
+    {
+      "id": "docker-debian-wheezy-stable",
+      "label": "Docker - Debian (Wheezy) - stable",
+      "os": "debian-7",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/debian wheezy stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/debian",
+      "tags": [
+        "docker",
+        "apt",
+        "debian"
+      ],
+      "notes": "Docker APT repository for Debian"
+    },
+    {
+      "id": "docker-ubuntu-artful-stable",
+      "label": "Docker - Ubuntu (Artful) - stable",
+      "os": "ubuntu-17.10",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu artful stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-bionic-stable",
+      "label": "Docker - Ubuntu (Bionic) - stable",
+      "os": "ubuntu-18.04",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu bionic stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-cosmic-stable",
+      "label": "Docker - Ubuntu (Cosmic) - stable",
+      "os": "ubuntu-18.10",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu cosmic stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-disco-stable",
+      "label": "Docker - Ubuntu (Disco) - stable",
+      "os": "ubuntu-19.04",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu disco stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-eoan-stable",
+      "label": "Docker - Ubuntu (Eoan) - stable",
+      "os": "ubuntu-19.10",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu eoan stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-focal-stable",
+      "label": "Docker - Ubuntu (Focal) - stable",
+      "os": "ubuntu-20.04",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu focal stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-groovy-stable",
+      "label": "Docker - Ubuntu (Groovy) - stable",
+      "os": "ubuntu-20.10",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu groovy stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-hirsute-stable",
+      "label": "Docker - Ubuntu (Hirsute) - stable",
+      "os": "ubuntu-21.04",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu hirsute stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-impish-stable",
+      "label": "Docker - Ubuntu (Impish) - stable",
+      "os": "ubuntu-21.10",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu impish stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-jammy-stable",
+      "label": "Docker - Ubuntu (Jammy) - stable",
+      "os": "ubuntu-22.04",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu jammy stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-kinetic-stable",
+      "label": "Docker - Ubuntu (Kinetic) - stable",
+      "os": "ubuntu-22.10",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu kinetic stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-lunar-stable",
+      "label": "Docker - Ubuntu (Lunar) - stable",
+      "os": "ubuntu-23.04",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu lunar stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-mantic-stable",
+      "label": "Docker - Ubuntu (Mantic) - stable",
+      "os": "ubuntu-23.10",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu mantic stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-noble-stable",
+      "label": "Docker - Ubuntu (Noble) - stable",
+      "os": "ubuntu-24.04",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu noble stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-oracular-stable",
+      "label": "Docker - Ubuntu (Oracular) - stable",
+      "os": "ubuntu-24.10",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu oracular stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-plucky-stable",
+      "label": "Docker - Ubuntu (Plucky) - stable",
+      "os": "ubuntu-25.04",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu plucky stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-questing-stable",
+      "label": "Docker - Ubuntu (Questing) - stable",
+      "os": "ubuntu-25.10",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu questing stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-trusty-stable",
+      "label": "Docker - Ubuntu (Trusty) - stable",
+      "os": "ubuntu-14.04",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu trusty stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-xenial-stable",
+      "label": "Docker - Ubuntu (Xenial) - stable",
+      "os": "ubuntu-16.04",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu xenial stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-yakkety-stable",
+      "label": "Docker - Ubuntu (Yakkety) - stable",
+      "os": "ubuntu-16.10",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu yakkety stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "docker-ubuntu-zesty-stable",
+      "label": "Docker - Ubuntu (Zesty) - stable",
+      "os": "ubuntu-17.04",
+      "name": "docker",
+      "source": "deb https://download.docker.com/linux/ubuntu zesty stable",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+      "tags": [
+        "docker",
+        "apt",
+        "ubuntu"
+      ],
+      "notes": "Docker APT repository for Ubuntu"
+    },
+    {
+      "id": "kubernetes-core-stable-v1.35-ubuntu-22.04",
+      "label": "Kubernetes core stable v1.35 - Ubuntu 22.04",
+      "os": "ubuntu-22.04",
+      "name": "kubernetes",
+      "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
+      "keyId": "kubernetes-release-key-234654da9a296436",
+      "allowMissingDocsUrl": true
+    },
+    {
+      "id": "kubernetes-core-stable-v1.35-ubuntu-24.04",
+      "label": "Kubernetes core stable v1.35 - Ubuntu 24.04",
+      "os": "ubuntu-24.04",
+      "name": "kubernetes",
+      "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
+      "keyId": "kubernetes-release-key-234654da9a296436",
+      "allowMissingDocsUrl": true
+    },
+    {
+      "id": "kubernetes-core-stable-v1.35-debian-12",
+      "label": "Kubernetes core stable v1.35 - Debian 12",
+      "os": "debian-12",
+      "name": "kubernetes",
+      "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
+      "keyId": "kubernetes-release-key-234654da9a296436",
+      "allowMissingDocsUrl": true
+    },
+    {
+      "id": "kubernetes-core-stable-v1.35-debian-13",
+      "label": "Kubernetes core stable v1.35 - Debian 13 (Trixie)",
+      "os": "debian-13",
+      "name": "kubernetes",
+      "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
+      "keyId": "kubernetes-release-key-234654da9a296436",
+      "allowMissingDocsUrl": true
+    },
+    {
+      "id": "kubernetes-core-stable-v1.35-ubuntu-20.04",
+      "label": "Kubernetes core stable v1.35 - Ubuntu 20.04 (Focal)",
+      "os": "ubuntu-20.04",
+      "name": "kubernetes",
+      "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
+      "keyId": "kubernetes-release-key-234654da9a296436",
+      "allowMissingDocsUrl": true
+    },
+    {
+      "id": "kubernetes-core-stable-v1.35-debian-11",
+      "label": "Kubernetes core stable v1.35 - Debian 11 (Bullseye)",
+      "os": "debian-11",
+      "name": "kubernetes",
+      "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
+      "keyId": "kubernetes-release-key-234654da9a296436",
+      "allowMissingDocsUrl": true
+    }
+  ]
+}
