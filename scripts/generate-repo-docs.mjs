@@ -69,7 +69,7 @@ function buildRepoDoc({ repo, keyEntry }) {
   const fingerprints = getExpectedFingerprints(keyEntry);
   const keySourceUrl = getKeySourceUrl(keyEntry);
   const sourceLine = stripDebPrefix(repo.source);
-  const rawKeyPlaceholder = `<RAW_URL_TO_KEYS/${keyId}.asc>`;
+  const rawKeyPlaceholder = `https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/${keyId}.asc`;
   const repoTags = Array.isArray(repo.tags) ? repo.tags : [];
   const keyTags = Array.isArray(keyEntry?.tags) ? keyEntry.tags : [];
 
@@ -81,19 +81,23 @@ function buildRepoDoc({ repo, keyEntry }) {
   return [
     `# ${label} (${os})`,
     "",
-    `Repository ID: \`${repoId}\``,
-    `OS: \`${os}\``,
-    `Source: \`${sourceLine}\``,
+    "## Repository",
+    `- Repository ID: \`${repoId}\``,
+    `- OS: \`${os}\``,
+    `- Source: \`${sourceLine}\``,
     "",
     "## Upstream documentation",
-    docsUrl ? `Documentation URL: ${docsUrl}` : "Documentation URL: (not set)",
-    keyDocsUrl ? `Key documentation URL: ${keyDocsUrl}` : "Key documentation URL: (not set)",
+    docsUrl ? `- Documentation URL: ${docsUrl}` : "- Documentation URL: (not set)",
+    keyDocsUrl ? `- Key documentation URL: ${keyDocsUrl}` : "- Key documentation URL: (not set)",
     "",
     "## Key reference",
-    `Key ID: \`${keyId}\``,
-    "Expected fingerprints:",
-    fingerprintLines,
-    `Key source URL: ${keySourceUrl || "(not set)"}`,
+    `- Key ID: \`${keyId}\``,
+    "- Expected fingerprints:",
+    fingerprintLines
+      .split("\n")
+      .map((line) => `  ${line}`)
+      .join("\n"),
+    `- Key source URL: ${keySourceUrl || "(not set)"}`,
     "",
     "## Install instructions",
     "",
