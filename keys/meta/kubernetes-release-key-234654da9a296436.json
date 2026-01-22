@@ -1,0 +1,37 @@
+{
+  "id": "kubernetes-release-key-234654da9a296436",
+  "vendor": "kubernetes",
+  "label": "Kubernetes",
+  "status": "active",
+  "sourceUrl": "https://pkgs.k8s.io/core:/stable:/v1.35/deb/Release.key",
+  "retrievedAt": "2026-01-22T04:18:07.470Z",
+  "fingerprints": [
+    "DE15B14486CD377B9E876E1A234654DA9A296436"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "isv:kubernetes OBS Project <isv:kubernetes@build.opensuse.org>"
+  ],
+  "primaryUserId": "isv:kubernetes OBS Project <isv:kubernetes@build.opensuse.org>",
+  "keyIds": [
+    {
+      "fingerprint": "DE15B14486CD377B9E876E1A234654DA9A296436",
+      "keyIdLong": "234654DA9A296436",
+      "keyIdShort": "9A296436"
+    }
+  ],
+  "downloaded": {
+    "sha256": "7627818cf7bae52f9008c93e8b1f961f53dea11d40891778de216fb1b43be54d",
+    "sizeBytes": 1738,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "b4e1e9a36b0e2192096126bc7a79a19e04abc75b3e699969cd2f5a94c797ede1",
+    "sizeBytes": 1706,
+    "outputPath": "keys/kubernetes-release-key-234654da9a296436.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "DE15B14486CD377B9E876E1A234654DA9A296436",
+    "fingerprintSuffix16": "234654DA9A296436"
+  }
+}

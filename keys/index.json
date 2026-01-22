@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-20T20:58:18.695Z",
+  "generatedAt": "2026-01-22T04:18:07.470Z",
   "keyCount": 3,
   "keys": [
     {
@@ -8,11 +8,22 @@
       "label": "Microsoft Packages",
       "status": "active",
       "sourceUrl": "https://packages.microsoft.com/keys/microsoft.asc",
-      "retrievedAt": "2026-01-20T20:19:10.364Z",
+      "retrievedAt": "2026-01-22T04:18:07.470Z",
       "fingerprints": [
         "BC528686B50D79E339D3721CEB3E94ADBE1229CF"
       ],
       "keyCount": 1,
+      "userIds": [
+        "Microsoft (Release signing) <gpgsecurity@microsoft.com>"
+      ],
+      "primaryUserId": "Microsoft (Release signing) <gpgsecurity@microsoft.com>",
+      "keyIds": [
+        {
+          "fingerprint": "BC528686B50D79E339D3721CEB3E94ADBE1229CF",
+          "keyIdLong": "EB3E94ADBE1229CF",
+          "keyIdShort": "BE1229CF"
+        }
+      ],
       "downloaded": {
         "sha256": "2fa9c05d591a1582a9aba276272478c262e95ad00acf60eaee1644d93941e3c6",
         "sizeBytes": 975,
@@ -21,7 +32,7 @@
       "cached": {
         "sha256": "14cec3dc8fa687e485a71951c5bf645762284077e9a988df3830caa0366b2e28",
         "sizeBytes": 950,
-        "outputPath": "keys\\microsoft-microsoft-eb3e94adbe1229cf.asc"
+        "outputPath": "keys/microsoft-microsoft-eb3e94adbe1229cf.asc"
       },
       "hints": {
         "primaryFingerprint": "BC528686B50D79E339D3721CEB3E94ADBE1229CF",
@@ -34,11 +45,22 @@
       "label": "Docker",
       "status": "active",
       "sourceUrl": "https://download.docker.com/linux/ubuntu/gpg",
-      "retrievedAt": "2026-01-20T20:35:59.758Z",
+      "retrievedAt": "2026-01-22T04:18:07.470Z",
       "fingerprints": [
         "9DC858229FC7DD38854AE2D88D81803C0EBFCD88"
       ],
       "keyCount": 1,
+      "userIds": [
+        "Docker Release (CE deb) <docker@docker.com>"
+      ],
+      "primaryUserId": "Docker Release (CE deb) <docker@docker.com>",
+      "keyIds": [
+        {
+          "fingerprint": "9DC858229FC7DD38854AE2D88D81803C0EBFCD88",
+          "keyIdLong": "8D81803C0EBFCD88",
+          "keyIdShort": "0EBFCD88"
+        }
+      ],
       "downloaded": {
         "sha256": "1500c1f56fa9e26b9b8f42452a553675796ade0807cdce11975eb98170b3a570",
         "sizeBytes": 3817,
@@ -47,7 +69,7 @@
       "cached": {
         "sha256": "49f12f95491db9f3089c72e3d58ba1e3d19e14f6902843641ff7b4f235a55e49",
         "sizeBytes": 3821,
-        "outputPath": "keys\\docker-gpg-8d81803c0ebfcd88.asc"
+        "outputPath": "keys/docker-gpg-8d81803c0ebfcd88.asc"
       },
       "hints": {
         "primaryFingerprint": "9DC858229FC7DD38854AE2D88D81803C0EBFCD88",
@@ -60,11 +82,22 @@
       "label": "Kubernetes",
       "status": "active",
       "sourceUrl": "https://pkgs.k8s.io/core:/stable:/v1.35/deb/Release.key",
-      "retrievedAt": "2026-01-20T20:58:18.695Z",
+      "retrievedAt": "2026-01-22T04:18:07.470Z",
       "fingerprints": [
         "DE15B14486CD377B9E876E1A234654DA9A296436"
       ],
       "keyCount": 1,
+      "userIds": [
+        "isv:kubernetes OBS Project <isv:kubernetes@build.opensuse.org>"
+      ],
+      "primaryUserId": "isv:kubernetes OBS Project <isv:kubernetes@build.opensuse.org>",
+      "keyIds": [
+        {
+          "fingerprint": "DE15B14486CD377B9E876E1A234654DA9A296436",
+          "keyIdLong": "234654DA9A296436",
+          "keyIdShort": "9A296436"
+        }
+      ],
       "downloaded": {
         "sha256": "7627818cf7bae52f9008c93e8b1f961f53dea11d40891778de216fb1b43be54d",
         "sizeBytes": 1738,
@@ -73,7 +106,7 @@
       "cached": {
         "sha256": "b4e1e9a36b0e2192096126bc7a79a19e04abc75b3e699969cd2f5a94c797ede1",
         "sizeBytes": 1706,
-        "outputPath": "keys\\kubernetes-release-key-234654da9a296436.asc"
+        "outputPath": "keys/kubernetes-release-key-234654da9a296436.asc"
       },
       "hints": {
         "primaryFingerprint": "DE15B14486CD377B9E876E1A234654DA9A296436",

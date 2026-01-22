@@ -1,0 +1,37 @@
+{
+  "id": "microsoft-microsoft-eb3e94adbe1229cf",
+  "vendor": "microsoft",
+  "label": "Microsoft Packages",
+  "status": "active",
+  "sourceUrl": "https://packages.microsoft.com/keys/microsoft.asc",
+  "retrievedAt": "2026-01-22T04:18:07.470Z",
+  "fingerprints": [
+    "BC528686B50D79E339D3721CEB3E94ADBE1229CF"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Microsoft (Release signing) <gpgsecurity@microsoft.com>"
+  ],
+  "primaryUserId": "Microsoft (Release signing) <gpgsecurity@microsoft.com>",
+  "keyIds": [
+    {
+      "fingerprint": "BC528686B50D79E339D3721CEB3E94ADBE1229CF",
+      "keyIdLong": "EB3E94ADBE1229CF",
+      "keyIdShort": "BE1229CF"
+    }
+  ],
+  "downloaded": {
+    "sha256": "2fa9c05d591a1582a9aba276272478c262e95ad00acf60eaee1644d93941e3c6",
+    "sizeBytes": 975,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "14cec3dc8fa687e485a71951c5bf645762284077e9a988df3830caa0366b2e28",
+    "sizeBytes": 950,
+    "outputPath": "keys/microsoft-microsoft-eb3e94adbe1229cf.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "BC528686B50D79E339D3721CEB3E94ADBE1229CF",
+    "fingerprintSuffix16": "EB3E94ADBE1229CF"
+  }
+}
