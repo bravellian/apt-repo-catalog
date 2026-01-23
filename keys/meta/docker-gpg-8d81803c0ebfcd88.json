@@ -1,0 +1,37 @@
+{
+  "id": "docker-gpg-8d81803c0ebfcd88",
+  "vendor": "docker",
+  "label": "Docker",
+  "status": "active",
+  "sourceUrl": "https://download.docker.com/linux/ubuntu/gpg",
+  "retrievedAt": "2026-01-23T04:12:51.419Z",
+  "fingerprints": [
+    "9DC858229FC7DD38854AE2D88D81803C0EBFCD88"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Docker Release (CE deb) <docker@docker.com>"
+  ],
+  "primaryUserId": "Docker Release (CE deb) <docker@docker.com>",
+  "keyIds": [
+    {
+      "fingerprint": "9DC858229FC7DD38854AE2D88D81803C0EBFCD88",
+      "keyIdLong": "8D81803C0EBFCD88",
+      "keyIdShort": "0EBFCD88"
+    }
+  ],
+  "downloaded": {
+    "sha256": "1500c1f56fa9e26b9b8f42452a553675796ade0807cdce11975eb98170b3a570",
+    "sizeBytes": 3817,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "49f12f95491db9f3089c72e3d58ba1e3d19e14f6902843641ff7b4f235a55e49",
+    "sizeBytes": 3821,
+    "outputPath": "keys/docker-gpg-8d81803c0ebfcd88.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "9DC858229FC7DD38854AE2D88D81803C0EBFCD88",
+    "fingerprintSuffix16": "8D81803C0EBFCD88"
+  }
+}
