@@ -1,0 +1,37 @@
+{
+  "id": "microsoft-microsoft-2025-EE4D7792F748182B",
+  "vendor": "microsoft",
+  "label": "Microsoft Packages (2025)",
+  "status": "active",
+  "sourceUrl": "https://packages.microsoft.com/keys/microsoft-2025.asc",
+  "retrievedAt": "2026-01-24T15:28:41.974Z",
+  "fingerprints": [
+    "AA86F75E427A19DD33346403EE4D7792F748182B"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Microsoft Corporation - General GPG Signer <gpgsign@microsoft.com>"
+  ],
+  "primaryUserId": "Microsoft Corporation - General GPG Signer <gpgsign@microsoft.com>",
+  "keyIds": [
+    {
+      "fingerprint": "AA86F75E427A19DD33346403EE4D7792F748182B",
+      "keyIdLong": "EE4D7792F748182B",
+      "keyIdShort": "F748182B"
+    }
+  ],
+  "downloaded": {
+    "sha256": "d45224d594d969f084232deaaf97c58ca502a9d964c362d7aaef5a76e16b3dd1",
+    "sizeBytes": 1686,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "e239b5eac07b219388acefaa06b10f8cb85ee1b598fd213f7019ba5ab00317ae",
+    "sizeBytes": 1661,
+    "outputPath": "keys/microsoft-microsoft-2025-EE4D7792F748182B.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "AA86F75E427A19DD33346403EE4D7792F748182B",
+    "fingerprintSuffix16": "EE4D7792F748182B"
+  }
+}
