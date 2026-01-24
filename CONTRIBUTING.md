@@ -1,88 +1,112 @@
 # Contributing
 
-Thanks for contributing. This repository aims to keep APT repository definitions and signing keys **deterministic, auditable, and reviewable**.
+Thanks for contributing! This file covers the catalog maintenance workflow and tooling. End-user usage lives in `README.md`.
 
-## What belongs here
+## Key updates
 
-- APT repository definitions for Debian/Ubuntu (and related variants if explicitly supported)
-- Public signing keys used by those repositories
-- Metadata required to validate and consume the above safely (fingerprints, provenance)
-- Tooling to validate and update catalog content
+1. Add or update an entry in `catalog/keys.json` with the key URL and full fingerprint.
+2. Fetch the key from the upstream URL and store it in `keys/`.
+3. Verify the downloaded key matches the fingerprint before committing.
 
-## What does not belong here
+Key refreshes should prefer upstream HTTPS sources and be revalidated when the fingerprint changes.
 
-- Install scripts that bypass APT trust (e.g., `curl | bash` installers)
-- Private keys or credentials
-- Claims that a vendor/repo is “trusted” or “secure”
-- Unpinned or unreviewed key changes
+## Helper scripts
 
-## Repository data model
+| Command | Purpose |
+| --- | --- |
+| `npm run add:key -- --url <url> [--id <id>] [--label "<label>"] [--vendor <vendor>] [--force]` | Download and register a new signing key, update catalogs, and validate. |
+| `npm run add:repo -- --id <id> --label "<label>" --os <os> --name <aptName> --source "<deb line>" --keyId <keyId>` | Add a repository entry linked to an existing key. |
+| `node scripts/suggest-key-id.mjs <url>` | Suggest key IDs and print fingerprints for a key URL. |
+| `npm run update:keys` | Refresh cached keys and provenance metadata. |
+| `npm run validate` | Validate repo and key catalogs. |
+| `node scripts/smoke-test-repos.mjs --os <os>` | Run APT smoke tests against repos for a target OS. |
+| `node scripts/apt-inventory.mjs fetch-packages --repo-id <id>` | Fetch and normalize package indexes for a repository. |
+| `npm run dev:sanity -- --key-url <url> --repo-os <os> --repo-name "<name>" --repo-source "<deb line>" [--repo-id <id>]` | Run a local add-key/add-repo/validate/smoke flow. |
+| `npm run daily` | Run the same steps as the daily workflow. |
 
-- `catalog/keys.json` defines keys:
-  - stable `id`
-  - `sourceUrl` (where the key is fetched from)
-  - `expectedFingerprints` (the trust anchor)
-  - `outputPath` (where the normalized `.asc` lives in this repo)
-  - `status` (`active` or `deprecated`)
-- `catalog/repos.json` defines repositories:
-  - stable `id`
-  - OS target (`os`)
-  - APT source line (`source`)
-  - `keyId` referencing an entry in `catalog/keys.json`
+## Package inventory
 
-Multiple repos may share a single `keyId`.
+Use the inventory CLI to fetch and normalize Packages indexes without modifying system APT config:
 
-## Key naming guidelines
+```bash
+node scripts/apt-inventory.mjs fetch-packages --repo-id docker-debian-trixie-stable
+node scripts/apt-inventory.mjs fetch-packages --repo-id microsoft-default-debian-13-trixie-packages-microsoft-com --mode direct
+node scripts/apt-inventory.mjs fetch-packages-all --os debian-12
+node scripts/apt-inventory.mjs fetch-packages-all --only-ids docker-debian-trixie-stable,kubernetes-core-stable-v1.35-debian-13
+```
 
-Key IDs should be stable and unambiguous. Recommended format:
+The inventory tries APT-assisted mode first (isolated temp dirs), then falls back to direct HTTP fetches if needed. Direct mode reads `dists/<suite>/Release` and downloads `Packages(.gz/.xz)` entries; it does not install packages and does not require root.
 
-`<vendor>-<purpose>-<FP_SUFFIX>`
+Limitations:
+- Some repositories publish only `.xz` or `.lz4` indexes; ensure `xz` or `lz4` is available if you use direct mode.
+- If a repository omits standard `dists/<suite>` layout, direct fetch may fail; APT-assisted mode is recommended.
 
-Where `FP_SUFFIX` is typically the **last 16 hex chars** of the OpenPGP fingerprint.
+## PR optimization
 
-Examples:
-- `microsoft-prod-BE1229CF0A1B2C3D`
-- `docker-archive-9DC858229FC7DD38`
+Pull request smoke tests only run for repos whose entries changed in `catalog/repos.json`. The workflow computes changed repo IDs by diffing the base and head JSON snapshots, then runs the relevant OS matrix entries.
 
-If a vendor rotates keys, add a **new key** with a new ID and fingerprint, and mark the old key `deprecated` when appropriate.
+## How PR validation works
 
-## Adding a new repository (high level)
+GitHub Actions runs a lightweight validation job on every pull request and on pushes to `main`. The workflow parses `catalog/keys.json` and `catalog/repos.json`, checks required fields, and ensures all repositories reference a known key.
 
-1. Add or reuse a key in `catalog/keys.json`
-   - Prefer reusing an existing key if it is clearly the same key (fingerprint match).
-   - If adding, include `expectedFingerprints`.
-2. Add repository definition in `catalog/repos.json`
-   - Reference the key via `keyId`.
-3. Run local validation:
-   - `./scripts/run-validate.sh` (Linux/macOS) or `.\scripts\run-validate.ps1` (Windows)
-4. If you added a new key entry or changed key URLs:
-   - run the update script locally to generate the `.asc` file(s)
-   - `./scripts/run-update.sh` or `.\scripts\run-update.ps1`
-5. Open a PR.
+## Suggesting key IDs
 
-## Validation rules
+Use `node scripts/suggest-key-id.mjs <url>` to download a key and print suggested key IDs and full fingerprints. The suggestion uses the hostname as vendor, a short label from the URL path, and the last 16 hex characters of the fingerprint suffix.
 
-A PR is expected to:
-- pass key fingerprint validation
-- keep key changes reviewable (no mass unrelated changes)
-- keep repo IDs stable and unique
-- avoid unexpanded templating in `source` unless explicitly allowed
+## Adding keys and repos
 
-## How to run locally
+Use the CLI to download, verify, and add a key to the catalog and cache:
 
-### One-time bootstrap
-- `./scripts/bootstrap.sh` or `.\scripts\bootstrap.ps1`
+```bash
+npm run add:key -- --url https://packages.microsoft.com/keys/microsoft.asc --vendor microsoft --label prod --documentationUrl https://learn.microsoft.com/en-us/windows-server/administration/linux-package-repository-for-microsoft-software --tags "microsoft,apt"
+```
 
-### Validate (CI-equivalent)
-- `./scripts/run-validate.sh` or `.\scripts\run-validate.ps1`
+The command writes `keys/<id>.asc`, updates `catalog/keys.json`, refreshes `keys/index.json`, and runs the validation scripts. Use `--force` to overwrite an existing entry or reuse a source URL.
 
-### Update keys (writes keys/*.asc, like the PR bot)
-- `./scripts/run-update.sh` or `.\scripts\run-update.ps1`
+Use the CLI to add a repo entry tied to an existing key:
 
-## Suggestions / improvements
+```bash
+npm run add:repo -- --id microsoft-ubuntu --label "Microsoft Ubuntu" --os ubuntu-24.04 --name "Microsoft Packages" --source "deb [arch=amd64] https://packages.microsoft.com/ubuntu/24.04/prod jammy main" --keyId microsoft-prod-<LAST16> --documentationUrl https://learn.microsoft.com/en-us/windows-server/administration/linux-package-repository-for-microsoft-software --tags "microsoft,apt"
+```
 
-If you want to improve the validation model (e.g., additional provenance fields, stricter repo source parsing, optional local fingerprint verification guidance), open an issue first so we can align on the approach.
+The command appends to `catalog/repos.json` and runs repo validation.
 
-## License
+## Dev sanity check
 
-By contributing, you agree that your contributions are licensed under the repository’s license.
+Run the end-to-end local flow (add key, add repo, validate, smoke test):
+
+```bash
+npm run dev:sanity -- --key-url https://packages.microsoft.com/keys/microsoft.asc --key-id microsoft-prod-<LAST16> --vendor microsoft --key-label prod --repo-id microsoft-ubuntu --repo-os ubuntu-24.04 --repo-name "Microsoft Packages" --repo-source "deb [arch=amd64] https://packages.microsoft.com/ubuntu/24.04/prod jammy main" --repo-label "Microsoft Ubuntu"
+```
+
+## Backfilling catalog metadata
+
+Apply missing documentation URLs, tags, or notes to existing keys using a patch file:
+
+```bash
+npm run backfill:keys -- --patch path/to/keys-metadata.json
+```
+
+## Importing vendor .list files
+
+Use the importer to convert vendor-provided `.list` files into catalog entries:
+
+```bash
+npm run import:repos -- --os ubuntu-24.04 --keyId microsoft-prod-<LAST16> --documentationUrl https://learn.microsoft.com/en-us/windows-server/administration/linux-package-repository-for-microsoft-software --vendor microsoft --labelPrefix "Microsoft" --channelFromFilename --tags "microsoft,apt" --source https://packages.microsoft.com/config/ubuntu/24.04/prod.list
+```
+
+## Generating repos from a root URI
+
+Generate repo entries from a root URI, suites, and components:
+
+```bash
+npm run generate:repos -- --vendor docker --rootUri https://download.docker.com/linux/ubuntu --distro ubuntu --suites jammy,noble --components stable --keyId docker-<LAST16> --documentationUrl https://docs.docker.com/engine/install/ubuntu/ --labelPrefix "Docker" --tags "docker,apt"
+```
+
+## Naming scheme for keys
+
+Key files live in `keys/` and include a fingerprint suffix for traceability. Use this pattern:
+
+`<vendor>-<short-fingerprint>.gpg`
+
+Where `<short-fingerprint>` is the last 4 or 8 hex characters of the full fingerprint listed in `catalog/keys.json` (example: `microsoft-packages-29CF.gpg`).

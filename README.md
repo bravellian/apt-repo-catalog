@@ -1,49 +1,45 @@
-# APT Repository Catalog and Key Cache
+# APT Repository Catalog
 
 ![CI](https://github.com/bravellian/apt-repo-catalog/actions/workflows/validate.yml/badge.svg)
 ![Keys PR](https://github.com/bravellian/apt-repo-catalog/actions/workflows/update-keys-pr.yml/badge.svg)
 ![License](https://img.shields.io/github/license/bravellian/apt-repo-catalog)
 ![Last Commit](https://img.shields.io/github/last-commit/bravellian/apt-repo-catalog)
 
-## Purpose
+## What this is
 
-This repository stores a curated catalog of APT repositories and a cache of their signing keys. The catalog enables repeatable bootstrap of trusted repositories across environments.
+This repository is a curated catalog of APT repositories and their signing keys. It also publishes per-repo installation docs, health status, and package index snapshots where available.
 
-The current catalog table is published at `CATALOG.md`. Installation docs live in `docs/README.md`.
+Start here:
+- Catalog table: `CATALOG.md`
+- Repository docs: `docs/README.md`
+- Per-repo install instructions: `docs/repos/<repoId>.md`
 
-Catalog entries may include documentation URLs, tags, and notes for context. Drift data (last checked/verification) is stored only in reports such as `reports/latest.json`, not in the catalog files.
+Catalog entries may include documentation URLs, tags, and notes. Health status comes from smoke tests and is summarized in `reports/latest.json`.
 
-## How keys are updated
+## How to use this repo
 
-1. Add or update an entry in `catalog/keys.json` with the key URL and full fingerprint.
-2. Fetch the key from the upstream URL and store it in `keys/`.
-3. Verify the downloaded key matches the fingerprint before committing.
+1. Find your repo in `CATALOG.md`.
+2. Open the linked doc in `docs/repos/<repoId>.md`.
+3. Follow the install instructions for that repo.
 
-Key refreshes should always prefer upstream HTTPS sources and be revalidated when the fingerprint changes.
+If you only need package names and versions, use the package inventory for that repo (see below).
 
-## Helper scripts
+## Package inventory
 
-| Command | Purpose |
-| --- | --- |
-| `npm run add:key -- --url <url> [--id <id>] [--label "<label>"] [--vendor <vendor>] [--force]` | Download and register a new signing key, update catalogs, and validate. |
-| `npm run add:repo -- --id <id> --label "<label>" --os <os> --name <aptName> --source "<deb line>" --keyId <keyId>` | Add a repository entry linked to an existing key. |
-| `node scripts/suggest-key-id.mjs <url>` | Suggest key IDs and print fingerprints for a key URL. |
-| `npm run update:keys` | Refresh cached keys and provenance metadata. |
-| `npm run validate` | Validate repo and key catalogs. |
-| `node scripts/smoke-test-repos.mjs --os <os>` | Run APT smoke tests against repos for a target OS. |
-| `node scripts/apt-inventory.mjs fetch-packages --repo-id <id>` | Fetch and normalize package indexes for a repository. |
-| `npm run dev:sanity -- --key-url <url> --repo-os <os> --repo-name "<name>" --repo-source "<deb line>" [--repo-id <id>]` | Run a local add-key/add-repo/validate/smoke flow. |
+Package inventory snapshots are stored per repo:
+- Raw index files: `data/repos/<repoId>/packages.raw/<timestamp>/`
+- Normalized snapshot: `data/repos/<repoId>/packages.json`
+- Fetch metadata/errors: `data/repos/<repoId>/packages.meta.json`
 
-## Metadata
+Docs show package lists in a collapsible section. Compatibility is represented by suite/component/architecture, which is how APT publishes indexes.
 
-The repository maintains a provenance index at `keys/index.json` with a generated timestamp, counts, fingerprints, user IDs, derived key IDs, and content hashes for every active key. Fingerprints remain the trust anchor; user IDs and derived key IDs are informational and may change across upstream key rotations.
+## Status & checks
 
-Optional per-key metadata files under `keys/meta/<keyId>.json` capture the same fields for easier diffing and focused reviews. This makes key rotation and upstream changes visible without relying on binary blobs.
+Current OSes are checked daily via smoke tests. Legacy OSes are kept for reference and shown as NOT CHECKED in the catalog.
 
 ## Smoke tests
 
 The smoke test runs a real `apt-get update` against each repo using the pinned keyring. It detects drift in repository suites, release metadata, or signing keys without scraping external documentation.
-Last checked timestamps are derived from smoke test reports and are not stored in the catalog files.
 
 Run locally (Linux container or VM with `apt-get` and `gpg`):
 
@@ -58,153 +54,6 @@ node scripts/smoke-test-repos.mjs --os debian-12 --out reports/smoke/debian-12.j
 
 Scheduled smoke tests publish a combined health snapshot to `reports/latest.json`. This file aggregates per-OS smoke reports into a single current-status view.
 
-## Package inventory
+## For maintainers
 
-Use the inventory CLI to fetch and normalize Packages indexes without modifying system APT config:
-
-```bash
-node scripts/apt-inventory.mjs fetch-packages --repo-id docker-debian-trixie-stable
-node scripts/apt-inventory.mjs fetch-packages --repo-id microsoft-default-debian-13-trixie-packages-microsoft-com --mode direct
-node scripts/apt-inventory.mjs fetch-packages-all --os debian-12
-node scripts/apt-inventory.mjs fetch-packages-all --only-ids docker-debian-trixie-stable,kubernetes-core-stable-v1.35-debian-13
-```
-
-Outputs:
-
-- Raw index files: `data/repos/<repoId>/packages.raw/<timestamp>/`
-- Normalized snapshot: `data/repos/<repoId>/packages.json`
-- Fetch metadata/errors: `data/repos/<repoId>/packages.meta.json`
-
-Example snippet from `packages.json`:
-
-```json
-{
-  "generatedAt": "2026-01-24T15:30:00.000Z",
-  "packageCount": 2,
-  "packages": [
-    {
-      "name": "demo",
-      "latestVersion": "1.2.3-1",
-      "architectures": ["amd64", "arm64"],
-      "descriptionShort": "Example package",
-      "homepage": "https://example.com",
-      "relationships": {
-        "depends": ["libc6 (>= 2.31)"],
-        "provides": []
-      }
-    }
-  ]
-}
-```
-
-The inventory tries APT-assisted mode first (isolated temp dirs), then falls back to direct HTTP fetches if needed. Direct mode reads `dists/<suite>/Release` and downloads `Packages(.gz/.xz)` entries; it does not install packages and does not require root.
-
-Limitations:
-- Some repositories publish only `.xz` or `.lz4` indexes; ensure `xz` or `lz4` is available if you use direct mode.
-- If a repository omits standard `dists/<suite>` layout, direct fetch may fail; APT-assisted mode is recommended.
-
-## Repository discovery miner
-
-The discovery miner builds a living catalog of commonly used APT repositories by mining public config files, normalizing the repo definitions, verifying APT metadata, and ranking candidates.
-
-Run sequence:
-
-```bash
-node scripts/apt-inventory.mjs discover-repos
-node scripts/apt-inventory.mjs verify-repos
-node scripts/apt-inventory.mjs curate-repos
-node scripts/apt-inventory.mjs sync-catalog
-```
-
-To include a local corpus directory in discovery (in addition to GitHub mining):
-
-```bash
-node scripts/apt-inventory.mjs discover-repos --local-dir path/to/corpus
-```
-
-Outputs (default under `data/discovery/`):
-
-- `candidates.json`: raw extracts from GitHub hits
-- `deduped.json`: normalized/deduped repositories with evidence
-- `verified.json`: validation results (Release + Packages sampling)
-- `verified-errors.json`: structured errors
-- `curated.json`: recommended list with scores
-- `quarantine.json`: low-confidence or failing repos
-- `curation-report.json`: summary counts + quarantine reasons
-- `sync-skipped.json`: entries skipped during catalog sync
-
-Configuration is driven by `scripts/discovery/config.mjs` (override with `--config <path>`). Update allow/deny lists, query templates, and scoring thresholds there. For more detail, see `docs/discovery.md`.
-
-Selectivity guardrails (defaults): curated repos must be allowlisted and appear in at least 2 distinct sources. Everything else lands in quarantine for review.
-
-Verification can reuse recent results to avoid re-downloading. Use `--max-age-days` (default 7) or `--only-new` to limit verification work. Verification writes incrementally and reuses cached downloads in `data/discovery/tmp/`.
-
-## PR optimization
-
-Pull request smoke tests only run for repos whose entries changed in `catalog/repos.json`. The workflow computes changed repo IDs by diffing the base and head JSON snapshots, then runs the relevant OS matrix entries.
-
-## How PR validation works
-
-GitHub Actions runs a lightweight validation job on every pull request and on pushes to `main`. The workflow parses `catalog/keys.json` and `catalog/repos.json`, checks required fields, and ensures all repositories reference a known key.
-
-## Suggesting key IDs
-
-Use `node scripts/suggest-key-id.mjs <url>` to download a key and print suggested key IDs and full fingerprints. The suggestion uses the hostname as vendor, a short label from the URL path, and the last 16 hex characters of the fingerprint suffix.
-
-## Adding keys and repos
-
-Use the CLI to download, verify, and add a key to the catalog and cache:
-
-```bash
-npm run add:key -- --url https://packages.microsoft.com/keys/microsoft.asc --vendor microsoft --label prod --documentationUrl https://learn.microsoft.com/en-us/windows-server/administration/linux-package-repository-for-microsoft-software --tags "microsoft,apt"
-```
-
-The command writes `keys/<id>.asc`, updates `catalog/keys.json`, refreshes `keys/index.json`, and runs the validation scripts. Use `--force` to overwrite an existing entry or reuse a source URL.
-
-Use the CLI to add a repo entry tied to an existing key:
-
-```bash
-npm run add:repo -- --id microsoft-ubuntu --label "Microsoft Ubuntu" --os ubuntu-24.04 --name "Microsoft Packages" --source "deb [arch=amd64] https://packages.microsoft.com/ubuntu/24.04/prod jammy main" --keyId microsoft-prod-<LAST16> --documentationUrl https://learn.microsoft.com/en-us/windows-server/administration/linux-package-repository-for-microsoft-software --tags "microsoft,apt"
-```
-
-The command appends to `catalog/repos.json` and runs repo validation.
-
-## Dev sanity check
-
-Run the end-to-end local flow (add key, add repo, validate, smoke test):
-
-```bash
-npm run dev:sanity -- --key-url https://packages.microsoft.com/keys/microsoft.asc --key-id microsoft-prod-<LAST16> --vendor microsoft --key-label prod --repo-id microsoft-ubuntu --repo-os ubuntu-24.04 --repo-name "Microsoft Packages" --repo-source "deb [arch=amd64] https://packages.microsoft.com/ubuntu/24.04/prod jammy main" --repo-label "Microsoft Ubuntu"
-```
-
-## Backfilling catalog metadata
-
-Apply missing documentation URLs, tags, or notes to existing keys using a patch file:
-
-```bash
-npm run backfill:keys -- --patch path/to/keys-metadata.json
-```
-
-## Importing vendor .list files
-
-Use the importer to convert vendor-provided `.list` files into catalog entries:
-
-```bash
-npm run import:repos -- --os ubuntu-24.04 --keyId microsoft-prod-<LAST16> --documentationUrl https://learn.microsoft.com/en-us/windows-server/administration/linux-package-repository-for-microsoft-software --vendor microsoft --labelPrefix "Microsoft" --channelFromFilename --tags "microsoft,apt" --source https://packages.microsoft.com/config/ubuntu/24.04/prod.list
-```
-
-## Generating repos from a root URI
-
-Generate repo entries from a root URI, suites, and components:
-
-```bash
-npm run generate:repos -- --vendor docker --rootUri https://download.docker.com/linux/ubuntu --distro ubuntu --suites jammy,noble --components stable --keyId docker-<LAST16> --documentationUrl https://docs.docker.com/engine/install/ubuntu/ --labelPrefix "Docker" --tags "docker,apt"
-```
-
-## Naming scheme for keys
-
-Key files live in `keys/` and include a fingerprint suffix for traceability. Use this pattern:
-
-`<vendor>-<short-fingerprint>.gpg`
-
-Where `<short-fingerprint>` is the last 4 or 8 hex characters of the full fingerprint listed in `catalog/keys.json` (example: `microsoft-packages-29CF.gpg`).
+Maintenance and contribution docs live in `CONTRIBUTING.md`.
