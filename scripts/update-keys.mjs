@@ -16,6 +16,25 @@ const catalogPath = path.join(root, "catalog", "keys.json");
 const outputIndexPath = path.join(root, "keys", "index.json");
 const outputMetaDir = path.join(root, "keys", "meta");
 
+async function readOptionalText(filePath) {
+  try {
+    return await readFile(filePath, "utf8");
+  } catch (error) {
+    if (error && error.code === "ENOENT") {
+      return null;
+    }
+    throw error;
+  }
+}
+
+async function readOptionalJson(filePath) {
+  const raw = await readOptionalText(filePath);
+  if (!raw) {
+    return null;
+  }
+  return JSON.parse(raw);
+}
+
 function normalizeFingerprint(value) {
   return String(value).replace(/\s+/g, "").toUpperCase();
 }
@@ -131,6 +150,7 @@ async function main() {
   const retrievedAt = new Date().toISOString();
   const indexEntries = [];
   let failed = false;
+  let changed = false;
 
   for (const entry of catalog.keys) {
     if (!entry.id) {
@@ -168,14 +188,16 @@ async function main() {
 
     const armored = await normalizeArmored(downloadedKeys);
     const resolvedOutputPath = ensureRepoPath(outputPath);
-    await writeFile(resolvedOutputPath, armored, "utf8");
+    const existingArmored = await readOptionalText(resolvedOutputPath);
 
     const cachedBytes = new Uint8Array(Buffer.from(armored, "utf8"));
-    const metadata = buildMetadata({
+    const metaPath = path.join(outputMetaDir, `${entry.id}.json`);
+    const existingMeta = await readOptionalJson(metaPath);
+    const candidateMeta = buildMetadata({
       entry,
       sourceUrl,
       outputPath,
-      retrievedAt,
+      retrievedAt: existingMeta?.retrievedAt ?? retrievedAt,
       fingerprints: downloadedFingerprints,
       keyCount: downloadedKeys.length,
       userIds,
@@ -190,28 +212,64 @@ async function main() {
         sizeBytes: cachedBytes.length
       }
     });
-    indexEntries.push(metadata);
 
-    const metaPath = path.join(outputMetaDir, `${entry.id}.json`);
-    const metaData = JSON.stringify(metadata, null, 2) + "\n";
-    await writeFile(metaPath, metaData, "utf8");
+    const existingMetaRaw = existingMeta ? JSON.stringify(existingMeta) : null;
+    const candidateMetaRaw = JSON.stringify(candidateMeta);
+    const metaChanged = existingMetaRaw !== candidateMetaRaw;
+    const armoredChanged = existingArmored !== armored;
+
+    if (armoredChanged) {
+      await writeFile(resolvedOutputPath, armored, "utf8");
+    }
+
+    if (metaChanged) {
+      const updatedMeta = buildMetadata({
+        entry,
+        sourceUrl,
+        outputPath,
+        retrievedAt,
+        fingerprints: downloadedFingerprints,
+        keyCount: downloadedKeys.length,
+        userIds,
+        keyIds,
+        downloaded: {
+          sha256: sha256Hex(downloadedBytes),
+          sizeBytes: downloadedBytes.length,
+          contentType:
+            contentType === "binary" || contentType === "armored" ? contentType : "unknown"
+        },
+        cached: {
+          sha256: sha256Hex(cachedBytes),
+          sizeBytes: cachedBytes.length
+        }
+      });
+      const metaData = JSON.stringify(updatedMeta, null, 2) + "\n";
+      await writeFile(metaPath, metaData, "utf8");
+      indexEntries.push(updatedMeta);
+      changed = true;
+    } else {
+      indexEntries.push(candidateMeta);
+    }
   }
 
   if (failed) {
     process.exit(1);
   }
 
-  const payload =
-    JSON.stringify(
-      {
-        generatedAt: retrievedAt,
-        keyCount: indexEntries.length,
-        keys: indexEntries
-      },
-      null,
-      2
-    ) + "\n";
-  await writeFile(outputIndexPath, payload, "utf8");
+  const existingIndex = await readOptionalJson(outputIndexPath);
+  if (!existingIndex || changed) {
+    const payload =
+      JSON.stringify(
+        {
+          generatedAt: retrievedAt,
+          keyCount: indexEntries.length,
+          keys: indexEntries
+        },
+        null,
+        2
+      ) + "\n";
+    await writeFile(outputIndexPath, payload, "utf8");
+  }
 }
 
 try {
