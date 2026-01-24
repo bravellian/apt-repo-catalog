@@ -10,10 +10,10 @@
 - Key documentation URL: https://learn.microsoft.com/en-us/linux/packages
 
 ## Key reference
-- Key ID: `microsoft-microsoft-eb3e94adbe1229cf`
+- Key ID: `microsoft-microsoft-2025-EE4D7792F748182B`
 - Expected fingerprints:
-  - BC528686B50D79E339D3721CEB3E94ADBE1229CF
-- Key source URL: https://packages.microsoft.com/keys/microsoft.asc
+  - AA86F75E427A19DD33346403EE4D7792F748182B
+- Key source URL: https://packages.microsoft.com/keys/microsoft-2025.asc
 
 ## Install instructions
 
@@ -21,18 +21,18 @@ Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
-curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/microsoft-microsoft-eb3e94adbe1229cf.asc | gpg --dearmor | sudo tee /usr/share/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/debian/13/prod trixie main" | sudo tee /etc/apt/sources.list.d/microsoft-default-debian-13-trixie-packages-microsoft-com.list >/dev/null
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/microsoft-microsoft-2025-EE4D7792F748182B.asc | gpg --dearmor | sudo tee /usr/share/keyrings/microsoft-microsoft-2025-EE4D7792F748182B.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/microsoft-microsoft-2025-EE4D7792F748182B.gpg] [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/debian/13/prod trixie main" | sudo tee /etc/apt/sources.list.d/microsoft-default-debian-13-trixie-packages-microsoft-com.list >/dev/null
 sudo apt-get update
 ```
 
 Variant B (store ASCII key, dearmor file explicitly):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/microsoft-microsoft-eb3e94adbe1229cf.asc -o /tmp/microsoft-microsoft-eb3e94adbe1229cf.asc
-gpg --dearmor /tmp/microsoft-microsoft-eb3e94adbe1229cf.asc
-sudo install -m 0644 /tmp/microsoft-microsoft-eb3e94adbe1229cf.gpg /usr/share/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg
-echo "deb [signed-by=/usr/share/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/debian/13/prod trixie main" | sudo tee /etc/apt/sources.list.d/microsoft-default-debian-13-trixie-packages-microsoft-com.list >/dev/null
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/microsoft-microsoft-2025-EE4D7792F748182B.asc -o /tmp/microsoft-microsoft-2025-EE4D7792F748182B.asc
+gpg --dearmor /tmp/microsoft-microsoft-2025-EE4D7792F748182B.asc
+sudo install -m 0644 /tmp/microsoft-microsoft-2025-EE4D7792F748182B.gpg /usr/share/keyrings/microsoft-microsoft-2025-EE4D7792F748182B.gpg
+echo "deb [signed-by=/usr/share/keyrings/microsoft-microsoft-2025-EE4D7792F748182B.gpg] [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/debian/13/prod trixie main" | sudo tee /etc/apt/sources.list.d/microsoft-default-debian-13-trixie-packages-microsoft-com.list >/dev/null
 sudo apt-get update
 ```
 
