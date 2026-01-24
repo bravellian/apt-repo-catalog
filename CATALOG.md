@@ -3,77 +3,66 @@
 _This file is generated from catalog data and smoke test reports. Do not edit manually._
 
 ## Table of contents
-- [Current OSes](#current-oses)
 - [By Operating System](#by-operating-system)
 - [Legacy OSes](#legacy-oses)
 - [By Vendor](#by-vendor)
 
 _Note: only the active OS list is checked daily; legacy entries are kept for reference._
 
-## Current OSes
-
-| Docs | Label | OS | Host | FP Suffix16 | Status | Last Checked |
-| --- | --- | --- | --- | --- | --- | --- |
-| [Docs](docs/repos/docker-debian-bookworm-stable.md) | Docker - Debian (Bookworm) - stable | debian-12 | download.docker.com | 8D81803C0EBFCD88 | PASS | 2026-01-24T17:51:33.574Z |
-| [Docs](docs/repos/docker-debian-bullseye-stable.md) | Docker - Debian (Bullseye) - stable | debian-11 | download.docker.com | 8D81803C0EBFCD88 | PASS | 2026-01-24T17:51:35.817Z |
-| [Docs](docs/repos/docker-debian-trixie-stable.md) | Docker - Debian (Trixie) - stable | debian-13 | download.docker.com | 8D81803C0EBFCD88 | PASS | 2026-01-24T17:51:31.608Z |
-| [Docs](docs/repos/docker-ubuntu-jammy-stable.md) | Docker - Ubuntu (Jammy) - stable | ubuntu-22.04 | download.docker.com | 8D81803C0EBFCD88 | PASS | 2026-01-24T17:51:29.577Z |
-| [Docs](docs/repos/docker-ubuntu-noble-stable.md) | Docker - Ubuntu (Noble) - stable | ubuntu-24.04 | download.docker.com | 8D81803C0EBFCD88 | PASS | 2026-01-24T17:51:27.235Z |
-| [Docs](docs/repos/kubernetes-core-stable-v1.35-debian-11.md) | Kubernetes core stable v1.35 - Debian 11 (Bullseye) | debian-11 | pkgs.k8s.io | 234654DA9A296436 | PASS | 2026-01-24T17:51:35.817Z |
-| [Docs](docs/repos/kubernetes-core-stable-v1.35-debian-12.md) | Kubernetes core stable v1.35 - Debian 12 | debian-12 | pkgs.k8s.io | 234654DA9A296436 | PASS | 2026-01-24T17:51:33.574Z |
-| [Docs](docs/repos/kubernetes-core-stable-v1.35-debian-13.md) | Kubernetes core stable v1.35 - Debian 13 (Trixie) | debian-13 | pkgs.k8s.io | 234654DA9A296436 | PASS | 2026-01-24T17:51:31.608Z |
-| [Docs](docs/repos/kubernetes-core-stable-v1.35-ubuntu-22.04.md) | Kubernetes core stable v1.35 - Ubuntu 22.04 | ubuntu-22.04 | pkgs.k8s.io | 234654DA9A296436 | PASS | 2026-01-24T17:51:29.577Z |
-| [Docs](docs/repos/kubernetes-core-stable-v1.35-ubuntu-24.04.md) | Kubernetes core stable v1.35 - Ubuntu 24.04 | ubuntu-24.04 | pkgs.k8s.io | 234654DA9A296436 | PASS | 2026-01-24T17:51:27.235Z |
-| [Docs](docs/repos/microsoft-default-debian-11-bullseye-packages-microsoft-com.md) | Microsoft - debian-11 - default | debian-11 | packages.microsoft.com | EB3E94ADBE1229CF | PASS | 2026-01-24T17:51:35.817Z |
-| [Docs](docs/repos/microsoft-default-debian-12-bookworm-packages-microsoft-com.md) | Microsoft - debian-12 - default | debian-12 | packages.microsoft.com | EB3E94ADBE1229CF | PASS | 2026-01-24T17:51:33.574Z |
-| [Docs](docs/repos/microsoft-default-debian-13-trixie-packages-microsoft-com.md) | Microsoft - debian-13 - default | debian-13 | packages.microsoft.com | EE4D7792F748182B | PASS | 2026-01-24T17:51:31.608Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com.md) | Microsoft - ubuntu-22.04 - default | ubuntu-22.04 | packages.microsoft.com | EB3E94ADBE1229CF | PASS | 2026-01-24T17:51:29.577Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com.md) | Microsoft - ubuntu-24.04 - default | ubuntu-24.04 | packages.microsoft.com | EB3E94ADBE1229CF | PASS | 2026-01-24T17:51:27.235Z |
-
 ## By Operating System
 
 <details>
 <summary>debian-11 (3)</summary>
 
-- [Docker - Debian (Bullseye) - stable (docker-debian-bullseye-stable)](docs/repos/docker-debian-bullseye-stable.md)
-- [Kubernetes core stable v1.35 - Debian 11 (Bullseye) (kubernetes-core-stable-v1.35-debian-11)](docs/repos/kubernetes-core-stable-v1.35-debian-11.md)
-- [Microsoft - debian-11 - default (microsoft-default-debian-11-bullseye-packages-microsoft-com)](docs/repos/microsoft-default-debian-11-bullseye-packages-microsoft-com.md)
+| Docs | Label | Host | FP Suffix16 |
+| --- | --- | --- | --- |
+| [Docs](docs/repos/docker-debian-bullseye-stable.md) | Docker - Debian (Bullseye) - stable | download.docker.com | 8D81803C0EBFCD88 |
+| [Docs](docs/repos/kubernetes-core-stable-v1.35-debian-11.md) | Kubernetes core stable v1.35 - Debian 11 (Bullseye) | pkgs.k8s.io | 234654DA9A296436 |
+| [Docs](docs/repos/microsoft-default-debian-11-bullseye-packages-microsoft-com.md) | Microsoft - debian-11 - default | packages.microsoft.com | EB3E94ADBE1229CF |
 
 </details>
 
 <details>
 <summary>debian-12 (3)</summary>
 
-- [Docker - Debian (Bookworm) - stable (docker-debian-bookworm-stable)](docs/repos/docker-debian-bookworm-stable.md)
-- [Kubernetes core stable v1.35 - Debian 12 (kubernetes-core-stable-v1.35-debian-12)](docs/repos/kubernetes-core-stable-v1.35-debian-12.md)
-- [Microsoft - debian-12 - default (microsoft-default-debian-12-bookworm-packages-microsoft-com)](docs/repos/microsoft-default-debian-12-bookworm-packages-microsoft-com.md)
+| Docs | Label | Host | FP Suffix16 |
+| --- | --- | --- | --- |
+| [Docs](docs/repos/docker-debian-bookworm-stable.md) | Docker - Debian (Bookworm) - stable | download.docker.com | 8D81803C0EBFCD88 |
+| [Docs](docs/repos/kubernetes-core-stable-v1.35-debian-12.md) | Kubernetes core stable v1.35 - Debian 12 | pkgs.k8s.io | 234654DA9A296436 |
+| [Docs](docs/repos/microsoft-default-debian-12-bookworm-packages-microsoft-com.md) | Microsoft - debian-12 - default | packages.microsoft.com | EB3E94ADBE1229CF |
 
 </details>
 
 <details>
 <summary>debian-13 (3)</summary>
 
-- [Docker - Debian (Trixie) - stable (docker-debian-trixie-stable)](docs/repos/docker-debian-trixie-stable.md)
-- [Kubernetes core stable v1.35 - Debian 13 (Trixie) (kubernetes-core-stable-v1.35-debian-13)](docs/repos/kubernetes-core-stable-v1.35-debian-13.md)
-- [Microsoft - debian-13 - default (microsoft-default-debian-13-trixie-packages-microsoft-com)](docs/repos/microsoft-default-debian-13-trixie-packages-microsoft-com.md)
+| Docs | Label | Host | FP Suffix16 |
+| --- | --- | --- | --- |
+| [Docs](docs/repos/docker-debian-trixie-stable.md) | Docker - Debian (Trixie) - stable | download.docker.com | 8D81803C0EBFCD88 |
+| [Docs](docs/repos/kubernetes-core-stable-v1.35-debian-13.md) | Kubernetes core stable v1.35 - Debian 13 (Trixie) | pkgs.k8s.io | 234654DA9A296436 |
+| [Docs](docs/repos/microsoft-default-debian-13-trixie-packages-microsoft-com.md) | Microsoft - debian-13 - default | packages.microsoft.com | EE4D7792F748182B |
 
 </details>
 
 <details>
 <summary>ubuntu-22.04 (3)</summary>
 
-- [Docker - Ubuntu (Jammy) - stable (docker-ubuntu-jammy-stable)](docs/repos/docker-ubuntu-jammy-stable.md)
-- [Kubernetes core stable v1.35 - Ubuntu 22.04 (kubernetes-core-stable-v1.35-ubuntu-22.04)](docs/repos/kubernetes-core-stable-v1.35-ubuntu-22.04.md)
-- [Microsoft - ubuntu-22.04 - default (microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com)](docs/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com.md)
+| Docs | Label | Host | FP Suffix16 |
+| --- | --- | --- | --- |
+| [Docs](docs/repos/docker-ubuntu-jammy-stable.md) | Docker - Ubuntu (Jammy) - stable | download.docker.com | 8D81803C0EBFCD88 |
+| [Docs](docs/repos/kubernetes-core-stable-v1.35-ubuntu-22.04.md) | Kubernetes core stable v1.35 - Ubuntu 22.04 | pkgs.k8s.io | 234654DA9A296436 |
+| [Docs](docs/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com.md) | Microsoft - ubuntu-22.04 - default | packages.microsoft.com | EB3E94ADBE1229CF |
 
 </details>
 
 <details>
 <summary>ubuntu-24.04 (3)</summary>
 
-- [Docker - Ubuntu (Noble) - stable (docker-ubuntu-noble-stable)](docs/repos/docker-ubuntu-noble-stable.md)
-- [Kubernetes core stable v1.35 - Ubuntu 24.04 (kubernetes-core-stable-v1.35-ubuntu-24.04)](docs/repos/kubernetes-core-stable-v1.35-ubuntu-24.04.md)
-- [Microsoft - ubuntu-24.04 - default (microsoft-default-ubuntu-24-04-noble-packages-microsoft-com)](docs/repos/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com.md)
+| Docs | Label | Host | FP Suffix16 |
+| --- | --- | --- | --- |
+| [Docs](docs/repos/docker-ubuntu-noble-stable.md) | Docker - Ubuntu (Noble) - stable | download.docker.com | 8D81803C0EBFCD88 |
+| [Docs](docs/repos/kubernetes-core-stable-v1.35-ubuntu-24.04.md) | Kubernetes core stable v1.35 - Ubuntu 24.04 | pkgs.k8s.io | 234654DA9A296436 |
+| [Docs](docs/repos/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com.md) | Microsoft - ubuntu-24.04 - default | packages.microsoft.com | EB3E94ADBE1229CF |
 
 </details>
 

@@ -10,9 +10,9 @@
 This repository is a curated catalog of APT repositories and their signing keys. It also publishes per-repo installation docs, health status, and package index snapshots where available.
 
 Start here:
-- Catalog table: `CATALOG.md`
-- Repository docs: `docs/README.md`
-- Per-repo install instructions: `docs/repos/<repoId>.md`
+- Catalog table: [CATALOG.md](CATALOG.md)
+- Repository docs: [docs/README.md](docs/README.md)
+- Per-repo install instructions: [docs/repos/<repoId>.md](docs/repos/)
 
 Catalog entries may include documentation URLs, tags, and notes. Health status comes from smoke tests and is summarized in `reports/latest.json`.
 

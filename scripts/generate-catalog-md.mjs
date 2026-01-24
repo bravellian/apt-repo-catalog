@@ -145,7 +145,6 @@ async function main() {
     "_This file is generated from catalog data and smoke test reports. Do not edit manually._",
     "",
     "## Table of contents",
-    "- [Current OSes](#current-oses)",
     "- [By Operating System](#by-operating-system)",
     "- [Legacy OSes](#legacy-oses)",
     "- [By Vendor](#by-vendor)",
@@ -181,14 +180,24 @@ async function main() {
   }
 
   function buildRows(targetRepos, options = {}) {
-    const { includeStatus = true } = options;
+    const { includeStatus = true, includeOs = true } = options;
     const rows = [];
     if (includeStatus) {
-      rows.push("| Docs | Label | OS | Host | FP Suffix16 | Status | Last Checked |");
-      rows.push("| --- | --- | --- | --- | --- | --- | --- |");
+      if (includeOs) {
+        rows.push("| Docs | Label | OS | Host | FP Suffix16 | Status | Last Checked |");
+        rows.push("| --- | --- | --- | --- | --- | --- | --- |");
+      } else {
+        rows.push("| Docs | Label | Host | FP Suffix16 | Status | Last Checked |");
+        rows.push("| --- | --- | --- | --- | --- | --- |");
+      }
     } else {
-      rows.push("| Docs | Label | OS | Host | FP Suffix16 |");
-      rows.push("| --- | --- | --- | --- | --- |");
+      if (includeOs) {
+        rows.push("| Docs | Label | OS | Host | FP Suffix16 |");
+        rows.push("| --- | --- | --- | --- | --- |");
+      } else {
+        rows.push("| Docs | Label | Host | FP Suffix16 |");
+        rows.push("| --- | --- | --- | --- |");
+      }
     }
 
     for (const repo of targetRepos) {
@@ -206,13 +215,25 @@ async function main() {
       if (includeStatus) {
         const status = getStatus(latest, os, repoId);
         const lastChecked = getLastChecked(latest, os);
-        rows.push(
-          `| [Docs](${docs}) | ${repoLabel} | ${os} | ${host} | ${suffix} | ${status} | ${lastChecked} |`
-        );
+        if (includeOs) {
+          rows.push(
+            `| [Docs](${docs}) | ${repoLabel} | ${os} | ${host} | ${suffix} | ${status} | ${lastChecked} |`
+          );
+        } else {
+          rows.push(
+            `| [Docs](${docs}) | ${repoLabel} | ${host} | ${suffix} | ${status} | ${lastChecked} |`
+          );
+        }
       } else {
-        rows.push(
-          `| [Docs](${docs}) | ${repoLabel} | ${os} | ${host} | ${suffix} |`
-        );
+        if (includeOs) {
+          rows.push(
+            `| [Docs](${docs}) | ${repoLabel} | ${os} | ${host} | ${suffix} |`
+          );
+        } else {
+          rows.push(
+            `| [Docs](${docs}) | ${repoLabel} | ${host} | ${suffix} |`
+          );
+        }
       }
     }
 
@@ -221,10 +242,6 @@ async function main() {
 
   const content = [
     header,
-    "## Current OSes",
-    "",
-    buildRows(activeRepos, { includeStatus: true }),
-    "",
     "## By Operating System",
     "",
     ...Array.from(osMap.keys())
@@ -237,12 +254,7 @@ async function main() {
         lines.push("<details>");
         lines.push(`<summary>${os} (${items.length})</summary>`);
         lines.push("");
-        for (const repo of items) {
-          const repoId = repo.id ?? "";
-          const label = getRepoLabel(repo);
-          const docs = `docs/repos/${repoId}.md`;
-          lines.push(`- [${label} (${repoId})](${docs})`);
-        }
+        lines.push(buildRows(items, { includeStatus: false, includeOs: false }));
         lines.push("");
         lines.push("</details>");
         lines.push("");
