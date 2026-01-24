@@ -67,26 +67,27 @@ jobs:
       - run: npm ci
       - run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            node - <<'NODE'
-            const { spawnSync } = require("node:child_process");
+            cat > /tmp/smoke-pr.mjs << 'SCRIPT_EOF'
+          const { spawnSync } = require("node:child_process");
 
-            const reposByOs = JSON.parse(process.env.CHANGED_REPOS_BY_OS || "{}");
-            const currentOs = process.env.CURRENT_OS;
+          const reposByOs = JSON.parse(process.env.CHANGED_REPOS_BY_OS || "{}");
+          const currentOs = process.env.CURRENT_OS;
 
-            const idsForOs = Array.isArray(reposByOs[currentOs])
-              ? reposByOs[currentOs]
-              : [];
-            if (idsForOs.length === 0) {
-              console.log("No changes for this OS; skipping.");
-              process.exit(0);
-            }
+          const idsForOs = Array.isArray(reposByOs[currentOs])
+            ? reposByOs[currentOs]
+            : [];
+          if (idsForOs.length === 0) {
+            console.log("No changes for this OS; skipping.");
+            process.exit(0);
+          }
 
-            const args = ["node", "scripts/smoke-test-repos.mjs", "--os", currentOs];
-            args.push("--only-ids", idsForOs.join(","));
+          const args = ["node", "scripts/smoke-test-repos.mjs", "--os", currentOs];
+          args.push("--only-ids", idsForOs.join(","));
 
-            const result = spawnSync(args[0], args.slice(1), { stdio: "inherit" });
-            process.exit(result.status ?? 1);
-            NODE
+          const result = spawnSync(args[0], args.slice(1), { stdio: "inherit" });
+          process.exit(result.status ?? 1);
+          SCRIPT_EOF
+            node /tmp/smoke-pr.mjs
           else
             node scripts/smoke-test-repos.mjs --os ${{ matrix.os }}
           fi
