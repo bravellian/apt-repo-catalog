@@ -16,13 +16,16 @@ Start here:
 
 Catalog entries may include documentation URLs, tags, and notes. Health status comes from smoke tests and is summarized in `reports/latest.json`.
 
-## How to use this repo
+## Quick start
 
-1. Find your repo in `CATALOG.md`.
-2. Open the linked doc in `docs/repos/<repoId>.md`.
+1. Open the catalog: `CATALOG.md`
+2. Click a repo doc link in the table.
 3. Follow the install instructions for that repo.
 
-If you only need package names and versions, use the package inventory for that repo (see below).
+Example repo doc includes:
+- Install commands
+- Key fingerprint reference
+- Package list (collapsible), if indexed
 
 ## Package inventory
 
