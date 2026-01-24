@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-24T17:52:08.856Z",
+  "repoId": "docker-ubuntu-groovy-stable",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://download.docker.com/linux/ubuntu groovy stable",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Docker",
+    "Label": "Docker CE",
+    "Suite": "groovy",
+    "Codename": null,
+    "Architectures": "amd64 arm64 armhf s390x ppc64el",
+    "Components": "stable edge test nightly",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-groovy-stable/run-34Qi08/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_groovy_InRelease",
+    "inReleaseSha256": "b279e216bce9e9d0db9154d1b042e00015b225c5b8397f2dfa32f0271228b54e"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-groovy-stable/run-34Qi08/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu groovy stable"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/docker-ubuntu-groovy-stable/run-34Qi08/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_groovy_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-groovy-stable/packages.raw/20260124T175208Z/download.docker.com_linux_ubuntu_dists_groovy_stable_binary-amd64_Packages",
+      "suite": "groovy",
+      "component": "stable",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

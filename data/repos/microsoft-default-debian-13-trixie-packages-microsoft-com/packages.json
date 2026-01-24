@@ -1,0 +1,2420 @@
+{
+  "generatedAt": "2026-01-24T17:52:01.197Z",
+  "packageCount": 33,
+  "packages": [
+    {
+      "name": "aspnetcore-runtime-10.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "10.0.2",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "10.0.2",
+      "latestByArch": {
+        "amd64": "10.0.2",
+        "arm64": "10.0.2"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Microsoft.AspNetCore.App.Runtime 10.0.0",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "dotnet-runtime-10.0 (>= 10.0.0)",
+          "dotnet-runtime-10.0 (>= 10.0.1)",
+          "dotnet-runtime-10.0 (>= 10.0.2)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "aspnetcore-runtime-8.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "8.0.23-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.22-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "8.0.23-1",
+      "latestByArch": {
+        "amd64": "8.0.23-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Shared Framework for hosting of Microsoft ASP.NET Core applications. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/aspnetcore). We happily accept issues and PRs.",
+      "homepage": "https://asp.net",
+      "relationships": {
+        "depends": [
+          "dotnet-runtime-8.0 (>= 8.0.22)",
+          "dotnet-runtime-8.0 (>= 8.0.23)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <nugetaspnet@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "aspnetcore-runtime-9.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "9.0.12-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.11-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "9.0.12-1",
+      "latestByArch": {
+        "amd64": "9.0.12-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Shared Framework for hosting of Microsoft ASP.NET Core applications. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/aspnetcore). We happily accept issues and PRs.",
+      "homepage": "https://asp.net",
+      "relationships": {
+        "depends": [
+          "dotnet-runtime-9.0 (>= 9.0.11)",
+          "dotnet-runtime-9.0 (>= 9.0.12)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <nugetaspnet@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "aspnetcore-targeting-pack-10.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "10.0.2",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "10.0.2",
+      "latestByArch": {
+        "amd64": "10.0.2",
+        "arm64": "10.0.2"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "ASP.NET Core Targeting Pack",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "dotnet-targeting-pack-10.0 (>= 10.0.0)",
+          "dotnet-targeting-pack-10.0 (>= 10.0.1)",
+          "dotnet-targeting-pack-10.0 (>= 10.0.2)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "aspnetcore-targeting-pack-8.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "8.0.23-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.22-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "8.0.23-1",
+      "latestByArch": {
+        "amd64": "8.0.23-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Shared Framework for hosting of Microsoft ASP.NET Core applications. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/aspnetcore). We happily accept issues and PRs.",
+      "homepage": "https://asp.net",
+      "relationships": {
+        "depends": [
+          "dotnet-targeting-pack-8.0 (>= 8.0.22)",
+          "dotnet-targeting-pack-8.0 (>= 8.0.23)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <nugetaspnet@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "aspnetcore-targeting-pack-9.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "9.0.12-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.11-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "9.0.12-1",
+      "latestByArch": {
+        "amd64": "9.0.12-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Shared Framework for hosting of Microsoft ASP.NET Core applications. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/aspnetcore). We happily accept issues and PRs.",
+      "homepage": "https://asp.net",
+      "relationships": {
+        "depends": [
+          "dotnet-targeting-pack-9.0 (>= 9.0.11)",
+          "dotnet-targeting-pack-9.0 (>= 9.0.12)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <nugetaspnet@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-apphost-pack-10.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "10.0.2",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "10.0.2",
+      "latestByArch": {
+        "amd64": "10.0.2",
+        "arm64": "10.0.2"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Microsoft.NETCore.App.Host 10.0.0",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-apphost-pack-8.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "8.0.23-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.22-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "8.0.23-1",
+      "latestByArch": {
+        "amd64": "8.0.23-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft.NETCore.App.Host 8.0.22",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-apphost-pack-9.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "9.0.12-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.11-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "9.0.12-1",
+      "latestByArch": {
+        "amd64": "9.0.12-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft.NETCore.App.Host 9.0.11",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-host",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "10.0.2",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.12-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.11-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.23-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.22-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "10.0.2",
+      "latestByArch": {
+        "amd64": "10.0.2",
+        "arm64": "10.0.2"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Microsoft .NET Host - 10.0.0",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "libc6",
+          "libgcc1",
+          "libstdc++6"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "dotnet",
+          "dotnet-nightly"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hostfxr-10.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "10.0.2",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "10.0.2",
+      "latestByArch": {
+        "amd64": "10.0.2",
+        "arm64": "10.0.2"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Microsoft .NET Host FX Resolver - 10.0.0",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "dotnet-host (>= 10.0.0)",
+          "dotnet-host (>= 10.0.1)",
+          "dotnet-host (>= 10.0.2)",
+          "libc6",
+          "libgcc1",
+          "libstdc++6"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hostfxr-8.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "8.0.23-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.22-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "8.0.23-1",
+      "latestByArch": {
+        "amd64": "8.0.23-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Host FX Resolver - 8.0.22",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "dotnet-host (>= 8.0.22)",
+          "dotnet-host (>= 8.0.23)",
+          "libc6",
+          "libgcc1",
+          "libstdc++6"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hostfxr-9.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "9.0.12-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.11-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "9.0.12-1",
+      "latestByArch": {
+        "amd64": "9.0.12-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Host FX Resolver - 9.0.11",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "dotnet-host (>= 9.0.11)",
+          "dotnet-host (>= 9.0.12)",
+          "libc6",
+          "libgcc1",
+          "libstdc++6"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-runtime-10.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "10.0.2",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "10.0.2",
+      "latestByArch": {
+        "amd64": "10.0.2",
+        "arm64": "10.0.2"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Microsoft.NETCore.App.Runtime.CoreCLR 10.0.0",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "dotnet-hostfxr-10.0 (>= 10.0.0)",
+          "dotnet-hostfxr-10.0 (>= 10.0.1)",
+          "dotnet-hostfxr-10.0 (>= 10.0.2)",
+          "dotnet-runtime-deps-10.0 (>= 10.0.0)",
+          "dotnet-runtime-deps-10.0 (>= 10.0.1)",
+          "dotnet-runtime-deps-10.0 (>= 10.0.2)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-runtime-8.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "8.0.23-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.22-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "8.0.23-1",
+      "latestByArch": {
+        "amd64": "8.0.23-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft.NETCore.App.Runtime 8.0.22",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "dotnet-hostfxr-8.0 (>= 8.0.22)",
+          "dotnet-hostfxr-8.0 (>= 8.0.23)",
+          "dotnet-runtime-deps-8.0 (>= 8.0.22)",
+          "dotnet-runtime-deps-8.0 (>= 8.0.23)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-runtime-9.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "9.0.12-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.11-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "9.0.12-1",
+      "latestByArch": {
+        "amd64": "9.0.12-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft.NETCore.App.Runtime 9.0.11",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "dotnet-hostfxr-9.0 (>= 9.0.11)",
+          "dotnet-hostfxr-9.0 (>= 9.0.12)",
+          "dotnet-runtime-deps-9.0 (>= 9.0.11)",
+          "dotnet-runtime-deps-9.0 (>= 9.0.12)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-runtime-deps-10.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "10.0.2",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "10.0.2",
+      "latestByArch": {
+        "amd64": "10.0.2",
+        "arm64": "10.0.2"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "dotnet-runtime-deps-debian 10.0.0",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "libc6",
+          "libgcc1",
+          "libgssapi-krb5-2",
+          "libicu78 | libicu77 | libicu76 | libicu72",
+          "libssl3",
+          "libstdc++6"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-runtime-deps-8.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "8.0.23-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.22-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "8.0.23-1",
+      "latestByArch": {
+        "amd64": "8.0.23-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "dotnet-runtime-deps-debian 8.0.22",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "libc6",
+          "libgcc1",
+          "libgssapi-krb5-2",
+          "libicu | libicu78 | libicu77 | libicu76 | libicu74 | libicu72 | libicu71 | libicu70 | libicu69 | libicu68 | libicu67 | libicu66 | libicu65 | libicu63 | libicu60 | libicu57 | libicu55 | libicu52",
+          "libssl1.0.0 | libssl1.0.2 | libssl1.1 | libssl3",
+          "libstdc++6",
+          "zlib1g"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-runtime-deps-9.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "9.0.12-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.11-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "9.0.12-1",
+      "latestByArch": {
+        "amd64": "9.0.12-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "dotnet-runtime-deps-debian 9.0.11",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "libc6",
+          "libgcc1",
+          "libgssapi-krb5-2",
+          "libicu | libicu78 | libicu77 | libicu76 | libicu74 | libicu72 | libicu71 | libicu70 | libicu69 | libicu68 | libicu67 | libicu66 | libicu65 | libicu63 | libicu60 | libicu57 | libicu55 | libicu52",
+          "libssl1.0.0 | libssl1.0.2 | libssl1.1 | libssl3",
+          "libstdc++6",
+          "zlib1g"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sdk-10.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "10.0.102",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.101",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.100",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "10.0.102",
+      "latestByArch": {
+        "amd64": "10.0.102",
+        "arm64": "10.0.102"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Microsoft .NET SDK 10.0.100",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "aspnetcore-runtime-10.0 (>= 10.0.0)",
+          "aspnetcore-runtime-10.0 (>= 10.0.1)",
+          "aspnetcore-runtime-10.0 (>= 10.0.2)",
+          "aspnetcore-targeting-pack-10.0 (>= 10.0.0)",
+          "aspnetcore-targeting-pack-10.0 (>= 10.0.1)",
+          "aspnetcore-targeting-pack-10.0 (>= 10.0.2)",
+          "dotnet-apphost-pack-10.0 (>= 10.0.0)",
+          "dotnet-apphost-pack-10.0 (>= 10.0.1)",
+          "dotnet-apphost-pack-10.0 (>= 10.0.2)",
+          "dotnet-runtime-10.0 (>= 10.0.0)",
+          "dotnet-runtime-10.0 (>= 10.0.1)",
+          "dotnet-runtime-10.0 (>= 10.0.2)",
+          "dotnet-targeting-pack-10.0 (>= 10.0.0)",
+          "dotnet-targeting-pack-10.0 (>= 10.0.1)",
+          "dotnet-targeting-pack-10.0 (>= 10.0.2)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sdk-8.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "8.0.417-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.416-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.319-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.123-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.122-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "8.0.417-1",
+      "latestByArch": {
+        "amd64": "8.0.417-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET SDK 8.0.416",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "aspnetcore-runtime-8.0 (>= 8.0.22)",
+          "aspnetcore-runtime-8.0 (>= 8.0.23)",
+          "aspnetcore-targeting-pack-8.0 (>= 8.0.22)",
+          "aspnetcore-targeting-pack-8.0 (>= 8.0.23)",
+          "dotnet-apphost-pack-8.0 (>= 8.0.22)",
+          "dotnet-apphost-pack-8.0 (>= 8.0.23)",
+          "dotnet-runtime-8.0 (>= 8.0.22)",
+          "dotnet-runtime-8.0 (>= 8.0.23)",
+          "dotnet-targeting-pack-8.0 (>= 8.0.22)",
+          "dotnet-targeting-pack-8.0 (>= 8.0.23)",
+          "netstandard-targeting-pack-2.1 (>= 2.1.0)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sdk-9.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "9.0.310-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.309-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.308-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.307-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.113-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.112-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "9.0.310-1",
+      "latestByArch": {
+        "amd64": "9.0.310-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET SDK 9.0.112",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [
+          "aspnetcore-runtime-9.0 (>= 9.0.11)",
+          "aspnetcore-runtime-9.0 (>= 9.0.12)",
+          "aspnetcore-targeting-pack-9.0 (>= 9.0.11)",
+          "aspnetcore-targeting-pack-9.0 (>= 9.0.12)",
+          "dotnet-apphost-pack-9.0 (>= 9.0.11)",
+          "dotnet-apphost-pack-9.0 (>= 9.0.12)",
+          "dotnet-runtime-9.0 (>= 9.0.11)",
+          "dotnet-runtime-9.0 (>= 9.0.12)",
+          "dotnet-targeting-pack-9.0 (>= 9.0.11)",
+          "dotnet-targeting-pack-9.0 (>= 9.0.12)",
+          "netstandard-targeting-pack-2.1 (>= 2.1.0)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-targeting-pack-10.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "10.0.2",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "10.0.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "10.0.2",
+      "latestByArch": {
+        "amd64": "10.0.2",
+        "arm64": "10.0.2"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Microsoft.NETCore.App.Ref 10.0.0",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-targeting-pack-8.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "8.0.23-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "8.0.22-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "8.0.23-1",
+      "latestByArch": {
+        "amd64": "8.0.23-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft.NETCore.App.Ref 8.0.22",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-targeting-pack-9.0",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "9.0.12-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "9.0.11-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "9.0.12-1",
+      "latestByArch": {
+        "amd64": "9.0.12-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft.NETCore.App.Ref 9.0.11",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "libmsquic",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-armhf_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.5.6",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-armhf_Packages"
+          ]
+        },
+        {
+          "version": "2.4.17",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-armhf_Packages"
+          ]
+        },
+        {
+          "version": "2.4.16",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-armhf_Packages"
+          ]
+        },
+        {
+          "version": "2.4.15",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-armhf_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.5.6",
+      "latestByArch": {
+        "amd64": "2.5.6",
+        "arm64": "2.5.6",
+        "armhf": "2.5.6"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf"
+      ],
+      "descriptionShort": "Microsoft implementation of the IETF QUIC protocol",
+      "homepage": "https://github.com/microsoft/msquic",
+      "relationships": {
+        "depends": [
+          "libnl-route-3-200",
+          "libnuma1",
+          "libssl3t64",
+          "libxdp1"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "libmsquic-debug"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": [
+          "libmsquic"
+        ]
+      },
+      "maintainer": "Microsoft QUIC Team <quicdev@microsoft.com>",
+      "section": "default",
+      "priority": "optional"
+    },
+    {
+      "name": "mdatp",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "101.25102.0005",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "101.25102.0005",
+      "latestByArch": {
+        "amd64": "101.25102.0005",
+        "arm64": "101.25102.0005"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Microsoft Defender (Production)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "iptables",
+          "libc6 (>= 2.23)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft Defender Group <mdatplinuxpackages@microsoft.com>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "msodbcsql18",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "18.6.1.1-1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "18.6.1.1-1",
+      "latestByArch": {
+        "amd64": "18.6.1.1-1",
+        "arm64": "18.6.1.1-1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "ODBC Driver for Microsoft(R) SQL Server(R)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "debconf (>= 0.5)",
+          "libc6 (>= 2.19)",
+          "libkrb5-3",
+          "libstdc++6 (>= 4.8.2)",
+          "odbcinst",
+          "openssl",
+          "unixodbc (>= 2.3.1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "libodbc1-utf16",
+          "odbcinst-utf16",
+          "odbcinst1debian2-utf16",
+          "unixodbc-utf16"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft SQL ODBC Team <mssql-odbc@microsoft.com>",
+      "section": "database",
+      "priority": null
+    },
+    {
+      "name": "mssql-tools18",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "18.6.1.1-1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "18.6.1.1-1",
+      "latestByArch": {
+        "amd64": "18.6.1.1-1",
+        "arm64": "18.6.1.1-1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Tools for Microsoft(R) SQL Server(R)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "debconf (>= 0.5)",
+          "libc6 (>= 2.19)",
+          "libkrb5-3",
+          "libstdc++6 (>= 4.8.2)",
+          "msodbcsql18 (>= 18.0.0.0)",
+          "openssl"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft SQL Tools Team <mssql-tools@microsoft.com>",
+      "section": "database",
+      "priority": null
+    },
+    {
+      "name": "netstandard-targeting-pack-2.1",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.1.0-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.1.0-1",
+      "latestByArch": {
+        "amd64": "2.1.0-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "NETStandard.Library.Ref 2.1.0",
+      "homepage": "https://github.com/dotnet/core",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": ".NET Core Team <dotnetpackages@dotnetfoundation.org>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "omi",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.9.3.0",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.9.3.0",
+      "latestByArch": {
+        "amd64": "1.9.3.0"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Open Management Infrastructure",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.3.6)",
+          "libpam-runtime (>= 0.79-3)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": [
+          "omi"
+        ]
+      },
+      "maintainer": "Microsoft Corporation",
+      "section": "utils",
+      "priority": "optional"
+    },
+    {
+      "name": "packages-microsoft-prod",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-all_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.1-debian13",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-all_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.1-debian13",
+      "latestByArch": {
+        "all": "1.1-debian13"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "Apt configuration for packages.microsoft.com",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "ca-certificates"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Linux Repo Admins <aztuxrepo@microsoft.com>",
+      "section": "admin",
+      "priority": "optional"
+    },
+    {
+      "name": "scx",
+      "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.9.3.0",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260124T175200Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.9.3.0",
+      "latestByArch": {
+        "amd64": "1.9.3.0"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft System Center Operations Manager for UNIX/Linux agent",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "omi (>= 1.0.8.6)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": [
+          "scx"
+        ]
+      },
+      "maintainer": "Microsoft Corporation",
+      "section": "utils",
+      "priority": "optional"
+    }
+  ]
+}

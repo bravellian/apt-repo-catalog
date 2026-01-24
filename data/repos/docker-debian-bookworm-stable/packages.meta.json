@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-24T17:52:02.699Z",
+  "repoId": "docker-debian-bookworm-stable",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://download.docker.com/linux/debian bookworm stable",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Docker",
+    "Label": "Docker CE",
+    "Suite": "bookworm",
+    "Codename": null,
+    "Architectures": "amd64 arm64 armhf s390x ppc64el",
+    "Components": "stable edge test nightly",
+    "inReleasePath": "/tmp/apt-inventory/docker-debian-bookworm-stable/run-bT5lon/var/lib/apt/lists/download.docker.com_linux_debian_dists_bookworm_InRelease",
+    "inReleaseSha256": "ee6b9060fb30952b50474242f7c9c2e2c467266751b38602231eabcb03b432a5"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/docker-debian-bookworm-stable/run-bT5lon/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/debian bookworm stable"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/docker-debian-bookworm-stable/run-bT5lon/var/lib/apt/lists/download.docker.com_linux_debian_dists_bookworm_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-bookworm-stable/packages.raw/20260124T175202Z/download.docker.com_linux_debian_dists_bookworm_stable_binary-amd64_Packages",
+      "suite": "bookworm",
+      "component": "stable",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,556 @@
+{
+  "generatedAt": "2026-01-24T17:51:54.511Z",
+  "packageCount": 5,
+  "packages": [
+    {
+      "name": "aadsshlogin",
+      "repoId": "microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com",
+      "suite": "plucky",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.033070001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.031620001",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.030830001",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.030600001",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.033070001",
+      "latestByArch": {
+        "amd64": "1.0.033070001",
+        "arm64": "1.0.031620001"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "AAD NSS, PAM and certhandler extensions",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.38)",
+          "libcurl4t64 (>= 7.16.2)",
+          "libpam0g (>= 0.99.7.1)",
+          "libselinux1 (>= 3.1~)",
+          "libsemanage2 (>= 2.0.32)",
+          "libssl3t64 (>= 3.0.0)",
+          "libuuid1 (>= 2.16)",
+          "openssh-server (>=6.9)",
+          "passwd"
+        ],
+        "preDepends": [
+          "grep",
+          "sed"
+        ],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "aadlogin"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Yancho Yanev <yyanev@microsoft.com>",
+      "section": "utils",
+      "priority": "optional"
+    },
+    {
+      "name": "aadsshlogin-selinux",
+      "repoId": "microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com",
+      "suite": "plucky",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.033070001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.031620001",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.030830001",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.030600001",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.033070001",
+      "latestByArch": {
+        "amd64": "1.0.033070001",
+        "arm64": "1.0.031620001"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Selinux configuration for AAD NSS and PAM extensions.",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "policycoreutils (>=3.5-2)",
+          "selinux-policy-default",
+          "selinux-utils"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "aadlogin-selinux"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Yancho Yanev <yyanev@microsoft.com>",
+      "section": "utils",
+      "priority": "optional"
+    },
+    {
+      "name": "libmsquic",
+      "repoId": "microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com",
+      "suite": "plucky",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.5.6",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages"
+          ]
+        },
+        {
+          "version": "2.4.17",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages"
+          ]
+        },
+        {
+          "version": "2.4.16",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages"
+          ]
+        },
+        {
+          "version": "2.4.15",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.5.6",
+      "latestByArch": {
+        "amd64": "2.5.6",
+        "arm64": "2.5.6",
+        "armhf": "2.5.6"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf"
+      ],
+      "descriptionShort": "Microsoft implementation of the IETF QUIC protocol",
+      "homepage": "https://github.com/microsoft/msquic",
+      "relationships": {
+        "depends": [
+          "libnl-route-3-200",
+          "libnuma1",
+          "libssl3t64",
+          "libxdp1"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "libmsquic-debug"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": [
+          "libmsquic"
+        ]
+      },
+      "maintainer": "Microsoft QUIC Team <quicdev@microsoft.com>",
+      "section": "default",
+      "priority": "optional"
+    },
+    {
+      "name": "mdatp",
+      "repoId": "microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com",
+      "suite": "plucky",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "101.25102.0005",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25092.0005",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25092.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25092.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25082.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25072.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25062.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25052.0007",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25042.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25042.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25032.0010",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25032.0008",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "101.25102.0005",
+      "latestByArch": {
+        "amd64": "101.25102.0005"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft Defender (Production)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.23)",
+          "uuid-runtime"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft Defender Group <mdatplinuxpackages@microsoft.com>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "packages-microsoft-prod",
+      "repoId": "microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com",
+      "suite": "plucky",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-all_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.1-ubuntu25.04",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-all_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.1-ubuntu25.04",
+      "latestByArch": {
+        "all": "1.1-ubuntu25.04"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "Apt configuration for packages.microsoft.com",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "ca-certificates"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Linux Repo Admins <aztuxrepo@microsoft.com>",
+      "section": "admin",
+      "priority": "optional"
+    }
+  ]
+}

@@ -36,6 +36,154 @@ echo "deb [signed-by=/usr/share/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https:
 sudo apt-get update
 ```
 
+## Packages
+
+> Package compatibility is defined by suite/component/architecture in the repository index;
+> there is no per-package OS field in the Packages metadata.
+
+<details>
+<summary>Packages (6)</summary>
+
+<div class="packages-nav">
+<a href="#packages-C">C</a> <a href="#packages-D">D</a>
+</div>
+
+
+### <a id="packages-C"></a>C
+
+- **containerd.io**
+  - Latest version: 1.5.11-1
+  - Architectures: amd64
+  - Suite: hirsute
+  - Components: stable
+  - Description: An open and reliable container runtime
+  - Homepage: https://containerd.io
+  - Install: `sudo apt-get install containerd.io`
+  - Install (apt): `sudo apt install containerd.io`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Containerd team <help@containerd.io>
+  - Section: devel
+  - Priority: optional
+  - depends: libc6 (>= 2.33), libseccomp2 (>= 2.4.1)
+  - conflicts: containerd, runc
+  - replaces: containerd, runc
+  - provides: containerd, runc
+
+  </details>
+
+
+### <a id="packages-D"></a>D
+
+- **docker-ce**
+  - Latest version: 5:20.10.14~3-0~ubuntu-hirsute
+  - Architectures: amd64
+  - Suite: hirsute
+  - Components: stable
+  - Description: Docker: the open-source application container engine
+  - Homepage: https://www.docker.com
+  - Install: `sudo apt-get install docker-ce`
+  - Install (apt): `sudo apt install docker-ce`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Docker <support@docker.com>
+  - Section: admin
+  - Priority: optional
+  - depends: containerd.io (>= 1.4.1), docker-ce-cli, iptables, libc6 (>= 2.32), libdevmapper1.02.1 (>= 2:1.02.97), libseccomp2 (>= 2.3.0), libsystemd0
+  - recommends: apparmor, ca-certificates, docker-ce-rootless-extras, git, libltdl7, pigz, procps, xz-utils
+  - suggests: aufs-tools, cgroupfs-mount | cgroup-lite
+  - conflicts: docker (<< 1.5~), docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+  - replaces: docker-engine
+
+  </details>
+
+- **docker-ce-cli**
+  - Latest version: 5:20.10.14~3-0~ubuntu-hirsute
+  - Architectures: amd64
+  - Suite: hirsute
+  - Components: stable
+  - Description: Docker CLI: the open-source application container engine
+  - Homepage: https://www.docker.com
+  - Install: `sudo apt-get install docker-ce-cli`
+  - Install (apt): `sudo apt install docker-ce-cli`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Docker <support@docker.com>
+  - Section: admin
+  - Priority: optional
+  - depends: libc6 (>= 2.32)
+  - recommends: docker-scan-plugin
+  - conflicts: docker (<< 1.5~), docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+  - breaks: docker-ce (<< 5:0)
+  - replaces: docker-ce (<< 5:0)
+
+  </details>
+
+- **docker-ce-rootless-extras**
+  - Latest version: 5:20.10.14~3-0~ubuntu-hirsute
+  - Architectures: amd64
+  - Suite: hirsute
+  - Components: stable
+  - Description: Rootless support for Docker.
+  - Homepage: https://docs.docker.com/engine/security/rootless/
+  - Install: `sudo apt-get install docker-ce-rootless-extras`
+  - Install (apt): `sudo apt install docker-ce-rootless-extras`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Docker <support@docker.com>
+  - Section: admin
+  - Priority: optional
+  - depends: dbus-user-session, libc6 (>= 2.32)
+  - recommends: slirp4netns (>= 0.4.0)
+  - conflicts: rootlesskit
+  - breaks: rootlesskit
+  - replaces: rootlesskit
+
+  </details>
+
+- **docker-compose-plugin**
+  - Latest version: 2.3.3~ubuntu-hirsute
+  - Architectures: amd64
+  - Suite: hirsute
+  - Components: stable
+  - Description: Docker Compose (V2) plugin for the Docker CLI.
+  - Homepage: https://github.com/docker/compose
+  - Install: `sudo apt-get install docker-compose-plugin`
+  - Install (apt): `sudo apt install docker-compose-plugin`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Docker <support@docker.com>
+  - Section: admin
+  - Priority: optional
+
+  </details>
+
+- **docker-scan-plugin**
+  - Latest version: 0.17.0~ubuntu-hirsute
+  - Architectures: amd64
+  - Suite: hirsute
+  - Components: stable
+  - Description: Docker scan cli plugin.
+  - Homepage: https://github.com/docker/scan-cli-plugin
+  - Install: `sudo apt-get install docker-scan-plugin`
+  - Install (apt): `sudo apt install docker-scan-plugin`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Docker <support@docker.com>
+  - Section: admin
+  - Priority: optional
+
+  </details>
+
+
+</details>
+
 ## Notes
 - OS support: verify upstream documentation for supported releases.
 - The trust anchor is the fingerprint; validate it before use.

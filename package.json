@@ -13,6 +13,7 @@
     "add:repo": "node scripts/add-repo.mjs",
     "backfill:keys": "node scripts/backfill-keys-metadata.mjs",
     "dev:sanity": "node scripts/dev-sanity-check.mjs",
+    "daily": "node scripts/run-daily.mjs",
     "import:repos": "node scripts/import-repos-from-list.mjs",
     "generate:repos": "node scripts/generate-repos.mjs",
     "validate": "node scripts/validate-all.mjs",

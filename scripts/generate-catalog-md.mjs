@@ -92,7 +92,7 @@ function getRepoLabel(repo) {
 
 function getStatus(latest, os, repoId) {
   if (!latest || !latest.byOs || !latest.byOs[os]) {
-    return "UNKNOWN";
+    return "NOT CHECKED";
   }
   const failed = latest.byOs[os].failedRepoIds ?? [];
   return failed.includes(repoId) ? "FAIL" : "PASS";
@@ -143,39 +143,147 @@ async function main() {
     "# Catalog",
     "",
     "_This file is generated from catalog data and smoke test reports. Do not edit manually._",
+    "",
+    "## Table of contents",
+    "- [Current OSes](#current-oses)",
+    "- [By Operating System](#by-operating-system)",
+    "- [Legacy OSes](#legacy-oses)",
+    "- [By Vendor](#by-vendor)",
+    "",
+    "_Note: only the active OS list is checked daily; legacy entries are kept for reference._",
     ""
   ].join("\n");
-
-  const rows = [];
-  rows.push(
-    "| Repo ID | OS | Label | Host | Key ID | FP Suffix16 | Status | Last Checked | Docs |"
-  );
-  rows.push("| --- | --- | --- | --- | --- | --- | --- | --- | --- |");
 
   const repos = [...reposCatalog.repos].sort((a, b) =>
     String(a.id ?? "").localeCompare(String(b.id ?? ""))
   );
 
-  for (const repo of repos) {
-    const repoId = repo.id ?? "";
-    const os = repo.os ?? "";
-    const repoLabel = getRepoLabel(repo);
-    const host = parseSourceHost(repo.source ?? "");
-    const keyId = getKeyId(repo) ?? "";
-    const keyEntry = keyMap.get(keyId);
-    const indexEntry = indexMap.get(keyId);
-    const suffix =
-      getFingerprintSuffixFromIndex(indexEntry) || getFingerprintSuffixForKey(keyEntry);
-    const status = getStatus(latest, os, repoId);
-    const lastChecked = getLastChecked(latest, os);
-    const docs = `docs/repos/${repoId}.md`;
+  const activeOses = new Set(["ubuntu-24.04", "ubuntu-22.04", "debian-13", "debian-12", "debian-11"]);
+  const activeRepos = repos.filter((repo) => activeOses.has(repo.os));
+  const legacyRepos = repos.filter((repo) => !activeOses.has(repo.os));
 
-    rows.push(
-      `| ${repoId} | ${os} | ${repoLabel} | ${host} | ${keyId} | ${suffix} | ${status} | ${lastChecked} | [doc](${docs}) |`
-    );
+  const vendorMap = new Map();
+  for (const repo of repos) {
+    const vendor = repo.name ?? "unknown";
+    if (!vendorMap.has(vendor)) {
+      vendorMap.set(vendor, []);
+    }
+    vendorMap.get(vendor).push(repo);
   }
 
-  const content = `${header}${rows.join("\n")}\n`;
+  const osMap = new Map();
+  for (const repo of activeRepos) {
+    const os = repo.os ?? "unknown";
+    if (!osMap.has(os)) {
+      osMap.set(os, []);
+    }
+    osMap.get(os).push(repo);
+  }
+
+  function buildRows(targetRepos, options = {}) {
+    const { includeStatus = true } = options;
+    const rows = [];
+    if (includeStatus) {
+      rows.push("| Docs | Label | OS | Host | FP Suffix16 | Status | Last Checked |");
+      rows.push("| --- | --- | --- | --- | --- | --- | --- |");
+    } else {
+      rows.push("| Docs | Label | OS | Host | FP Suffix16 |");
+      rows.push("| --- | --- | --- | --- | --- |");
+    }
+
+    for (const repo of targetRepos) {
+      const repoId = repo.id ?? "";
+      const os = repo.os ?? "";
+      const repoLabel = getRepoLabel(repo);
+      const host = parseSourceHost(repo.source ?? "");
+      const keyId = getKeyId(repo) ?? "";
+      const keyEntry = keyMap.get(keyId);
+      const indexEntry = indexMap.get(keyId);
+      const suffix =
+        getFingerprintSuffixFromIndex(indexEntry) || getFingerprintSuffixForKey(keyEntry);
+      const docs = `docs/repos/${repoId}.md`;
+
+      if (includeStatus) {
+        const status = getStatus(latest, os, repoId);
+        const lastChecked = getLastChecked(latest, os);
+        rows.push(
+          `| [Docs](${docs}) | ${repoLabel} | ${os} | ${host} | ${suffix} | ${status} | ${lastChecked} |`
+        );
+      } else {
+        rows.push(
+          `| [Docs](${docs}) | ${repoLabel} | ${os} | ${host} | ${suffix} |`
+        );
+      }
+    }
+
+    return rows.join("\n");
+  }
+
+  const content = [
+    header,
+    "## Current OSes",
+    "",
+    buildRows(activeRepos, { includeStatus: true }),
+    "",
+    "## By Operating System",
+    "",
+    ...Array.from(osMap.keys())
+      .sort((a, b) => a.localeCompare(b))
+      .flatMap((os) => {
+        const items = osMap
+          .get(os)
+          .sort((a, b) => String(a.id ?? "").localeCompare(String(b.id ?? "")));
+        const lines = [];
+        lines.push("<details>");
+        lines.push(`<summary>${os} (${items.length})</summary>`);
+        lines.push("");
+        for (const repo of items) {
+          const repoId = repo.id ?? "";
+          const label = getRepoLabel(repo);
+          const docs = `docs/repos/${repoId}.md`;
+          lines.push(`- [${label} (${repoId})](${docs})`);
+        }
+        lines.push("");
+        lines.push("</details>");
+        lines.push("");
+        return lines;
+      }),
+    "",
+    "## Legacy OSes",
+    "",
+    "<details>",
+    "<summary>Legacy OSes</summary>",
+    "",
+    buildRows(legacyRepos, { includeStatus: false }),
+    "",
+    "</details>",
+    "",
+    "## By Vendor",
+    "",
+    ...Array.from(vendorMap.keys())
+      .sort((a, b) => a.localeCompare(b))
+      .flatMap((vendor) => {
+        const items = vendorMap
+          .get(vendor)
+          .sort((a, b) => String(a.id ?? "").localeCompare(String(b.id ?? "")));
+        const lines = [];
+        lines.push("<details>");
+        lines.push(`<summary>${vendor} (${items.length})</summary>`);
+        lines.push("");
+        for (const repo of items) {
+          const repoId = repo.id ?? "";
+          const label = getRepoLabel(repo);
+          const docs = `docs/repos/${repoId}.md`;
+          const os = repo.os ?? "";
+          lines.push(`- [${label} (${os})](${docs})`);
+        }
+        lines.push("");
+        lines.push("</details>");
+        lines.push("");
+        return lines;
+      }),
+    ""
+  ].join("\n");
   await writeFile(outputPath, content, "utf8");
 }
 

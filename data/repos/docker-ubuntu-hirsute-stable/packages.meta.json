@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-24T17:52:09.304Z",
+  "repoId": "docker-ubuntu-hirsute-stable",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://download.docker.com/linux/ubuntu hirsute stable",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Docker",
+    "Label": "Docker CE",
+    "Suite": "hirsute",
+    "Codename": null,
+    "Architectures": "amd64 arm64 armhf s390x ppc64el",
+    "Components": "stable edge test nightly",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-hirsute-stable/run-vobXz4/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_hirsute_InRelease",
+    "inReleaseSha256": "7dbb6ff0ebd742df0b8b791381afddfeabf33fb4db44774781d232819dae5b5d"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-hirsute-stable/run-vobXz4/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu hirsute stable"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/docker-ubuntu-hirsute-stable/run-vobXz4/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_hirsute_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-hirsute-stable/packages.raw/20260124T175209Z/download.docker.com_linux_ubuntu_dists_hirsute_stable_binary-amd64_Packages",
+      "suite": "hirsute",
+      "component": "stable",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

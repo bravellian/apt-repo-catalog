@@ -1,0 +1,49 @@
+{
+  "fetchedAt": "2026-01-24T17:51:52.958Z",
+  "repoId": "microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/ubuntu/24.10/prod oracular main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "microsoft-ubuntu-oracular-prod oracular",
+    "Label": "microsoft-ubuntu-oracular-prod oracular",
+    "Suite": "oracular",
+    "Codename": "oracular",
+    "Architectures": "amd64 arm64 armhf all",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/run-W7GlaB/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_InRelease",
+    "inReleaseSha256": "9e5679c70e872944983ea84c6de092edef74d29433bc6c57bcf6dd9a56241642"
+  },
+  "sources": [
+    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/run-W7GlaB/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/24.10/prod oracular main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/run-W7GlaB/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-all_Packages",
+      "suite": "oracular",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/run-W7GlaB/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+      "suite": "oracular",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/run-W7GlaB/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages",
+      "suite": "oracular",
+      "component": "main",
+      "arch": "arm64"
+    }
+  ],
+  "errors": []
+}

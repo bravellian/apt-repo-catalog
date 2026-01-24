@@ -1,0 +1,26 @@
+[
+  {
+    "repoId": "repo-fixture-debian",
+    "baseUrl": "https://deb.debian.org/debian",
+    "distroFamily": "debian",
+    "suites": [
+      {
+        "suite": "stable",
+        "components": ["main"],
+        "architectures": ["amd64"]
+      }
+    ],
+    "evidence": [],
+    "occurrences": 0,
+    "distinctSources": [],
+    "keyHints": {
+      "signedByPaths": [],
+      "keyUrls": [],
+      "fingerprints": []
+    },
+    "options": {
+      "trusted": false,
+      "usesHttp": false
+    }
+  }
+]

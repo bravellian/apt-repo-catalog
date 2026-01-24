@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-24T17:52:12.240Z",
+  "repoId": "docker-ubuntu-noble-stable",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://download.docker.com/linux/ubuntu noble stable",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Docker",
+    "Label": "Docker CE",
+    "Suite": "noble",
+    "Codename": null,
+    "Architectures": "amd64 arm64 armhf s390x ppc64el",
+    "Components": "stable edge test nightly",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-noble-stable/run-cfWDkS/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_noble_InRelease",
+    "inReleaseSha256": "838741107a8063f59b69f976a6cf3e5e89dfe2df599837d47346410428f2c04e"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-noble-stable/run-cfWDkS/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu noble stable"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/docker-ubuntu-noble-stable/run-cfWDkS/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_noble_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-noble-stable/packages.raw/20260124T175212Z/download.docker.com_linux_ubuntu_dists_noble_stable_binary-amd64_Packages",
+      "suite": "noble",
+      "component": "stable",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

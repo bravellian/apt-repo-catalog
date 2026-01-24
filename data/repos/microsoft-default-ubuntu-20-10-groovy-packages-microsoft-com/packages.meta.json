@@ -1,0 +1,56 @@
+{
+  "fetchedAt": "2026-01-24T17:51:46.529Z",
+  "repoId": "microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/20.10/prod groovy main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "microsoft-ubuntu-groovy-prod groovy",
+    "Label": "microsoft-ubuntu-groovy-prod groovy",
+    "Suite": "groovy",
+    "Codename": "groovy",
+    "Architectures": "amd64 arm64 armhf all",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com/run-pBgxL5/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.10_prod_dists_groovy_InRelease",
+    "inReleaseSha256": "222a6de978751b08fb512b5bfde8772113ae46e3f4de0f91a8cc969b5941f0c2"
+  },
+  "sources": [
+    "deb [arch=amd64,armhf,arm64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com/run-pBgxL5/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/20.10/prod groovy main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com/run-pBgxL5/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.10_prod_dists_groovy_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com/packages.raw/20260124T175146Z/packages.microsoft.com_ubuntu_20.10_prod_dists_groovy_main_binary-all_Packages",
+      "suite": "groovy",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com/run-pBgxL5/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.10_prod_dists_groovy_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com/packages.raw/20260124T175146Z/packages.microsoft.com_ubuntu_20.10_prod_dists_groovy_main_binary-amd64_Packages",
+      "suite": "groovy",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com/run-pBgxL5/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.10_prod_dists_groovy_main_binary-arm64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com/packages.raw/20260124T175146Z/packages.microsoft.com_ubuntu_20.10_prod_dists_groovy_main_binary-arm64_Packages",
+      "suite": "groovy",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com/run-pBgxL5/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.10_prod_dists_groovy_main_binary-armhf_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com/packages.raw/20260124T175146Z/packages.microsoft.com_ubuntu_20.10_prod_dists_groovy_main_binary-armhf_Packages",
+      "suite": "groovy",
+      "component": "main",
+      "arch": "armhf"
+    }
+  ],
+  "errors": []
+}

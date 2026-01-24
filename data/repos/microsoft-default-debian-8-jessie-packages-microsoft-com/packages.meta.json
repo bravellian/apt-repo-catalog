@@ -1,0 +1,49 @@
+{
+  "fetchedAt": "2026-01-24T17:52:01.212Z",
+  "repoId": "microsoft-default-debian-8-jessie-packages-microsoft-com",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/8/prod jessie main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "microsoft-debian-jessie-prod jessie",
+    "Label": "microsoft-debian-jessie-prod jessie",
+    "Suite": "jessie",
+    "Codename": "jessie",
+    "Architectures": "amd64 arm64 armhf all",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-debian-8-jessie-packages-microsoft-com/run-ln6jvO/var/lib/apt/lists/packages.microsoft.com_debian_8_prod_dists_jessie_InRelease",
+    "inReleaseSha256": "2450afcd5f663209a362650d343fe2baf782a14c9d28a91e9c80fb3ba1287b9b"
+  },
+  "sources": [
+    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-debian-8-jessie-packages-microsoft-com/run-ln6jvO/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/debian/8/prod jessie main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-debian-8-jessie-packages-microsoft-com/run-ln6jvO/var/lib/apt/lists/packages.microsoft.com_debian_8_prod_dists_jessie_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-8-jessie-packages-microsoft-com/packages.raw/20260124T175201Z/packages.microsoft.com_debian_8_prod_dists_jessie_main_binary-all_Packages",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-debian-8-jessie-packages-microsoft-com/run-ln6jvO/var/lib/apt/lists/packages.microsoft.com_debian_8_prod_dists_jessie_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-8-jessie-packages-microsoft-com/packages.raw/20260124T175201Z/packages.microsoft.com_debian_8_prod_dists_jessie_main_binary-amd64_Packages",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-debian-8-jessie-packages-microsoft-com/run-ln6jvO/var/lib/apt/lists/packages.microsoft.com_debian_8_prod_dists_jessie_main_binary-arm64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-8-jessie-packages-microsoft-com/packages.raw/20260124T175201Z/packages.microsoft.com_debian_8_prod_dists_jessie_main_binary-arm64_Packages",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "arm64"
+    }
+  ],
+  "errors": []
+}

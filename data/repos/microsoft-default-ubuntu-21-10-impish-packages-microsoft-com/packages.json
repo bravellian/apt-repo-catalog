@@ -1,0 +1,3063 @@
+{
+  "generatedAt": "2026-01-24T17:51:49.040Z",
+  "packageCount": 20,
+  "packages": [
+    {
+      "name": "aadsshlogin",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.030480001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.030190001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.029280001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.028950001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.028680001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.027980001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.027890001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.027190001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.026840001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.023850001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.022600002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.022300001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.022090001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.021030001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.030480001",
+      "latestByArch": {
+        "amd64": "1.0.030480001"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "AAD NSS, PAM and certhandler extensions",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.25)",
+          "libcurl4",
+          "libcurl4 (>= 7.16.2)",
+          "libpam0g (>= 0.99.7.1)",
+          "libselinux1 (>= 2.0.65)",
+          "libsemanage1 (>= 2.0.32)",
+          "libssl1.1 (>= 1.1.0)",
+          "libuuid1",
+          "libuuid1 (>= 2.16)",
+          "openssh-server (>=6.9)",
+          "passwd"
+        ],
+        "preDepends": [
+          "grep",
+          "sed"
+        ],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "aadlogin"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Yancho Yanev <yyanev@microsoft.com>",
+      "section": "utils",
+      "priority": "optional"
+    },
+    {
+      "name": "aadsshlogin-selinux",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.030480001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.030190001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.029280001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.028950001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.028680001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.027980001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.027890001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.027190001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.026840001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.023850001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.022600002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.022300001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.022090001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.021030001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.030480001",
+      "latestByArch": {
+        "amd64": "1.0.030480001"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Selinux configuration for AAD NSS and PAM extensions.",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "policycoreutils (>=3.0-1)",
+          "selinux-policy-default",
+          "selinux-utils"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "aadlogin-selinux"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Yancho Yanev <yyanev@microsoft.com>",
+      "section": "utils",
+      "priority": "optional"
+    },
+    {
+      "name": "azure-functions-core-tools",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "4.0.5455-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5441-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5390-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5348-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5312-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5274-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5198-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5174-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5148-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5095-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5030-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4915-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4895-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4865-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4785-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4736-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4704-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4653-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4629-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4590-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4544-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4483-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4426-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4899-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4868-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4837-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4806-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4753-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4727-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4669-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4626-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4585-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4502-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4484-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4425-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "4.0.5455-1",
+      "latestByArch": {
+        "amd64": "4.0.5455-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Azure Function Core Tools v4",
+      "homepage": "https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#run-azure-functions-core-tools",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "azure-functions-core-tools",
+          "azure-functions-core-tools-2",
+          "azure-functions-core-tools-3"
+        ],
+        "breaks": [],
+        "replaces": [
+          "azure-functions-core-tools",
+          "azure-functions-core-tools-2",
+          "azure-functions-core-tools-3"
+        ],
+        "provides": []
+      },
+      "maintainer": "Ahmed ElSayed <ahmels@microsoft.com>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "azure-functions-core-tools-3",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "3.0.4899-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4868-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4837-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4806-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4753-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4727-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4669-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4626-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4585-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.4502-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "3.0.3904-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "3.0.4899-1",
+      "latestByArch": {
+        "amd64": "3.0.4899-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Azure Function Core Tools v3",
+      "homepage": "https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#run-azure-functions-core-tools",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "azure-functions-core-tools",
+          "azure-functions-core-tools-2"
+        ],
+        "breaks": [],
+        "replaces": [
+          "azure-functions-core-tools",
+          "azure-functions-core-tools-2"
+        ],
+        "provides": []
+      },
+      "maintainer": "Ahmed ElSayed <ahmels@microsoft.com>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "azure-functions-core-tools-4",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "4.0.5455-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5441-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5390-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5348-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5312-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5274-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5198-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5174-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5148-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.5095-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4895-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4865-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4785-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4736-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4704-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4653-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4629-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4590-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4544-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.4483-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "4.0.3971-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "4.0.5455-1",
+      "latestByArch": {
+        "amd64": "4.0.5455-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Azure Function Core Tools v4",
+      "homepage": "https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#run-azure-functions-core-tools",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "azure-functions-core-tools",
+          "azure-functions-core-tools-2",
+          "azure-functions-core-tools-3"
+        ],
+        "breaks": [],
+        "replaces": [
+          "azure-functions-core-tools",
+          "azure-functions-core-tools-2",
+          "azure-functions-core-tools-3"
+        ],
+        "provides": []
+      },
+      "maintainer": "Ahmed ElSayed <ahmels@microsoft.com>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "libodbc1",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.3.7",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.3.7",
+      "latestByArch": {
+        "amd64": "2.3.7"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "ODBC library for Unix",
+      "homepage": "http://www.unixodbc.org/",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.14)",
+          "libltdl7 (>= 2.4.2)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [
+          "msodbcsql17",
+          "unixodbc-bin"
+        ],
+        "conflicts": [],
+        "breaks": [
+          "unixodbc (<< 2.2.14p2-3)"
+        ],
+        "replaces": [
+          "unixodbc (<< 2.2.14p2-3)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+      "section": "libs",
+      "priority": "optional"
+    },
+    {
+      "name": "mdatp",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "101.25102.0005",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25092.0005",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25092.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25092.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25082.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25072.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25062.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25052.0007",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25042.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25042.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25032.0010",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25032.0008",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25022.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25012.0000",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24122.0008",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24112.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24112.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24102.0000",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24092.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24082.0004",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24072.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24062.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24052.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24042.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24032.0007",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24022.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24012.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23122.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23112.0009",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23102.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23092.0012",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23082.0011",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23082.0009",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23082.0006",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23072.0021",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23062.0010",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23052.0009",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.98.89",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.98.64",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.98.58",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.98.30",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.98.05",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.94.13",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.85.27",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.80.97",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.75.43",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.73.77",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.71.18",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.68.80",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.65.77",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.62.74",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.60.93",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.60.05",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.58.80",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.56.62",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.52.57",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "101.25102.0005",
+      "latestByArch": {
+        "amd64": "101.25102.0005"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft Defender (Production)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "auditd",
+          "curl (>= 7.5)",
+          "dmidecode",
+          "libatomic1",
+          "libc6 (>= 2.23)",
+          "libfuse2",
+          "libpcre3",
+          "libseccomp2",
+          "libselinux1",
+          "libuuid1",
+          "mde-netfilter",
+          "perl",
+          "python3",
+          "uuid-runtime"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft Defender Group <mdatplinuxpackages@microsoft.com>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "mde-netfilter",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "100.69.73",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.62",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.59",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.55",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.52",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.48",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "100.69.73",
+      "latestByArch": {
+        "amd64": "100.69.73"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft Defender for Endpoints Netfitler ({{{RELEASE_RING}}}) Microsoft Defender for Endpoints Netfilter is an open source software to filter packets in userspace",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "libglib2.0-0",
+          "libnetfilter-queue1"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft Defender for Endponts <mdatplinuxpackages@microsoft.com>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "mde-netfilter-src",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-all_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "100.69.73-2",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-all_Packages"
+          ]
+        },
+        {
+          "version": "100.69.62-2",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.59-2",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "100.69.73-2",
+      "latestByArch": {
+        "all": "100.69.73-2",
+        "amd64": "100.69.62-2"
+      },
+      "architectures": [
+        "all",
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft Defender for Endpoints Netfitler",
+      "homepage": "",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "root <root@f66f6bc14b8d>",
+      "section": "alien",
+      "priority": "extra"
+    },
+    {
+      "name": "microsoft-identity-broker",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.7.0",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.1",
+      "latestByArch": {
+        "amd64": "2.0.1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "microsoft-identity-broker",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "dbus-session-bus",
+          "dbus-system-bus",
+          "default-jre",
+          "gnome-keyring",
+          "systemd"
+        ],
+        "preDepends": [],
+        "recommends": [
+          "microsoft-identity-diagnostics"
+        ],
+        "suggests": [],
+        "conflicts": [
+          "msft-identity-broker"
+        ],
+        "breaks": [],
+        "replaces": [
+          "msft-identity-broker"
+        ],
+        "provides": [
+          "msft-identity-broker"
+        ]
+      },
+      "maintainer": "Microsoft Identity",
+      "section": "java",
+      "priority": "optional"
+    },
+    {
+      "name": "msodbcsql17",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "17.10.1.1-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "17.9.1.1-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "17.10.1.1-1",
+      "latestByArch": {
+        "amd64": "17.10.1.1-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "ODBC Driver for Microsoft(R) SQL Server(R)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "debconf (>= 0.5)",
+          "libc6 (>= 2.19)",
+          "libkrb5-3",
+          "libstdc++6 (>= 4.8.2)",
+          "odbcinst",
+          "openssl",
+          "unixodbc (>= 2.3.1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "libodbc1-utf16",
+          "odbcinst-utf16",
+          "odbcinst1debian2-utf16",
+          "unixodbc-utf16"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft SQL ODBC Team <mssql-odbc@microsoft.com>",
+      "section": "database",
+      "priority": null
+    },
+    {
+      "name": "msodbcsql18",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "18.0.1.1-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "18.0.1.1-1",
+      "latestByArch": {
+        "amd64": "18.0.1.1-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "ODBC Driver for Microsoft(R) SQL Server(R)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "debconf (>= 0.5)",
+          "libc6 (>= 2.19)",
+          "libkrb5-3",
+          "libstdc++6 (>= 4.8.2)",
+          "openssl",
+          "unixodbc (>= 2.3.1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "libodbc1-utf16",
+          "odbcinst-utf16",
+          "odbcinst1debian2-utf16",
+          "unixodbc-utf16"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft SQL ODBC Team <mssql-odbc@microsoft.com>",
+      "section": "database",
+      "priority": null
+    },
+    {
+      "name": "mssql-tools",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "17.10.1.1-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "17.9.1.1-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "17.10.1.1-1",
+      "latestByArch": {
+        "amd64": "17.10.1.1-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Tools for Microsoft(R) SQL Server(R)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "debconf (>= 0.5)",
+          "libc6 (>= 2.19)",
+          "libkrb5-3",
+          "libstdc++6 (>= 4.8.2)",
+          "msodbcsql17 (>= 17.3.0.0)",
+          "openssl"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft SQL Tools Team <mssql-tools@microsoft.com>",
+      "section": "database",
+      "priority": null
+    },
+    {
+      "name": "mssql-tools18",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "18.0.1.1-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "18.0.1.1-1",
+      "latestByArch": {
+        "amd64": "18.0.1.1-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Tools for Microsoft(R) SQL Server(R)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "debconf (>= 0.5)",
+          "libc6 (>= 2.19)",
+          "libkrb5-3",
+          "libstdc++6 (>= 4.8.2)",
+          "msodbcsql18 (>= 18.0.0.0)",
+          "openssl"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft SQL Tools Team <mssql-tools@microsoft.com>",
+      "section": "database",
+      "priority": null
+    },
+    {
+      "name": "odbcinst",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.3.7",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.3.7",
+      "latestByArch": {
+        "amd64": "2.3.7"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Helper program for accessing odbc ini files",
+      "homepage": "http://www.unixodbc.org/",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.4)",
+          "odbcinst1debian2 (>= 2.3.7)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "odbcinst1"
+        ],
+        "breaks": [],
+        "replaces": [
+          "odbcinst1",
+          "odbcinst1debian1 (<< 2.3.7)",
+          "unixodbc (<< 2.3.7)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+      "section": "libs",
+      "priority": "optional"
+    },
+    {
+      "name": "odbcinst1debian2",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.3.7",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.3.7",
+      "latestByArch": {
+        "amd64": "2.3.7"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Support library for accessing odbc ini files",
+      "homepage": "http://www.unixodbc.org/",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.14)",
+          "libltdl7 (>= 2.4.2)",
+          "odbcinst (>= 2.3.7)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "odbcinst1",
+          "odbcinst1debian1"
+        ],
+        "breaks": [
+          "libiodbc2",
+          "libmyodbc (<< 5.1.6-2)",
+          "odbc-postgresql (<< 1:09.00.0310-1.1)",
+          "tdsodbc (<< 0.82-8)"
+        ],
+        "replaces": [
+          "unixodbc (<< 2.3.7)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+      "section": "libs",
+      "priority": "optional"
+    },
+    {
+      "name": "packages-microsoft-prod",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-all_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0-ubuntu21.10.1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-all_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0-ubuntu21.10.1",
+      "latestByArch": {
+        "all": "1.0-ubuntu21.10.1"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "Apt configuration for packages.microsoft.com",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "apt-transport-https",
+          "ca-certificates"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Linux Repo Admins <aztuxrepo@microsoft.com>",
+      "section": "admin",
+      "priority": "extra"
+    },
+    {
+      "name": "unixodbc",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.3.7",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.3.7",
+      "latestByArch": {
+        "amd64": "2.3.7"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Basic ODBC tools",
+      "homepage": "http://www.unixodbc.org/",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.14)",
+          "libodbc1 (>= 2.3.7)",
+          "odbcinst1debian2 (>= 2.3.7)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "unixodbc-bin (<< 2.3.7)"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+      "section": "database",
+      "priority": "optional"
+    },
+    {
+      "name": "unixodbc-dev",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.3.7",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.3.7",
+      "latestByArch": {
+        "amd64": "2.3.7"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "ODBC libraries for UNIX (development files)",
+      "homepage": "http://www.unixodbc.org/",
+      "relationships": {
+        "depends": [
+          "libltdl3-dev",
+          "odbcinst1debian2 (= 2.3.7)",
+          "unixodbc (= 2.3.7)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "libiodbc2-dev",
+          "remembrance-agent (<< 2.11-4)"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+      "section": "devel",
+      "priority": "extra"
+    },
+    {
+      "name": "virtualclient",
+      "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.28",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.16.40",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.15.25",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.14.36",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.12.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.11.5",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.11.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.28",
+      "latestByArch": {
+        "amd64": "2.0.28",
+        "arm64": "2.0.28"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "VirtualClient, the open sourced workload automation.",
+      "homepage": "",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Virtual Client Team <virtualclient@microsoft.com>",
+      "section": null,
+      "priority": null
+    }
+  ]
+}

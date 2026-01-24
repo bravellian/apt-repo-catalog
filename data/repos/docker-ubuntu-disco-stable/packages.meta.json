@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-24T17:52:07.362Z",
+  "repoId": "docker-ubuntu-disco-stable",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://download.docker.com/linux/ubuntu disco stable",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Docker",
+    "Label": "Docker CE",
+    "Suite": "disco",
+    "Codename": null,
+    "Architectures": "amd64 arm64 armhf s390x ppc64el",
+    "Components": "stable edge test nightly",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-disco-stable/run-op8ehj/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_disco_InRelease",
+    "inReleaseSha256": "0d01032927f20e6e781994adec452758847af1b13dd26ddc953a711550e76538"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-disco-stable/run-op8ehj/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu disco stable"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/docker-ubuntu-disco-stable/run-op8ehj/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_disco_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-disco-stable/packages.raw/20260124T175207Z/download.docker.com_linux_ubuntu_dists_disco_stable_binary-amd64_Packages",
+      "suite": "disco",
+      "component": "stable",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

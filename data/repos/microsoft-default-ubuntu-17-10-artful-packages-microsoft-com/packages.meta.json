@@ -1,0 +1,42 @@
+{
+  "fetchedAt": "2026-01-24T17:51:41.964Z",
+  "repoId": "microsoft-default-ubuntu-17-10-artful-packages-microsoft-com",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/17.10/prod artful main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "microsoft-ubuntu-artful-prod artful",
+    "Label": "microsoft-ubuntu-artful-prod artful",
+    "Suite": "artful",
+    "Codename": "artful",
+    "Architectures": "amd64 arm64 armhf all",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-17-10-artful-packages-microsoft-com/run-f1zobg/var/lib/apt/lists/packages.microsoft.com_ubuntu_17.10_prod_dists_artful_InRelease",
+    "inReleaseSha256": "b66ad6cb60d229b5fd362e3e5a46f43255bf86039637c260c9c267123d971599"
+  },
+  "sources": [
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-17-10-artful-packages-microsoft-com/run-f1zobg/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/17.10/prod artful main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-17-10-artful-packages-microsoft-com/run-f1zobg/var/lib/apt/lists/packages.microsoft.com_ubuntu_17.10_prod_dists_artful_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-10-artful-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.10_prod_dists_artful_main_binary-all_Packages",
+      "suite": "artful",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-17-10-artful-packages-microsoft-com/run-f1zobg/var/lib/apt/lists/packages.microsoft.com_ubuntu_17.10_prod_dists_artful_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-10-artful-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.10_prod_dists_artful_main_binary-amd64_Packages",
+      "suite": "artful",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

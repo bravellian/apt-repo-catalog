@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-24T17:52:14.706Z",
+  "repoId": "docker-ubuntu-xenial-stable",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://download.docker.com/linux/ubuntu xenial stable",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Docker",
+    "Label": "Docker CE",
+    "Suite": "xenial",
+    "Codename": null,
+    "Architectures": "amd64 arm64 armhf s390x ppc64el",
+    "Components": "stable edge test nightly",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-xenial-stable/run-QtPD1Y/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_xenial_InRelease",
+    "inReleaseSha256": "bb3990a53ae930249373b21c5e9c17a87abe2f48caa56d316e4da9d9b1d4ee12"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-xenial-stable/run-QtPD1Y/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu xenial stable"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/docker-ubuntu-xenial-stable/run-QtPD1Y/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_xenial_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-xenial-stable/packages.raw/20260124T175214Z/download.docker.com_linux_ubuntu_dists_xenial_stable_binary-amd64_Packages",
+      "suite": "xenial",
+      "component": "stable",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

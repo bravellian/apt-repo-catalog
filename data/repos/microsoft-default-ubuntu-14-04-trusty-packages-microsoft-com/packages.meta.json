@@ -1,0 +1,42 @@
+{
+  "fetchedAt": "2026-01-24T17:51:38.211Z",
+  "repoId": "microsoft-default-ubuntu-14-04-trusty-packages-microsoft-com",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/14.04/prod trusty main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "microsoft-ubuntu-trusty-prod trusty",
+    "Label": "microsoft-ubuntu-trusty-prod trusty",
+    "Suite": "trusty",
+    "Codename": "trusty",
+    "Architectures": "amd64 arm64 armhf all",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-14-04-trusty-packages-microsoft-com/run-esa7kD/var/lib/apt/lists/packages.microsoft.com_ubuntu_14.04_prod_dists_trusty_InRelease",
+    "inReleaseSha256": "238ae80a378159bdd031f6476aa424537860d78119f00a941650c801aa612467"
+  },
+  "sources": [
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-14-04-trusty-packages-microsoft-com/run-esa7kD/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/14.04/prod trusty main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-14-04-trusty-packages-microsoft-com/run-esa7kD/var/lib/apt/lists/packages.microsoft.com_ubuntu_14.04_prod_dists_trusty_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-14-04-trusty-packages-microsoft-com/packages.raw/20260124T175138Z/packages.microsoft.com_ubuntu_14.04_prod_dists_trusty_main_binary-all_Packages",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-14-04-trusty-packages-microsoft-com/run-esa7kD/var/lib/apt/lists/packages.microsoft.com_ubuntu_14.04_prod_dists_trusty_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-14-04-trusty-packages-microsoft-com/packages.raw/20260124T175138Z/packages.microsoft.com_ubuntu_14.04_prod_dists_trusty_main_binary-amd64_Packages",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

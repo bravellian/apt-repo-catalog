@@ -36,6 +36,46 @@ echo "deb [signed-by=/usr/share/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https:
 sudo apt-get update
 ```
 
+## Packages
+
+> Package compatibility is defined by suite/component/architecture in the repository index;
+> there is no per-package OS field in the Packages metadata.
+
+<details>
+<summary>Packages (1)</summary>
+
+<div class="packages-nav">
+<a href="#packages-D">D</a>
+</div>
+
+
+### <a id="packages-D"></a>D
+
+- **docker-ce**
+  - Latest version: 18.03.1~ce-0~debian
+  - Architectures: amd64
+  - Suite: wheezy
+  - Components: stable
+  - Description: Docker: the open-source application container engine
+  - Homepage: https://dockerproject.org
+  - Install: `sudo apt-get install docker-ce`
+  - Install (apt): `sudo apt install docker-ce`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Docker <support@docker.com>
+  - Section: admin
+  - Priority: optional
+  - depends: init-system-helpers (>= 1.18~), iptables, libapparmor1 (>= 2.6~devel), libc6 (>= 2.4), libc6 (>= 2.9), libdevmapper1.02.1 (>= 2:1.02.63), libltdl7 (>= 2.4.2)
+  - recommends: aufs-tools, ca-certificates, cgroupfs-mount | cgroup-lite, git, pigz, xz-utils
+  - conflicts: docker (<< 1.5~), docker-ee, docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+  - replaces: docker-engine
+
+  </details>
+
+
+</details>
+
 ## Notes
 - OS support: verify upstream documentation for supported releases.
 - The trust anchor is the fingerprint; validate it before use.

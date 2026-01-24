@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-24T17:52:11.770Z",
+  "repoId": "docker-ubuntu-mantic-stable",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://download.docker.com/linux/ubuntu mantic stable",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Docker",
+    "Label": "Docker CE",
+    "Suite": "mantic",
+    "Codename": null,
+    "Architectures": "amd64 arm64 armhf s390x ppc64el",
+    "Components": "stable edge test nightly",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-mantic-stable/run-4K6WgE/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_mantic_InRelease",
+    "inReleaseSha256": "46bee0c929287868cea61d2758fc39f603fe8c099ecfcae570485436dc9771b9"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-mantic-stable/run-4K6WgE/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu mantic stable"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/docker-ubuntu-mantic-stable/run-4K6WgE/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_mantic_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-mantic-stable/packages.raw/20260124T175211Z/download.docker.com_linux_ubuntu_dists_mantic_stable_binary-amd64_Packages",
+      "suite": "mantic",
+      "component": "stable",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

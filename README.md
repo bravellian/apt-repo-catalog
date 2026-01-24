@@ -31,6 +31,7 @@ Key refreshes should always prefer upstream HTTPS sources and be revalidated whe
 | `npm run update:keys` | Refresh cached keys and provenance metadata. |
 | `npm run validate` | Validate repo and key catalogs. |
 | `node scripts/smoke-test-repos.mjs --os <os>` | Run APT smoke tests against repos for a target OS. |
+| `node scripts/apt-inventory.mjs fetch-packages --repo-id <id>` | Fetch and normalize package indexes for a repository. |
 | `npm run dev:sanity -- --key-url <url> --repo-os <os> --repo-name "<name>" --repo-source "<deb line>" [--repo-id <id>]` | Run a local add-key/add-repo/validate/smoke flow. |
 
 ## Metadata
@@ -56,6 +57,87 @@ node scripts/smoke-test-repos.mjs --os debian-12 --out reports/smoke/debian-12.j
 ### Latest snapshot
 
 Scheduled smoke tests publish a combined health snapshot to `reports/latest.json`. This file aggregates per-OS smoke reports into a single current-status view.
+
+## Package inventory
+
+Use the inventory CLI to fetch and normalize Packages indexes without modifying system APT config:
+
+```bash
+node scripts/apt-inventory.mjs fetch-packages --repo-id docker-debian-trixie-stable
+node scripts/apt-inventory.mjs fetch-packages --repo-id microsoft-default-debian-13-trixie-packages-microsoft-com --mode direct
+node scripts/apt-inventory.mjs fetch-packages-all --os debian-12
+node scripts/apt-inventory.mjs fetch-packages-all --only-ids docker-debian-trixie-stable,kubernetes-core-stable-v1.35-debian-13
+```
+
+Outputs:
+
+- Raw index files: `data/repos/<repoId>/packages.raw/<timestamp>/`
+- Normalized snapshot: `data/repos/<repoId>/packages.json`
+- Fetch metadata/errors: `data/repos/<repoId>/packages.meta.json`
+
+Example snippet from `packages.json`:
+
+```json
+{
+  "generatedAt": "2026-01-24T15:30:00.000Z",
+  "packageCount": 2,
+  "packages": [
+    {
+      "name": "demo",
+      "latestVersion": "1.2.3-1",
+      "architectures": ["amd64", "arm64"],
+      "descriptionShort": "Example package",
+      "homepage": "https://example.com",
+      "relationships": {
+        "depends": ["libc6 (>= 2.31)"],
+        "provides": []
+      }
+    }
+  ]
+}
+```
+
+The inventory tries APT-assisted mode first (isolated temp dirs), then falls back to direct HTTP fetches if needed. Direct mode reads `dists/<suite>/Release` and downloads `Packages(.gz/.xz)` entries; it does not install packages and does not require root.
+
+Limitations:
+- Some repositories publish only `.xz` or `.lz4` indexes; ensure `xz` or `lz4` is available if you use direct mode.
+- If a repository omits standard `dists/<suite>` layout, direct fetch may fail; APT-assisted mode is recommended.
+
+## Repository discovery miner
+
+The discovery miner builds a living catalog of commonly used APT repositories by mining public config files, normalizing the repo definitions, verifying APT metadata, and ranking candidates.
+
+Run sequence:
+
+```bash
+node scripts/apt-inventory.mjs discover-repos
+node scripts/apt-inventory.mjs verify-repos
+node scripts/apt-inventory.mjs curate-repos
+node scripts/apt-inventory.mjs sync-catalog
+```
+
+To include a local corpus directory in discovery (in addition to GitHub mining):
+
+```bash
+node scripts/apt-inventory.mjs discover-repos --local-dir path/to/corpus
+```
+
+Outputs (default under `data/discovery/`):
+
+- `candidates.json`: raw extracts from GitHub hits
+- `deduped.json`: normalized/deduped repositories with evidence
+- `verified.json`: validation results (Release + Packages sampling)
+- `verified-errors.json`: structured errors
+- `curated.json`: recommended list with scores
+- `quarantine.json`: low-confidence or failing repos
+- `curation-report.json`: summary counts + quarantine reasons
+- `sync-skipped.json`: entries skipped during catalog sync
+
+Configuration is driven by `scripts/discovery/config.mjs` (override with `--config <path>`). Update allow/deny lists, query templates, and scoring thresholds there. For more detail, see `docs/discovery.md`.
+
+Selectivity guardrails (defaults): curated repos must be allowlisted and appear in at least 2 distinct sources. Everything else lands in quarantine for review.
+
+Verification can reuse recent results to avoid re-downloading. Use `--max-age-days` (default 7) or `--only-new` to limit verification work. Verification writes incrementally and reuses cached downloads in `data/discovery/tmp/`.
 
 ## PR optimization
 

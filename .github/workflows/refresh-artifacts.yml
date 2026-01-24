@@ -1,8 +1,6 @@
 name: Refresh Reports and Docs
 
 on:
-  schedule:
-    - cron: "21 2 * * *"
   workflow_dispatch:
 
 permissions:

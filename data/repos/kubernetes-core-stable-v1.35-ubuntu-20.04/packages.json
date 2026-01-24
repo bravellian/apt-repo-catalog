@@ -1,0 +1,274 @@
+{
+  "generatedAt": "2026-01-24T17:52:21.663Z",
+  "packageCount": 5,
+  "packages": [
+    {
+      "name": "cri-tools",
+      "repoId": "kubernetes-core-stable-v1.35-ubuntu-20.04",
+      "suite": "/",
+      "components": [],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-20.04/packages.raw/20260124T175221Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.35.0-1.1",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "ppc64el",
+            "s390x"
+          ],
+          "components": [],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-20.04/packages.raw/20260124T175221Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.35.0-1.1",
+      "latestByArch": {
+        "amd64": "1.35.0-1.1",
+        "arm64": "1.35.0-1.1",
+        "ppc64el": "1.35.0-1.1",
+        "s390x": "1.35.0-1.1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "ppc64el",
+        "s390x"
+      ],
+      "descriptionShort": "Command-line utility for interacting with a container runtime",
+      "homepage": "https://kubernetes.io",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Kubernetes Authors <dev@kubernetes.io>",
+      "section": "admin",
+      "priority": "optional"
+    },
+    {
+      "name": "kubeadm",
+      "repoId": "kubernetes-core-stable-v1.35-ubuntu-20.04",
+      "suite": "/",
+      "components": [],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-20.04/packages.raw/20260124T175221Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.35.0-1.1",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "ppc64el",
+            "s390x"
+          ],
+          "components": [],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-20.04/packages.raw/20260124T175221Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.35.0-1.1",
+      "latestByArch": {
+        "amd64": "1.35.0-1.1",
+        "arm64": "1.35.0-1.1",
+        "ppc64el": "1.35.0-1.1",
+        "s390x": "1.35.0-1.1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "ppc64el",
+        "s390x"
+      ],
+      "descriptionShort": "Command-line utility for administering a Kubernetes cluster",
+      "homepage": "https://kubernetes.io",
+      "relationships": {
+        "depends": [
+          "cri-tools (>= 1.30.0)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Kubernetes Authors <dev@kubernetes.io>",
+      "section": "admin",
+      "priority": "optional"
+    },
+    {
+      "name": "kubectl",
+      "repoId": "kubernetes-core-stable-v1.35-ubuntu-20.04",
+      "suite": "/",
+      "components": [],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-20.04/packages.raw/20260124T175221Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.35.0-1.1",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "ppc64el",
+            "s390x"
+          ],
+          "components": [],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-20.04/packages.raw/20260124T175221Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.35.0-1.1",
+      "latestByArch": {
+        "amd64": "1.35.0-1.1",
+        "arm64": "1.35.0-1.1",
+        "ppc64el": "1.35.0-1.1",
+        "s390x": "1.35.0-1.1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "ppc64el",
+        "s390x"
+      ],
+      "descriptionShort": "Command-line utility for interacting with a Kubernetes cluster",
+      "homepage": "https://kubernetes.io",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Kubernetes Authors <dev@kubernetes.io>",
+      "section": "admin",
+      "priority": "optional"
+    },
+    {
+      "name": "kubelet",
+      "repoId": "kubernetes-core-stable-v1.35-ubuntu-20.04",
+      "suite": "/",
+      "components": [],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-20.04/packages.raw/20260124T175221Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.35.0-1.1",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "ppc64el",
+            "s390x"
+          ],
+          "components": [],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-20.04/packages.raw/20260124T175221Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.35.0-1.1",
+      "latestByArch": {
+        "amd64": "1.35.0-1.1",
+        "arm64": "1.35.0-1.1",
+        "ppc64el": "1.35.0-1.1",
+        "s390x": "1.35.0-1.1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "ppc64el",
+        "s390x"
+      ],
+      "descriptionShort": "Node agent for Kubernetes clusters",
+      "homepage": "https://kubernetes.io",
+      "relationships": {
+        "depends": [
+          "iptables (>= 1.4.21)",
+          "kubernetes-cni (>= 1.2.0)",
+          "libc6",
+          "mount",
+          "util-linux"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Kubernetes Authors <dev@kubernetes.io>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "kubernetes-cni",
+      "repoId": "kubernetes-core-stable-v1.35-ubuntu-20.04",
+      "suite": "/",
+      "components": [],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-20.04/packages.raw/20260124T175221Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.8.0-1.1",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "ppc64el",
+            "s390x"
+          ],
+          "components": [],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-20.04/packages.raw/20260124T175221Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.8.0-1.1",
+      "latestByArch": {
+        "amd64": "1.8.0-1.1",
+        "arm64": "1.8.0-1.1",
+        "ppc64el": "1.8.0-1.1",
+        "s390x": "1.8.0-1.1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "ppc64el",
+        "s390x"
+      ],
+      "descriptionShort": "Binaries required to provision kubernetes container networking",
+      "homepage": "https://kubernetes.io",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Kubernetes Authors <dev@kubernetes.io>",
+      "section": "net",
+      "priority": "optional"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "fetchedAt": "2026-01-24T17:51:50.764Z",
+  "repoId": "microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/23.04/prod lunar main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "microsoft-ubuntu-lunar-prod lunar",
+    "Label": "microsoft-ubuntu-lunar-prod lunar",
+    "Suite": "lunar",
+    "Codename": "lunar",
+    "Architectures": "amd64 arm64 armhf all",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com/run-9NPGJT/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.04_prod_dists_lunar_InRelease",
+    "inReleaseSha256": "34b32fd26c9af0d031cddd313d3ce1d3fc56700854ac7f2f9f1e7d72b1daf398"
+  },
+  "sources": [
+    "deb [arch=amd64,armhf,arm64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com/run-9NPGJT/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/23.04/prod lunar main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com/run-9NPGJT/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.04_prod_dists_lunar_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com/packages.raw/20260124T175150Z/packages.microsoft.com_ubuntu_23.04_prod_dists_lunar_main_binary-all_Packages",
+      "suite": "lunar",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com/run-9NPGJT/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.04_prod_dists_lunar_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com/packages.raw/20260124T175150Z/packages.microsoft.com_ubuntu_23.04_prod_dists_lunar_main_binary-amd64_Packages",
+      "suite": "lunar",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com/run-9NPGJT/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.04_prod_dists_lunar_main_binary-arm64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com/packages.raw/20260124T175150Z/packages.microsoft.com_ubuntu_23.04_prod_dists_lunar_main_binary-arm64_Packages",
+      "suite": "lunar",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com/run-9NPGJT/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.04_prod_dists_lunar_main_binary-armhf_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com/packages.raw/20260124T175150Z/packages.microsoft.com_ubuntu_23.04_prod_dists_lunar_main_binary-armhf_Packages",
+      "suite": "lunar",
+      "component": "main",
+      "arch": "armhf"
+    }
+  ],
+  "errors": []
+}

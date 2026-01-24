@@ -1,0 +1,1860 @@
+{
+  "generatedAt": "2026-01-24T17:52:13.736Z",
+  "packageCount": 8,
+  "packages": [
+    {
+      "name": "cagent",
+      "repoId": "docker-ubuntu-plucky-stable",
+      "suite": "plucky",
+      "components": [
+        "stable"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.9.7-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.9.7-1~ubuntu.25.04~plucky",
+      "latestByArch": {
+        "amd64": "1.9.7-1~ubuntu.25.04~plucky"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "cagent is a powerful multi-agent AI runtime that enables you to",
+      "homepage": "https://github.com/docker/cagent",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Docker <support@docker.com>",
+      "section": "admin",
+      "priority": "optional"
+    },
+    {
+      "name": "containerd.io",
+      "repoId": "docker-ubuntu-plucky-stable",
+      "suite": "plucky",
+      "components": [
+        "stable"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.2.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.2.0-2~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.1.5-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.7.29-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.7.28-2~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.7.28-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.7.28-0~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.7.27-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.2.1-1~ubuntu.25.04~plucky",
+      "latestByArch": {
+        "amd64": "2.2.1-1~ubuntu.25.04~plucky"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "An open and reliable container runtime",
+      "homepage": "https://containerd.io",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.38)",
+          "libseccomp2 (>= 2.5.0)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "containerd",
+          "runc"
+        ],
+        "breaks": [],
+        "replaces": [
+          "containerd",
+          "runc"
+        ],
+        "provides": [
+          "containerd",
+          "runc"
+        ]
+      },
+      "maintainer": "Containerd team <help@containerd.io>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "docker-buildx-plugin",
+      "repoId": "docker-ubuntu-plucky-stable",
+      "suite": "plucky",
+      "components": [
+        "stable"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "0.30.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.30.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.29.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.29.0-0~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.28.0-0~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.27.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.26.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.25.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.24.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.23.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.22.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "0.30.1-1~ubuntu.25.04~plucky",
+      "latestByArch": {
+        "amd64": "0.30.1-1~ubuntu.25.04~plucky"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Docker Buildx cli plugin.",
+      "homepage": "https://github.com/docker/buildx",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [
+          "docker-ce-cli"
+        ],
+        "provides": []
+      },
+      "maintainer": "Docker <support@docker.com>",
+      "section": "admin",
+      "priority": "optional"
+    },
+    {
+      "name": "docker-ce",
+      "repoId": "docker-ubuntu-plucky-stable",
+      "suite": "plucky",
+      "components": [
+        "stable"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "5:29.1.5-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.4-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.3-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.4-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.3-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.5.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.5.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.5.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.4.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.3.3-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.3.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.3.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.3.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.2.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.2.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.2.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.1.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.1.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "5:29.1.5-1~ubuntu.25.04~plucky",
+      "latestByArch": {
+        "amd64": "5:29.1.5-1~ubuntu.25.04~plucky"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Docker: the open-source application container engine",
+      "homepage": "https://www.docker.com",
+      "relationships": {
+        "depends": [
+          "containerd.io (>= 1.6.24)",
+          "containerd.io (>= 1.7.27)",
+          "docker-ce-cli",
+          "iptables",
+          "libc6 (>= 2.34)",
+          "libnftables1 (>= 1.0.2)",
+          "libsystemd0",
+          "nftables"
+        ],
+        "preDepends": [
+          "init-system-helpers (>= 1.54~)"
+        ],
+        "recommends": [
+          "apparmor",
+          "ca-certificates",
+          "docker-ce-rootless-extras",
+          "git",
+          "libltdl7",
+          "pigz",
+          "procps",
+          "xz-utils"
+        ],
+        "suggests": [
+          "cgroupfs-mount | cgroup-lite",
+          "kmod"
+        ],
+        "conflicts": [
+          "docker (<< 1.5~)",
+          "docker-engine",
+          "docker.io"
+        ],
+        "breaks": [],
+        "replaces": [
+          "docker-ce-cli (<< 5:28.0.0)",
+          "docker-engine"
+        ],
+        "provides": []
+      },
+      "maintainer": "Docker <support@docker.com>",
+      "section": "admin",
+      "priority": "optional"
+    },
+    {
+      "name": "docker-ce-cli",
+      "repoId": "docker-ubuntu-plucky-stable",
+      "suite": "plucky",
+      "components": [
+        "stable"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "5:29.1.5-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.4-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.3-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.4-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.3-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.5.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.5.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.5.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.4.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.3.3-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.3.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.3.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.3.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.2.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.2.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.2.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.1.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.1.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "5:29.1.5-1~ubuntu.25.04~plucky",
+      "latestByArch": {
+        "amd64": "5:29.1.5-1~ubuntu.25.04~plucky"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Docker CLI: the open-source application container engine",
+      "homepage": "https://www.docker.com",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.34)"
+        ],
+        "preDepends": [],
+        "recommends": [
+          "docker-buildx-plugin",
+          "docker-compose-plugin"
+        ],
+        "suggests": [
+          "docker-model-plugin"
+        ],
+        "conflicts": [
+          "docker (<< 1.5~)",
+          "docker-engine",
+          "docker.io"
+        ],
+        "breaks": [
+          "docker-ce (<< 5:0)"
+        ],
+        "replaces": [
+          "docker-ce (<< 5:0)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Docker <support@docker.com>",
+      "section": "admin",
+      "priority": "optional"
+    },
+    {
+      "name": "docker-ce-rootless-extras",
+      "repoId": "docker-ubuntu-plucky-stable",
+      "suite": "plucky",
+      "components": [
+        "stable"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "5:29.1.5-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.4-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.3-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.1.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.4-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.3-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:29.0.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.5.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.5.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.5.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.4.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.3.3-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.3.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.3.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.3.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.2.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.2.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.2.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.1.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5:28.1.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "5:29.1.5-1~ubuntu.25.04~plucky",
+      "latestByArch": {
+        "amd64": "5:29.1.5-1~ubuntu.25.04~plucky"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Rootless support for Docker.",
+      "homepage": "https://docs.docker.com/engine/security/rootless/",
+      "relationships": {
+        "depends": [
+          "dbus-user-session",
+          "libc6 (>= 2.34)"
+        ],
+        "preDepends": [],
+        "recommends": [
+          "slirp4netns (>= 0.4.0)",
+          "slirp4netns (>= 0.4.0) | passt"
+        ],
+        "suggests": [],
+        "conflicts": [
+          "rootlesskit"
+        ],
+        "breaks": [
+          "rootlesskit"
+        ],
+        "replaces": [
+          "rootlesskit"
+        ],
+        "provides": []
+      },
+      "maintainer": "Docker <support@docker.com>",
+      "section": "admin",
+      "priority": "optional"
+    },
+    {
+      "name": "docker-compose-plugin",
+      "repoId": "docker-ubuntu-plucky-stable",
+      "suite": "plucky",
+      "components": [
+        "stable"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "5.0.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5.0.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "5.0.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.40.3-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.40.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.40.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.40.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.39.4-0~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.39.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.39.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.38.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.38.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.37.3-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.36.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.35.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.35.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "5.0.2-1~ubuntu.25.04~plucky",
+      "latestByArch": {
+        "amd64": "5.0.2-1~ubuntu.25.04~plucky"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Docker Compose (V2) plugin for the Docker CLI.",
+      "homepage": "https://github.com/docker/compose",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [
+          "docker-buildx-plugin",
+          "docker-buildx-plugin (>= 0.17.0)"
+        ],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Docker <support@docker.com>",
+      "section": "admin",
+      "priority": "optional"
+    },
+    {
+      "name": "docker-model-plugin",
+      "repoId": "docker-ubuntu-plucky-stable",
+      "suite": "plucky",
+      "components": [
+        "stable"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.7-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.6-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.5-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.4-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.3-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.2-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.1-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.0-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.1.44-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.1.42-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.1.40-0~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.1.39-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.1.36-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.1.33-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.1.32-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.1.30-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "0.1.24-1~ubuntu.25.04~plucky",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.7-1~ubuntu.25.04~plucky",
+      "latestByArch": {
+        "amd64": "1.0.7-1~ubuntu.25.04~plucky"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Docker Model Runner plugin for the Docker CLI.",
+      "homepage": "https://docs.docker.com/model-runner/",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Docker <support@docker.com>",
+      "section": "admin",
+      "priority": "optional"
+    }
+  ]
+}

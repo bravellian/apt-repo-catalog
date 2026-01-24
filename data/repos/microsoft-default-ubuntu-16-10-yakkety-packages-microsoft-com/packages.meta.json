@@ -1,0 +1,42 @@
+{
+  "fetchedAt": "2026-01-24T17:51:40.441Z",
+  "repoId": "microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.10/prod yakkety main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "microsoft-ubuntu-yakkety-prod yakkety",
+    "Label": "microsoft-ubuntu-yakkety-prod yakkety",
+    "Suite": "yakkety",
+    "Codename": "yakkety",
+    "Architectures": "amd64 arm64 armhf all",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/run-NQ5swR/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_InRelease",
+    "inReleaseSha256": "70588c75fc70d7abfcd2535e1f4e426c30fe062e310e05951e693a2791ae9ba4"
+  },
+  "sources": [
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/run-NQ5swR/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/16.10/prod yakkety main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/run-NQ5swR/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260124T175140Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages",
+      "suite": "yakkety",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/run-NQ5swR/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260124T175140Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages",
+      "suite": "yakkety",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

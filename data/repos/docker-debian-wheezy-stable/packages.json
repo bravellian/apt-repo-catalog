@@ -1,0 +1,210 @@
+{
+  "generatedAt": "2026-01-24T17:52:06.003Z",
+  "packageCount": 1,
+  "packages": [
+    {
+      "name": "docker-ce",
+      "repoId": "docker-debian-wheezy-stable",
+      "suite": "wheezy",
+      "components": [
+        "stable"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "18.03.1~ce-0~debian",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "18.03.0~ce-0~debian",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "17.12.1~ce-0~debian",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "17.12.0~ce-0~debian",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "17.09.1~ce-0~debian",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "17.09.0~ce-0~debian",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "17.06.2~ce-0~debian",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "17.06.1~ce-0~debian",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "17.06.0~ce-0~debian",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "17.03.2~ce-0~debian-wheezy",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "17.03.1~ce-0~debian-wheezy",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "17.03.0~ce-0~debian-wheezy",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "stable"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-wheezy-stable/packages.raw/20260124T175205Z/download.docker.com_linux_debian_dists_wheezy_stable_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "18.03.1~ce-0~debian",
+      "latestByArch": {
+        "amd64": "18.03.1~ce-0~debian"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Docker: the open-source application container engine",
+      "homepage": "https://dockerproject.org",
+      "relationships": {
+        "depends": [
+          "init-system-helpers (>= 1.18~)",
+          "iptables",
+          "libapparmor1 (>= 2.6~devel)",
+          "libc6 (>= 2.4)",
+          "libc6 (>= 2.9)",
+          "libdevmapper1.02.1 (>= 2:1.02.63)",
+          "libltdl7 (>= 2.4.2)"
+        ],
+        "preDepends": [],
+        "recommends": [
+          "aufs-tools",
+          "ca-certificates",
+          "cgroupfs-mount | cgroup-lite",
+          "git",
+          "pigz",
+          "xz-utils"
+        ],
+        "suggests": [],
+        "conflicts": [
+          "docker (<< 1.5~)",
+          "docker-ee",
+          "docker-engine",
+          "docker-engine-cs",
+          "docker.io",
+          "lxc-docker",
+          "lxc-docker-virtual-package"
+        ],
+        "breaks": [],
+        "replaces": [
+          "docker-engine"
+        ],
+        "provides": []
+      },
+      "maintainer": "Docker <support@docker.com>",
+      "section": "admin",
+      "priority": "optional"
+    }
+  ]
+}

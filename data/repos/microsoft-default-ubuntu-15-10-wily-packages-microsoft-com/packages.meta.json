@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-24T17:51:38.964Z",
+  "repoId": "microsoft-default-ubuntu-15-10-wily-packages-microsoft-com",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/15.10/prod wily main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "microsoft-ubuntu-wily-prod wily",
+    "Label": "microsoft-ubuntu-wily-prod wily",
+    "Suite": "wily",
+    "Codename": "wily",
+    "Architectures": "amd64 arm64 armhf all",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-15-10-wily-packages-microsoft-com/run-2EiIBm/var/lib/apt/lists/packages.microsoft.com_ubuntu_15.10_prod_dists_wily_InRelease",
+    "inReleaseSha256": "498d602edb380a3e09c7f72efd5b7ab8ead20ec43e2e06e5f80cc862558e10ef"
+  },
+  "sources": [
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-15-10-wily-packages-microsoft-com/run-2EiIBm/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/15.10/prod wily main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-15-10-wily-packages-microsoft-com/run-2EiIBm/var/lib/apt/lists/packages.microsoft.com_ubuntu_15.10_prod_dists_wily_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-15-10-wily-packages-microsoft-com/packages.raw/20260124T175138Z/packages.microsoft.com_ubuntu_15.10_prod_dists_wily_main_binary-amd64_Packages",
+      "suite": "wily",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

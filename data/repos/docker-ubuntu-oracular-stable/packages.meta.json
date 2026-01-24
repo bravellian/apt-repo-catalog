@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-24T17:52:12.728Z",
+  "repoId": "docker-ubuntu-oracular-stable",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://download.docker.com/linux/ubuntu oracular stable",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Docker",
+    "Label": "Docker CE",
+    "Suite": "oracular",
+    "Codename": null,
+    "Architectures": "amd64 arm64 armhf s390x ppc64el",
+    "Components": "stable edge test nightly",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-oracular-stable/run-ZRBE9X/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_oracular_InRelease",
+    "inReleaseSha256": "6022557e5788c8d7223ea1b81973a89c227dee79fd977f29de6d092577f4814e"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-oracular-stable/run-ZRBE9X/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu oracular stable"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/docker-ubuntu-oracular-stable/run-ZRBE9X/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_oracular_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-oracular-stable/packages.raw/20260124T175212Z/download.docker.com_linux_ubuntu_dists_oracular_stable_binary-amd64_Packages",
+      "suite": "oracular",
+      "component": "stable",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

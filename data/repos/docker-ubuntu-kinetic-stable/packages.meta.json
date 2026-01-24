@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-24T17:52:10.773Z",
+  "repoId": "docker-ubuntu-kinetic-stable",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://download.docker.com/linux/ubuntu kinetic stable",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Docker",
+    "Label": "Docker CE",
+    "Suite": "kinetic",
+    "Codename": null,
+    "Architectures": "amd64 arm64 armhf s390x ppc64el",
+    "Components": "stable edge test nightly",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-kinetic-stable/run-s6U1Ge/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_kinetic_InRelease",
+    "inReleaseSha256": "bf58303d6287a84046b3e642bd33a9725d84d0c4dadd1090f308852fa1cafce7"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-kinetic-stable/run-s6U1Ge/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu kinetic stable"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/docker-ubuntu-kinetic-stable/run-s6U1Ge/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_kinetic_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-kinetic-stable/packages.raw/20260124T175210Z/download.docker.com_linux_ubuntu_dists_kinetic_stable_binary-amd64_Packages",
+      "suite": "kinetic",
+      "component": "stable",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

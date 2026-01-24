@@ -1,0 +1,683 @@
+{
+  "generatedAt": "2026-01-24T17:51:53.669Z",
+  "packageCount": 8,
+  "packages": [
+    {
+      "name": "aadsshlogin",
+      "repoId": "microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com",
+      "suite": "oracular",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.033070001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.031620001",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.030830001",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.030600001",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.033070001",
+      "latestByArch": {
+        "amd64": "1.0.033070001",
+        "arm64": "1.0.031620001"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "AAD NSS, PAM and certhandler extensions",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.38)",
+          "libcurl4t64 (>= 7.16.2)",
+          "libpam0g (>= 0.99.7.1)",
+          "libselinux1 (>= 3.1~)",
+          "libsemanage2 (>= 2.0.32)",
+          "libssl3t64 (>= 3.0.0)",
+          "libuuid1 (>= 2.16)",
+          "openssh-server (>=6.9)",
+          "passwd"
+        ],
+        "preDepends": [
+          "grep",
+          "sed"
+        ],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "aadlogin"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Yancho Yanev <yyanev@microsoft.com>",
+      "section": "utils",
+      "priority": "optional"
+    },
+    {
+      "name": "aadsshlogin-selinux",
+      "repoId": "microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com",
+      "suite": "oracular",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.033070001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.031620001",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.030830001",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.030600001",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.033070001",
+      "latestByArch": {
+        "amd64": "1.0.033070001",
+        "arm64": "1.0.031620001"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Selinux configuration for AAD NSS and PAM extensions.",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "policycoreutils (>=3.5-2)",
+          "selinux-policy-default",
+          "selinux-utils"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "aadlogin-selinux"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Yancho Yanev <yyanev@microsoft.com>",
+      "section": "utils",
+      "priority": "optional"
+    },
+    {
+      "name": "mdatp",
+      "repoId": "microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com",
+      "suite": "oracular",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "101.25102.0005",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25092.0005",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25092.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25092.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25082.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25072.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25062.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25052.0007",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25042.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25042.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25032.0010",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25032.0008",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25022.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "101.25102.0005",
+      "latestByArch": {
+        "amd64": "101.25102.0005"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft Defender (Production)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.23)",
+          "libpcre3",
+          "mde-netfilter",
+          "uuid-runtime"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft Defender Group <mdatplinuxpackages@microsoft.com>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "msodbcsql18",
+      "repoId": "microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com",
+      "suite": "oracular",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "18.5.1.1-1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "18.5.1.1-1",
+      "latestByArch": {
+        "amd64": "18.5.1.1-1",
+        "arm64": "18.5.1.1-1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "ODBC Driver for Microsoft(R) SQL Server(R)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "debconf (>= 0.5)",
+          "libc6 (>= 2.19)",
+          "libkrb5-3",
+          "libstdc++6 (>= 4.8.2)",
+          "odbcinst",
+          "openssl",
+          "unixodbc (>= 2.3.1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "libodbc1-utf16",
+          "odbcinst-utf16",
+          "odbcinst1debian2-utf16",
+          "unixodbc-utf16"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft SQL ODBC Team <mssql-odbc@microsoft.com>",
+      "section": "database",
+      "priority": null
+    },
+    {
+      "name": "mssql-tools18",
+      "repoId": "microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com",
+      "suite": "oracular",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "18.4.1.1-1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "18.4.1.1-1",
+      "latestByArch": {
+        "amd64": "18.4.1.1-1",
+        "arm64": "18.4.1.1-1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Tools for Microsoft(R) SQL Server(R)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "debconf (>= 0.5)",
+          "libc6 (>= 2.19)",
+          "libkrb5-3",
+          "libstdc++6 (>= 4.8.2)",
+          "msodbcsql18 (>= 18.0.0.0)",
+          "openssl"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft SQL Tools Team <mssql-tools@microsoft.com>",
+      "section": "database",
+      "priority": null
+    },
+    {
+      "name": "omi",
+      "repoId": "microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com",
+      "suite": "oracular",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.9.3.0",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.9.3.0",
+      "latestByArch": {
+        "amd64": "1.9.3.0"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Open Management Infrastructure",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.3.6)",
+          "libpam-runtime (>= 0.79-3)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": [
+          "omi"
+        ]
+      },
+      "maintainer": "Microsoft Corporation",
+      "section": "utils",
+      "priority": "optional"
+    },
+    {
+      "name": "packages-microsoft-prod",
+      "repoId": "microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com",
+      "suite": "oracular",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-all_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.1-ubuntu24.10",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-all_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.1-ubuntu24.10",
+      "latestByArch": {
+        "all": "1.1-ubuntu24.10"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "Apt configuration for packages.microsoft.com",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "ca-certificates"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Linux Repo Admins <aztuxrepo@microsoft.com>",
+      "section": "admin",
+      "priority": "optional"
+    },
+    {
+      "name": "scx",
+      "repoId": "microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com",
+      "suite": "oracular",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.9.3.0",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.9.3.0",
+      "latestByArch": {
+        "amd64": "1.9.3.0"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft System Center Operations Manager for UNIX/Linux agent",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "omi (>= 1.0.8.6)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": [
+          "scx"
+        ]
+      },
+      "maintainer": "Microsoft Corporation",
+      "section": "utils",
+      "priority": "optional"
+    }
+  ]
+}

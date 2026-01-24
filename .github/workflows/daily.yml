@@ -1,0 +1,250 @@
+name: Daily Maintenance
+
+on:
+  schedule:
+    - cron: "9 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-24.04
+            image: ubuntu:24.04
+          - os: ubuntu-22.04
+            image: ubuntu:22.04
+          - os: debian-13
+            image: debian:13
+          - os: debian-12
+            image: debian:12
+          - os: debian-11
+            image: debian:11
+    container:
+      image: ${{ matrix.image }}
+    steps:
+      - run: apt-get update && apt-get install -y git ca-certificates curl gnupg
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: |
+          curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
+          apt-get install -y nodejs
+      - run: npm ci
+      - run: node scripts/smoke-test-repos.mjs --os ${{ matrix.os }}
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-report-${{ matrix.os }}
+          path: reports/smoke/${{ matrix.os }}.json
+
+  summarize:
+    needs: [smoke]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: reports
+      - run: |
+          node - <<'NODE'
+          const fs = require("node:fs");
+          const path = require("node:path");
+
+          function readJson(filePath) {
+            return JSON.parse(fs.readFileSync(filePath, "utf8"));
+          }
+
+          const reportsDir = path.join(process.cwd(), "reports");
+          const entries = fs.readdirSync(reportsDir, { withFileTypes: true });
+          const results = [];
+
+          for (const entry of entries) {
+            if (!entry.isDirectory() || !entry.name.startsWith("smoke-report-")) {
+              continue;
+            }
+            const reportFiles = fs
+              .readdirSync(path.join(reportsDir, entry.name))
+              .filter((name) => name.endsWith(".json"));
+            for (const reportFile of reportFiles) {
+              const fullPath = path.join(reportsDir, entry.name, reportFile);
+              results.push(readJson(fullPath));
+            }
+          }
+
+          const summary = {
+            generatedAt: new Date().toISOString(),
+            reports: results
+          };
+
+          const outDir = path.join(process.cwd(), "reports", "summary");
+          fs.mkdirSync(outDir, { recursive: true });
+          fs.writeFileSync(
+            path.join(outDir, "summary.json"),
+            JSON.stringify(summary, null, 2) + "\n"
+          );
+          NODE
+      - uses: actions/upload-artifact@v4
+        with:
+          name: smoke-summary
+          path: reports/summary/summary.json
+
+  issue_report:
+    needs: [summarize]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: reports/smoke
+          merge-multiple: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/build-latest-report.mjs --inDir reports/smoke --out reports/latest.json
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("node:fs");
+            const path = require("node:path");
+
+            const title = "Repo smoke test failures (daily)";
+            const latestPath = path.join(process.cwd(), "reports", "latest.json");
+            const latest = JSON.parse(fs.readFileSync(latestPath, "utf8"));
+
+            const failures = Array.isArray(latest.failures) ? latest.failures : [];
+            const totals = latest.totals || { tested: 0, passed: 0, failed: 0, skipped: 0 };
+            const failureRows = failures.map(
+              (failure) => `- ${failure.os} ${failure.repoId} (${failure.classification || "apt_error"})`
+            );
+
+            const runUrl = `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`;
+            const generatedAt = latest.generatedAt || new Date().toISOString();
+
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              per_page: 100
+            });
+
+            const existing = issues.find((issue) => issue.title === title);
+
+            if (failures.length > 0) {
+              const body = [
+                `Generated at: ${generatedAt}`,
+                `Totals: tested=${totals.tested} passed=${totals.passed} failed=${totals.failed} skipped=${totals.skipped}`,
+                "",
+                "Failures:",
+                ...failureRows,
+                "",
+                `Run: ${runUrl}`
+              ].join("\n");
+
+              if (existing) {
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: existing.number,
+                  body
+                });
+              } else {
+                await github.rest.issues.create({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  title,
+                  body
+                });
+              }
+              return;
+            }
+
+            if (existing) {
+              const comment = `All repos passed on ${generatedAt}.`;
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: comment
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                state: "closed"
+              });
+            }
+
+  inventory_packages:
+    needs: [summarize]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: node scripts/apt-inventory.mjs fetch-packages-all --allow-failures true
+
+  update_catalog:
+    needs: [summarize, inventory_packages]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: reports/smoke
+          merge-multiple: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: node scripts/build-latest-report.mjs --inDir reports/smoke --out reports/latest.json
+      - run: node scripts/update-keys.mjs
+      - name: Record key refresh check
+        run: |
+          {
+            echo "## Signing key refresh check"
+            echo ""
+            echo "- Checked at: $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - run: node scripts/generate-catalog-md.mjs
+      - run: node scripts/generate-repo-docs.mjs
+      - id: date
+        run: echo "date=$(date +%Y%m%d)" >> "$GITHUB_OUTPUT"
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          branch: bot/daily-refresh-${{ steps.date.outputs.date }}
+          title: "chore(daily): refresh keys, reports, and docs"
+          commit-message: "chore(daily): refresh keys, reports, and docs"
+          body: |
+            ## Summary
+            - Refresh signing keys and provenance metadata.
+            - Update reports/latest.json from smoke test data.
+            - Regenerate CATALOG.md and repo documentation.
+
+            ## Reference
+            - keys/index.json
+            - reports/latest.json
+            - CATALOG.md
+          base: main
+          delete-branch: true
+          add-paths: |
+            keys/
+            keys/index.json
+            CATALOG.md
+            reports/latest.json
+            docs/README.md
+            docs/repos/
+          if-no-changes: exit

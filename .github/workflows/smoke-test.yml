@@ -2,8 +2,6 @@ name: APT Smoke Test
 
 on:
   pull_request:
-  schedule:
-    - cron: "7 2 * * *"
   workflow_dispatch:
 
 permissions:

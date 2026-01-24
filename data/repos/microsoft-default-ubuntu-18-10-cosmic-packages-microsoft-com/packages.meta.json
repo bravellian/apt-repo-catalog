@@ -1,0 +1,42 @@
+{
+  "fetchedAt": "2026-01-24T17:51:43.553Z",
+  "repoId": "microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/18.10/prod cosmic main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "microsoft-ubuntu-cosmic-prod cosmic",
+    "Label": "microsoft-ubuntu-cosmic-prod cosmic",
+    "Suite": "cosmic",
+    "Codename": "cosmic",
+    "Architectures": "amd64 arm64 armhf all",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/run-Ieg10T/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_InRelease",
+    "inReleaseSha256": "da2b0292b641b1de88b35954b4abcdeb227ec3acd2716669e13c5c1f58b520f1"
+  },
+  "sources": [
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/run-Ieg10T/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/18.10/prod cosmic main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/run-Ieg10T/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/packages.raw/20260124T175143Z/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_main_binary-all_Packages",
+      "suite": "cosmic",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/run-Ieg10T/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/packages.raw/20260124T175143Z/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_main_binary-amd64_Packages",
+      "suite": "cosmic",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,3939 @@
+{
+  "generatedAt": "2026-01-24T17:51:41.949Z",
+  "packageCount": 47,
+  "packages": [
+    {
+      "name": "aadlogin",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.016050002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.015950001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.015280001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.015090003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.014760002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.016050002",
+      "latestByArch": {
+        "amd64": "1.0.016050002"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "AAD NSS, PAM and certhandler extensions",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "libcurl3",
+          "libuuid1",
+          "openssh-server"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "aadsshlogin"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Yancho Yanev <yyanev@microsoft.com>",
+      "section": "utils",
+      "priority": "optional"
+    },
+    {
+      "name": "aadlogin-selinux",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.016050002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.015950001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.015280001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.015090003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.014760002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.016050002",
+      "latestByArch": {
+        "amd64": "1.0.016050002"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Selinux configuration for aadlogin NSS and PAM extensions.",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "policycoreutils (>=2.3-1)",
+          "selinux-policy-default",
+          "selinux-utils"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "aadsshlogin-selinux"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Yancho Yanev <yyanev@microsoft.com>",
+      "section": "utils",
+      "priority": "optional"
+    },
+    {
+      "name": "aadsshlogin",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.019900001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.019630001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.018440002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.017820002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.017540001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.019900001",
+      "latestByArch": {
+        "amd64": "1.0.019900001"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "AAD NSS, PAM and certhandler extensions",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "libcurl3",
+          "libuuid1",
+          "openssh-server (>=6.9)",
+          "passwd"
+        ],
+        "preDepends": [
+          "grep",
+          "sed"
+        ],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "aadlogin"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Yancho Yanev <yyanev@microsoft.com>",
+      "section": "utils",
+      "priority": "optional"
+    },
+    {
+      "name": "aadsshlogin-selinux",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.019900001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.019630001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.018440002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.017820002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.017540001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.019900001",
+      "latestByArch": {
+        "amd64": "1.0.019900001"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Selinux configuration for AAD NSS and PAM extensions.",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "policycoreutils (>=2.3-1)",
+          "selinux-policy-default",
+          "selinux-utils"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "aadlogin-selinux"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Yancho Yanev <yyanev@microsoft.com>",
+      "section": "utils",
+      "priority": "optional"
+    },
+    {
+      "name": "aspnetcore-store-2.0.0",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.0-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.0-1",
+      "latestByArch": {
+        "amd64": "2.0.0-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft ASP.NET Core 2.0.0 Runtime Package Store",
+      "homepage": "https://www.asp.net/",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.14)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <nugetaspnet@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "aspnetcore-store-2.0.3",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.3-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.3-1",
+      "latestByArch": {
+        "amd64": "2.0.3-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft ASP.NET Core 2.0.3 Runtime Package Store",
+      "homepage": "https://www.asp.net/",
+      "relationships": {
+        "depends": [
+          "aspnetcore-store-2.0.0"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <nugetaspnet@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "aspnetcore-store-2.0.5",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.5-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.5-1",
+      "latestByArch": {
+        "amd64": "2.0.5-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft ASP.NET Core 2.0.5 Runtime Package Store",
+      "homepage": "https://www.asp.net/",
+      "relationships": {
+        "depends": [
+          "aspnetcore-store-2.0.3"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <nugetaspnet@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "azcopy",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+      ],
+      "versions": [
+        {
+          "version": "7.1.0-netcorepreview",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+          ]
+        },
+        {
+          "version": "7.0.0-netcorepreview",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "7.1.0-netcorepreview",
+      "latestByArch": {
+        "all": "7.1.0-netcorepreview"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "Transferring data from/to azure storage blob/file",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "dotnet-runtime-2.0.0",
+          "dotnet-sdk-2.0.0(>= 2.0.0)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "AzCopy Dev<azcopydev@microsoft.com>",
+      "section": "admin",
+      "priority": null
+    },
+    {
+      "name": "azure-functions-core-tools",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.1~beta.31-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.0.1~beta.25-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.0.1~beta.23-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.0.1~beta.21-1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.1~beta.31-1",
+      "latestByArch": {
+        "all": "2.0.1~beta.21-1",
+        "amd64": "2.0.1~beta.31-1"
+      },
+      "architectures": [
+        "all",
+        "amd64"
+      ],
+      "descriptionShort": "Azure Function Cli 2.0",
+      "homepage": "https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#run-azure-functions-core-tools",
+      "relationships": {
+        "depends": [
+          "dotnet-runtime-deps-2.1 (>= 2.1.1)",
+          "dotnet-sdk-2.0.0"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "ShunXian Cai <shucai@microsoft.com>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "azure.function.cli",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.1~beta.21-1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.1~beta.21-1",
+      "latestByArch": {
+        "all": "2.0.1~beta.21-1"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "Azure Functions Core Tools",
+      "homepage": "https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#run-azure-functions-core-tools",
+      "relationships": {
+        "depends": [
+          "dotnet-sdk-2.0.0"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "ShunXian Cai <shucai@microsoft.com>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "blobfuse",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "0.2.1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "0.2.1",
+      "latestByArch": {
+        "amd64": "0.2.1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "FUSE adapter for Azure Blob Storage - MIT License",
+      "homepage": "https://github.com/azure/azure-storage-fuse",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.14)",
+          "libcurl3-gnutls (>= 7.16.2)",
+          "libfuse2 (>= 2.6)",
+          "libgcc1 (>= 1:3.0)",
+          "libgcrypt20 (>= 1.7.0)",
+          "libgnutls30 (>= 3.5.0)",
+          "libstdc++6 (>= 7)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft - Azure Storage",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "dotnet-dev-1.1.5",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.1.5-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.1.5-1",
+      "latestByArch": {
+        "amd64": "1.1.5-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": ".NET Core SDK 1.1.5",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "dotnet-sharedframework-microsoft.netcore.app-1.0.8",
+          "dotnet-sharedframework-microsoft.netcore.app-1.1.5",
+          "libc6 (>= 2.14)",
+          "libgcc1 (>= 1:3.0)",
+          "libstdc++6 (>= 5.2)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-dev-1.1.6",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.1.6-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.1.6-1",
+      "latestByArch": {
+        "amd64": "1.1.6-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": ".NET Core SDK 1.1.6",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "dotnet-sharedframework-microsoft.netcore.app-1.0.8",
+          "dotnet-sharedframework-microsoft.netcore.app-1.1.5",
+          "libc6 (>= 2.14)",
+          "libgcc1 (>= 1:3.0)",
+          "libstdc++6 (>= 5.2)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-dev-1.1.7",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.1.7-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.1.7-1",
+      "latestByArch": {
+        "amd64": "1.1.7-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": ".NET Core SDK 1.1.7",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "dotnet-sharedframework-microsoft.netcore.app-1.0.9",
+          "dotnet-sharedframework-microsoft.netcore.app-1.1.6",
+          "libc6 (>= 2.14)",
+          "libgcc1 (>= 1:3.0)",
+          "libstdc++6 (>= 5.2)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-host",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.5-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.0.4-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.0.3-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "2.0.0-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.1.0-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.5-1",
+      "latestByArch": {
+        "amd64": "2.0.5-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core Host - 2.0.5",
+      "homepage": "https://dotnet.github.io",
+      "relationships": {
+        "depends": [
+          "libc6 (>= 2.4)",
+          "libgcc1 (>= 1:3.0)",
+          "libstdc++6 (>= 4.8)",
+          "libstdc++6 (>= 5.2)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "dotnet",
+          "dotnet-nightly"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hostfxr-1.0.1",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.1-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.1-1",
+      "latestByArch": {
+        "amd64": "1.0.1-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core 1.0.6 - Host FX Resolver 1.0.1",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "dotnet-host (>= 1.0.1)",
+          "libc6 (>= 2.14)",
+          "libgcc1 (>= 1:3.0)",
+          "libstdc++6 (>= 5.2)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hostfxr-1.1.0",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.1.0-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.1.0-1",
+      "latestByArch": {
+        "amd64": "1.1.0-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core 1.1.3 - Host FX Resolver 1.1.0",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "dotnet-host (>= 1.1.0)",
+          "libc6 (>= 2.14)",
+          "libgcc1 (>= 1:3.0)",
+          "libstdc++6 (>= 5.2)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hostfxr-2.0.0",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.0-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.0-1",
+      "latestByArch": {
+        "amd64": "2.0.0-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core Host FX Resolver - 2.0.0 2.0.0",
+      "homepage": "https://dotnet.github.io",
+      "relationships": {
+        "depends": [
+          "dotnet-host (>= 2.0.0)",
+          "libc6 (>= 2.14)",
+          "libgcc1 (>= 1:3.0)",
+          "libstdc++6 (>= 4.8)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hostfxr-2.0.3",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.3-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.3-1",
+      "latestByArch": {
+        "amd64": "2.0.3-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core Host FX Resolver - 2.0.3 2.0.3",
+      "homepage": "https://dotnet.github.io",
+      "relationships": {
+        "depends": [
+          "dotnet-host (>= 2.0.3)",
+          "libc6 (>= 2.14)",
+          "libgcc1 (>= 1:3.0)",
+          "libstdc++6 (>= 4.8)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hostfxr-2.0.4",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.4-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.4-1",
+      "latestByArch": {
+        "amd64": "2.0.4-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core Host FX Resolver - 2.0.4 2.0.4",
+      "homepage": "https://dotnet.github.io",
+      "relationships": {
+        "depends": [
+          "dotnet-host (>= 2.0.4)",
+          "libc6 (>= 2.14)",
+          "libgcc1 (>= 1:3.0)",
+          "libstdc++6 (>= 4.8)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hostfxr-2.0.5",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.5-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.5-1",
+      "latestByArch": {
+        "amd64": "2.0.5-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core Host FX Resolver - 2.0.5 2.0.5",
+      "homepage": "https://dotnet.github.io",
+      "relationships": {
+        "depends": [
+          "dotnet-host (>= 2.0.5)",
+          "libc6 (>= 2.14)",
+          "libgcc1 (>= 1:3.0)",
+          "libstdc++6 (>= 4.8)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hosting-2.0.0",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.0-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.0-1",
+      "latestByArch": {
+        "amd64": "2.0.0-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core 2.0.0 Linux Server Hosting",
+      "homepage": "https://www.asp.net/",
+      "relationships": {
+        "depends": [
+          "aspnetcore-store-2.0.0",
+          "dotnet-runtime-2.0.0"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <nugetaspnet@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hosting-2.0.3",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.3-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.3-1",
+      "latestByArch": {
+        "amd64": "2.0.3-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core 2.0.3 Linux Server Hosting",
+      "homepage": "https://www.asp.net/",
+      "relationships": {
+        "depends": [
+          "aspnetcore-store-2.0.3",
+          "dotnet-runtime-2.0.3"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <nugetaspnet@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hosting-2.0.4",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.4-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.4-1",
+      "latestByArch": {
+        "amd64": "2.0.4-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core 2.0.4 Linux Server Hosting",
+      "homepage": "https://www.asp.net/",
+      "relationships": {
+        "depends": [
+          "aspnetcore-store-2.0.3",
+          "dotnet-runtime-2.0.4"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <nugetaspnet@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-hosting-2.0.5",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.5-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.5-1",
+      "latestByArch": {
+        "amd64": "2.0.5-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core 2.0.5 Linux Server Hosting",
+      "homepage": "https://www.asp.net/",
+      "relationships": {
+        "depends": [
+          "aspnetcore-store-2.0.5",
+          "dotnet-runtime-2.0.5"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <nugetaspnet@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-runtime-2.0.0",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.0-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.0-1",
+      "latestByArch": {
+        "amd64": "2.0.0-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core Runtime - 2.0.0 Microsoft.NETCore.App 2.0.0",
+      "homepage": "https://dotnet.github.io",
+      "relationships": {
+        "depends": [
+          "dotnet-hostfxr-2.0.0",
+          "libc6 (>= 2.14)",
+          "libcurl3 (>= 7.16.2)",
+          "libgcc1 (>= 1:3.0)",
+          "libgssapi-krb5-2 (>= 1.14+dfsg)",
+          "libicu57",
+          "liblttng-ust0 (>= 2.5.0)",
+          "libssl1.0.0",
+          "libstdc++6 (>= 4.8)",
+          "libunwind8",
+          "libuuid1 (>= 2.16)",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-runtime-2.0.3",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.3-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.3-1",
+      "latestByArch": {
+        "amd64": "2.0.3-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core Runtime - 2.0.3 Microsoft.NETCore.App 2.0.3",
+      "homepage": "https://dotnet.github.io",
+      "relationships": {
+        "depends": [
+          "dotnet-hostfxr-2.0.3",
+          "libc6 (>= 2.14)",
+          "libcurl3 (>= 7.16.2)",
+          "libgcc1 (>= 1:3.0)",
+          "libgssapi-krb5-2 (>= 1.14+dfsg)",
+          "libicu57",
+          "liblttng-ust0 (>= 2.5.0)",
+          "libssl1.0.0",
+          "libstdc++6 (>= 4.8)",
+          "libunwind8",
+          "libuuid1 (>= 2.16)",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-runtime-2.0.4",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.4-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.4-1",
+      "latestByArch": {
+        "amd64": "2.0.4-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core Runtime - 2.0.4 Microsoft.NETCore.App 2.0.4",
+      "homepage": "https://dotnet.github.io",
+      "relationships": {
+        "depends": [
+          "dotnet-hostfxr-2.0.4",
+          "libc6 (>= 2.14)",
+          "libcurl3 (>= 7.16.2)",
+          "libgcc1 (>= 1:3.0)",
+          "libgssapi-krb5-2 (>= 1.14+dfsg)",
+          "libicu57",
+          "liblttng-ust0 (>= 2.5.0)",
+          "libssl1.0.0",
+          "libstdc++6 (>= 4.8)",
+          "libunwind8",
+          "libuuid1 (>= 2.16)",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-runtime-2.0.5",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.5-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.5-1",
+      "latestByArch": {
+        "amd64": "2.0.5-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core Runtime - 2.0.5 Microsoft.NETCore.App 2.0.5",
+      "homepage": "https://dotnet.github.io",
+      "relationships": {
+        "depends": [
+          "dotnet-hostfxr-2.0.5",
+          "libc6 (>= 2.14)",
+          "libcurl3 (>= 7.16.2)",
+          "libgcc1 (>= 1:3.0)",
+          "libgssapi-krb5-2 (>= 1.14+dfsg)",
+          "libicu57",
+          "liblttng-ust0 (>= 2.5.0)",
+          "libssl1.0.0",
+          "libstdc++6 (>= 4.8)",
+          "libunwind8",
+          "libuuid1 (>= 2.16)",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sdk-2.0.0",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.0-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.0-1",
+      "latestByArch": {
+        "amd64": "2.0.0-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core SDK - 2.0.0",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "aspnetcore-store-2.0.0",
+          "dotnet-runtime-2.0.0"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sdk-2.0.2",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.2-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.2-1",
+      "latestByArch": {
+        "amd64": "2.0.2-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core SDK - 2.0.2",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "aspnetcore-store-2.0.0",
+          "dotnet-runtime-2.0.0"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sdk-2.0.3",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.0.3-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.0.3-1",
+      "latestByArch": {
+        "amd64": "2.0.3-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core SDK - 2.0.3",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "aspnetcore-store-2.0.3",
+          "dotnet-runtime-2.0.3"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sdk-2.1.2",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.1.2-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.1.2-1",
+      "latestByArch": {
+        "amd64": "2.1.2-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core SDK - 2.1.2",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "aspnetcore-store-2.0.3",
+          "dotnet-runtime-2.0.3"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sdk-2.1.3",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.1.3-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.1.3-1",
+      "latestByArch": {
+        "amd64": "2.1.3-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core SDK - 2.1.3",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "aspnetcore-store-2.0.3",
+          "dotnet-runtime-2.0.4"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sdk-2.1.4",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2.1.4-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2.1.4-1",
+      "latestByArch": {
+        "amd64": "2.1.4-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core SDK - 2.1.4",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "aspnetcore-store-2.0.5",
+          "dotnet-runtime-2.0.5"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "devel",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sharedframework-microsoft.netcore.app-1.0.8",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.8-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.8-1",
+      "latestByArch": {
+        "amd64": "1.0.8-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core 1.0.8 - Runtime Microsoft.NETCore.App 1.0.8",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "dotnet-hostfxr-1.0.1",
+          "libc6 (>= 2.14)",
+          "libcurl3 (>= 7.28.0)",
+          "libgcc1 (>= 1:3.0)",
+          "libgssapi-krb5-2 (>= 1.10+dfsg~)",
+          "libicu55 (>= 55.1-1~)",
+          "liblldb-3.6",
+          "liblttng-ust0 (>= 2.5.0)",
+          "libssl1.0.0 (>= 1.0.1)",
+          "libstdc++6 (>= 5.2)",
+          "libunwind8",
+          "libuuid1 (>= 2.16)",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sharedframework-microsoft.netcore.app-1.0.9",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0.9-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0.9-1",
+      "latestByArch": {
+        "amd64": "1.0.9-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core 1.0.9 - Runtime Microsoft.NETCore.App 1.0.9",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "dotnet-hostfxr-1.0.1",
+          "libc6 (>= 2.14)",
+          "libcurl3 (>= 7.28.0)",
+          "libgcc1 (>= 1:3.0)",
+          "libgssapi-krb5-2 (>= 1.10+dfsg~)",
+          "libicu55 (>= 55.1-1~)",
+          "liblldb-3.6",
+          "liblttng-ust0 (>= 2.5.0)",
+          "libssl1.0.0 (>= 1.0.1)",
+          "libstdc++6 (>= 5.2)",
+          "libunwind8",
+          "libuuid1 (>= 2.16)",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sharedframework-microsoft.netcore.app-1.1.5",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.1.5-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.1.5-1",
+      "latestByArch": {
+        "amd64": "1.1.5-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core 1.1.5 - Runtime Microsoft.NETCore.App 1.1.5",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "dotnet-hostfxr-1.1.0",
+          "libc6 (>= 2.14)",
+          "libcurl3 (>= 7.28.0)",
+          "libgcc1 (>= 1:3.0)",
+          "libgssapi-krb5-2 (>= 1.10+dfsg~)",
+          "libicu55 (>= 55.1-1~)",
+          "liblttng-ust0 (>= 2.5.0)",
+          "libssl1.0.0 (>= 1.0.1)",
+          "libstdc++6 (>= 5.2)",
+          "libunwind8",
+          "libuuid1 (>= 2.16)",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "dotnet-sharedframework-microsoft.netcore.app-1.1.6",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.1.6-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.1.6-1",
+      "latestByArch": {
+        "amd64": "1.1.6-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft .NET Core 1.1.6 - Runtime Microsoft.NETCore.App 1.1.6",
+      "homepage": "https://dotnet.github.io/core",
+      "relationships": {
+        "depends": [
+          "dotnet-hostfxr-1.1.0",
+          "libc6 (>= 2.14)",
+          "libcurl3 (>= 7.28.0)",
+          "libgcc1 (>= 1:3.0)",
+          "libgssapi-krb5-2 (>= 1.10+dfsg~)",
+          "libicu55 (>= 55.1-1~)",
+          "liblttng-ust0 (>= 2.5.0)",
+          "libssl1.0.0 (>= 1.0.1)",
+          "libstdc++6 (>= 5.2)",
+          "libunwind8",
+          "libuuid1 (>= 2.16)",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft <dotnetcore@microsoft.com>",
+      "section": "libs",
+      "priority": "standard"
+    },
+    {
+      "name": "mdatp",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "101.25102.0005",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25092.0005",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25092.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25092.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25082.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25072.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25062.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25052.0007",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25042.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25042.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25032.0010",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25032.0008",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25022.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25012.0000",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24122.0008",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24112.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24112.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24102.0000",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24092.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24082.0004",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24072.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24062.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24052.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24042.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24032.0007",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24022.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24012.0001",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23122.0002",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23112.0009",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23102.0003",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23092.0012",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23082.0011",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23082.0009",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23082.0006",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23072.0021",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23062.0010",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23052.0009",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.98.89",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.98.64",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.98.58",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.98.30",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.98.05",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.94.13",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.85.27",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.80.97",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.75.43",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.73.77",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.71.18",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.68.80",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.65.77",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.62.74",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.60.93",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.60.05",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.58.80",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.56.62",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.52.57",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.47.76",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.45.13",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.45.00",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.39.98",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.34.27",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.29.64",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25.72",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25.63",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.25.09",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.24.45",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.23.64",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.18.53",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.12.99",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.04.76",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.03.48",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.02.55",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "101.02.48",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "101.25102.0005",
+      "latestByArch": {
+        "amd64": "101.25102.0005"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft Defender (Production)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "auditd",
+          "curl (>= 7.5)",
+          "dmidecode",
+          "libatomic1",
+          "libc6 (>= 2.23)",
+          "libfuse2",
+          "libpcre3",
+          "libseccomp2",
+          "libselinux1",
+          "libuuid1",
+          "mde-netfilter",
+          "perl",
+          "python3",
+          "rsyslog",
+          "uuid-runtime"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft Defender Group <mdatplinuxpackages@microsoft.com>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "mde-netfilter",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "100.69.73",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.62",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.59",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.55",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.52",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.48",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.32",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "100.69.73",
+      "latestByArch": {
+        "amd64": "100.69.73"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft Defender for Endpoints Netfitler ({{{RELEASE_RING}}}) Microsoft Defender for Endpoints Netfilter is an open source software to filter packets in userspace",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "libglib2.0-0",
+          "libnetfilter-queue1"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft Defender for Endponts <mdatplinuxpackages@microsoft.com>",
+      "section": "devel",
+      "priority": "optional"
+    },
+    {
+      "name": "mde-netfilter-src",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "100.69.73-2",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+          ]
+        },
+        {
+          "version": "100.69.62-2",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "100.69.59-2",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.0.0-2",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "100.69.73-2",
+      "latestByArch": {
+        "all": "100.69.73-2",
+        "amd64": "100.69.62-2"
+      },
+      "architectures": [
+        "all",
+        "amd64"
+      ],
+      "descriptionShort": "Microsoft Defender for Endpoints Netfitler",
+      "homepage": "",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "root <root@f66f6bc14b8d>",
+      "section": "alien",
+      "priority": "extra"
+    },
+    {
+      "name": "msodbcsql",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "13.1.9.1-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "13.1.9.0-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "13.1.9.1-1",
+      "latestByArch": {
+        "amd64": "13.1.9.1-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "ODBC Driver for Microsoft(R) SQL Server(R)",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "debconf (>= 0.5)",
+          "libc6 (>= 2.21)",
+          "libcurl3",
+          "libkrb5-3",
+          "libstdc++6 (>= 4.9)",
+          "openssl",
+          "unixodbc (>= 2.3.1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [
+          "libodbc1-utf16",
+          "odbcinst-utf16",
+          "odbcinst1debian2-utf16",
+          "unixodbc-utf16"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft SQL ODBC Team <mssql-odbc@microsoft.com>",
+      "section": "database",
+      "priority": null
+    },
+    {
+      "name": "mssql-cli",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+      ],
+      "versions": [
+        {
+          "version": "0.15.0-1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+          ]
+        },
+        {
+          "version": "0.14.0-1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+          ]
+        },
+        {
+          "version": "0.13.0-1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+          ]
+        },
+        {
+          "version": "0.12.0-1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+          ]
+        },
+        {
+          "version": "0.11.0-1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+          ]
+        },
+        {
+          "version": "0.10.0-1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "0.15.0-1",
+      "latestByArch": {
+        "all": "0.15.0-1"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "mssql-cli",
+      "homepage": "https://github.com/dbcli/mssql-cli",
+      "relationships": {
+        "depends": [
+          "libicu52 | libicu55 | libicu57",
+          "libicu52 | libicu55 | libicu57 | libicu60",
+          "libunwind8"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Microsoft SQL Server CLI Team <sqlcli@microsoft.com>",
+      "section": "python",
+      "priority": "extra"
+    },
+    {
+      "name": "packages-microsoft-prod",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.0-3",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.0-3",
+      "latestByArch": {
+        "all": "1.0-3"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "Apt configuration for packages.microsoft.com",
+      "homepage": "",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Stephen Zarkos <stephen.zarkos@microsoft.com>",
+      "section": "admin",
+      "priority": "extra"
+    },
+    {
+      "name": "powershell",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "6.1.0~preview.2-1.ubuntu.17.04",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "6.1.0~preview.1-1.ubuntu.17.04",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "6.0.2-1.ubuntu.17.04",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "6.0.1-1.ubuntu.17.04",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "6.0.0-1.ubuntu.17.04",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "6.1.0~preview.2-1.ubuntu.17.04",
+      "latestByArch": {
+        "amd64": "6.1.0~preview.2-1.ubuntu.17.04"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "PowerShell is an automation and configuration management platform.",
+      "homepage": "https://microsoft.com/powershell",
+      "relationships": {
+        "depends": [
+          "libc6",
+          "libcurl3",
+          "libgcc1",
+          "libgssapi-krb5-2",
+          "libicu57",
+          "liblttng-ust0",
+          "libssl1.0.0",
+          "libstdc++6",
+          "libunwind8",
+          "libuuid1",
+          "zlib1g"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "PowerShell Team <PowerShellTeam@hotmail.com>",
+      "section": "shells",
+      "priority": "extra"
+    },
+    {
+      "name": "virtualclient",
+      "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.15.25",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.14.36",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.12.0",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.11.5",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.11.0",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.15.25",
+      "latestByArch": {
+        "amd64": "1.15.25"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "VirtualClient, the open sourced workload automation.",
+      "homepage": "",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Virtual Client Team <virtualclient@microsoft.com>",
+      "section": null,
+      "priority": null
+    }
+  ]
+}

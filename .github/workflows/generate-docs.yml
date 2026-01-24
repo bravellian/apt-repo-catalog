@@ -1,8 +1,6 @@
 name: Generate Catalog Docs
 
 on:
-  schedule:
-    - cron: "33 2 * * *"
   workflow_dispatch:
 
 permissions:

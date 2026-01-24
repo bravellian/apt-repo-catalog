@@ -1,0 +1,68 @@
+{
+  "fetchedAt": "2026-01-24T17:51:54.530Z",
+  "repoId": "microsoft-default-ubuntu-25-10-questing-packages-microsoft-com",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/ubuntu/25.10/prod questing main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "microsoft-ubuntu-questing-prod questing",
+    "Label": "microsoft-ubuntu-questing-prod questing",
+    "Suite": "questing",
+    "Codename": "questing",
+    "Date": "Fri, 23 Jan 2026 06:44:30 +0000",
+    "Architectures": "amd64 arm64 armhf all",
+    "Components": "main",
+    "Acquire-By-Hash": "yes",
+    "SHA512": ""
+  },
+  "sources": [
+    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/run-w6xEk9/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/25.10/prod questing main",
+    "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/Release",
+    "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-amd64/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-arm64/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-armhf/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-all/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "source": "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/packages.raw/20260124T175154Z/main/binary-amd64/Packages.gz",
+      "suite": "questing",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/packages.raw/20260124T175154Z/main/binary-arm64/Packages.gz",
+      "suite": "questing",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/packages.raw/20260124T175154Z/main/binary-armhf/Packages.gz",
+      "suite": "questing",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-all/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/packages.raw/20260124T175154Z/main/binary-all/Packages.gz",
+      "suite": "questing",
+      "component": "main",
+      "arch": "all"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://packages.microsoft.com/ubuntu/25.10/prod questing InRelease [3964 B]\nErr:1 https://packages.microsoft.com/ubuntu/25.10/prod questing InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EE4D7792F748182B\nReading package lists...\n\nW: GPG error: https://packages.microsoft.com/ubuntu/25.10/prod questing InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EE4D7792F748182B\nE: The repository 'https://packages.microsoft.com/ubuntu/25.10/prod questing InRelease' is not signed."
+    }
+  ]
+}
