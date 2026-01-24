@@ -52,8 +52,17 @@ function normalizeExpected(entry) {
   throw new Error(`Key ${entry.id} missing expected fingerprints`);
 }
 
-function getSourceUrl(entry) {
-  return entry.sourceUrl ?? entry.key_url;
+function getSourceUrls(entry) {
+  if (Array.isArray(entry.sourceUrls) && entry.sourceUrls.length > 0) {
+    return entry.sourceUrls;
+  }
+  if (entry.sourceUrl) {
+    return [entry.sourceUrl];
+  }
+  if (entry.key_url) {
+    return [entry.key_url];
+  }
+  return [];
 }
 
 function getOutputPath(entry) {
@@ -103,6 +112,7 @@ function ensureRepoPath(targetPath) {
 function buildMetadata({
   entry,
   sourceUrl,
+  sourceUrls,
   outputPath,
   retrievedAt,
   fingerprints,
@@ -119,6 +129,7 @@ function buildMetadata({
     label: getLabel(entry),
     status: entry.status ?? "active",
     sourceUrl,
+    sourceUrls,
     retrievedAt,
     fingerprints,
     keyCount,
@@ -157,8 +168,8 @@ async function main() {
       throw new Error("Key entry missing id");
     }
 
-    const sourceUrl = getSourceUrl(entry);
-    if (!sourceUrl) {
+    const sourceUrls = getSourceUrls(entry);
+    if (sourceUrls.length === 0) {
       throw new Error(`Key ${entry.id} missing sourceUrl`);
     }
 
@@ -169,14 +180,20 @@ async function main() {
 
     const expectedFingerprints = normalizeExpected(entry);
 
-    const downloadedBytes = await fetchBytes(sourceUrl);
-    const contentType = sniffContentType(downloadedBytes);
-    if (contentType === "html") {
-      throw new Error(`Downloaded content for ${entry.id} appears to be HTML`);
-    }
-    const downloadedKeys = await parsePublicKeys(downloadedBytes);
-    if (downloadedKeys.length === 0) {
-      throw new Error(`No public keys found for ${entry.id}`);
+    const downloadedBytesList = [];
+    let downloadedKeys = [];
+    for (const url of sourceUrls) {
+      const downloadedBytes = await fetchBytes(url);
+      const contentType = sniffContentType(downloadedBytes);
+      if (contentType === "html") {
+        throw new Error(`Downloaded content for ${entry.id} appears to be HTML`);
+      }
+      const keys = await parsePublicKeys(downloadedBytes);
+      if (keys.length === 0) {
+        throw new Error(`No public keys found for ${entry.id}`);
+      }
+      downloadedBytesList.push(downloadedBytes);
+      downloadedKeys = downloadedKeys.concat(keys);
     }
     const downloadedFingerprints = keyFingerprints(downloadedKeys).sort();
     const userIds = getUserIds(downloadedKeys);
@@ -191,11 +208,20 @@ async function main() {
     const existingArmored = await readOptionalText(resolvedOutputPath);
 
     const cachedBytes = new Uint8Array(Buffer.from(armored, "utf8"));
+    const combinedBytes = new Uint8Array(
+      downloadedBytesList.reduce((acc, chunk) => acc + chunk.length, 0)
+    );
+    let offset = 0;
+    for (const chunk of downloadedBytesList) {
+      combinedBytes.set(chunk, offset);
+      offset += chunk.length;
+    }
     const metaPath = path.join(outputMetaDir, `${entry.id}.json`);
     const existingMeta = await readOptionalJson(metaPath);
     const candidateMeta = buildMetadata({
       entry,
-      sourceUrl,
+      sourceUrl: sourceUrls[0],
+      sourceUrls,
       outputPath,
       retrievedAt: existingMeta?.retrievedAt ?? retrievedAt,
       fingerprints: downloadedFingerprints,
@@ -203,9 +229,9 @@ async function main() {
       userIds,
       keyIds,
       downloaded: {
-        sha256: sha256Hex(downloadedBytes),
-        sizeBytes: downloadedBytes.length,
-        contentType: contentType === "binary" || contentType === "armored" ? contentType : "unknown"
+        sha256: sha256Hex(combinedBytes),
+        sizeBytes: combinedBytes.length,
+        contentType: sourceUrls.length > 1 ? "multi" : sniffContentType(downloadedBytesList[0])
       },
       cached: {
         sha256: sha256Hex(cachedBytes),
@@ -225,7 +251,8 @@ async function main() {
     if (metaChanged) {
       const updatedMeta = buildMetadata({
         entry,
-        sourceUrl,
+        sourceUrl: sourceUrls[0],
+        sourceUrls,
         outputPath,
         retrievedAt,
         fingerprints: downloadedFingerprints,
@@ -233,10 +260,9 @@ async function main() {
         userIds,
         keyIds,
         downloaded: {
-          sha256: sha256Hex(downloadedBytes),
-          sizeBytes: downloadedBytes.length,
-          contentType:
-            contentType === "binary" || contentType === "armored" ? contentType : "unknown"
+          sha256: sha256Hex(combinedBytes),
+          sizeBytes: combinedBytes.length,
+          contentType: sourceUrls.length > 1 ? "multi" : sniffContentType(downloadedBytesList[0])
         },
         cached: {
           sha256: sha256Hex(cachedBytes),

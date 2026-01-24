@@ -1,0 +1,54 @@
+{
+  "id": "proxmox-archive-keyring-trixie",
+  "vendor": "proxmox",
+  "label": "Proxmox Archive Keyring (Trixie)",
+  "status": "active",
+  "sourceUrl": "https://enterprise.proxmox.com/debian/proxmox-archive-keyring-trixie.gpg",
+  "sourceUrls": [
+    "https://enterprise.proxmox.com/debian/proxmox-archive-keyring-trixie.gpg",
+    "https://enterprise.proxmox.com/debian/proxmox-release-trixie.gpg"
+  ],
+  "retrievedAt": "2026-01-24T22:03:32.003Z",
+  "fingerprints": [
+    "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
+    "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
+    "F4E136C67CDCE41AE6DE6FC81140AF8F639E0C39"
+  ],
+  "keyCount": 3,
+  "userIds": [
+    "Proxmox Bookworm Release Key <proxmox-release@proxmox.com>",
+    "Proxmox Trixie Release Key <proxmox-release@proxmox.com>"
+  ],
+  "primaryUserId": "Proxmox Bookworm Release Key <proxmox-release@proxmox.com>",
+  "keyIds": [
+    {
+      "fingerprint": "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
+      "keyIdLong": "A7BCD1420BFE778E",
+      "keyIdShort": "0BFE778E"
+    },
+    {
+      "fingerprint": "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
+      "keyIdLong": "A7BCD1420BFE778E",
+      "keyIdShort": "0BFE778E"
+    },
+    {
+      "fingerprint": "F4E136C67CDCE41AE6DE6FC81140AF8F639E0C39",
+      "keyIdLong": "1140AF8F639E0C39",
+      "keyIdShort": "639E0C39"
+    }
+  ],
+  "downloaded": {
+    "sha256": "4535817ee9c49b0f8c69525bdd6d3d6db722bad2257f866f5b18b8f463bb0dba",
+    "sizeBytes": 3557,
+    "contentType": "multi"
+  },
+  "cached": {
+    "sha256": "2533f8f706a006cb84785da5cb2000431925c1ff97304e63e6b11ca00a11671f",
+    "sizeBytes": 5064,
+    "outputPath": "keys/proxmox-archive-keyring-trixie.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
+    "fingerprintSuffix16": "A7BCD1420BFE778E"
+  }
+}

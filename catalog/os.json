@@ -1,0 +1,302 @@
+{
+  "oses": [
+    {
+      "id": "ubuntu-24.04",
+      "family": "ubuntu",
+      "label": "Ubuntu 24.04 (LTS)",
+      "channel": "lts",
+      "status": "current"
+    },
+    {
+      "id": "ubuntu-22.04",
+      "family": "ubuntu",
+      "label": "Ubuntu 22.04 (LTS)",
+      "channel": "lts",
+      "status": "current"
+    },
+    {
+      "id": "ubuntu-25.10",
+      "family": "ubuntu",
+      "label": "Ubuntu 25.10 (interim)",
+      "channel": "interim",
+      "status": "current"
+    },
+    {
+      "id": "ubuntu-25.04",
+      "family": "ubuntu",
+      "label": "Ubuntu 25.04 (interim)",
+      "channel": "interim",
+      "status": "current"
+    },
+    {
+      "id": "ubuntu-24.10",
+      "family": "ubuntu",
+      "label": "Ubuntu 24.10 (interim)",
+      "channel": "interim",
+      "status": "current"
+    },
+    {
+      "id": "ubuntu-23.10",
+      "family": "ubuntu",
+      "label": "Ubuntu 23.10 (interim)",
+      "channel": "interim",
+      "status": "current"
+    },
+    {
+      "id": "ubuntu-23.04",
+      "family": "ubuntu",
+      "label": "Ubuntu 23.04 (interim)",
+      "channel": "interim",
+      "status": "current"
+    },
+    {
+      "id": "ubuntu-22.10",
+      "family": "ubuntu",
+      "label": "Ubuntu 22.10 (interim)",
+      "channel": "interim",
+      "status": "current"
+    },
+    {
+      "id": "ubuntu-21.10",
+      "family": "ubuntu",
+      "label": "Ubuntu 21.10 (interim)",
+      "channel": "interim",
+      "status": "current"
+    },
+    {
+      "id": "ubuntu-21.04",
+      "family": "ubuntu",
+      "label": "Ubuntu 21.04 (interim)",
+      "channel": "interim",
+      "status": "current"
+    },
+    {
+      "id": "ubuntu-20.10",
+      "family": "ubuntu",
+      "label": "Ubuntu 20.10 (interim)",
+      "channel": "interim",
+      "status": "current"
+    },
+    {
+      "id": "ubuntu-20.04",
+      "family": "ubuntu",
+      "label": "Ubuntu 20.04 (LTS)",
+      "channel": "lts",
+      "status": "current"
+    },
+    {
+      "id": "generic",
+      "family": "generic",
+      "label": "Generic (cross-distribution)",
+      "channel": "generic",
+      "status": "current"
+    },
+    {
+      "id": "linuxmint-virginia",
+      "family": "ubuntu-derivative",
+      "label": "Linux Mint Virginia (21.x)",
+      "channel": "derivative",
+      "status": "current",
+      "inheritsFrom": "ubuntu-22.04"
+    },
+    {
+      "id": "linuxmint-zena",
+      "family": "ubuntu-derivative",
+      "label": "Linux Mint Zena (22.x)",
+      "channel": "derivative",
+      "status": "current",
+      "inheritsFrom": "ubuntu-24.04"
+    },
+    {
+      "id": "linuxmint-una",
+      "family": "ubuntu-derivative",
+      "label": "Linux Mint Una (20.x)",
+      "channel": "derivative",
+      "status": "legacy",
+      "inheritsFrom": "ubuntu-20.04"
+    },
+    {
+      "id": "linuxmint-tricia",
+      "family": "ubuntu-derivative",
+      "label": "Linux Mint Tricia (19.x)",
+      "channel": "derivative",
+      "status": "legacy",
+      "inheritsFrom": "ubuntu-18.04"
+    },
+    {
+      "id": "popos-24.04",
+      "family": "ubuntu-derivative",
+      "label": "Pop!_OS 24.04",
+      "channel": "derivative",
+      "status": "current",
+      "inheritsFrom": "ubuntu-24.04"
+    },
+    {
+      "id": "popos-22.04",
+      "family": "ubuntu-derivative",
+      "label": "Pop!_OS 22.04",
+      "channel": "derivative",
+      "status": "current",
+      "inheritsFrom": "ubuntu-22.04"
+    },
+    {
+      "id": "debian-13",
+      "family": "debian",
+      "label": "Debian 13 (testing)",
+      "channel": "testing",
+      "status": "current"
+    },
+    {
+      "id": "debian-12",
+      "family": "debian",
+      "label": "Debian 12 (stable)",
+      "channel": "stable",
+      "status": "current"
+    },
+    {
+      "id": "debian-11",
+      "family": "debian",
+      "label": "Debian 11 (oldstable)",
+      "channel": "oldstable",
+      "status": "current"
+    },
+    {
+      "id": "kali-rolling",
+      "family": "debian-derivative",
+      "label": "Kali (rolling)",
+      "channel": "derivative",
+      "status": "current",
+      "inheritsFrom": "debian-13"
+    },
+    {
+      "id": "proxmox-9",
+      "family": "debian-derivative",
+      "label": "Proxmox VE 9",
+      "channel": "derivative",
+      "status": "current",
+      "inheritsFrom": "debian-13"
+    },
+    {
+      "id": "proxmox-8",
+      "family": "debian-derivative",
+      "label": "Proxmox VE 8",
+      "channel": "derivative",
+      "status": "current",
+      "inheritsFrom": "debian-12"
+    },
+    {
+      "id": "proxmox-7",
+      "family": "debian-derivative",
+      "label": "Proxmox VE 7",
+      "channel": "derivative",
+      "status": "legacy",
+      "inheritsFrom": "debian-11"
+    },
+    {
+      "id": "proxmox-6",
+      "family": "debian-derivative",
+      "label": "Proxmox VE 6",
+      "channel": "derivative",
+      "status": "legacy",
+      "inheritsFrom": "debian-10"
+    },
+    {
+      "id": "ubuntu-19.10",
+      "family": "ubuntu",
+      "label": "Ubuntu 19.10 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "ubuntu-19.04",
+      "family": "ubuntu",
+      "label": "Ubuntu 19.04 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "ubuntu-18.10",
+      "family": "ubuntu",
+      "label": "Ubuntu 18.10 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "ubuntu-18.04",
+      "family": "ubuntu",
+      "label": "Ubuntu 18.04 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "ubuntu-17.10",
+      "family": "ubuntu",
+      "label": "Ubuntu 17.10 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "ubuntu-17.04",
+      "family": "ubuntu",
+      "label": "Ubuntu 17.04 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "ubuntu-16.10",
+      "family": "ubuntu",
+      "label": "Ubuntu 16.10 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "ubuntu-16.04",
+      "family": "ubuntu",
+      "label": "Ubuntu 16.04 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "ubuntu-15.10",
+      "family": "ubuntu",
+      "label": "Ubuntu 15.10 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "ubuntu-14.04",
+      "family": "ubuntu",
+      "label": "Ubuntu 14.04 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "debian-10",
+      "family": "debian",
+      "label": "Debian 10 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "debian-9",
+      "family": "debian",
+      "label": "Debian 9 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "debian-8",
+      "family": "debian",
+      "label": "Debian 8 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    },
+    {
+      "id": "debian-7",
+      "family": "debian",
+      "label": "Debian 7 (legacy)",
+      "channel": "legacy",
+      "status": "legacy"
+    }
+  ]
+}

@@ -8,17 +8,14 @@ _This file is generated from catalog data. Do not edit manually._
 
 ## debian-11
 - [Docker - Debian (Bullseye) - stable (docker-debian-bullseye-stable)](repos/docker-debian-bullseye-stable.md)
-- [Kubernetes core stable v1.35 - Debian 11 (Bullseye) (kubernetes-core-stable-v1.35-debian-11)](repos/kubernetes-core-stable-v1.35-debian-11.md)
 - [Microsoft - debian-11 - default (microsoft-default-debian-11-bullseye-packages-microsoft-com)](repos/microsoft-default-debian-11-bullseye-packages-microsoft-com.md)
 
 ## debian-12
 - [Docker - Debian (Bookworm) - stable (docker-debian-bookworm-stable)](repos/docker-debian-bookworm-stable.md)
-- [Kubernetes core stable v1.35 - Debian 12 (kubernetes-core-stable-v1.35-debian-12)](repos/kubernetes-core-stable-v1.35-debian-12.md)
 - [Microsoft - debian-12 - default (microsoft-default-debian-12-bookworm-packages-microsoft-com)](repos/microsoft-default-debian-12-bookworm-packages-microsoft-com.md)
 
 ## debian-13
 - [Docker - Debian (Trixie) - stable (docker-debian-trixie-stable)](repos/docker-debian-trixie-stable.md)
-- [Kubernetes core stable v1.35 - Debian 13 (Trixie) (kubernetes-core-stable-v1.35-debian-13)](repos/kubernetes-core-stable-v1.35-debian-13.md)
 - [Microsoft - debian-13 - default (microsoft-default-debian-13-trixie-packages-microsoft-com)](repos/microsoft-default-debian-13-trixie-packages-microsoft-com.md)
 
 ## debian-7
@@ -31,6 +28,50 @@ _This file is generated from catalog data. Do not edit manually._
 ## debian-9
 - [Docker - Debian (Stretch) - stable (docker-debian-stretch-stable)](repos/docker-debian-stretch-stable.md)
 - [Microsoft - debian-9 - default (microsoft-default-debian-9-stretch-packages-microsoft-com)](repos/microsoft-default-debian-9-stretch-packages-microsoft-com.md)
+
+## generic
+- [Kubernetes core stable v1.35 (generic) (kubernetes-core-stable-v1.35-generic)](repos/kubernetes-core-stable-v1.35-generic.md)
+
+## kali-rolling
+- [Kali Rolling (kali-rolling)](repos/kali-rolling.md)
+
+## linuxmint-tricia
+- [Linux Mint Tricia - main (linuxmint-tricia-main)](repos/linuxmint-tricia-main.md)
+
+## linuxmint-una
+- [Linux Mint Una - main (linuxmint-una-main)](repos/linuxmint-una-main.md)
+
+## linuxmint-virginia
+- [Linux Mint Virginia - main (linuxmint-virginia-main)](repos/linuxmint-virginia-main.md)
+
+## linuxmint-zena
+- [Linux Mint Zena - main (linuxmint-zena-main)](repos/linuxmint-zena-main.md)
+
+## popos-22.04
+- [Pop!_OS proprietary - 22.04 (popos-proprietary-22.04)](repos/popos-proprietary-22.04.md)
+- [Pop!_OS release - 22.04 (popos-release-22.04)](repos/popos-release-22.04.md)
+
+## popos-24.04
+- [Pop!_OS proprietary - 24.04 (popos-proprietary-24.04)](repos/popos-proprietary-24.04.md)
+- [Pop!_OS release - 24.04 (popos-release-24.04)](repos/popos-release-24.04.md)
+
+## proxmox-7
+- [Proxmox VE 7 - enterprise (proxmox-ve-7-enterprise)](repos/proxmox-ve-7-enterprise.md)
+- [Proxmox VE 7 - no-subscription (proxmox-ve-7-no-subscription)](repos/proxmox-ve-7-no-subscription.md)
+- [Proxmox VE 7 - test (proxmox-ve-7-test)](repos/proxmox-ve-7-test.md)
+
+## proxmox-8
+- [Proxmox VE 8 - enterprise (proxmox-ve-8-enterprise)](repos/proxmox-ve-8-enterprise.md)
+- [Proxmox VE 8 - no-subscription (proxmox-ve-8-no-subscription)](repos/proxmox-ve-8-no-subscription.md)
+- [Proxmox VE 8 - test (proxmox-ve-8-test)](repos/proxmox-ve-8-test.md)
+
+## proxmox-9
+- [Proxmox Ceph Squid - enterprise (proxmox-ceph-squid-enterprise)](repos/proxmox-ceph-squid-enterprise.md)
+- [Proxmox Ceph Squid - no-subscription (proxmox-ceph-squid-no-subscription)](repos/proxmox-ceph-squid-no-subscription.md)
+- [Proxmox Ceph Squid - test (proxmox-ceph-squid-test)](repos/proxmox-ceph-squid-test.md)
+- [Proxmox VE 9 - enterprise (proxmox-ve-9-enterprise)](repos/proxmox-ve-9-enterprise.md)
+- [Proxmox VE 9 - no-subscription (proxmox-ve-9-no-subscription)](repos/proxmox-ve-9-no-subscription.md)
+- [Proxmox VE 9 - test (proxmox-ve-9-test)](repos/proxmox-ve-9-test.md)
 
 ## ubuntu-14.04
 - [Docker - Ubuntu (Trusty) - stable (docker-ubuntu-trusty-stable)](repos/docker-ubuntu-trusty-stable.md)
@@ -73,7 +114,6 @@ _This file is generated from catalog data. Do not edit manually._
 
 ## ubuntu-20.04
 - [Docker - Ubuntu (Focal) - stable (docker-ubuntu-focal-stable)](repos/docker-ubuntu-focal-stable.md)
-- [Kubernetes core stable v1.35 - Ubuntu 20.04 (Focal) (kubernetes-core-stable-v1.35-ubuntu-20.04)](repos/kubernetes-core-stable-v1.35-ubuntu-20.04.md)
 - [Microsoft - ubuntu-20.04 - default (microsoft-default-ubuntu-20-04-focal-packages-microsoft-com)](repos/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com.md)
 
 ## ubuntu-20.10
@@ -90,7 +130,6 @@ _This file is generated from catalog data. Do not edit manually._
 
 ## ubuntu-22.04
 - [Docker - Ubuntu (Jammy) - stable (docker-ubuntu-jammy-stable)](repos/docker-ubuntu-jammy-stable.md)
-- [Kubernetes core stable v1.35 - Ubuntu 22.04 (kubernetes-core-stable-v1.35-ubuntu-22.04)](repos/kubernetes-core-stable-v1.35-ubuntu-22.04.md)
 - [Microsoft - ubuntu-22.04 - default (microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com)](repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com.md)
 
 ## ubuntu-22.10
@@ -107,7 +146,6 @@ _This file is generated from catalog data. Do not edit manually._
 
 ## ubuntu-24.04
 - [Docker - Ubuntu (Noble) - stable (docker-ubuntu-noble-stable)](repos/docker-ubuntu-noble-stable.md)
-- [Kubernetes core stable v1.35 - Ubuntu 24.04 (kubernetes-core-stable-v1.35-ubuntu-24.04)](repos/kubernetes-core-stable-v1.35-ubuntu-24.04.md)
 - [Microsoft - ubuntu-24.04 - default (microsoft-default-ubuntu-24-04-noble-packages-microsoft-com)](repos/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com.md)
 
 ## ubuntu-24.10
@@ -441,10 +479,6 @@ _This file is generated from catalog data. Do not edit manually._
   - Install: `sudo apt-get install containernetworking-plugins`
   - Provided by: microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com (bionic/main), microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main), microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main), microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main)
   - Latest versions: microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com (bionic/main): 1.7.1-ubuntu18.04u4, microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main): 1.9.0-ubuntu20.04u1, microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main): 1.9.0-ubuntu22.04u1, microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main): 1.9.0-ubuntu24.04u1
-- **cri-tools**
-  - Install: `sudo apt-get install cri-tools`
-  - Provided by: kubernetes-core-stable-v1.35-debian-11 (/), kubernetes-core-stable-v1.35-debian-12 (/), kubernetes-core-stable-v1.35-debian-13 (/), kubernetes-core-stable-v1.35-ubuntu-20.04 (/), kubernetes-core-stable-v1.35-ubuntu-22.04 (/), kubernetes-core-stable-v1.35-ubuntu-24.04 (/)
-  - Latest versions: kubernetes-core-stable-v1.35-debian-11 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-debian-12 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-debian-13 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-ubuntu-20.04 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-ubuntu-22.04 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-ubuntu-24.04 (/): 1.35.0-1.1
 ### <a id="all-packages-D"></a>D
 - **dcgm-exporter**
   - Install: `sudo apt-get install dcgm-exporter`
@@ -1166,20 +1200,20 @@ _This file is generated from catalog data. Do not edit manually._
   - Latest versions: microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com (xenial/main): 1.1-4, microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com (bionic/main): 1.1-6, microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main): 1.1-6, microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main): 1.1-6
 - **kubeadm**
   - Install: `sudo apt-get install kubeadm`
-  - Provided by: kubernetes-core-stable-v1.35-debian-11 (/), kubernetes-core-stable-v1.35-debian-12 (/), kubernetes-core-stable-v1.35-debian-13 (/), kubernetes-core-stable-v1.35-ubuntu-20.04 (/), kubernetes-core-stable-v1.35-ubuntu-22.04 (/), kubernetes-core-stable-v1.35-ubuntu-24.04 (/), microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main), microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main), microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main)
-  - Latest versions: kubernetes-core-stable-v1.35-debian-11 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-debian-12 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-debian-13 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-ubuntu-20.04 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-ubuntu-22.04 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-ubuntu-24.04 (/): 1.35.0-1.1, microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main): 1.35.0-ubuntu20.04u1, microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main): 1.35.0-ubuntu22.04u1, microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main): 1.35.0-ubuntu24.04u1
+  - Provided by: microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main), microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main), microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main)
+  - Latest versions: microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main): 1.35.0-ubuntu20.04u1, microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main): 1.35.0-ubuntu22.04u1, microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main): 1.35.0-ubuntu24.04u1
 - **kubectl**
   - Install: `sudo apt-get install kubectl`
-  - Provided by: kubernetes-core-stable-v1.35-debian-11 (/), kubernetes-core-stable-v1.35-debian-12 (/), kubernetes-core-stable-v1.35-debian-13 (/), kubernetes-core-stable-v1.35-ubuntu-20.04 (/), kubernetes-core-stable-v1.35-ubuntu-22.04 (/), kubernetes-core-stable-v1.35-ubuntu-24.04 (/), microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main), microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main), microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main)
-  - Latest versions: kubernetes-core-stable-v1.35-debian-11 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-debian-12 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-debian-13 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-ubuntu-20.04 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-ubuntu-22.04 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-ubuntu-24.04 (/): 1.35.0-1.1, microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main): 1.35.0-ubuntu20.04u1, microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main): 1.35.0-ubuntu22.04u1, microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main): 1.35.0-ubuntu24.04u1
+  - Provided by: microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main), microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main), microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main)
+  - Latest versions: microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main): 1.35.0-ubuntu20.04u1, microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main): 1.35.0-ubuntu22.04u1, microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main): 1.35.0-ubuntu24.04u1
 - **kubectl-gadget**
   - Install: `sudo apt-get install kubectl-gadget`
   - Provided by: microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com (bionic/main), microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main), microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main)
   - Latest versions: microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com (bionic/main): 0.45.0-ubuntu18.04u1, microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main): 0.48.0-ubuntu20.04u1, microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main): 0.48.0-ubuntu22.04u1
 - **kubelet**
   - Install: `sudo apt-get install kubelet`
-  - Provided by: kubernetes-core-stable-v1.35-debian-11 (/), kubernetes-core-stable-v1.35-debian-12 (/), kubernetes-core-stable-v1.35-debian-13 (/), kubernetes-core-stable-v1.35-ubuntu-20.04 (/), kubernetes-core-stable-v1.35-ubuntu-22.04 (/), kubernetes-core-stable-v1.35-ubuntu-24.04 (/), microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main), microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main), microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main)
-  - Latest versions: kubernetes-core-stable-v1.35-debian-11 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-debian-12 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-debian-13 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-ubuntu-20.04 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-ubuntu-22.04 (/): 1.35.0-1.1, kubernetes-core-stable-v1.35-ubuntu-24.04 (/): 1.35.0-1.1, microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main): 1.35.0-ubuntu20.04u1, microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main): 1.35.0-ubuntu22.04u1, microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main): 1.35.0-ubuntu24.04u1
+  - Provided by: microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main), microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main), microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main)
+  - Latest versions: microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main): 1.35.0-ubuntu20.04u1, microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main): 1.35.0-ubuntu22.04u1, microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main): 1.35.0-ubuntu24.04u1
 - **kubelogin**
   - Install: `sudo apt-get install kubelogin`
   - Provided by: microsoft-default-debian-12-bookworm-packages-microsoft-com (bookworm/main), microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com (bionic/main), microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main), microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main), microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main)
@@ -1188,10 +1222,6 @@ _This file is generated from catalog data. Do not edit manually._
   - Install: `sudo apt-get install kubelogin-dbgsym`
   - Provided by: microsoft-default-debian-12-bookworm-packages-microsoft-com (bookworm/main)
   - Latest versions: microsoft-default-debian-12-bookworm-packages-microsoft-com (bookworm/main): 0.2.14-debian12u1
-- **kubernetes-cni**
-  - Install: `sudo apt-get install kubernetes-cni`
-  - Provided by: kubernetes-core-stable-v1.35-debian-11 (/), kubernetes-core-stable-v1.35-debian-12 (/), kubernetes-core-stable-v1.35-debian-13 (/), kubernetes-core-stable-v1.35-ubuntu-20.04 (/), kubernetes-core-stable-v1.35-ubuntu-22.04 (/), kubernetes-core-stable-v1.35-ubuntu-24.04 (/)
-  - Latest versions: kubernetes-core-stable-v1.35-debian-11 (/): 1.8.0-1.1, kubernetes-core-stable-v1.35-debian-12 (/): 1.8.0-1.1, kubernetes-core-stable-v1.35-debian-13 (/): 1.8.0-1.1, kubernetes-core-stable-v1.35-ubuntu-20.04 (/): 1.8.0-1.1, kubernetes-core-stable-v1.35-ubuntu-22.04 (/): 1.8.0-1.1, kubernetes-core-stable-v1.35-ubuntu-24.04 (/): 1.8.0-1.1
 - **kubernetes-coredns**
   - Install: `sudo apt-get install kubernetes-coredns`
   - Provided by: microsoft-default-ubuntu-20-04-focal-packages-microsoft-com (focal/main), microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com (jammy/main), microsoft-default-ubuntu-24-04-noble-packages-microsoft-com (noble/main)

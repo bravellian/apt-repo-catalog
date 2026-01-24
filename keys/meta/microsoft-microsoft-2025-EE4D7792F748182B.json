@@ -4,7 +4,10 @@
   "label": "Microsoft Packages (2025)",
   "status": "active",
   "sourceUrl": "https://packages.microsoft.com/keys/microsoft-2025.asc",
-  "retrievedAt": "2026-01-24T15:28:41.974Z",
+  "sourceUrls": [
+    "https://packages.microsoft.com/keys/microsoft-2025.asc"
+  ],
+  "retrievedAt": "2026-01-24T21:47:34.332Z",
   "fingerprints": [
     "AA86F75E427A19DD33346403EE4D7792F748182B"
   ],

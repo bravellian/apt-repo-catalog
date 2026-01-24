@@ -1,0 +1,40 @@
+{
+  "id": "popos-lookup-204dd8aec33a7aff",
+  "vendor": "popos",
+  "label": "Pop!_OS ISO",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x204DD8AEC33A7AFF",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x204DD8AEC33A7AFF"
+  ],
+  "retrievedAt": "2026-01-24T21:47:34.332Z",
+  "fingerprints": [
+    "63C46DF0140D738961429F4E204DD8AEC33A7AFF"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Pop OS (ISO Signing Key) <info@system76.com>"
+  ],
+  "primaryUserId": "Pop OS (ISO Signing Key) <info@system76.com>",
+  "keyIds": [
+    {
+      "fingerprint": "63C46DF0140D738961429F4E204DD8AEC33A7AFF",
+      "keyIdLong": "204DD8AEC33A7AFF",
+      "keyIdShort": "C33A7AFF"
+    }
+  ],
+  "downloaded": {
+    "sha256": "8d487ef7c379001421f573cd905c8e4581b7c65978816ee80990ea4c476da258",
+    "sizeBytes": 3130,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "1a8c5eda939799f6d8547f27ae337e64ee2c39b6684927dc47d94c47f1633dc7",
+    "sizeBytes": 3089,
+    "outputPath": "keys/popos-lookup-204dd8aec33a7aff.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "63C46DF0140D738961429F4E204DD8AEC33A7AFF",
+    "fingerprintSuffix16": "204DD8AEC33A7AFF"
+  }
+}

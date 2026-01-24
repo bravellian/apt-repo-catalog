@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:51:45.564Z",
+  "fetchedAt": "2026-01-24T21:11:55.430Z",
   "repoId": "microsoft-default-ubuntu-20-04-focal-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,37 +16,37 @@
     "Codename": "focal",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/run-qS2C0l/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/run-EbGWLX/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_InRelease",
     "inReleaseSha256": "005adf936c115ea403ce2a5671c65ad6a3a2070a547c5e3fbc9ebea5612c0ce3"
   },
   "sources": [
-    "deb [arch=amd64,armhf,arm64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/run-qS2C0l/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/20.04/prod focal main"
+    "deb [arch=amd64,armhf,arm64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/run-EbGWLX/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/20.04/prod focal main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/run-qS2C0l/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/packages.raw/20260124T175145Z/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/run-EbGWLX/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/packages.raw/20260124T211155Z/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-all_Packages",
       "suite": "focal",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/run-qS2C0l/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/packages.raw/20260124T175145Z/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/run-EbGWLX/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/packages.raw/20260124T211155Z/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-amd64_Packages",
       "suite": "focal",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/run-qS2C0l/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/packages.raw/20260124T175145Z/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-arm64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/run-EbGWLX/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-arm64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/packages.raw/20260124T211155Z/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-arm64_Packages",
       "suite": "focal",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/run-qS2C0l/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-armhf_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/packages.raw/20260124T175145Z/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-armhf_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/run-EbGWLX/var/lib/apt/lists/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-armhf_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com/packages.raw/20260124T211155Z/packages.microsoft.com_ubuntu_20.04_prod_dists_focal_main_binary-armhf_Packages",
       "suite": "focal",
       "component": "main",
       "arch": "armhf"

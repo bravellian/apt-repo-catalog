@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:51:41.195Z",
+  "fetchedAt": "2026-01-24T21:11:49.225Z",
   "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,23 +16,23 @@
     "Codename": "zesty",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/run-JRYSAx/var/lib/apt/lists/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/run-2aDoLI/var/lib/apt/lists/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_InRelease",
     "inReleaseSha256": "6f3dc2c6a158ad0b53402e0531ecabb5f8d7920bcff8279ae157362fe41ed1d6"
   },
   "sources": [
-    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/run-JRYSAx/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/17.04/prod zesty main"
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/run-2aDoLI/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/17.04/prod zesty main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/run-JRYSAx/var/lib/apt/lists/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/run-2aDoLI/var/lib/apt/lists/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T211149Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-all_Packages",
       "suite": "zesty",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/run-JRYSAx/var/lib/apt/lists/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T175141Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/run-2aDoLI/var/lib/apt/lists/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com/packages.raw/20260124T211149Z/packages.microsoft.com_ubuntu_17.04_prod_dists_zesty_main_binary-amd64_Packages",
       "suite": "zesty",
       "component": "main",
       "arch": "amd64"

@@ -4,7 +4,10 @@
   "label": "Microsoft Packages",
   "status": "active",
   "sourceUrl": "https://packages.microsoft.com/keys/microsoft.asc",
-  "retrievedAt": "2026-01-24T15:28:41.974Z",
+  "sourceUrls": [
+    "https://packages.microsoft.com/keys/microsoft.asc"
+  ],
+  "retrievedAt": "2026-01-24T21:47:34.332Z",
   "fingerprints": [
     "BC528686B50D79E339D3721CEB3E94ADBE1229CF"
   ],

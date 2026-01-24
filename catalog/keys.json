@@ -61,6 +61,123 @@
       "documentationUrl": "https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/",
       "createdAt": "2026-01-20T20:58:18.689Z",
       "keyCount": 1
+    },
+    {
+      "id": "kali-archive-keyring",
+      "vendor": "kali",
+      "label": "Kali Archive",
+      "sourceUrl": "https://archive.kali.org/archive-keyring.gpg",
+      "expectedFingerprints": [
+        "827C8569F2518CC677FECA1AED65462EC8D5E4C5",
+        "44C6513A8E4FB3D30875F758ED444FF07D8D0BF6"
+      ],
+      "outputPath": "keys/kali-archive-keyring.asc",
+      "status": "active",
+      "documentationUrl": "https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/",
+      "createdAt": "2026-01-24T00:00:00.000Z",
+      "keyCount": 2
+    },
+    {
+      "id": "popos-lookup-204dd8aec33a7aff",
+      "vendor": "popos",
+      "label": "Pop!_OS ISO",
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x204DD8AEC33A7AFF",
+      "expectedFingerprints": [
+        "63C46DF0140D738961429F4E204DD8AEC33A7AFF"
+      ],
+      "outputPath": "keys/popos-lookup-204dd8aec33a7aff.asc",
+      "status": "active",
+      "documentationUrl": "https://support.system76.com/articles/apt-repository/",
+      "tags": [
+        "popos",
+        "apt"
+      ],
+      "createdAt": "2026-01-24T21:32:08.513Z",
+      "keyCount": 1
+    },
+    {
+      "id": "linuxmint-archive-keyring",
+      "vendor": "linuxmint",
+      "label": "Linux Mint Archive",
+      "sourceUrls": [
+        "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA1715D88E1DF1F24",
+        "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x40976EAF437D05B5",
+        "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3B4FE6ACC0B21F32",
+        "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6616109451BBBF2"
+      ],
+      "expectedFingerprints": [
+        "E1DD270288B4E6030699E45FA1715D88E1DF1F24",
+        "630239CC130E1A7FD81A27B140976EAF437D05B5",
+        "790BC7277767219C42C86F933B4FE6ACC0B21F32",
+        "302F0738F465C1535761F965A6616109451BBBF2"
+      ],
+      "outputPath": "keys/linuxmint-archive-keyring.asc",
+      "status": "active",
+      "documentationUrl": "https://linuxmint.com/documentation.php",
+      "tags": [
+        "linuxmint",
+        "apt"
+      ],
+      "createdAt": "2026-01-24T00:00:00.000Z",
+      "keyCount": 4
+    },
+    {
+      "id": "proxmox-archive-keyring-trixie",
+      "vendor": "proxmox",
+      "label": "Proxmox Archive Keyring (Trixie)",
+      "sourceUrls": [
+        "https://enterprise.proxmox.com/debian/proxmox-archive-keyring-trixie.gpg",
+        "https://enterprise.proxmox.com/debian/proxmox-release-trixie.gpg"
+      ],
+      "expectedFingerprints": [
+        "F4E136C67CDCE41AE6DE6FC81140AF8F639E0C39",
+        "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E"
+      ],
+      "outputPath": "keys/proxmox-archive-keyring-trixie.asc",
+      "status": "active",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "apt"
+      ],
+      "createdAt": "2026-01-24T00:00:00.000Z",
+      "keyCount": 2
+    },
+    {
+      "id": "proxmox-release-bookworm",
+      "vendor": "proxmox",
+      "label": "Proxmox Release (Bookworm)",
+      "sourceUrl": "https://enterprise.proxmox.com/debian/proxmox-release-bookworm.gpg",
+      "expectedFingerprints": [
+        "F4E136C67CDCE41AE6DE6FC81140AF8F639E0C39"
+      ],
+      "outputPath": "keys/proxmox-release-bookworm.asc",
+      "status": "active",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "apt"
+      ],
+      "createdAt": "2026-01-24T00:00:00.000Z",
+      "keyCount": 1
+    },
+    {
+      "id": "proxmox-release-bullseye",
+      "vendor": "proxmox",
+      "label": "Proxmox Release (Bullseye)",
+      "sourceUrl": "https://enterprise.proxmox.com/debian/proxmox-release-bullseye.gpg",
+      "expectedFingerprints": [
+        "28139A2F830BD68478A1A01FDD4BA3917E23BF59"
+      ],
+      "outputPath": "keys/proxmox-release-bullseye.asc",
+      "status": "active",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "apt"
+      ],
+      "createdAt": "2026-01-24T00:00:00.000Z",
+      "keyCount": 1
     }
   ]
 }

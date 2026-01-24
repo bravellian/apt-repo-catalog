@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-24T17:52:19.555Z",
+  "generatedAt": "2026-01-24T21:12:27.963Z",
   "packageCount": 5,
   "packages": [
     {
@@ -8,7 +8,7 @@
       "suite": "/",
       "components": [],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T175218Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T211225Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
       ],
       "versions": [
         {
@@ -21,7 +21,7 @@
           ],
           "components": [],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T175218Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T211225Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
           ]
         }
       ],
@@ -60,7 +60,7 @@
       "suite": "/",
       "components": [],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T175218Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T211225Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
       ],
       "versions": [
         {
@@ -73,7 +73,7 @@
           ],
           "components": [],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T175218Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T211225Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
           ]
         }
       ],
@@ -114,7 +114,7 @@
       "suite": "/",
       "components": [],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T175218Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T211225Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
       ],
       "versions": [
         {
@@ -127,7 +127,7 @@
           ],
           "components": [],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T175218Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T211225Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
           ]
         }
       ],
@@ -166,7 +166,7 @@
       "suite": "/",
       "components": [],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T175218Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T211225Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
       ],
       "versions": [
         {
@@ -179,7 +179,7 @@
           ],
           "components": [],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T175218Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T211225Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
           ]
         }
       ],
@@ -224,7 +224,7 @@
       "suite": "/",
       "components": [],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T175218Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T211225Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
       ],
       "versions": [
         {
@@ -237,7 +237,7 @@
           ],
           "components": [],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T175218Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-ubuntu-24.04/packages.raw/20260124T211225Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages"
           ]
         }
       ],

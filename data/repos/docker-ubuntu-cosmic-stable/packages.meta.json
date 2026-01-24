@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:52:06.933Z",
+  "fetchedAt": "2026-01-24T21:12:15.197Z",
   "repoId": "docker-ubuntu-cosmic-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-cosmic-stable/run-Vk58Cm/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_cosmic_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-cosmic-stable/run-Ifhhr6/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_cosmic_InRelease",
     "inReleaseSha256": "2b484c65eae343e68a6d766e8e836295d91a5189500352226afae774b260d64b"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-cosmic-stable/run-Vk58Cm/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu cosmic stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-cosmic-stable/run-Ifhhr6/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu cosmic stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-ubuntu-cosmic-stable/run-Vk58Cm/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_cosmic_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-cosmic-stable/packages.raw/20260124T175206Z/download.docker.com_linux_ubuntu_dists_cosmic_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-ubuntu-cosmic-stable/run-Ifhhr6/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_cosmic_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-cosmic-stable/packages.raw/20260124T211215Z/download.docker.com_linux_ubuntu_dists_cosmic_stable_binary-amd64_Packages",
       "suite": "cosmic",
       "component": "stable",
       "arch": "amd64"

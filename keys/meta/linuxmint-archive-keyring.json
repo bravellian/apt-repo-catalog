@@ -1,0 +1,64 @@
+{
+  "id": "linuxmint-archive-keyring",
+  "vendor": "linuxmint",
+  "label": "Linux Mint Archive",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA1715D88E1DF1F24",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA1715D88E1DF1F24",
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x40976EAF437D05B5",
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3B4FE6ACC0B21F32",
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6616109451BBBF2"
+  ],
+  "retrievedAt": "2026-01-24T21:57:14.237Z",
+  "fingerprints": [
+    "302F0738F465C1535761F965A6616109451BBBF2",
+    "630239CC130E1A7FD81A27B140976EAF437D05B5",
+    "790BC7277767219C42C86F933B4FE6ACC0B21F32",
+    "E1DD270288B4E6030699E45FA1715D88E1DF1F24"
+  ],
+  "keyCount": 4,
+  "userIds": [
+    "Launchpad PPA for Ubuntu Git Maintainers",
+    "Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>",
+    "Ubuntu Archive Automatic Signing Key (2012) <ftpmaster@ubuntu.com>",
+    "Linux Mint Repository Signing Key <root@linuxmint.com>"
+  ],
+  "primaryUserId": "Launchpad PPA for Ubuntu Git Maintainers",
+  "keyIds": [
+    {
+      "fingerprint": "302F0738F465C1535761F965A6616109451BBBF2",
+      "keyIdLong": "A6616109451BBBF2",
+      "keyIdShort": "451BBBF2"
+    },
+    {
+      "fingerprint": "630239CC130E1A7FD81A27B140976EAF437D05B5",
+      "keyIdLong": "40976EAF437D05B5",
+      "keyIdShort": "437D05B5"
+    },
+    {
+      "fingerprint": "790BC7277767219C42C86F933B4FE6ACC0B21F32",
+      "keyIdLong": "3B4FE6ACC0B21F32",
+      "keyIdShort": "C0B21F32"
+    },
+    {
+      "fingerprint": "E1DD270288B4E6030699E45FA1715D88E1DF1F24",
+      "keyIdLong": "A1715D88E1DF1F24",
+      "keyIdShort": "E1DF1F24"
+    }
+  ],
+  "downloaded": {
+    "sha256": "eba39c77117e863672b5bc7d49804ecf565b920f0f82a47230b378342e310864",
+    "sizeBytes": 49821,
+    "contentType": "multi"
+  },
+  "cached": {
+    "sha256": "8411cfb80ced8aafdc153b1f4cad42a458082ac47b6c6e247e490bc5fda0cb93",
+    "sizeBytes": 49699,
+    "outputPath": "keys/linuxmint-archive-keyring.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "302F0738F465C1535761F965A6616109451BBBF2",
+    "fingerprintSuffix16": "A6616109451BBBF2"
+  }
+}

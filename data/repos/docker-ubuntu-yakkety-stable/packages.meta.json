@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:52:15.167Z",
+  "fetchedAt": "2026-01-24T21:12:23.591Z",
   "repoId": "docker-ubuntu-yakkety-stable",
   "mode": "auto",
   "source": {
@@ -19,7 +19,7 @@
     "SHA512": ""
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-yakkety-stable/run-jviHeO/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu yakkety stable",
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-yakkety-stable/run-L51Jj0/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu yakkety stable",
     "https://download.docker.com/linux/ubuntu/dists/yakkety/Release",
     "https://download.docker.com/linux/ubuntu/dists/yakkety/stable/binary-amd64/Packages.gz",
     "https://download.docker.com/linux/ubuntu/dists/yakkety/stable/binary-armhf/Packages.gz",
@@ -28,21 +28,21 @@
   "packageFiles": [
     {
       "source": "https://download.docker.com/linux/ubuntu/dists/yakkety/stable/binary-amd64/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-yakkety-stable/packages.raw/20260124T175215Z/stable/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-yakkety-stable/packages.raw/20260124T211223Z/stable/binary-amd64/Packages.gz",
       "suite": "yakkety",
       "component": "stable",
       "arch": "amd64"
     },
     {
       "source": "https://download.docker.com/linux/ubuntu/dists/yakkety/stable/binary-armhf/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-yakkety-stable/packages.raw/20260124T175215Z/stable/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-yakkety-stable/packages.raw/20260124T211223Z/stable/binary-armhf/Packages.gz",
       "suite": "yakkety",
       "component": "stable",
       "arch": "armhf"
     },
     {
       "source": "https://download.docker.com/linux/ubuntu/dists/yakkety/stable/binary-s390x/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-yakkety-stable/packages.raw/20260124T175215Z/stable/binary-s390x/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-yakkety-stable/packages.raw/20260124T211223Z/stable/binary-s390x/Packages.gz",
       "suite": "yakkety",
       "component": "stable",
       "arch": "s390x"
@@ -52,7 +52,7 @@
     {
       "stage": "apt-get",
       "message": "apt-get update failed",
-      "detail": "Get:1 https://download.docker.com/linux/ubuntu yakkety InRelease [29.5 kB]\nGet:2 https://download.docker.com/linux/ubuntu yakkety/stable amd64 Packages [1658 B]\nErr:2 https://download.docker.com/linux/ubuntu yakkety/stable amd64 Packages\n  File has unexpected size (1668 != 1658). Mirror sync in progress? [IP: 3.163.189.70 443]\n  Hashes of expected file:\n   - Filesize:1658 [weak]\n   - SHA512:694463f4b7c8adf8090896972bb35390773d93677ae8627cc270940c9c710586b06e8599964f95d0ffa93613c58626c76e2431692f873662321315d6153db565\n   - SHA256:aa57f3fb4755c81b441a29134365b4bcce0f62b9e7869b384f418ecabb53359b\n   - SHA1:037538eae1a988513516b88e12cefa504711550d [weak]\n   - MD5Sum:b8753b9e976d3a19c1a9a75a62ee81df [weak]\n  Release file created at: Fri, 14 Jul 2017 09:11:49 +0000\nFetched 29.5 kB in 0s (98.2 kB/s)\nReading package lists...\n\nE: Failed to fetch https://download.docker.com/linux/ubuntu/dists/yakkety/stable/binary-amd64/Packages.gz  File has unexpected size (1668 != 1658). Mirror sync in progress? [IP: 3.163.189.70 443]\n   Hashes of expected file:\n    - Filesize:1658 [weak]\n    - SHA512:694463f4b7c8adf8090896972bb35390773d93677ae8627cc270940c9c710586b06e8599964f95d0ffa93613c58626c76e2431692f873662321315d6153db565\n    - SHA256:aa57f3fb4755c81b441a29134365b4bcce0f62b9e7869b384f418ecabb53359b\n    - SHA1:037538eae1a988513516b88e12cefa504711550d [weak]\n    - MD5Sum:b8753b9e976d3a19c1a9a75a62ee81df [weak]\n   Release file created at: Fri, 14 Jul 2017 09:11:49 +0000\nE: Some index files failed to download. They have been ignored, or old ones used instead."
+      "detail": "Get:1 https://download.docker.com/linux/ubuntu yakkety InRelease [29.5 kB]\nGet:2 https://download.docker.com/linux/ubuntu yakkety/stable amd64 Packages [1658 B]\nErr:2 https://download.docker.com/linux/ubuntu yakkety/stable amd64 Packages\n  File has unexpected size (1668 != 1658). Mirror sync in progress? [IP: 143.204.160.18 443]\n  Hashes of expected file:\n   - Filesize:1658 [weak]\n   - SHA512:694463f4b7c8adf8090896972bb35390773d93677ae8627cc270940c9c710586b06e8599964f95d0ffa93613c58626c76e2431692f873662321315d6153db565\n   - SHA256:aa57f3fb4755c81b441a29134365b4bcce0f62b9e7869b384f418ecabb53359b\n   - SHA1:037538eae1a988513516b88e12cefa504711550d [weak]\n   - MD5Sum:b8753b9e976d3a19c1a9a75a62ee81df [weak]\n  Release file created at: Fri, 14 Jul 2017 09:11:49 +0000\nFetched 29.5 kB in 0s (86.2 kB/s)\nReading package lists...\n\nE: Failed to fetch https://download.docker.com/linux/ubuntu/dists/yakkety/stable/binary-amd64/Packages.gz  File has unexpected size (1668 != 1658). Mirror sync in progress? [IP: 143.204.160.18 443]\n   Hashes of expected file:\n    - Filesize:1658 [weak]\n    - SHA512:694463f4b7c8adf8090896972bb35390773d93677ae8627cc270940c9c710586b06e8599964f95d0ffa93613c58626c76e2431692f873662321315d6153db565\n    - SHA256:aa57f3fb4755c81b441a29134365b4bcce0f62b9e7869b384f418ecabb53359b\n    - SHA1:037538eae1a988513516b88e12cefa504711550d [weak]\n    - MD5Sum:b8753b9e976d3a19c1a9a75a62ee81df [weak]\n   Release file created at: Fri, 14 Jul 2017 09:11:49 +0000\nE: Some index files failed to download. They have been ignored, or old ones used instead."
     },
     {
       "stage": "packages",

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:52:13.247Z",
+  "fetchedAt": "2026-01-24T21:12:21.647Z",
   "repoId": "docker-ubuntu-plucky-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-plucky-stable/run-Mavox7/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_plucky_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-plucky-stable/run-ioEuww/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_plucky_InRelease",
     "inReleaseSha256": "bbaefdb9d53efa645df447aac583e8f38b6e47b780051f8cdcac23ea5dd0be6a"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-plucky-stable/run-Mavox7/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu plucky stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-plucky-stable/run-ioEuww/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu plucky stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-ubuntu-plucky-stable/run-Mavox7/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-ubuntu-plucky-stable/run-ioEuww/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-plucky-stable/packages.raw/20260124T211221Z/download.docker.com_linux_ubuntu_dists_plucky_stable_binary-amd64_Packages",
       "suite": "plucky",
       "component": "stable",
       "arch": "amd64"

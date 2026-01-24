@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:51:53.684Z",
+  "fetchedAt": "2026-01-24T21:12:03.676Z",
   "repoId": "microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,37 +16,37 @@
     "Codename": "plucky",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-HyiFaZ/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-6VLxrn/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_InRelease",
     "inReleaseSha256": "d345b87f37a18971fa02c387dc22f3e81ae83361ffe49565e18a6abbd0cade8c"
   },
   "sources": [
-    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-HyiFaZ/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/25.04/prod plucky main"
+    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-6VLxrn/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/25.04/prod plucky main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-HyiFaZ/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-6VLxrn/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T211203Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-all_Packages",
       "suite": "plucky",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-HyiFaZ/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-6VLxrn/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T211203Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
       "suite": "plucky",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-HyiFaZ/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-6VLxrn/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T211203Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
       "suite": "plucky",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-HyiFaZ/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T175153Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-6VLxrn/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260124T211203Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages",
       "suite": "plucky",
       "component": "main",
       "arch": "armhf"

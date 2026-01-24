@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-24T17:51:53.669Z",
+  "generatedAt": "2026-01-24T21:12:03.664Z",
   "packageCount": 8,
   "packages": [
     {
@@ -10,8 +10,8 @@
         "main"
       ],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
       ],
       "versions": [
         {
@@ -23,7 +23,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -36,8 +36,8 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
           ]
         },
         {
@@ -50,8 +50,8 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
           ]
         },
         {
@@ -64,8 +64,8 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
           ]
         }
       ],
@@ -117,8 +117,8 @@
         "main"
       ],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
       ],
       "versions": [
         {
@@ -130,7 +130,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -143,8 +143,8 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
           ]
         },
         {
@@ -157,8 +157,8 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
           ]
         },
         {
@@ -171,8 +171,8 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
           ]
         }
       ],
@@ -215,7 +215,7 @@
         "main"
       ],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
       ],
       "versions": [
         {
@@ -227,7 +227,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -239,7 +239,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -251,7 +251,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -263,7 +263,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -275,7 +275,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -287,7 +287,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -299,7 +299,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -311,7 +311,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -323,7 +323,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -335,7 +335,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -347,7 +347,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -359,7 +359,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         },
         {
@@ -371,7 +371,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         }
       ],
@@ -411,8 +411,8 @@
         "main"
       ],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
       ],
       "versions": [
         {
@@ -425,8 +425,8 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
           ]
         }
       ],
@@ -476,8 +476,8 @@
         "main"
       ],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
       ],
       "versions": [
         {
@@ -490,8 +490,8 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages"
           ]
         }
       ],
@@ -535,7 +535,7 @@
         "main"
       ],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
       ],
       "versions": [
         {
@@ -547,7 +547,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         }
       ],
@@ -587,7 +587,7 @@
         "main"
       ],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-all_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-all_Packages"
       ],
       "versions": [
         {
@@ -599,7 +599,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-all_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-all_Packages"
           ]
         }
       ],
@@ -636,7 +636,7 @@
         "main"
       ],
       "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
       ],
       "versions": [
         {
@@ -648,7 +648,7 @@
             "main"
           ],
           "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T175152Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260124T211202Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages"
           ]
         }
       ],

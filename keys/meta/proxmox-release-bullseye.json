@@ -1,0 +1,40 @@
+{
+  "id": "proxmox-release-bullseye",
+  "vendor": "proxmox",
+  "label": "Proxmox Release (Bullseye)",
+  "status": "active",
+  "sourceUrl": "https://enterprise.proxmox.com/debian/proxmox-release-bullseye.gpg",
+  "sourceUrls": [
+    "https://enterprise.proxmox.com/debian/proxmox-release-bullseye.gpg"
+  ],
+  "retrievedAt": "2026-01-24T22:03:32.003Z",
+  "fingerprints": [
+    "28139A2F830BD68478A1A01FDD4BA3917E23BF59"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Proxmox Bullseye Release Key <proxmox-release@proxmox.com>"
+  ],
+  "primaryUserId": "Proxmox Bullseye Release Key <proxmox-release@proxmox.com>",
+  "keyIds": [
+    {
+      "fingerprint": "28139A2F830BD68478A1A01FDD4BA3917E23BF59",
+      "keyIdLong": "DD4BA3917E23BF59",
+      "keyIdShort": "7E23BF59"
+    }
+  ],
+  "downloaded": {
+    "sha256": "411b420c3ab024d099e1ef55d06695a9d90a7db7c49b76fa719b453eb376093e",
+    "sizeBytes": 1187,
+    "contentType": "binary"
+  },
+  "cached": {
+    "sha256": "57cff4256ae293319041441823b0da2468ce5f00aa02facb6fe3b560067f30b3",
+    "sizeBytes": 1690,
+    "outputPath": "keys/proxmox-release-bullseye.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "28139A2F830BD68478A1A01FDD4BA3917E23BF59",
+    "fingerprintSuffix16": "DD4BA3917E23BF59"
+  }
+}

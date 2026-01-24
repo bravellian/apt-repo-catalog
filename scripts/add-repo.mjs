@@ -5,7 +5,7 @@ import { spawnSync } from "node:child_process";
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
 const reposPath = path.join(root, "catalog", "repos.json");
-const osPattern = /^(ubuntu|debian)(?:-([0-9]{2}\.[0-9]{2}|[0-9]{1,2}))?$/;
+const osPath = path.join(root, "catalog", "os.json");
 
 function parseArgs(argv) {
   const args = {};
@@ -69,8 +69,10 @@ async function main() {
   const tags = parseTags(args.tags);
   const notes = args.notes;
 
-  if (!osPattern.test(os)) {
-    throw new Error(`Invalid os ${os}. Use ubuntu-24.04 or debian-12 (or ubuntu/debian).`);
+  const osCatalog = await loadJson(osPath);
+  const osIds = new Set((osCatalog.oses ?? []).map((entry) => entry.id));
+  if (!osIds.has(os)) {
+    throw new Error(`Invalid os ${os}. Add it to catalog/os.json first.`);
   }
   if (documentationUrl !== undefined && documentationUrl.trim() === "") {
     throw new Error("documentationUrl must be a non-empty string");

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:51:54.530Z",
+  "fetchedAt": "2026-01-24T21:12:04.283Z",
   "repoId": "microsoft-default-ubuntu-25-10-questing-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -21,7 +21,7 @@
     "SHA512": ""
   },
   "sources": [
-    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/run-w6xEk9/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/25.10/prod questing main",
+    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/run-fAEoPb/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/25.10/prod questing main",
     "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/Release",
     "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-amd64/Packages.gz",
     "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-arm64/Packages.gz",
@@ -31,28 +31,28 @@
   "packageFiles": [
     {
       "source": "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-amd64/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/packages.raw/20260124T175154Z/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/packages.raw/20260124T211204Z/main/binary-amd64/Packages.gz",
       "suite": "questing",
       "component": "main",
       "arch": "amd64"
     },
     {
       "source": "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-arm64/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/packages.raw/20260124T175154Z/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/packages.raw/20260124T211204Z/main/binary-arm64/Packages.gz",
       "suite": "questing",
       "component": "main",
       "arch": "arm64"
     },
     {
       "source": "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-armhf/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/packages.raw/20260124T175154Z/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/packages.raw/20260124T211204Z/main/binary-armhf/Packages.gz",
       "suite": "questing",
       "component": "main",
       "arch": "armhf"
     },
     {
       "source": "https://packages.microsoft.com/ubuntu/25.10/prod/dists/questing/main/binary-all/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/packages.raw/20260124T175154Z/main/binary-all/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com/packages.raw/20260124T211204Z/main/binary-all/Packages.gz",
       "suite": "questing",
       "component": "main",
       "arch": "all"

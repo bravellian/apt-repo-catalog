@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:52:03.242Z",
+  "fetchedAt": "2026-01-24T21:12:11.549Z",
   "repoId": "docker-debian-bullseye-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-debian-bullseye-stable/run-ODyFXB/var/lib/apt/lists/download.docker.com_linux_debian_dists_bullseye_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-debian-bullseye-stable/run-qXUjoE/var/lib/apt/lists/download.docker.com_linux_debian_dists_bullseye_InRelease",
     "inReleaseSha256": "83ed479daab365faa62dc5ccb6645db7c6d4f8e709dcba7fa3f37e362046dcb7"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-debian-bullseye-stable/run-ODyFXB/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/debian bullseye stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-debian-bullseye-stable/run-qXUjoE/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/debian bullseye stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-debian-bullseye-stable/run-ODyFXB/var/lib/apt/lists/download.docker.com_linux_debian_dists_bullseye_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-bullseye-stable/packages.raw/20260124T175203Z/download.docker.com_linux_debian_dists_bullseye_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-debian-bullseye-stable/run-qXUjoE/var/lib/apt/lists/download.docker.com_linux_debian_dists_bullseye_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-bullseye-stable/packages.raw/20260124T211211Z/download.docker.com_linux_debian_dists_bullseye_stable_binary-amd64_Packages",
       "suite": "bullseye",
       "component": "stable",
       "arch": "amd64"

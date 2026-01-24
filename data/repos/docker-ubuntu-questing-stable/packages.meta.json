@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:52:13.754Z",
+  "fetchedAt": "2026-01-24T21:12:22.105Z",
   "repoId": "docker-ubuntu-questing-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-questing-stable/run-vxD1CX/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_questing_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-questing-stable/run-U6WsXC/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_questing_InRelease",
     "inReleaseSha256": "42bb2ca6918ab02011a53e5e8a4895ad53acaea7010681818818ce70d9172bc9"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-questing-stable/run-vxD1CX/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu questing stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-questing-stable/run-U6WsXC/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu questing stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-ubuntu-questing-stable/run-vxD1CX/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_questing_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-questing-stable/packages.raw/20260124T175213Z/download.docker.com_linux_ubuntu_dists_questing_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-ubuntu-questing-stable/run-U6WsXC/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_questing_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-questing-stable/packages.raw/20260124T211222Z/download.docker.com_linux_ubuntu_dists_questing_stable_binary-amd64_Packages",
       "suite": "questing",
       "component": "stable",
       "arch": "amd64"

@@ -1,0 +1,40 @@
+{
+  "id": "proxmox-release-bookworm",
+  "vendor": "proxmox",
+  "label": "Proxmox Release (Bookworm)",
+  "status": "active",
+  "sourceUrl": "https://enterprise.proxmox.com/debian/proxmox-release-bookworm.gpg",
+  "sourceUrls": [
+    "https://enterprise.proxmox.com/debian/proxmox-release-bookworm.gpg"
+  ],
+  "retrievedAt": "2026-01-24T22:03:32.003Z",
+  "fingerprints": [
+    "F4E136C67CDCE41AE6DE6FC81140AF8F639E0C39"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Proxmox Bookworm Release Key <proxmox-release@proxmox.com>"
+  ],
+  "primaryUserId": "Proxmox Bookworm Release Key <proxmox-release@proxmox.com>",
+  "keyIds": [
+    {
+      "fingerprint": "F4E136C67CDCE41AE6DE6FC81140AF8F639E0C39",
+      "keyIdLong": "1140AF8F639E0C39",
+      "keyIdShort": "639E0C39"
+    }
+  ],
+  "downloaded": {
+    "sha256": "13a87cec79f2d05f40f125629e4b509080a5c0286608bea273e36be9809ecaba",
+    "sizeBytes": 1187,
+    "contentType": "binary"
+  },
+  "cached": {
+    "sha256": "f1da51ac9bee5a3b8c31dc9635eb4a75ed8358639da2743589551d2429513770",
+    "sizeBytes": 1690,
+    "outputPath": "keys/proxmox-release-bookworm.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "F4E136C67CDCE41AE6DE6FC81140AF8F639E0C39",
+    "fingerprintSuffix16": "1140AF8F639E0C39"
+  }
+}

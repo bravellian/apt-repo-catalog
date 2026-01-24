@@ -13,6 +13,7 @@ Start here:
 - Catalog table: [CATALOG.md](CATALOG.md)
 - Repository docs: [docs/README.md](docs/README.md)
 - Per-repo install instructions: [docs/repos/<repoId>.md](docs/repos/)
+ - OS catalog metadata: [catalog/os.json](catalog/os.json)
 
 Catalog entries may include documentation URLs, tags, and notes. Health status comes from smoke tests and is summarized in `reports/latest.json`.
 

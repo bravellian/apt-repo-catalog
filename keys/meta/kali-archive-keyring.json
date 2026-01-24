@@ -1,0 +1,47 @@
+{
+  "id": "kali-archive-keyring",
+  "vendor": "kali",
+  "label": "Kali Archive",
+  "status": "active",
+  "sourceUrl": "https://archive.kali.org/archive-keyring.gpg",
+  "sourceUrls": [
+    "https://archive.kali.org/archive-keyring.gpg"
+  ],
+  "retrievedAt": "2026-01-24T21:47:34.332Z",
+  "fingerprints": [
+    "44C6513A8E4FB3D30875F758ED444FF07D8D0BF6",
+    "827C8569F2518CC677FECA1AED65462EC8D5E4C5"
+  ],
+  "keyCount": 2,
+  "userIds": [
+    "Kali Linux Archive Automatic Signing Key (2025) <devel@kali.org>",
+    "Kali Linux Repository <devel@kali.org>"
+  ],
+  "primaryUserId": "Kali Linux Archive Automatic Signing Key (2025) <devel@kali.org>",
+  "keyIds": [
+    {
+      "fingerprint": "44C6513A8E4FB3D30875F758ED444FF07D8D0BF6",
+      "keyIdLong": "ED444FF07D8D0BF6",
+      "keyIdShort": "7D8D0BF6"
+    },
+    {
+      "fingerprint": "827C8569F2518CC677FECA1AED65462EC8D5E4C5",
+      "keyIdLong": "ED65462EC8D5E4C5",
+      "keyIdShort": "C8D5E4C5"
+    }
+  ],
+  "downloaded": {
+    "sha256": "42a247ff5a26869e3739b6d3ad125938bb5da8e7bb43ed0791d2a190cd09c64f",
+    "sizeBytes": 3464,
+    "contentType": "binary"
+  },
+  "cached": {
+    "sha256": "2f92f475e1974a0904d13c78e7669be72bac6541aa23bc889871b97f66c7d0cf",
+    "sizeBytes": 4857,
+    "outputPath": "keys/kali-archive-keyring.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "44C6513A8E4FB3D30875F758ED444FF07D8D0BF6",
+    "fingerprintSuffix16": "ED444FF07D8D0BF6"
+  }
+}

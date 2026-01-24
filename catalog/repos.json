@@ -813,58 +813,327 @@
       "notes": "Docker APT repository for Ubuntu"
     },
     {
-      "id": "kubernetes-core-stable-v1.35-ubuntu-22.04",
-      "label": "Kubernetes core stable v1.35 - Ubuntu 22.04",
-      "os": "ubuntu-22.04",
+      "id": "kubernetes-core-stable-v1.35-generic",
+      "label": "Kubernetes core stable v1.35 (generic)",
+      "os": "generic",
       "name": "kubernetes",
       "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
       "keyId": "kubernetes-release-key-234654da9a296436",
-      "allowMissingDocsUrl": true
+      "allowMissingDocsUrl": true,
+      "notes": "Upstream repo does not use a distro-specific suite; this entry is shared across Debian/Ubuntu."
     },
     {
-      "id": "kubernetes-core-stable-v1.35-ubuntu-24.04",
-      "label": "Kubernetes core stable v1.35 - Ubuntu 24.04",
-      "os": "ubuntu-24.04",
-      "name": "kubernetes",
-      "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
-      "keyId": "kubernetes-release-key-234654da9a296436",
-      "allowMissingDocsUrl": true
+      "id": "kali-rolling",
+      "label": "Kali Rolling",
+      "os": "kali-rolling",
+      "name": "kali",
+      "source": "deb https://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware",
+      "keyId": "kali-archive-keyring",
+      "documentationUrl": "https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/",
+      "tags": [
+        "kali",
+        "debian-derivative",
+        "apt"
+      ]
     },
     {
-      "id": "kubernetes-core-stable-v1.35-debian-12",
-      "label": "Kubernetes core stable v1.35 - Debian 12",
-      "os": "debian-12",
-      "name": "kubernetes",
-      "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
-      "keyId": "kubernetes-release-key-234654da9a296436",
-      "allowMissingDocsUrl": true
+      "id": "popos-proprietary-22.04",
+      "label": "Pop!_OS proprietary - 22.04",
+      "os": "popos-22.04",
+      "name": "popos",
+      "source": "deb http://apt.pop-os.org/proprietary jammy main",
+      "keyId": "popos-lookup-204dd8aec33a7aff",
+      "documentationUrl": "https://support.system76.com/articles/apt-repository/",
+      "tags": [
+        "popos",
+        "ubuntu-derivative",
+        "apt"
+      ]
     },
     {
-      "id": "kubernetes-core-stable-v1.35-debian-13",
-      "label": "Kubernetes core stable v1.35 - Debian 13 (Trixie)",
-      "os": "debian-13",
-      "name": "kubernetes",
-      "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
-      "keyId": "kubernetes-release-key-234654da9a296436",
-      "allowMissingDocsUrl": true
+      "id": "popos-release-22.04",
+      "label": "Pop!_OS release - 22.04",
+      "os": "popos-22.04",
+      "name": "popos",
+      "source": "deb http://apt.pop-os.org/release jammy main",
+      "keyId": "popos-lookup-204dd8aec33a7aff",
+      "documentationUrl": "https://support.system76.com/articles/apt-repository/",
+      "tags": [
+        "popos",
+        "ubuntu-derivative",
+        "apt"
+      ]
     },
     {
-      "id": "kubernetes-core-stable-v1.35-ubuntu-20.04",
-      "label": "Kubernetes core stable v1.35 - Ubuntu 20.04 (Focal)",
-      "os": "ubuntu-20.04",
-      "name": "kubernetes",
-      "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
-      "keyId": "kubernetes-release-key-234654da9a296436",
-      "allowMissingDocsUrl": true
+      "id": "popos-proprietary-24.04",
+      "label": "Pop!_OS proprietary - 24.04",
+      "os": "popos-24.04",
+      "name": "popos",
+      "source": "deb http://apt.pop-os.org/proprietary noble main",
+      "keyId": "popos-lookup-204dd8aec33a7aff",
+      "documentationUrl": "https://support.system76.com/articles/apt-repository/",
+      "tags": [
+        "popos",
+        "ubuntu-derivative",
+        "apt"
+      ]
     },
     {
-      "id": "kubernetes-core-stable-v1.35-debian-11",
-      "label": "Kubernetes core stable v1.35 - Debian 11 (Bullseye)",
-      "os": "debian-11",
-      "name": "kubernetes",
-      "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
-      "keyId": "kubernetes-release-key-234654da9a296436",
-      "allowMissingDocsUrl": true
+      "id": "popos-release-24.04",
+      "label": "Pop!_OS release - 24.04",
+      "os": "popos-24.04",
+      "name": "popos",
+      "source": "deb http://apt.pop-os.org/release noble main",
+      "keyId": "popos-lookup-204dd8aec33a7aff",
+      "documentationUrl": "https://support.system76.com/articles/apt-repository/",
+      "tags": [
+        "popos",
+        "ubuntu-derivative",
+        "apt"
+      ]
+    },
+    {
+      "id": "linuxmint-tricia-main",
+      "label": "Linux Mint Tricia - main",
+      "os": "linuxmint-tricia",
+      "name": "linuxmint",
+      "source": "deb http://packages.linuxmint.com tricia main upstream import backport",
+      "keyId": "linuxmint-archive-keyring",
+      "documentationUrl": "https://linuxmint.com/documentation.php",
+      "tags": [
+        "linuxmint",
+        "ubuntu-derivative",
+        "apt"
+      ],
+      "notes": "Linux Mint main repository; base Ubuntu repos are inherited."
+    },
+    {
+      "id": "linuxmint-una-main",
+      "label": "Linux Mint Una - main",
+      "os": "linuxmint-una",
+      "name": "linuxmint",
+      "source": "deb http://packages.linuxmint.com una main upstream import backport",
+      "keyId": "linuxmint-archive-keyring",
+      "documentationUrl": "https://linuxmint.com/documentation.php",
+      "tags": [
+        "linuxmint",
+        "ubuntu-derivative",
+        "apt"
+      ],
+      "notes": "Linux Mint main repository; base Ubuntu repos are inherited."
+    },
+    {
+      "id": "linuxmint-virginia-main",
+      "label": "Linux Mint Virginia - main",
+      "os": "linuxmint-virginia",
+      "name": "linuxmint",
+      "source": "deb http://packages.linuxmint.com virginia main upstream import backport",
+      "keyId": "linuxmint-archive-keyring",
+      "documentationUrl": "https://linuxmint.com/documentation.php",
+      "tags": [
+        "linuxmint",
+        "ubuntu-derivative",
+        "apt"
+      ],
+      "notes": "Linux Mint main repository; base Ubuntu repos are inherited."
+    },
+    {
+      "id": "linuxmint-zena-main",
+      "label": "Linux Mint Zena - main",
+      "os": "linuxmint-zena",
+      "name": "linuxmint",
+      "source": "deb http://packages.linuxmint.com zena main upstream import backport",
+      "keyId": "linuxmint-archive-keyring",
+      "documentationUrl": "https://linuxmint.com/documentation.php",
+      "tags": [
+        "linuxmint",
+        "ubuntu-derivative",
+        "apt"
+      ],
+      "notes": "Linux Mint main repository; base Ubuntu repos are inherited."
+    },
+    {
+      "id": "proxmox-ve-9-enterprise",
+      "label": "Proxmox VE 9 - enterprise",
+      "os": "proxmox-9",
+      "name": "proxmox",
+      "source": "deb https://enterprise.proxmox.com/debian/pve trixie pve-enterprise",
+      "keyId": "proxmox-archive-keyring-trixie",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Requires a valid Proxmox subscription."
+    },
+    {
+      "id": "proxmox-ve-9-no-subscription",
+      "label": "Proxmox VE 9 - no-subscription",
+      "os": "proxmox-9",
+      "name": "proxmox",
+      "source": "deb http://download.proxmox.com/debian/pve trixie pve-no-subscription",
+      "keyId": "proxmox-archive-keyring-trixie",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Not recommended for production."
+    },
+    {
+      "id": "proxmox-ve-9-test",
+      "label": "Proxmox VE 9 - test",
+      "os": "proxmox-9",
+      "name": "proxmox",
+      "source": "deb http://download.proxmox.com/debian/pve trixie pve-test",
+      "keyId": "proxmox-archive-keyring-trixie",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Test repository; use with caution."
+    },
+    {
+      "id": "proxmox-ve-8-enterprise",
+      "label": "Proxmox VE 8 - enterprise",
+      "os": "proxmox-8",
+      "name": "proxmox",
+      "source": "deb https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise",
+      "keyId": "proxmox-release-bookworm",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Requires a valid Proxmox subscription."
+    },
+    {
+      "id": "proxmox-ve-8-no-subscription",
+      "label": "Proxmox VE 8 - no-subscription",
+      "os": "proxmox-8",
+      "name": "proxmox",
+      "source": "deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription",
+      "keyId": "proxmox-release-bookworm",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Not recommended for production."
+    },
+    {
+      "id": "proxmox-ve-8-test",
+      "label": "Proxmox VE 8 - test",
+      "os": "proxmox-8",
+      "name": "proxmox",
+      "source": "deb http://download.proxmox.com/debian/pve bookworm pvetest",
+      "keyId": "proxmox-release-bookworm",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Test repository; use with caution."
+    },
+    {
+      "id": "proxmox-ve-7-enterprise",
+      "label": "Proxmox VE 7 - enterprise",
+      "os": "proxmox-7",
+      "name": "proxmox",
+      "source": "deb https://enterprise.proxmox.com/debian/pve bullseye pve-enterprise",
+      "keyId": "proxmox-release-bullseye",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Requires a valid Proxmox subscription."
+    },
+    {
+      "id": "proxmox-ve-7-no-subscription",
+      "label": "Proxmox VE 7 - no-subscription",
+      "os": "proxmox-7",
+      "name": "proxmox",
+      "source": "deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription",
+      "keyId": "proxmox-release-bullseye",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Not recommended for production."
+    },
+    {
+      "id": "proxmox-ve-7-test",
+      "label": "Proxmox VE 7 - test",
+      "os": "proxmox-7",
+      "name": "proxmox",
+      "source": "deb http://download.proxmox.com/debian/pve bullseye pvetest",
+      "keyId": "proxmox-release-bullseye",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Test repository; use with caution."
+    },
+    {
+      "id": "proxmox-ceph-squid-enterprise",
+      "label": "Proxmox Ceph Squid - enterprise",
+      "os": "proxmox-9",
+      "name": "proxmox",
+      "source": "deb https://enterprise.proxmox.com/debian/ceph-squid trixie enterprise",
+      "keyId": "proxmox-archive-keyring-trixie",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "ceph",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Requires a valid Proxmox subscription."
+    },
+    {
+      "id": "proxmox-ceph-squid-no-subscription",
+      "label": "Proxmox Ceph Squid - no-subscription",
+      "os": "proxmox-9",
+      "name": "proxmox",
+      "source": "deb http://download.proxmox.com/debian/ceph-squid trixie no-subscription",
+      "keyId": "proxmox-archive-keyring-trixie",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "ceph",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Not recommended for production."
+    },
+    {
+      "id": "proxmox-ceph-squid-test",
+      "label": "Proxmox Ceph Squid - test",
+      "os": "proxmox-9",
+      "name": "proxmox",
+      "source": "deb http://download.proxmox.com/debian/ceph-squid trixie test",
+      "keyId": "proxmox-archive-keyring-trixie",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "ceph",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Test repository; use with caution."
     }
   ]
 }

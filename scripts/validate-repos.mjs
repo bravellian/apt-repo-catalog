@@ -4,8 +4,7 @@ import path from "node:path";
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
 const reposPath = path.join(root, "catalog", "repos.json");
-
-const osPattern = /^(ubuntu|debian)(?:-([0-9]{2}\.[0-9]{2}|[0-9]{1,2}))?$/;
+const osPath = path.join(root, "catalog", "os.json");
 const allowedFields = new Set([
   "id",
   "name",
@@ -55,9 +54,10 @@ function parseArgs(argv) {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const [keysCatalog, reposCatalog] = await Promise.all([
+  const [keysCatalog, reposCatalog, osCatalog] = await Promise.all([
     loadJson(keysPath),
-    loadJson(reposPath)
+    loadJson(reposPath),
+    loadJson(osPath)
   ]);
 
   if (!Array.isArray(keysCatalog.keys)) {
@@ -66,6 +66,10 @@ async function main() {
   if (!Array.isArray(reposCatalog.repos)) {
     throw new Error("catalog/repos.json must include a repos array");
   }
+  if (!Array.isArray(osCatalog.oses)) {
+    throw new Error("catalog/os.json must include an oses array");
+  }
+  const osIds = new Set(osCatalog.oses.map((entry) => entry.id));
 
   const keysById = new Map();
   for (const key of keysCatalog.keys) {
@@ -122,7 +126,7 @@ async function main() {
       const message = `Repo ${repoId} missing os`;
       issues.push(message);
       repoIssues.set(repoId, (repoIssues.get(repoId) ?? []).concat(message));
-    } else if (!osPattern.test(repo.os)) {
+    } else if (!osIds.has(repo.os)) {
       const message = `Repo ${repoId} has invalid os: ${repo.os}`;
       issues.push(message);
       repoIssues.set(repoId, (repoIssues.get(repoId) ?? []).concat(message));

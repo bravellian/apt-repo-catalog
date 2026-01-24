@@ -22,6 +22,8 @@ jobs:
             image: ubuntu:24.04
           - os: ubuntu-22.04
             image: ubuntu:22.04
+          - os: generic
+            image: ubuntu:24.04
           - os: debian-13
             image: debian:13
           - os: debian-12

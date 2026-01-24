@@ -6,6 +6,7 @@ const keysPath = path.join(root, "catalog", "keys.json");
 const reposPath = path.join(root, "catalog", "repos.json");
 const latestPath = path.join(root, "reports", "latest.json");
 const keysIndexPath = path.join(root, "keys", "index.json");
+const osPath = path.join(root, "catalog", "os.json");
 const outputPath = path.join(root, "CATALOG.md");
 
 function safeJson(raw, fallback) {
@@ -106,9 +107,10 @@ function getLastChecked(latest, os) {
 }
 
 async function main() {
-  const [keysCatalog, reposCatalog] = await Promise.all([
+  const [keysCatalog, reposCatalog, osCatalog] = await Promise.all([
     readJson(keysPath),
-    readJson(reposPath)
+    readJson(reposPath),
+    readJson(osPath)
   ]);
 
   if (!keysCatalog?.keys || !Array.isArray(keysCatalog.keys)) {
@@ -116,6 +118,9 @@ async function main() {
   }
   if (!reposCatalog?.repos || !Array.isArray(reposCatalog.repos)) {
     throw new Error("catalog/repos.json must include a repos array");
+  }
+  if (!osCatalog?.oses || !Array.isArray(osCatalog.oses)) {
+    throw new Error("catalog/os.json must include an oses array");
   }
 
   let latest = null;
@@ -157,9 +162,9 @@ async function main() {
     String(a.id ?? "").localeCompare(String(b.id ?? ""))
   );
 
-  const activeOses = new Set(["ubuntu-24.04", "ubuntu-22.04", "debian-13", "debian-12", "debian-11"]);
-  const activeRepos = repos.filter((repo) => activeOses.has(repo.os));
-  const legacyRepos = repos.filter((repo) => !activeOses.has(repo.os));
+  const osMapCatalog = new Map(osCatalog.oses.map((entry) => [entry.id, entry]));
+  const activeRepos = repos.filter((repo) => osMapCatalog.get(repo.os)?.status === "current");
+  const legacyRepos = repos.filter((repo) => osMapCatalog.get(repo.os)?.status !== "current");
 
   const vendorMap = new Map();
   for (const repo of repos) {
@@ -170,14 +175,24 @@ async function main() {
     vendorMap.get(vendor).push(repo);
   }
 
-  const osMap = new Map();
-  for (const repo of activeRepos) {
-    const os = repo.os ?? "unknown";
-    if (!osMap.has(os)) {
-      osMap.set(os, []);
+  function buildOsMap(reposForMap) {
+    const map = new Map();
+    for (const repo of reposForMap) {
+      const os = repo.os ?? "unknown";
+      if (!map.has(os)) {
+        map.set(os, []);
+      }
+      map.get(os).push(repo);
     }
-    osMap.get(os).push(repo);
+    return map;
   }
+
+  const osMap = buildOsMap(activeRepos);
+  const genericRepos =
+    osMap
+      .get("generic")
+      ?.sort((a, b) => String(a.id ?? "").localeCompare(String(b.id ?? ""))) ?? [];
+  const legacyOsMap = buildOsMap(legacyRepos);
 
   function buildRows(targetRepos, options = {}) {
     const { includeStatus = true, includeOs = true } = options;
@@ -244,10 +259,111 @@ async function main() {
     header,
     "## By Operating System",
     "",
-    ...Array.from(osMap.keys())
+    ...[
+      {
+        family: "ubuntu",
+        title: "Ubuntu",
+        channels: ["lts", "interim"],
+        derivativeFamily: "ubuntu-derivative"
+      },
+      {
+        family: "debian",
+        title: "Debian",
+        channels: ["testing", "stable", "oldstable"],
+        derivativeFamily: "debian-derivative"
+      }
+    ].flatMap(({ family, title, channels, derivativeFamily }) => {
+      const lines = [`### ${title}`, ""];
+      for (const channel of channels) {
+        const osEntries = osCatalog.oses.filter(
+          (entry) =>
+            entry.status === "current" && entry.family === family && entry.channel === channel
+        );
+        if (osEntries.length === 0) {
+          continue;
+        }
+        lines.push(`#### ${channel.toUpperCase()}`);
+        lines.push("");
+        for (const entry of osEntries.sort((a, b) => a.id.localeCompare(b.id))) {
+          const itemsForOs =
+            osMap
+              .get(entry.id)
+              ?.sort((a, b) => String(a.id ?? "").localeCompare(String(b.id ?? ""))) ?? [];
+          const merged = [...itemsForOs, ...genericRepos];
+          const seen = new Set();
+          const items = merged.filter((item) => {
+            const id = item.id ?? "";
+            if (!id || seen.has(id)) {
+              return false;
+            }
+            seen.add(id);
+            return true;
+          });
+          lines.push("<details>");
+          lines.push(`<summary>${entry.label} (${items.length})</summary>`);
+          lines.push("");
+          if (items.length > 0) {
+            lines.push(buildRows(items, { includeStatus: false, includeOs: false }));
+          } else {
+            lines.push("_No repos in catalog for this OS._");
+          }
+          lines.push("");
+          lines.push("</details>");
+          lines.push("");
+        }
+      }
+
+      if (derivativeFamily) {
+        const derivativeEntries = osCatalog.oses.filter(
+          (entry) => entry.status === "current" && entry.family === derivativeFamily
+        );
+        if (derivativeEntries.length > 0) {
+          lines.push(`#### DERIVATIVES`);
+          lines.push("");
+          for (const entry of derivativeEntries.sort((a, b) => a.id.localeCompare(b.id))) {
+          const itemsForOs =
+            osMap
+              .get(entry.id)
+              ?.sort((a, b) => String(a.id ?? "").localeCompare(String(b.id ?? ""))) ?? [];
+          const merged = [...itemsForOs, ...genericRepos];
+          const seen = new Set();
+          const items = merged.filter((item) => {
+            const id = item.id ?? "";
+            if (!id || seen.has(id)) {
+              return false;
+            }
+            seen.add(id);
+            return true;
+          });
+          const inherits = entry.inheritsFrom ? ` (inherits ${entry.inheritsFrom})` : "";
+          lines.push("<details>");
+          lines.push(`<summary>${entry.label}${inherits} (${items.length})</summary>`);
+          lines.push("");
+            if (items.length > 0) {
+              lines.push(buildRows(items, { includeStatus: false, includeOs: false }));
+            } else {
+              lines.push("_No repos in catalog for this OS._");
+            }
+            lines.push("");
+            lines.push("</details>");
+            lines.push("");
+          }
+        }
+      }
+
+      lines.push("");
+      return lines;
+    }),
+    "",
+    "## Legacy OSes",
+    "",
+    "<details>",
+    "<summary>Legacy OSes</summary>",
+    "",
+    ...Array.from(legacyOsMap.keys())
       .sort((a, b) => a.localeCompare(b))
       .flatMap((os) => {
-        const items = osMap
+        const items = legacyOsMap
           .get(os)
           .sort((a, b) => String(a.id ?? "").localeCompare(String(b.id ?? "")));
         const lines = [];
@@ -261,12 +377,18 @@ async function main() {
         return lines;
       }),
     "",
-    "## Legacy OSes",
+    "</details>",
+    "",
+    "## Generic (cross-distribution)",
+    "",
+    "_These repos are OS-agnostic and also listed under every current OS above._",
     "",
     "<details>",
-    "<summary>Legacy OSes</summary>",
+    "<summary>Generic repositories</summary>",
     "",
-    buildRows(legacyRepos, { includeStatus: false }),
+    genericRepos.length > 0
+      ? buildRows(genericRepos, { includeStatus: false, includeOs: false })
+      : "_No generic repos in catalog._",
     "",
     "</details>",
     "",

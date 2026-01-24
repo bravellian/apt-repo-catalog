@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:51:44.286Z",
+  "fetchedAt": "2026-01-24T21:11:53.908Z",
   "repoId": "microsoft-default-ubuntu-19-04-disco-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,23 +16,23 @@
     "Codename": "disco",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com/run-zLZVXf/var/lib/apt/lists/packages.microsoft.com_ubuntu_19.04_prod_dists_disco_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com/run-BQYMBN/var/lib/apt/lists/packages.microsoft.com_ubuntu_19.04_prod_dists_disco_InRelease",
     "inReleaseSha256": "d362035541f1230c520fc668d0628671db14d7462b3bf89cb264a8ccc103ba68"
   },
   "sources": [
-    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com/run-zLZVXf/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/19.04/prod disco main"
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com/run-BQYMBN/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/19.04/prod disco main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com/run-zLZVXf/var/lib/apt/lists/packages.microsoft.com_ubuntu_19.04_prod_dists_disco_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com/packages.raw/20260124T175144Z/packages.microsoft.com_ubuntu_19.04_prod_dists_disco_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com/run-BQYMBN/var/lib/apt/lists/packages.microsoft.com_ubuntu_19.04_prod_dists_disco_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com/packages.raw/20260124T211153Z/packages.microsoft.com_ubuntu_19.04_prod_dists_disco_main_binary-all_Packages",
       "suite": "disco",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com/run-zLZVXf/var/lib/apt/lists/packages.microsoft.com_ubuntu_19.04_prod_dists_disco_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com/packages.raw/20260124T175144Z/packages.microsoft.com_ubuntu_19.04_prod_dists_disco_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com/run-BQYMBN/var/lib/apt/lists/packages.microsoft.com_ubuntu_19.04_prod_dists_disco_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com/packages.raw/20260124T211153Z/packages.microsoft.com_ubuntu_19.04_prod_dists_disco_main_binary-amd64_Packages",
       "suite": "disco",
       "component": "main",
       "arch": "amd64"

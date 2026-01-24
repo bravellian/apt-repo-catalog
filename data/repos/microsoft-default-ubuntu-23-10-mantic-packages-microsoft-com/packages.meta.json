@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:51:51.469Z",
+  "fetchedAt": "2026-01-24T21:12:01.148Z",
   "repoId": "microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,37 +16,37 @@
     "Codename": "mantic",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-vNFNjV/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-XRqnWZ/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_InRelease",
     "inReleaseSha256": "f5dfc7ac56990847b3287f7128912f79ceeeebc50d621476d211eb80a9f82cce"
   },
   "sources": [
-    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-vNFNjV/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/23.10/prod mantic main"
+    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-XRqnWZ/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/23.10/prod mantic main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-vNFNjV/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/packages.raw/20260124T175151Z/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-XRqnWZ/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/packages.raw/20260124T211201Z/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-all_Packages",
       "suite": "mantic",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-vNFNjV/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/packages.raw/20260124T175151Z/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-XRqnWZ/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/packages.raw/20260124T211201Z/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-amd64_Packages",
       "suite": "mantic",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-vNFNjV/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/packages.raw/20260124T175151Z/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-arm64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-XRqnWZ/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-arm64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/packages.raw/20260124T211201Z/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-arm64_Packages",
       "suite": "mantic",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-vNFNjV/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-armhf_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/packages.raw/20260124T175151Z/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-armhf_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-XRqnWZ/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-armhf_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/packages.raw/20260124T211201Z/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-armhf_Packages",
       "suite": "mantic",
       "component": "main",
       "arch": "armhf"

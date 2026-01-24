@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:52:03.722Z",
+  "fetchedAt": "2026-01-24T21:12:12.061Z",
   "repoId": "docker-debian-buster-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-debian-buster-stable/run-sWhzw3/var/lib/apt/lists/download.docker.com_linux_debian_dists_buster_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-debian-buster-stable/run-piWllf/var/lib/apt/lists/download.docker.com_linux_debian_dists_buster_InRelease",
     "inReleaseSha256": "f6265cde0d74dd987087aeb8d2bbc5695ddbd108053539847cf2e64b2742835b"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-debian-buster-stable/run-sWhzw3/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/debian buster stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-debian-buster-stable/run-piWllf/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/debian buster stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-debian-buster-stable/run-sWhzw3/var/lib/apt/lists/download.docker.com_linux_debian_dists_buster_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260124T175203Z/download.docker.com_linux_debian_dists_buster_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-debian-buster-stable/run-piWllf/var/lib/apt/lists/download.docker.com_linux_debian_dists_buster_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260124T211212Z/download.docker.com_linux_debian_dists_buster_stable_binary-amd64_Packages",
       "suite": "buster",
       "component": "stable",
       "arch": "amd64"

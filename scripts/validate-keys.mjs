@@ -30,8 +30,17 @@ function normalizeExpected(entry) {
   throw new Error(`Key ${entry.id} missing expected fingerprints`);
 }
 
-function getSourceUrl(entry) {
-  return entry.sourceUrl ?? entry.key_url;
+function getSourceUrls(entry) {
+  if (Array.isArray(entry.sourceUrls) && entry.sourceUrls.length > 0) {
+    return entry.sourceUrls;
+  }
+  if (entry.sourceUrl) {
+    return [entry.sourceUrl];
+  }
+  if (entry.key_url) {
+    return [entry.key_url];
+  }
+  return [];
 }
 
 function getOutputPath(entry) {
@@ -86,8 +95,8 @@ async function main() {
       throw new Error("Key entry missing id");
     }
 
-    const sourceUrl = getSourceUrl(entry);
-    if (!sourceUrl) {
+    const sourceUrls = getSourceUrls(entry);
+    if (sourceUrls.length === 0) {
       throw new Error(`Key ${entry.id} missing sourceUrl`);
     }
 
@@ -135,14 +144,18 @@ async function main() {
       }
     }
 
-    const downloadedBytes = await fetchBytes(sourceUrl);
-    const contentType = sniffContentType(downloadedBytes);
-    if (contentType === "html") {
-      throw new Error(`Downloaded content for ${entry.id} appears to be HTML`);
-    }
-    const downloadedKeys = await parsePublicKeys(downloadedBytes);
-    if (downloadedKeys.length === 0) {
-      throw new Error(`No public keys found for ${entry.id}`);
+    let downloadedKeys = [];
+    for (const url of sourceUrls) {
+      const downloadedBytes = await fetchBytes(url);
+      const contentType = sniffContentType(downloadedBytes);
+      if (contentType === "html") {
+        throw new Error(`Downloaded content for ${entry.id} appears to be HTML`);
+      }
+      const keys = await parsePublicKeys(downloadedBytes);
+      if (keys.length === 0) {
+        throw new Error(`No public keys found for ${entry.id}`);
+      }
+      downloadedKeys = downloadedKeys.concat(keys);
     }
     const downloadedFingerprints = keyFingerprints(downloadedKeys);
 

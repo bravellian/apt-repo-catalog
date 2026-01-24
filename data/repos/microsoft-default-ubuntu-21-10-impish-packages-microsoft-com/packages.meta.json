@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:51:48.311Z",
+  "fetchedAt": "2026-01-24T21:11:58.039Z",
   "repoId": "microsoft-default-ubuntu-21-10-impish-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,30 +16,30 @@
     "Codename": "impish",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/run-GA1AEy/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/run-QzbGR1/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_InRelease",
     "inReleaseSha256": "6d537999e9f0a855c0bfd25c88e039aa01ee8e9531635e6701b9adf9277ec99e"
   },
   "sources": [
-    "deb [arch=amd64,armhf,arm64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/run-GA1AEy/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/21.10/prod impish main"
+    "deb [arch=amd64,armhf,arm64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/run-QzbGR1/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/21.10/prod impish main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/run-GA1AEy/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/run-QzbGR1/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T211158Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-all_Packages",
       "suite": "impish",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/run-GA1AEy/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/run-QzbGR1/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T211158Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-amd64_Packages",
       "suite": "impish",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/run-GA1AEy/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T175148Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-arm64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/run-QzbGR1/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-arm64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com/packages.raw/20260124T211158Z/packages.microsoft.com_ubuntu_21.10_prod_dists_impish_main_binary-arm64_Packages",
       "suite": "impish",
       "component": "main",
       "arch": "arm64"

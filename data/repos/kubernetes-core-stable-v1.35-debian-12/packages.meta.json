@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T17:52:19.571Z",
+  "fetchedAt": "2026-01-24T21:12:27.980Z",
   "repoId": "kubernetes-core-stable-v1.35-debian-12",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": "deb",
     "Architectures": "amd64 arm64 s390x ppc64el",
     "Components": null,
-    "inReleasePath": "/tmp/apt-inventory/kubernetes-core-stable-v1-35-debian-12/run-NcOlvk/var/lib/apt/lists/pkgs.k8s.io_core:_stable:_v1.35_deb_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/kubernetes-core-stable-v1-35-debian-12/run-QecR08/var/lib/apt/lists/pkgs.k8s.io_core:_stable:_v1.35_deb_InRelease",
     "inReleaseSha256": "75355a0bdfaab115b27adb160a34eadc5a999129ad8f721cfe0963974bf1bab5"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/kubernetes-core-stable-v1-35-debian-12/run-NcOlvk/keyrings/kubernetes-release-key-234654da9a296436.gpg] https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /"
+    "deb [signed-by=/tmp/apt-inventory/kubernetes-core-stable-v1-35-debian-12/run-QecR08/keyrings/kubernetes-release-key-234654da9a296436.gpg] https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/kubernetes-core-stable-v1-35-debian-12/run-NcOlvk/var/lib/apt/lists/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-debian-12/packages.raw/20260124T175219Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages",
+      "source": "/tmp/apt-inventory/kubernetes-core-stable-v1-35-debian-12/run-QecR08/var/lib/apt/lists/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kubernetes-core-stable-v1.35-debian-12/packages.raw/20260124T211227Z/pkgs.k8s.io_core:_stable:_v1.35_deb_Packages",
       "suite": "",
       "component": "",
       "arch": ""
