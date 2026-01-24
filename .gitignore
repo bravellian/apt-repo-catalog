@@ -7,5 +7,4 @@ yarn-error.log*
 reports/*
 !reports/.gitkeep
 data/repos/**/packages.raw/
-data/discovery/cache/
-data/discovery/tmp/
+data/discovery/
