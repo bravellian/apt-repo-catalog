@@ -157,6 +157,14 @@ function normalizeRepoId(value) {
   return value.toLowerCase().replace(/[^a-z0-9-]+/g, "-");
 }
 
+function logStatus(message) {
+  console.log(message);
+}
+
+function logError(message) {
+  console.error(message);
+}
+
 async function ensureAptDirs(baseDir, keyId) {
   const etcDir = path.join(baseDir, "etc", "apt");
   const sourceParts = path.join(etcDir, "sources.list.d");
@@ -265,6 +273,7 @@ async function main() {
   for (const repo of repos) {
     const repoId = repo.id ?? "unknown";
     const keyId = getKeyId(repo);
+    logStatus(`Checking ${repoId} (${targetOs})`);
     if (!keyId) {
       results.push({
         repoId,
@@ -279,6 +288,7 @@ async function main() {
           rawTail: null
         }
       });
+      logError(`FAILED ${repoId}: missing keyId`);
       failed += 1;
       continue;
     }
@@ -297,6 +307,7 @@ async function main() {
           rawTail: null
         }
       });
+      logError(`FAILED ${repoId}: missing source`);
       failed += 1;
       continue;
     }
@@ -316,6 +327,7 @@ async function main() {
           rawTail: null
         }
       });
+      logError(`FAILED ${repoId}: key ${keyId} not found`);
       failed += 1;
       continue;
     }
@@ -336,7 +348,10 @@ async function main() {
       { encoding: "utf8" }
     );
     if (dearmor.status !== 0) {
-      const rawTail = truncate(`${dearmor.stdout ?? ""}\n${dearmor.stderr ?? ""}`.trim());
+      const dearmorError = dearmor.error ? String(dearmor.error.message ?? dearmor.error) : "";
+      const rawTail = truncate(
+        `${dearmor.stdout ?? ""}\n${dearmor.stderr ?? ""}\n${dearmorError}`.trim()
+      );
       results.push({
         repoId,
         status: "failed",
@@ -350,6 +365,10 @@ async function main() {
           rawTail
         }
       });
+      logError(`FAILED ${repoId}: gpg --dearmor failed`);
+      if (rawTail) {
+        logError(rawTail);
+      }
       failed += 1;
       continue;
     }
@@ -408,6 +427,7 @@ async function main() {
             rawTail
           }
         });
+        logStatus(`SKIPPED ${repoId}: ${unsupportedReason} (${targetOs})`);
         skipped += 1;
         continue;
       }
@@ -424,6 +444,10 @@ async function main() {
           rawTail
         }
       });
+      logError(`FAILED ${repoId}: apt-get update failed (${classifyFailure(output)})`);
+      if (rawTail) {
+        logError(rawTail);
+      }
       failed += 1;
       continue;
     }
@@ -449,6 +473,7 @@ async function main() {
       repo: { source: repo.source, keyId },
       releaseIdentity
     });
+    logStatus(`PASSED ${repoId}`);
     passed += 1;
   }
 

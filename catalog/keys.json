@@ -18,6 +18,23 @@
       "keyCount": 1
     },
     {
+      "id": "microsoft-microsoft-2025-EE4D7792F748182B",
+      "vendor": "microsoft",
+      "label": "Microsoft Packages (2025)",
+      "sourceUrl": "https://packages.microsoft.com/keys/microsoft-2025.asc",
+      "expectedFingerprints": [
+        "AA86F75E427A19DD33346403EE4D7792F748182B"
+      ],
+      "outputPath": "keys/microsoft-microsoft-2025-EE4D7792F748182B.asc",
+      "status": "active",
+      "documentationUrl": "https://learn.microsoft.com/en-us/linux/packages",
+      "tags": [
+        "microsoft"
+      ],
+      "createdAt": "2026-01-24T15:23:00.000Z",
+      "keyCount": 1
+    },
+    {
       "id": "docker-gpg-8d81803c0ebfcd88",
       "vendor": "docker",
       "label": "Docker",

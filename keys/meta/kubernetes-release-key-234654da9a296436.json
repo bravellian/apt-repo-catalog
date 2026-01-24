@@ -4,7 +4,7 @@
   "label": "Kubernetes",
   "status": "active",
   "sourceUrl": "https://pkgs.k8s.io/core:/stable:/v1.35/deb/Release.key",
-  "retrievedAt": "2026-01-23T04:12:51.419Z",
+  "retrievedAt": "2026-01-24T15:28:41.974Z",
   "fingerprints": [
     "DE15B14486CD377B9E876E1A234654DA9A296436"
   ],
