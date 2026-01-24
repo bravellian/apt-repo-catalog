@@ -63,7 +63,7 @@ jobs:
           fetch-depth: 0
       - run: |
           curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
-          apt-get install -y nodejs npm
+          apt-get install -y nodejs
       - run: npm ci
       - run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then
