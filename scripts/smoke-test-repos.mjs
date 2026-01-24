@@ -122,6 +122,26 @@ function classifyFailure(text) {
   return "apt_error";
 }
 
+function detectUnsupported(output) {
+  if (!output) {
+    return null;
+  }
+  const patterns = [
+    /does not have a release file/i,
+    /release file .* not found/i,
+    /inrelease .* not found/i,
+    /404 .*inrelease/i,
+    /404 .*release/i,
+    /inrelease .*404/i,
+    /release .*404/i
+  ];
+  const matched = patterns.find((pattern) => pattern.test(output));
+  if (!matched) {
+    return null;
+  }
+  return "Repository does not currently support the specified OS.";
+}
+
 function truncate(value, max = 8000) {
   if (!value || value.length <= max) {
     return value;
@@ -372,6 +392,25 @@ async function main() {
 
     if (aptResult.status !== 0) {
       const rawTail = truncate(output);
+      const unsupportedReason = detectUnsupported(output);
+      if (unsupportedReason) {
+        results.push({
+          repoId,
+          status: "skipped",
+          durationMs,
+          classification: "unsupported",
+          checkedAt: generatedAt,
+          repo: { source: repo.source, keyId },
+          documentation: `${unsupportedReason} (${targetOs})`,
+          error: {
+            exitCode: aptResult.status,
+            message: "apt-get update reported missing Release/InRelease",
+            rawTail
+          }
+        });
+        skipped += 1;
+        continue;
+      }
       results.push({
         repoId,
         status: "failed",
