@@ -57,6 +57,53 @@ function stripDebPrefix(source) {
   return trimmed;
 }
 
+function parseSourceLine(source, keyringPath) {
+  const trimmed = source.trim();
+  let remaining = trimmed;
+  
+  // Remove "deb" or "deb-src" prefix
+  const debMatch = remaining.match(/^(deb-src|deb)\s+/);
+  const debType = debMatch ? debMatch[1] : "deb";
+  if (debMatch) {
+    remaining = remaining.slice(debMatch[0].length);
+  }
+  
+  // Check if there's an options block [...]
+  const optionsMatch = remaining.match(/^\[([^\]]+)\]\s*/);
+  let existingOptions = {};
+  if (optionsMatch) {
+    // Parse existing options
+    const optionsStr = optionsMatch[1];
+    const optionPairs = optionsStr.split(/\s+/);
+    for (const pair of optionPairs) {
+      const [key, value] = pair.split("=", 2);
+      if (key && value) {
+        existingOptions[key] = value;
+      } else if (key) {
+        // Option without value (boolean flag)
+        existingOptions[key] = true;
+      }
+    }
+    remaining = remaining.slice(optionsMatch[0].length);
+  }
+  
+  // Remove any existing signed-by and replace with our keyring
+  delete existingOptions["signed-by"];
+  existingOptions["signed-by"] = keyringPath;
+  
+  // Rebuild options string
+  const optionsArray = Object.entries(existingOptions).map(([key, value]) => {
+    if (value === true) {
+      return key;
+    }
+    return `${key}=${value}`;
+  });
+  const optionsStr = optionsArray.join(" ");
+  
+  // Return the complete source line
+  return `${debType} [${optionsStr}] ${remaining}`;
+}
+
 function classifyFailure(text) {
   const lower = text.toLowerCase();
   if (/no_pubkey|expkeysig|badsig/.test(lower)) {
@@ -287,7 +334,7 @@ async function main() {
       continue;
     }
 
-    const sourceLine = `deb [signed-by=${keyringPath}] ${stripDebPrefix(repo.source)}`;
+    const sourceLine = parseSourceLine(repo.source, keyringPath);
     await writeFile(sourceListPath, `${sourceLine}\n`, "utf8");
 
     const aptArgs = [
