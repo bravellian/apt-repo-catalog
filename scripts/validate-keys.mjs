@@ -19,13 +19,13 @@ function normalizeFingerprint(value) {
 
 function normalizeExpected(entry) {
   if (Array.isArray(entry.expectedFingerprints)) {
-    return entry.expectedFingerprints.map(normalizeFingerprint);
+    return entry.expectedFingerprints.map(normalizeFingerprint).sort();
   }
   if (entry.expectedFingerprint) {
-    return [normalizeFingerprint(entry.expectedFingerprint)];
+    return [normalizeFingerprint(entry.expectedFingerprint)].sort();
   }
   if (entry.fingerprint) {
-    return [normalizeFingerprint(entry.fingerprint)];
+    return [normalizeFingerprint(entry.fingerprint)].sort();
   }
   throw new Error(`Key ${entry.id} missing expected fingerprints`);
 }

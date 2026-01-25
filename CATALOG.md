@@ -9,7 +9,11 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 
 _Note: only the active OS list is checked daily; legacy entries are kept for reference._
 
-## By Operating System
+• • •
+
+## 🧭 By Operating System
+
+• • •
 
 ### Ubuntu
 
@@ -248,10 +252,13 @@ _Note: only the active OS list is checked daily; legacy entries are kept for ref
 </details>
 
 <details>
-<summary>Proxmox VE 8 (inherits debian-12) (4)</summary>
+<summary>Proxmox VE 8 (inherits debian-12) (7)</summary>
 
 | Docs | Label | Host | FP Suffix16 |
 | --- | --- | --- | --- |
+| [Docs](docs/repos/proxmox-ceph-squid-enterprise-bookworm.md) | Proxmox Ceph Squid - enterprise (PVE 8) | enterprise.proxmox.com | 1140AF8F639E0C39 |
+| [Docs](docs/repos/proxmox-ceph-squid-no-subscription-bookworm.md) | Proxmox Ceph Squid - no-subscription (PVE 8) | download.proxmox.com | 1140AF8F639E0C39 |
+| [Docs](docs/repos/proxmox-ceph-squid-test-bookworm.md) | Proxmox Ceph Squid - test (PVE 8) | download.proxmox.com | 1140AF8F639E0C39 |
 | [Docs](docs/repos/proxmox-ve-8-enterprise.md) | Proxmox VE 8 - enterprise | enterprise.proxmox.com | 1140AF8F639E0C39 |
 | [Docs](docs/repos/proxmox-ve-8-no-subscription.md) | Proxmox VE 8 - no-subscription | download.proxmox.com | 1140AF8F639E0C39 |
 | [Docs](docs/repos/proxmox-ve-8-test.md) | Proxmox VE 8 - test | download.proxmox.com | 1140AF8F639E0C39 |
@@ -276,7 +283,7 @@ _Note: only the active OS list is checked daily; legacy entries are kept for ref
 
 
 
-## Legacy OSes
+## 🕰️ Legacy OSes
 
 <details>
 <summary>Legacy OSes</summary>
@@ -451,6 +458,8 @@ _Note: only the active OS list is checked daily; legacy entries are kept for ref
 
 </details>
 
+• • •
+
 ## Generic (cross-distribution)
 
 _These repos are OS-agnostic and also listed under every current OS above._
@@ -464,7 +473,9 @@ _These repos are OS-agnostic and also listed under every current OS above._
 
 </details>
 
-## By Vendor
+• • •
+
+## 🏷️ By Vendor
 
 <details>
 <summary>docker (28)</summary>
@@ -569,11 +580,14 @@ _These repos are OS-agnostic and also listed under every current OS above._
 </details>
 
 <details>
-<summary>proxmox (12)</summary>
+<summary>proxmox (15)</summary>
 
 - [Proxmox Ceph Squid - enterprise (proxmox-9)](docs/repos/proxmox-ceph-squid-enterprise.md)
+- [Proxmox Ceph Squid - enterprise (PVE 8) (proxmox-8)](docs/repos/proxmox-ceph-squid-enterprise-bookworm.md)
 - [Proxmox Ceph Squid - no-subscription (proxmox-9)](docs/repos/proxmox-ceph-squid-no-subscription.md)
+- [Proxmox Ceph Squid - no-subscription (PVE 8) (proxmox-8)](docs/repos/proxmox-ceph-squid-no-subscription-bookworm.md)
 - [Proxmox Ceph Squid - test (proxmox-9)](docs/repos/proxmox-ceph-squid-test.md)
+- [Proxmox Ceph Squid - test (PVE 8) (proxmox-8)](docs/repos/proxmox-ceph-squid-test-bookworm.md)
 - [Proxmox VE 7 - enterprise (proxmox-7)](docs/repos/proxmox-ve-7-enterprise.md)
 - [Proxmox VE 7 - no-subscription (proxmox-7)](docs/repos/proxmox-ve-7-no-subscription.md)
 - [Proxmox VE 7 - test (proxmox-7)](docs/repos/proxmox-ve-7-test.md)

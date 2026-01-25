@@ -61,6 +61,9 @@ _This file is generated from catalog data. Do not edit manually._
 - [Proxmox VE 7 - test (proxmox-ve-7-test)](repos/proxmox-ve-7-test.md)
 
 ## proxmox-8
+- [Proxmox Ceph Squid - enterprise (PVE 8) (proxmox-ceph-squid-enterprise-bookworm)](repos/proxmox-ceph-squid-enterprise-bookworm.md)
+- [Proxmox Ceph Squid - no-subscription (PVE 8) (proxmox-ceph-squid-no-subscription-bookworm)](repos/proxmox-ceph-squid-no-subscription-bookworm.md)
+- [Proxmox Ceph Squid - test (PVE 8) (proxmox-ceph-squid-test-bookworm)](repos/proxmox-ceph-squid-test-bookworm.md)
 - [Proxmox VE 8 - enterprise (proxmox-ve-8-enterprise)](repos/proxmox-ve-8-enterprise.md)
 - [Proxmox VE 8 - no-subscription (proxmox-ve-8-no-subscription)](repos/proxmox-ve-8-no-subscription.md)
 - [Proxmox VE 8 - test (proxmox-ve-8-test)](repos/proxmox-ve-8-test.md)

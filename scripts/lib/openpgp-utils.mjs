@@ -33,9 +33,41 @@ export function sniffContentType(bytes) {
   return "binary";
 }
 
+function splitArmoredBlocks(armored) {
+  const marker = "-----BEGIN PGP PUBLIC KEY BLOCK-----";
+  const parts = armored.split(marker);
+  if (parts.length <= 1) {
+    return [armored];
+  }
+  return parts
+    .slice(1)
+    .map((part) => `${marker}${part}`)
+    .map((part) => part.trim())
+    .filter(Boolean);
+}
+
+async function readArmoredKeys(armored) {
+  const blocks = splitArmoredBlocks(armored);
+  if (blocks.length <= 1) {
+    return openpgp.readKeys({ armoredKeys: armored });
+  }
+  const keys = [];
+  for (const block of blocks) {
+    try {
+      const key = await openpgp.readKey({ armoredKey: block });
+      if (key) {
+        keys.push(key);
+      }
+    } catch {
+      // Skip invalid blocks.
+    }
+  }
+  return keys;
+}
+
 export async function parsePublicKeys(input) {
   if (typeof input === "string") {
-    return openpgp.readKeys({ armoredKeys: input });
+    return readArmoredKeys(input);
   }
 
   if (!(input instanceof Uint8Array)) {
@@ -44,7 +76,7 @@ export async function parsePublicKeys(input) {
 
   const contentType = sniffContentType(input);
   if (contentType === "armored") {
-    return openpgp.readKeys({ armoredKeys: toUtf8(input) });
+    return readArmoredKeys(toUtf8(input));
   }
 
   return openpgp.readKeys({ binaryKeys: input });

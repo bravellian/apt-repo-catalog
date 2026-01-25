@@ -155,6 +155,8 @@ async function main() {
     "- [By Vendor](#by-vendor)",
     "",
     "_Note: only the active OS list is checked daily; legacy entries are kept for reference._",
+    "",
+    "• • •",
     ""
   ].join("\n");
 
@@ -257,7 +259,9 @@ async function main() {
 
   const content = [
     header,
-    "## By Operating System",
+    "## 🧭 By Operating System",
+    "",
+    "• • •",
     "",
     ...[
       {
@@ -355,7 +359,7 @@ async function main() {
       return lines;
     }),
     "",
-    "## Legacy OSes",
+    "## 🕰️ Legacy OSes",
     "",
     "<details>",
     "<summary>Legacy OSes</summary>",
@@ -379,6 +383,8 @@ async function main() {
     "",
     "</details>",
     "",
+    "• • •",
+    "",
     "## Generic (cross-distribution)",
     "",
     "_These repos are OS-agnostic and also listed under every current OS above._",
@@ -392,7 +398,9 @@ async function main() {
     "",
     "</details>",
     "",
-    "## By Vendor",
+    "• • •",
+    "",
+    "## 🏷️ By Vendor",
     "",
     ...Array.from(vendorMap.keys())
       .sort((a, b) => a.localeCompare(b))

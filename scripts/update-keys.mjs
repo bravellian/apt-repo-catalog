@@ -195,7 +195,9 @@ async function main() {
       downloadedBytesList.push(downloadedBytes);
       downloadedKeys = downloadedKeys.concat(keys);
     }
-    const downloadedFingerprints = keyFingerprints(downloadedKeys).sort();
+    const downloadedFingerprints = Array.from(
+      new Set(keyFingerprints(downloadedKeys).map(normalizeFingerprint))
+    ).sort();
     const userIds = getUserIds(downloadedKeys);
     const keyIds = deriveKeyIdsFromFingerprints(downloadedFingerprints);
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-24T22:03:32.003Z",
+  "generatedAt": "2026-01-25T00:27:01.099Z",
   "keyCount": 10,
   "keys": [
     {
@@ -261,7 +261,7 @@
         "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3B4FE6ACC0B21F32",
         "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6616109451BBBF2"
       ],
-      "retrievedAt": "2026-01-24T21:57:14.237Z",
+      "retrievedAt": "2026-01-25T00:27:01.099Z",
       "fingerprints": [
         "302F0738F465C1535761F965A6616109451BBBF2",
         "630239CC130E1A7FD81A27B140976EAF437D05B5",
@@ -299,7 +299,7 @@
         }
       ],
       "downloaded": {
-        "sha256": "eba39c77117e863672b5bc7d49804ecf565b920f0f82a47230b378342e310864",
+        "sha256": "7eee8b61aa42f44a03d88e6e7526650376ec89a12a17a84bb6b6db98eb214d2f",
         "sizeBytes": 49821,
         "contentType": "multi"
       },
@@ -323,9 +323,8 @@
         "https://enterprise.proxmox.com/debian/proxmox-archive-keyring-trixie.gpg",
         "https://enterprise.proxmox.com/debian/proxmox-release-trixie.gpg"
       ],
-      "retrievedAt": "2026-01-24T22:03:32.003Z",
+      "retrievedAt": "2026-01-25T00:27:01.099Z",
       "fingerprints": [
-        "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
         "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
         "F4E136C67CDCE41AE6DE6FC81140AF8F639E0C39"
       ],
@@ -336,11 +335,6 @@
       ],
       "primaryUserId": "Proxmox Bookworm Release Key <proxmox-release@proxmox.com>",
       "keyIds": [
-        {
-          "fingerprint": "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
-          "keyIdLong": "A7BCD1420BFE778E",
-          "keyIdShort": "0BFE778E"
-        },
         {
           "fingerprint": "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
           "keyIdLong": "A7BCD1420BFE778E",

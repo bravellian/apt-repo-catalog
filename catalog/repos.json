@@ -1134,6 +1134,54 @@
         "apt"
       ],
       "notes": "Test repository; use with caution."
+    },
+    {
+      "id": "proxmox-ceph-squid-enterprise-bookworm",
+      "label": "Proxmox Ceph Squid - enterprise (PVE 8)",
+      "os": "proxmox-8",
+      "name": "proxmox",
+      "source": "deb https://enterprise.proxmox.com/debian/ceph-squid bookworm enterprise",
+      "keyId": "proxmox-release-bookworm",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "ceph",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Requires a valid Proxmox subscription."
+    },
+    {
+      "id": "proxmox-ceph-squid-no-subscription-bookworm",
+      "label": "Proxmox Ceph Squid - no-subscription (PVE 8)",
+      "os": "proxmox-8",
+      "name": "proxmox",
+      "source": "deb http://download.proxmox.com/debian/ceph-squid bookworm no-subscription",
+      "keyId": "proxmox-release-bookworm",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "ceph",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Not recommended for production."
+    },
+    {
+      "id": "proxmox-ceph-squid-test-bookworm",
+      "label": "Proxmox Ceph Squid - test (PVE 8)",
+      "os": "proxmox-8",
+      "name": "proxmox",
+      "source": "deb http://download.proxmox.com/debian/ceph-squid bookworm test",
+      "keyId": "proxmox-release-bookworm",
+      "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+      "tags": [
+        "proxmox",
+        "ceph",
+        "debian-derivative",
+        "apt"
+      ],
+      "notes": "Test repository; use with caution."
     }
   ]
 }

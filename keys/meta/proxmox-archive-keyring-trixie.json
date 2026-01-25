@@ -8,9 +8,8 @@
     "https://enterprise.proxmox.com/debian/proxmox-archive-keyring-trixie.gpg",
     "https://enterprise.proxmox.com/debian/proxmox-release-trixie.gpg"
   ],
-  "retrievedAt": "2026-01-24T22:03:32.003Z",
+  "retrievedAt": "2026-01-25T00:27:01.099Z",
   "fingerprints": [
-    "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
     "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
     "F4E136C67CDCE41AE6DE6FC81140AF8F639E0C39"
   ],
@@ -21,11 +20,6 @@
   ],
   "primaryUserId": "Proxmox Bookworm Release Key <proxmox-release@proxmox.com>",
   "keyIds": [
-    {
-      "fingerprint": "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
-      "keyIdLong": "A7BCD1420BFE778E",
-      "keyIdShort": "0BFE778E"
-    },
     {
       "fingerprint": "24B30F06ECC1836A4E5EFECBA7BCD1420BFE778E",
       "keyIdLong": "A7BCD1420BFE778E",
