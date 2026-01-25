@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir, readdir, stat, mkdtemp } from "node:fs/promises";
+import { readFile, writeFile, mkdir, readdir, stat, mkdtemp, chmod } from "node:fs/promises";
 import path from "node:path";
 import os from "node:os";
 import crypto from "node:crypto";
@@ -168,7 +168,9 @@ function logError(message) {
 async function ensureAptDirs(baseDir, keyId) {
   const etcDir = path.join(baseDir, "etc", "apt");
   const sourceParts = path.join(etcDir, "sources.list.d");
-  const listsPartial = path.join(baseDir, "var", "lib", "apt", "lists", "partial");
+  const stateDir = path.join(baseDir, "var", "lib", "apt");
+  const listsPartial = path.join(stateDir, "lists", "partial");
+  const dpkgDir = path.join(stateDir, "dpkg");
   const archivesPartial = path.join(
     baseDir,
     "var",
@@ -181,14 +183,40 @@ async function ensureAptDirs(baseDir, keyId) {
 
   await mkdir(sourceParts, { recursive: true });
   await mkdir(listsPartial, { recursive: true });
+  await mkdir(dpkgDir, { recursive: true });
   await mkdir(archivesPartial, { recursive: true });
   await mkdir(keyringsDir, { recursive: true });
   await writeFile(path.join(etcDir, "sources.list"), "", "utf8");
+  const statusPath = path.join(dpkgDir, "status");
+  await writeFile(statusPath, "", "utf8");
+
+  const chmodTargets = [
+    baseDir,
+    path.join(baseDir, "var"),
+    path.join(baseDir, "var", "lib"),
+    path.join(baseDir, "var", "lib", "apt"),
+    path.join(baseDir, "var", "lib", "apt", "lists"),
+    listsPartial,
+    path.join(baseDir, "var", "cache"),
+    path.join(baseDir, "var", "cache", "apt"),
+    path.join(baseDir, "var", "cache", "apt", "archives"),
+    archivesPartial
+  ];
+  await Promise.all(
+    chmodTargets.map(async (target) => {
+      try {
+        await chmod(target, 0o755);
+      } catch {
+        // Best-effort; continue if permissions cannot be changed.
+      }
+    })
+  );
 
   return {
     sourceListPath: path.join(sourceParts, "test.list"),
     keyringPath: path.join(keyringsDir, `${keyId}.gpg`),
-    listsDir: path.join(baseDir, "var", "lib", "apt", "lists")
+    listsDir: path.join(stateDir, "lists"),
+    statusPath
   };
 }
 
@@ -336,7 +364,7 @@ async function main() {
     await mkdir(baseTemp, { recursive: true });
     const tempDir = await mkdtemp(path.join(baseTemp, "run-"));
 
-    const { sourceListPath, keyringPath, listsDir } = await ensureAptDirs(
+    const { sourceListPath, keyringPath, listsDir, statusPath } = await ensureAptDirs(
       tempDir,
       keyId
     );
@@ -387,11 +415,15 @@ async function main() {
       "-o",
       `Dir::State=${path.join(tempDir, "var", "lib", "apt")}`,
       "-o",
+      `Dir::State::status=${statusPath}`,
+      "-o",
       `Dir::Cache=${path.join(tempDir, "var", "cache", "apt")}`,
       "-o",
       "Acquire::AllowInsecureRepositories=false",
       "-o",
       "Acquire::AllowDowngradeToInsecureRepositories=false",
+      "-o",
+      "APT::Sandbox::User=root",
       "-o",
       "Debug::Acquire::gpgv=true"
     ];

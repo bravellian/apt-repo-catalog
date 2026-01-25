@@ -48,7 +48,7 @@ function parseInRelease(text) {
   return fields;
 }
 
-async function fetchBytes(url, { timeoutMs, retries }) {
+async function fetchBytes(url, { timeoutMs, retries, maxBytes }) {
   for (let attempt = 0; attempt <= retries; attempt += 1) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), timeoutMs);
@@ -57,7 +57,17 @@ async function fetchBytes(url, { timeoutMs, retries }) {
       if (!response.ok) {
         throw new Error(`Fetch failed: ${response.status}`);
       }
+      const lengthHeader = response.headers.get("content-length");
+      if (lengthHeader && maxBytes) {
+        const length = Number.parseInt(lengthHeader, 10);
+        if (!Number.isNaN(length) && length > maxBytes) {
+          throw new Error(`Response too large (${length} bytes > ${maxBytes})`);
+        }
+      }
       const buffer = await response.arrayBuffer();
+      if (maxBytes && buffer.byteLength > maxBytes) {
+        throw new Error(`Response too large (${buffer.byteLength} bytes > ${maxBytes})`);
+      }
       return new Uint8Array(buffer);
     } catch (error) {
       if (attempt >= retries) {
@@ -184,7 +194,8 @@ async function verifySuite({ baseUrl, suite, components, architectures, config, 
       if (!bytes) {
         bytes = await fetchBytes(entry.url, {
           timeoutMs: config.verification.timeoutMs,
-          retries: config.verification.retryCount
+          retries: config.verification.retryCount,
+          maxBytes: config.verification.maxBytesRelease
         });
         if (bytes) {
           await mkdir(path.dirname(entry.cachePath), { recursive: true });
@@ -258,7 +269,8 @@ async function verifySuite({ baseUrl, suite, components, architectures, config, 
         if (!bytes) {
           bytes = await fetchBytes(url, {
             timeoutMs: config.verification.timeoutMs,
-            retries: config.verification.retryCount
+            retries: config.verification.retryCount,
+            maxBytes: config.verification.maxBytesPackages
           });
           if (bytes) {
             await mkdir(path.dirname(cachePath), { recursive: true });
@@ -268,7 +280,14 @@ async function verifySuite({ baseUrl, suite, components, architectures, config, 
         if (!bytes) {
           throw new Error("No package index bytes available");
         }
-        const text = decompressPackagesFile(cachePath, bytes);
+        let text = "";
+        try {
+          text = decompressPackagesFile(cachePath, bytes);
+        } catch (error) {
+          throw new Error(
+            `Failed to decompress Packages: ${error instanceof Error ? error.message : String(error)}`
+          );
+        }
         const summary = summarizePackages(text, config.verification.samplePackages);
         results.packages.push({
           suite,

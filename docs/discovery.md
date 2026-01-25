@@ -91,6 +91,7 @@ Selectivity guardrails:
 - Enable `github.slowMode` for backoff between requests.
 - Run `discover-repos --local-dir <path>` to mine your own repo corpus without GitHub.
 - Keep `requireAllowlistForCuration` on so only vetted domains reach curated output.
+- If verification hits memory/size limits, lower `verification.concurrency` and set `verification.maxBytesPackages` to cap large Packages indexes.
 
 ## Integration testing
 

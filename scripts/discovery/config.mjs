@@ -52,7 +52,9 @@ const defaultConfig = {
     samplePackages: 15,
     defaultArchitectures: ["amd64", "arm64"],
     retryCount: 1,
-    maxAgeDays: 7
+    maxAgeDays: 7,
+    maxBytesRelease: 5_000_000,
+    maxBytesPackages: 50_000_000
   }
 };
 
