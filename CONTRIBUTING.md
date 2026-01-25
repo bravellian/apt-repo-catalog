@@ -25,7 +25,7 @@ Key refreshes should prefer upstream HTTPS sources and be revalidated when the f
 | `node scripts/apt-inventory.mjs cleanup-catalog [--write-catalog]` | Consolidate duplicate keys and repos in the catalog. |
 | `npm run dev:sanity -- --key-url <url> --repo-os <os> --repo-name "<name>" --repo-source "<deb line>" [--repo-id <id>]` | Run a local add-key/add-repo/validate/smoke flow. |
 | `npm run daily` | Run the same steps as the daily workflow. |
-| `npm run migrate:packages -- --remove-legacy` | Split oversized `packages.json` into chunked files under `data/repos/<id>/packages/`. |
+| `npm run migrate:packages -- --remove-legacy` | Split oversized `packages.json` into 10MB chunked files under `data/repos/<id>/packages/`. |
 
 ## Package inventory
 

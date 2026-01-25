@@ -34,7 +34,7 @@ async function listRepoDirs() {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const maxMb = args["max-mb"] ? Number.parseFloat(args["max-mb"]) : 45;
+  const maxMb = args["max-mb"] ? Number.parseFloat(args["max-mb"]) : 10;
   if (!Number.isFinite(maxMb) || maxMb <= 0) {
     throw new Error("--max-mb must be a positive number");
   }

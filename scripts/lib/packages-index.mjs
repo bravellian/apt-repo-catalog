@@ -1,7 +1,7 @@
 import path from "node:path";
 import { readFile, writeFile, readdir, mkdir, unlink, stat } from "node:fs/promises";
 
-const DEFAULT_MAX_BYTES = 45 * 1024 * 1024;
+const DEFAULT_MAX_BYTES = 10 * 1024 * 1024;
 
 async function readJson(filePath) {
   const raw = await readFile(filePath, "utf8");
