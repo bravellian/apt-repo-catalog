@@ -1,0 +1,40 @@
+{
+  "id": "grafana",
+  "vendor": "grafana-labs",
+  "label": "Grafana APT GPG Key",
+  "status": "active",
+  "sourceUrl": "https://apt.grafana.com/gpg.key",
+  "sourceUrls": [
+    "https://apt.grafana.com/gpg.key"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "B53AE77BADB630A683046005963FA27710458545"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Grafana Labs <engineering@grafana.com>"
+  ],
+  "primaryUserId": "Grafana Labs <engineering@grafana.com>",
+  "keyIds": [
+    {
+      "fingerprint": "B53AE77BADB630A683046005963FA27710458545",
+      "keyIdLong": "963FA27710458545",
+      "keyIdShort": "10458545"
+    }
+  ],
+  "downloaded": {
+    "sha256": "3d4029689bc7e4444ec00abafa07f21e9c812b41f1123ab5bbe6f8c3e3f7ff8c",
+    "sizeBytes": 2460,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "a1b399e040651682b14cd12c7ce81e05ca2d243fcd463ead80fbd453af0a0941",
+    "sizeBytes": 2463,
+    "outputPath": "keys/grafana.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "B53AE77BADB630A683046005963FA27710458545",
+    "fingerprintSuffix16": "963FA27710458545"
+  }
+}

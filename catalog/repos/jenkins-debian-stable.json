@@ -1,0 +1,14 @@
+{
+  "id": "jenkins-debian-stable",
+  "label": "Jenkins (debian-stable)",
+  "os": "generic",
+  "name": "jenkins",
+  "source": "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/",
+  "keyId": "jenkins",
+  "documentationUrl": "https://pkg.jenkins.io/debian-stable/",
+  "tags": [
+    "ci",
+    "devtools"
+  ],
+  "notes": "Install: apt-get install jenkins"
+}

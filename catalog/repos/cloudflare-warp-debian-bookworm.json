@@ -1,0 +1,15 @@
+{
+  "id": "cloudflare-warp-debian-bookworm",
+  "label": "Cloudflare WARP (Debian 12 Bookworm)",
+  "os": "debian-12",
+  "name": "cloudflare-warp",
+  "source": "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ bookworm main",
+  "keyId": "cloudflare-warp",
+  "documentationUrl": "https://pkg.cloudflareclient.com/",
+  "tags": [
+    "security",
+    "networking",
+    "cloud"
+  ],
+  "notes": "Install: apt-get install cloudflare-warp"
+}

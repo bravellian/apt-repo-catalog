@@ -1,0 +1,54 @@
+{
+  "id": "nginx-org",
+  "vendor": "nginx",
+  "label": "nginx.org (APT) signing key",
+  "status": "active",
+  "sourceUrl": "https://nginx.org/keys/nginx_signing.key",
+  "sourceUrls": [
+    "https://nginx.org/keys/nginx_signing.key"
+  ],
+  "retrievedAt": "2026-01-25T06:06:25.162Z",
+  "fingerprints": [
+    "573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62",
+    "8540A6F18833A80E9C1653A42FD21310B49F6B46",
+    "9E9BE90EACBCDE69FE9B204CBCDCD8A38D88A2B3"
+  ],
+  "keyCount": 3,
+  "userIds": [
+    "nginx signing key <signing-key-2@nginx.com>",
+    "nginx signing key <signing-key@nginx.com>",
+    "nginx signing key <signing-key-3@nginx.com>"
+  ],
+  "primaryUserId": "nginx signing key <signing-key-2@nginx.com>",
+  "keyIds": [
+    {
+      "fingerprint": "573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62",
+      "keyIdLong": "ABF5BD827BD9BF62",
+      "keyIdShort": "7BD9BF62"
+    },
+    {
+      "fingerprint": "8540A6F18833A80E9C1653A42FD21310B49F6B46",
+      "keyIdLong": "2FD21310B49F6B46",
+      "keyIdShort": "B49F6B46"
+    },
+    {
+      "fingerprint": "9E9BE90EACBCDE69FE9B204CBCDCD8A38D88A2B3",
+      "keyIdLong": "BCDCD8A38D88A2B3",
+      "keyIdShort": "8D88A2B3"
+    }
+  ],
+  "downloaded": {
+    "sha256": "55385da31d198fa6a5012d40ae98ecb272a6c4e8fffffba94719ffd3e87de37a",
+    "sizeBytes": 11809,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "2f81ebab73baea414427b5d6aecd2cfd6cbdefcde92ccc52c397ddab6867da12",
+    "sizeBytes": 11823,
+    "outputPath": "keys/nginx-org.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62",
+    "fingerprintSuffix16": "ABF5BD827BD9BF62"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "winehq-stable-cosmic",
+  "label": "WineHQ Stable - cosmic",
+  "os": "ubuntu-18.10",
+  "name": "winehq-stable",
+  "source": "deb https://dl.winehq.org/wine-builds/ubuntu cosmic main",
+  "keyId": "winehq",
+  "documentationUrl": "https://wiki.winehq.org/Ubuntu",
+  "tags": [
+    "compatibility"
+  ],
+  "notes": "Official WineHQ repository for stable Wine releases"
+}

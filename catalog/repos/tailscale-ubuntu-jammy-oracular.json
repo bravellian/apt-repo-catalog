@@ -1,0 +1,14 @@
+{
+  "id": "tailscale-ubuntu-jammy-oracular",
+  "label": "Tailscale (Ubuntu 22.04 Jammy) - oracular",
+  "os": "ubuntu-24.10",
+  "name": "tailscale",
+  "source": "deb [signed-by=/usr/share/keyrings/tailscale-archive-keyring.gpg] https://pkgs.tailscale.com/stable/ubuntu oracular main",
+  "keyId": "tailscale-ubuntu-jammy",
+  "documentationUrl": "https://pkgs.tailscale.com/stable/",
+  "tags": [
+    "networking",
+    "security"
+  ],
+  "notes": "Install: apt-get install tailscale"
+}

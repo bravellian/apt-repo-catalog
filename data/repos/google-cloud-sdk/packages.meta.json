@@ -1,0 +1,42 @@
+{
+  "fetchedAt": "2026-01-25T04:44:10.587Z",
+  "repoId": "google-cloud-sdk",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://packages.cloud.google.com/apt cloud-sdk main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "cloud-sdk",
+    "Label": "cloud-sdk",
+    "Suite": "cloud-sdk",
+    "Codename": "cloud-sdk",
+    "Architectures": "all amd64 arm64 armhf i386",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/google-cloud-sdk/run-n4vqQF/var/lib/apt/lists/packages.cloud.google.com_apt_dists_cloud-sdk_InRelease",
+    "inReleaseSha256": "855efd513d0322c8654665074a11864cc3fbc82cc5a4bbad71e1b47152510d6b"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/google-cloud-sdk/run-n4vqQF/keyrings/google-cloud.gpg] https://packages.cloud.google.com/apt cloud-sdk main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/google-cloud-sdk/run-n4vqQF/var/lib/apt/lists/packages.cloud.google.com_apt_dists_cloud-sdk_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-cloud-sdk/packages.raw/20260125T044410Z/packages.cloud.google.com_apt_dists_cloud-sdk_main_binary-all_Packages",
+      "suite": "cloud-sdk",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "/tmp/apt-inventory/google-cloud-sdk/run-n4vqQF/var/lib/apt/lists/packages.cloud.google.com_apt_dists_cloud-sdk_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-cloud-sdk/packages.raw/20260125T044410Z/packages.cloud.google.com_apt_dists_cloud-sdk_main_binary-amd64_Packages",
+      "suite": "cloud-sdk",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

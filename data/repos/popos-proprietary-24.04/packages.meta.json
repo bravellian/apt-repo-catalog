@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-25T04:43:34.162Z",
+  "repoId": "popos-proprietary-24.04",
+  "mode": "auto",
+  "source": {
+    "line": "deb http://apt.pop-os.org/proprietary noble main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "system76",
+    "Label": "System76",
+    "Suite": "noble",
+    "Codename": "noble",
+    "Architectures": "i386 amd64 all",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/popos-proprietary-24-04/run-gUaWpW/var/lib/apt/lists/apt.pop-os.org_proprietary_dists_noble_InRelease",
+    "inReleaseSha256": "e2a61df993d3211d502bb4d22749c9e7d5b740bdb4823f62bfb5a6b8df3a2d22"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/popos-proprietary-24-04/run-gUaWpW/keyrings/popos-lookup-204dd8aec33a7aff.gpg] http://apt.pop-os.org/proprietary noble main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/popos-proprietary-24-04/run-gUaWpW/var/lib/apt/lists/apt.pop-os.org_proprietary_dists_noble_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/popos-proprietary-24.04/packages.raw/20260125T044334Z/apt.pop-os.org_proprietary_dists_noble_main_binary-amd64_Packages",
+      "suite": "noble",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "cloudflare-warp",
+  "vendor": "cloudflare",
+  "label": "Cloudflare WARP (APT) signing key",
+  "status": "active",
+  "sourceUrl": "https://pkg.cloudflareclient.com/pubkey.gpg",
+  "sourceUrls": [
+    "https://pkg.cloudflareclient.com/pubkey.gpg"
+  ],
+  "retrievedAt": "2026-01-25T06:06:25.162Z",
+  "fingerprints": [
+    "C068A2B5771775193CBE1F2F6E2DD2174FA1C3BA"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Cloudflare Package Repository <support@cloudflare.com>"
+  ],
+  "primaryUserId": "Cloudflare Package Repository <support@cloudflare.com>",
+  "keyIds": [
+    {
+      "fingerprint": "C068A2B5771775193CBE1F2F6E2DD2174FA1C3BA",
+      "keyIdLong": "6E2DD2174FA1C3BA",
+      "keyIdShort": "4FA1C3BA"
+    }
+  ],
+  "downloaded": {
+    "sha256": "0f37fc298c98e88ee3c0ee68c95b69f1dba9eb477abe3167e13982105911264d",
+    "sizeBytes": 1680,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "47d937377efabd882b72c10a0b3587b0e263eb4b727feed24adcba24584b9e80",
+    "sizeBytes": 1682,
+    "outputPath": "keys/cloudflare-warp.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "C068A2B5771775193CBE1F2F6E2DD2174FA1C3BA",
+    "fingerprintSuffix16": "6E2DD2174FA1C3BA"
+  }
+}

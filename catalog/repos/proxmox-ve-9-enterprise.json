@@ -1,0 +1,15 @@
+{
+  "id": "proxmox-ve-9-enterprise",
+  "label": "Proxmox VE 9 - enterprise",
+  "os": "proxmox-9",
+  "name": "proxmox",
+  "source": "deb https://enterprise.proxmox.com/debian/pve trixie pve-enterprise",
+  "keyId": "proxmox-archive-keyring-trixie",
+  "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+  "tags": [
+    "proxmox",
+    "debian-derivative",
+    "apt"
+  ],
+  "notes": "Requires a valid Proxmox subscription."
+}

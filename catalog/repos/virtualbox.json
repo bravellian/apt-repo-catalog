@@ -1,0 +1,13 @@
+{
+  "id": "virtualbox",
+  "label": "Oracle VirtualBox",
+  "os": "ubuntu-22.04",
+  "name": "virtualbox",
+  "source": "deb https://download.virtualbox.org/virtualbox/debian jammy contrib",
+  "keyId": "oracle-vbox2016",
+  "documentationUrl": "https://www.virtualbox.org/wiki/Linux_Downloads",
+  "tags": [
+    "virtualization"
+  ],
+  "notes": "Official VirtualBox package repository"
+}

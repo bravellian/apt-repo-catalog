@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:12:18.448Z",
+  "fetchedAt": "2026-01-25T04:43:08.407Z",
   "repoId": "docker-ubuntu-jammy-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-jammy-stable/run-pWj7BA/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_jammy_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-jammy-stable/run-r0NE2R/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_jammy_InRelease",
     "inReleaseSha256": "f3bdf886b1c2d6ee90073d5d1201a32b2afb4fa00de0655376038cce533ea129"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-jammy-stable/run-pWj7BA/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu jammy stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-jammy-stable/run-r0NE2R/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu jammy stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-ubuntu-jammy-stable/run-pWj7BA/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_jammy_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-jammy-stable/packages.raw/20260124T211218Z/download.docker.com_linux_ubuntu_dists_jammy_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-ubuntu-jammy-stable/run-r0NE2R/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_jammy_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-jammy-stable/packages.raw/20260125T044308Z/download.docker.com_linux_ubuntu_dists_jammy_stable_binary-amd64_Packages",
       "suite": "jammy",
       "component": "stable",
       "arch": "amd64"

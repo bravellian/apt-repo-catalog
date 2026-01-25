@@ -1,0 +1,14 @@
+{
+  "id": "microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com",
+  "label": "Microsoft - ubuntu-20.10 - default",
+  "os": "ubuntu-20.10",
+  "name": "microsoft",
+  "source": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/20.10/prod groovy main",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "documentationUrl": "https://packages.microsoft.com/config/ubuntu/20.10",
+  "tags": [
+    "microsoft",
+    "apt",
+    "ubuntu"
+  ]
+}

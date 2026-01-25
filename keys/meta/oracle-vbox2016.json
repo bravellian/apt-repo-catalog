@@ -1,0 +1,40 @@
+{
+  "id": "oracle-vbox2016",
+  "vendor": "oracle",
+  "label": "Oracle VirtualBox Signing Key (2016)",
+  "status": "active",
+  "sourceUrl": "https://www.virtualbox.org/download/oracle_vbox_2016.asc",
+  "sourceUrls": [
+    "https://www.virtualbox.org/download/oracle_vbox_2016.asc"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "B9F8D658297AF3EFC18D5CDFA2F683C52980AECF"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Oracle Corporation (VirtualBox archive signing key) <info@virtualbox.org>"
+  ],
+  "primaryUserId": "Oracle Corporation (VirtualBox archive signing key) <info@virtualbox.org>",
+  "keyIds": [
+    {
+      "fingerprint": "B9F8D658297AF3EFC18D5CDFA2F683C52980AECF",
+      "keyIdLong": "A2F683C52980AECF",
+      "keyIdShort": "2980AECF"
+    }
+  ],
+  "downloaded": {
+    "sha256": "49e6801d45f6536232c11be6cdb43fa8e0198538d29d1075a7e10165e1fbafe2",
+    "sizeBytes": 3157,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "e4654e62b36bad44db3c338d2b0f557660114e3c26c3d1bd3cded15fa46216dd",
+    "sizeBytes": 3125,
+    "outputPath": "keys/oracle-vbox2016.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "B9F8D658297AF3EFC18D5CDFA2F683C52980AECF",
+    "fingerprintSuffix16": "A2F683C52980AECF"
+  }
+}

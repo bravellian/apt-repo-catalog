@@ -1,0 +1,155 @@
+# Oracle VirtualBox (ubuntu-22.04)
+
+## Repository
+- Repository ID: `virtualbox`
+- OS: `ubuntu-22.04`
+- Source: `https://download.virtualbox.org/virtualbox/debian jammy contrib`
+
+## Upstream documentation
+- Documentation URL: https://www.virtualbox.org/wiki/Linux_Downloads
+- Key documentation URL: https://www.virtualbox.org/wiki/Linux_Downloads
+
+## Key reference
+- Key ID: `oracle-vbox2016`
+- Expected fingerprints:
+  - B9F8D658297AF3EFC18D5CDFA2F683C52980AECF
+- Key source URL: https://www.virtualbox.org/download/oracle_vbox_2016.asc
+
+## Install instructions
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian jammy contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian jammy contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list >/dev/null
+sudo apt-get update
+```
+
+## Packages
+
+> Package compatibility is defined by suite/component/architecture in the repository index;
+> there is no per-package OS field in the Packages metadata.
+
+<details>
+<summary>Packages (4)</summary>
+
+<div class="packages-nav">
+<a href="#packages-V">V</a>
+</div>
+
+
+### <a id="packages-V"></a>V
+
+- **virtualbox-6.1**
+  - Latest version: 6.1.50-161033~Ubuntu~jammy
+  - Architectures: amd64
+  - Suite: jammy
+  - Components: contrib
+  - Description: Oracle VM VirtualBox
+  - Install: `sudo apt-get install virtualbox-6.1`
+  - Install (apt): `sudo apt install virtualbox-6.1`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Oracle Corporation <info@virtualbox.org>
+  - Section: contrib/misc
+  - Priority: optional
+  - depends: adduser, libc6 (>= 2.34), libcurl4 (>= 7.16.2), libdevmapper1.02.1 (>= 2:1.02.97), libgcc-s1 (>= 3.0), libgl1, libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsdl1.2debian (>= 1.2.11), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), libvpx7 (>= 1.10.0), libx11-6, libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxml2 (>= 2.7.4), libxt6, psmisc, zlib1g (>= 1:1.1.4)
+  - preDepends: debconf (>= 1.1) | debconf-2.0
+  - recommends: binutils, gcc, kmod | kldutils | module-init-tools, libasound2, libpulse0, libsdl-ttf2.0-0, linux-headers-generic | linux-headers-generic-pae | linux-headers-686-pae | linux-headers-amd64 | linux-headers-2.6-686 | linux-headers-2.6-amd64 | linux-headers, linux-image, make | build-essential | dpkg-dev, pdf-viewer
+  - conflicts: virtualbox, virtualbox-guest-additions-iso, virtualbox-ose, virtualbox-qt
+  - replaces: virtualbox
+  - provides: virtualbox
+
+  </details>
+
+- **virtualbox-7.0**
+  - Latest version: 7.0.26-168464~Ubuntu~jammy
+  - Architectures: amd64
+  - Suite: jammy
+  - Components: contrib
+  - Description: Oracle VM VirtualBox
+  - Install: `sudo apt-get install virtualbox-7.0`
+  - Install (apt): `sudo apt install virtualbox-7.0`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Oracle Corporation <info@virtualbox.org>
+  - Section: contrib/misc
+  - Priority: optional
+  - depends: adduser, libc6 (>= 2.34), libcurl4 (>= 7.16.2), libdevmapper1.02.1 (>= 2:1.02.97), libgcc-s1 (>= 3.0), libgl1, libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5help5 (>= 5.15.1), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), libvpx7 (>= 1.10.0), libvulkan1, libx11-6, libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxml2 (>= 2.7.4), libxt6, psmisc, zlib1g (>= 1:1.1.4)
+  - preDepends: debconf (>= 1.1) | debconf-2.0
+  - recommends: binutils, gcc, kmod | kldutils | module-init-tools, libasound2, libpulse0, libsdl-ttf2.0-0, linux-headers-generic | linux-headers-generic-pae | linux-headers-686-pae | linux-headers-amd64 | linux-headers-2.6-686 | linux-headers-2.6-amd64 | linux-headers, linux-image, make | build-essential | dpkg-dev, pdf-viewer
+  - conflicts: virtualbox, virtualbox-dkms, virtualbox-guest-additions-iso, virtualbox-ose, virtualbox-qt
+  - replaces: virtualbox
+  - provides: virtualbox
+
+  </details>
+
+- **virtualbox-7.1**
+  - Latest version: 7.1.14-170994~Ubuntu~jammy
+  - Architectures: amd64
+  - Suite: jammy
+  - Components: contrib
+  - Description: Oracle VirtualBox
+  - Install: `sudo apt-get install virtualbox-7.1`
+  - Install (apt): `sudo apt install virtualbox-7.1`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Oracle Corporation <info@virtualbox.org>
+  - Section: contrib/misc
+  - Priority: optional
+  - depends: adduser, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libcurl4 (>= 7.16.2), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.4), libgdk-pixbuf-2.0-0 (>= 2.31.1), libgl1, libglib2.0-0 (>= 2.33.14), libgtk-3-0 (>= 3.9.10), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 12), libvpx7 (>= 1.10.0), libvulkan1, libx11-6, libx11-xcb1 (>= 2:1.7.5), libxcb-cursor0 (>= 0.0.99), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.12), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxt6, psmisc, zlib1g (>= 1:1.2.3.4)
+  - preDepends: debconf (>= 1.1) | debconf-2.0
+  - recommends: binutils, gcc, kmod | kldutils | module-init-tools, libasound2, libpulse0, libsdl-ttf2.0-0, linux-headers-generic | linux-headers-generic-pae | linux-headers-686-pae | linux-headers-amd64 | linux-headers-2.6-686 | linux-headers-2.6-amd64 | linux-headers, linux-image, make | build-essential | dpkg-dev, pdf-viewer
+  - conflicts: virtualbox, virtualbox-dkms, virtualbox-guest-additions-iso, virtualbox-ose, virtualbox-qt
+  - replaces: virtualbox
+  - provides: virtualbox
+
+  </details>
+
+- **virtualbox-7.2**
+  - Latest version: 7.2.4-170995~Ubuntu~jammy
+  - Architectures: amd64
+  - Suite: jammy
+  - Components: contrib
+  - Description: Oracle VirtualBox
+  - Install: `sudo apt-get install virtualbox-7.2`
+  - Install (apt): `sudo apt install virtualbox-7.2`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Oracle Corporation <info@virtualbox.org>
+  - Section: contrib/misc
+  - Priority: optional
+  - depends: adduser, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libcurl4 (>= 7.16.2), libdbus-1-3 (>= 1.9.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libgcc-s1 (>= 3.4), libgdk-pixbuf-2.0-0 (>= 2.31.1), libgl1, libglib2.0-0 (>= 2.33.14), libgtk-3-0 (>= 3.21.5), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), libvpx7 (>= 1.10.0), libvulkan1, libwayland-client0 (>= 1.11.0), libwayland-cursor0 (>= 1.8.1), libx11-6, libx11-xcb1 (>= 2:1.7.5), libxcb-cursor0 (>= 0.0.99), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.12), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxt6, psmisc, zlib1g (>= 1:1.2.3.4)
+  - preDepends: debconf (>= 1.1) | debconf-2.0
+  - recommends: binutils, gcc, kmod | kldutils | module-init-tools, libasound2, libpulse0, libsdl-ttf2.0-0, linux-headers-generic | linux-headers-generic-pae | linux-headers-686-pae | linux-headers-amd64 | linux-headers-2.6-686 | linux-headers-2.6-amd64 | linux-headers, linux-image, make | build-essential | dpkg-dev, pdf-viewer
+  - conflicts: virtualbox, virtualbox-dkms, virtualbox-guest-additions-iso, virtualbox-ose, virtualbox-qt
+  - replaces: virtualbox
+  - provides: virtualbox
+
+  </details>
+
+
+</details>
+
+## Notes
+- OS support: verify upstream documentation for supported releases.
+- The trust anchor is the fingerprint; validate it before use.
+- Repo notes: Official VirtualBox package repository
+- Repo tags: virtualization
+- Key notes: Current VirtualBox APT signing key
+- Key tags: virtualization

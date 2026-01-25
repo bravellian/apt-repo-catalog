@@ -1,9 +1,9 @@
 import { readFile, writeFile, access } from "node:fs/promises";
 import path from "node:path";
+import { loadReposCatalog } from "./lib/repos-catalog.mjs";
 
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
-const reposPath = path.join(root, "catalog", "repos.json");
 const latestPath = path.join(root, "reports", "latest.json");
 const keysIndexPath = path.join(root, "keys", "index.json");
 const osPath = path.join(root, "catalog", "os.json");
@@ -109,7 +109,7 @@ function getLastChecked(latest, os) {
 async function main() {
   const [keysCatalog, reposCatalog, osCatalog] = await Promise.all([
     readJson(keysPath),
-    readJson(reposPath),
+    loadReposCatalog({ root }),
     readJson(osPath)
   ]);
 
@@ -117,7 +117,7 @@ async function main() {
     throw new Error("catalog/keys.json must include a keys array");
   }
   if (!reposCatalog?.repos || !Array.isArray(reposCatalog.repos)) {
-    throw new Error("catalog/repos.json must include a repos array");
+    throw new Error("catalog/repos must include a repos array");
   }
   if (!osCatalog?.oses || !Array.isArray(osCatalog.oses)) {
     throw new Error("catalog/os.json must include an oses array");

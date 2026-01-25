@@ -1,0 +1,15 @@
+{
+  "id": "docker-ubuntu-artful-stable",
+  "label": "Docker - Ubuntu (Artful) - stable",
+  "os": "ubuntu-17.10",
+  "name": "docker",
+  "source": "deb https://download.docker.com/linux/ubuntu artful stable",
+  "keyId": "docker-gpg-8d81803c0ebfcd88",
+  "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+  "tags": [
+    "docker",
+    "apt",
+    "ubuntu"
+  ],
+  "notes": "Docker APT repository for Ubuntu"
+}

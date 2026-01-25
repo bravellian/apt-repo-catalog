@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-25T04:44:15.782Z",
+  "repoId": "grafana",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://apt.grafana.com stable main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": ". stable",
+    "Label": ". stable",
+    "Suite": "stable",
+    "Codename": "stable",
+    "Architectures": "amd64 arm64 armhf i386",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/grafana/run-wwsy4W/var/lib/apt/lists/apt.grafana.com_dists_stable_InRelease",
+    "inReleaseSha256": "0700230af6c7ba13653655af6460e682142c4ecb7205c32369f724b666f1a584"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/grafana/run-wwsy4W/keyrings/grafana.gpg] https://apt.grafana.com stable main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/grafana/run-wwsy4W/var/lib/apt/lists/apt.grafana.com_dists_stable_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/grafana/packages.raw/20260125T044415Z/apt.grafana.com_dists_stable_main_binary-amd64_Packages",
+      "suite": "stable",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

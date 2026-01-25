@@ -1,0 +1,40 @@
+{
+  "id": "google-cloud",
+  "vendor": "google",
+  "label": "Google Cloud SDK Key",
+  "status": "active",
+  "sourceUrl": "https://packages.cloud.google.com/apt/doc/apt-key.gpg",
+  "sourceUrls": [
+    "https://packages.cloud.google.com/apt/doc/apt-key.gpg"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Artifact Registry Repository Signer <artifact-registry-repository-signer@google.com>"
+  ],
+  "primaryUserId": "Artifact Registry Repository Signer <artifact-registry-repository-signer@google.com>",
+  "keyIds": [
+    {
+      "fingerprint": "35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3",
+      "keyIdLong": "C0BA5CE6DC6315A3",
+      "keyIdShort": "DC6315A3"
+    }
+  ],
+  "downloaded": {
+    "sha256": "3ecc63922b7795eb23fdc449ff9396f9114cb3cf186d6f5b53ad4cc3ebfbb11f",
+    "sizeBytes": 1022,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "541ca765eab43398f38222199c44de12c7f33a2dfa89513244d7d499156c3eab",
+    "sizeBytes": 1023,
+    "outputPath": "keys/google-cloud.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3",
+    "fingerprintSuffix16": "C0BA5CE6DC6315A3"
+  }
+}

@@ -1,12 +1,12 @@
 import { readFile, writeFile, mkdir, readdir, stat, mkdtemp, chmod } from "node:fs/promises";
 import path from "node:path";
+import { loadReposCatalog } from "./lib/repos-catalog.mjs";
 import os from "node:os";
 import crypto from "node:crypto";
 import { spawnSync } from "node:child_process";
 
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
-const reposPath = path.join(root, "catalog", "repos.json");
 
 function parseArgs(argv) {
   const args = {};
@@ -275,14 +275,14 @@ async function main() {
 
   const [keysCatalog, reposCatalog] = await Promise.all([
     readJson(keysPath),
-    readJson(reposPath)
+    loadReposCatalog({ root })
   ]);
 
   if (!Array.isArray(keysCatalog.keys)) {
     throw new Error("catalog/keys.json must include a keys array");
   }
   if (!Array.isArray(reposCatalog.repos)) {
-    throw new Error("catalog/repos.json must include a repos array");
+    throw new Error("catalog/repos must include a repos array");
   }
 
   const keyMap = new Map(keysCatalog.keys.map((key) => [key.id, key]));

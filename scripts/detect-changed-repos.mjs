@@ -1,6 +1,6 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
-import { execSync } from "node:child_process";
+import { loadReposCatalogFromRef } from "./lib/repos-catalog.mjs";
 
 const root = process.cwd();
 const reportPath = path.join(root, "reports", "changed-repos.json");
@@ -34,15 +34,6 @@ function stableStringify(value) {
   return JSON.stringify(value);
 }
 
-function readJsonAtRef(ref) {
-  try {
-    const content = execSync(`git show ${ref}:catalog/repos.json`, { encoding: "utf8" });
-    return JSON.parse(content);
-  } catch {
-    return { repos: [] };
-  }
-}
-
 function normalizeRepos(catalog) {
   const repos = Array.isArray(catalog.repos) ? catalog.repos : [];
   return repos.filter((repo) => repo?.id).map((repo) => [repo.id, repo]);
@@ -54,8 +45,8 @@ async function main() {
   const baseRef = args.base ?? (baseBranch ? `origin/${baseBranch}` : "origin/main");
   const headRef = args.head ?? "HEAD";
 
-  const base = readJsonAtRef(baseRef);
-  const head = readJsonAtRef(headRef);
+  const base = loadReposCatalogFromRef({ ref: baseRef });
+  const head = loadReposCatalogFromRef({ ref: headRef });
 
   const baseMap = new Map(normalizeRepos(base));
   const headMap = new Map(normalizeRepos(head));

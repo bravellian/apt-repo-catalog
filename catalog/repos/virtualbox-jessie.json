@@ -1,0 +1,13 @@
+{
+  "id": "virtualbox-jessie",
+  "label": "Oracle VirtualBox - jessie",
+  "os": "debian-8",
+  "name": "virtualbox",
+  "source": "deb https://download.virtualbox.org/virtualbox/debian jessie contrib",
+  "keyId": "oracle-vbox2016",
+  "documentationUrl": "https://www.virtualbox.org/wiki/Linux_Downloads",
+  "tags": [
+    "virtualization"
+  ],
+  "notes": "Official VirtualBox package repository"
+}

@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-25T04:43:51.536Z",
+  "repoId": "proxmox-ve-7-test",
+  "mode": "auto",
+  "source": {
+    "line": "deb http://download.proxmox.com/debian/pve bullseye pvetest",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Proxmox",
+    "Label": "Proxmox Debian Repository",
+    "Suite": "stable",
+    "Codename": "bullseye",
+    "Architectures": "amd64",
+    "Components": "pve-no-subscription pvetest",
+    "inReleasePath": "/tmp/apt-inventory/proxmox-ve-7-test/run-reyFBw/var/lib/apt/lists/download.proxmox.com_debian_pve_dists_bullseye_InRelease",
+    "inReleaseSha256": "30af1a957e72d6694187c443a5cac951b81414347b9de5f154d3726a676b54b7"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/proxmox-ve-7-test/run-reyFBw/keyrings/proxmox-release-bullseye.gpg] http://download.proxmox.com/debian/pve bullseye pvetest"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/proxmox-ve-7-test/run-reyFBw/var/lib/apt/lists/download.proxmox.com_debian_pve_dists_bullseye_pvetest_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/proxmox-ve-7-test/packages.raw/20260125T044351Z/download.proxmox.com_debian_pve_dists_bullseye_pvetest_binary-amd64_Packages",
+      "suite": "bullseye",
+      "component": "pvetest",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

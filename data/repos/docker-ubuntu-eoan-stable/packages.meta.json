@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:12:16.116Z",
+  "fetchedAt": "2026-01-25T04:43:06.018Z",
   "repoId": "docker-ubuntu-eoan-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-eoan-stable/run-3YCGyN/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_eoan_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-eoan-stable/run-mhmWwx/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_eoan_InRelease",
     "inReleaseSha256": "9ba7027e1efb59641b543745e721a36aa89340cc2614fd655a9ee3ad2c68fe67"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-eoan-stable/run-3YCGyN/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu eoan stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-eoan-stable/run-mhmWwx/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu eoan stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-ubuntu-eoan-stable/run-3YCGyN/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_eoan_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-eoan-stable/packages.raw/20260124T211216Z/download.docker.com_linux_ubuntu_dists_eoan_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-ubuntu-eoan-stable/run-mhmWwx/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_eoan_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-eoan-stable/packages.raw/20260125T044306Z/download.docker.com_linux_ubuntu_dists_eoan_stable_binary-amd64_Packages",
       "suite": "eoan",
       "component": "stable",
       "arch": "amd64"

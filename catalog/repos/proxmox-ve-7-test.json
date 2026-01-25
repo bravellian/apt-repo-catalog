@@ -1,0 +1,15 @@
+{
+  "id": "proxmox-ve-7-test",
+  "label": "Proxmox VE 7 - test",
+  "os": "proxmox-7",
+  "name": "proxmox",
+  "source": "deb http://download.proxmox.com/debian/pve bullseye pvetest",
+  "keyId": "proxmox-release-bullseye",
+  "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+  "tags": [
+    "proxmox",
+    "debian-derivative",
+    "apt"
+  ],
+  "notes": "Test repository; use with caution."
+}

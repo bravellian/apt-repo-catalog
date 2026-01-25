@@ -1,0 +1,13 @@
+{
+  "id": "nodesource-node20x",
+  "label": "Node.js 20.x (NodeSource)",
+  "os": "ubuntu-22.04",
+  "name": "nodesource-node20x",
+  "source": "deb https://deb.nodesource.com/node_20.x jammy main",
+  "keyId": "nodesource",
+  "documentationUrl": "https://deb.nodesource.com",
+  "tags": [
+    "nodejs"
+  ],
+  "notes": "Node.js 20 LTS from NodeSource"
+}

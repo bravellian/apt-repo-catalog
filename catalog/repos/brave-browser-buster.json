@@ -1,0 +1,14 @@
+{
+  "id": "brave-browser-buster",
+  "label": "Brave Browser (Stable) - buster",
+  "os": "debian-10",
+  "name": "brave-browser",
+  "source": "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ buster main",
+  "keyId": "brave-browser",
+  "documentationUrl": "https://brave.com/linux/",
+  "tags": [
+    "web browser",
+    "privacy"
+  ],
+  "notes": "Official Brave browser APT repository for 64-bit"
+}

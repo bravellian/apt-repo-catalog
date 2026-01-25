@@ -1,0 +1,14 @@
+{
+  "id": "tailscale-ubuntu-jammy-mantic",
+  "label": "Tailscale (Ubuntu 22.04 Jammy) - mantic",
+  "os": "ubuntu-23.10",
+  "name": "tailscale",
+  "source": "deb [signed-by=/usr/share/keyrings/tailscale-archive-keyring.gpg] https://pkgs.tailscale.com/stable/ubuntu mantic main",
+  "keyId": "tailscale-ubuntu-jammy",
+  "documentationUrl": "https://pkgs.tailscale.com/stable/",
+  "tags": [
+    "networking",
+    "security"
+  ],
+  "notes": "Install: apt-get install tailscale"
+}

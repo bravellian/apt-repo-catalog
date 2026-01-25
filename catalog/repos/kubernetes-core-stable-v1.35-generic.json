@@ -1,0 +1,10 @@
+{
+  "id": "kubernetes-core-stable-v1.35-generic",
+  "label": "Kubernetes core stable v1.35 (generic)",
+  "os": "generic",
+  "name": "kubernetes",
+  "source": "deb https://pkgs.k8s.io/core:/stable:/v1.35/deb/ /",
+  "keyId": "kubernetes-release-key-234654da9a296436",
+  "allowMissingDocsUrl": true,
+  "notes": "Upstream repo does not use a distro-specific suite; this entry is shared across Debian/Ubuntu."
+}

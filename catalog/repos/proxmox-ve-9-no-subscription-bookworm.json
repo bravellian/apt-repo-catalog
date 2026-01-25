@@ -1,0 +1,15 @@
+{
+  "id": "proxmox-ve-9-no-subscription-bookworm",
+  "label": "Proxmox VE 9 - no-subscription - bookworm",
+  "os": "debian-12",
+  "name": "proxmox",
+  "source": "deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription",
+  "keyId": "proxmox-archive-keyring-trixie",
+  "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+  "tags": [
+    "proxmox",
+    "debian-derivative",
+    "apt"
+  ],
+  "notes": "Not recommended for production."
+}

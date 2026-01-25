@@ -1,0 +1,14 @@
+{
+  "id": "tailscale-ubuntu-jammy-kinetic",
+  "label": "Tailscale (Ubuntu 22.04 Jammy) - kinetic",
+  "os": "ubuntu-22.10",
+  "name": "tailscale",
+  "source": "deb [signed-by=/usr/share/keyrings/tailscale-archive-keyring.gpg] https://pkgs.tailscale.com/stable/ubuntu kinetic main",
+  "keyId": "tailscale-ubuntu-jammy",
+  "documentationUrl": "https://pkgs.tailscale.com/stable/",
+  "tags": [
+    "networking",
+    "security"
+  ],
+  "notes": "Install: apt-get install tailscale"
+}

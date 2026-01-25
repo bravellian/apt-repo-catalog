@@ -1,0 +1,16 @@
+{
+  "id": "proxmox-ceph-squid-test-bookworm-trixie",
+  "label": "Proxmox Ceph Squid - test (PVE 8) - trixie",
+  "os": "debian-13",
+  "name": "proxmox",
+  "source": "deb http://download.proxmox.com/debian/ceph-squid trixie test",
+  "keyId": "proxmox-archive-keyring-trixie",
+  "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+  "tags": [
+    "proxmox",
+    "ceph",
+    "debian-derivative",
+    "apt"
+  ],
+  "notes": "Test repository; use with caution."
+}

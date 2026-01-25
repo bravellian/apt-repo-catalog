@@ -1,0 +1,40 @@
+{
+  "id": "github-cli",
+  "vendor": "github",
+  "label": "GitHub CLI (APT) signing key",
+  "status": "active",
+  "sourceUrl": "https://cli.github.com/packages/githubcli-archive-keyring.gpg",
+  "sourceUrls": [
+    "https://cli.github.com/packages/githubcli-archive-keyring.gpg"
+  ],
+  "retrievedAt": "2026-01-25T06:06:25.162Z",
+  "fingerprints": [
+    "2C6106201985B60E6C7AC87323F3D4EA75716059"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "GitHub CLI <opensource+cli@github.com>"
+  ],
+  "primaryUserId": "GitHub CLI <opensource+cli@github.com>",
+  "keyIds": [
+    {
+      "fingerprint": "2C6106201985B60E6C7AC87323F3D4EA75716059",
+      "keyIdLong": "23F3D4EA75716059",
+      "keyIdShort": "75716059"
+    }
+  ],
+  "downloaded": {
+    "sha256": "20e0125d6f6e077a9ad46f03371bc26d90b04939fb95170f5a1905099cc6bcc0",
+    "sizeBytes": 2270,
+    "contentType": "binary"
+  },
+  "cached": {
+    "sha256": "eb400899f3c82c9c66280d1ed8f43e1b6962c1cc24c7eb23d326c8bd4afe10dd",
+    "sizeBytes": 3158,
+    "outputPath": "keys/github-cli.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "2C6106201985B60E6C7AC87323F3D4EA75716059",
+    "fingerprintSuffix16": "23F3D4EA75716059"
+  }
+}

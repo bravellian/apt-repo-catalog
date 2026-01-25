@@ -1,0 +1,14 @@
+{
+  "id": "popos-release-24.04",
+  "label": "Pop!_OS release - 24.04",
+  "os": "popos-24.04",
+  "name": "popos",
+  "source": "deb http://apt.pop-os.org/release noble main",
+  "keyId": "popos-lookup-204dd8aec33a7aff",
+  "documentationUrl": "https://support.system76.com/articles/apt-repository/",
+  "tags": [
+    "popos",
+    "ubuntu-derivative",
+    "apt"
+  ]
+}

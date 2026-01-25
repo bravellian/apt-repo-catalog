@@ -1,0 +1,13 @@
+{
+  "id": "virtualbox-bullseye",
+  "label": "Oracle VirtualBox - bullseye",
+  "os": "debian-11",
+  "name": "virtualbox",
+  "source": "deb https://download.virtualbox.org/virtualbox/debian bullseye contrib",
+  "keyId": "oracle-vbox2016",
+  "documentationUrl": "https://www.virtualbox.org/wiki/Linux_Downloads",
+  "tags": [
+    "virtualization"
+  ],
+  "notes": "Official VirtualBox package repository"
+}

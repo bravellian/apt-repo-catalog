@@ -1,0 +1,13 @@
+{
+  "id": "winehq-stable-noble",
+  "label": "WineHQ Stable - noble",
+  "os": "ubuntu-24.04",
+  "name": "winehq-stable",
+  "source": "deb https://dl.winehq.org/wine-builds/ubuntu noble main",
+  "keyId": "winehq",
+  "documentationUrl": "https://wiki.winehq.org/Ubuntu",
+  "tags": [
+    "compatibility"
+  ],
+  "notes": "Official WineHQ repository for stable Wine releases"
+}

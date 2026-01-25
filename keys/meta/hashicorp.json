@@ -1,0 +1,40 @@
+{
+  "id": "hashicorp",
+  "vendor": "hashicorp",
+  "label": "HashiCorp Linux Repo GPG Key",
+  "status": "active",
+  "sourceUrl": "https://apt.releases.hashicorp.com/gpg",
+  "sourceUrls": [
+    "https://apt.releases.hashicorp.com/gpg"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "798AEC654E5C15428C8E42EEAA16FCBCA621E701"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "HashiCorp Security (HashiCorp Package Signing) <security+packaging@hashicorp.com>"
+  ],
+  "primaryUserId": "HashiCorp Security (HashiCorp Package Signing) <security+packaging@hashicorp.com>",
+  "keyIds": [
+    {
+      "fingerprint": "798AEC654E5C15428C8E42EEAA16FCBCA621E701",
+      "keyIdLong": "AA16FCBCA621E701",
+      "keyIdShort": "A621E701"
+    }
+  ],
+  "downloaded": {
+    "sha256": "cafb01beac341bf2a9ba89793e6dd2468110291adfbb6c62ed11a0cde6c09029",
+    "sizeBytes": 3980,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "3fb0c668cd36aafb1647144852e84430466c1ec5d1846db08e873683852ca588",
+    "sizeBytes": 3983,
+    "outputPath": "keys/hashicorp.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "798AEC654E5C15428C8E42EEAA16FCBCA621E701",
+    "fingerprintSuffix16": "AA16FCBCA621E701"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com",
+  "label": "Microsoft - ubuntu-16.10 - default",
+  "os": "ubuntu-16.10",
+  "name": "microsoft",
+  "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.10/prod yakkety main",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "documentationUrl": "https://packages.microsoft.com/config/ubuntu/16.10",
+  "tags": [
+    "microsoft",
+    "apt",
+    "ubuntu"
+  ]
+}

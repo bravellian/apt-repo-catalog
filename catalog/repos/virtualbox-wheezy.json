@@ -1,0 +1,13 @@
+{
+  "id": "virtualbox-wheezy",
+  "label": "Oracle VirtualBox - wheezy",
+  "os": "debian-7",
+  "name": "virtualbox",
+  "source": "deb https://download.virtualbox.org/virtualbox/debian wheezy contrib",
+  "keyId": "oracle-vbox2016",
+  "documentationUrl": "https://www.virtualbox.org/wiki/Linux_Downloads",
+  "tags": [
+    "virtualization"
+  ],
+  "notes": "Official VirtualBox package repository"
+}

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:12:13.426Z",
+  "fetchedAt": "2026-01-25T04:43:03.138Z",
   "repoId": "docker-debian-trixie-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-debian-trixie-stable/run-mDhrfJ/var/lib/apt/lists/download.docker.com_linux_debian_dists_trixie_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-debian-trixie-stable/run-IMNOAi/var/lib/apt/lists/download.docker.com_linux_debian_dists_trixie_InRelease",
     "inReleaseSha256": "b38f4907c7547b06cc45b788f1554689b73d5cd6384a74fcb759097a2fdbc0fd"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-debian-trixie-stable/run-mDhrfJ/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/debian trixie stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-debian-trixie-stable/run-IMNOAi/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/debian trixie stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-debian-trixie-stable/run-mDhrfJ/var/lib/apt/lists/download.docker.com_linux_debian_dists_trixie_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-trixie-stable/packages.raw/20260124T211213Z/download.docker.com_linux_debian_dists_trixie_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-debian-trixie-stable/run-IMNOAi/var/lib/apt/lists/download.docker.com_linux_debian_dists_trixie_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-trixie-stable/packages.raw/20260125T044303Z/download.docker.com_linux_debian_dists_trixie_stable_binary-amd64_Packages",
       "suite": "trixie",
       "component": "stable",
       "arch": "amd64"

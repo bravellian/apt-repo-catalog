@@ -1,8 +1,9 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
+import { loadReposCatalog } from "./lib/repos-catalog.mjs";
+import { loadPackagesIndex } from "./lib/packages-index.mjs";
 
 const root = process.cwd();
-const reposPath = path.join(root, "catalog", "repos.json");
 const keysPath = path.join(root, "catalog", "keys.json");
 const docsDir = path.join(root, "docs");
 const reposDocsDir = path.join(docsDir, "repos");
@@ -346,8 +347,7 @@ async function buildDocsIndex(repos) {
     if (!repoId) {
       continue;
     }
-    const packagesPath = path.join(dataReposDir, repoId, "packages.json");
-    const packagesData = await readOptionalJson(packagesPath);
+    const packagesData = await loadPackagesIndex(path.join(dataReposDir, repoId));
     if (!packagesData?.packages) {
       continue;
     }
@@ -410,12 +410,12 @@ async function buildDocsIndex(repos) {
 
 async function main() {
   const [reposCatalog, keysCatalog] = await Promise.all([
-    readJson(reposPath),
+    loadReposCatalog({ root }),
     readJson(keysPath)
   ]);
 
   if (!Array.isArray(reposCatalog.repos)) {
-    throw new Error("catalog/repos.json must include a repos array");
+    throw new Error("catalog/repos must include a repos array");
   }
   if (!Array.isArray(keysCatalog.keys)) {
     throw new Error("catalog/keys.json must include a keys array");
@@ -432,9 +432,8 @@ async function main() {
     }
     const keyId = getKeyId(repo);
     const keyEntry = keyMap.get(keyId);
-    const packagesPath = path.join(dataReposDir, repoId, "packages.json");
     const packagesMetaPath = path.join(dataReposDir, repoId, "packages.meta.json");
-    const packagesData = await readOptionalJson(packagesPath);
+    const packagesData = await loadPackagesIndex(path.join(dataReposDir, repoId));
     const packagesMeta = await readOptionalJson(packagesMetaPath);
     const doc = buildRepoDoc({ repo, keyEntry, packagesData, packagesMeta });
     const docPath = path.join(reposDocsDir, `${repoId}.md`);

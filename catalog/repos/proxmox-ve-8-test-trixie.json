@@ -1,0 +1,15 @@
+{
+  "id": "proxmox-ve-8-test-trixie",
+  "label": "Proxmox VE 8 - test - trixie",
+  "os": "debian-13",
+  "name": "proxmox",
+  "source": "deb http://download.proxmox.com/debian/pve trixie pvetest",
+  "keyId": "proxmox-archive-keyring-trixie",
+  "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+  "tags": [
+    "proxmox",
+    "debian-derivative",
+    "apt"
+  ],
+  "notes": "Test repository; use with caution."
+}

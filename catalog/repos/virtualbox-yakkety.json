@@ -1,0 +1,13 @@
+{
+  "id": "virtualbox-yakkety",
+  "label": "Oracle VirtualBox - yakkety",
+  "os": "ubuntu-16.10",
+  "name": "virtualbox",
+  "source": "deb https://download.virtualbox.org/virtualbox/debian yakkety contrib",
+  "keyId": "oracle-vbox2016",
+  "documentationUrl": "https://www.virtualbox.org/wiki/Linux_Downloads",
+  "tags": [
+    "virtualization"
+  ],
+  "notes": "Official VirtualBox package repository"
+}

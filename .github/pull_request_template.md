@@ -5,7 +5,7 @@
 ## What changed?
 
 - [ ] `catalog/keys.json`
-- [ ] `catalog/repos.json`
+- [ ] `catalog/repos/`
 - [ ] `keys/*.asc`
 - [ ] scripts / workflows
 - [ ] docs

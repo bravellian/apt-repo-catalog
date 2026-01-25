@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-25T04:44:06.163Z",
+  "repoId": "postgresql-pgdg-debian",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://apt.postgresql.org/pub/repos/apt bookworm-pgdg main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "apt.postgresql.org",
+    "Label": "PostgreSQL for Debian/Ubuntu repository",
+    "Suite": "bookworm-pgdg",
+    "Codename": "bookworm-pgdg",
+    "Architectures": "amd64 arm64 ppc64el",
+    "Components": "main 8.2 8.3 8.4 9.0 9.1 9.2 9.3 9.4 9.5 9.6 10 11 12 13 14 15 16 17 18 19",
+    "inReleasePath": "/tmp/apt-inventory/postgresql-pgdg-debian/run-wAoQS5/var/lib/apt/lists/apt.postgresql.org_pub_repos_apt_dists_bookworm-pgdg_InRelease",
+    "inReleaseSha256": "8df3ba29cdf45afae9011dd752cde98883157303e32dbaa932913dfc3b48f067"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/postgresql-pgdg-debian/run-wAoQS5/keyrings/postgresql.gpg] https://apt.postgresql.org/pub/repos/apt bookworm-pgdg main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/postgresql-pgdg-debian/run-wAoQS5/var/lib/apt/lists/apt.postgresql.org_pub_repos_apt_dists_bookworm-pgdg_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/postgresql-pgdg-debian/packages.raw/20260125T044406Z/apt.postgresql.org_pub_repos_apt_dists_bookworm-pgdg_main_binary-amd64_Packages",
+      "suite": "bookworm-pgdg",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

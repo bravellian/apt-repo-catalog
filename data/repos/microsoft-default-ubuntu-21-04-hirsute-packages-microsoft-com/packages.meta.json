@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:11:57.286Z",
+  "fetchedAt": "2026-01-25T04:42:47.653Z",
   "repoId": "microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,37 +16,37 @@
     "Codename": "hirsute",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/run-KESUnx/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/run-CspF3Y/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_InRelease",
     "inReleaseSha256": "64296ce5eab284eb0f463da818dc410013084d63eaf78a679c3d5ad5b90e4841"
   },
   "sources": [
-    "deb [arch=amd64,armhf,arm64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/run-KESUnx/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/21.04/prod hirsute main"
+    "deb [arch=amd64,armhf,arm64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/run-CspF3Y/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/21.04/prod hirsute main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/run-KESUnx/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/packages.raw/20260124T211157Z/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/run-CspF3Y/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/packages.raw/20260125T044247Z/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-all_Packages",
       "suite": "hirsute",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/run-KESUnx/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/packages.raw/20260124T211157Z/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/run-CspF3Y/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/packages.raw/20260125T044247Z/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-amd64_Packages",
       "suite": "hirsute",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/run-KESUnx/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/packages.raw/20260124T211157Z/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-arm64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/run-CspF3Y/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-arm64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/packages.raw/20260125T044247Z/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-arm64_Packages",
       "suite": "hirsute",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/run-KESUnx/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-armhf_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/packages.raw/20260124T211157Z/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-armhf_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/run-CspF3Y/var/lib/apt/lists/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-armhf_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com/packages.raw/20260125T044247Z/packages.microsoft.com_ubuntu_21.04_prod_dists_hirsute_main_binary-armhf_Packages",
       "suite": "hirsute",
       "component": "main",
       "arch": "armhf"

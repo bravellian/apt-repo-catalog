@@ -1,0 +1,14 @@
+{
+  "id": "tailscale-debian-bookworm-trixie",
+  "label": "Tailscale (Debian 12 Bookworm) - trixie",
+  "os": "debian-13",
+  "name": "tailscale",
+  "source": "deb [signed-by=/usr/share/keyrings/tailscale-archive-keyring.gpg] https://pkgs.tailscale.com/stable/debian trixie main",
+  "keyId": "tailscale-ubuntu-jammy",
+  "documentationUrl": "https://pkgs.tailscale.com/stable/",
+  "tags": [
+    "networking",
+    "security"
+  ],
+  "notes": "Install: apt-get install tailscale"
+}

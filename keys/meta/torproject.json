@@ -1,0 +1,40 @@
+{
+  "id": "torproject",
+  "vendor": "tor-project",
+  "label": "Tor Project Archive Key",
+  "status": "active",
+  "sourceUrl": "https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc",
+  "sourceUrls": [
+    "https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "deb.torproject.org archive signing key"
+  ],
+  "primaryUserId": "deb.torproject.org archive signing key",
+  "keyIds": [
+    {
+      "fingerprint": "A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89",
+      "keyIdLong": "EE8CBC9E886DDD89",
+      "keyIdShort": "886DDD89"
+    }
+  ],
+  "downloaded": {
+    "sha256": "3a17ae045c544aecc065cf401a4ed96dfc99b6081c8b8989716772773c4f2d1d",
+    "sizeBytes": 49804,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "4f769234aebabd53c480570020c5426bde10ec45c6c6d7a5f68e338d26117ea5",
+    "sizeBytes": 49855,
+    "outputPath": "keys/torproject.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89",
+    "fingerprintSuffix16": "EE8CBC9E886DDD89"
+  }
+}

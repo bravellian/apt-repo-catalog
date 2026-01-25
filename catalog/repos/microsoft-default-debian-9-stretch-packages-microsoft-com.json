@@ -1,0 +1,14 @@
+{
+  "id": "microsoft-default-debian-9-stretch-packages-microsoft-com",
+  "label": "Microsoft - debian-9 - default",
+  "os": "debian-9",
+  "name": "microsoft",
+  "source": "deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/9/prod stretch main",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "documentationUrl": "https://packages.microsoft.com/config/debian/9",
+  "tags": [
+    "microsoft",
+    "apt",
+    "debian"
+  ]
+}

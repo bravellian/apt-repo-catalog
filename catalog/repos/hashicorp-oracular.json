@@ -1,0 +1,14 @@
+{
+  "id": "hashicorp-oracular",
+  "label": "HashiCorp Official Repository - oracular",
+  "os": "ubuntu-24.10",
+  "name": "hashicorp",
+  "source": "deb https://apt.releases.hashicorp.com oracular main",
+  "keyId": "hashicorp",
+  "documentationUrl": "https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository",
+  "tags": [
+    "devops",
+    "infrastructure"
+  ],
+  "notes": "HashiCorp Debian/Ubuntu package repository"
+}

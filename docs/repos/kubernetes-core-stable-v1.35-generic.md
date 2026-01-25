@@ -38,7 +38,111 @@ sudo apt-get update
 
 ## Packages
 
-Package inventory has not been generated for this repository.
+> Package compatibility is defined by suite/component/architecture in the repository index;
+> there is no per-package OS field in the Packages metadata.
+
+<details>
+<summary>Packages (5)</summary>
+
+<div class="packages-nav">
+<a href="#packages-C">C</a> <a href="#packages-K">K</a>
+</div>
+
+
+### <a id="packages-C"></a>C
+
+- **cri-tools**
+  - Latest version: 1.35.0-1.1
+  - Architectures: amd64, arm64, ppc64el, s390x
+  - Suite: /
+  - Description: Command-line utility for interacting with a container runtime
+  - Homepage: https://kubernetes.io
+  - Install: `sudo apt-get install cri-tools`
+  - Install (apt): `sudo apt install cri-tools`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Kubernetes Authors <dev@kubernetes.io>
+  - Section: admin
+  - Priority: optional
+
+  </details>
+
+
+### <a id="packages-K"></a>K
+
+- **kubeadm**
+  - Latest version: 1.35.0-1.1
+  - Architectures: amd64, arm64, ppc64el, s390x
+  - Suite: /
+  - Description: Command-line utility for administering a Kubernetes cluster
+  - Homepage: https://kubernetes.io
+  - Install: `sudo apt-get install kubeadm`
+  - Install (apt): `sudo apt install kubeadm`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Kubernetes Authors <dev@kubernetes.io>
+  - Section: admin
+  - Priority: optional
+  - depends: cri-tools (>= 1.30.0)
+
+  </details>
+
+- **kubectl**
+  - Latest version: 1.35.0-1.1
+  - Architectures: amd64, arm64, ppc64el, s390x
+  - Suite: /
+  - Description: Command-line utility for interacting with a Kubernetes cluster
+  - Homepage: https://kubernetes.io
+  - Install: `sudo apt-get install kubectl`
+  - Install (apt): `sudo apt install kubectl`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Kubernetes Authors <dev@kubernetes.io>
+  - Section: admin
+  - Priority: optional
+
+  </details>
+
+- **kubelet**
+  - Latest version: 1.35.0-1.1
+  - Architectures: amd64, arm64, ppc64el, s390x
+  - Suite: /
+  - Description: Node agent for Kubernetes clusters
+  - Homepage: https://kubernetes.io
+  - Install: `sudo apt-get install kubelet`
+  - Install (apt): `sudo apt install kubelet`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Kubernetes Authors <dev@kubernetes.io>
+  - Section: net
+  - Priority: optional
+  - depends: iptables (>= 1.4.21), kubernetes-cni (>= 1.2.0), libc6, mount, util-linux
+
+  </details>
+
+- **kubernetes-cni**
+  - Latest version: 1.8.0-1.1
+  - Architectures: amd64, arm64, ppc64el, s390x
+  - Suite: /
+  - Description: Binaries required to provision kubernetes container networking
+  - Homepage: https://kubernetes.io
+  - Install: `sudo apt-get install kubernetes-cni`
+  - Install (apt): `sudo apt install kubernetes-cni`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Kubernetes Authors <dev@kubernetes.io>
+  - Section: net
+  - Priority: optional
+
+  </details>
+
+
+</details>
 
 ## Notes
 - OS support: verify upstream documentation for supported releases.

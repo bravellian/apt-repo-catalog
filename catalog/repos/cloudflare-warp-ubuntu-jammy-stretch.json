@@ -1,0 +1,15 @@
+{
+  "id": "cloudflare-warp-ubuntu-jammy-stretch",
+  "label": "Cloudflare WARP (Ubuntu 22.04 Jammy) - stretch",
+  "os": "debian-9",
+  "name": "cloudflare-warp",
+  "source": "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ stretch main",
+  "keyId": "cloudflare-warp",
+  "documentationUrl": "https://pkg.cloudflareclient.com/",
+  "tags": [
+    "security",
+    "networking",
+    "cloud"
+  ],
+  "notes": "Install: apt-get install cloudflare-warp"
+}

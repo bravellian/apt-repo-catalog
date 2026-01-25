@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:12:14.705Z",
+  "fetchedAt": "2026-01-25T04:43:04.586Z",
   "repoId": "docker-ubuntu-bionic-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-bionic-stable/run-DfkauV/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_bionic_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-bionic-stable/run-mtSO3g/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_bionic_InRelease",
     "inReleaseSha256": "070193516431ac0ae1f59d39c275147a99c6e74c451be5f1206a525b95f22660"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-bionic-stable/run-DfkauV/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu bionic stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-bionic-stable/run-mtSO3g/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu bionic stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-ubuntu-bionic-stable/run-DfkauV/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_bionic_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-bionic-stable/packages.raw/20260124T211214Z/download.docker.com_linux_ubuntu_dists_bionic_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-ubuntu-bionic-stable/run-mtSO3g/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_bionic_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-bionic-stable/packages.raw/20260125T044304Z/download.docker.com_linux_ubuntu_dists_bionic_stable_binary-amd64_Packages",
       "suite": "bionic",
       "component": "stable",
       "arch": "amd64"

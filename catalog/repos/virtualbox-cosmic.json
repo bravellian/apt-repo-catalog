@@ -1,0 +1,13 @@
+{
+  "id": "virtualbox-cosmic",
+  "label": "Oracle VirtualBox - cosmic",
+  "os": "ubuntu-18.10",
+  "name": "virtualbox",
+  "source": "deb https://download.virtualbox.org/virtualbox/debian cosmic contrib",
+  "keyId": "oracle-vbox2016",
+  "documentationUrl": "https://www.virtualbox.org/wiki/Linux_Downloads",
+  "tags": [
+    "virtualization"
+  ],
+  "notes": "Official VirtualBox package repository"
+}

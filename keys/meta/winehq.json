@@ -1,0 +1,40 @@
+{
+  "id": "winehq",
+  "vendor": "winehq",
+  "label": "WineHQ Repository Key",
+  "status": "active",
+  "sourceUrl": "https://dl.winehq.org/wine-builds/winehq.key",
+  "sourceUrls": [
+    "https://dl.winehq.org/wine-builds/winehq.key"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "D43F640145369C51D786DDEA76F1A20FF987672F"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "WineHQ packages <wine-devel@winehq.org>"
+  ],
+  "primaryUserId": "WineHQ packages <wine-devel@winehq.org>",
+  "keyIds": [
+    {
+      "fingerprint": "D43F640145369C51D786DDEA76F1A20FF987672F",
+      "keyIdLong": "76F1A20FF987672F",
+      "keyIdShort": "F987672F"
+    }
+  ],
+  "downloaded": {
+    "sha256": "d965d646defe94b3dfba6d5b4406900ac6c81065428bf9d9303ad7a72ee8d1b8",
+    "sizeBytes": 3212,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "73395232829a381fd76ffe4647c9207d1cf40831ddc69e08d473a2ee3315009c",
+    "sizeBytes": 3215,
+    "outputPath": "keys/winehq.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "D43F640145369C51D786DDEA76F1A20FF987672F",
+    "fingerprintSuffix16": "76F1A20FF987672F"
+  }
+}

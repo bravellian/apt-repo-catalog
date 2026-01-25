@@ -1,0 +1,40 @@
+{
+  "id": "clickhouse",
+  "vendor": "clickhouse",
+  "label": "ClickHouse (APT) signing key",
+  "status": "active",
+  "sourceUrl": "https://packages.clickhouse.com/rpm/lts/repodata/repomd.xml.key",
+  "sourceUrls": [
+    "https://packages.clickhouse.com/rpm/lts/repodata/repomd.xml.key"
+  ],
+  "retrievedAt": "2026-01-25T06:06:25.162Z",
+  "fingerprints": [
+    "3A9EA1193A97B548BE1457D48919F6BD2B48D754"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "ClickHouse Inc. Repositories Key <packages@clickhouse.com>"
+  ],
+  "primaryUserId": "ClickHouse Inc. Repositories Key <packages@clickhouse.com>",
+  "keyIds": [
+    {
+      "fingerprint": "3A9EA1193A97B548BE1457D48919F6BD2B48D754",
+      "keyIdLong": "8919F6BD2B48D754",
+      "keyIdShort": "2B48D754"
+    }
+  ],
+  "downloaded": {
+    "sha256": "74c1dfd89393b27c5739ee579a5af661ebe628cef9c33222c6fb29d0b8d42ad0",
+    "sizeBytes": 5835,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "591df0266755bdeb37184bc23e774dc1f54875c7ecd82d966cc72d50f5347827",
+    "sizeBytes": 5842,
+    "outputPath": "keys/clickhouse.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "3A9EA1193A97B548BE1457D48919F6BD2B48D754",
+    "fingerprintSuffix16": "8919F6BD2B48D754"
+  }
+}

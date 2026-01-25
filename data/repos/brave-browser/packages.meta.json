@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-25T04:44:13.927Z",
+  "repoId": "brave-browser",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Brave Software",
+    "Label": "Brave Browser",
+    "Suite": "stable",
+    "Codename": "stable",
+    "Architectures": "amd64 arm64",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/brave-browser/run-EpiBuw/var/lib/apt/lists/brave-browser-apt-release.s3.brave.com_dists_stable_InRelease",
+    "inReleaseSha256": "f3b081f7233902b1d8c277d4ba2e91e0d952c675a13bd2e8e03dbb07349e9892"
+  },
+  "sources": [
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/brave-browser/run-EpiBuw/keyrings/brave-browser.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/brave-browser/run-EpiBuw/var/lib/apt/lists/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages",
+      "suite": "stable",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

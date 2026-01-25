@@ -1,9 +1,7 @@
 import { readFile } from "node:fs/promises";
-import { spawnSync } from "node:child_process";
-import path from "node:path";
+import { loadReposCatalog, loadReposCatalogFromRef } from "./lib/repos-catalog.mjs";
 
 const root = process.cwd();
-const reposPath = path.join(root, "catalog", "repos.json");
 
 function parseArgs(argv) {
   const args = {};
@@ -34,33 +32,12 @@ function stableStringify(value) {
   return JSON.stringify(value);
 }
 
-function readJson(raw) {
-  const parsed = JSON.parse(raw);
-  if (!Array.isArray(parsed.repos)) {
-    throw new Error("catalog/repos.json must include a repos array");
-  }
-  return parsed;
-}
-
-function readBaseFile(baseRef) {
-  const result = spawnSync("git", ["show", `${baseRef}:catalog/repos.json`], {
-    encoding: "utf8"
-  });
-  if (result.status !== 0) {
-    return null;
-  }
-  return result.stdout;
-}
-
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   const baseRef = args.base ?? "origin/main";
 
-  const currentRaw = await readFile(reposPath, "utf8");
-  const current = readJson(currentRaw);
-
-  const baseRaw = readBaseFile(baseRef);
-  const base = baseRaw ? readJson(baseRaw) : { repos: [] };
+  const current = await loadReposCatalog({ root });
+  const base = loadReposCatalogFromRef({ ref: baseRef, root });
 
   const baseMap = new Map(
     base.repos.filter((repo) => repo?.id).map((repo) => [repo.id, repo])

@@ -1,0 +1,13 @@
+{
+  "id": "winehq-stable-disco",
+  "label": "WineHQ Stable - disco",
+  "os": "ubuntu-19.04",
+  "name": "winehq-stable",
+  "source": "deb https://dl.winehq.org/wine-builds/ubuntu disco main",
+  "keyId": "winehq",
+  "documentationUrl": "https://wiki.winehq.org/Ubuntu",
+  "tags": [
+    "compatibility"
+  ],
+  "notes": "Official WineHQ repository for stable Wine releases"
+}

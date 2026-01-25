@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:11:47.768Z",
+  "fetchedAt": "2026-01-25T04:42:36.176Z",
   "repoId": "microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,23 +16,23 @@
     "Codename": "xenial",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com/run-odiAds/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.04_prod_dists_xenial_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com/run-eDvMag/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.04_prod_dists_xenial_InRelease",
     "inReleaseSha256": "bc19110c0aaa6a24e3816cbf9712f1d9ff50eb2cb2b2dd1379221f72a24c7539"
   },
   "sources": [
-    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com/run-odiAds/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/16.04/prod xenial main"
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com/run-eDvMag/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/16.04/prod xenial main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com/run-odiAds/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.04_prod_dists_xenial_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com/packages.raw/20260124T211147Z/packages.microsoft.com_ubuntu_16.04_prod_dists_xenial_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com/run-eDvMag/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.04_prod_dists_xenial_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com/packages.raw/20260125T044236Z/packages.microsoft.com_ubuntu_16.04_prod_dists_xenial_main_binary-all_Packages",
       "suite": "xenial",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com/run-odiAds/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.04_prod_dists_xenial_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com/packages.raw/20260124T211147Z/packages.microsoft.com_ubuntu_16.04_prod_dists_xenial_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com/run-eDvMag/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.04_prod_dists_xenial_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com/packages.raw/20260125T044236Z/packages.microsoft.com_ubuntu_16.04_prod_dists_xenial_main_binary-amd64_Packages",
       "suite": "xenial",
       "component": "main",
       "arch": "amd64"

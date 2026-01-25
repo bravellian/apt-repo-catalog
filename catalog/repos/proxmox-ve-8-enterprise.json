@@ -1,0 +1,15 @@
+{
+  "id": "proxmox-ve-8-enterprise",
+  "label": "Proxmox VE 8 - enterprise",
+  "os": "proxmox-8",
+  "name": "proxmox",
+  "source": "deb https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise",
+  "keyId": "proxmox-release-bookworm",
+  "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+  "tags": [
+    "proxmox",
+    "debian-derivative",
+    "apt"
+  ],
+  "notes": "Requires a valid Proxmox subscription."
+}

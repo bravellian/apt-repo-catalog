@@ -1,0 +1,14 @@
+{
+  "id": "yarn-stable",
+  "label": "Yarn (Stable)",
+  "os": "ubuntu-22.04",
+  "name": "yarn-stable",
+  "source": "deb https://dl.yarnpkg.com/debian/ stable main",
+  "keyId": "yarn",
+  "documentationUrl": "https://classic.yarnpkg.com/lang/en/docs/install/",
+  "tags": [
+    "javascript",
+    "package manager"
+  ],
+  "notes": "Yarn stable distribution repo"
+}

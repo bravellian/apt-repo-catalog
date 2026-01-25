@@ -178,6 +178,521 @@
       ],
       "createdAt": "2026-01-24T00:00:00.000Z",
       "keyCount": 1
+    },
+    {
+      "id": "nodesource",
+      "vendor": "nodesource",
+      "label": "NodeSource APT Repository GPG Key",
+      "sourceUrl": "https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key",
+      "expectedFingerprints": [
+        "6F71F525282841EEDAF851B42F59B5F99B1BE0B4"
+      ],
+      "outputPath": "keys/nodesource.asc",
+      "status": "active",
+      "documentationUrl": "https://github.com/nodesource/distributions",
+      "tags": [
+        "nodejs"
+      ],
+      "notes": "Official Node.js binary packages repository",
+      "createdAt": "2026-01-25T04:20:36.437Z",
+      "keyCount": 1
+    },
+    {
+      "id": "yarn",
+      "vendor": "yarnpkg",
+      "label": "Yarn Package Signing Key",
+      "sourceUrl": "https://dl.yarnpkg.com/debian/pubkey.gpg",
+      "expectedFingerprints": [
+        "72ECF46A56B4AD39C907BBB71646B01B86E50310"
+      ],
+      "outputPath": "keys/yarn.asc",
+      "status": "active",
+      "documentationUrl": "https://classic.yarnpkg.com/lang/en/docs/install/",
+      "tags": [
+        "javascript",
+        "package manager"
+      ],
+      "notes": "Signing key for Yarn's APT repository",
+      "createdAt": "2026-01-25T04:21:01.589Z",
+      "keyCount": 1
+    },
+    {
+      "id": "hashicorp",
+      "vendor": "hashicorp",
+      "label": "HashiCorp Linux Repo GPG Key",
+      "sourceUrl": "https://apt.releases.hashicorp.com/gpg",
+      "expectedFingerprints": [
+        "798AEC654E5C15428C8E42EEAA16FCBCA621E701"
+      ],
+      "outputPath": "keys/hashicorp.asc",
+      "status": "active",
+      "documentationUrl": "https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository",
+      "tags": [
+        "devops",
+        "infrastructure"
+      ],
+      "notes": "Key for HashiCorp tools (Terraform, Vault, Consul, etc.)",
+      "createdAt": "2026-01-25T04:21:15.024Z",
+      "keyCount": 1
+    },
+    {
+      "id": "oracle-vbox2016",
+      "vendor": "oracle",
+      "label": "Oracle VirtualBox Signing Key (2016)",
+      "sourceUrl": "https://www.virtualbox.org/download/oracle_vbox_2016.asc",
+      "expectedFingerprints": [
+        "B9F8D658297AF3EFC18D5CDFA2F683C52980AECF"
+      ],
+      "outputPath": "keys/oracle-vbox2016.asc",
+      "status": "active",
+      "documentationUrl": "https://www.virtualbox.org/wiki/Linux_Downloads",
+      "tags": [
+        "virtualization"
+      ],
+      "notes": "Current VirtualBox APT signing key",
+      "createdAt": "2026-01-25T04:21:33.347Z",
+      "keyCount": 1
+    },
+    {
+      "id": "oracle-vbox-legacy",
+      "vendor": "oracle",
+      "label": "Oracle VirtualBox Signing Key (Legacy)",
+      "sourceUrl": "https://www.virtualbox.org/download/oracle_vbox.asc",
+      "expectedFingerprints": [
+        "7B0FAB3A13B907435925D9C954422A4B98AB5139"
+      ],
+      "outputPath": "keys/oracle-vbox-legacy.asc",
+      "status": "active",
+      "documentationUrl": "https://www.virtualbox.org/wiki/Linux_Downloads",
+      "tags": [
+        "virtualization"
+      ],
+      "notes": "Legacy key for older VirtualBox versions",
+      "createdAt": "2026-01-25T04:21:41.524Z",
+      "keyCount": 1
+    },
+    {
+      "id": "postgresql",
+      "vendor": "postgresql-global-development-group",
+      "label": "PostgreSQL Apt Repository Key",
+      "sourceUrl": "https://www.postgresql.org/media/keys/ACCC4CF8.asc",
+      "expectedFingerprints": [
+        "B97B0AFCAA1A47F044F244A07FCC7D46ACCC4CF8"
+      ],
+      "outputPath": "keys/postgresql.asc",
+      "status": "active",
+      "documentationUrl": "https://wiki.postgresql.org/wiki/Apt",
+      "tags": [
+        "database",
+        "postgres"
+      ],
+      "notes": "Signing key for apt.postgresql.org",
+      "createdAt": "2026-01-25T04:21:56.196Z",
+      "keyCount": 1
+    },
+    {
+      "id": "mariadb",
+      "vendor": "mariadb-foundation",
+      "label": "MariaDB Repository Signing Key (Debian/Ubuntu)",
+      "sourceUrl": "https://mariadb.org/mariadb_release_signing_key.pgp",
+      "expectedFingerprints": [
+        "177F4010FE56CA3336300305F1656F24C74CD1D8"
+      ],
+      "outputPath": "keys/mariadb.asc",
+      "status": "active",
+      "documentationUrl": "https://downloads.mariadb.org/mariadb-release-signing-key",
+      "tags": [
+        "database",
+        "mysql"
+      ],
+      "notes": "MariaDB APT repository key (SHA-256)",
+      "createdAt": "2026-01-25T04:23:02.015Z",
+      "keyCount": 1
+    },
+    {
+      "id": "mongodb-6-0",
+      "vendor": "mongodb-inc",
+      "label": "MongoDB 6.0 Server Key",
+      "sourceUrl": "https://www.mongodb.org/static/pgp/server-6.0.asc",
+      "expectedFingerprints": [
+        "39BD841E4BE5FB195A65400E6A26B1AE64C3C388"
+      ],
+      "outputPath": "keys/mongodb-6-0.asc",
+      "status": "active",
+      "documentationUrl": "https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/",
+      "tags": [
+        "database",
+        "nosql"
+      ],
+      "notes": "GPG key for MongoDB 6.0 packages",
+      "createdAt": "2026-01-25T04:23:18.410Z",
+      "keyCount": 1
+    },
+    {
+      "id": "mongodb-7-0",
+      "vendor": "mongodb-inc",
+      "label": "MongoDB 7.0 Server Key",
+      "sourceUrl": "https://www.mongodb.org/static/pgp/server-7.0.asc",
+      "expectedFingerprints": [
+        "E58830201F7DD82CD808AA84160D26BB1785BA38"
+      ],
+      "outputPath": "keys/mongodb-7-0.asc",
+      "status": "active",
+      "documentationUrl": "https://www.mongodb.com/docs/v7.0/tutorial/install-mongodb-on-ubuntu/",
+      "tags": [
+        "database",
+        "nosql"
+      ],
+      "notes": "GPG key for MongoDB 7.0 packages",
+      "createdAt": "2026-01-25T04:24:31.359Z",
+      "keyCount": 1
+    },
+    {
+      "id": "elasticsearch",
+      "vendor": "elastic",
+      "label": "Elastic Stack GPG Key",
+      "sourceUrl": "https://artifacts.elastic.co/GPG-KEY-elasticsearch",
+      "expectedFingerprints": [
+        "46095ACC8548582C1A2699A9D27D666CD88E42B4"
+      ],
+      "outputPath": "keys/elasticsearch.asc",
+      "status": "active",
+      "documentationUrl": "https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html",
+      "tags": [
+        "search",
+        "analytics"
+      ],
+      "notes": "Signing key for Elastic apt repository (Elasticsearch, Kibana, Beats, etc.)",
+      "createdAt": "2026-01-25T04:24:47.906Z",
+      "keyCount": 1
+    },
+    {
+      "id": "google-cloud",
+      "vendor": "google",
+      "label": "Google Cloud SDK Key",
+      "sourceUrl": "https://packages.cloud.google.com/apt/doc/apt-key.gpg",
+      "expectedFingerprints": [
+        "35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3"
+      ],
+      "outputPath": "keys/google-cloud.asc",
+      "status": "active",
+      "documentationUrl": "https://cloud.google.com/sdk/docs/install-sdk",
+      "tags": [
+        "google",
+        "cloud"
+      ],
+      "notes": "Google Cloud CLI package signing key",
+      "createdAt": "2026-01-25T04:25:06.508Z",
+      "keyCount": 1
+    },
+    {
+      "id": "google-linux",
+      "vendor": "google",
+      "label": "Google Linux Package Signing Key",
+      "sourceUrl": "https://dl.google.com/linux/linux_signing_key.pub",
+      "expectedFingerprints": [
+        "EB4C1BFD4F042F6DDDCCEC917721F63BD38B4796"
+      ],
+      "outputPath": "keys/google-linux.asc",
+      "status": "active",
+      "documentationUrl": "https://www.google.com/linuxrepositories/",
+      "tags": [
+        "web browser"
+      ],
+      "notes": "Google’s global Linux repo signing key (for Chrome, etc.)",
+      "createdAt": "2026-01-25T04:25:22.334Z",
+      "keyCount": 1
+    },
+    {
+      "id": "brave-browser",
+      "vendor": "brave-software",
+      "label": "Brave Browser Apt Keyring",
+      "sourceUrl": "https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg",
+      "expectedFingerprints": [
+        "47D32A74E9A9E013A4B4926C68D513D36A73CD96",
+        "B2A3DCA350E67256740DF904DE4EC67BE4B0DCA0",
+        "DBF1A116C220B8C7164F98230686B78420038257"
+      ],
+      "outputPath": "keys/brave-browser.asc",
+      "status": "active",
+      "documentationUrl": "https://brave.com/linux/",
+      "tags": [
+        "web browser",
+        "privacy"
+      ],
+      "notes": "Brave browser repository signing key",
+      "createdAt": "2026-01-25T04:25:42.285Z",
+      "keyCount": 3
+    },
+    {
+      "id": "signal-desktop",
+      "vendor": "signal-messenger-llc",
+      "label": "Signal Desktop Repository Key",
+      "sourceUrl": "https://updates.signal.org/desktop/apt/keys.asc",
+      "expectedFingerprints": [
+        "DBA36B5181D0C816F630E889D980A17457F6FB06"
+      ],
+      "outputPath": "keys/signal-desktop.asc",
+      "status": "active",
+      "documentationUrl": "https://signal.org/download/",
+      "tags": [
+        "messaging",
+        "security"
+      ],
+      "notes": "Signal Desktop signing key for apt repository",
+      "createdAt": "2026-01-25T04:25:58.097Z",
+      "keyCount": 1
+    },
+    {
+      "id": "torproject",
+      "vendor": "tor-project",
+      "label": "Tor Project Archive Key",
+      "sourceUrl": "https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc",
+      "expectedFingerprints": [
+        "A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89"
+      ],
+      "outputPath": "keys/torproject.asc",
+      "status": "active",
+      "documentationUrl": "https://support.torproject.org/apt/tor-deb-repo/",
+      "tags": [
+        "privacy",
+        "security"
+      ],
+      "notes": "Tor Project package signing key (expires periodically)",
+      "createdAt": "2026-01-25T04:27:27.091Z",
+      "keyCount": 1
+    },
+    {
+      "id": "grafana",
+      "vendor": "grafana-labs",
+      "label": "Grafana APT GPG Key",
+      "sourceUrl": "https://apt.grafana.com/gpg.key",
+      "expectedFingerprints": [
+        "B53AE77BADB630A683046005963FA27710458545"
+      ],
+      "outputPath": "keys/grafana.asc",
+      "status": "active",
+      "documentationUrl": "https://apt.grafana.com/",
+      "tags": [
+        "monitoring",
+        "analytics"
+      ],
+      "notes": "Grafana signing key (rotated in 2023)",
+      "createdAt": "2026-01-25T04:27:57.635Z",
+      "keyCount": 1
+    },
+    {
+      "id": "winehq",
+      "vendor": "winehq",
+      "label": "WineHQ Repository Key",
+      "sourceUrl": "https://dl.winehq.org/wine-builds/winehq.key",
+      "expectedFingerprints": [
+        "D43F640145369C51D786DDEA76F1A20FF987672F"
+      ],
+      "outputPath": "keys/winehq.asc",
+      "status": "active",
+      "documentationUrl": "https://wiki.winehq.org/Ubuntu",
+      "tags": [
+        "compatibility"
+      ],
+      "notes": "WineHQ apt repository key (for Wine packages)",
+      "createdAt": "2026-01-25T04:28:36.154Z",
+      "keyCount": 1
+    },
+    {
+      "id": "aws-corretto",
+      "vendor": "amazon",
+      "label": "Amazon Corretto (APT) signing key",
+      "sourceUrl": "https://apt.corretto.aws/corretto.key",
+      "expectedFingerprints": [
+        "6DC3636DAE534049C8B94623A122542AB04F24E3"
+      ],
+      "outputPath": "keys/aws-corretto.asc",
+      "status": "active",
+      "documentationUrl": "https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/generic-linux-install.html",
+      "tags": [
+        "java",
+        "devtools",
+        "cloud"
+      ],
+      "notes": "Amazon Corretto APT repo key",
+      "createdAt": "2026-01-25T04:50:09.543Z",
+      "keyCount": 1
+    },
+    {
+      "id": "cloudflare-warp",
+      "vendor": "cloudflare",
+      "label": "Cloudflare WARP (APT) signing key",
+      "sourceUrl": "https://pkg.cloudflareclient.com/pubkey.gpg",
+      "expectedFingerprints": [
+        "C068A2B5771775193CBE1F2F6E2DD2174FA1C3BA"
+      ],
+      "outputPath": "keys/cloudflare-warp.asc",
+      "status": "active",
+      "documentationUrl": "https://pkg.cloudflareclient.com/",
+      "tags": [
+        "security",
+        "networking",
+        "cloud"
+      ],
+      "notes": "Cloudflare WARP client packages",
+      "createdAt": "2026-01-25T04:50:23.190Z",
+      "keyCount": 1
+    },
+    {
+      "id": "clickhouse",
+      "vendor": "clickhouse",
+      "label": "ClickHouse (APT) signing key",
+      "sourceUrl": "https://packages.clickhouse.com/rpm/lts/repodata/repomd.xml.key",
+      "expectedFingerprints": [
+        "3A9EA1193A97B548BE1457D48919F6BD2B48D754"
+      ],
+      "outputPath": "keys/clickhouse.asc",
+      "status": "active",
+      "documentationUrl": "https://clickhouse.com/docs/install/debian_ubuntu",
+      "tags": [
+        "database",
+        "analytics"
+      ],
+      "notes": "ClickHouse key used for APT repo",
+      "createdAt": "2026-01-25T04:50:36.648Z",
+      "keyCount": 1
+    },
+    {
+      "id": "nginx-org",
+      "vendor": "nginx",
+      "label": "nginx.org (APT) signing key",
+      "sourceUrl": "https://nginx.org/keys/nginx_signing.key",
+      "expectedFingerprints": [
+        "573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62",
+        "8540A6F18833A80E9C1653A42FD21310B49F6B46",
+        "9E9BE90EACBCDE69FE9B204CBCDCD8A38D88A2B3"
+      ],
+      "outputPath": "keys/nginx-org.asc",
+      "status": "active",
+      "documentationUrl": "https://nginx.org/en/linux_packages.html",
+      "tags": [
+        "web",
+        "server"
+      ],
+      "notes": "NGINX Open Source official repository key",
+      "createdAt": "2026-01-25T04:50:48.646Z",
+      "keyCount": 3
+    },
+    {
+      "id": "jenkins",
+      "vendor": "jenkins",
+      "label": "Jenkins (APT) signing key",
+      "sourceUrl": "https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key",
+      "expectedFingerprints": [
+        "5E386EADB55F01504CAE8BCF7198F4B714ABFC68"
+      ],
+      "outputPath": "keys/jenkins.asc",
+      "status": "active",
+      "documentationUrl": "https://pkg.jenkins.io/debian-stable/",
+      "tags": [
+        "ci",
+        "devtools"
+      ],
+      "notes": "Jenkins Debian/Ubuntu repository key",
+      "createdAt": "2026-01-25T04:51:03.824Z",
+      "keyCount": 1
+    },
+    {
+      "id": "gitlab-ce",
+      "vendor": "gitlab",
+      "label": "GitLab CE (APT) signing key",
+      "sourceUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/gpgkey",
+      "expectedFingerprints": [
+        "F6403F6544A38863DAA0B6E03F01618A51312F3F"
+      ],
+      "outputPath": "keys/gitlab-ce.asc",
+      "status": "active",
+      "documentationUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/install",
+      "tags": [
+        "git",
+        "ci",
+        "devtools"
+      ],
+      "notes": "GitLab CE packages on packages.gitlab.com",
+      "createdAt": "2026-01-25T04:51:16.896Z",
+      "keyCount": 1
+    },
+    {
+      "id": "github-cli",
+      "vendor": "github",
+      "label": "GitHub CLI (APT) signing key",
+      "sourceUrl": "https://cli.github.com/packages/githubcli-archive-keyring.gpg",
+      "expectedFingerprints": [
+        "2C6106201985B60E6C7AC87323F3D4EA75716059"
+      ],
+      "outputPath": "keys/github-cli.asc",
+      "status": "active",
+      "documentationUrl": "https://github.com/cli/cli/blob/trunk/docs/install_linux.md",
+      "tags": [
+        "devtools",
+        "git"
+      ],
+      "notes": "GitHub CLI apt repository keyring",
+      "createdAt": "2026-01-25T04:51:47.842Z",
+      "keyCount": 1
+    },
+    {
+      "id": "tailscale-ubuntu-jammy",
+      "vendor": "tailscale",
+      "label": "Tailscale (Ubuntu Jammy) signing key",
+      "sourceUrl": "https://pkgs.tailscale.com/stable/ubuntu/jammy.noarmor.gpg",
+      "expectedFingerprints": [
+        "2596A99EAAB33821893C0A79458CA832957F5868"
+      ],
+      "outputPath": "keys/tailscale-ubuntu-jammy.asc",
+      "status": "active",
+      "documentationUrl": "https://pkgs.tailscale.com/stable/",
+      "tags": [
+        "networking",
+        "security"
+      ],
+      "notes": "Ubuntu 22.04 key (noarmor.gpg)",
+      "createdAt": "2026-01-25T04:52:02.487Z",
+      "keyCount": 1
+    },
+    {
+      "id": "1password",
+      "vendor": "1password",
+      "label": "1Password (APT) signing key",
+      "sourceUrl": "https://downloads.1password.com/linux/keys/1password.asc",
+      "expectedFingerprints": [
+        "3FEF9748469ADBE15DA7CA80AC2D62742012EA22"
+      ],
+      "outputPath": "keys/1password.asc",
+      "status": "active",
+      "documentationUrl": "https://support.1password.com/install-linux/",
+      "tags": [
+        "security",
+        "secrets"
+      ],
+      "notes": "1Password for Linux APT key",
+      "createdAt": "2026-01-25T04:52:32.771Z",
+      "keyCount": 1
+    },
+    {
+      "id": "puppet",
+      "vendor": "puppet",
+      "label": "Puppet (APT) signing key",
+      "sourceUrl": "https://apt.puppet.com/DEB-GPG-KEY-future",
+      "expectedFingerprints": [
+        "D6811ED3ADEEB8441AF5AA8F4528B6CD9E61EF26"
+      ],
+      "outputPath": "keys/puppet.asc",
+      "status": "active",
+      "documentationUrl": "https://apt.puppet.com/",
+      "tags": [
+        "config-management",
+        "devtools"
+      ],
+      "notes": "Non-expiring key published by Puppet",
+      "createdAt": "2026-01-25T04:53:10.203Z",
+      "keyCount": 1
     }
   ]
 }

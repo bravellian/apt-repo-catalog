@@ -1,0 +1,14 @@
+{
+  "id": "brave-browser-yakkety",
+  "label": "Brave Browser (Stable) - yakkety",
+  "os": "ubuntu-16.10",
+  "name": "brave-browser",
+  "source": "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ yakkety main",
+  "keyId": "brave-browser",
+  "documentationUrl": "https://brave.com/linux/",
+  "tags": [
+    "web browser",
+    "privacy"
+  ],
+  "notes": "Official Brave browser APT repository for 64-bit"
+}

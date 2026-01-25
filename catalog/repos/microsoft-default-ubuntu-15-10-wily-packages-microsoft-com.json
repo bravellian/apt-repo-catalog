@@ -1,0 +1,14 @@
+{
+  "id": "microsoft-default-ubuntu-15-10-wily-packages-microsoft-com",
+  "label": "Microsoft - ubuntu-15.10 - default",
+  "os": "ubuntu-15.10",
+  "name": "microsoft",
+  "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/15.10/prod wily main",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "documentationUrl": "https://packages.microsoft.com/config/ubuntu/15.10",
+  "tags": [
+    "microsoft",
+    "apt",
+    "ubuntu"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com",
+  "label": "Microsoft - ubuntu-18.10 - default",
+  "os": "ubuntu-18.10",
+  "name": "microsoft",
+  "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/18.10/prod cosmic main",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "documentationUrl": "https://packages.microsoft.com/config/ubuntu/18.10",
+  "tags": [
+    "microsoft",
+    "apt",
+    "ubuntu"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "aws-corretto-stable",
+  "label": "Amazon Corretto (stable)",
+  "os": "generic",
+  "name": "aws-corretto",
+  "source": "deb [signed-by=/usr/share/keyrings/corretto-keyring.gpg] https://apt.corretto.aws stable main",
+  "keyId": "aws-corretto",
+  "documentationUrl": "https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/generic-linux-install.html",
+  "tags": [
+    "java",
+    "devtools",
+    "cloud"
+  ],
+  "notes": "Install: apt-get install java-11-amazon-corretto-jdk"
+}

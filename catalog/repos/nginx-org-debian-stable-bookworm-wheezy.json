@@ -1,0 +1,14 @@
+{
+  "id": "nginx-org-debian-stable-bookworm-wheezy",
+  "label": "NGINX (nginx.org stable, Debian 12) - wheezy",
+  "os": "debian-7",
+  "name": "nginx-org",
+  "source": "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] https://nginx.org/packages/debian wheezy nginx",
+  "keyId": "nginx-org",
+  "documentationUrl": "https://nginx.org/en/linux_packages.html",
+  "tags": [
+    "web",
+    "server"
+  ],
+  "notes": "Install: apt-get install nginx"
+}

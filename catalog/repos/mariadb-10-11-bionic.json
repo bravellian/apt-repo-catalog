@@ -1,0 +1,14 @@
+{
+  "id": "mariadb-10-11-bionic",
+  "label": "MariaDB 10.11 (Stable) - bionic",
+  "os": "ubuntu-18.04",
+  "name": "mariadb-10.11",
+  "source": "deb https://deb.mariadb.org/10.11/ubuntu bionic main",
+  "keyId": "mariadb",
+  "documentationUrl": "https://mariadb.org/download/?t=repo-config",
+  "tags": [
+    "database",
+    "mysql"
+  ],
+  "notes": "MariaDB 10.11 repository for Ubuntu"
+}

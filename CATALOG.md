@@ -31,12 +31,26 @@ _Note: only the active OS list is checked daily; legacy entries are kept for ref
 </details>
 
 <details>
-<summary>Ubuntu 22.04 (LTS) (3)</summary>
+<summary>Ubuntu 22.04 (LTS) (17)</summary>
 
 | Docs | Label | Host | FP Suffix16 |
 | --- | --- | --- | --- |
+| [Docs](docs/repos/brave-browser.md) | Brave Browser (Stable) | brave-browser-apt-release.s3.brave.com | 68D513D36A73CD96 |
 | [Docs](docs/repos/docker-ubuntu-jammy-stable.md) | Docker - Ubuntu (Jammy) - stable | download.docker.com | 8D81803C0EBFCD88 |
+| [Docs](docs/repos/elastic-9.x.md) | Elastic 9.x (Stable) | artifacts.elastic.co | D27D666CD88E42B4 |
+| [Docs](docs/repos/google-chrome.md) | Google Chrome (Stable) | dl.google.com | 7721F63BD38B4796 |
+| [Docs](docs/repos/google-cloud-sdk.md) | Google Cloud SDK | packages.cloud.google.com | C0BA5CE6DC6315A3 |
+| [Docs](docs/repos/grafana.md) | Grafana Stable | apt.grafana.com | 963FA27710458545 |
+| [Docs](docs/repos/hashicorp.md) | HashiCorp Official Repository | apt.releases.hashicorp.com | AA16FCBCA621E701 |
+| [Docs](docs/repos/mariadb-10.11.md) | MariaDB 10.11 (Stable) | deb.mariadb.org | F1656F24C74CD1D8 |
 | [Docs](docs/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com.md) | Microsoft - ubuntu-22.04 - default | packages.microsoft.com | EB3E94ADBE1229CF |
+| [Docs](docs/repos/nodesource-node20x.md) | Node.js 20.x (NodeSource) | deb.nodesource.com | 2F59B5F99B1BE0B4 |
+| [Docs](docs/repos/postgresql-pgdg-ubuntu.md) | PostgreSQL (PGDG) - Ubuntu | apt.postgresql.org | 7FCC7D46ACCC4CF8 |
+| [Docs](docs/repos/signal-desktop.md) | Signal Desktop | updates.signal.org | D980A17457F6FB06 |
+| [Docs](docs/repos/torproject.md) | Tor Project (Debian/Ubuntu) | deb.torproject.org | EE8CBC9E886DDD89 |
+| [Docs](docs/repos/virtualbox.md) | Oracle VirtualBox | download.virtualbox.org | A2F683C52980AECF |
+| [Docs](docs/repos/winehq-stable.md) | WineHQ Stable | dl.winehq.org | 76F1A20FF987672F |
+| [Docs](docs/repos/yarn-stable.md) | Yarn (Stable) | dl.yarnpkg.com | 1646B01B86E50310 |
 | [Docs](docs/repos/kubernetes-core-stable-v1.35-generic.md) | Kubernetes core stable v1.35 (generic) | pkgs.k8s.io | 234654DA9A296436 |
 
 </details>
@@ -216,12 +230,13 @@ _Note: only the active OS list is checked daily; legacy entries are kept for ref
 #### STABLE
 
 <details>
-<summary>Debian 12 (stable) (3)</summary>
+<summary>Debian 12 (stable) (4)</summary>
 
 | Docs | Label | Host | FP Suffix16 |
 | --- | --- | --- | --- |
 | [Docs](docs/repos/docker-debian-bookworm-stable.md) | Docker - Debian (Bookworm) - stable | download.docker.com | 8D81803C0EBFCD88 |
 | [Docs](docs/repos/microsoft-default-debian-12-bookworm-packages-microsoft-com.md) | Microsoft - debian-12 - default | packages.microsoft.com | EB3E94ADBE1229CF |
+| [Docs](docs/repos/postgresql-pgdg-debian.md) | PostgreSQL (PGDG) - Debian | apt.postgresql.org | 7FCC7D46ACCC4CF8 |
 | [Docs](docs/repos/kubernetes-core-stable-v1.35-generic.md) | Kubernetes core stable v1.35 (generic) | pkgs.k8s.io | 234654DA9A296436 |
 
 </details>
@@ -478,6 +493,13 @@ _These repos are OS-agnostic and also listed under every current OS above._
 ## 🏷️ By Vendor
 
 <details>
+<summary>brave-browser (1)</summary>
+
+- [Brave Browser (Stable) (ubuntu-22.04)](docs/repos/brave-browser.md)
+
+</details>
+
+<details>
 <summary>docker (28)</summary>
 
 - [Docker - Debian (Bookworm) - stable (debian-12)](docs/repos/docker-debian-bookworm-stable.md)
@@ -512,6 +534,41 @@ _These repos are OS-agnostic and also listed under every current OS above._
 </details>
 
 <details>
+<summary>elastic-9.x (1)</summary>
+
+- [Elastic 9.x (Stable) (ubuntu-22.04)](docs/repos/elastic-9.x.md)
+
+</details>
+
+<details>
+<summary>google-chrome-stable (1)</summary>
+
+- [Google Chrome (Stable) (ubuntu-22.04)](docs/repos/google-chrome.md)
+
+</details>
+
+<details>
+<summary>google-cloud-sdk (1)</summary>
+
+- [Google Cloud SDK (ubuntu-22.04)](docs/repos/google-cloud-sdk.md)
+
+</details>
+
+<details>
+<summary>grafana (1)</summary>
+
+- [Grafana Stable (ubuntu-22.04)](docs/repos/grafana.md)
+
+</details>
+
+<details>
+<summary>hashicorp (1)</summary>
+
+- [HashiCorp Official Repository (ubuntu-22.04)](docs/repos/hashicorp.md)
+
+</details>
+
+<details>
 <summary>kali (1)</summary>
 
 - [Kali Rolling (kali-rolling)](docs/repos/kali-rolling.md)
@@ -532,6 +589,13 @@ _These repos are OS-agnostic and also listed under every current OS above._
 - [Linux Mint Una - main (linuxmint-una)](docs/repos/linuxmint-una-main.md)
 - [Linux Mint Virginia - main (linuxmint-virginia)](docs/repos/linuxmint-virginia-main.md)
 - [Linux Mint Zena - main (linuxmint-zena)](docs/repos/linuxmint-zena-main.md)
+
+</details>
+
+<details>
+<summary>mariadb-10.11 (1)</summary>
+
+- [MariaDB 10.11 (Stable) (ubuntu-22.04)](docs/repos/mariadb-10.11.md)
 
 </details>
 
@@ -570,12 +634,27 @@ _These repos are OS-agnostic and also listed under every current OS above._
 </details>
 
 <details>
+<summary>nodesource-node20x (1)</summary>
+
+- [Node.js 20.x (NodeSource) (ubuntu-22.04)](docs/repos/nodesource-node20x.md)
+
+</details>
+
+<details>
 <summary>popos (4)</summary>
 
 - [Pop!_OS proprietary - 22.04 (popos-22.04)](docs/repos/popos-proprietary-22.04.md)
 - [Pop!_OS proprietary - 24.04 (popos-24.04)](docs/repos/popos-proprietary-24.04.md)
 - [Pop!_OS release - 22.04 (popos-22.04)](docs/repos/popos-release-22.04.md)
 - [Pop!_OS release - 24.04 (popos-24.04)](docs/repos/popos-release-24.04.md)
+
+</details>
+
+<details>
+<summary>postgresql-pgdg (2)</summary>
+
+- [PostgreSQL (PGDG) - Debian (debian-12)](docs/repos/postgresql-pgdg-debian.md)
+- [PostgreSQL (PGDG) - Ubuntu (ubuntu-22.04)](docs/repos/postgresql-pgdg-ubuntu.md)
 
 </details>
 
@@ -597,6 +676,41 @@ _These repos are OS-agnostic and also listed under every current OS above._
 - [Proxmox VE 9 - enterprise (proxmox-9)](docs/repos/proxmox-ve-9-enterprise.md)
 - [Proxmox VE 9 - no-subscription (proxmox-9)](docs/repos/proxmox-ve-9-no-subscription.md)
 - [Proxmox VE 9 - test (proxmox-9)](docs/repos/proxmox-ve-9-test.md)
+
+</details>
+
+<details>
+<summary>signal-desktop (1)</summary>
+
+- [Signal Desktop (ubuntu-22.04)](docs/repos/signal-desktop.md)
+
+</details>
+
+<details>
+<summary>torproject (1)</summary>
+
+- [Tor Project (Debian/Ubuntu) (ubuntu-22.04)](docs/repos/torproject.md)
+
+</details>
+
+<details>
+<summary>virtualbox (1)</summary>
+
+- [Oracle VirtualBox (ubuntu-22.04)](docs/repos/virtualbox.md)
+
+</details>
+
+<details>
+<summary>winehq-stable (1)</summary>
+
+- [WineHQ Stable (ubuntu-22.04)](docs/repos/winehq-stable.md)
+
+</details>
+
+<details>
+<summary>yarn-stable (1)</summary>
+
+- [Yarn (Stable) (ubuntu-22.04)](docs/repos/yarn-stable.md)
 
 </details>
 

@@ -1,0 +1,13 @@
+{
+  "id": "google-chrome",
+  "label": "Google Chrome (Stable)",
+  "os": "ubuntu-22.04",
+  "name": "google-chrome-stable",
+  "source": "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main",
+  "keyId": "google-linux",
+  "documentationUrl": "https://www.google.com/linuxrepositories/",
+  "tags": [
+    "web browser"
+  ],
+  "notes": "Google Chrome browser APT repository (64-bit)"
+}

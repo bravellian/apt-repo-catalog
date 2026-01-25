@@ -1,0 +1,14 @@
+{
+  "id": "tailscale-debian-bookworm-bullseye",
+  "label": "Tailscale (Debian 12 Bookworm) - bullseye",
+  "os": "debian-11",
+  "name": "tailscale",
+  "source": "deb [signed-by=/usr/share/keyrings/tailscale-archive-keyring.gpg] https://pkgs.tailscale.com/stable/debian bullseye main",
+  "keyId": "tailscale-ubuntu-jammy",
+  "documentationUrl": "https://pkgs.tailscale.com/stable/",
+  "tags": [
+    "networking",
+    "security"
+  ],
+  "notes": "Install: apt-get install tailscale"
+}

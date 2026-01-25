@@ -1,0 +1,13 @@
+{
+  "id": "virtualbox-artful",
+  "label": "Oracle VirtualBox - artful",
+  "os": "ubuntu-17.10",
+  "name": "virtualbox",
+  "source": "deb https://download.virtualbox.org/virtualbox/debian artful contrib",
+  "keyId": "oracle-vbox2016",
+  "documentationUrl": "https://www.virtualbox.org/wiki/Linux_Downloads",
+  "tags": [
+    "virtualization"
+  ],
+  "notes": "Official VirtualBox package repository"
+}

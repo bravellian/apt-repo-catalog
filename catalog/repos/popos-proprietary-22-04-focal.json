@@ -1,0 +1,14 @@
+{
+  "id": "popos-proprietary-22-04-focal",
+  "label": "Pop!_OS proprietary - 22.04 - focal",
+  "os": "ubuntu-20.04",
+  "name": "popos",
+  "source": "deb http://apt.pop-os.org/proprietary focal main",
+  "keyId": "popos-lookup-204dd8aec33a7aff",
+  "documentationUrl": "https://support.system76.com/articles/apt-repository/",
+  "tags": [
+    "popos",
+    "ubuntu-derivative",
+    "apt"
+  ]
+}

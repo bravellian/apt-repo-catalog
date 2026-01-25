@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:12:19.878Z",
+  "fetchedAt": "2026-01-25T04:43:10.090Z",
   "repoId": "docker-ubuntu-mantic-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-mantic-stable/run-DnbuRn/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_mantic_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-mantic-stable/run-O2mGDW/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_mantic_InRelease",
     "inReleaseSha256": "46bee0c929287868cea61d2758fc39f603fe8c099ecfcae570485436dc9771b9"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-mantic-stable/run-DnbuRn/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu mantic stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-mantic-stable/run-O2mGDW/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu mantic stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-ubuntu-mantic-stable/run-DnbuRn/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_mantic_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-mantic-stable/packages.raw/20260124T211219Z/download.docker.com_linux_ubuntu_dists_mantic_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-ubuntu-mantic-stable/run-O2mGDW/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_mantic_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-mantic-stable/packages.raw/20260125T044310Z/download.docker.com_linux_ubuntu_dists_mantic_stable_binary-amd64_Packages",
       "suite": "mantic",
       "component": "stable",
       "arch": "amd64"

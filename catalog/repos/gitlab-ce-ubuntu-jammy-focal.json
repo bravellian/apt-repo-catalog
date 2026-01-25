@@ -1,0 +1,15 @@
+{
+  "id": "gitlab-ce-ubuntu-jammy-focal",
+  "label": "GitLab CE (Ubuntu 22.04 Jammy) - focal",
+  "os": "ubuntu-20.04",
+  "name": "gitlab-ce",
+  "source": "deb [signed-by=/usr/share/keyrings/gitlab_gitlab-ce-archive-keyring.gpg] https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu focal main",
+  "keyId": "gitlab-ce",
+  "documentationUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/install",
+  "tags": [
+    "git",
+    "ci",
+    "devtools"
+  ],
+  "notes": "Install: apt-get install gitlab-ce"
+}

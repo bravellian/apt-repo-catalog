@@ -1,0 +1,40 @@
+{
+  "id": "puppet",
+  "vendor": "puppet",
+  "label": "Puppet (APT) signing key",
+  "status": "active",
+  "sourceUrl": "https://apt.puppet.com/DEB-GPG-KEY-future",
+  "sourceUrls": [
+    "https://apt.puppet.com/DEB-GPG-KEY-future"
+  ],
+  "retrievedAt": "2026-01-25T06:06:25.162Z",
+  "fingerprints": [
+    "D6811ED3ADEEB8441AF5AA8F4528B6CD9E61EF26"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Puppet, Inc. Release Key (Puppet, Inc. Release Key) <release@puppet.com>"
+  ],
+  "primaryUserId": "Puppet, Inc. Release Key (Puppet, Inc. Release Key) <release@puppet.com>",
+  "keyIds": [
+    {
+      "fingerprint": "D6811ED3ADEEB8441AF5AA8F4528B6CD9E61EF26",
+      "keyIdLong": "4528B6CD9E61EF26",
+      "keyIdShort": "9E61EF26"
+    }
+  ],
+  "downloaded": {
+    "sha256": "246d96c86c5a322c2a5e63b2072a238508ad3c2c29795ea56a51a3d355514aca",
+    "sizeBytes": 3183,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "e3ec23fcdd03a026c8aa307faa6bdb775afaca331244745a78f53a0827c1c908",
+    "sizeBytes": 3186,
+    "outputPath": "keys/puppet.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "D6811ED3ADEEB8441AF5AA8F4528B6CD9E61EF26",
+    "fingerprintSuffix16": "4528B6CD9E61EF26"
+  }
+}

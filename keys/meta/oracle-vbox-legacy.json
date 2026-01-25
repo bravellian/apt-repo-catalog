@@ -1,0 +1,40 @@
+{
+  "id": "oracle-vbox-legacy",
+  "vendor": "oracle",
+  "label": "Oracle VirtualBox Signing Key (Legacy)",
+  "status": "active",
+  "sourceUrl": "https://www.virtualbox.org/download/oracle_vbox.asc",
+  "sourceUrls": [
+    "https://www.virtualbox.org/download/oracle_vbox.asc"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "7B0FAB3A13B907435925D9C954422A4B98AB5139"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Oracle Corporation (VirtualBox archive signing key) <info@virtualbox.org>"
+  ],
+  "primaryUserId": "Oracle Corporation (VirtualBox archive signing key) <info@virtualbox.org>",
+  "keyIds": [
+    {
+      "fingerprint": "7B0FAB3A13B907435925D9C954422A4B98AB5139",
+      "keyIdLong": "54422A4B98AB5139",
+      "keyIdShort": "98AB5139"
+    }
+  ],
+  "downloaded": {
+    "sha256": "9fdcf6af0912d2f60c7a2dcbb712e5942e97a7462d8c54de9fbcd0fa6f1f7efa",
+    "sizeBytes": 1734,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "72d570eaac2b111b1fb4e6c502c3b448be15a790a3c8582d0b775caa3d3a8924",
+    "sizeBytes": 1702,
+    "outputPath": "keys/oracle-vbox-legacy.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "7B0FAB3A13B907435925D9C954422A4B98AB5139",
+    "fingerprintSuffix16": "54422A4B98AB5139"
+  }
+}

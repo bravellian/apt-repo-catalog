@@ -1,0 +1,14 @@
+{
+  "id": "signal-desktop",
+  "label": "Signal Desktop",
+  "os": "ubuntu-22.04",
+  "name": "signal-desktop",
+  "source": "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main",
+  "keyId": "signal-desktop",
+  "documentationUrl": "https://signal.org/download/",
+  "tags": [
+    "messaging",
+    "security"
+  ],
+  "notes": "Signal Desktop client repository (uses 'xenial' as codename)"
+}

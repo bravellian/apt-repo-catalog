@@ -1,0 +1,14 @@
+{
+  "id": "puppet7-debian-bookworm",
+  "label": "Puppet 7 (Debian 12 Bookworm)",
+  "os": "debian-12",
+  "name": "puppet7",
+  "source": "deb https://apt.puppet.com bookworm puppet7",
+  "keyId": "puppet",
+  "documentationUrl": "https://apt.puppet.com/",
+  "tags": [
+    "config-management",
+    "devtools"
+  ],
+  "notes": "Install: apt-get install puppet-agent"
+}

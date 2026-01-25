@@ -1,0 +1,56 @@
+{
+  "fetchedAt": "2026-01-25T04:43:15.313Z",
+  "repoId": "kali-rolling",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Kali",
+    "Label": null,
+    "Suite": "kali-rolling",
+    "Codename": "kali-rolling",
+    "Architectures": "i386 amd64 armhf arm64",
+    "Components": "main contrib non-free non-free-firmware",
+    "inReleasePath": "/tmp/apt-inventory/kali-rolling/run-ue47q4/var/lib/apt/lists/http.kali.org_kali_dists_kali-rolling_InRelease",
+    "inReleaseSha256": "40543b81b77b121a0496c05c6bd8aa3abb3589af5a794ab0a5c9674a6a247ccc"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/kali-rolling/run-ue47q4/keyrings/kali-archive-keyring.gpg] https://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/kali-rolling/run-ue47q4/var/lib/apt/lists/http.kali.org_kali_dists_kali-rolling_contrib_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kali-rolling/packages.raw/20260125T044315Z/http.kali.org_kali_dists_kali-rolling_contrib_binary-amd64_Packages",
+      "suite": "kali-rolling",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "source": "/tmp/apt-inventory/kali-rolling/run-ue47q4/var/lib/apt/lists/http.kali.org_kali_dists_kali-rolling_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kali-rolling/packages.raw/20260125T044315Z/http.kali.org_kali_dists_kali-rolling_main_binary-amd64_Packages",
+      "suite": "kali-rolling",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "/tmp/apt-inventory/kali-rolling/run-ue47q4/var/lib/apt/lists/http.kali.org_kali_dists_kali-rolling_non-free-firmware_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kali-rolling/packages.raw/20260125T044315Z/http.kali.org_kali_dists_kali-rolling_non-free-firmware_binary-amd64_Packages",
+      "suite": "kali-rolling",
+      "component": "non-free-firmware",
+      "arch": "amd64"
+    },
+    {
+      "source": "/tmp/apt-inventory/kali-rolling/run-ue47q4/var/lib/apt/lists/http.kali.org_kali_dists_kali-rolling_non-free_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kali-rolling/packages.raw/20260125T044315Z/http.kali.org_kali_dists_kali-rolling_non-free_binary-amd64_Packages",
+      "suite": "kali-rolling",
+      "component": "non-free",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,1982 @@
+{
+  "generatedAt": "2026-01-25T04:44:14.357Z",
+  "packageCount": 2,
+  "packages": [
+    {
+      "name": "brave-browser",
+      "repoId": "brave-browser",
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.86.142",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.86.139",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.85.120",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.85.118",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.85.117",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.85.116",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.85.111",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.84.141",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.84.139",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.84.135",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.84.132",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.83.120",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.83.118",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.83.112",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.83.109",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.82.172",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.82.170",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.82.166",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.81.137",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.81.136",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.81.135",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.81.131",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.80.125",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.80.124",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.80.122",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.80.120",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.80.115",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.80.113",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.79.126",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.79.123",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.79.119",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.79.118",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.78.102",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.78.97",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.78.94",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.77.101",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.77.100",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.77.97",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.77.95",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.76.82",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.76.81",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.76.80",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.76.74",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.76.73",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.75.181",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.75.180",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.75.178",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.75.175",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.74.51",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.74.50",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.74.48",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.73.105",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.73.104",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.73.101",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.73.97",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.73.91",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.73.89",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.71.123",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.71.121",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.71.118",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.71.114",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.70.126",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.70.123",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.70.119",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.70.117",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.69.168",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.69.162",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.69.160",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.69.153",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.68.141",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.68.137",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.68.134",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.68.128",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.67.134",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.67.123",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.67.119",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.67.116",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.67.115",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.66.118",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.66.115",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.66.113",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.66.110",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.65.133",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.65.132",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.65.130",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.65.126",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.65.123",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.65.122",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.65.114",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.64.122",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.64.116",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.64.113",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.64.109",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.63.174",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.63.169",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.63.165",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.63.162",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.63.161",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.62.165",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.62.162",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.62.156",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.62.153",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.61.120",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.61.116",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.61.114",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.61.109",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.61.104",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.61.101",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.61.100",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.60.125",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.60.118",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.60.114",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.60.110",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.59.124",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.59.120",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.59.117",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.58.137",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.58.135",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.58.131",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.58.129",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.58.127",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.58.124",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.57.64",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.57.62",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.57.57",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.57.53",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.57.47",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.56.20",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.56.14",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.56.11",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.56.9",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.52.130",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.52.129",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.52.126",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.52.122",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.52.117",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.51.118",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.51.114",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.86.142",
+      "latestByArch": {
+        "amd64": "1.86.142"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "The web browser from Brave",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "brave-keyring",
+          "ca-certificates",
+          "fonts-liberation",
+          "libasound2 (>= 1.0.17)",
+          "libatk-bridge2.0-0 (>= 2.5.3)",
+          "libatk1.0-0 (>= 2.11.90)",
+          "libatk1.0-0 (>= 2.2.0)",
+          "libatspi2.0-0 (>= 2.9.90)",
+          "libc6 (>= 2.25)",
+          "libcairo2 (>= 1.6.0)",
+          "libcups2 (>= 1.6.0)",
+          "libcups2 (>= 1.7.0)",
+          "libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3",
+          "libdbus-1-3 (>= 1.9.14)",
+          "libdrm2 (>= 2.4.75)",
+          "libexpat1 (>= 2.0.1)",
+          "libexpat1 (>= 2.1~beta3)",
+          "libgbm1 (>= 17.1.0~rc2)",
+          "libgcc-s1 (>= 4.2)",
+          "libglib2.0-0 (>= 2.39.4)",
+          "libgtk-3-0 (>= 3.9.10) | libgtk-4-1",
+          "libnspr4 (>= 2:4.9-2~)",
+          "libnss3 (>= 2:3.31)",
+          "libnss3 (>= 2:3.35)",
+          "libpango-1.0-0 (>= 1.14.0)",
+          "libu2f-udev",
+          "libudev1 (>= 183)",
+          "libvulkan1",
+          "libx11-6 (>= 2:1.4.99.1)",
+          "libxcb1 (>= 1.9.2)",
+          "libxcomposite1 (>= 1:0.4.4-1)",
+          "libxdamage1 (>= 1:1.1)",
+          "libxext6",
+          "libxfixes3",
+          "libxkbcommon0 (>= 0.5.0)",
+          "libxrandr2",
+          "wget",
+          "xdg-utils (>= 1.0.2)"
+        ],
+        "preDepends": [
+          "dpkg (>= 1.14.0)"
+        ],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": [
+          "www-browser"
+        ]
+      },
+      "maintainer": "Brave Software <support@brave.com>",
+      "section": "web",
+      "priority": "optional"
+    },
+    {
+      "name": "brave-keyring",
+      "repoId": "brave-browser",
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "1.19",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.18",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.17",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.16",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.14",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.13",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.12",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.11",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.10",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.9",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.8",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.7",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.5",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.4",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.3",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.2",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        },
+        {
+          "version": "1.1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/brave-browser/packages.raw/20260125T044413Z/brave-browser-apt-release.s3.brave.com_dists_stable_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "1.19",
+      "latestByArch": {
+        "all": "1.19"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "Brave Browser keyring and repository files",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "gnupg",
+          "procps"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Brave Software <support@brave.com>",
+      "section": null,
+      "priority": "optional"
+    }
+  ]
+}

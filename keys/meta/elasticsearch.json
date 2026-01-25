@@ -1,0 +1,40 @@
+{
+  "id": "elasticsearch",
+  "vendor": "elastic",
+  "label": "Elastic Stack GPG Key",
+  "status": "active",
+  "sourceUrl": "https://artifacts.elastic.co/GPG-KEY-elasticsearch",
+  "sourceUrls": [
+    "https://artifacts.elastic.co/GPG-KEY-elasticsearch"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "46095ACC8548582C1A2699A9D27D666CD88E42B4"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Elasticsearch (Elasticsearch Signing Key) <dev_ops@elasticsearch.org>"
+  ],
+  "primaryUserId": "Elasticsearch (Elasticsearch Signing Key) <dev_ops@elasticsearch.org>",
+  "keyIds": [
+    {
+      "fingerprint": "46095ACC8548582C1A2699A9D27D666CD88E42B4",
+      "keyIdLong": "D27D666CD88E42B4",
+      "keyIdShort": "D88E42B4"
+    }
+  ],
+  "downloaded": {
+    "sha256": "db52809c5f6b27f9c2bed45cb43e398c659275f3d35305653c6750a0db90f5eb",
+    "sizeBytes": 1794,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "94fb74f831f64974fb3a6358ed4ee495a7b000905ef4f999c43a7a4e104211e6",
+    "sizeBytes": 1796,
+    "outputPath": "keys/elasticsearch.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "46095ACC8548582C1A2699A9D27D666CD88E42B4",
+    "fingerprintSuffix16": "D27D666CD88E42B4"
+  }
+}

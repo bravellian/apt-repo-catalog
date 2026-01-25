@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-25T04:44:09.679Z",
+  "repoId": "elastic-9.x",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://artifacts.elastic.co/packages/9.x/apt stable main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "elastic",
+    "Label": ". stable",
+    "Suite": "stable",
+    "Codename": "stable",
+    "Architectures": "amd64 arm64 i386",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/elastic-9-x/run-jjiqiW/var/lib/apt/lists/artifacts.elastic.co_packages_9.x_apt_dists_stable_InRelease",
+    "inReleaseSha256": "999a526384014101134ab2f6b0a1df7ef919f2dcb674bcf62c98917c375bb0a2"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/elastic-9-x/run-jjiqiW/keyrings/elasticsearch.gpg] https://artifacts.elastic.co/packages/9.x/apt stable main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/elastic-9-x/run-jjiqiW/var/lib/apt/lists/artifacts.elastic.co_packages_9.x_apt_dists_stable_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9.x/packages.raw/20260125T044409Z/artifacts.elastic.co_packages_9.x_apt_dists_stable_main_binary-amd64_Packages",
+      "suite": "stable",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

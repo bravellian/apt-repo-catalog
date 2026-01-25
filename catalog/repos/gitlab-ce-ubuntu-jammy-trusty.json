@@ -1,0 +1,15 @@
+{
+  "id": "gitlab-ce-ubuntu-jammy-trusty",
+  "label": "GitLab CE (Ubuntu 22.04 Jammy) - trusty",
+  "os": "ubuntu-14.04",
+  "name": "gitlab-ce",
+  "source": "deb [signed-by=/usr/share/keyrings/gitlab_gitlab-ce-archive-keyring.gpg] https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu trusty main",
+  "keyId": "gitlab-ce",
+  "documentationUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/install",
+  "tags": [
+    "git",
+    "ci",
+    "devtools"
+  ],
+  "notes": "Install: apt-get install gitlab-ce"
+}

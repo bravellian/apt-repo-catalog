@@ -1,24 +1,22 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
+import { loadReposCatalog } from "./lib/repos-catalog.mjs";
 
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
-const reposPath = path.join(root, "catalog", "repos.json");
-
-const [keysRaw, reposRaw] = await Promise.all([
+const [keysRaw, reposCatalog] = await Promise.all([
   readFile(keysPath, "utf8"),
-  readFile(reposPath, "utf8")
+  loadReposCatalog({ root })
 ]);
 
 const keysJson = JSON.parse(keysRaw);
-const reposJson = JSON.parse(reposRaw);
 
 if (!Array.isArray(keysJson.keys) || keysJson.keys.length === 0) {
   throw new Error("catalog/keys.json must include a non-empty keys array");
 }
 
-if (!Array.isArray(reposJson.repos) || reposJson.repos.length === 0) {
-  throw new Error("catalog/repos.json must include a non-empty repos array");
+if (!Array.isArray(reposCatalog.repos) || reposCatalog.repos.length === 0) {
+  throw new Error("catalog/repos must include a non-empty repos array");
 }
 
 const keyIds = new Set();
@@ -34,7 +32,7 @@ for (const key of keysJson.keys) {
   keyIds.add(key.id);
 }
 
-for (const repo of reposJson.repos) {
+for (const repo of reposCatalog.repos) {
   for (const field of ["id", "name", "base_url", "suite", "components", "architectures", "key_id"]) {
     if (repo[field] === undefined) {
       throw new Error(`Repo entry missing ${field}`);

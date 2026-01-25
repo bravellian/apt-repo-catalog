@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:11:50.577Z",
+  "fetchedAt": "2026-01-25T04:42:39.710Z",
   "repoId": "microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,23 +16,23 @@
     "Codename": "bionic",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com/run-bUURA1/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.04_prod_dists_bionic_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com/run-PS3xTn/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.04_prod_dists_bionic_InRelease",
     "inReleaseSha256": "01646c41a15cc48a239cba2a64c5915a986cb543beb0fbb011d852d0ae502c7d"
   },
   "sources": [
-    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com/run-bUURA1/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/18.04/prod bionic main"
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com/run-PS3xTn/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/18.04/prod bionic main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com/run-bUURA1/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.04_prod_dists_bionic_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com/packages.raw/20260124T211150Z/packages.microsoft.com_ubuntu_18.04_prod_dists_bionic_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com/run-PS3xTn/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.04_prod_dists_bionic_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com/packages.raw/20260125T044239Z/packages.microsoft.com_ubuntu_18.04_prod_dists_bionic_main_binary-all_Packages",
       "suite": "bionic",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com/run-bUURA1/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.04_prod_dists_bionic_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com/packages.raw/20260124T211150Z/packages.microsoft.com_ubuntu_18.04_prod_dists_bionic_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com/run-PS3xTn/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.04_prod_dists_bionic_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com/packages.raw/20260125T044239Z/packages.microsoft.com_ubuntu_18.04_prod_dists_bionic_main_binary-amd64_Packages",
       "suite": "bionic",
       "component": "main",
       "arch": "amd64"

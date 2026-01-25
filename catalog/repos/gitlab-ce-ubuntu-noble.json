@@ -1,0 +1,15 @@
+{
+  "id": "gitlab-ce-ubuntu-noble",
+  "label": "GitLab CE (Ubuntu 24.04 Noble)",
+  "os": "ubuntu-24.04",
+  "name": "gitlab-ce",
+  "source": "deb [signed-by=/usr/share/keyrings/gitlab_gitlab-ce-archive-keyring.gpg] https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu noble main",
+  "keyId": "gitlab-ce",
+  "documentationUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/install",
+  "tags": [
+    "git",
+    "ci",
+    "devtools"
+  ],
+  "notes": "Install: apt-get install gitlab-ce"
+}

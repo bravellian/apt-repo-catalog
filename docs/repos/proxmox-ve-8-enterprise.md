@@ -38,7 +38,22 @@ sudo apt-get update
 
 ## Packages
 
-Package inventory has not been generated for this repository.
+> Package compatibility is defined by suite/component/architecture in the repository index;
+> there is no per-package OS field in the Packages metadata.
+
+<details>
+<summary>Packages (0)</summary>
+
+<div class="packages-nav">
+
+</div>
+
+
+Errors during fetch:
+- apt-get update failed
+- Failed to fetch Release/InRelease
+
+</details>
 
 ## Notes
 - OS support: verify upstream documentation for supported releases.

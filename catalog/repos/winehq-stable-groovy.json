@@ -1,0 +1,13 @@
+{
+  "id": "winehq-stable-groovy",
+  "label": "WineHQ Stable - groovy",
+  "os": "ubuntu-20.10",
+  "name": "winehq-stable",
+  "source": "deb https://dl.winehq.org/wine-builds/ubuntu groovy main",
+  "keyId": "winehq",
+  "documentationUrl": "https://wiki.winehq.org/Ubuntu",
+  "tags": [
+    "compatibility"
+  ],
+  "notes": "Official WineHQ repository for stable Wine releases"
+}

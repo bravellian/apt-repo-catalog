@@ -1,0 +1,47 @@
+{
+  "fetchedAt": "2026-01-25T04:43:36.588Z",
+  "repoId": "linuxmint-una-main",
+  "mode": "auto",
+  "source": {
+    "line": "deb http://packages.linuxmint.com una main upstream import backport",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": null,
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/linuxmint-una-main/run-pkMwmk/keyrings/linuxmint-archive-keyring.gpg] http://packages.linuxmint.com una main upstream import backport"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/linuxmint-una-main/run-pkMwmk/var/lib/apt/lists/packages.linuxmint.com_dists_una_backport_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/linuxmint-una-main/packages.raw/20260125T044336Z/packages.linuxmint.com_dists_una_backport_binary-amd64_Packages",
+      "suite": "una",
+      "component": "backport",
+      "arch": "amd64"
+    },
+    {
+      "source": "/tmp/apt-inventory/linuxmint-una-main/run-pkMwmk/var/lib/apt/lists/packages.linuxmint.com_dists_una_import_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/linuxmint-una-main/packages.raw/20260125T044336Z/packages.linuxmint.com_dists_una_import_binary-amd64_Packages",
+      "suite": "una",
+      "component": "import",
+      "arch": "amd64"
+    },
+    {
+      "source": "/tmp/apt-inventory/linuxmint-una-main/run-pkMwmk/var/lib/apt/lists/packages.linuxmint.com_dists_una_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/linuxmint-una-main/packages.raw/20260125T044336Z/packages.linuxmint.com_dists_una_main_binary-amd64_Packages",
+      "suite": "una",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "/tmp/apt-inventory/linuxmint-una-main/run-pkMwmk/var/lib/apt/lists/packages.linuxmint.com_dists_una_upstream_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/linuxmint-una-main/packages.raw/20260125T044336Z/packages.linuxmint.com_dists_una_upstream_binary-amd64_Packages",
+      "suite": "una",
+      "component": "upstream",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

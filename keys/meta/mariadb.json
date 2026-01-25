@@ -1,0 +1,40 @@
+{
+  "id": "mariadb",
+  "vendor": "mariadb-foundation",
+  "label": "MariaDB Repository Signing Key (Debian/Ubuntu)",
+  "status": "active",
+  "sourceUrl": "https://mariadb.org/mariadb_release_signing_key.pgp",
+  "sourceUrls": [
+    "https://mariadb.org/mariadb_release_signing_key.pgp"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "177F4010FE56CA3336300305F1656F24C74CD1D8"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "MariaDB Signing Key <signing-key@mariadb.org>"
+  ],
+  "primaryUserId": "MariaDB Signing Key <signing-key@mariadb.org>",
+  "keyIds": [
+    {
+      "fingerprint": "177F4010FE56CA3336300305F1656F24C74CD1D8",
+      "keyIdLong": "F1656F24C74CD1D8",
+      "keyIdShort": "C74CD1D8"
+    }
+  ],
+  "downloaded": {
+    "sha256": "00adb387f4c12e8982cfc28165d225695621494354cd58108c6845063bfb74b5",
+    "sizeBytes": 6575,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "f21ade41f3d48a0dbe5373ca10bfada1764e82ab077de052c1a1fffdb0da2ad6",
+    "sizeBytes": 6582,
+    "outputPath": "keys/mariadb.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "177F4010FE56CA3336300305F1656F24C74CD1D8",
+    "fingerprintSuffix16": "F1656F24C74CD1D8"
+  }
+}

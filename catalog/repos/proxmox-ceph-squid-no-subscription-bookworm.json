@@ -1,0 +1,16 @@
+{
+  "id": "proxmox-ceph-squid-no-subscription-bookworm",
+  "label": "Proxmox Ceph Squid - no-subscription (PVE 8)",
+  "os": "proxmox-8",
+  "name": "proxmox",
+  "source": "deb http://download.proxmox.com/debian/ceph-squid bookworm no-subscription",
+  "keyId": "proxmox-release-bookworm",
+  "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
+  "tags": [
+    "proxmox",
+    "ceph",
+    "debian-derivative",
+    "apt"
+  ],
+  "notes": "Not recommended for production."
+}

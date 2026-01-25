@@ -1,0 +1,40 @@
+{
+  "id": "postgresql",
+  "vendor": "postgresql-global-development-group",
+  "label": "PostgreSQL Apt Repository Key",
+  "status": "active",
+  "sourceUrl": "https://www.postgresql.org/media/keys/ACCC4CF8.asc",
+  "sourceUrls": [
+    "https://www.postgresql.org/media/keys/ACCC4CF8.asc"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "B97B0AFCAA1A47F044F244A07FCC7D46ACCC4CF8"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "PostgreSQL Debian Repository"
+  ],
+  "primaryUserId": "PostgreSQL Debian Repository",
+  "keyIds": [
+    {
+      "fingerprint": "B97B0AFCAA1A47F044F244A07FCC7D46ACCC4CF8",
+      "keyIdLong": "7FCC7D46ACCC4CF8",
+      "keyIdShort": "ACCC4CF8"
+    }
+  ],
+  "downloaded": {
+    "sha256": "0144068502a1eddd2a0280ede10ef607d1ec592ce819940991203941564e8e76",
+    "sizeBytes": 4812,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "c3f3149a7a373ca4317d99b0d593db7af37f2cc48040c3a43b726d98fcc9d833",
+    "sizeBytes": 4817,
+    "outputPath": "keys/postgresql.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "B97B0AFCAA1A47F044F244A07FCC7D46ACCC4CF8",
+    "fingerprintSuffix16": "7FCC7D46ACCC4CF8"
+  }
+}

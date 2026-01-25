@@ -1,0 +1,40 @@
+{
+  "id": "mongodb-7-0",
+  "vendor": "mongodb-inc",
+  "label": "MongoDB 7.0 Server Key",
+  "status": "active",
+  "sourceUrl": "https://www.mongodb.org/static/pgp/server-7.0.asc",
+  "sourceUrls": [
+    "https://www.mongodb.org/static/pgp/server-7.0.asc"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "E58830201F7DD82CD808AA84160D26BB1785BA38"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "MongoDB 7.0 Release Signing Key <packaging@mongodb.com>"
+  ],
+  "primaryUserId": "MongoDB 7.0 Release Signing Key <packaging@mongodb.com>",
+  "keyIds": [
+    {
+      "fingerprint": "E58830201F7DD82CD808AA84160D26BB1785BA38",
+      "keyIdLong": "160D26BB1785BA38",
+      "keyIdShort": "1785BA38"
+    }
+  ],
+  "downloaded": {
+    "sha256": "b254e7858367d4c1762f931762c4db3ad7a6a0af11f3a965b709e9933c52852b",
+    "sizeBytes": 1674,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "1c3655f42d5270b19653742d46558f6fcf2d2da113b1b52e151f471a2600deb1",
+    "sizeBytes": 1657,
+    "outputPath": "keys/mongodb-7-0.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "E58830201F7DD82CD808AA84160D26BB1785BA38",
+    "fingerprintSuffix16": "160D26BB1785BA38"
+  }
+}

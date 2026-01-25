@@ -1,0 +1,14 @@
+{
+  "id": "microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com",
+  "label": "Microsoft - ubuntu-18.04 - default",
+  "os": "ubuntu-18.04",
+  "name": "microsoft",
+  "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/18.04/prod bionic main",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "documentationUrl": "https://packages.microsoft.com/config/ubuntu/18.04",
+  "tags": [
+    "microsoft",
+    "apt",
+    "ubuntu"
+  ]
+}

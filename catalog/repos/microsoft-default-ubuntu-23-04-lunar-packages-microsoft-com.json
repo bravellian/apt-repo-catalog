@@ -1,0 +1,14 @@
+{
+  "id": "microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com",
+  "label": "Microsoft - ubuntu-23.04 - default",
+  "os": "ubuntu-23.04",
+  "name": "microsoft",
+  "source": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/23.04/prod lunar main",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "documentationUrl": "https://packages.microsoft.com/config/ubuntu/23.04",
+  "tags": [
+    "microsoft",
+    "apt",
+    "ubuntu"
+  ]
+}

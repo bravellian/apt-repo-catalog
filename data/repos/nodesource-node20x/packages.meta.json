@@ -1,0 +1,31 @@
+{
+  "fetchedAt": "2026-01-25T04:44:02.530Z",
+  "repoId": "nodesource-node20x",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://deb.nodesource.com/node_20.x jammy main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": null,
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/nodesource-node20x/run-8lGkH0/keyrings/nodesource.gpg] https://deb.nodesource.com/node_20.x jammy main",
+    "https://deb.nodesource.com/node_20.x/dists/jammy/Release",
+    "https://deb.nodesource.com/node_20.x/dists/jammy/InRelease"
+  ],
+  "packageFiles": [],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Ign:1 https://deb.nodesource.com/node_20.x jammy InRelease\nErr:2 https://deb.nodesource.com/node_20.x jammy Release\n  404  Not Found [IP: 172.66.150.169 443]\nReading package lists...\n\nE: The repository 'https://deb.nodesource.com/node_20.x jammy Release' does not have a Release file."
+    },
+    {
+      "stage": "release",
+      "message": "Failed to fetch Release/InRelease",
+      "detail": "Fetch failed with status 404 for https://deb.nodesource.com/node_20.x/dists/jammy/InRelease"
+    }
+  ]
+}

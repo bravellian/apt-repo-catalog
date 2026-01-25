@@ -1,0 +1,15 @@
+{
+  "id": "docker-ubuntu-cosmic-stable",
+  "label": "Docker - Ubuntu (Cosmic) - stable",
+  "os": "ubuntu-18.10",
+  "name": "docker",
+  "source": "deb https://download.docker.com/linux/ubuntu cosmic stable",
+  "keyId": "docker-gpg-8d81803c0ebfcd88",
+  "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
+  "tags": [
+    "docker",
+    "apt",
+    "ubuntu"
+  ],
+  "notes": "Docker APT repository for Ubuntu"
+}

@@ -8,13 +8,85 @@ import {
   normalizePackages,
   decompressPackagesFile
 } from "./lib/apt-packages.mjs";
+import { loadReposCatalog, writeReposCatalog } from "./lib/repos-catalog.mjs";
+import { writePackagesIndex } from "./lib/packages-index.mjs";
 
 const root = process.cwd();
-const reposPath = path.join(root, "catalog", "repos.json");
 const keysPath = path.join(root, "catalog", "keys.json");
+const osPath = path.join(root, "catalog", "os.json");
+
+const ubuntuCodenameToVersion = {
+  trusty: "14.04",
+  xenial: "16.04",
+  yakkety: "16.10",
+  zesty: "17.04",
+  artful: "17.10",
+  bionic: "18.04",
+  cosmic: "18.10",
+  disco: "19.04",
+  eoan: "19.10",
+  focal: "20.04",
+  groovy: "20.10",
+  hirsute: "21.04",
+  impish: "21.10",
+  jammy: "22.04",
+  kinetic: "22.10",
+  lunar: "23.04",
+  mantic: "23.10",
+  noble: "24.04",
+  oracular: "24.10",
+  plucky: "25.04",
+  questing: "25.10"
+};
+
+const debianCodenameToVersion = {
+  wheezy: "7",
+  jessie: "8",
+  stretch: "9",
+  buster: "10",
+  bullseye: "11",
+  bookworm: "12",
+  trixie: "13"
+};
+
+const defaultSuiteCandidates = [
+  "stable",
+  "testing",
+  "unstable",
+  "sid",
+  "trixie",
+  "bookworm",
+  "bullseye",
+  "buster",
+  "stretch",
+  "jessie",
+  "wheezy",
+  "noble",
+  "jammy",
+  "focal",
+  "bionic",
+  "xenial",
+  "trusty",
+  "oracular",
+  "plucky",
+  "questing",
+  "mantic",
+  "lunar",
+  "kinetic",
+  "impish",
+  "hirsute",
+  "groovy",
+  "eoan",
+  "disco",
+  "cosmic",
+  "artful",
+  "zesty",
+  "yakkety"
+];
 
 function parseArgs(argv) {
   const args = {};
+  const booleanFlags = new Set(["all", "dry-run", "write-catalog"]);
   for (let i = 0; i < argv.length; i += 1) {
     const value = argv[i];
     if (!value.startsWith("--")) {
@@ -25,6 +97,10 @@ function parseArgs(argv) {
       continue;
     }
     const key = value.slice(2);
+    if (booleanFlags.has(key)) {
+      args[key] = true;
+      continue;
+    }
     const next = argv[i + 1];
     if (!next || next.startsWith("--")) {
       throw new Error(`Missing value for --${key}`);
@@ -51,6 +127,25 @@ function readJson(filePath) {
 
 function getKeyId(repo) {
   return repo.keyId ?? repo.key_id ?? null;
+}
+
+function getKeySourceUrl(entry) {
+  return entry.sourceUrl ?? entry.key_url ?? "";
+}
+
+function normalizeFingerprint(value) {
+  return String(value).replace(/\s+/g, "").toUpperCase();
+}
+
+function getFingerprintSet(entry) {
+  const raw =
+    entry.expectedFingerprints ??
+    entry.fingerprints ??
+    entry.key_fingerprints ??
+    entry.fingerprint ??
+    [];
+  const list = Array.isArray(raw) ? raw : [raw];
+  return list.map(normalizeFingerprint).filter(Boolean).sort().join(",");
 }
 
 function getOutputPath(keyEntry, keyId) {
@@ -82,6 +177,10 @@ function stripDebPrefix(source) {
   return trimmed;
 }
 
+function normalizeDebLine(source) {
+  return source.trim().replace(/\s+/g, " ");
+}
+
 function parseDebLine(source) {
   const trimmed = stripDebPrefix(source);
   let remaining = trimmed;
@@ -109,6 +208,128 @@ function parseDebLine(source) {
     components,
     options
   };
+}
+
+function parseDebSource(source) {
+  const trimmed = source.trim();
+  const debMatch = trimmed.match(/^(deb-src|deb)\s+/);
+  const debType = debMatch ? debMatch[1] : "deb";
+  let remaining = debMatch ? trimmed.slice(debMatch[0].length) : trimmed;
+  const optionsMatch = remaining.match(/^\[([^\]]+)\]\s*/);
+  let options = "";
+  if (optionsMatch) {
+    options = optionsMatch[1].trim();
+    remaining = remaining.slice(optionsMatch[0].length);
+  }
+  const parts = remaining.split(/\s+/).filter(Boolean);
+  return {
+    debType,
+    options,
+    uri: parts[0] ?? "",
+    suite: parts[1] ?? "",
+    components: parts.slice(2)
+  };
+}
+
+function buildSourceLine({ debType, options, uri, suite, components }) {
+  const optionsBlock = options ? ` [${options}]` : "";
+  const componentsPart = components.length > 0 ? ` ${components.join(" ")}` : "";
+  return `${debType}${optionsBlock} ${uri} ${suite}${componentsPart}`.trim();
+}
+
+function normalizeSuite(value) {
+  return String(value).trim().toLowerCase();
+}
+
+function resolveOsIdForSuite(value, osIds, fallbackOs) {
+  const suite = normalizeSuite(value);
+  if (osIds.has(suite)) {
+    return suite;
+  }
+  if (ubuntuCodenameToVersion[suite]) {
+    const osId = `ubuntu-${ubuntuCodenameToVersion[suite]}`;
+    if (osIds.has(osId)) {
+      return osId;
+    }
+  }
+  if (debianCodenameToVersion[suite]) {
+    const osId = `debian-${debianCodenameToVersion[suite]}`;
+    if (osIds.has(osId)) {
+      return osId;
+    }
+  }
+  if (/^\d{2}\.\d{2}$/.test(suite)) {
+    const osId = `ubuntu-${suite}`;
+    if (osIds.has(osId)) {
+      return osId;
+    }
+  }
+  if (/^\d{1,2}$/.test(suite)) {
+    const osId = `debian-${suite}`;
+    if (osIds.has(osId)) {
+      return osId;
+    }
+  }
+  if (fallbackOs && osIds.has(fallbackOs)) {
+    return fallbackOs;
+  }
+  return null;
+}
+
+function splitSuiteList(value) {
+  return String(value)
+    .split(/[,\s]+/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+async function fetchReleaseInfo(baseUrl, suite) {
+  const base = baseUrl.replace(/\/$/, "");
+  const releaseUrl = `${base}/dists/${suite}/Release`;
+  try {
+    const bytes = await fetchBytes(releaseUrl);
+    const text = Buffer.from(bytes).toString("utf8");
+    return { ok: true, url: releaseUrl, fields: parseReleaseFile(text).fields };
+  } catch {
+    const inReleaseUrl = `${base}/dists/${suite}/InRelease`;
+    try {
+      const bytes = await fetchBytes(inReleaseUrl);
+      const text = Buffer.from(bytes).toString("utf8");
+      return { ok: true, url: inReleaseUrl, fields: parseReleaseFile(text).fields };
+    } catch (error) {
+      return {
+        ok: false,
+        url: inReleaseUrl,
+        error: error instanceof Error ? error.message : String(error)
+      };
+    }
+  }
+}
+
+function formatTemplate(value, tokens) {
+  return Object.entries(tokens).reduce(
+    (current, [key, tokenValue]) => current.replaceAll(`{${key}}`, tokenValue ?? ""),
+    value
+  );
+}
+
+function mergeTags(base, extra) {
+  const tags = new Set();
+  for (const value of [base, extra]) {
+    if (!value) {
+      continue;
+    }
+    const items = Array.isArray(value)
+      ? value
+      : String(value)
+          .split(",")
+          .map((tag) => tag.trim())
+          .filter(Boolean);
+    for (const item of items) {
+      tags.add(item);
+    }
+  }
+  return tags.size > 0 ? Array.from(tags) : undefined;
 }
 
 function parseSourceLine(source, keyringPath) {
@@ -581,16 +802,23 @@ async function main() {
     "curate-repos",
     "sync-catalog"
   ]);
+  const inventoryCommands = new Set([
+    "fetch-packages",
+    "fetch-packages-all",
+    "expand-repo-suites",
+    "cleanup-catalog"
+  ]);
   if (command && discoveryCommands.has(command)) {
     const { runDiscoveryCli } = await import("./discovery/index.mjs");
     await runDiscoveryCli(root);
     return;
   }
-  if (!command || (command !== "fetch-packages" && command !== "fetch-packages-all")) {
+  if (!command || !inventoryCommands.has(command)) {
     throw new Error(
-      "Usage: node scripts/apt-inventory.mjs fetch-packages --repo-id <id> OR fetch-packages-all"
+      "Usage: node scripts/apt-inventory.mjs fetch-packages --repo-id <id> OR fetch-packages --all OR fetch-packages-all OR expand-repo-suites --repo-id <id> OR expand-repo-suites --all OR cleanup-catalog"
     );
   }
+  const fetchAll = command === "fetch-packages-all" || (command === "fetch-packages" && args.all);
 
   const mode = args.mode ?? "auto";
   const timeoutSeconds = Number.parseInt(args.timeoutSeconds ?? "60", 10);
@@ -605,7 +833,7 @@ async function main() {
   const allowFailures = args["allow-failures"] === "true";
 
   const [reposCatalog, keysCatalog] = await Promise.all([
-    readJson(reposPath),
+    loadReposCatalog({ root }),
     readJson(keysPath)
   ]);
 
@@ -634,6 +862,8 @@ async function main() {
     const repoDir = path.join(outRoot, repoId);
     const rawDir = path.join(repoDir, "packages.raw", timestampId());
     await mkdir(rawDir, { recursive: true });
+
+    console.log(`[fetch-packages] start ${repoId}`);
 
     const meta = {
       fetchedAt: new Date().toISOString(),
@@ -714,29 +944,490 @@ async function main() {
       component: ""
     });
 
-    const packagesPath = path.join(repoDir, "packages.json");
     const packagesMetaPath = path.join(repoDir, "packages.meta.json");
 
     await mkdir(repoDir, { recursive: true });
-    await writeFile(
-      packagesPath,
-      JSON.stringify(buildPackagesIndex(packages), null, 2) + "\n",
-      "utf8"
-    );
+    await writePackagesIndex({ repoDir, packages, removeLegacy: true });
     await writeFile(
       packagesMetaPath,
       JSON.stringify(meta, null, 2) + "\n",
       "utf8"
     );
+    console.log(
+      `[fetch-packages] done ${repoId} (${meta.errors.length === 0 ? "ok" : "errors"})`
+    );
     return meta.errors.length === 0;
   }
 
-  if (command === "fetch-packages") {
+  if (command === "cleanup-catalog") {
+    const keyIdMap = new Map();
+    const keysBySource = new Map();
+    const keysByFingerprint = new Map();
+
+    for (const entry of keysCatalog.keys ?? []) {
+      const sourceUrl = getKeySourceUrl(entry).trim();
+      if (sourceUrl) {
+        const key = sourceUrl.toLowerCase();
+        if (!keysBySource.has(key)) {
+          keysBySource.set(key, []);
+        }
+        keysBySource.get(key).push(entry);
+      }
+      const fpSet = getFingerprintSet(entry);
+      if (fpSet) {
+        if (!keysByFingerprint.has(fpSet)) {
+          keysByFingerprint.set(fpSet, []);
+        }
+        keysByFingerprint.get(fpSet).push(entry);
+      }
+    }
+
+    function setKeyMapping(group, reason) {
+      if (!group || group.length < 2) {
+        return;
+      }
+      const keep = group[0].id;
+      for (const entry of group.slice(1)) {
+        if (!keyIdMap.has(entry.id)) {
+          keyIdMap.set(entry.id, { keep, reason });
+        }
+      }
+    }
+
+    for (const group of keysBySource.values()) {
+      setKeyMapping(group, "duplicate-sourceUrl");
+    }
+    for (const group of keysByFingerprint.values()) {
+      setKeyMapping(group, "duplicate-fingerprint");
+    }
+
+    function resolveKeyId(id) {
+      let current = id;
+      const seen = new Set();
+      while (keyIdMap.has(current)) {
+        if (seen.has(current)) {
+          break;
+        }
+        seen.add(current);
+        current = keyIdMap.get(current).keep;
+      }
+      return current;
+    }
+
+    const resolvedKeyMap = new Map();
+    for (const [key, value] of keyIdMap.entries()) {
+      const resolved = resolveKeyId(value.keep);
+      if (resolved !== key) {
+        resolvedKeyMap.set(key, { keep: resolved, reason: value.reason });
+      }
+    }
+
+    function mergeKey(base, extra) {
+      if (!base.documentationUrl && extra.documentationUrl) {
+        base.documentationUrl = extra.documentationUrl;
+      }
+      const tags = mergeTags(base.tags, extra.tags);
+      if (tags) {
+        base.tags = tags;
+      }
+      if (!base.notes && extra.notes) {
+        base.notes = extra.notes;
+      }
+      if (!base.vendor && extra.vendor) {
+        base.vendor = extra.vendor;
+      }
+      if (!base.label && extra.label) {
+        base.label = extra.label;
+      }
+      if (!base.sourceUrl && extra.sourceUrl) {
+        base.sourceUrl = extra.sourceUrl;
+      }
+      const baseFp = Array.isArray(base.expectedFingerprints)
+        ? base.expectedFingerprints
+        : base.expectedFingerprints
+          ? [base.expectedFingerprints]
+          : [];
+      const extraFp = Array.isArray(extra.expectedFingerprints)
+        ? extra.expectedFingerprints
+        : extra.expectedFingerprints
+          ? [extra.expectedFingerprints]
+          : [];
+      const merged = Array.from(
+        new Set([...baseFp, ...extraFp].map(normalizeFingerprint).filter(Boolean))
+      );
+      if (merged.length > 0) {
+        base.expectedFingerprints = merged.sort();
+      }
+      if ((!base.status || base.status !== "active") && extra.status === "active") {
+        base.status = "active";
+      }
+      return base;
+    }
+
+    const updatedRepos = [];
+    const reposWithKeyUpdates = [];
+    for (const repo of reposCatalog.repos ?? []) {
+      const keyId = getKeyId(repo);
+      const resolvedKeyId = keyId ? resolveKeyId(keyId) : null;
+      if (resolvedKeyId && resolvedKeyId !== keyId) {
+        reposWithKeyUpdates.push({ repoId: repo.id, from: keyId, to: resolvedKeyId });
+        updatedRepos.push({ ...repo, keyId: resolvedKeyId });
+      } else {
+        updatedRepos.push({ ...repo });
+      }
+    }
+
+    const keysById = new Map();
+    const removedKeyIds = new Set();
+    const mergedKeys = [];
+    for (const entry of keysCatalog.keys ?? []) {
+      const resolvedId = resolveKeyId(entry.id);
+      if (resolvedId !== entry.id) {
+        removedKeyIds.add(entry.id);
+        if (keysById.has(resolvedId)) {
+          mergeKey(keysById.get(resolvedId), entry);
+          mergedKeys.push({ from: entry.id, to: resolvedId });
+        }
+        continue;
+      }
+      if (keysById.has(resolvedId)) {
+        mergeKey(keysById.get(resolvedId), entry);
+        mergedKeys.push({ from: entry.id, to: resolvedId });
+      } else {
+        keysById.set(resolvedId, { ...entry });
+      }
+    }
+
+    function mergeRepo(base, extra) {
+      if (!base.label && extra.label) {
+        base.label = extra.label;
+      }
+      if (!base.name && extra.name) {
+        base.name = extra.name;
+      }
+      if (!base.documentationUrl && extra.documentationUrl) {
+        base.documentationUrl = extra.documentationUrl;
+      }
+      const tags = mergeTags(base.tags, extra.tags);
+      if (tags) {
+        base.tags = tags;
+      }
+      if (!base.notes && extra.notes) {
+        base.notes = extra.notes;
+      }
+      if (!base.allowMissingDocsUrl && extra.allowMissingDocsUrl) {
+        base.allowMissingDocsUrl = true;
+      }
+      if (!base.allowDeprecatedKey && extra.allowDeprecatedKey) {
+        base.allowDeprecatedKey = true;
+      }
+      return base;
+    }
+
+    const reposById = new Map();
+    let missingRepoIdCount = 0;
+    const duplicateRepoIds = [];
+    for (const repo of updatedRepos) {
+      if (!repo.id) {
+        missingRepoIdCount += 1;
+        reposById.set(`__missing-id-${missingRepoIdCount}`, repo);
+        continue;
+      }
+      if (reposById.has(repo.id)) {
+        mergeRepo(reposById.get(repo.id), repo);
+        duplicateRepoIds.push(repo.id);
+      } else {
+        reposById.set(repo.id, repo);
+      }
+    }
+
+    const reposBySignature = new Map();
+    let missingRepoSignatureCount = 0;
+    const duplicateRepoSignatures = [];
+    for (const repo of reposById.values()) {
+      const keyId = getKeyId(repo) ?? "";
+      const signature = `${repo.os ?? ""}|${normalizeDebLine(repo.source ?? "")}|${keyId}`;
+      if (!repo.os || !repo.source) {
+        missingRepoSignatureCount += 1;
+        const fallbackId = `${repo.id ?? "unknown"}|${signature}|${missingRepoSignatureCount}`;
+        reposBySignature.set(fallbackId, repo);
+        continue;
+      }
+      if (reposBySignature.has(signature)) {
+        mergeRepo(reposBySignature.get(signature), repo);
+        duplicateRepoSignatures.push(repo.id);
+      } else {
+        reposBySignature.set(signature, repo);
+      }
+    }
+
+    const finalKeys = Array.from(keysById.values());
+    const finalRepos = Array.from(reposBySignature.values());
+
+    console.log("Catalog cleanup summary:");
+    console.log(`- keys removed: ${removedKeyIds.size}`);
+    console.log(`- keys merged: ${mergedKeys.length}`);
+    console.log(`- repos updated keyId: ${reposWithKeyUpdates.length}`);
+    console.log(`- repos merged by id: ${duplicateRepoIds.length}`);
+    console.log(`- repos merged by signature: ${duplicateRepoSignatures.length}`);
+
+    if (resolvedKeyMap.size > 0) {
+      console.log("\nKey consolidation map:");
+      for (const [from, entry] of resolvedKeyMap.entries()) {
+        console.log(`- ${from} -> ${entry.keep} (${entry.reason})`);
+      }
+    }
+
+    if (args["dry-run"] || !args["write-catalog"]) {
+      console.log("\nDry run only. Use --write-catalog to save updates.");
+      return;
+    }
+
+    const updatedKeysCatalog = { ...keysCatalog, keys: finalKeys };
+    const updatedReposCatalog = { ...reposCatalog, repos: finalRepos };
+    await writeFile(keysPath, JSON.stringify(updatedKeysCatalog, null, 2) + "\n", "utf8");
+    await writeReposCatalog({ root, repos: updatedReposCatalog.repos, preferDir: true, clean: true });
+
+    const validate = spawnSync("node", ["scripts/validate-all.mjs"], {
+      stdio: "inherit",
+      cwd: root
+    });
+    if (validate.status !== 0) {
+      process.exit(validate.status ?? 1);
+    }
+    return;
+  }
+
+  if (command === "fetch-packages" && !fetchAll) {
     const repoId = args["repo-id"] ?? args.id;
     if (!repoId) {
       throw new Error("Missing required --repo-id");
     }
     await fetchForRepo(repoId);
+    return;
+  }
+
+  if (command === "expand-repo-suites") {
+    const expandAll = Boolean(args.all);
+    const repoId = args["repo-id"] ?? args.id;
+    if (!expandAll && !repoId) {
+      throw new Error("Missing required --repo-id (or pass --all)");
+    }
+    const osCatalog = await readJson(osPath);
+    const osIds = new Set((osCatalog.oses ?? []).map((entry) => entry.id));
+
+    const suiteCandidates =
+      args["suite-candidates"] && args["suite-candidates"].trim()
+        ? splitSuiteList(args["suite-candidates"])
+        : defaultSuiteCandidates;
+
+    const fallbackOs = args["unknown-os"];
+    if (fallbackOs && !osIds.has(fallbackOs)) {
+      throw new Error(`Unknown fallback os ${fallbackOs} in catalog/os.json`);
+    }
+
+    const existingIds = new Set(reposCatalog.repos.map((item) => item.id));
+    const existingBySignature = new Map();
+    for (const item of reposCatalog.repos) {
+      if (!item.source || !item.os) {
+        continue;
+      }
+      const signature = `${item.os}|${item.source}|${getKeyId(item) ?? ""}`;
+      existingBySignature.set(signature, item);
+    }
+
+    async function expandForRepo(repo) {
+      const parsed = parseDebSource(repo.source);
+      const baseUrl = args["base-url"] ?? repo.baseUrl ?? parsed.uri;
+      if (!baseUrl) {
+        return {
+          planned: [],
+          skipped: [{ suite: "*", reason: "missing-base-url" }],
+          probed: []
+        };
+      }
+
+      const suites = Array.from(
+        new Set([parsed.suite, ...suiteCandidates].map(normalizeSuite).filter(Boolean))
+      );
+
+      const planned = [];
+      const skipped = [];
+      const probed = [];
+      for (const suite of suites) {
+        const release = await fetchReleaseInfo(baseUrl, suite);
+        if (!release.ok) {
+          skipped.push({ suite, reason: "missing-release", detail: release.error });
+          continue;
+        }
+        const releaseSuiteRaw = release.fields.Codename || release.fields.Suite || suite;
+        const releaseSuite = splitSuiteList(releaseSuiteRaw)[0] ?? suite;
+        const osId = resolveOsIdForSuite(releaseSuite, osIds, fallbackOs);
+        if (!osId) {
+          skipped.push({ suite, reason: "unknown-os", detail: releaseSuite });
+          continue;
+        }
+        const components =
+          parsed.components.length > 0
+            ? parsed.components
+            : splitSuiteList(release.fields.Components ?? "");
+        if (components.length === 0) {
+          skipped.push({ suite, reason: "missing-components" });
+          continue;
+        }
+
+        const source = buildSourceLine({
+          debType: parsed.debType,
+          options: parsed.options,
+          uri: parsed.uri,
+          suite,
+          components
+        });
+        const signature = `${osId}|${source}|${getKeyId(repo) ?? ""}`;
+        if (existingBySignature.has(signature)) {
+          skipped.push({ suite, reason: "duplicate-existing" });
+          continue;
+        }
+
+        const idTemplate = args["id-format"] ?? "{baseId}-{suite}";
+        const labelTemplate = args["label-format"] ?? "{baseLabel} - {suite}";
+        const tokens = {
+          baseId: repo.id,
+          baseLabel: repo.label ?? repo.id,
+          suite,
+          os: osId,
+          codename: releaseSuite
+        };
+        const baseId = normalizeRepoId(formatTemplate(idTemplate, tokens));
+        let id = baseId;
+        if (existingIds.has(id)) {
+          let counter = 2;
+          while (existingIds.has(`${baseId}-${counter}`)) {
+            counter += 1;
+          }
+          id = `${baseId}-${counter}`;
+        }
+        existingIds.add(id);
+
+        const entry = {
+          id,
+          label: formatTemplate(labelTemplate, tokens),
+          os: osId,
+          name: repo.name,
+          source,
+          keyId: getKeyId(repo),
+          documentationUrl: repo.documentationUrl,
+          tags: repo.tags,
+          notes: repo.notes
+        };
+        if (!entry.documentationUrl) {
+          entry.allowMissingDocsUrl = true;
+        }
+        if (repo.allowDeprecatedKey) {
+          entry.allowDeprecatedKey = true;
+        }
+
+        planned.push(entry);
+        probed.push({ suite, url: release.url, os: osId });
+        existingBySignature.set(signature, entry);
+      }
+
+      return { planned, skipped, probed, suitesCount: suites.length };
+    }
+
+    const plannedAll = [];
+    const skippedAll = [];
+    const probedAll = [];
+
+    const targetRepos = expandAll
+      ? reposCatalog.repos.filter((repo) => {
+          if (onlyOs && repo.os !== onlyOs) {
+            return false;
+          }
+          if (onlyIds.size > 0 && !onlyIds.has(repo.id)) {
+            return false;
+          }
+          return true;
+        })
+      : [reposCatalog.repos.find((item) => item.id === repoId)];
+
+    if (targetRepos.some((repo) => !repo)) {
+      throw new Error(`Repo ${repoId} not found in catalog`);
+    }
+
+    console.log(`[expand-repo-suites] total repos: ${targetRepos.length}`);
+    let index = 0;
+    for (const repo of targetRepos) {
+      index += 1;
+      console.log(`[expand-repo-suites] repo ${index}/${targetRepos.length}: ${repo.id}`);
+      const result = await expandForRepo(repo);
+      plannedAll.push(...result.planned);
+      skippedAll.push(
+        ...result.skipped.map((item) => ({
+          repoId: repo.id,
+          suite: item.suite,
+          reason: item.reason,
+          detail: item.detail
+        }))
+      );
+      probedAll.push(
+        ...result.probed.map((item) => ({
+          repoId: repo.id,
+          suite: item.suite,
+          os: item.os,
+          url: item.url
+        }))
+      );
+      console.log(
+        `[expand-repo-suites] ${repo.id} suites=${result.suitesCount} planned=${result.planned.length} skipped=${result.skipped.length}`
+      );
+    }
+
+    console.log("\nSuite expansion summary:");
+    if (!expandAll) {
+      console.log(`- repo: ${repoId}`);
+    }
+    console.log(`- entries planned: ${plannedAll.length}`);
+    console.log(`- entries skipped: ${skippedAll.length}`);
+
+    if (probedAll.length > 0) {
+      console.log("\nVerified suites:");
+      for (const item of probedAll) {
+        console.log(`- ${item.repoId}: ${item.suite} -> ${item.os} (${item.url})`);
+      }
+    }
+
+    if (skippedAll.length > 0) {
+      console.log("\nSkipped suites:");
+      for (const item of skippedAll) {
+        const detail = item.detail ? ` (${item.detail})` : "";
+        console.log(`- ${item.repoId}: ${item.suite} ${item.reason}${detail}`);
+      }
+    }
+
+    if (args["dry-run"] || !args["write-catalog"]) {
+      console.log("\nPlanned entries:");
+      for (const entry of plannedAll) {
+        console.log(JSON.stringify(entry, null, 2));
+      }
+      if (!args["write-catalog"]) {
+        console.log("\nDry run only. Use --write-catalog to save entries.");
+      }
+      return;
+    }
+
+    if (plannedAll.length > 0) {
+      reposCatalog.repos.push(...plannedAll);
+      await writeReposCatalog({ root, repos: reposCatalog.repos, preferDir: true, clean: true });
+    }
+
+    const validateRepos = spawnSync("node", ["scripts/validate-repos.mjs"], {
+      stdio: "inherit",
+      cwd: root
+    });
+    if (validateRepos.status !== 0) {
+      process.exit(validateRepos.status ?? 1);
+    }
     return;
   }
 
@@ -750,8 +1441,13 @@ async function main() {
     return true;
   });
 
+  console.log(`[fetch-packages] total repos: ${repos.length}`);
+
   let failures = 0;
+  let index = 0;
   for (const repo of repos) {
+    index += 1;
+    console.log(`[fetch-packages] repo ${index}/${repos.length}: ${repo.id}`);
     try {
       const ok = await fetchForRepo(repo.id, repo);
       if (!ok) {

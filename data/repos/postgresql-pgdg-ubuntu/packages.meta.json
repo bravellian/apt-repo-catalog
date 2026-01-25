@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-25T04:44:05.372Z",
+  "repoId": "postgresql-pgdg-ubuntu",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://apt.postgresql.org/pub/repos/apt jammy-pgdg main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "apt.postgresql.org",
+    "Label": "PostgreSQL for Debian/Ubuntu repository",
+    "Suite": "jammy-pgdg",
+    "Codename": "jammy-pgdg",
+    "Architectures": "amd64 arm64 ppc64el",
+    "Components": "main 8.2 8.3 8.4 9.0 9.1 9.2 9.3 9.4 9.5 9.6 10 11 12 13 14 15 16 17 18 19",
+    "inReleasePath": "/tmp/apt-inventory/postgresql-pgdg-ubuntu/run-Thw7l4/var/lib/apt/lists/apt.postgresql.org_pub_repos_apt_dists_jammy-pgdg_InRelease",
+    "inReleaseSha256": "3b37651f8927f8a0f0e34805763979be9a9401bb93a0910c6657629166d5a33a"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/postgresql-pgdg-ubuntu/run-Thw7l4/keyrings/postgresql.gpg] https://apt.postgresql.org/pub/repos/apt jammy-pgdg main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/postgresql-pgdg-ubuntu/run-Thw7l4/var/lib/apt/lists/apt.postgresql.org_pub_repos_apt_dists_jammy-pgdg_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/postgresql-pgdg-ubuntu/packages.raw/20260125T044405Z/apt.postgresql.org_pub_repos_apt_dists_jammy-pgdg_main_binary-amd64_Packages",
+      "suite": "jammy-pgdg",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

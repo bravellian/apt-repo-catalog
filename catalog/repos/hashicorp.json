@@ -1,0 +1,14 @@
+{
+  "id": "hashicorp",
+  "label": "HashiCorp Official Repository",
+  "os": "ubuntu-22.04",
+  "name": "hashicorp",
+  "source": "deb https://apt.releases.hashicorp.com jammy main",
+  "keyId": "hashicorp",
+  "documentationUrl": "https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository",
+  "tags": [
+    "devops",
+    "infrastructure"
+  ],
+  "notes": "HashiCorp Debian/Ubuntu package repository"
+}

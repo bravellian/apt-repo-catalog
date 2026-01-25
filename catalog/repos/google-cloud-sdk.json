@@ -1,0 +1,14 @@
+{
+  "id": "google-cloud-sdk",
+  "label": "Google Cloud SDK",
+  "os": "ubuntu-22.04",
+  "name": "google-cloud-sdk",
+  "source": "deb https://packages.cloud.google.com/apt cloud-sdk main",
+  "keyId": "google-cloud",
+  "documentationUrl": "https://cloud.google.com/sdk/docs/install-sdk",
+  "tags": [
+    "google",
+    "cloud"
+  ],
+  "notes": "Google Cloud SDK (gcloud CLI) apt repository"
+}

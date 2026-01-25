@@ -1,9 +1,9 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
+import { loadReposCatalog } from "./lib/repos-catalog.mjs";
 
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
-const reposPath = path.join(root, "catalog", "repos.json");
 const osPath = path.join(root, "catalog", "os.json");
 const allowedFields = new Set([
   "id",
@@ -56,7 +56,7 @@ async function main() {
   const args = parseArgs(process.argv.slice(2));
   const [keysCatalog, reposCatalog, osCatalog] = await Promise.all([
     loadJson(keysPath),
-    loadJson(reposPath),
+    loadReposCatalog({ root }),
     loadJson(osPath)
   ]);
 
@@ -64,7 +64,7 @@ async function main() {
     throw new Error("catalog/keys.json must include a keys array");
   }
   if (!Array.isArray(reposCatalog.repos)) {
-    throw new Error("catalog/repos.json must include a repos array");
+    throw new Error("catalog/repos must include a repos array");
   }
   if (!Array.isArray(osCatalog.oses)) {
     throw new Error("catalog/os.json must include an oses array");

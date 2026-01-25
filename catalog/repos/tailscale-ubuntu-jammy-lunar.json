@@ -1,0 +1,14 @@
+{
+  "id": "tailscale-ubuntu-jammy-lunar",
+  "label": "Tailscale (Ubuntu 22.04 Jammy) - lunar",
+  "os": "ubuntu-23.04",
+  "name": "tailscale",
+  "source": "deb [signed-by=/usr/share/keyrings/tailscale-archive-keyring.gpg] https://pkgs.tailscale.com/stable/ubuntu lunar main",
+  "keyId": "tailscale-ubuntu-jammy",
+  "documentationUrl": "https://pkgs.tailscale.com/stable/",
+  "tags": [
+    "networking",
+    "security"
+  ],
+  "notes": "Install: apt-get install tailscale"
+}

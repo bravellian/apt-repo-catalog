@@ -1,10 +1,10 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
+import { loadReposCatalog, writeReposCatalog } from "./lib/repos-catalog.mjs";
 
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
-const reposPath = path.join(root, "catalog", "repos.json");
 const osPath = path.join(root, "catalog", "os.json");
 
 function parseArgs(argv) {
@@ -94,9 +94,9 @@ async function main() {
     throw new Error(`Key ${keyId} is not active`);
   }
 
-  const reposCatalog = await loadJson(reposPath);
+  const reposCatalog = await loadReposCatalog({ root });
   if (!Array.isArray(reposCatalog.repos)) {
-    throw new Error("catalog/repos.json must include a repos array");
+    throw new Error("catalog/repos must include a repos array");
   }
 
   const existingIndex = reposCatalog.repos.findIndex((repo) => repo.id === id);
@@ -129,8 +129,7 @@ async function main() {
   } else {
     reposCatalog.repos.splice(existingIndex, 1, entry);
   }
-  const data = JSON.stringify(reposCatalog, null, 2) + "\n";
-  await writeFile(reposPath, data, "utf8");
+  await writeReposCatalog({ root, repos: reposCatalog.repos, preferDir: true, clean: true });
 
   const validateRepos = spawnSync("node", ["scripts/validate-repos.mjs"], {
     stdio: "inherit",

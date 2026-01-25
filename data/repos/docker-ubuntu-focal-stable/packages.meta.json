@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:12:16.570Z",
+  "fetchedAt": "2026-01-25T04:43:06.477Z",
   "repoId": "docker-ubuntu-focal-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-focal-stable/run-FKiwZO/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_focal_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-focal-stable/run-cM9Taq/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_focal_InRelease",
     "inReleaseSha256": "3537db63ee03bb6fbd6cc4a55227d6b88391587cf23318c2d7bed952f6b732b6"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-focal-stable/run-FKiwZO/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu focal stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-focal-stable/run-cM9Taq/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu focal stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-ubuntu-focal-stable/run-FKiwZO/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_focal_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-focal-stable/packages.raw/20260124T211216Z/download.docker.com_linux_ubuntu_dists_focal_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-ubuntu-focal-stable/run-cM9Taq/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_focal_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-focal-stable/packages.raw/20260125T044306Z/download.docker.com_linux_ubuntu_dists_focal_stable_binary-amd64_Packages",
       "suite": "focal",
       "component": "stable",
       "arch": "amd64"

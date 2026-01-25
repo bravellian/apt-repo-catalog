@@ -1,0 +1,13 @@
+{
+  "id": "virtualbox-plucky",
+  "label": "Oracle VirtualBox - plucky",
+  "os": "ubuntu-25.04",
+  "name": "virtualbox",
+  "source": "deb https://download.virtualbox.org/virtualbox/debian plucky contrib",
+  "keyId": "oracle-vbox2016",
+  "documentationUrl": "https://www.virtualbox.org/wiki/Linux_Downloads",
+  "tags": [
+    "virtualization"
+  ],
+  "notes": "Official VirtualBox package repository"
+}

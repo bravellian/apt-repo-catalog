@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-25T04:44:03.881Z",
+  "repoId": "hashicorp",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://apt.releases.hashicorp.com jammy main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Artifactory",
+    "Label": "Artifactory",
+    "Suite": "jammy",
+    "Codename": "jammy",
+    "Architectures": "amd64 arm arm64 armhf i386 ppc64el s390x",
+    "Components": "main test",
+    "inReleasePath": "/tmp/apt-inventory/hashicorp/run-F5KYWQ/var/lib/apt/lists/apt.releases.hashicorp.com_dists_jammy_InRelease",
+    "inReleaseSha256": "f8aef692341453fabe31f2abff471b889397cd323a5482fd3e554503220147b8"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/hashicorp/run-F5KYWQ/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com jammy main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/hashicorp/run-F5KYWQ/var/lib/apt/lists/apt.releases.hashicorp.com_dists_jammy_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/hashicorp/packages.raw/20260125T044403Z/apt.releases.hashicorp.com_dists_jammy_main_binary-amd64_Packages",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

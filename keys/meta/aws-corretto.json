@@ -1,0 +1,40 @@
+{
+  "id": "aws-corretto",
+  "vendor": "amazon",
+  "label": "Amazon Corretto (APT) signing key",
+  "status": "active",
+  "sourceUrl": "https://apt.corretto.aws/corretto.key",
+  "sourceUrls": [
+    "https://apt.corretto.aws/corretto.key"
+  ],
+  "retrievedAt": "2026-01-25T06:06:25.162Z",
+  "fingerprints": [
+    "6DC3636DAE534049C8B94623A122542AB04F24E3"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Amazon Services LLC (Amazon Corretto release) <corretto-team@amazon.com>"
+  ],
+  "primaryUserId": "Amazon Services LLC (Amazon Corretto release) <corretto-team@amazon.com>",
+  "keyIds": [
+    {
+      "fingerprint": "6DC3636DAE534049C8B94623A122542AB04F24E3",
+      "keyIdLong": "A122542AB04F24E3",
+      "keyIdShort": "B04F24E3"
+    }
+  ],
+  "downloaded": {
+    "sha256": "6db32832d82839d368181ae730df7d642b0bff161277f0ab6023359d347cca6b",
+    "sizeBytes": 2449,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "c3d0d9ab4ff63556b81cec233298381db76b5a60b14a7be1f78d36cfe8e18dd8",
+    "sizeBytes": 2450,
+    "outputPath": "keys/aws-corretto.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "6DC3636DAE534049C8B94623A122542AB04F24E3",
+    "fingerprintSuffix16": "A122542AB04F24E3"
+  }
+}

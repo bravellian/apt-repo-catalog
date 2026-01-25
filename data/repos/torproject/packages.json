@@ -1,0 +1,231 @@
+{
+  "generatedAt": "2026-01-25T04:44:15.764Z",
+  "packageCount": 4,
+  "packages": [
+    {
+      "name": "deb.torproject.org-keyring",
+      "repoId": "torproject",
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "2025.08.08",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "2025.08.08",
+      "latestByArch": {
+        "all": "2025.08.08"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GnuPG archive key of the deb.torproject.org repository",
+      "homepage": "",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "misc",
+      "priority": "important"
+    },
+    {
+      "name": "tor",
+      "repoId": "torproject",
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~jammy+1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~jammy+1",
+      "latestByArch": {
+        "amd64": "0.4.8.21-1~jammy+1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "anonymizing overlay network for TCP",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "adduser",
+          "libc6 (>= 2.34)",
+          "libcap2 (>= 1:2.10)",
+          "libevent-2.1-7 (>= 2.1.8-stable)",
+          "liblzma5 (>= 5.1.1alpha+20120614)",
+          "libseccomp2 (>= 0.0.0~20120605)",
+          "libssl3 (>= 3.0.0~~alpha1)",
+          "libsystemd0",
+          "libzstd1 (>= 1.4.0)",
+          "lsb-base",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [
+          "logrotate",
+          "tor-geoipdb",
+          "torsocks"
+        ],
+        "suggests": [
+          "apparmor-utils",
+          "mixmaster",
+          "nyx",
+          "obfs4proxy",
+          "socat",
+          "torbrowser-launcher"
+        ],
+        "conflicts": [
+          "libssl0.9.8 (<< 0.9.8g-9)"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-dbgsym",
+      "repoId": "torproject",
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "0.4.8.14-1+tpo1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "0.4.8.14-1+tpo1",
+      "latestByArch": {
+        "amd64": "0.4.8.14-1+tpo1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "debug symbols for tor",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "tor (= 0.4.8.14-1+tpo1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor-dbg (<< 0.3.1.5-alpha)"
+        ],
+        "replaces": [
+          "tor-dbg (<< 0.3.1.5-alpha)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "debug",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-geoipdb",
+      "repoId": "torproject",
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
+      ],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~jammy+1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
+          ]
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~jammy+1",
+      "latestByArch": {
+        "all": "0.4.8.21-1~jammy+1"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GeoIP database for Tor",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "tor (>= 0.4.8.21-1~jammy+1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "replaces": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    }
+  ]
+}

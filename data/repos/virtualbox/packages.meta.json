@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-25T04:44:04.691Z",
+  "repoId": "virtualbox",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://download.virtualbox.org/virtualbox/debian jammy contrib",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Oracle Corporation",
+    "Label": "Oracle Corporation",
+    "Suite": null,
+    "Codename": "jammy",
+    "Architectures": "amd64",
+    "Components": "non-free contrib",
+    "inReleasePath": "/tmp/apt-inventory/virtualbox/run-awDhMq/var/lib/apt/lists/download.virtualbox.org_virtualbox_debian_dists_jammy_InRelease",
+    "inReleaseSha256": "36dbbec52f680c683134b5089de33fc8d7ba6a956fb30abb476d13f91001c2e0"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/virtualbox/run-awDhMq/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian jammy contrib"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/virtualbox/run-awDhMq/var/lib/apt/lists/download.virtualbox.org_virtualbox_debian_dists_jammy_contrib_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/virtualbox/packages.raw/20260125T044404Z/download.virtualbox.org_virtualbox_debian_dists_jammy_contrib_binary-amd64_Packages",
+      "suite": "jammy",
+      "component": "contrib",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

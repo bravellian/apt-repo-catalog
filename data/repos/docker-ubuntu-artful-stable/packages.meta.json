@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:12:14.255Z",
+  "fetchedAt": "2026-01-25T04:43:04.108Z",
   "repoId": "docker-ubuntu-artful-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-artful-stable/run-NGiTM2/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_artful_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-artful-stable/run-M85XLH/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_artful_InRelease",
     "inReleaseSha256": "3cd0506bc56dbcefbabc533c3e5a47f5013722e5bac40ec53d406158c4db78e2"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-artful-stable/run-NGiTM2/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu artful stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-artful-stable/run-M85XLH/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu artful stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-ubuntu-artful-stable/run-NGiTM2/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_artful_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-artful-stable/packages.raw/20260124T211214Z/download.docker.com_linux_ubuntu_dists_artful_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-ubuntu-artful-stable/run-M85XLH/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_artful_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-artful-stable/packages.raw/20260125T044304Z/download.docker.com_linux_ubuntu_dists_artful_stable_binary-amd64_Packages",
       "suite": "artful",
       "component": "stable",
       "arch": "amd64"

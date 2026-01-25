@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:11:48.526Z",
+  "fetchedAt": "2026-01-25T04:42:37.162Z",
   "repoId": "microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,23 +16,23 @@
     "Codename": "yakkety",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/run-WIiO85/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/run-uggqAT/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_InRelease",
     "inReleaseSha256": "70588c75fc70d7abfcd2535e1f4e426c30fe062e310e05951e693a2791ae9ba4"
   },
   "sources": [
-    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/run-WIiO85/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/16.10/prod yakkety main"
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/run-uggqAT/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/16.10/prod yakkety main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/run-WIiO85/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260124T211148Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/run-uggqAT/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages",
       "suite": "yakkety",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/run-WIiO85/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260124T211148Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/run-uggqAT/var/lib/apt/lists/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages",
       "suite": "yakkety",
       "component": "main",
       "arch": "amd64"

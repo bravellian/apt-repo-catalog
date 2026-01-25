@@ -1,0 +1,42 @@
+{
+  "fetchedAt": "2026-01-25T04:44:03.315Z",
+  "repoId": "yarn-stable",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://dl.yarnpkg.com/debian/ stable main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "yarn",
+    "Label": "yarn-stable",
+    "Suite": "stable",
+    "Codename": "stable",
+    "Architectures": "all amd64 arm64 armhf i386",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/yarn-stable/run-P44AYP/var/lib/apt/lists/dl.yarnpkg.com_debian_dists_stable_InRelease",
+    "inReleaseSha256": "36ed5b5eea704a27c22ed0b0cd2fdcf8223b493299188a0754e9573592598ecb"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/yarn-stable/run-P44AYP/keyrings/yarn.gpg] https://dl.yarnpkg.com/debian/ stable main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/yarn-stable/run-P44AYP/var/lib/apt/lists/dl.yarnpkg.com_debian_dists_stable_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/yarn-stable/packages.raw/20260125T044403Z/dl.yarnpkg.com_debian_dists_stable_main_binary-all_Packages",
+      "suite": "stable",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "/tmp/apt-inventory/yarn-stable/run-P44AYP/var/lib/apt/lists/dl.yarnpkg.com_debian_dists_stable_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/yarn-stable/packages.raw/20260125T044403Z/dl.yarnpkg.com_debian_dists_stable_main_binary-amd64_Packages",
+      "suite": "stable",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

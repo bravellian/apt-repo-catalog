@@ -1,9 +1,9 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
+import { loadReposCatalog, writeReposCatalog } from "./lib/repos-catalog.mjs";
 
 const root = process.cwd();
-const reposPath = path.join(root, "catalog", "repos.json");
 const keysPath = path.join(root, "catalog", "keys.json");
 const osPattern = /^(ubuntu|debian)(?:-([0-9]{2}\.[0-9]{2}|[0-9]{1,2}))?$/;
 
@@ -161,9 +161,9 @@ async function main() {
     throw new Error(`Key ${keyId} is not active`);
   }
 
-  const reposCatalog = JSON.parse(await readFile(reposPath, "utf8"));
+  const reposCatalog = await loadReposCatalog({ root });
   if (!Array.isArray(reposCatalog.repos)) {
-    throw new Error("catalog/repos.json must include a repos array");
+    throw new Error("catalog/repos must include a repos array");
   }
 
   const existingIds = new Set(reposCatalog.repos.map((repo) => repo.id));
@@ -252,8 +252,7 @@ async function main() {
     return;
   }
 
-  const data = JSON.stringify(reposCatalog, null, 2) + "\n";
-  await writeFile(reposPath, data, "utf8");
+  await writeReposCatalog({ root, repos: reposCatalog.repos, preferDir: true, clean: true });
 
   const validateRepos = spawnSync("node", ["scripts/validate-repos.mjs"], {
     stdio: "inherit",

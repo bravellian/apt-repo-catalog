@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:11:51.286Z",
+  "fetchedAt": "2026-01-25T04:42:40.503Z",
   "repoId": "microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,23 +16,23 @@
     "Codename": "cosmic",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/run-Gv2LfO/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/run-nnfnHH/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_InRelease",
     "inReleaseSha256": "da2b0292b641b1de88b35954b4abcdeb227ec3acd2716669e13c5c1f58b520f1"
   },
   "sources": [
-    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/run-Gv2LfO/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/18.10/prod cosmic main"
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/run-nnfnHH/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/18.10/prod cosmic main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/run-Gv2LfO/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/packages.raw/20260124T211151Z/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/run-nnfnHH/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/packages.raw/20260125T044240Z/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_main_binary-all_Packages",
       "suite": "cosmic",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/run-Gv2LfO/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/packages.raw/20260124T211151Z/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/run-nnfnHH/var/lib/apt/lists/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com/packages.raw/20260125T044240Z/packages.microsoft.com_ubuntu_18.10_prod_dists_cosmic_main_binary-amd64_Packages",
       "suite": "cosmic",
       "component": "main",
       "arch": "amd64"

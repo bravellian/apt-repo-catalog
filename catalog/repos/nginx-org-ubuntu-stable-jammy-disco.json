@@ -1,0 +1,14 @@
+{
+  "id": "nginx-org-ubuntu-stable-jammy-disco",
+  "label": "NGINX (nginx.org stable, Ubuntu 22.04) - disco",
+  "os": "ubuntu-19.04",
+  "name": "nginx-org",
+  "source": "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] https://nginx.org/packages/ubuntu disco nginx",
+  "keyId": "nginx-org",
+  "documentationUrl": "https://nginx.org/en/linux_packages.html",
+  "tags": [
+    "web",
+    "server"
+  ],
+  "notes": "Install: apt-get install nginx"
+}

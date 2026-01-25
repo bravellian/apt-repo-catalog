@@ -1,0 +1,14 @@
+{
+  "id": "microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com",
+  "label": "Microsoft - ubuntu-22.10 - default",
+  "os": "ubuntu-22.10",
+  "name": "microsoft",
+  "source": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/22.10/prod kinetic main",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "documentationUrl": "https://packages.microsoft.com/config/ubuntu/22.10",
+  "tags": [
+    "microsoft",
+    "apt",
+    "ubuntu"
+  ]
+}

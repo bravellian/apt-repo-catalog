@@ -1,0 +1,14 @@
+{
+  "id": "mariadb-10-11-mantic",
+  "label": "MariaDB 10.11 (Stable) - mantic",
+  "os": "ubuntu-23.10",
+  "name": "mariadb-10.11",
+  "source": "deb https://deb.mariadb.org/10.11/ubuntu mantic main",
+  "keyId": "mariadb",
+  "documentationUrl": "https://mariadb.org/download/?t=repo-config",
+  "tags": [
+    "database",
+    "mysql"
+  ],
+  "notes": "MariaDB 10.11 repository for Ubuntu"
+}

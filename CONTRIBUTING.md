@@ -21,8 +21,11 @@ Key refreshes should prefer upstream HTTPS sources and be revalidated when the f
 | `npm run validate` | Validate repo and key catalogs. |
 | `node scripts/smoke-test-repos.mjs --os <os>` | Run APT smoke tests against repos for a target OS. |
 | `node scripts/apt-inventory.mjs fetch-packages --repo-id <id>` | Fetch and normalize package indexes for a repository. |
+| `node scripts/apt-inventory.mjs expand-repo-suites --repo-id <id> [--write-catalog]` | Probe additional suites and generate repo entries. |
+| `node scripts/apt-inventory.mjs cleanup-catalog [--write-catalog]` | Consolidate duplicate keys and repos in the catalog. |
 | `npm run dev:sanity -- --key-url <url> --repo-os <os> --repo-name "<name>" --repo-source "<deb line>" [--repo-id <id>]` | Run a local add-key/add-repo/validate/smoke flow. |
 | `npm run daily` | Run the same steps as the daily workflow. |
+| `npm run migrate:packages -- --remove-legacy` | Split oversized `packages.json` into chunked files under `data/repos/<id>/packages/`. |
 
 ## Package inventory
 
@@ -33,6 +36,9 @@ node scripts/apt-inventory.mjs fetch-packages --repo-id docker-debian-trixie-sta
 node scripts/apt-inventory.mjs fetch-packages --repo-id microsoft-default-debian-13-trixie-packages-microsoft-com --mode direct
 node scripts/apt-inventory.mjs fetch-packages-all --os debian-12
 node scripts/apt-inventory.mjs fetch-packages-all --only-ids docker-debian-trixie-stable,kubernetes-core-stable-v1.35-debian-13
+node scripts/apt-inventory.mjs expand-repo-suites --repo-id docker-debian-trixie-stable --write-catalog
+node scripts/apt-inventory.mjs expand-repo-suites --all --suite-candidates "bookworm,bullseye" --write-catalog
+node scripts/apt-inventory.mjs cleanup-catalog --write-catalog
 ```
 
 The inventory tries APT-assisted mode first (isolated temp dirs), then falls back to direct HTTP fetches if needed. Direct mode reads `dists/<suite>/Release` and downloads `Packages(.gz/.xz)` entries; it does not install packages and does not require root.
@@ -43,11 +49,11 @@ Limitations:
 
 ## PR optimization
 
-Pull request smoke tests only run for repos whose entries changed in `catalog/repos.json`. The workflow computes changed repo IDs by diffing the base and head JSON snapshots, then runs the relevant OS matrix entries.
+Pull request smoke tests only run for repos whose entries changed under `catalog/repos/`. The workflow computes changed repo IDs by diffing the base and head snapshots, then runs the relevant OS matrix entries.
 
 ## How PR validation works
 
-GitHub Actions runs a lightweight validation job on every pull request and on pushes to `main`. The workflow parses `catalog/keys.json` and `catalog/repos.json`, checks required fields, and ensures all repositories reference a known key.
+GitHub Actions runs a lightweight validation job on every pull request and on pushes to `main`. The workflow parses `catalog/keys.json` and `catalog/repos/`, checks required fields, and ensures all repositories reference a known key.
 
 ## Suggesting key IDs
 
@@ -69,7 +75,7 @@ Use the CLI to add a repo entry tied to an existing key:
 npm run add:repo -- --id microsoft-ubuntu --label "Microsoft Ubuntu" --os ubuntu-24.04 --name "Microsoft Packages" --source "deb [arch=amd64] https://packages.microsoft.com/ubuntu/24.04/prod jammy main" --keyId microsoft-prod-<LAST16> --documentationUrl https://learn.microsoft.com/en-us/windows-server/administration/linux-package-repository-for-microsoft-software --tags "microsoft,apt"
 ```
 
-The command appends to `catalog/repos.json` and runs repo validation.
+The command writes to `catalog/repos/` and runs repo validation.
 
 ## Dev sanity check
 

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:12:22.536Z",
+  "fetchedAt": "2026-01-25T04:43:12.174Z",
   "repoId": "docker-ubuntu-trusty-stable",
   "mode": "auto",
   "source": {
@@ -16,16 +16,16 @@
     "Codename": null,
     "Architectures": "amd64 arm64 armhf s390x ppc64el",
     "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-trusty-stable/run-OOBrTS/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_trusty_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/docker-ubuntu-trusty-stable/run-V9VKxD/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_trusty_InRelease",
     "inReleaseSha256": "81dc060f81bd7485f890bdd85f6f2a9681a051e583108d43137927242597262e"
   },
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-trusty-stable/run-OOBrTS/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu trusty stable"
+    "deb [signed-by=/tmp/apt-inventory/docker-ubuntu-trusty-stable/run-V9VKxD/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/ubuntu trusty stable"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-ubuntu-trusty-stable/run-OOBrTS/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_trusty_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-trusty-stable/packages.raw/20260124T211222Z/download.docker.com_linux_ubuntu_dists_trusty_stable_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/docker-ubuntu-trusty-stable/run-V9VKxD/var/lib/apt/lists/download.docker.com_linux_ubuntu_dists_trusty_stable_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-ubuntu-trusty-stable/packages.raw/20260125T044312Z/download.docker.com_linux_ubuntu_dists_trusty_stable_binary-amd64_Packages",
       "suite": "trusty",
       "component": "stable",
       "arch": "amd64"

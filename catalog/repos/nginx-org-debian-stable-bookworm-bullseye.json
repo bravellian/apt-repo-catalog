@@ -1,0 +1,14 @@
+{
+  "id": "nginx-org-debian-stable-bookworm-bullseye",
+  "label": "NGINX (nginx.org stable, Debian 12) - bullseye",
+  "os": "debian-11",
+  "name": "nginx-org",
+  "source": "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] https://nginx.org/packages/debian bullseye nginx",
+  "keyId": "nginx-org",
+  "documentationUrl": "https://nginx.org/en/linux_packages.html",
+  "tags": [
+    "web",
+    "server"
+  ],
+  "notes": "Install: apt-get install nginx"
+}

@@ -1,5 +1,6 @@
 import path from "node:path";
 import { readJson, writeJson, normalizeSlug, uniqueSorted } from "./utils.mjs";
+import { loadReposCatalog, writeReposCatalog } from "../lib/repos-catalog.mjs";
 
 const ubuntuCodenameToVersion = {
   jammy: "22.04",
@@ -153,7 +154,7 @@ export function toCatalogEntries(repos, keysCatalog) {
   return { entries, skipped };
 }
 
-export async function syncCatalog({ curatedPath, outputPath, keysPath, mainCatalogPath, writeCatalog }) {
+export async function syncCatalog({ curatedPath, outputPath, keysPath, writeCatalog, root }) {
   const curated = await readJson(curatedPath);
   const keysCatalog = await readJson(keysPath);
   const { entries, skipped } = toCatalogEntries(curated, keysCatalog);
@@ -161,7 +162,7 @@ export async function syncCatalog({ curatedPath, outputPath, keysPath, mainCatal
   await writeJson(outputPath, { repos: entries });
 
   if (writeCatalog) {
-    const mainCatalog = await readJson(mainCatalogPath);
+    const mainCatalog = await loadReposCatalog({ root });
     const existingIds = new Set((mainCatalog.repos ?? []).map((repo) => repo.id));
     const merged = [...(mainCatalog.repos ?? [])];
     for (const entry of entries) {
@@ -171,7 +172,7 @@ export async function syncCatalog({ curatedPath, outputPath, keysPath, mainCatal
       }
     }
     merged.sort((a, b) => a.id.localeCompare(b.id));
-    await writeJson(mainCatalogPath, { repos: merged });
+    await writeReposCatalog({ root, repos: merged, preferDir: true, clean: true });
   }
 
   return { entries, skipped };

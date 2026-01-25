@@ -1,0 +1,14 @@
+{
+  "id": "popos-proprietary-22-04-noble",
+  "label": "Pop!_OS proprietary - 22.04 - noble",
+  "os": "ubuntu-24.04",
+  "name": "popos",
+  "source": "deb http://apt.pop-os.org/proprietary noble main",
+  "keyId": "popos-lookup-204dd8aec33a7aff",
+  "documentationUrl": "https://support.system76.com/articles/apt-repository/",
+  "tags": [
+    "popos",
+    "ubuntu-derivative",
+    "apt"
+  ]
+}

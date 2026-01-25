@@ -1,0 +1,14 @@
+{
+  "id": "tailscale-debian-bookworm-buster",
+  "label": "Tailscale (Debian 12 Bookworm) - buster",
+  "os": "debian-10",
+  "name": "tailscale",
+  "source": "deb [signed-by=/usr/share/keyrings/tailscale-archive-keyring.gpg] https://pkgs.tailscale.com/stable/debian buster main",
+  "keyId": "tailscale-ubuntu-jammy",
+  "documentationUrl": "https://pkgs.tailscale.com/stable/",
+  "tags": [
+    "networking",
+    "security"
+  ],
+  "notes": "Install: apt-get install tailscale"
+}

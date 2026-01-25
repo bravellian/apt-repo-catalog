@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:11:59.690Z",
+  "fetchedAt": "2026-01-25T04:42:50.320Z",
   "repoId": "microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,37 +16,37 @@
     "Codename": "kinetic",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/run-CPFugI/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/run-TcZq2i/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_InRelease",
     "inReleaseSha256": "ee9c46894e3cb3427aab199902572a9bf73cb07c78c1a858f1801c9405970d69"
   },
   "sources": [
-    "deb [arch=amd64,armhf,arm64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/run-CPFugI/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/22.10/prod kinetic main"
+    "deb [arch=amd64,armhf,arm64 signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/run-TcZq2i/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/22.10/prod kinetic main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/run-CPFugI/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/packages.raw/20260124T211159Z/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/run-TcZq2i/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/packages.raw/20260125T044250Z/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-all_Packages",
       "suite": "kinetic",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/run-CPFugI/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/packages.raw/20260124T211159Z/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/run-TcZq2i/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/packages.raw/20260125T044250Z/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-amd64_Packages",
       "suite": "kinetic",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/run-CPFugI/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/packages.raw/20260124T211159Z/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-arm64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/run-TcZq2i/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-arm64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/packages.raw/20260125T044250Z/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-arm64_Packages",
       "suite": "kinetic",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/run-CPFugI/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-armhf_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/packages.raw/20260124T211159Z/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-armhf_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/run-TcZq2i/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-armhf_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com/packages.raw/20260125T044250Z/packages.microsoft.com_ubuntu_22.10_prod_dists_kinetic_main_binary-armhf_Packages",
       "suite": "kinetic",
       "component": "main",
       "arch": "armhf"

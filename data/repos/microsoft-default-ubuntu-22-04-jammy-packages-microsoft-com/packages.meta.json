@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-24T21:11:58.738Z",
+  "fetchedAt": "2026-01-25T04:42:49.175Z",
   "repoId": "microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com",
   "mode": "auto",
   "source": {
@@ -16,37 +16,37 @@
     "Codename": "jammy",
     "Architectures": "amd64 arm64 armhf all",
     "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/run-XEchKR/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_InRelease",
+    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/run-0EepZe/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_InRelease",
     "inReleaseSha256": "02da70d189ed7250b55da502a0cf87811fc5dd3d266b58d27729e469cde7d253"
   },
   "sources": [
-    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/run-XEchKR/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/22.04/prod jammy main"
+    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/run-0EepZe/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/22.04/prod jammy main"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/run-XEchKR/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/packages.raw/20260124T211158Z/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-all_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/run-0EepZe/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-all_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/packages.raw/20260125T044249Z/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-all_Packages",
       "suite": "jammy",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/run-XEchKR/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/packages.raw/20260124T211158Z/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-amd64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/run-0EepZe/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/packages.raw/20260125T044249Z/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-amd64_Packages",
       "suite": "jammy",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/run-XEchKR/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/packages.raw/20260124T211158Z/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-arm64_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/run-0EepZe/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-arm64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/packages.raw/20260125T044249Z/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-arm64_Packages",
       "suite": "jammy",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/run-XEchKR/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-armhf_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/packages.raw/20260124T211158Z/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-armhf_Packages",
+      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/run-0EepZe/var/lib/apt/lists/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-armhf_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com/packages.raw/20260125T044249Z/packages.microsoft.com_ubuntu_22.04_prod_dists_jammy_main_binary-armhf_Packages",
       "suite": "jammy",
       "component": "main",
       "arch": "armhf"

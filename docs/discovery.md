@@ -89,7 +89,7 @@ Selectivity guardrails:
 1) **Discovery:** run `discover-repos` when you want fresh candidates. If you hit rate limits, lower `github.maxPages`, enable `github.slowMode`, or rely more on `--local-dir`.
 2) **Verify:** run `verify-repos` to validate APT metadata. Expect this to be slow; it fetches Release and Packages indexes. Tune `verification.concurrency` and `verification.timeoutMs`. Use `--max-age-days` (default 7) or `--only-new` to avoid re-verifying unchanged entries. Verification writes `verified.json` incrementally and reuses cached downloads in `data/discovery/tmp/` to avoid re-fetching where possible.
 3) **Curate:** run `curate-repos` to separate curated vs quarantine. Review `curated.json`, `quarantine.json`, and `curation-report.json`. Adjust allowlist/thresholds and re-run curate as needed.
-4) **Sync:** run `sync-catalog` to generate `catalog/discovered-repos.json`. Use `--write-catalog` only when you’re ready to merge into `catalog/repos.json`.
+4) **Sync:** run `sync-catalog` to generate `catalog/discovered-repos.json`. Use `--write-catalog` only when you’re ready to merge into `catalog/repos/`.
 
 ## Rate limit and noise control tips
 

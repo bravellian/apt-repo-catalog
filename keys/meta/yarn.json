@@ -1,0 +1,40 @@
+{
+  "id": "yarn",
+  "vendor": "yarnpkg",
+  "label": "Yarn Package Signing Key",
+  "status": "active",
+  "sourceUrl": "https://dl.yarnpkg.com/debian/pubkey.gpg",
+  "sourceUrls": [
+    "https://dl.yarnpkg.com/debian/pubkey.gpg"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "72ECF46A56B4AD39C907BBB71646B01B86E50310"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Yarn Packaging <yarn@dan.cx>"
+  ],
+  "primaryUserId": "Yarn Packaging <yarn@dan.cx>",
+  "keyIds": [
+    {
+      "fingerprint": "72ECF46A56B4AD39C907BBB71646B01B86E50310",
+      "keyIdLong": "1646B01B86E50310",
+      "keyIdShort": "86E50310"
+    }
+  ],
+  "downloaded": {
+    "sha256": "63edc60568db873b70db03a3c4dd062a16c6b3d6e3015eb748edc234e6a4facd",
+    "sizeBytes": 23138,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "9f082f58fc89c6b893528388fce6bb4cfe8e64a939eabec4cd69be13e761cc1a",
+    "sizeBytes": 23162,
+    "outputPath": "keys/yarn.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "72ECF46A56B4AD39C907BBB71646B01B86E50310",
+    "fingerprintSuffix16": "1646B01B86E50310"
+  }
+}

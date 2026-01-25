@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-25T04:43:58.879Z",
+  "repoId": "proxmox-ceph-squid-no-subscription",
+  "mode": "auto",
+  "source": {
+    "line": "deb http://download.proxmox.com/debian/ceph-squid trixie no-subscription",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Proxmox",
+    "Label": "Proxmox Ceph 19 Squid Debian Repository",
+    "Suite": "stable",
+    "Codename": "trixie",
+    "Architectures": "amd64",
+    "Components": "no-subscription test",
+    "inReleasePath": "/tmp/apt-inventory/proxmox-ceph-squid-no-subscription/run-Y5TQu3/var/lib/apt/lists/download.proxmox.com_debian_ceph-squid_dists_trixie_InRelease",
+    "inReleaseSha256": "15b5beec9b22eb04902f69685c32aae0fa435286e38f8b39ba96b803de7ca503"
+  },
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/proxmox-ceph-squid-no-subscription/run-Y5TQu3/keyrings/proxmox-archive-keyring-trixie.gpg] http://download.proxmox.com/debian/ceph-squid trixie no-subscription"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/proxmox-ceph-squid-no-subscription/run-Y5TQu3/var/lib/apt/lists/download.proxmox.com_debian_ceph-squid_dists_trixie_no-subscription_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/proxmox-ceph-squid-no-subscription/packages.raw/20260125T044358Z/download.proxmox.com_debian_ceph-squid_dists_trixie_no-subscription_binary-amd64_Packages",
+      "suite": "trixie",
+      "component": "no-subscription",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

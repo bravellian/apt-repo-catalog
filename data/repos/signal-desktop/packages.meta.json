@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-25T04:44:14.376Z",
+  "repoId": "signal-desktop",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": ". xenial",
+    "Label": ". xenial",
+    "Suite": "xenial",
+    "Codename": "xenial",
+    "Architectures": "amd64",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/signal-desktop/run-qy9Xxf/var/lib/apt/lists/updates.signal.org_desktop_apt_dists_xenial_InRelease",
+    "inReleaseSha256": "269218b8ae927946588c9ac992c490377a8c4cecfbeb5f2ed2be4e38b1f78793"
+  },
+  "sources": [
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/signal-desktop/run-qy9Xxf/keyrings/signal-desktop.gpg] https://updates.signal.org/desktop/apt xenial main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/signal-desktop/run-qy9Xxf/var/lib/apt/lists/updates.signal.org_desktop_apt_dists_xenial_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/signal-desktop/packages.raw/20260125T044414Z/updates.signal.org_desktop_apt_dists_xenial_main_binary-amd64_Packages",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

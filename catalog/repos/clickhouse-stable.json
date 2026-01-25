@@ -1,0 +1,14 @@
+{
+  "id": "clickhouse-stable",
+  "label": "ClickHouse (stable)",
+  "os": "generic",
+  "name": "clickhouse",
+  "source": "deb [signed-by=/usr/share/keyrings/clickhouse-keyring.gpg arch=amd64] https://packages.clickhouse.com/deb stable main",
+  "keyId": "clickhouse",
+  "documentationUrl": "https://clickhouse.com/docs/install/debian_ubuntu",
+  "tags": [
+    "database",
+    "analytics"
+  ],
+  "notes": "Install: apt-get install clickhouse-server clickhouse-client"
+}

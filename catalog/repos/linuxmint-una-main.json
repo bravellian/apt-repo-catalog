@@ -1,0 +1,15 @@
+{
+  "id": "linuxmint-una-main",
+  "label": "Linux Mint Una - main",
+  "os": "linuxmint-una",
+  "name": "linuxmint",
+  "source": "deb http://packages.linuxmint.com una main upstream import backport",
+  "keyId": "linuxmint-archive-keyring",
+  "documentationUrl": "https://linuxmint.com/documentation.php",
+  "tags": [
+    "linuxmint",
+    "ubuntu-derivative",
+    "apt"
+  ],
+  "notes": "Linux Mint main repository; base Ubuntu repos are inherited."
+}

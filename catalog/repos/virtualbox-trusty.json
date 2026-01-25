@@ -1,0 +1,13 @@
+{
+  "id": "virtualbox-trusty",
+  "label": "Oracle VirtualBox - trusty",
+  "os": "ubuntu-14.04",
+  "name": "virtualbox",
+  "source": "deb https://download.virtualbox.org/virtualbox/debian trusty contrib",
+  "keyId": "oracle-vbox2016",
+  "documentationUrl": "https://www.virtualbox.org/wiki/Linux_Downloads",
+  "tags": [
+    "virtualization"
+  ],
+  "notes": "Official VirtualBox package repository"
+}

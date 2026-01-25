@@ -486,15 +486,14 @@ async function runSync({ root, args }) {
   const curatedPath = args.input ?? path.join(outDir, "curated.json");
   const outputPath = args.output ?? path.join(root, "catalog", "discovered-repos.json");
   const keysPath = path.join(root, "catalog", "keys.json");
-  const mainCatalogPath = path.join(root, "catalog", "repos.json");
   const writeCatalog = Boolean(args["write-catalog"]);
 
   const { entries, skipped } = await syncCatalog({
     curatedPath,
     outputPath,
     keysPath,
-    mainCatalogPath,
-    writeCatalog
+    writeCatalog,
+    root
   });
 
   if (skipped.length > 0) {

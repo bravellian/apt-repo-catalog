@@ -1,0 +1,40 @@
+{
+  "id": "mongodb-6-0",
+  "vendor": "mongodb-inc",
+  "label": "MongoDB 6.0 Server Key",
+  "status": "active",
+  "sourceUrl": "https://www.mongodb.org/static/pgp/server-6.0.asc",
+  "sourceUrls": [
+    "https://www.mongodb.org/static/pgp/server-6.0.asc"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "39BD841E4BE5FB195A65400E6A26B1AE64C3C388"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "MongoDB 6.0 Release Signing Key <packaging@mongodb.com>"
+  ],
+  "primaryUserId": "MongoDB 6.0 Release Signing Key <packaging@mongodb.com>",
+  "keyIds": [
+    {
+      "fingerprint": "39BD841E4BE5FB195A65400E6A26B1AE64C3C388",
+      "keyIdLong": "6A26B1AE64C3C388",
+      "keyIdShort": "64C3C388"
+    }
+  ],
+  "downloaded": {
+    "sha256": "cd6a9764d43fa971d32b27fb6b6ec5234aed6432effc1b6d15c96ab7f941667d",
+    "sizeBytes": 1691,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "6e3728c5a2b5de5a384590120c0eeab132dfec39857599fd041b8b8633371d46",
+    "sizeBytes": 1657,
+    "outputPath": "keys/mongodb-6-0.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "39BD841E4BE5FB195A65400E6A26B1AE64C3C388",
+    "fingerprintSuffix16": "6A26B1AE64C3C388"
+  }
+}

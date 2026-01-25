@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-01-25T04:44:12.854Z",
+  "repoId": "google-chrome",
+  "mode": "auto",
+  "source": {
+    "line": "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": {
+    "Origin": "Google LLC",
+    "Label": "Google",
+    "Suite": "stable",
+    "Codename": "stable",
+    "Architectures": "amd64",
+    "Components": "main",
+    "inReleasePath": "/tmp/apt-inventory/google-chrome/run-pVVFXJ/var/lib/apt/lists/dl.google.com_linux_chrome_deb_dists_stable_InRelease",
+    "inReleaseSha256": "7918966539bf4ad1250f93b3e597ba87dd7f9b7ff5188c52bca7b41cfd38dd54"
+  },
+  "sources": [
+    "deb [arch=amd64 signed-by=/tmp/apt-inventory/google-chrome/run-pVVFXJ/keyrings/google-linux.gpg] http://dl.google.com/linux/chrome/deb/ stable main"
+  ],
+  "packageFiles": [
+    {
+      "source": "/tmp/apt-inventory/google-chrome/run-pVVFXJ/var/lib/apt/lists/dl.google.com_linux_chrome_deb_dists_stable_main_binary-amd64_Packages",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-chrome/packages.raw/20260125T044412Z/dl.google.com_linux_chrome_deb_dists_stable_main_binary-amd64_Packages",
+      "suite": "stable",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": []
+}

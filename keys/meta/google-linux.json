@@ -1,0 +1,40 @@
+{
+  "id": "google-linux",
+  "vendor": "google",
+  "label": "Google Linux Package Signing Key",
+  "status": "active",
+  "sourceUrl": "https://dl.google.com/linux/linux_signing_key.pub",
+  "sourceUrls": [
+    "https://dl.google.com/linux/linux_signing_key.pub"
+  ],
+  "retrievedAt": "2026-01-25T04:42:01.183Z",
+  "fingerprints": [
+    "EB4C1BFD4F042F6DDDCCEC917721F63BD38B4796"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Google Inc. (Linux Packages Signing Authority) <linux-packages-keymaster@google.com>"
+  ],
+  "primaryUserId": "Google Inc. (Linux Packages Signing Authority) <linux-packages-keymaster@google.com>",
+  "keyIds": [
+    {
+      "fingerprint": "EB4C1BFD4F042F6DDDCCEC917721F63BD38B4796",
+      "keyIdLong": "7721F63BD38B4796",
+      "keyIdShort": "D38B4796"
+    }
+  ],
+  "downloaded": {
+    "sha256": "0acccf28849439e3b2f7c60f899da45186a3a9b2fd02cc88cd44b25200016c56",
+    "sizeBytes": 17382,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "420a55c35f5bc16cf70b95f8f0468744a90ea0884db21d19e2a06a725bca38d4",
+    "sizeBytes": 17399,
+    "outputPath": "keys/google-linux.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "EB4C1BFD4F042F6DDDCCEC917721F63BD38B4796",
+    "fingerprintSuffix16": "7721F63BD38B4796"
+  }
+}

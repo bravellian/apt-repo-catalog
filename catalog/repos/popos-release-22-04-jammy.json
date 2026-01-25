@@ -1,0 +1,14 @@
+{
+  "id": "popos-release-22-04-jammy",
+  "label": "Pop!_OS release - 22.04 - jammy",
+  "os": "ubuntu-22.04",
+  "name": "popos",
+  "source": "deb http://apt.pop-os.org/release jammy main",
+  "keyId": "popos-lookup-204dd8aec33a7aff",
+  "documentationUrl": "https://support.system76.com/articles/apt-repository/",
+  "tags": [
+    "popos",
+    "ubuntu-derivative",
+    "apt"
+  ]
+}

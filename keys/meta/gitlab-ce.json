@@ -1,0 +1,40 @@
+{
+  "id": "gitlab-ce",
+  "vendor": "gitlab",
+  "label": "GitLab CE (APT) signing key",
+  "status": "active",
+  "sourceUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/gpgkey",
+  "sourceUrls": [
+    "https://packages.gitlab.com/gitlab/gitlab-ce/gpgkey"
+  ],
+  "retrievedAt": "2026-01-25T06:06:25.162Z",
+  "fingerprints": [
+    "F6403F6544A38863DAA0B6E03F01618A51312F3F"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "GitLab B.V. (package repository signing key) <packages@gitlab.com>"
+  ],
+  "primaryUserId": "GitLab B.V. (package repository signing key) <packages@gitlab.com>",
+  "keyIds": [
+    {
+      "fingerprint": "F6403F6544A38863DAA0B6E03F01618A51312F3F",
+      "keyIdLong": "3F01618A51312F3F",
+      "keyIdShort": "51312F3F"
+    }
+  ],
+  "downloaded": {
+    "sha256": "08ae8a92f4e3399c27ec7830439c2ddb4b1a3dda3943d4a22d82777df1dd019a",
+    "sizeBytes": 3190,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "cac3d2cc675f495ae5fc47c9f7cd7f59342802a3a3a00397622967edad2c0263",
+    "sizeBytes": 3195,
+    "outputPath": "keys/gitlab-ce.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "F6403F6544A38863DAA0B6E03F01618A51312F3F",
+    "fingerprintSuffix16": "3F01618A51312F3F"
+  }
+}

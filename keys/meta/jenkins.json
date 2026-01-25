@@ -1,0 +1,40 @@
+{
+  "id": "jenkins",
+  "vendor": "jenkins",
+  "label": "Jenkins (APT) signing key",
+  "status": "active",
+  "sourceUrl": "https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key",
+  "sourceUrls": [
+    "https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key"
+  ],
+  "retrievedAt": "2026-01-25T06:06:25.162Z",
+  "fingerprints": [
+    "5E386EADB55F01504CAE8BCF7198F4B714ABFC68"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Jenkins Project <jenkinsci-board@googlegroups.com>"
+  ],
+  "primaryUserId": "Jenkins Project <jenkinsci-board@googlegroups.com>",
+  "keyIds": [
+    {
+      "fingerprint": "5E386EADB55F01504CAE8BCF7198F4B714ABFC68",
+      "keyIdLong": "7198F4B714ABFC68",
+      "keyIdShort": "14ABFC68"
+    }
+  ],
+  "downloaded": {
+    "sha256": "d3b7e4096fed593eebdba3a2554c8cb9aafebe736910584e69e924b143e7b3d4",
+    "sizeBytes": 1680,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "14ffc9b3d49d20d7cff2f6e7fe588311e810d792dde1a6b98fb593199f41e71b",
+    "sizeBytes": 1682,
+    "outputPath": "keys/jenkins.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "5E386EADB55F01504CAE8BCF7198F4B714ABFC68",
+    "fingerprintSuffix16": "7198F4B714ABFC68"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "fetchedAt": "2026-01-25T04:43:44.581Z",
+  "repoId": "proxmox-ve-8-enterprise",
+  "mode": "auto",
+  "source": {
+    "line": "deb https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise",
+    "suite": null,
+    "components": null,
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "release": null,
+  "sources": [
+    "deb [signed-by=/tmp/apt-inventory/proxmox-ve-8-enterprise/run-wZr6yq/keyrings/proxmox-release-bookworm.gpg] https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise",
+    "https://enterprise.proxmox.com/debian/pve/dists/bookworm/Release",
+    "https://enterprise.proxmox.com/debian/pve/dists/bookworm/InRelease"
+  ],
+  "packageFiles": [],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Err:1 https://enterprise.proxmox.com/debian/pve bookworm InRelease\n  401  Unauthorized [IP: 66.70.154.82 443]\nReading package lists...\n\nE: Failed to fetch https://enterprise.proxmox.com/debian/pve/dists/bookworm/InRelease  401  Unauthorized [IP: 66.70.154.82 443]\nE: The repository 'https://enterprise.proxmox.com/debian/pve bookworm InRelease' is not signed."
+    },
+    {
+      "stage": "release",
+      "message": "Failed to fetch Release/InRelease",
+      "detail": "Fetch failed with status 401 for https://enterprise.proxmox.com/debian/pve/dists/bookworm/InRelease"
+    }
+  ]
+}

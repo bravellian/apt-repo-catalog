@@ -16,6 +16,8 @@
     "daily": "node scripts/run-daily.mjs",
     "import:repos": "node scripts/import-repos-from-list.mjs",
     "generate:repos": "node scripts/generate-repos.mjs",
+    "migrate:repos": "node scripts/migrate-repos-json.mjs",
+    "migrate:packages": "node scripts/migrate-packages-json.mjs",
     "validate": "node scripts/validate-all.mjs",
     "update:keys": "node scripts/update-keys.mjs"
   }
