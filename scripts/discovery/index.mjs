@@ -52,6 +52,7 @@ async function runDiscover({ root, args }) {
   const outDir = args.outDir ?? path.join(root, "data", "discovery");
   const cacheDir = path.join(outDir, "cache", "github");
   await mkdir(cacheDir, { recursive: true });
+  const append = Boolean(args.append);
 
   const token = process.env.GITHUB_TOKEN ?? null;
   if (!token) {
@@ -73,7 +74,17 @@ async function runDiscover({ root, args }) {
     }
   }
   const processedFiles = new Set(checkpoint.processedFiles ?? []);
-  const candidates = [...(checkpoint.candidates ?? [])];
+  let candidates = [...(checkpoint.candidates ?? [])];
+  if (append) {
+    try {
+      const existing = await readJson(path.join(outDir, "candidates.json"));
+      if (Array.isArray(existing)) {
+        candidates = [...existing, ...candidates];
+      }
+    } catch {
+      // ignore
+    }
+  }
 
   for (const query of queries) {
     const result = await searchGithub({
@@ -193,6 +204,26 @@ async function runVerify({ root, args }) {
   const repos = args.integration
     ? await readJson(path.join(root, "tests", "fixtures", "discovery-verify.json"))
     : await readJson(inputPath);
+  const deniedHosts = (config.discovery.denyDomains ?? []).map((domain) =>
+    domain.toLowerCase()
+  );
+  const filteredRepos = repos.filter((repo) => {
+    try {
+      const url = new URL(repo.baseUrl ?? "");
+      if (url.protocol !== "http:" && url.protocol !== "https:") {
+        return false;
+      }
+      const host = url.hostname.toLowerCase();
+      return !deniedHosts.some((domain) => host === domain || host.endsWith(`.${domain}`));
+    } catch {
+      return true;
+    }
+  });
+  if (filteredRepos.length !== repos.length) {
+    console.log(
+      `[verify] skipped ${repos.length - filteredRepos.length} repos due to denyDomains`
+    );
+  }
 
   let previous = [];
   if (!noCache) {
@@ -243,7 +274,7 @@ async function runVerify({ root, args }) {
   const verifiedMap = new Map(
     previous.map((repo) => [repo.repoId ?? repo.baseUrl, repo])
   );
-  for (const repo of repos) {
+  for (const repo of filteredRepos) {
     const reused = shouldReuse(repo);
     if (reused) {
       reuse.push(reused);
@@ -319,11 +350,71 @@ async function runCurate({ root, args }) {
   const config = await loadConfig({ configPath: args.config, root });
   const outDir = args.outDir ?? path.join(root, "data", "discovery");
   const inputPath = args.input ?? path.join(outDir, "verified.json");
+  const dedupedPath = path.join(outDir, "deduped.json");
+  const maxEvidence =
+    Number.parseInt(args["max-evidence"] ?? config.discovery.maxEvidencePerRepo ?? "25", 10);
+  const compactVerification = args["compact-verification"] !== undefined
+    ? Boolean(args["compact-verification"])
+    : Boolean(config.discovery.compactVerification);
 
   const verified = await readJson(inputPath);
   const { curated, quarantine } = curateRepos(verified, config);
-  const curatedWithSnippets = summarizeArchitectures(addInstallSnippets(curated));
-  const quarantineWithSnippets = summarizeArchitectures(addInstallSnippets(quarantine));
+  const trimEvidence = (repo) => {
+    const evidence = Array.isArray(repo.evidence) ? repo.evidence : [];
+    return {
+      ...repo,
+      evidence: evidence.slice(0, Math.max(0, maxEvidence)).map((item) => ({
+        kind: item.kind ?? "",
+        repo: item.repo ?? "",
+        path: item.path ?? "",
+        url: item.url ?? "",
+        line: item.line ?? null
+      }))
+    };
+  };
+  const compactVerify = (repo) => {
+    if (!compactVerification || !repo.verification) {
+      return repo;
+    }
+    const suites = (repo.verification.suites ?? []).map((suite) => ({
+      suite: suite.suite,
+      components: suite.components ?? [],
+      architectures: suite.architectures ?? [],
+      release: suite.release
+        ? {
+            Origin: suite.release.Origin ?? null,
+            Label: suite.release.Label ?? null,
+            Suite: suite.release.Suite ?? null,
+            Codename: suite.release.Codename ?? null,
+            Date: suite.release.Date ?? null
+          }
+        : null,
+      inRelease: suite.inRelease ? true : false,
+      packages: (suite.packages ?? []).map((pkg) => ({
+        component: pkg.component ?? "",
+        arch: pkg.arch ?? "",
+        packageCount: pkg.packageCount ?? 0,
+        architectures: pkg.architectures ?? [],
+        errorCount: (pkg.errors ?? []).length
+      })),
+      errorCount: (suite.errors ?? []).length
+    }));
+    return {
+      ...repo,
+      verification: {
+        attemptedAt: repo.verification.attemptedAt,
+        skipped: repo.verification.skipped ?? false,
+        skippedReason: repo.verification.skippedReason ?? null,
+        suites
+      }
+    };
+  };
+  const curatedWithSnippets = summarizeArchitectures(
+    addInstallSnippets(curated).map(trimEvidence).map(compactVerify)
+  );
+  const quarantineWithSnippets = summarizeArchitectures(
+    addInstallSnippets(quarantine).map(trimEvidence).map(compactVerify)
+  );
 
   await writeJson(path.join(outDir, "curated.json"), curatedWithSnippets);
   await writeJson(path.join(outDir, "quarantine.json"), quarantineWithSnippets);
@@ -355,6 +446,39 @@ async function runCurate({ root, args }) {
   };
 
   await writeJson(path.join(outDir, "curation-report.json"), report);
+
+  try {
+    const deduped = await readJson(dedupedPath);
+    const domainMap = new Map();
+    for (const repo of deduped) {
+      const baseUrl = repo.baseUrl ?? "";
+      let host = "";
+      try {
+        host = new URL(baseUrl).hostname.toLowerCase();
+      } catch {
+        host = "";
+      }
+      if (!host) {
+        continue;
+      }
+      if (!domainMap.has(host)) {
+        domainMap.set(host, { domain: host, repos: 0, occurrences: 0 });
+      }
+      const entry = domainMap.get(host);
+      entry.repos += 1;
+      entry.occurrences += Number.parseInt(repo.occurrences ?? 0, 10) || 0;
+    }
+    const domains = Array.from(domainMap.values()).sort(
+      (a, b) => b.occurrences - a.occurrences || b.repos - a.repos || a.domain.localeCompare(b.domain)
+    );
+    await writeJson(path.join(outDir, "domains-report.json"), {
+      generatedAt: new Date().toISOString(),
+      totals: { domains: domains.length },
+      topDomains: domains.slice(0, 50)
+    });
+  } catch {
+    // ignore missing deduped.json
+  }
 }
 
 async function runSync({ root, args }) {

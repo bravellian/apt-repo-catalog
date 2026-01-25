@@ -53,6 +53,9 @@ export function normalizeBaseUrl(raw) {
   try {
     const url = new URL(raw);
     const host = url.host.toLowerCase();
+    if (url.protocol !== "http:" && url.protocol !== "https:") {
+      return null;
+    }
     let pathname = url.pathname;
     const distsIndex = pathname.toLowerCase().indexOf("/dists/");
     if (distsIndex !== -1) {
@@ -140,7 +143,11 @@ export function normalizeCandidates(candidates, { config }) {
       }
     })();
     if (!config.discovery.includePPAs) {
-      if (config.discovery.denyDomains.includes(host)) {
+      if (
+        config.discovery.denyDomains.some(
+          (domain) => host === domain || host.endsWith(`.${domain}`)
+        )
+      ) {
         return false;
       }
     }

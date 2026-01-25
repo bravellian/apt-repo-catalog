@@ -28,6 +28,12 @@ Include a local corpus directory in discovery (in addition to GitHub mining):
 node scripts/apt-inventory.mjs discover-repos --local-dir path/to/corpus
 ```
 
+Append new discovery results instead of overwriting:
+
+```bash
+node scripts/apt-inventory.mjs discover-repos --append
+```
+
 ### Environment
 
 - `GITHUB_TOKEN` (optional but recommended) for higher GitHub Search API quota.
@@ -44,6 +50,7 @@ All outputs default to `data/discovery/`:
 - `quarantine.json`: low-confidence list
 - `sync-skipped.json`: entries skipped during sync
 - `curation-report.json`: counts and reasons for quarantine
+- `domains-report.json`: top observed domains from deduped candidates
 
 Verification downloads Release/Packages indexes into `data/discovery/tmp/` for parsing. This folder is safe to delete after a run.
 
@@ -92,6 +99,8 @@ Selectivity guardrails:
 - Run `discover-repos --local-dir <path>` to mine your own repo corpus without GitHub.
 - Keep `requireAllowlistForCuration` on so only vetted domains reach curated output.
 - If verification hits memory/size limits, lower `verification.concurrency` and set `verification.maxBytesPackages` to cap large Packages indexes.
+- Use `--max-evidence` with `curate-repos` to limit evidence entries per repo in output files.
+- Use `--compact-verification=false` with `curate-repos` to keep full verification detail (defaults to compact output).
 
 ## Integration testing
 
