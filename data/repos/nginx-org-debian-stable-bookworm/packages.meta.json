@@ -1,0 +1,401 @@
+{
+  "fetchedAt": "2026-01-26T20:01:47.897Z",
+  "repoId": "nginx-org-debian-stable-bookworm",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://nginx.org/packages/debian",
+    "suites": [
+      {
+        "suite": "bullseye",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "buster",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jessie",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "stretch",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trixie",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "wheezy",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bookworm",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "bullseye",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "bullseye",
+        "Version": "11.0",
+        "Date": "Tue, 13 Jan 2026 22:20:23 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "buster",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "buster",
+        "Version": "10.0",
+        "Date": "Tue, 30 Aug 2022 15:37:03 UTC",
+        "Architectures": "i386 amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "jessie",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "jessie",
+        "Version": "8.0",
+        "Date": "Tue, 23 Apr 2019 15:15:07 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "stretch",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "stretch",
+        "Version": "9.0",
+        "Date": "Thu, 29 Oct 2020 15:36:05 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "trixie",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "trixie",
+        "Version": "13.0",
+        "Date": "Tue, 13 Jan 2026 22:20:24 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "wheezy",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "wheezy",
+        "Version": "7.0",
+        "Date": "Tue, 11 Jul 2017 14:22:05 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "bookworm",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "bookworm",
+        "Version": "12.0",
+        "Date": "Tue, 13 Jan 2026 22:20:23 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-debian-stable-bookworm/run-F0g8BE/keyrings/nginx-org.gpg] ] https://nginx.org/packages/debian bullseye nginx",
+    "https://nginx.org/packages/debian/dists/bullseye/Release",
+    "https://nginx.org/packages/debian/dists/bullseye/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/debian/dists/bullseye/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-debian-stable-bookworm/run-UTOJg0/keyrings/nginx-org.gpg] ] https://nginx.org/packages/debian buster nginx",
+    "https://nginx.org/packages/debian/dists/buster/Release",
+    "https://nginx.org/packages/debian/dists/buster/nginx/binary-i386/Packages.gz",
+    "https://nginx.org/packages/debian/dists/buster/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/debian/dists/buster/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-debian-stable-bookworm/run-V0TBTR/keyrings/nginx-org.gpg] ] https://nginx.org/packages/debian jessie nginx",
+    "https://nginx.org/packages/debian/dists/jessie/Release",
+    "https://nginx.org/packages/debian/dists/jessie/nginx/binary-i386/Packages.gz",
+    "https://nginx.org/packages/debian/dists/jessie/nginx/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-debian-stable-bookworm/run-Za7abc/keyrings/nginx-org.gpg] ] https://nginx.org/packages/debian stretch nginx",
+    "https://nginx.org/packages/debian/dists/stretch/Release",
+    "https://nginx.org/packages/debian/dists/stretch/nginx/binary-i386/Packages.gz",
+    "https://nginx.org/packages/debian/dists/stretch/nginx/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-debian-stable-bookworm/run-QoxkSR/keyrings/nginx-org.gpg] ] https://nginx.org/packages/debian trixie nginx",
+    "https://nginx.org/packages/debian/dists/trixie/Release",
+    "https://nginx.org/packages/debian/dists/trixie/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/debian/dists/trixie/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-debian-stable-bookworm/run-YLz49A/keyrings/nginx-org.gpg] ] https://nginx.org/packages/debian wheezy nginx",
+    "https://nginx.org/packages/debian/dists/wheezy/Release",
+    "https://nginx.org/packages/debian/dists/wheezy/nginx/binary-i386/Packages.gz",
+    "https://nginx.org/packages/debian/dists/wheezy/nginx/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-debian-stable-bookworm/run-mLLDSw/keyrings/nginx-org.gpg] ] https://nginx.org/packages/debian bookworm nginx",
+    "https://nginx.org/packages/debian/dists/bookworm/Release",
+    "https://nginx.org/packages/debian/dists/bookworm/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/debian/dists/bookworm/nginx/binary-arm64/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/bullseye/nginx/binary-amd64/Packages.gz",
+      "sha256": "d9febab19d334c9b79780af1db5b46743a92948deaaed81149b323f5f6c6d10c",
+      "sizeBytes": 38470,
+      "suite": "bullseye",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/bullseye/nginx/binary-arm64/Packages.gz",
+      "sha256": "9c1a85fc0b4fa8d40f05016bd2cac1a4533572753585a641856ac8480d469463",
+      "sizeBytes": 38496,
+      "suite": "bullseye",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-i386/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/buster/nginx/binary-i386/Packages.gz",
+      "sha256": "4c0afd4b65aa885de2074c377ad13f922c2921ef80749295238399bf4c9a3d8d",
+      "sizeBytes": 25076,
+      "suite": "buster",
+      "component": "nginx",
+      "arch": "i386"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/buster/nginx/binary-amd64/Packages.gz",
+      "sha256": "f6ee04a7e0f72b42e09a800317c654851e43a5743767686b2202cba97b0b5eed",
+      "sizeBytes": 24781,
+      "suite": "buster",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/buster/nginx/binary-arm64/Packages.gz",
+      "sha256": "c5145ff16b9a94b8a4cfe46ce23c7651d5e82f562aadcb2cd8b027efed4ef88c",
+      "sizeBytes": 16607,
+      "suite": "buster",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-i386/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/jessie/nginx/binary-i386/Packages.gz",
+      "sha256": "67ca9688492fb70888beb3ee60108b15b90859a94f6e3d326bb84126bb566f92",
+      "sizeBytes": 18061,
+      "suite": "jessie",
+      "component": "nginx",
+      "arch": "i386"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/jessie/nginx/binary-amd64/Packages.gz",
+      "sha256": "ed707a8cd57b141d5db0e721434cba60a4264b31a038f47c10e37518690ea3e9",
+      "sizeBytes": 18071,
+      "suite": "jessie",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-i386/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/stretch/nginx/binary-i386/Packages.gz",
+      "sha256": "bdb872eb99418b47d5feba27c1e8de76df8e58de7b6330560492a0d87d745a76",
+      "sizeBytes": 25817,
+      "suite": "stretch",
+      "component": "nginx",
+      "arch": "i386"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/stretch/nginx/binary-amd64/Packages.gz",
+      "sha256": "239c6e2a5939626cc1855901840eb2a4516146dd4b5b576b3699be1f22fdc436",
+      "sizeBytes": 25779,
+      "suite": "stretch",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/trixie/nginx/binary-amd64/Packages.gz",
+      "sha256": "d33cdf7d8fa6cb0a4dd51af8a8fc41e26dd96205a86903d5a2b4ad962cce3e7f",
+      "sizeBytes": 9179,
+      "suite": "trixie",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/trixie/nginx/binary-arm64/Packages.gz",
+      "sha256": "e88a4bce1520a5633da41a818bd91d7e96da3c0abc00af2599f89e4311098ad7",
+      "sizeBytes": 9158,
+      "suite": "trixie",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-i386/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/wheezy/nginx/binary-i386/Packages.gz",
+      "sha256": "173b13c97839f38232d6b3359e9ea0b7a8432aedf330934a8775af5a86aa5b03",
+      "sizeBytes": 9884,
+      "suite": "wheezy",
+      "component": "nginx",
+      "arch": "i386"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/wheezy/nginx/binary-amd64/Packages.gz",
+      "sha256": "f0d0f9c881c94deb98e97ee68e4eeed776116ab85c000e8b388b544b9db42aeb",
+      "sizeBytes": 9912,
+      "suite": "wheezy",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/bookworm/nginx/binary-amd64/Packages.gz",
+      "sha256": "d09f8ce8388e841359db698681a1eaad622875708b7e8b9f74efd1f4f747c13d",
+      "sizeBytes": 26115,
+      "suite": "bookworm",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/debian/dists/bookworm/nginx/binary-arm64/Packages.gz",
+      "sha256": "b19f270c1df32ada3f863de0eb25000643cb8b275964800d5349018f9ed581ed",
+      "sizeBytes": 26071,
+      "suite": "bookworm",
+      "component": "nginx",
+      "arch": "arm64"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/debian bullseye InRelease [3296 B]\nErr:1 https://nginx.org/packages/debian bullseye InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/debian bullseye InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nE: The repository 'https://nginx.org/packages/debian bullseye InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/debian buster InRelease [3601 B]\nErr:1 https://nginx.org/packages/debian buster InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/debian buster InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/debian buster InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/debian jessie InRelease [2856 B]\nErr:1 https://nginx.org/packages/debian jessie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/debian jessie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/debian jessie InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/debian stretch InRelease [2866 B]\nErr:1 https://nginx.org/packages/debian stretch InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/debian stretch InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/debian stretch InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/debian trixie InRelease [3276 B]\nErr:1 https://nginx.org/packages/debian trixie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/debian trixie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nE: The repository 'https://nginx.org/packages/debian trixie InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/debian wheezy InRelease [2847 B]\nErr:1 https://nginx.org/packages/debian wheezy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/debian wheezy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/debian wheezy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/debian bookworm InRelease [3296 B]\nErr:1 https://nginx.org/packages/debian bookworm InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/debian bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nE: The repository 'https://nginx.org/packages/debian bookworm InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
+}

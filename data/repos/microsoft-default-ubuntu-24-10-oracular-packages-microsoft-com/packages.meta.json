@@ -1,49 +1,90 @@
 {
-  "fetchedAt": "2026-01-25T04:42:53.611Z",
+  "fetchedAt": "2026-01-26T20:01:42.756Z",
   "repoId": "microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com",
   "mode": "auto",
   "source": {
-    "line": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/ubuntu/24.10/prod oracular main",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://packages.microsoft.com/ubuntu/24.10/prod",
+    "suites": [
+      {
+        "suite": "oracular",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64,arm64,armhf"
+        }
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "microsoft-ubuntu-oracular-prod oracular",
-    "Label": "microsoft-ubuntu-oracular-prod oracular",
-    "Suite": "oracular",
-    "Codename": "oracular",
-    "Architectures": "amd64 arm64 armhf all",
-    "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/run-7LBEov/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_InRelease",
-    "inReleaseSha256": "9e5679c70e872944983ea84c6de092edef74d29433bc6c57bcf6dd9a56241642"
-  },
+  "releases": [
+    {
+      "suite": "oracular",
+      "release": {
+        "Origin": "microsoft-ubuntu-oracular-prod oracular",
+        "Label": "microsoft-ubuntu-oracular-prod oracular",
+        "Suite": "oracular",
+        "Codename": "oracular",
+        "Date": "Fri, 23 Jan 2026 06:11:44 +0000",
+        "Architectures": "amd64 arm64 armhf all",
+        "Components": "main",
+        "Acquire-By-Hash": "yes",
+        "SHA512": ""
+      }
+    }
+  ],
   "sources": [
-    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/run-7LBEov/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/24.10/prod oracular main"
+    "deb [[object Object signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/run-lQZbmF/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] ] https://packages.microsoft.com/ubuntu/24.10/prod oracular main",
+    "https://packages.microsoft.com/ubuntu/24.10/prod/dists/oracular/Release",
+    "https://packages.microsoft.com/ubuntu/24.10/prod/dists/oracular/main/binary-amd64/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/24.10/prod/dists/oracular/main/binary-arm64/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/24.10/prod/dists/oracular/main/binary-armhf/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/24.10/prod/dists/oracular/main/binary-all/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/run-7LBEov/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260125T044253Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-all_Packages",
-      "suite": "oracular",
-      "component": "main",
-      "arch": "all"
-    },
-    {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/run-7LBEov/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260125T044253Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-amd64_Packages",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/24.10/prod/dists/oracular/main/binary-amd64/Packages.gz",
+      "sha256": "e9ed72539155964ba4515967e08572738855690a627917213bd73c4daf0f99c8",
+      "sizeBytes": 2787,
       "suite": "oracular",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/run-7LBEov/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com/packages.raw/20260125T044253Z/packages.microsoft.com_ubuntu_24.10_prod_dists_oracular_main_binary-arm64_Packages",
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/24.10/prod/dists/oracular/main/binary-arm64/Packages.gz",
+      "sha256": "d5f33ae114fae372035a35f826852e1383bf8d4bef4874f8337fd909540e3b17",
+      "sizeBytes": 1234,
       "suite": "oracular",
       "component": "main",
       "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/24.10/prod/dists/oracular/main/binary-armhf/Packages.gz",
+      "sha256": "e7ae8bda771891a85828f65049dd654a3e229724ab86d9827b2834852aee4c4d",
+      "sizeBytes": 29,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/24.10/prod/dists/oracular/main/binary-all/Packages.gz",
+      "sha256": "6ee2da820ff73162a5352c1d1773870a060031c61626316b1005d421aa2fe682",
+      "sizeBytes": 345,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "all"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://packages.microsoft.com/ubuntu/24.10/prod oracular InRelease [3618 B]\nErr:1 https://packages.microsoft.com/ubuntu/24.10/prod oracular InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EB3E94ADBE1229CF\nReading package lists...\n\nW: GPG error: https://packages.microsoft.com/ubuntu/24.10/prod oracular InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EB3E94ADBE1229CF\nE: The repository 'https://packages.microsoft.com/ubuntu/24.10/prod oracular InRelease' is not signed."
+    }
+  ]
 }

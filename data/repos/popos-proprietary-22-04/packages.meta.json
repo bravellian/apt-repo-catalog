@@ -1,0 +1,501 @@
+{
+  "fetchedAt": "2026-01-26T20:02:17.989Z",
+  "repoId": "popos-proprietary-22-04",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "http://apt.pop-os.org/proprietary",
+    "suites": [
+      {
+        "suite": "bionic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "disco",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "eoan",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "focal",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "groovy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "hirsute",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "impish",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jammy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "noble",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "bionic",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "bionic",
+        "Components": "main",
+        "Date": "Tue, 30 Jan 2024 20:59:43 +0000",
+        "Description": "System76 (bionic 18.04)",
+        "Label": "System76",
+        "Origin": "system76",
+        "Suite": "bionic",
+        "Version": "18.04",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "disco",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "disco",
+        "Components": "main",
+        "Date": "Tue, 30 Jan 2024 21:02:01 +0000",
+        "Description": "System76 (disco 19.04)",
+        "Label": "System76",
+        "Origin": "system76",
+        "Suite": "disco",
+        "Version": "19.04",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "eoan",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "eoan",
+        "Components": "main",
+        "Date": "Wed, 21 Jan 2026 16:34:28 +0000",
+        "Description": "System76 (eoan 19.10)",
+        "Label": "System76",
+        "Origin": "system76",
+        "Suite": "eoan",
+        "Version": "19.10",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "focal",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "focal",
+        "Components": "main",
+        "Date": "Wed, 21 Jan 2026 16:31:59 +0000",
+        "Description": "System76 (focal 20.04)",
+        "Label": "System76",
+        "Origin": "system76",
+        "Suite": "focal",
+        "Version": "20.04",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "groovy",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "groovy",
+        "Components": "main",
+        "Date": "Tue, 30 Jan 2024 21:05:27 +0000",
+        "Description": "System76 (groovy 20.10)",
+        "Label": "System76",
+        "Origin": "system76",
+        "Suite": "groovy",
+        "Version": "20.10",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "hirsute",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "hirsute",
+        "Components": "main",
+        "Date": "Tue, 30 Jan 2024 20:56:58 +0000",
+        "Description": "System76 (hirsute 21.04)",
+        "Label": "System76",
+        "Origin": "system76",
+        "Suite": "hirsute",
+        "Version": "21.04",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "impish",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "impish",
+        "Components": "main",
+        "Date": "Wed, 21 Jan 2026 16:36:00 +0000",
+        "Description": "System76 (impish 21.10)",
+        "Label": "System76",
+        "Origin": "system76",
+        "Suite": "impish",
+        "Version": "21.10",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "jammy",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "jammy",
+        "Components": "main",
+        "Date": "Wed, 21 Jan 2026 16:27:12 +0000",
+        "Description": "System76 (jammy 22.04)",
+        "Label": "System76",
+        "Origin": "system76",
+        "Suite": "jammy",
+        "Version": "22.04",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "noble",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "noble",
+        "Components": "main",
+        "Date": "Wed, 21 Jan 2026 16:28:36 +0000",
+        "Description": "System76 (noble 24.04)",
+        "Label": "System76",
+        "Origin": "system76",
+        "Suite": "noble",
+        "Version": "24.04",
+        "SHA512": ""
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/popos-proprietary-22-04/run-qoXrj1/keyrings/popos-lookup-204dd8aec33a7aff.gpg] ] http://apt.pop-os.org/proprietary bionic main",
+    "http://apt.pop-os.org/proprietary/dists/bionic/Release",
+    "http://apt.pop-os.org/proprietary/dists/bionic/main/binary-amd64/Packages.gz",
+    "http://apt.pop-os.org/proprietary/dists/bionic/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/popos-proprietary-22-04/run-yf1o69/keyrings/popos-lookup-204dd8aec33a7aff.gpg] ] http://apt.pop-os.org/proprietary disco main",
+    "http://apt.pop-os.org/proprietary/dists/disco/Release",
+    "http://apt.pop-os.org/proprietary/dists/disco/main/binary-amd64/Packages.gz",
+    "http://apt.pop-os.org/proprietary/dists/disco/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/popos-proprietary-22-04/run-UWlR0q/keyrings/popos-lookup-204dd8aec33a7aff.gpg] ] http://apt.pop-os.org/proprietary eoan main",
+    "http://apt.pop-os.org/proprietary/dists/eoan/Release",
+    "http://apt.pop-os.org/proprietary/dists/eoan/main/binary-amd64/Packages.gz",
+    "http://apt.pop-os.org/proprietary/dists/eoan/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/popos-proprietary-22-04/run-LLSuCM/keyrings/popos-lookup-204dd8aec33a7aff.gpg] ] http://apt.pop-os.org/proprietary focal main",
+    "http://apt.pop-os.org/proprietary/dists/focal/Release",
+    "http://apt.pop-os.org/proprietary/dists/focal/main/binary-amd64/Packages.gz",
+    "http://apt.pop-os.org/proprietary/dists/focal/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/popos-proprietary-22-04/run-xg6LzU/keyrings/popos-lookup-204dd8aec33a7aff.gpg] ] http://apt.pop-os.org/proprietary groovy main",
+    "http://apt.pop-os.org/proprietary/dists/groovy/Release",
+    "http://apt.pop-os.org/proprietary/dists/groovy/main/binary-amd64/Packages.gz",
+    "http://apt.pop-os.org/proprietary/dists/groovy/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/popos-proprietary-22-04/run-X4DwOU/keyrings/popos-lookup-204dd8aec33a7aff.gpg] ] http://apt.pop-os.org/proprietary hirsute main",
+    "http://apt.pop-os.org/proprietary/dists/hirsute/Release",
+    "http://apt.pop-os.org/proprietary/dists/hirsute/main/binary-amd64/Packages.gz",
+    "http://apt.pop-os.org/proprietary/dists/hirsute/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/popos-proprietary-22-04/run-laz49j/keyrings/popos-lookup-204dd8aec33a7aff.gpg] ] http://apt.pop-os.org/proprietary impish main",
+    "http://apt.pop-os.org/proprietary/dists/impish/Release",
+    "http://apt.pop-os.org/proprietary/dists/impish/main/binary-amd64/Packages.gz",
+    "http://apt.pop-os.org/proprietary/dists/impish/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/popos-proprietary-22-04/run-SVNDVq/keyrings/popos-lookup-204dd8aec33a7aff.gpg] ] http://apt.pop-os.org/proprietary jammy main",
+    "http://apt.pop-os.org/proprietary/dists/jammy/Release",
+    "http://apt.pop-os.org/proprietary/dists/jammy/main/binary-amd64/Packages.gz",
+    "http://apt.pop-os.org/proprietary/dists/jammy/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/popos-proprietary-22-04/run-Tm7MEG/keyrings/popos-lookup-204dd8aec33a7aff.gpg] ] http://apt.pop-os.org/proprietary noble main",
+    "http://apt.pop-os.org/proprietary/dists/noble/Release",
+    "http://apt.pop-os.org/proprietary/dists/noble/main/binary-amd64/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/bionic/main/binary-amd64/Packages.gz",
+      "sha256": "9a1d31c131a12c6f02b0a4bc29f1ee095d117313ad8e74b1e3e1bd0834a8b3c5",
+      "sizeBytes": 46020,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/bionic/main/binary-all/Packages.gz",
+      "sha256": "38e38faa1fcef80c2821c3827f426b28bb37081b1f9a95d55ef86e4a97755944",
+      "sizeBytes": 11585,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/disco/main/binary-amd64/Packages.gz",
+      "sha256": "d4da35604d2f51bc37c56e5e3ea011954c21a1736c5ce667147d6e3ff7b0d9f2",
+      "sizeBytes": 7481,
+      "suite": "disco",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/disco/main/binary-all/Packages.gz",
+      "sha256": "74221ce01255899164f94caf31c2a7daa54ff6cbeba26fe61a972ee714b1c066",
+      "sizeBytes": 992,
+      "suite": "disco",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/eoan/main/binary-amd64/Packages.gz",
+      "sha256": "3d7c284f187a3a92de672eed0f2f1d23ad92e88e9410e0dc384add7c5b5b2915",
+      "sizeBytes": 7286,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/eoan/main/binary-all/Packages.gz",
+      "sha256": "a10172860f413d3ebb0992dd9228628b951d76090800d1858b0482ee8c868f66",
+      "sizeBytes": 1955,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/focal/main/binary-amd64/Packages.gz",
+      "sha256": "21cbe9e75d455eb68464738a0f7375e7f8c8d68370b0cea6c15bb30819892600",
+      "sizeBytes": 8805,
+      "suite": "focal",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/focal/main/binary-all/Packages.gz",
+      "sha256": "56f4985a972eca05e8b4fa0aa4f181c1924f86f010fdec8a3733409dfb8b5e3f",
+      "sizeBytes": 980,
+      "suite": "focal",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/groovy/main/binary-amd64/Packages.gz",
+      "sha256": "2c93bf0d888ffe0f6ee2c188c86d93327a73e75c3161e62ed24bdbec3e21c7ca",
+      "sizeBytes": 6836,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/groovy/main/binary-all/Packages.gz",
+      "sha256": "6249fb504aeef1a591e19b00f084e2784afddd0488d83078c107ecd9dcdfcf28",
+      "sizeBytes": 520,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/hirsute/main/binary-amd64/Packages.gz",
+      "sha256": "56d133adeeeed551bd85d704af563d8b8d2c4f0c9dd9bdbb922331ae9281cbdd",
+      "sizeBytes": 5290,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/hirsute/main/binary-all/Packages.gz",
+      "sha256": "cc61e288a2206d3a8ebec5f985d4bd8b738be193c8888359b564e5a63e01e19b",
+      "sizeBytes": 521,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/impish/main/binary-amd64/Packages.gz",
+      "sha256": "7137445f3041a83155bd44b4716ccc704ac8421abd886809b86e9329dbbe0176",
+      "sizeBytes": 5323,
+      "suite": "impish",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/impish/main/binary-all/Packages.gz",
+      "sha256": "6f68a4841425e671466085ed538fef777e0e66870b1bd9d5f471f40391cba629",
+      "sizeBytes": 522,
+      "suite": "impish",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/jammy/main/binary-amd64/Packages.gz",
+      "sha256": "e01ede1c3d3cfe6cf07bd62ea308193981e5ff70437db8281597ddec474a0d57",
+      "sizeBytes": 6104,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/jammy/main/binary-all/Packages.gz",
+      "sha256": "1095513f9ff2819cffd7c79cbc9ee4508e72cc0ca1d8a3cc668b0af18ed4a09f",
+      "sizeBytes": 522,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://apt.pop-os.org/proprietary/dists/noble/main/binary-amd64/Packages.gz",
+      "sha256": "2741dd433efa9592f7e53f9f71e67d634c993f312fff98aa5f4ab54b5273913f",
+      "sizeBytes": 4408,
+      "suite": "noble",
+      "component": "main",
+      "arch": "amd64"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://apt.pop-os.org/proprietary bionic InRelease [8438 B]\nErr:1 http://apt.pop-os.org/proprietary bionic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nReading package lists...\n\nW: GPG error: http://apt.pop-os.org/proprietary bionic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nE: The repository 'http://apt.pop-os.org/proprietary bionic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://apt.pop-os.org/proprietary disco InRelease [8435 B]\nErr:1 http://apt.pop-os.org/proprietary disco InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nReading package lists...\n\nW: GPG error: http://apt.pop-os.org/proprietary disco InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nE: The repository 'http://apt.pop-os.org/proprietary disco InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://apt.pop-os.org/proprietary eoan InRelease [8432 B]\nErr:1 http://apt.pop-os.org/proprietary eoan InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nReading package lists...\n\nW: GPG error: http://apt.pop-os.org/proprietary eoan InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nE: The repository 'http://apt.pop-os.org/proprietary eoan InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://apt.pop-os.org/proprietary focal InRelease [8435 B]\nErr:1 http://apt.pop-os.org/proprietary focal InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nReading package lists...\n\nW: GPG error: http://apt.pop-os.org/proprietary focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nE: The repository 'http://apt.pop-os.org/proprietary focal InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://apt.pop-os.org/proprietary groovy InRelease [8438 B]\nErr:1 http://apt.pop-os.org/proprietary groovy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nReading package lists...\n\nW: GPG error: http://apt.pop-os.org/proprietary groovy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nE: The repository 'http://apt.pop-os.org/proprietary groovy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://apt.pop-os.org/proprietary hirsute InRelease [8441 B]\nErr:1 http://apt.pop-os.org/proprietary hirsute InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nReading package lists...\n\nW: GPG error: http://apt.pop-os.org/proprietary hirsute InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nE: The repository 'http://apt.pop-os.org/proprietary hirsute InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://apt.pop-os.org/proprietary impish InRelease [8438 B]\nErr:1 http://apt.pop-os.org/proprietary impish InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nReading package lists...\n\nW: GPG error: http://apt.pop-os.org/proprietary impish InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nE: The repository 'http://apt.pop-os.org/proprietary impish InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://apt.pop-os.org/proprietary jammy InRelease [11.5 kB]\nErr:1 http://apt.pop-os.org/proprietary jammy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nReading package lists...\n\nW: GPG error: http://apt.pop-os.org/proprietary jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nE: The repository 'http://apt.pop-os.org/proprietary jammy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://apt.pop-os.org/proprietary noble InRelease [7207 B]\nErr:1 http://apt.pop-os.org/proprietary noble InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nReading package lists...\n\nW: GPG error: http://apt.pop-os.org/proprietary noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nE: The repository 'http://apt.pop-os.org/proprietary noble InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
+}

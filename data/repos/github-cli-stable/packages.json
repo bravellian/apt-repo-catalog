@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-26T16:43:39.846Z",
+  "generatedAt": "2026-01-26T19:49:24.991Z",
   "packageCount": 15,
   "packages": [
     {
@@ -9,12 +9,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -27,12 +22,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -73,12 +63,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -91,12 +76,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -137,12 +117,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -155,12 +130,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -201,12 +171,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -219,12 +184,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -265,12 +225,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -283,12 +238,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -329,12 +279,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -347,12 +292,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -393,12 +333,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -411,12 +346,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -457,12 +387,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -475,12 +400,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -521,12 +441,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -539,12 +454,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -585,12 +495,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -603,12 +508,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -649,12 +549,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -667,12 +562,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -713,12 +603,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -731,12 +616,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -777,12 +657,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -795,12 +670,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -841,12 +711,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -859,12 +724,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",
@@ -905,12 +765,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.86.0",
@@ -923,12 +778,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.86.0",

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-26T16:41:49.902Z",
+  "fetchedAt": "2026-01-26T19:47:09.198Z",
   "repoId": "1password-linux-amd64",
   "mode": "auto",
   "source": {
@@ -35,14 +35,16 @@
     }
   ],
   "sources": [
-    "deb [[object Object signed-by=/tmp/apt-inventory/1password-linux-amd64/run-McJR6C/keyrings/1password.gpg] ] https://downloads.1password.com/linux/debian/amd64 stable main",
+    "deb [[object Object signed-by=/tmp/apt-inventory/1password-linux-amd64/run-YvDA27/keyrings/1password.gpg] ] https://downloads.1password.com/linux/debian/amd64 stable main",
     "https://downloads.1password.com/linux/debian/amd64/dists/stable/Release",
     "https://downloads.1password.com/linux/debian/amd64/dists/stable/main/binary-amd64/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "https://downloads.1password.com/linux/debian/amd64/dists/stable/main/binary-amd64/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/1password-linux-amd64/packages.raw/20260126T164149Z/main/binary-amd64/Packages.gz",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://downloads.1password.com/linux/debian/amd64/dists/stable/main/binary-amd64/Packages.gz",
+      "sha256": "dc2cbb612b48c3a9be3b3ff2d7aad1dd9c98efe6ffc27b56ee5dfbc621d0043f",
+      "sizeBytes": 853,
       "suite": "stable",
       "component": "main",
       "arch": "amd64"

@@ -1,17 +1,24 @@
 {
-  "fetchedAt": "2026-01-25T04:43:57.700Z",
+  "fetchedAt": "2026-01-26T20:02:32.499Z",
   "repoId": "proxmox-ceph-squid-enterprise",
   "mode": "auto",
   "source": {
-    "line": "deb https://enterprise.proxmox.com/debian/ceph-squid trixie enterprise",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://enterprise.proxmox.com/debian/ceph-squid",
+    "suites": [
+      {
+        "suite": "trixie",
+        "components": [
+          "enterprise"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": null,
+  "releases": [],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/proxmox-ceph-squid-enterprise/run-VHmA5m/keyrings/proxmox-archive-keyring-trixie.gpg] https://enterprise.proxmox.com/debian/ceph-squid trixie enterprise",
+    "deb [[object Object signed-by=/tmp/apt-inventory/proxmox-ceph-squid-enterprise/run-rEEM32/keyrings/proxmox-archive-keyring-trixie.gpg] ] https://enterprise.proxmox.com/debian/ceph-squid trixie enterprise",
     "https://enterprise.proxmox.com/debian/ceph-squid/dists/trixie/Release",
     "https://enterprise.proxmox.com/debian/ceph-squid/dists/trixie/InRelease"
   ],

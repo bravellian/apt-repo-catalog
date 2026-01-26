@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-25T07:09:16.104Z",
+  "generatedAt": "2026-01-26T20:01:11.005Z",
   "packageCount": 16,
   "packages": [
     {
@@ -9,9 +9,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "6.0.0-netcorepreview",
@@ -21,9 +19,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "6.0.0",
@@ -33,9 +29,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "6.0.0-netcorepreview",
@@ -72,9 +66,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.0.4-1",
@@ -84,9 +76,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.0.4-1",
@@ -124,9 +114,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.1.0-1",
@@ -136,9 +124,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.1.0-1",
@@ -178,9 +164,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.1.0-1",
@@ -190,9 +174,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.1.0-1",
@@ -230,9 +212,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.1.2-1",
@@ -242,9 +222,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.1.2-1",
@@ -290,9 +268,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.1.1.70",
@@ -302,9 +278,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.1.1.70",
@@ -341,9 +315,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "101.25102.0005",
@@ -353,9 +325,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25092.0005",
@@ -365,9 +335,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25092.0002",
@@ -377,9 +345,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25092.0001",
@@ -389,9 +355,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25082.0003",
@@ -401,9 +365,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25072.0003",
@@ -413,9 +375,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25062.0003",
@@ -425,9 +385,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25052.0007",
@@ -437,9 +395,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25042.0003",
@@ -449,9 +405,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25042.0002",
@@ -461,9 +415,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25032.0010",
@@ -473,9 +425,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25032.0008",
@@ -485,9 +435,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25022.0002",
@@ -497,9 +445,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25012.0000",
@@ -509,9 +455,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24122.0008",
@@ -521,9 +465,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24112.0003",
@@ -533,9 +475,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24112.0001",
@@ -545,9 +485,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24102.0000",
@@ -557,9 +495,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24092.0002",
@@ -569,9 +505,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24082.0004",
@@ -581,9 +515,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24072.0001",
@@ -593,9 +525,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24062.0001",
@@ -605,9 +535,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24052.0002",
@@ -617,9 +545,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24042.0002",
@@ -629,9 +555,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24032.0007",
@@ -641,9 +565,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24022.0001",
@@ -653,9 +575,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24012.0001",
@@ -665,9 +585,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.23122.0002",
@@ -677,9 +595,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.23112.0009",
@@ -689,9 +605,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.23102.0003",
@@ -701,9 +615,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.23092.0012",
@@ -713,9 +625,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.23082.0011",
@@ -725,9 +635,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.23082.0009",
@@ -737,9 +645,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.23082.0006",
@@ -749,9 +655,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.23072.0021",
@@ -761,9 +665,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.23062.0010",
@@ -773,9 +675,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.23052.0009",
@@ -785,9 +685,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.98.89",
@@ -797,9 +695,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.98.64",
@@ -809,9 +705,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.98.58",
@@ -821,9 +715,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.98.30",
@@ -833,9 +725,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.98.05",
@@ -845,9 +735,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.94.13",
@@ -857,9 +745,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.85.27",
@@ -869,9 +755,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.80.97",
@@ -881,9 +765,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.75.43",
@@ -893,9 +775,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.73.77",
@@ -905,9 +785,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.71.18",
@@ -917,9 +795,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.68.80",
@@ -929,9 +805,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.65.77",
@@ -941,9 +815,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.62.74",
@@ -953,9 +825,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.60.93",
@@ -965,9 +835,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.60.05",
@@ -977,9 +845,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.58.80",
@@ -989,9 +855,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.56.62",
@@ -1001,9 +865,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.52.57",
@@ -1013,9 +875,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.47.76",
@@ -1025,9 +885,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.45.13",
@@ -1037,9 +895,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.45.00",
@@ -1049,9 +905,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.39.98",
@@ -1061,9 +915,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.34.27",
@@ -1073,9 +925,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.29.64",
@@ -1085,9 +935,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25.72",
@@ -1097,9 +945,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25.63",
@@ -1109,9 +955,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25.09",
@@ -1121,9 +965,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.24.45",
@@ -1133,9 +975,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.23.64",
@@ -1145,9 +985,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.18.53",
@@ -1157,9 +995,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.12.99",
@@ -1169,9 +1005,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.04.76",
@@ -1181,9 +1015,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.03.48",
@@ -1193,9 +1025,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.02.55",
@@ -1205,9 +1035,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.02.48",
@@ -1217,9 +1045,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "101.25102.0005",
@@ -1268,9 +1094,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "100.69.73",
@@ -1280,9 +1104,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "100.69.62",
@@ -1292,9 +1114,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "100.69.59",
@@ -1304,9 +1124,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "100.69.55",
@@ -1316,9 +1134,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "100.69.52",
@@ -1328,9 +1144,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "100.69.48",
@@ -1340,9 +1154,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "100.69.32",
@@ -1352,9 +1164,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "100.69.73",
@@ -1390,10 +1200,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "100.69.73-2",
@@ -1403,9 +1210,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "100.69.62-2",
@@ -1415,9 +1220,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "100.69.59-2",
@@ -1427,9 +1230,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.0.0-2",
@@ -1439,15 +1240,13 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "100.69.73-2",
       "latestByArch": {
-        "all": "100.69.73-2",
-        "amd64": "100.69.62-2"
+        "amd64": "100.69.62-2",
+        "all": "100.69.73-2"
       },
       "architectures": [
         "all",
@@ -1465,7 +1264,7 @@
         "replaces": [],
         "provides": []
       },
-      "maintainer": "root <root@f66f6bc14b8d>",
+      "maintainer": "root <root@6bacc4c1c000000>",
       "section": "alien",
       "priority": "extra"
     },
@@ -1476,9 +1275,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "13.1.9.0-1",
@@ -1488,9 +1285,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "13.1.8.0-1",
@@ -1500,9 +1295,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "13.1.7.0-1",
@@ -1512,9 +1305,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "13.1.6.0-1",
@@ -1524,9 +1315,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "13.1.4.0-1",
@@ -1536,9 +1325,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "13.1.3.0-1",
@@ -1548,9 +1335,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "13.1.1.0-1",
@@ -1560,9 +1345,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "13.1.9.0-1",
@@ -1609,9 +1392,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "0.15.0-1",
@@ -1621,9 +1402,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "0.14.0-1",
@@ -1633,9 +1412,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "0.13.0-1",
@@ -1645,9 +1422,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "0.12.0-1",
@@ -1657,9 +1432,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "0.11.0-1",
@@ -1669,9 +1442,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "0.10.0-1",
@@ -1681,9 +1452,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "0.15.0-1",
@@ -1720,9 +1489,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "14.0.6.0-1",
@@ -1732,9 +1499,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "14.0.4.0-1",
@@ -1744,9 +1509,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "14.0.3.0-1",
@@ -1756,9 +1519,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "14.0.2.0-1",
@@ -1768,9 +1529,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "14.0.6.0-1",
@@ -1813,9 +1572,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.9.3.0",
@@ -1825,9 +1582,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.9.1.0",
@@ -1837,9 +1592,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.9.0.0",
@@ -1849,9 +1602,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.8.1.0",
@@ -1861,9 +1612,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.7.3.0",
@@ -1873,9 +1622,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.7.1.0",
@@ -1885,9 +1632,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.7.0.0",
@@ -1897,9 +1642,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.12.1",
@@ -1909,9 +1652,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.11.0",
@@ -1921,9 +1662,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.10.2",
@@ -1933,9 +1672,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.9.1",
@@ -1945,9 +1682,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.8.1",
@@ -1957,9 +1692,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.0.0",
@@ -1969,9 +1702,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.4.3.1",
@@ -1981,9 +1712,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.4.2.3",
@@ -1993,9 +1722,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.4.2.1",
@@ -2005,9 +1732,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.4.1.0",
@@ -2017,9 +1742,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.4.0.6",
@@ -2029,9 +1752,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.3.0.2",
@@ -2041,9 +1762,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.2.0.35",
@@ -2053,9 +1772,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.9.3.0",
@@ -2093,9 +1810,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.0-1",
@@ -2105,9 +1820,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-all_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.0-1",
@@ -2140,9 +1853,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.9.3.0",
@@ -2152,9 +1863,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.9.1.0",
@@ -2164,9 +1873,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.9.0.0",
@@ -2176,9 +1883,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.8.1.0",
@@ -2188,9 +1893,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.7.3.0",
@@ -2200,9 +1903,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.7.1.0",
@@ -2212,9 +1913,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.7.0.0",
@@ -2224,9 +1923,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.12.1",
@@ -2236,9 +1933,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.11.0",
@@ -2248,9 +1943,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.10.2",
@@ -2260,9 +1953,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.9.2",
@@ -2272,9 +1963,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.8.1",
@@ -2284,9 +1973,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.8.0",
@@ -2296,9 +1983,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.6.0",
@@ -2308,9 +1993,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.6.4.7",
@@ -2320,9 +2003,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.9.3.0",
@@ -2359,77 +2040,72 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.15.25",
           "architectures": [
-            "amd64"
+            "amd64",
+            "arm64"
           ],
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.14.36",
           "architectures": [
-            "amd64"
+            "amd64",
+            "arm64"
           ],
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.12.0",
           "architectures": [
-            "amd64"
+            "amd64",
+            "arm64"
           ],
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.11.5",
           "architectures": [
-            "amd64"
+            "amd64",
+            "arm64"
           ],
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.11.0",
           "architectures": [
-            "amd64"
+            "amd64",
+            "arm64"
           ],
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com/packages.raw/20260125T044237Z/packages.microsoft.com_ubuntu_16.10_prod_dists_yakkety_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.15.25",
       "latestByArch": {
-        "amd64": "1.15.25"
+        "amd64": "1.15.25",
+        "arm64": "1.15.25"
       },
       "architectures": [
-        "amd64"
+        "amd64",
+        "arm64"
       ],
       "descriptionShort": "VirtualClient, the open sourced workload automation.",
       "homepage": "",

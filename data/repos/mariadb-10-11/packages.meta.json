@@ -1,0 +1,507 @@
+{
+  "fetchedAt": "2026-01-26T20:00:11.914Z",
+  "repoId": "mariadb-10-11",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://deb.mariadb.org/10.11/ubuntu",
+    "suites": [
+      {
+        "suite": "bionic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "focal",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jammy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "kinetic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "lunar",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "mantic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "noble",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "bionic",
+      "release": {
+        "Origin": "MariaDB",
+        "Label": "MariaDB",
+        "Codename": "bionic",
+        "Date": "Fri, 11 Aug 2023 21:02:45 UTC",
+        "Architectures": "amd64 arm64 ppc64el",
+        "Components": "main",
+        "Description": "MariaDB Repository"
+      }
+    },
+    {
+      "suite": "focal",
+      "release": {
+        "Origin": "MariaDB",
+        "Label": "MariaDB",
+        "Codename": "focal",
+        "Date": "Wed, 21 May 2025 02:51:58 UTC",
+        "Architectures": "amd64 arm64 ppc64el s390x",
+        "Components": "main",
+        "Description": "MariaDB Repository"
+      }
+    },
+    {
+      "suite": "jammy",
+      "release": {
+        "Origin": "MariaDB",
+        "Label": "MariaDB",
+        "Codename": "jammy",
+        "Date": "Wed, 05 Nov 2025 03:24:50 UTC",
+        "Architectures": "amd64 arm64 ppc64el s390x",
+        "Components": "main",
+        "Description": "MariaDB Repository"
+      }
+    },
+    {
+      "suite": "kinetic",
+      "release": {
+        "Origin": "MariaDB",
+        "Label": "MariaDB",
+        "Codename": "kinetic",
+        "Date": "Fri, 11 Aug 2023 21:16:41 UTC",
+        "Architectures": "amd64 arm64 ppc64el s390x",
+        "Components": "main",
+        "Description": "MariaDB Repository"
+      }
+    },
+    {
+      "suite": "lunar",
+      "release": {
+        "Origin": "MariaDB",
+        "Label": "MariaDB",
+        "Codename": "lunar",
+        "Date": "Mon, 05 Feb 2024 03:12:16 UTC",
+        "Architectures": "amd64 arm64 ppc64el s390x",
+        "Components": "main",
+        "Description": "MariaDB Repository"
+      }
+    },
+    {
+      "suite": "mantic",
+      "release": {
+        "Origin": "MariaDB",
+        "Label": "MariaDB",
+        "Codename": "mantic",
+        "Date": "Tue, 06 Aug 2024 14:02:59 UTC",
+        "Architectures": "amd64 arm64 ppc64el s390x",
+        "Components": "main",
+        "Description": "MariaDB Repository"
+      }
+    },
+    {
+      "suite": "noble",
+      "release": {
+        "Origin": "MariaDB",
+        "Label": "MariaDB",
+        "Codename": "noble",
+        "Date": "Wed, 05 Nov 2025 03:29:15 UTC",
+        "Architectures": "amd64 arm64 ppc64el s390x",
+        "Components": "main",
+        "Description": "MariaDB Repository"
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/mariadb-10-11/run-vLu8DP/keyrings/mariadb.gpg] ] https://deb.mariadb.org/10.11/ubuntu bionic main",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/bionic/Release",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/bionic/main/binary-amd64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/bionic/main/binary-arm64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/bionic/main/binary-ppc64el/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/mariadb-10-11/run-34prSP/keyrings/mariadb.gpg] ] https://deb.mariadb.org/10.11/ubuntu focal main",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/focal/Release",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/focal/main/binary-amd64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/focal/main/binary-arm64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/focal/main/binary-ppc64el/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/focal/main/binary-s390x/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/mariadb-10-11/run-rGtAzQ/keyrings/mariadb.gpg] ] https://deb.mariadb.org/10.11/ubuntu jammy main",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/jammy/Release",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/jammy/main/binary-amd64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/jammy/main/binary-arm64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/jammy/main/binary-ppc64el/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/jammy/main/binary-s390x/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/mariadb-10-11/run-wwkjaY/keyrings/mariadb.gpg] ] https://deb.mariadb.org/10.11/ubuntu kinetic main",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/kinetic/Release",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/kinetic/main/binary-amd64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/kinetic/main/binary-arm64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/kinetic/main/binary-ppc64el/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/kinetic/main/binary-s390x/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/mariadb-10-11/run-9mPh8e/keyrings/mariadb.gpg] ] https://deb.mariadb.org/10.11/ubuntu lunar main",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/lunar/Release",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/lunar/main/binary-amd64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/lunar/main/binary-arm64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/lunar/main/binary-ppc64el/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/lunar/main/binary-s390x/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/mariadb-10-11/run-6KSQGN/keyrings/mariadb.gpg] ] https://deb.mariadb.org/10.11/ubuntu mantic main",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/mantic/Release",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/mantic/main/binary-amd64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/mantic/main/binary-arm64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/mantic/main/binary-ppc64el/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/mantic/main/binary-s390x/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/mariadb-10-11/run-Kfl0UQ/keyrings/mariadb.gpg] ] https://deb.mariadb.org/10.11/ubuntu noble main",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/noble/Release",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/noble/main/binary-amd64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/noble/main/binary-arm64/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/noble/main/binary-ppc64el/Packages.gz",
+    "https://deb.mariadb.org/10.11/ubuntu/dists/noble/main/binary-s390x/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/bionic/main/binary-amd64/Packages.gz",
+      "sha256": "60cf1479593ceb6a57d4f5f962db4f40b1e011fd6108e3ca63532f196891af27",
+      "sizeBytes": 19002,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/bionic/main/binary-arm64/Packages.gz",
+      "sha256": "dc51babcb97e6a531b4ca605f1d0cfaaf12f57cfc52b4438f3123d05fe7a7724",
+      "sizeBytes": 18341,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/bionic/main/binary-ppc64el/Packages.gz",
+      "sha256": "3eaf2f81aa0cc36570f51ddf973d7a0d101d08b6677d414d42b7b9d05ad30ce6",
+      "sizeBytes": 18330,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/focal/main/binary-amd64/Packages.gz",
+      "sha256": "c6ff6f32971d4ce68e911efe7fdb745a859a84c9f16ab6948242eab93c810f11",
+      "sizeBytes": 19470,
+      "suite": "focal",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/focal/main/binary-arm64/Packages.gz",
+      "sha256": "220c900f7717f2df367245c6b9220961e68c944adf2df0b887f86ecda4c79cc0",
+      "sizeBytes": 18823,
+      "suite": "focal",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/focal/main/binary-ppc64el/Packages.gz",
+      "sha256": "f2df0f5781dad13f87e350dc771b6feababf36792561512d11a430fabb436fd0",
+      "sizeBytes": 18806,
+      "suite": "focal",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/focal/main/binary-s390x/Packages.gz",
+      "sha256": "0f1e7e844b924bc5d9536fe851df96bf6e221f4a9c3102ad210c744bfcee8c13",
+      "sizeBytes": 17725,
+      "suite": "focal",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/jammy/main/binary-amd64/Packages.gz",
+      "sha256": "bbe022a8899d6bf4d8151307d968a2a19f695af354a9926acdfb0cd680962dc8",
+      "sizeBytes": 19540,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/jammy/main/binary-arm64/Packages.gz",
+      "sha256": "16f8cd4e9a7818eeb5e50eaf1140d27990dc326a024a8686d13fe474f744b5c8",
+      "sizeBytes": 18880,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/jammy/main/binary-ppc64el/Packages.gz",
+      "sha256": "38d2c3af1d8562c063e94a70ebd445743325b129b5e16c27a49d3e082abfc85e",
+      "sizeBytes": 18893,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/jammy/main/binary-s390x/Packages.gz",
+      "sha256": "a28a34dbce30bd89cc3d3acfd67ee3063e04b269969886e7607114686f71a72e",
+      "sizeBytes": 17842,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/kinetic/main/binary-amd64/Packages.gz",
+      "sha256": "46cd57fe66c6852f58763d918271ee5ada3187fba757018f81a3d0037b2c7106",
+      "sizeBytes": 18645,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/kinetic/main/binary-arm64/Packages.gz",
+      "sha256": "3fbca6319e6f2a8fd8dff46076f1933dbb971ab745759a201044de05d7459ffb",
+      "sizeBytes": 17935,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/kinetic/main/binary-ppc64el/Packages.gz",
+      "sha256": "d1ed038aee7bd4e91a9d89415deea1df31c84eb27b7b11d7b26423578704a31d",
+      "sizeBytes": 1760,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/kinetic/main/binary-s390x/Packages.gz",
+      "sha256": "d1ed038aee7bd4e91a9d89415deea1df31c84eb27b7b11d7b26423578704a31d",
+      "sizeBytes": 1760,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/lunar/main/binary-amd64/Packages.gz",
+      "sha256": "826271782b0f278369452ee03038846a83cfdef49c0c39346ea286acbd832cbc",
+      "sizeBytes": 19064,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/lunar/main/binary-arm64/Packages.gz",
+      "sha256": "edb1ec529c5d3977ebdc7f0e23dfc879a43beba12aa01a18ad19629cf46273b0",
+      "sizeBytes": 18381,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/lunar/main/binary-ppc64el/Packages.gz",
+      "sha256": "6cb1ef9f795614a33c9054d12b5f170712ca4a0dba43c44fee463c680938a19d",
+      "sizeBytes": 1759,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/lunar/main/binary-s390x/Packages.gz",
+      "sha256": "6cb1ef9f795614a33c9054d12b5f170712ca4a0dba43c44fee463c680938a19d",
+      "sizeBytes": 1759,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/mantic/main/binary-amd64/Packages.gz",
+      "sha256": "9a2c9cf70684f2e0dc255f14f843f99117e9715e12b3899546344527e2b7a423",
+      "sizeBytes": 19497,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/mantic/main/binary-arm64/Packages.gz",
+      "sha256": "0b6e895fcb56a17752ff87b44dda53b46d9e83a9e6771a6f77d4f6f5b2af1843",
+      "sizeBytes": 18843,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/mantic/main/binary-ppc64el/Packages.gz",
+      "sha256": "3e1cb6714958d21cc76d0cca7e882d46b5ab0b56deeae1423bb5c22c9e1ae769",
+      "sizeBytes": 1745,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/mantic/main/binary-s390x/Packages.gz",
+      "sha256": "3e1cb6714958d21cc76d0cca7e882d46b5ab0b56deeae1423bb5c22c9e1ae769",
+      "sizeBytes": 1745,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/noble/main/binary-amd64/Packages.gz",
+      "sha256": "4575b8bbd1c771ab5ce69ef9efe49e9041f0413d27b05a7d519cbed635c6ec3a",
+      "sizeBytes": 19495,
+      "suite": "noble",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/noble/main/binary-arm64/Packages.gz",
+      "sha256": "1f4867172925e0010fcc3870a8f5c8b449666a9884e9d3edfd0de14977363819",
+      "sizeBytes": 18826,
+      "suite": "noble",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/noble/main/binary-ppc64el/Packages.gz",
+      "sha256": "d04bc800a78ce44c883a956c52e0598b4c0bcb8a0396eda3c8e1a5991eec8a73",
+      "sizeBytes": 18824,
+      "suite": "noble",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://deb.mariadb.org/10.11/ubuntu/dists/noble/main/binary-s390x/Packages.gz",
+      "sha256": "699cff82f551cb19a254e6241db729c26d7fb04fcd382bb84ff147932d169794",
+      "sizeBytes": 17826,
+      "suite": "noble",
+      "component": "main",
+      "arch": "s390x"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://mirror.rackspace.com/mariadb/mariadb-10.11.15/repo/ubuntu bionic InRelease [6265 B]\nErr:1 https://mirror.rackspace.com/mariadb/mariadb-10.11.15/repo/ubuntu bionic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nReading package lists...\n\nW: GPG error: https://mirror.rackspace.com/mariadb/mariadb-10.11.15/repo/ubuntu bionic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nE: The repository 'https://deb.mariadb.org/10.11/ubuntu bionic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu focal InRelease [7767 B]\nErr:1 https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu focal InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nReading package lists...\n\nW: GPG error: https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nE: The repository 'https://deb.mariadb.org/10.11/ubuntu focal InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu jammy InRelease [7767 B]\nErr:1 https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu jammy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nReading package lists...\n\nW: GPG error: https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nE: The repository 'https://deb.mariadb.org/10.11/ubuntu jammy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu kinetic InRelease [7709 B]\nErr:1 https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu kinetic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nReading package lists...\n\nW: GPG error: https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu kinetic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nE: The repository 'https://deb.mariadb.org/10.11/ubuntu kinetic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://mirrors.xtom.com/mariadb/mariadb-10.11.15/repo/ubuntu lunar InRelease [7707 B]\nErr:1 https://mirrors.xtom.com/mariadb/mariadb-10.11.15/repo/ubuntu lunar InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nReading package lists...\n\nW: GPG error: https://mirrors.xtom.com/mariadb/mariadb-10.11.15/repo/ubuntu lunar InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nE: The repository 'https://deb.mariadb.org/10.11/ubuntu lunar InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu mantic InRelease [7708 B]\nErr:1 https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu mantic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nReading package lists...\n\nW: GPG error: https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu mantic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nE: The repository 'https://deb.mariadb.org/10.11/ubuntu mantic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu noble InRelease [7767 B]\nErr:1 https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu noble InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nReading package lists...\n\nW: GPG error: https://ftp.osuosl.org/pub/mariadb/mariadb-10.11.15/repo/ubuntu noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F1656F24C74CD1D8\nE: The repository 'https://deb.mariadb.org/10.11/ubuntu noble InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
+}

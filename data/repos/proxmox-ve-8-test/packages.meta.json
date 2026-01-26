@@ -1,35 +1,192 @@
 {
-  "fetchedAt": "2026-01-25T04:43:46.497Z",
+  "fetchedAt": "2026-01-26T20:02:47.042Z",
   "repoId": "proxmox-ve-8-test",
   "mode": "auto",
   "source": {
-    "line": "deb http://download.proxmox.com/debian/pve bookworm pvetest",
-    "suite": null,
-    "components": null,
+    "baseUrl": "http://download.proxmox.com/debian/pve",
+    "suites": [
+      {
+        "suite": "trixie",
+        "components": [
+          "pve-no-subscription",
+          "pvetest"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bookworm",
+        "components": [
+          "pve-no-subscription",
+          "pvetest"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bullseye",
+        "components": [
+          "pve-no-subscription",
+          "pvetest"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "Proxmox",
-    "Label": "Proxmox Debian Repository",
-    "Suite": "stable",
-    "Codename": "bookworm",
-    "Architectures": "amd64",
-    "Components": "pve-no-subscription pvetest",
-    "inReleasePath": "/tmp/apt-inventory/proxmox-ve-8-test/run-o6kUx7/var/lib/apt/lists/download.proxmox.com_debian_pve_dists_bookworm_InRelease",
-    "inReleaseSha256": "e579fb9c0b2276759da3f10d0486a6fe85cb39d42db95313523282120c8bf079"
-  },
+  "releases": [
+    {
+      "suite": "trixie",
+      "release": {
+        "Architectures": "amd64",
+        "Changelogs": "https://metadata.cdn.proxmox.com/download/changelogs/pve/dists/trixie/@CHANGEPATH@.changelog",
+        "Codename": "trixie",
+        "Components": "pve-no-subscription pve-test",
+        "Date": "Wed, 21 Jan 2026 18:41:09 +0000",
+        "Label": "Proxmox Debian Repository",
+        "Origin": "Proxmox",
+        "Suite": "stable",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "bookworm",
+      "release": {
+        "Architectures": "amd64",
+        "Changelogs": "https://metadata.cdn.proxmox.com/download/changelogs/pve/dists/bookworm/@CHANGEPATH@.changelog",
+        "Codename": "bookworm",
+        "Components": "pve-no-subscription pvetest",
+        "Date": "Tue, 13 Jan 2026 08:57:53 +0000",
+        "Label": "Proxmox Debian Repository",
+        "Origin": "Proxmox",
+        "Suite": "stable",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "bullseye",
+      "release": {
+        "Architectures": "amd64",
+        "Changelogs": "https://metadata.cdn.proxmox.com/download/changelogs/pve/dists/bullseye/@CHANGEPATH@.changelog",
+        "Codename": "bullseye",
+        "Components": "pve-no-subscription pvetest",
+        "Date": "Wed, 07 May 2025 11:01:48 +0000",
+        "Label": "Proxmox Debian Repository",
+        "Origin": "Proxmox",
+        "Suite": "stable",
+        "SHA512": ""
+      }
+    }
+  ],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/proxmox-ve-8-test/run-o6kUx7/keyrings/proxmox-release-bookworm.gpg] http://download.proxmox.com/debian/pve bookworm pvetest"
+    "deb [[object Object signed-by=/tmp/apt-inventory/proxmox-ve-8-test/run-xUBG49/keyrings/proxmox-release-bookworm.gpg] ] http://download.proxmox.com/debian/pve trixie pve-no-subscription pvetest",
+    "http://download.proxmox.com/debian/pve/dists/trixie/Release",
+    "http://download.proxmox.com/debian/pve/dists/trixie/pve-no-subscription/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/proxmox-ve-8-test/run-35aKSg/keyrings/proxmox-release-bookworm.gpg] ] http://download.proxmox.com/debian/pve bookworm pve-no-subscription pvetest",
+    "http://download.proxmox.com/debian/pve/dists/bookworm/Release",
+    "http://download.proxmox.com/debian/pve/dists/bookworm/pve-no-subscription/binary-amd64/Packages.gz",
+    "http://download.proxmox.com/debian/pve/dists/bookworm/pvetest/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/proxmox-ve-8-test/run-XGCXH1/keyrings/proxmox-release-bookworm.gpg] ] http://download.proxmox.com/debian/pve bullseye pve-no-subscription pvetest",
+    "http://download.proxmox.com/debian/pve/dists/bullseye/Release",
+    "http://download.proxmox.com/debian/pve/dists/bullseye/pve-no-subscription/binary-amd64/Packages.gz",
+    "http://download.proxmox.com/debian/pve/dists/bullseye/pvetest/binary-amd64/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/proxmox-ve-8-test/run-o6kUx7/var/lib/apt/lists/download.proxmox.com_debian_pve_dists_bookworm_pvetest_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/proxmox-ve-8-test/packages.raw/20260125T044346Z/download.proxmox.com_debian_pve_dists_bookworm_pvetest_binary-amd64_Packages",
+      "name": "pve-no-subscription/binary-amd64/Packages.gz",
+      "url": "http://download.proxmox.com/debian/pve/dists/trixie/pve-no-subscription/binary-amd64/Packages.gz",
+      "sha256": "b7a9c810fce29b56aa8b1513961043c08eb692a8d0f7238497daeb9a23480f2d",
+      "sizeBytes": 301902,
+      "suite": "trixie",
+      "component": "pve-no-subscription",
+      "arch": "amd64"
+    },
+    {
+      "name": "pve-no-subscription/binary-amd64/Packages.gz",
+      "url": "http://download.proxmox.com/debian/pve/dists/bookworm/pve-no-subscription/binary-amd64/Packages.gz",
+      "sha256": "7f14796ec4d6fb985da732cc6d61b1b2e2759b7a3b49a9ca382d73847c1780d4",
+      "sizeBytes": 531512,
       "suite": "bookworm",
+      "component": "pve-no-subscription",
+      "arch": "amd64"
+    },
+    {
+      "name": "pvetest/binary-amd64/Packages.gz",
+      "url": "http://download.proxmox.com/debian/pve/dists/bookworm/pvetest/binary-amd64/Packages.gz",
+      "sha256": "24f85071539d9cb00d07500e60d2006d019860934827f014816a238332e3c67f",
+      "sizeBytes": 530940,
+      "suite": "bookworm",
+      "component": "pvetest",
+      "arch": "amd64"
+    },
+    {
+      "name": "pve-no-subscription/binary-amd64/Packages.gz",
+      "url": "http://download.proxmox.com/debian/pve/dists/bullseye/pve-no-subscription/binary-amd64/Packages.gz",
+      "sha256": "c1292ded8e238a54356797301a6ed0fb971123f7e0a578d2e742527ebe6b16cc",
+      "sizeBytes": 452139,
+      "suite": "bullseye",
+      "component": "pve-no-subscription",
+      "arch": "amd64"
+    },
+    {
+      "name": "pvetest/binary-amd64/Packages.gz",
+      "url": "http://download.proxmox.com/debian/pve/dists/bullseye/pvetest/binary-amd64/Packages.gz",
+      "sha256": "46f8cb6c5231392b5d80d07eac7aa30771f06c8f0290027d2376ccfc783b4c44",
+      "sizeBytes": 451975,
+      "suite": "bullseye",
       "component": "pvetest",
       "arch": "amd64"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://download.proxmox.com/debian/pve trixie InRelease [2771 B]\nErr:1 http://download.proxmox.com/debian/pve trixie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A7BCD1420BFE778E\nReading package lists...\n\nW: GPG error: http://download.proxmox.com/debian/pve trixie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A7BCD1420BFE778E\nE: The repository 'http://download.proxmox.com/debian/pve trixie InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "pve-no-subscription/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "pvetest/binary-amd64/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "pvetest/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://download.proxmox.com/debian/pve bookworm InRelease [2768 B]\nErr:1 http://download.proxmox.com/debian/pve bookworm InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 1140AF8F639E0C39\nReading package lists...\n\nW: GPG error: http://download.proxmox.com/debian/pve bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 1140AF8F639E0C39\nE: The repository 'http://download.proxmox.com/debian/pve bookworm InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "pve-no-subscription/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "pvetest/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://download.proxmox.com/debian/pve bullseye InRelease [2768 B]\nErr:1 http://download.proxmox.com/debian/pve bullseye InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY DD4BA3917E23BF59\nReading package lists...\n\nW: GPG error: http://download.proxmox.com/debian/pve bullseye InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY DD4BA3917E23BF59\nE: The repository 'http://download.proxmox.com/debian/pve bullseye InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "pve-no-subscription/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "pvetest/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
 }

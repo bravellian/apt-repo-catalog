@@ -1,5 +1,6 @@
 import path from "node:path";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { pathToFileURL } from "node:url";
 import { loadConfig } from "./config.mjs";
 import { searchGithub, fetchGithubFile } from "./github.mjs";
 import { extractCandidatesFromText } from "./parsers.mjs";
@@ -508,9 +509,19 @@ async function runSync({ root, args }) {
 
 export async function runDiscoveryCli(root) {
   const args = parseArgs(process.argv.slice(2));
-  const command = args._[0];
+  let command = args._[0];
   if (!command) {
     throw new Error("Usage: apt-inventory <command>");
+  }
+
+  if (command === "discover") {
+    command = "discover-repos";
+  } else if (command === "verify") {
+    command = "verify-repos";
+  } else if (command === "curate") {
+    command = "curate-repos";
+  } else if (command === "sync") {
+    command = "sync-catalog";
   }
 
   if (command === "discover-repos") {
@@ -531,4 +542,11 @@ export async function runDiscoveryCli(root) {
   }
 
   throw new Error(`Unknown discovery command ${command}`);
+}
+
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  runDiscoveryCli(process.cwd()).catch((error) => {
+    console.error(error instanceof Error ? error.message : error);
+    process.exit(1);
+  });
 }

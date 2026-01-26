@@ -1,35 +1,1153 @@
 {
-  "fetchedAt": "2026-01-25T04:44:16.498Z",
+  "fetchedAt": "2026-01-26T20:04:47.392Z",
   "repoId": "winehq-stable",
   "mode": "auto",
   "source": {
-    "line": "deb https://dl.winehq.org/wine-builds/ubuntu jammy main",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://dl.winehq.org/wine-builds/ubuntu",
+    "suites": [
+      {
+        "suite": "artful",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bionic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "cosmic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "disco",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "eoan",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "focal",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "groovy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "hirsute",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "impish",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "kinetic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "lunar",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "mantic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "noble",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "oracular",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "plucky",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "questing",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trusty",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "xenial",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "yakkety",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "zesty",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jammy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "dl.winehq.org",
-    "Label": "winehq",
-    "Suite": "jammy",
-    "Codename": "jammy",
-    "Architectures": "amd64 i386",
-    "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/winehq-stable/run-GqtAB6/var/lib/apt/lists/dl.winehq.org_wine-builds_ubuntu_dists_jammy_InRelease",
-    "inReleaseSha256": "ea13c2921b26ee94a032b69bd93002b8c95b022c8ca7c1217f8b5bf7c26d6bbf"
-  },
+  "releases": [
+    {
+      "suite": "artful",
+      "release": {
+        "Origin": "dl.winehq.org",
+        "Label": "winehq",
+        "Suite": "artful",
+        "Version": "17.10",
+        "Codename": "artful",
+        "Date": "Sun, 16 Dec 2018 21:22:49 +0000",
+        "Architectures": "amd64 i386 all",
+        "Components": "main",
+        "Description": "WineHQ packages"
+      }
+    },
+    {
+      "suite": "bionic",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "bionic",
+        "Components": "main",
+        "Date": "Thu, 20 Apr 2023 16:05:34 +0000",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "bionic",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "cosmic",
+      "release": {
+        "Architectures": "i386 amd64",
+        "Codename": "cosmic",
+        "Components": "main",
+        "Date": "Sun, 07 Jul 2019 14:08:45 UTC",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "cosmic",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "disco",
+      "release": {
+        "Architectures": "i386 amd64",
+        "Codename": "disco",
+        "Components": "main",
+        "Date": "Wed, 22 Jan 2020 19:09:22 +0000",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "disco",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "eoan",
+      "release": {
+        "Architectures": "i386 amd64",
+        "Codename": "eoan",
+        "Components": "main",
+        "Date": "Sun, 05 Jul 2020 06:36:05 +0000",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "eoan",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "focal",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "focal",
+        "Components": "main",
+        "Date": "Mon, 21 Apr 2025 13:12:18 +0000",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "focal",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "groovy",
+      "release": {
+        "Architectures": "i386 amd64",
+        "Codename": "groovy",
+        "Components": "main",
+        "Date": "Wed, 21 Jul 2021 09:36:00 +0000",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "groovy",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "hirsute",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "hirsute",
+        "Components": "main",
+        "Date": "Wed, 19 Jan 2022 21:04:49 +0000",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "hirsute",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "impish",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "impish",
+        "Components": "main",
+        "Date": "Sat, 16 Jul 2022 14:40:41 +0000",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "impish",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "kinetic",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "kinetic",
+        "Components": "main",
+        "Date": "Sun, 09 Jul 2023 14:13:16 +0000",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "kinetic",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "lunar",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "lunar",
+        "Components": "main",
+        "Date": "Wed, 17 Jan 2024 14:35:56 +0000",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "lunar",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "mantic",
+      "release": {
+        "Architectures": "i386 amd64 all",
+        "Codename": "mantic",
+        "Components": "main",
+        "Date": "Mon, 15 Jul 2024 11:38:06 +0000",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "mantic",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "noble",
+      "release": {
+        "Origin": "dl.winehq.org",
+        "Label": "winehq",
+        "Suite": "noble",
+        "Codename": "noble",
+        "Date": "Sun, 25 Jan 2026 12:53:11 UTC",
+        "Architectures": "amd64 i386",
+        "Components": "main",
+        "Description": "Generated by aptly",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "oracular",
+      "release": {
+        "Origin": "dl.winehq.org",
+        "Label": "winehq",
+        "Suite": "oracular",
+        "Codename": "oracular",
+        "Date": "Sat, 12 Jul 2025 12:58:20 UTC",
+        "Architectures": "amd64 i386",
+        "Components": "main",
+        "Description": "Generated by aptly",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "plucky",
+      "release": {
+        "Origin": "dl.winehq.org",
+        "Label": "winehq",
+        "Suite": "plucky",
+        "Codename": "plucky",
+        "Date": "Sun, 25 Jan 2026 12:53:39 UTC",
+        "Architectures": "amd64 i386",
+        "Components": "main",
+        "Description": "Generated by aptly",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "questing",
+      "release": {
+        "Origin": "dl.winehq.org",
+        "Label": "winehq",
+        "Suite": "questing",
+        "Codename": "questing",
+        "Date": "Sun, 25 Jan 2026 12:54:30 UTC",
+        "Architectures": "amd64",
+        "Components": "main",
+        "Description": "Generated by aptly",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "trusty",
+      "release": {
+        "Architectures": "i386 amd64",
+        "Codename": "trusty",
+        "Components": "main",
+        "Date": "Sun, 28 Apr 2019 08:33:00 UTC",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "trusty",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "xenial",
+      "release": {
+        "Architectures": "i386 amd64",
+        "Codename": "xenial",
+        "Components": "main",
+        "Date": "Wed, 11 Nov 2020 09:15:14 +0000",
+        "Description": "WineHQ packages",
+        "Label": "winehq",
+        "Origin": "dl.winehq.org",
+        "Suite": "xenial",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "yakkety",
+      "release": {
+        "Origin": "dl.winehq.org",
+        "Label": "winehq",
+        "Suite": "yakkety",
+        "Version": "16.10",
+        "Codename": "yakkety",
+        "Date": "Sun, 16 Dec 2018 21:22:48 +0000",
+        "Architectures": "amd64 i386 all",
+        "Components": "main",
+        "Description": "WineHQ packages"
+      }
+    },
+    {
+      "suite": "zesty",
+      "release": {
+        "Origin": "dl.winehq.org",
+        "Label": "winehq",
+        "Suite": "zesty",
+        "Version": "17.04",
+        "Codename": "zesty",
+        "Date": "Sun, 16 Dec 2018 21:22:49 +0000",
+        "Architectures": "amd64 i386 all",
+        "Components": "main",
+        "Description": "WineHQ packages"
+      }
+    },
+    {
+      "suite": "jammy",
+      "release": {
+        "Origin": "dl.winehq.org",
+        "Label": "winehq",
+        "Suite": "jammy",
+        "Codename": "jammy",
+        "Date": "Sun, 25 Jan 2026 12:52:37 UTC",
+        "Architectures": "amd64 i386",
+        "Components": "main",
+        "Description": "Generated by aptly",
+        "SHA512": ""
+      }
+    }
+  ],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/winehq-stable/run-GqtAB6/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu jammy main"
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-oZLjzp/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu artful main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/artful/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/artful/main/binary-amd64/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/artful/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/artful/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-fqbnCw/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu bionic main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/bionic/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/bionic/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/bionic/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-JIZrNe/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu cosmic main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/cosmic/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/cosmic/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/cosmic/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-6QGQPY/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu disco main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/disco/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/disco/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/disco/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-E1siPU/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu eoan main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/eoan/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/eoan/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/eoan/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-LFJNEc/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu focal main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/focal/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/focal/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/focal/main/binary-amd64/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/focal/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-ciqCuB/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu groovy main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/groovy/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/groovy/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/groovy/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-DgmF3T/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu hirsute main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/hirsute/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/hirsute/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/hirsute/main/binary-amd64/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/hirsute/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-1gOvZ8/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu impish main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/impish/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/impish/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/impish/main/binary-amd64/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/impish/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-Tt3es4/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu kinetic main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/kinetic/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/kinetic/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/kinetic/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-FrDoEw/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu lunar main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/lunar/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/lunar/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/lunar/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-9ZJF3X/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu mantic main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/mantic/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/mantic/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/mantic/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-YRG1Ff/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu noble main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/noble/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/noble/main/binary-amd64/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/noble/main/binary-i386/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-rco4uv/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu oracular main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/oracular/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/oracular/main/binary-amd64/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/oracular/main/binary-i386/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-xgWMy4/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu plucky main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/plucky/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/plucky/main/binary-amd64/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/plucky/main/binary-i386/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-VOR10o/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu questing main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/questing/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/questing/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-cRyre3/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu trusty main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/trusty/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/trusty/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/trusty/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-BudcUQ/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu xenial main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/xenial/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/xenial/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/xenial/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-Cwaz7o/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu yakkety main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/yakkety/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/yakkety/main/binary-amd64/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/yakkety/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/yakkety/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-m7zUzD/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu zesty main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/zesty/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/zesty/main/binary-amd64/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/zesty/main/binary-i386/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/zesty/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/winehq-stable/run-lyiwEL/keyrings/winehq.gpg] ] https://dl.winehq.org/wine-builds/ubuntu jammy main",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/Release",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/main/binary-amd64/Packages.gz",
+    "https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/main/binary-i386/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/winehq-stable/run-GqtAB6/var/lib/apt/lists/dl.winehq.org_wine-builds_ubuntu_dists_jammy_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/winehq-stable/packages.raw/20260125T044416Z/dl.winehq.org_wine-builds_ubuntu_dists_jammy_main_binary-amd64_Packages",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/artful/main/binary-amd64/Packages.gz",
+      "sha256": "03e66de6a03777bb3e80dfc4584b57d94d46102ed6e7d1f5b08549224c59054f",
+      "sizeBytes": 41271,
+      "suite": "artful",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/artful/main/binary-i386/Packages.gz",
+      "sha256": "11c1bfaab4557a8c49527bf2c27cee4bba9cf60453c514448dccad4be7d548e8",
+      "sizeBytes": 40095,
+      "suite": "artful",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/artful/main/binary-all/Packages.gz",
+      "sha256": "d0f1620777e942fef6b54e9394f1cc262ee814019ea683db8a99b4eb75208d02",
+      "sizeBytes": 20,
+      "suite": "artful",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/bionic/main/binary-i386/Packages.gz",
+      "sha256": "0395f127ed7ad6544caf6d99723c8114f6d1be3f4756f7d0a71a1e4c62267250",
+      "sizeBytes": 1525984,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/bionic/main/binary-amd64/Packages.gz",
+      "sha256": "84137ec3231216dda956b8f59326e1526bee3be92ef27dd9aefa09f2dea14301",
+      "sizeBytes": 1465700,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/cosmic/main/binary-i386/Packages.gz",
+      "sha256": "41d2c3de2da7a223bcb5f0e6fb2351037cacfc0338f40081a3fe978dcbabc9c2",
+      "sizeBytes": 889584,
+      "suite": "cosmic",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/cosmic/main/binary-amd64/Packages.gz",
+      "sha256": "31518d79c5dd82af5dfeea557e5846923ed0c11f8a15dc4f80d087b047ffdd4b",
+      "sizeBytes": 832789,
+      "suite": "cosmic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/disco/main/binary-i386/Packages.gz",
+      "sha256": "5b7f974b3135f6103eb069643111f23610928d4f2c8902ff6ed1c88a41209305",
+      "sizeBytes": 312234,
+      "suite": "disco",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/disco/main/binary-amd64/Packages.gz",
+      "sha256": "884cbc4511144757cb3056e2597a0609337df3e8a3cc10180853a45349f6e4cc",
+      "sizeBytes": 294530,
+      "suite": "disco",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/eoan/main/binary-i386/Packages.gz",
+      "sha256": "13b266e90fc6978c2c1496444d1f123638b0fe913454bae4f5f7bf896457a2b0",
+      "sizeBytes": 212002,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/eoan/main/binary-amd64/Packages.gz",
+      "sha256": "91aac28411204a9550a69d3986b116f0b00cbbbd0b036cdc163d975dba0dfa3a",
+      "sizeBytes": 207171,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/focal/main/binary-i386/Packages.gz",
+      "sha256": "51bd465d463a5d1e874c0c2cfe8443ea9c63987d4dde9339f884eb684c756cd8",
+      "sizeBytes": 662173,
+      "suite": "focal",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/focal/main/binary-amd64/Packages.gz",
+      "sha256": "ccd68e0dda45f829153fb7be9ee1e81d5782f874e5019f06b52997870dbec81c",
+      "sizeBytes": 662961,
+      "suite": "focal",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/focal/main/binary-all/Packages.gz",
+      "sha256": "08c760a5de92c2c3143c59b4fae4d665953052cecba5ba4cf98ceb262a3b9862",
+      "sizeBytes": 1248,
+      "suite": "focal",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/groovy/main/binary-i386/Packages.gz",
+      "sha256": "d1b6ad90a9f1cdb8b19d7551ebd2b793ce04f574d25bd9e72d3b1e734cdb9117",
+      "sizeBytes": 157583,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/groovy/main/binary-amd64/Packages.gz",
+      "sha256": "b626599748ffe5c372749c155d3cc0ba694ed4644e7f954585c23553b504360b",
+      "sizeBytes": 156929,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/hirsute/main/binary-i386/Packages.gz",
+      "sha256": "fbfc693925f59045540117a32b3a3e7d8afe3bf95d66d636f57c9b5af87b32cb",
+      "sizeBytes": 149249,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/hirsute/main/binary-amd64/Packages.gz",
+      "sha256": "2e7663714c105d7478e73cf0cf516b423e6dfe0bed72d42fcbf1750101320a50",
+      "sizeBytes": 148549,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/hirsute/main/binary-all/Packages.gz",
+      "sha256": "1df8b025ca41e32bf817bf1996a1851cd222dce907be3788c68f19c3557cb7cc",
+      "sizeBytes": 828,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/impish/main/binary-i386/Packages.gz",
+      "sha256": "d802ad7c4e7274393a8c343e7fe626d81878e9e25800854a0f041cb58a83e01c",
+      "sizeBytes": 117311,
+      "suite": "impish",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/impish/main/binary-amd64/Packages.gz",
+      "sha256": "2133af712916d67728e091469fa6c8e3a52618a58df6f336d43d9ea3805ac7a9",
+      "sizeBytes": 117330,
+      "suite": "impish",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/impish/main/binary-all/Packages.gz",
+      "sha256": "11e8eba12d32353723994945c995020a96765d5965f4cb8194a051adf3d50e8e",
+      "sizeBytes": 1251,
+      "suite": "impish",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/kinetic/main/binary-i386/Packages.gz",
+      "sha256": "b57277d187d6d1c30862783ecdb9f5eeb2b5c3c617dcb452a1b15180dbd75618",
+      "sizeBytes": 93071,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/kinetic/main/binary-amd64/Packages.gz",
+      "sha256": "d4b337b1e55927d8b7f23d705df6a16ebc99732ec7147b21988896c5160aedb0",
+      "sizeBytes": 92984,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/lunar/main/binary-i386/Packages.gz",
+      "sha256": "a44dc39d79b7cec4030eb817aa45da0173ce0890f3ca95e95d804248d807db91",
+      "sizeBytes": 94281,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/lunar/main/binary-amd64/Packages.gz",
+      "sha256": "dc843d9f16bc8cda3bc7ba40a002691dc162f28a02a8f2184cdf5a9f3ae643db",
+      "sizeBytes": 94108,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/mantic/main/binary-i386/Packages.gz",
+      "sha256": "a8c7a8c9c50371681296fd8e1734dd3e76578bd9eaae0dbccbd8279fb241a019",
+      "sizeBytes": 98474,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/mantic/main/binary-amd64/Packages.gz",
+      "sha256": "3778a32d4ca636d68740474871ed0f4af4c1bd34fcac6272a8f1b58a9166e193",
+      "sizeBytes": 98363,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/noble/main/binary-amd64/Packages.gz",
+      "sha256": "636a93fd5139608270ad3ed900f493c677f84f1c24c871a7c080837e2fab1090",
+      "sizeBytes": 207263,
+      "suite": "noble",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/noble/main/binary-i386/Packages.gz",
+      "sha256": "f16c83fcb9ebf6d91a13634def86a553a9b7b87822df06329bd2f2b2f23788b9",
+      "sizeBytes": 205500,
+      "suite": "noble",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/oracular/main/binary-amd64/Packages.gz",
+      "sha256": "4f7ab451c0650936d03734bf2f0720330c18547a972484615e832742e35ad072",
+      "sizeBytes": 100453,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/oracular/main/binary-i386/Packages.gz",
+      "sha256": "4da83f10a55d56241ed901e227d3ff444f1d64139b3bdd4a3af9032967b819f0",
+      "sizeBytes": 99463,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/plucky/main/binary-amd64/Packages.gz",
+      "sha256": "88f5812935110f5edae57444f060d203c5aa70019a8927871c6aef18ccbefd21",
+      "sizeBytes": 95297,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/plucky/main/binary-i386/Packages.gz",
+      "sha256": "0e50e3d1cd859e73fd62b179425d6f8136f1a6600aaf9313daf2c34210e954ec",
+      "sizeBytes": 94423,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/questing/main/binary-amd64/Packages.gz",
+      "sha256": "eeb80b7cd9f22284c9665321662670207f8165d6da7334a17f64edfd285ff1bb",
+      "sizeBytes": 46216,
+      "suite": "questing",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/trusty/main/binary-i386/Packages.gz",
+      "sha256": "b792137997ab43a8bc23264fe23e277a5cdb0066466751906f001b73aa12a547",
+      "sizeBytes": 77749,
+      "suite": "trusty",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/trusty/main/binary-amd64/Packages.gz",
+      "sha256": "71aab4cef4d8ce302053d1fe90aad7e3ca2396dbe3817e9a330966862f7e6b7f",
+      "sizeBytes": 79242,
+      "suite": "trusty",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/xenial/main/binary-i386/Packages.gz",
+      "sha256": "f00676aee7f2814f3807dc757eb71f4fc8fb6a0c416d7f5f4ec50cadaff3c1bd",
+      "sizeBytes": 1188079,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/xenial/main/binary-amd64/Packages.gz",
+      "sha256": "0e212367e13716ae81ab885eab62df979487f74ce4a4d8f6f187560ccd759b9b",
+      "sizeBytes": 1126746,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/yakkety/main/binary-amd64/Packages.gz",
+      "sha256": "789c6b08b30abf013556ea8f05294d5b2d9018b8cf0b1f16d084f44c84e2e8a8",
+      "sizeBytes": 32187,
+      "suite": "yakkety",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/yakkety/main/binary-i386/Packages.gz",
+      "sha256": "9b6f876be0b3ad0f3188a13a611b93aefecfa8c6bc675a13d33c093ded000df5",
+      "sizeBytes": 31747,
+      "suite": "yakkety",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/yakkety/main/binary-all/Packages.gz",
+      "sha256": "6ed81212b838793d1873d35280aa2b9d78d4b95dc926ae6b9dffd13957d7b2d9",
+      "sizeBytes": 20,
+      "suite": "yakkety",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/zesty/main/binary-amd64/Packages.gz",
+      "sha256": "c5fb733d015d3a43cae97f6d51192c550c7f9a130e9f3470147af5720e9ebbbb",
+      "sizeBytes": 32162,
+      "suite": "zesty",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/zesty/main/binary-i386/Packages.gz",
+      "sha256": "03d5aacf905d1622d64aa9c90b3adac81347eeb2c71e75df03be251909673827",
+      "sizeBytes": 31702,
+      "suite": "zesty",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/zesty/main/binary-all/Packages.gz",
+      "sha256": "d0f1620777e942fef6b54e9394f1cc262ee814019ea683db8a99b4eb75208d02",
+      "sizeBytes": 20,
+      "suite": "zesty",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/main/binary-amd64/Packages.gz",
+      "sha256": "f7102ceec42ccced3caf85b32be29c27be1e2058e66c58f177e1644db38d2093",
+      "sizeBytes": 435000,
       "suite": "jammy",
       "component": "main",
       "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/main/binary-i386/Packages.gz",
+      "sha256": "3d2d1ef6a65e9d267d2d7baae678a898ef9630dd3a2a0f4763ae4764a2990b28",
+      "sizeBytes": 432043,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "i386"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu artful InRelease [4701 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu artful InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 818A435C5FCBF54A\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu artful InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 818A435C5FCBF54A\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu artful InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu bionic InRelease [6263 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu bionic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu bionic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu bionic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu cosmic InRelease [6257 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu cosmic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu cosmic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu cosmic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu disco InRelease [6257 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu disco InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu disco InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu disco InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu eoan InRelease [6255 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu eoan InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu eoan InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu eoan InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu focal InRelease [8041 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu focal InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu focal InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu groovy InRelease [6259 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu groovy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu groovy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu groovy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu hirsute InRelease [8045 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu hirsute InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu hirsute InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu hirsute InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu impish InRelease [8043 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu impish InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu impish InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu impish InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu kinetic InRelease [6265 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu kinetic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu kinetic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu kinetic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu lunar InRelease [6261 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu lunar InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu lunar InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu lunar InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu mantic InRelease [6263 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu mantic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu mantic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu mantic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu noble InRelease [8910 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu noble InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu noble InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu oracular InRelease [8916 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu oracular InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu oracular InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu oracular InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu plucky InRelease [8912 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu plucky InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu plucky InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu plucky InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu questing InRelease [5719 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu questing InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu questing InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu questing InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu trusty InRelease [6257 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu trusty InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu trusty InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu trusty InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu xenial InRelease [6259 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu xenial InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu xenial InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu yakkety InRelease [4703 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu yakkety InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 818A435C5FCBF54A\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu yakkety InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 818A435C5FCBF54A\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu yakkety InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu zesty InRelease [4699 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu zesty InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 818A435C5FCBF54A\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu zesty InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 818A435C5FCBF54A\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu zesty InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://dl.winehq.org/wine-builds/ubuntu jammy InRelease [8910 B]\nErr:1 https://dl.winehq.org/wine-builds/ubuntu jammy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nReading package lists...\n\nW: GPG error: https://dl.winehq.org/wine-builds/ubuntu jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 76F1A20FF987672F\nE: The repository 'https://dl.winehq.org/wine-builds/ubuntu jammy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
 }

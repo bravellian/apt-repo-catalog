@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-26T16:41:51.537Z",
+  "generatedAt": "2026-01-26T19:47:12.001Z",
   "packageCount": 2,
   "packages": [
     {
@@ -9,9 +9,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/1password-linux-amd64/packages.raw/20260126T164149Z/main/binary-amd64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "8.12.0",
@@ -21,9 +19,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/1password-linux-amd64/packages.raw/20260126T164149Z/main/binary-amd64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "8.12.0",
@@ -77,9 +73,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/1password-linux-amd64/packages.raw/20260126T164149Z/main/binary-amd64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.32.0-3",
@@ -89,9 +83,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/1password-linux-amd64/packages.raw/20260126T164149Z/main/binary-amd64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.32.0-3",

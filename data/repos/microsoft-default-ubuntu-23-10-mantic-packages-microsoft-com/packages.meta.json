@@ -1,56 +1,90 @@
 {
-  "fetchedAt": "2026-01-25T04:42:52.248Z",
+  "fetchedAt": "2026-01-26T20:01:38.831Z",
   "repoId": "microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com",
   "mode": "auto",
   "source": {
-    "line": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/ubuntu/23.10/prod mantic main",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://packages.microsoft.com/ubuntu/23.10/prod",
+    "suites": [
+      {
+        "suite": "mantic",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64,arm64,armhf"
+        }
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "microsoft-ubuntu-mantic-prod mantic",
-    "Label": "microsoft-ubuntu-mantic-prod mantic",
-    "Suite": "mantic",
-    "Codename": "mantic",
-    "Architectures": "amd64 arm64 armhf all",
-    "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-RgS67Z/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_InRelease",
-    "inReleaseSha256": "f5dfc7ac56990847b3287f7128912f79ceeeebc50d621476d211eb80a9f82cce"
-  },
+  "releases": [
+    {
+      "suite": "mantic",
+      "release": {
+        "Origin": "microsoft-ubuntu-mantic-prod mantic",
+        "Label": "microsoft-ubuntu-mantic-prod mantic",
+        "Suite": "mantic",
+        "Codename": "mantic",
+        "Date": "Fri, 23 Jan 2026 06:10:55 +0000",
+        "Architectures": "amd64 arm64 armhf all",
+        "Components": "main",
+        "Acquire-By-Hash": "yes",
+        "SHA512": ""
+      }
+    }
+  ],
   "sources": [
-    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-RgS67Z/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/23.10/prod mantic main"
+    "deb [[object Object signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-gdWWWH/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] ] https://packages.microsoft.com/ubuntu/23.10/prod mantic main",
+    "https://packages.microsoft.com/ubuntu/23.10/prod/dists/mantic/Release",
+    "https://packages.microsoft.com/ubuntu/23.10/prod/dists/mantic/main/binary-amd64/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/23.10/prod/dists/mantic/main/binary-arm64/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/23.10/prod/dists/mantic/main/binary-armhf/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/23.10/prod/dists/mantic/main/binary-all/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-RgS67Z/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/packages.raw/20260125T044252Z/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-all_Packages",
-      "suite": "mantic",
-      "component": "main",
-      "arch": "all"
-    },
-    {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-RgS67Z/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/packages.raw/20260125T044252Z/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-amd64_Packages",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/23.10/prod/dists/mantic/main/binary-amd64/Packages.gz",
+      "sha256": "b6e29b1fce5e23fd8595641ffdd10a3ea10ad9fd9cdb981781871ba9bd10b713",
+      "sizeBytes": 30713,
       "suite": "mantic",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-RgS67Z/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/packages.raw/20260125T044252Z/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-arm64_Packages",
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/23.10/prod/dists/mantic/main/binary-arm64/Packages.gz",
+      "sha256": "1b5df5364a02e6c50f261a5f1fa53dbc7289c67937af9d68700a1eacc43cc4ad",
+      "sizeBytes": 3168,
       "suite": "mantic",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/run-RgS67Z/var/lib/apt/lists/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-armhf_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com/packages.raw/20260125T044252Z/packages.microsoft.com_ubuntu_23.10_prod_dists_mantic_main_binary-armhf_Packages",
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/23.10/prod/dists/mantic/main/binary-armhf/Packages.gz",
+      "sha256": "ccfe0dc5cfa9843ec817228ca51a8a68acf957e3ae1741b441da3a14272d05e6",
+      "sizeBytes": 1350,
       "suite": "mantic",
       "component": "main",
       "arch": "armhf"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/23.10/prod/dists/mantic/main/binary-all/Packages.gz",
+      "sha256": "9dd8acddf32c1fd6bdab11e6db8d4805aaf11e63df62cbca689e564afcbaccbf",
+      "sizeBytes": 583,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "all"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://packages.microsoft.com/ubuntu/23.10/prod mantic InRelease [3606 B]\nErr:1 https://packages.microsoft.com/ubuntu/23.10/prod mantic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EB3E94ADBE1229CF\nReading package lists...\n\nW: GPG error: https://packages.microsoft.com/ubuntu/23.10/prod mantic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EB3E94ADBE1229CF\nE: The repository 'https://packages.microsoft.com/ubuntu/23.10/prod mantic InRelease' is not signed."
+    }
+  ]
 }

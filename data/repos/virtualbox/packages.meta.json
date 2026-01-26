@@ -1,35 +1,1040 @@
 {
-  "fetchedAt": "2026-01-25T04:44:04.691Z",
+  "fetchedAt": "2026-01-26T20:04:20.769Z",
   "repoId": "virtualbox",
   "mode": "auto",
   "source": {
-    "line": "deb https://download.virtualbox.org/virtualbox/debian jammy contrib",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://download.virtualbox.org/virtualbox/debian",
+    "suites": [
+      {
+        "suite": "artful",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bionic",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bookworm",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bullseye",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "buster",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "cosmic",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "disco",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "eoan",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "focal",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "groovy",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "hirsute",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jessie",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "noble",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "oracular",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "plucky",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "stretch",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trixie",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trusty",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "wheezy",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "xenial",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "yakkety",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "zesty",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jammy",
+        "components": [
+          "contrib"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "Oracle Corporation",
-    "Label": "Oracle Corporation",
-    "Suite": null,
-    "Codename": "jammy",
-    "Architectures": "amd64",
-    "Components": "non-free contrib",
-    "inReleasePath": "/tmp/apt-inventory/virtualbox/run-awDhMq/var/lib/apt/lists/download.virtualbox.org_virtualbox_debian_dists_jammy_InRelease",
-    "inReleaseSha256": "36dbbec52f680c683134b5089de33fc8d7ba6a956fb30abb476d13f91001c2e0"
-  },
+  "releases": [
+    {
+      "suite": "artful",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "artful",
+        "Date": "Wed, 11 Dec 2019 11:15:21 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "bionic",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "bionic",
+        "Date": "Fri, 03 May 2024 11:29:34 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "bookworm",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "bookworm",
+        "Date": "Tue, 21 Oct 2025 09:53:14 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "bullseye",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "bullseye",
+        "Date": "Tue, 21 Oct 2025 09:53:20 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "buster",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "buster",
+        "Date": "Thu, 11 Jul 2024 17:47:54 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "cosmic",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "cosmic",
+        "Date": "Fri, 03 May 2024 11:29:35 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "disco",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "disco",
+        "Date": "Fri, 03 May 2024 11:29:36 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "eoan",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "eoan",
+        "Date": "Tue, 11 Oct 2022 18:38:07 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "focal",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "focal",
+        "Date": "Mon, 14 Jul 2025 18:37:00 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "groovy",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "groovy",
+        "Date": "Tue, 11 Oct 2022 18:38:10 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "hirsute",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "hirsute",
+        "Date": "Tue, 11 Oct 2022 18:38:11 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "jessie",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "jessie",
+        "Date": "Thu, 07 Jan 2021 18:50:24 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "noble",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "noble",
+        "Date": "Tue, 21 Oct 2025 09:53:37 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "oracular",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "oracular",
+        "Date": "Thu, 11 Sep 2025 08:43:24 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "plucky",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "plucky",
+        "Date": "Tue, 21 Oct 2025 09:53:42 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "stretch",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "stretch",
+        "Date": "Tue, 16 Jan 2024 15:15:25 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "trixie",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "trixie",
+        "Date": "Tue, 21 Oct 2025 09:53:25 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "trusty",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "trusty",
+        "Date": "Thu, 07 Jan 2021 18:50:48 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "wheezy",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "wheezy",
+        "Date": "Wed, 11 Dec 2019 11:14:24 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "xenial",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "xenial",
+        "Date": "Tue, 11 Oct 2022 18:38:27 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "yakkety",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "yakkety",
+        "Date": "Wed, 11 Dec 2019 11:15:17 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "zesty",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "zesty",
+        "Date": "Wed, 11 Dec 2019 11:15:19 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "non-free contrib"
+      }
+    },
+    {
+      "suite": "jammy",
+      "release": {
+        "Origin": "Oracle Corporation",
+        "Label": "Oracle Corporation",
+        "Codename": "jammy",
+        "Date": "Tue, 21 Oct 2025 09:53:31 UTC",
+        "Architectures": "amd64",
+        "Components": "non-free contrib"
+      }
+    }
+  ],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/virtualbox/run-awDhMq/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian jammy contrib"
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-oSON8V/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian artful contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/artful/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/artful/contrib/binary-i386/Packages.gz",
+    "https://download.virtualbox.org/virtualbox/debian/dists/artful/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-WSVNPM/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian bionic contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/bionic/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/bionic/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-E1IT9h/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian bookworm contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/bookworm/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/bookworm/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-3oISeg/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian bullseye contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/bullseye/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/bullseye/contrib/binary-i386/Packages.gz",
+    "https://download.virtualbox.org/virtualbox/debian/dists/bullseye/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-aDe9jJ/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian buster contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/buster/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/buster/contrib/binary-i386/Packages.gz",
+    "https://download.virtualbox.org/virtualbox/debian/dists/buster/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-p2YibJ/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian cosmic contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/cosmic/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/cosmic/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-pzUAQa/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian disco contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/disco/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/disco/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-2PrLZ5/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian eoan contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/eoan/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/eoan/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-bbVO8Z/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian focal contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/focal/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/focal/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-XjbJAw/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian groovy contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/groovy/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/groovy/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-E97FKE/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian hirsute contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/hirsute/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/hirsute/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-R46kRS/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian jessie contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/jessie/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/jessie/contrib/binary-i386/Packages.gz",
+    "https://download.virtualbox.org/virtualbox/debian/dists/jessie/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-hoiHei/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian noble contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/noble/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/noble/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-LPQkUb/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian oracular contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/oracular/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/oracular/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-Kau1fT/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian plucky contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/plucky/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/plucky/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-a5QO16/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian stretch contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/stretch/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/stretch/contrib/binary-i386/Packages.gz",
+    "https://download.virtualbox.org/virtualbox/debian/dists/stretch/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-FjLzkw/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian trixie contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/trixie/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/trixie/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-8nCoSI/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian trusty contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/trusty/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/trusty/contrib/binary-i386/Packages.gz",
+    "https://download.virtualbox.org/virtualbox/debian/dists/trusty/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-uRNaWr/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian wheezy contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/wheezy/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/wheezy/contrib/binary-i386/Packages.gz",
+    "https://download.virtualbox.org/virtualbox/debian/dists/wheezy/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-30xsMu/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian xenial contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/xenial/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/xenial/contrib/binary-i386/Packages.gz",
+    "https://download.virtualbox.org/virtualbox/debian/dists/xenial/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-ak7aKm/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian yakkety contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/yakkety/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/yakkety/contrib/binary-i386/Packages.gz",
+    "https://download.virtualbox.org/virtualbox/debian/dists/yakkety/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-Ro35hg/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian zesty contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/zesty/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/zesty/contrib/binary-i386/Packages.gz",
+    "https://download.virtualbox.org/virtualbox/debian/dists/zesty/contrib/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/virtualbox/run-5tAajE/keyrings/oracle-vbox2016.gpg] ] https://download.virtualbox.org/virtualbox/debian jammy contrib",
+    "https://download.virtualbox.org/virtualbox/debian/dists/jammy/Release",
+    "https://download.virtualbox.org/virtualbox/debian/dists/jammy/contrib/binary-amd64/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/virtualbox/run-awDhMq/var/lib/apt/lists/download.virtualbox.org_virtualbox_debian_dists_jammy_contrib_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/virtualbox/packages.raw/20260125T044404Z/download.virtualbox.org_virtualbox_debian_dists_jammy_contrib_binary-amd64_Packages",
+      "name": "contrib/binary-i386/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/artful/contrib/binary-i386/Packages.gz",
+      "sha256": "d99a205ced506338725bde1b5386f25bb36f706a794d7f8bfc3d9ed0fd4cce35",
+      "sizeBytes": 1215,
+      "suite": "artful",
+      "component": "contrib",
+      "arch": "i386"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/artful/contrib/binary-amd64/Packages.gz",
+      "sha256": "11226cadac352f56c308986c8083603fbc94694d1fea36245b0566575fc411f8",
+      "sizeBytes": 1208,
+      "suite": "artful",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/bionic/contrib/binary-amd64/Packages.gz",
+      "sha256": "4510ac6cf4510a47ef06b2d8cec41abb2ba99db33875f335ac837ac4b6a8db82",
+      "sizeBytes": 1718,
+      "suite": "bionic",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/bookworm/contrib/binary-amd64/Packages.gz",
+      "sha256": "0252826d45a7253288647adbf0aa8a927b9735c6e5db43a6704204c927b2e0ce",
+      "sizeBytes": 1845,
+      "suite": "bookworm",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-i386/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/bullseye/contrib/binary-i386/Packages.gz",
+      "sha256": "59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2",
+      "sizeBytes": 20,
+      "suite": "bullseye",
+      "component": "contrib",
+      "arch": "i386"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/bullseye/contrib/binary-amd64/Packages.gz",
+      "sha256": "85178193d0f4376b4710fba5246d9c321239240ef774fe169213b4bf4a069c15",
+      "sizeBytes": 1823,
+      "suite": "bullseye",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-i386/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/buster/contrib/binary-i386/Packages.gz",
+      "sha256": "59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2",
+      "sizeBytes": 20,
+      "suite": "buster",
+      "component": "contrib",
+      "arch": "i386"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/buster/contrib/binary-amd64/Packages.gz",
+      "sha256": "bd74d10c113a66cf3539b32dc466e5819bc68a86aa37c2f19e94892952b371a0",
+      "sizeBytes": 1596,
+      "suite": "buster",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/cosmic/contrib/binary-amd64/Packages.gz",
+      "sha256": "0a337034243e5158dfd9d909d446ee889c9f7070b3683a374dc160c68abf7531",
+      "sizeBytes": 1566,
+      "suite": "cosmic",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/disco/contrib/binary-amd64/Packages.gz",
+      "sha256": "0a337034243e5158dfd9d909d446ee889c9f7070b3683a374dc160c68abf7531",
+      "sizeBytes": 1566,
+      "suite": "disco",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/eoan/contrib/binary-amd64/Packages.gz",
+      "sha256": "ae058b04d2c6cdc0a47d962663c7eba2db775afc0935bc630776b0b08ed622a8",
+      "sizeBytes": 1212,
+      "suite": "eoan",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/focal/contrib/binary-amd64/Packages.gz",
+      "sha256": "60dd150f07fcb8e6498c435280cc29b96bce81f5bdf56805e37bc9432d7bba05",
+      "sizeBytes": 1839,
+      "suite": "focal",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/groovy/contrib/binary-amd64/Packages.gz",
+      "sha256": "09ca79f1077856b5595b28185e8c930e6ad56843aeb42560f530b44fe1cdf90d",
+      "sizeBytes": 1014,
+      "suite": "groovy",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/hirsute/contrib/binary-amd64/Packages.gz",
+      "sha256": "09ca79f1077856b5595b28185e8c930e6ad56843aeb42560f530b44fe1cdf90d",
+      "sizeBytes": 1014,
+      "suite": "hirsute",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-i386/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/jessie/contrib/binary-i386/Packages.gz",
+      "sha256": "5f4c85f909e3dc644cbc41cdefe200c0540322bdffc08635c81d10045b92db27",
+      "sizeBytes": 1653,
+      "suite": "jessie",
+      "component": "contrib",
+      "arch": "i386"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/jessie/contrib/binary-amd64/Packages.gz",
+      "sha256": "26677631344f9360ea24c60e32bdd31431cbafd056ced2350da54330895addcd",
+      "sizeBytes": 1948,
+      "suite": "jessie",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/noble/contrib/binary-amd64/Packages.gz",
+      "sha256": "6223eecced060e2a4ee6e48e2c4f9c2da6746c819c3d86cc7ca40985bc4ea132",
+      "sizeBytes": 1738,
+      "suite": "noble",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/oracular/contrib/binary-amd64/Packages.gz",
+      "sha256": "2dcbb751cf8fd0c188c4f5fb4a9c25886d32d3c1a534ed2ff9066cc157078ea7",
+      "sizeBytes": 1744,
+      "suite": "oracular",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/plucky/contrib/binary-amd64/Packages.gz",
+      "sha256": "5fe58889736a256cba7c46b9a05ceb1a046e14a265febf28449fdb5b3a2f0014",
+      "sizeBytes": 1174,
+      "suite": "plucky",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-i386/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/stretch/contrib/binary-i386/Packages.gz",
+      "sha256": "65c3665c8d50d23028be15459b9df24fa15bab183f5846e9493a43a1b37b8924",
+      "sizeBytes": 1425,
+      "suite": "stretch",
+      "component": "contrib",
+      "arch": "i386"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/stretch/contrib/binary-amd64/Packages.gz",
+      "sha256": "87558853e8310818f8091e2ffd712a28294d56a7baa52d41b2cda244fdfa3f09",
+      "sizeBytes": 1726,
+      "suite": "stretch",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/trixie/contrib/binary-amd64/Packages.gz",
+      "sha256": "810dd9ddee7de9ddf543eaceb010855316793948933bcc9d60d0bd71e8bf21a9",
+      "sizeBytes": 1154,
+      "suite": "trixie",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-i386/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/trusty/contrib/binary-i386/Packages.gz",
+      "sha256": "6cf1cf199c79e70e663557bc29d771c2138cd55e0cc43817e3048766166aed8a",
+      "sizeBytes": 1733,
+      "suite": "trusty",
+      "component": "contrib",
+      "arch": "i386"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/trusty/contrib/binary-amd64/Packages.gz",
+      "sha256": "1edd3510afe10d1dd87dded77941c7e5fc8f8c7fcccad12c4272a1c2737d9ef3",
+      "sizeBytes": 2031,
+      "suite": "trusty",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-i386/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/wheezy/contrib/binary-i386/Packages.gz",
+      "sha256": "10cbd23f73be71d100e60a5653112d34ab48d4decfed1c27064c9bc4a3082ac6",
+      "sizeBytes": 1826,
+      "suite": "wheezy",
+      "component": "contrib",
+      "arch": "i386"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/wheezy/contrib/binary-amd64/Packages.gz",
+      "sha256": "e15b932d4d0bba11bb6c9e3b49c235dbac46d65a20f4be8982fe245b7b46c707",
+      "sizeBytes": 1823,
+      "suite": "wheezy",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-i386/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/xenial/contrib/binary-i386/Packages.gz",
+      "sha256": "7d40169cb19ca76b46d44252fb983daed03ea9c4a86d0ce736c459c0eb5acea3",
+      "sizeBytes": 1489,
+      "suite": "xenial",
+      "component": "contrib",
+      "arch": "i386"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/xenial/contrib/binary-amd64/Packages.gz",
+      "sha256": "7536f6e20a5f957e7b8fd1c9f002e683fa934e0104e1cf35553759e9ee050776",
+      "sizeBytes": 1799,
+      "suite": "xenial",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-i386/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/yakkety/contrib/binary-i386/Packages.gz",
+      "sha256": "b374584def9fa1abf598e783b57b05c8051888d88984d2748ed5e7be4cb75efc",
+      "sizeBytes": 1208,
+      "suite": "yakkety",
+      "component": "contrib",
+      "arch": "i386"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/yakkety/contrib/binary-amd64/Packages.gz",
+      "sha256": "7ba47415a7ea012fbcd892142ffd5a631c12a802482b8ad85e3021691410f023",
+      "sizeBytes": 1209,
+      "suite": "yakkety",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-i386/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/zesty/contrib/binary-i386/Packages.gz",
+      "sha256": "d99a205ced506338725bde1b5386f25bb36f706a794d7f8bfc3d9ed0fd4cce35",
+      "sizeBytes": 1215,
+      "suite": "zesty",
+      "component": "contrib",
+      "arch": "i386"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/zesty/contrib/binary-amd64/Packages.gz",
+      "sha256": "11226cadac352f56c308986c8083603fbc94694d1fea36245b0566575fc411f8",
+      "sizeBytes": 1208,
+      "suite": "zesty",
+      "component": "contrib",
+      "arch": "amd64"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://download.virtualbox.org/virtualbox/debian/dists/jammy/contrib/binary-amd64/Packages.gz",
+      "sha256": "4439948037659e9cd8fcfa691966c73aecfc5a28de1244fc12d9b5fdf4448500",
+      "sizeBytes": 1830,
       "suite": "jammy",
       "component": "contrib",
       "arch": "amd64"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian artful InRelease [7775 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian artful InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian artful InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian artful InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian bionic InRelease [4432 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian bionic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian bionic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian bionic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian bookworm InRelease [4448 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian bookworm InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian bookworm InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian bullseye InRelease [7752 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian bullseye InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian bullseye InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian bullseye InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian buster InRelease [7736 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian buster InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian buster InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian buster InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian cosmic InRelease [4432 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian cosmic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian cosmic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian cosmic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian disco InRelease [4431 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian disco InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian disco InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian disco InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian eoan InRelease [4427 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian eoan InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian eoan InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian eoan InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian focal InRelease [4431 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian focal InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian focal InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian groovy InRelease [4429 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian groovy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian groovy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian groovy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian hirsute InRelease [4430 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian hirsute InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian hirsute InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian hirsute InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian jessie InRelease [7886 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian jessie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF NO_PUBKEY 54422A4B98AB5139\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian jessie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF NO_PUBKEY 54422A4B98AB5139\nE: The repository 'https://download.virtualbox.org/virtualbox/debian jessie InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian noble InRelease [4442 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian noble InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian noble InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian oracular InRelease [4445 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian oracular InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian oracular InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian oracular InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian plucky InRelease [4440 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian plucky InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian plucky InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian plucky InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian stretch InRelease [7782 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian stretch InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian stretch InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian stretch InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian trixie InRelease [4440 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian trixie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian trixie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian trixie InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian trusty InRelease [7144 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian trusty InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 54422A4B98AB5139\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian trusty InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 54422A4B98AB5139\nE: The repository 'https://download.virtualbox.org/virtualbox/debian trusty InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian wheezy InRelease [7147 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian wheezy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 54422A4B98AB5139\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian wheezy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 54422A4B98AB5139\nE: The repository 'https://download.virtualbox.org/virtualbox/debian wheezy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian xenial InRelease [7883 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian xenial InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF NO_PUBKEY 54422A4B98AB5139\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF NO_PUBKEY 54422A4B98AB5139\nE: The repository 'https://download.virtualbox.org/virtualbox/debian xenial InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian yakkety InRelease [7776 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian yakkety InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian yakkety InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian yakkety InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian zesty InRelease [7774 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian zesty InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian zesty InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian zesty InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.virtualbox.org/virtualbox/debian jammy InRelease [4445 B]\nErr:1 https://download.virtualbox.org/virtualbox/debian jammy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nReading package lists...\n\nW: GPG error: https://download.virtualbox.org/virtualbox/debian jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF\nE: The repository 'https://download.virtualbox.org/virtualbox/debian jammy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
 }

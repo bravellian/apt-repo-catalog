@@ -1,56 +1,90 @@
 {
-  "fetchedAt": "2026-01-25T04:42:54.328Z",
+  "fetchedAt": "2026-01-26T20:01:44.499Z",
   "repoId": "microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com",
   "mode": "auto",
   "source": {
-    "line": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/ubuntu/25.04/prod plucky main",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://packages.microsoft.com/ubuntu/25.04/prod",
+    "suites": [
+      {
+        "suite": "plucky",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64,arm64,armhf"
+        }
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "microsoft-ubuntu-plucky-prod plucky",
-    "Label": "microsoft-ubuntu-plucky-prod plucky",
-    "Suite": "plucky",
-    "Codename": "plucky",
-    "Architectures": "amd64 arm64 armhf all",
-    "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-6IvdC5/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_InRelease",
-    "inReleaseSha256": "d345b87f37a18971fa02c387dc22f3e81ae83361ffe49565e18a6abbd0cade8c"
-  },
+  "releases": [
+    {
+      "suite": "plucky",
+      "release": {
+        "Origin": "microsoft-ubuntu-plucky-prod plucky",
+        "Label": "microsoft-ubuntu-plucky-prod plucky",
+        "Suite": "plucky",
+        "Codename": "plucky",
+        "Date": "Fri, 23 Jan 2026 06:11:57 +0000",
+        "Architectures": "amd64 arm64 armhf all",
+        "Components": "main",
+        "Acquire-By-Hash": "yes",
+        "SHA512": ""
+      }
+    }
+  ],
   "sources": [
-    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-6IvdC5/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/25.04/prod plucky main"
+    "deb [[object Object signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-enYQhI/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] ] https://packages.microsoft.com/ubuntu/25.04/prod plucky main",
+    "https://packages.microsoft.com/ubuntu/25.04/prod/dists/plucky/Release",
+    "https://packages.microsoft.com/ubuntu/25.04/prod/dists/plucky/main/binary-amd64/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/25.04/prod/dists/plucky/main/binary-arm64/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/25.04/prod/dists/plucky/main/binary-armhf/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/25.04/prod/dists/plucky/main/binary-all/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-6IvdC5/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-all_Packages",
-      "suite": "plucky",
-      "component": "main",
-      "arch": "all"
-    },
-    {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-6IvdC5/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/25.04/prod/dists/plucky/main/binary-amd64/Packages.gz",
+      "sha256": "dde110e335dcdf24294b007f514f076f57376d04ab4207db00adf89186aa0b79",
+      "sizeBytes": 2471,
       "suite": "plucky",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-6IvdC5/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/25.04/prod/dists/plucky/main/binary-arm64/Packages.gz",
+      "sha256": "b8ac03a5cf870131dc55b890cb30637d70f4c6ba18e3e89d700223eb771cf3c3",
+      "sizeBytes": 1268,
       "suite": "plucky",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/run-6IvdC5/var/lib/apt/lists/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages",
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/25.04/prod/dists/plucky/main/binary-armhf/Packages.gz",
+      "sha256": "63fb0244d872ca0c5f40a32f529d1bdd09530e139e8d152457296f9e860d83c5",
+      "sizeBytes": 573,
       "suite": "plucky",
       "component": "main",
       "arch": "armhf"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/25.04/prod/dists/plucky/main/binary-all/Packages.gz",
+      "sha256": "71f0bdf482f1fea4ec7533316b128c4ea81bf6f2d4f5d8c8ec7c530345de7656",
+      "sizeBytes": 346,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "all"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://packages.microsoft.com/ubuntu/25.04/prod plucky InRelease [3606 B]\nErr:1 https://packages.microsoft.com/ubuntu/25.04/prod plucky InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EB3E94ADBE1229CF\nReading package lists...\n\nW: GPG error: https://packages.microsoft.com/ubuntu/25.04/prod plucky InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EB3E94ADBE1229CF\nE: The repository 'https://packages.microsoft.com/ubuntu/25.04/prod plucky InRelease' is not signed."
+    }
+  ]
 }

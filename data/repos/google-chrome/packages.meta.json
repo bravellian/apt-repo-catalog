@@ -1,35 +1,65 @@
 {
-  "fetchedAt": "2026-01-25T04:44:12.854Z",
+  "fetchedAt": "2026-01-26T19:57:17.930Z",
   "repoId": "google-chrome",
   "mode": "auto",
   "source": {
-    "line": "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main",
-    "suite": null,
-    "components": null,
+    "baseUrl": "http://dl.google.com/linux/chrome/deb",
+    "suites": [
+      {
+        "suite": "stable",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "Google LLC",
-    "Label": "Google",
-    "Suite": "stable",
-    "Codename": "stable",
-    "Architectures": "amd64",
-    "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/google-chrome/run-pVVFXJ/var/lib/apt/lists/dl.google.com_linux_chrome_deb_dists_stable_InRelease",
-    "inReleaseSha256": "7918966539bf4ad1250f93b3e597ba87dd7f9b7ff5188c52bca7b41cfd38dd54"
-  },
+  "releases": [
+    {
+      "suite": "stable",
+      "release": {
+        "Origin": "Google LLC",
+        "Label": "Google",
+        "Suite": "stable",
+        "Codename": "stable",
+        "Version": "1.0",
+        "Date": "Mon, 26 Jan 2026 18:40:52 UTC",
+        "Architectures": "amd64",
+        "Components": "main",
+        "Description": "Google chrome-linux software repository"
+      }
+    }
+  ],
   "sources": [
-    "deb [arch=amd64 signed-by=/tmp/apt-inventory/google-chrome/run-pVVFXJ/keyrings/google-linux.gpg] http://dl.google.com/linux/chrome/deb/ stable main"
+    "deb [[object Object signed-by=/tmp/apt-inventory/google-chrome/run-94mkFv/keyrings/google-linux.gpg] ] http://dl.google.com/linux/chrome/deb stable main",
+    "http://dl.google.com/linux/chrome/deb/dists/stable/Release",
+    "http://dl.google.com/linux/chrome/deb/dists/stable/main/binary-amd64/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/google-chrome/run-pVVFXJ/var/lib/apt/lists/dl.google.com_linux_chrome_deb_dists_stable_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-chrome/packages.raw/20260125T044412Z/dl.google.com_linux_chrome_deb_dists_stable_main_binary-amd64_Packages",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://dl.google.com/linux/chrome/deb/dists/stable/main/binary-amd64/Packages.gz",
+      "sha256": "9bcce03887f94b1f3beee9bb3f8a7deb57ce57fe68b9c5af31b30392c4fbf857",
+      "sizeBytes": 1210,
       "suite": "stable",
       "component": "main",
       "arch": "amd64"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://dl.google.com/linux/chrome/deb stable InRelease [1825 B]\nErr:1 http://dl.google.com/linux/chrome/deb stable InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 32EE5355A6BC6E42\nReading package lists...\n\nW: GPG error: http://dl.google.com/linux/chrome/deb stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 32EE5355A6BC6E42\nE: The repository 'http://dl.google.com/linux/chrome/deb stable InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
 }

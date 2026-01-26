@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-25T07:09:16.002Z",
+  "generatedAt": "2026-01-26T20:01:00.016Z",
   "packageCount": 33,
   "packages": [
     {
@@ -9,10 +9,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "10.0.2",
@@ -23,10 +20,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.1",
@@ -37,10 +31,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.0",
@@ -51,10 +42,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "10.0.2",
@@ -93,9 +81,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "8.0.23-1",
@@ -105,9 +91,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.22-1",
@@ -117,9 +101,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "8.0.23-1",
@@ -155,9 +137,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.0.12-1",
@@ -167,9 +147,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.11-1",
@@ -179,9 +157,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.0.12-1",
@@ -217,10 +193,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "10.0.2",
@@ -231,10 +204,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.1",
@@ -245,10 +215,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.0",
@@ -259,10 +226,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "10.0.2",
@@ -301,9 +265,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "8.0.23-1",
@@ -313,9 +275,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.22-1",
@@ -325,9 +285,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "8.0.23-1",
@@ -363,9 +321,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.0.12-1",
@@ -375,9 +331,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.11-1",
@@ -387,9 +341,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.0.12-1",
@@ -425,10 +377,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "10.0.2",
@@ -439,10 +388,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.1",
@@ -453,10 +399,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.0",
@@ -467,10 +410,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "10.0.2",
@@ -505,9 +445,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "8.0.23-1",
@@ -517,9 +455,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.22-1",
@@ -529,9 +465,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "8.0.23-1",
@@ -564,9 +498,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.0.12-1",
@@ -576,9 +508,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.11-1",
@@ -588,9 +518,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.0.12-1",
@@ -623,10 +551,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "10.0.2",
@@ -637,10 +562,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.1",
@@ -651,10 +573,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.0",
@@ -665,10 +584,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.12-1",
@@ -678,9 +594,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.11-1",
@@ -690,9 +604,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.23-1",
@@ -702,9 +614,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.22-1",
@@ -714,9 +624,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "10.0.2",
@@ -758,10 +666,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "10.0.2",
@@ -772,10 +677,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.1",
@@ -786,10 +688,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.0",
@@ -800,10 +699,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "10.0.2",
@@ -845,9 +741,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "8.0.23-1",
@@ -857,9 +751,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.22-1",
@@ -869,9 +761,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "8.0.23-1",
@@ -910,9 +800,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.0.12-1",
@@ -922,9 +810,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.11-1",
@@ -934,9 +820,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.0.12-1",
@@ -975,10 +859,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "10.0.2",
@@ -989,10 +870,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.1",
@@ -1003,10 +881,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.0",
@@ -1017,10 +892,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "10.0.2",
@@ -1062,9 +934,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "8.0.23-1",
@@ -1074,9 +944,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.22-1",
@@ -1086,9 +954,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "8.0.23-1",
@@ -1126,9 +992,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.0.12-1",
@@ -1138,9 +1002,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.11-1",
@@ -1150,9 +1012,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.0.12-1",
@@ -1190,10 +1050,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "10.0.2",
@@ -1204,10 +1061,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.1",
@@ -1218,10 +1072,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.0",
@@ -1232,10 +1083,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "10.0.2",
@@ -1277,9 +1125,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "8.0.23-1",
@@ -1289,9 +1135,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.22-1",
@@ -1301,9 +1145,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "8.0.23-1",
@@ -1344,9 +1186,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.0.12-1",
@@ -1356,9 +1196,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.11-1",
@@ -1368,9 +1206,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.0.12-1",
@@ -1411,10 +1247,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "10.0.102",
@@ -1425,10 +1258,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.101",
@@ -1439,10 +1269,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.100",
@@ -1453,10 +1280,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "10.0.102",
@@ -1507,9 +1331,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "8.0.417-1",
@@ -1519,9 +1341,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.416-1",
@@ -1531,9 +1351,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.319-1",
@@ -1543,9 +1361,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.123-1",
@@ -1555,9 +1371,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.122-1",
@@ -1567,9 +1381,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "8.0.417-1",
@@ -1614,9 +1426,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.0.310-1",
@@ -1626,9 +1436,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.309-1",
@@ -1638,9 +1446,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.308-1",
@@ -1650,9 +1456,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.307-1",
@@ -1662,9 +1466,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.113-1",
@@ -1674,9 +1476,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.112-1",
@@ -1686,9 +1486,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.0.310-1",
@@ -1733,10 +1531,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "10.0.2",
@@ -1747,10 +1542,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.1",
@@ -1761,10 +1553,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "10.0.0",
@@ -1775,10 +1564,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "10.0.2",
@@ -1813,9 +1599,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "8.0.23-1",
@@ -1825,9 +1609,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "8.0.22-1",
@@ -1837,9 +1619,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "8.0.23-1",
@@ -1872,9 +1652,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.0.12-1",
@@ -1884,9 +1662,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.11-1",
@@ -1896,9 +1672,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.0.12-1",
@@ -1931,11 +1705,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-armhf_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.5.6",
@@ -1947,11 +1717,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-armhf_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "2.4.17",
@@ -1963,11 +1729,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-armhf_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "2.4.16",
@@ -1979,11 +1741,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-armhf_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "2.4.15",
@@ -1995,11 +1753,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-armhf_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.5.6",
@@ -2045,10 +1799,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "101.25102.0005",
@@ -2059,10 +1810,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "101.25102.0005",
@@ -2100,10 +1848,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "18.6.1.1-1",
@@ -2114,10 +1859,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "18.6.1.1-1",
@@ -2165,10 +1907,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "18.6.1.1-1",
@@ -2179,10 +1918,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "18.6.1.1-1",
@@ -2224,9 +1960,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.1.0-1",
@@ -2236,9 +1970,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.1.0-1",
@@ -2271,9 +2003,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.9.3.0",
@@ -2283,9 +2013,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.9.3.0",
@@ -2323,9 +2051,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-all_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.1-debian13",
@@ -2335,9 +2061,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-all_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.1-debian13",
@@ -2372,9 +2096,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.9.3.0",
@@ -2384,9 +2106,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.9.3.0",

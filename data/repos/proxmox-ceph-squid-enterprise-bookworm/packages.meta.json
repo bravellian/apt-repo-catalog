@@ -1,17 +1,24 @@
 {
-  "fetchedAt": "2026-01-25T04:44:00.209Z",
+  "fetchedAt": "2026-01-26T20:02:30.584Z",
   "repoId": "proxmox-ceph-squid-enterprise-bookworm",
   "mode": "auto",
   "source": {
-    "line": "deb https://enterprise.proxmox.com/debian/ceph-squid bookworm enterprise",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://enterprise.proxmox.com/debian/ceph-squid",
+    "suites": [
+      {
+        "suite": "bookworm",
+        "components": [
+          "enterprise"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": null,
+  "releases": [],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/proxmox-ceph-squid-enterprise-bookworm/run-5kyyW5/keyrings/proxmox-release-bookworm.gpg] https://enterprise.proxmox.com/debian/ceph-squid bookworm enterprise",
+    "deb [[object Object signed-by=/tmp/apt-inventory/proxmox-ceph-squid-enterprise-bookworm/run-22SsPf/keyrings/proxmox-release-bookworm.gpg] ] https://enterprise.proxmox.com/debian/ceph-squid bookworm enterprise",
     "https://enterprise.proxmox.com/debian/ceph-squid/dists/bookworm/Release",
     "https://enterprise.proxmox.com/debian/ceph-squid/dists/bookworm/InRelease"
   ],
@@ -20,7 +27,7 @@
     {
       "stage": "apt-get",
       "message": "apt-get update failed",
-      "detail": "Err:1 https://enterprise.proxmox.com/debian/ceph-squid bookworm InRelease\n  401  Unauthorized [IP: 66.70.154.82 443]\nReading package lists...\n\nE: Failed to fetch https://enterprise.proxmox.com/debian/ceph-squid/dists/bookworm/InRelease  401  Unauthorized [IP: 66.70.154.82 443]\nE: The repository 'https://enterprise.proxmox.com/debian/ceph-squid bookworm InRelease' is not signed."
+      "detail": "Err:1 https://enterprise.proxmox.com/debian/ceph-squid bookworm InRelease\n  401  Unauthorized [IP: 170.130.165.90 443]\nReading package lists...\n\nE: Failed to fetch https://enterprise.proxmox.com/debian/ceph-squid/dists/bookworm/InRelease  401  Unauthorized [IP: 170.130.165.90 443]\nE: The repository 'https://enterprise.proxmox.com/debian/ceph-squid bookworm InRelease' is not signed."
     },
     {
       "stage": "release",

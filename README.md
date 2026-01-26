@@ -64,7 +64,7 @@ Discovery now supports a suite-only verification pass to keep it lightweight. Us
 Suite-only verification (Release/InRelease only):
 
 ```bash
-node scripts/discovery/index.mjs verify --suite-only
+node scripts/apt-inventory.mjs verify-repos --suite-only
 ```
 
 When ready to index packages, run inventory separately:

@@ -1,0 +1,2060 @@
+{
+  "fetchedAt": "2026-01-26T20:03:38.662Z",
+  "repoId": "tailscale-ubuntu-jammy",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://pkgs.tailscale.com/stable/ubuntu",
+    "suites": [
+      {
+        "suite": "bionic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "eoan",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "focal",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "groovy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "hirsute",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "impish",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "kinetic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "lunar",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "mantic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "noble",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "oracular",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "plucky",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "questing",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "xenial",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jammy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "bionic",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "bionic",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "eoan",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "eoan",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "focal",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "focal",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "groovy",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "groovy",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "hirsute",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "hirsute",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "impish",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "impish",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "kinetic",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "kinetic",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "lunar",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "lunar",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "mantic",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "mantic",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "noble",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "noble",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "oracular",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "oracular",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "plucky",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "plucky",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "questing",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "questing",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "xenial",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "xenial",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "jammy",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "jammy",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-hieZgp/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu bionic main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-mv1AsL/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu eoan main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-gMSGX3/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu focal main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-BQtOLd/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu groovy main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-DTLUUC/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu hirsute main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-FyOdfQ/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu impish main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-rxvbOV/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu kinetic main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-KeHO4m/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu lunar main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-JdpShb/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu mantic main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-EDvekf/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu noble main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-m2oXSK/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu oracular main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-FrBuAx/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu plucky main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-TbDdA5/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu questing main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-qSwAjQ/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu xenial main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-ubuntu-jammy/run-ghUNqH/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/ubuntu jammy main",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/Release",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-riscv64/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/bionic/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "bionic",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/eoan/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "eoan",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "focal",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "focal",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "focal",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "focal",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "focal",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "focal",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "focal",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "focal",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "focal",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "focal",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/focal/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "focal",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/groovy/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "groovy",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/hirsute/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "impish",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "impish",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "impish",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "impish",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "impish",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "impish",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "impish",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "impish",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "impish",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "impish",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/impish/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "impish",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/kinetic/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "kinetic",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/lunar/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "lunar",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/mantic/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "mantic",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "noble",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "noble",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "noble",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "noble",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "noble",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "noble",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "noble",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "noble",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "noble",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "noble",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/noble/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "noble",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/oracular/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/plucky/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "questing",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "questing",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "questing",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "questing",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "questing",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "questing",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "questing",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "questing",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "questing",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "questing",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/questing/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "questing",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/xenial/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "xenial",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/dists/jammy/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "riscv64"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu bionic InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu bionic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu bionic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu bionic InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu eoan InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu eoan InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu eoan InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu eoan InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu focal InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu focal InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu focal InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu groovy InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu groovy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu groovy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu groovy InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu hirsute InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu hirsute InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu hirsute InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu hirsute InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu impish InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu impish InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu impish InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu impish InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu kinetic InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu kinetic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu kinetic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu kinetic InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu lunar InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu lunar InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu lunar InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu lunar InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu mantic InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu mantic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu mantic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu mantic InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu noble InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu noble InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu noble InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu oracular InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu oracular InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu oracular InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu oracular InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu plucky InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu plucky InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu plucky InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu plucky InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu questing InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu questing InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu questing InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu questing InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu xenial InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu xenial InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu xenial InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/ubuntu jammy InRelease\nErr:1 https://pkgs.tailscale.com/stable/ubuntu jammy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/ubuntu jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/ubuntu jammy InRelease' is not signed."
+    }
+  ]
+}

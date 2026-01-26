@@ -85,6 +85,7 @@ const defaultConfig = {
     minOccurrencesForCuration: 2,
     minDistinctSourcesForCuration: 2,
     requireAllowlistForCuration: false,
+    allowlistBypassesThresholds: true,
     maxEvidencePerRepo: 25,
     compactVerification: true
   },
@@ -113,13 +114,28 @@ const defaultConfig = {
 };
 
 export async function loadConfig({ configPath, root }) {
-  if (!configPath) {
-    return defaultConfig;
+  let merged = defaultConfig;
+  if (configPath) {
+    const resolved = path.isAbsolute(configPath) ? configPath : path.join(root, configPath);
+    const raw = await readFile(resolved, "utf8");
+    const parsed = JSON.parse(raw);
+    merged = mergeConfig(defaultConfig, parsed);
   }
-  const resolved = path.isAbsolute(configPath) ? configPath : path.join(root, configPath);
-  const raw = await readFile(resolved, "utf8");
-  const parsed = JSON.parse(raw);
-  return mergeConfig(defaultConfig, parsed);
+
+  const allowlistHosts = await loadAllowlist({ root });
+  if (allowlistHosts.length > 0) {
+    merged = {
+      ...merged,
+      discovery: {
+        ...merged.discovery,
+        allowedDomains: uniqueSorted([
+          ...(merged.discovery?.allowedDomains ?? []),
+          ...allowlistHosts
+        ])
+      }
+    };
+  }
+  return merged;
 }
 
 function mergeConfig(base, override) {
@@ -134,6 +150,25 @@ function mergeConfig(base, override) {
     return merged;
   }
   return override === undefined ? base : override;
+}
+
+async function loadAllowlist({ root }) {
+  if (!root) {
+    return [];
+  }
+  const allowlistPath = path.join(root, "data", "discovery", "allowlist-bucket-b.json");
+  try {
+    const raw = await readFile(allowlistPath, "utf8");
+    const parsed = JSON.parse(raw);
+    const entries = Array.isArray(parsed?.entries) ? parsed.entries : [];
+    return entries.map((entry) => entry.host).filter(Boolean);
+  } catch {
+    return [];
+  }
+}
+
+function uniqueSorted(values) {
+  return Array.from(new Set(values.filter(Boolean))).sort((a, b) => a.localeCompare(b));
 }
 
 export function getDefaultConfig() {

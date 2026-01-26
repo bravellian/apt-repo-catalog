@@ -1,0 +1,34 @@
+{
+  "fetchedAt": "2026-01-26T20:00:01.608Z",
+  "repoId": "kubernetes-core-stable-v1-35-generic",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://pkgs.k8s.io/core:/stable:/v1.35/deb",
+    "suites": [
+      {
+        "suite": "/",
+        "components": [],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/kubernetes-core-stable-v1-35-generic/run-dM6b5U/keyrings/kubernetes-release-key-234654da9a296436.gpg] ] https://pkgs.k8s.io/core:/stable:/v1.35/deb /"
+  ],
+  "packageFiles": [],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://prod-cdn.packages.k8s.io/repositories/isv:/kubernetes:/core:/stable:/v1.35/deb  InRelease [1227 B]\nErr:1 https://prod-cdn.packages.k8s.io/repositories/isv:/kubernetes:/core:/stable:/v1.35/deb  InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 234654DA9A296436\nReading package lists...\n\nW: GPG error: https://prod-cdn.packages.k8s.io/repositories/isv:/kubernetes:/core:/stable:/v1.35/deb  InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 234654DA9A296436\nE: The repository 'https://pkgs.k8s.io/core:/stable:/v1.35/deb  InRelease' is not signed."
+    },
+    {
+      "stage": "release",
+      "message": "Direct fetch requires a standard dists/<suite> layout",
+      "detail": "baseUrl=https://pkgs.k8s.io/core:/stable:/v1.35/deb suite=/"
+    }
+  ]
+}

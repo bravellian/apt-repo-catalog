@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-26T16:43:09.183Z",
+  "fetchedAt": "2026-01-26T19:48:52.029Z",
   "repoId": "elastic-9-x",
   "mode": "auto",
   "source": {
@@ -32,7 +32,7 @@
     }
   ],
   "sources": [
-    "deb [[object Object signed-by=/tmp/apt-inventory/elastic-9-x/run-7IfbvD/keyrings/elasticsearch.gpg] ] https://artifacts.elastic.co/packages/9.x/apt stable main",
+    "deb [[object Object signed-by=/tmp/apt-inventory/elastic-9-x/run-LAL66B/keyrings/elasticsearch.gpg] ] https://artifacts.elastic.co/packages/9.x/apt stable main",
     "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/Release",
     "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-amd64/Packages.gz",
     "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-arm64/Packages.gz",
@@ -40,22 +40,28 @@
   ],
   "packageFiles": [
     {
-      "source": "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-amd64/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-amd64/Packages.gz",
+      "sha256": "b7f48231067f2b484ebcd63dbd2cae02a76eddf80615ca90c9e8d954100fe151",
+      "sizeBytes": 35179,
       "suite": "stable",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-arm64/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz",
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-arm64/Packages.gz",
+      "sha256": "d614e47f4a1d9d11449bbba76882214975014fabd0e27937b1f9d7cdb12be4e2",
+      "sizeBytes": 35021,
       "suite": "stable",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-i386/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-i386/Packages.gz",
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-i386/Packages.gz",
+      "sha256": "ac73670af3abed54ac6fb4695131f4099be9fbe39d6076c5d0264a6bbdae9d83",
+      "sizeBytes": 20,
       "suite": "stable",
       "component": "main",
       "arch": "i386"

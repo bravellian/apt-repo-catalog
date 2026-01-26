@@ -1,56 +1,221 @@
 {
-  "fetchedAt": "2026-01-25T04:43:15.313Z",
+  "fetchedAt": "2026-01-26T19:57:52.910Z",
   "repoId": "kali-rolling",
   "mode": "auto",
   "source": {
-    "line": "deb https://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://http.kali.org/kali",
+    "suites": [
+      {
+        "suite": "kali-rolling",
+        "components": [
+          "contrib",
+          "main",
+          "non-free",
+          "non-free-firmware"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "Kali",
-    "Label": null,
-    "Suite": "kali-rolling",
-    "Codename": "kali-rolling",
-    "Architectures": "i386 amd64 armhf arm64",
-    "Components": "main contrib non-free non-free-firmware",
-    "inReleasePath": "/tmp/apt-inventory/kali-rolling/run-ue47q4/var/lib/apt/lists/http.kali.org_kali_dists_kali-rolling_InRelease",
-    "inReleaseSha256": "40543b81b77b121a0496c05c6bd8aa3abb3589af5a794ab0a5c9674a6a247ccc"
-  },
+  "releases": [
+    {
+      "suite": "kali-rolling",
+      "release": {
+        "Origin": "Kali",
+        "Suite": "kali-rolling",
+        "Codename": "kali-rolling",
+        "Date": "Mon, 26 Jan 2026 18:04:23 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main contrib non-free non-free-firmware",
+        "Description": "Kali's official continuously updated distribution"
+      }
+    }
+  ],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/kali-rolling/run-ue47q4/keyrings/kali-archive-keyring.gpg] https://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware"
+    "deb [[object Object signed-by=/tmp/apt-inventory/kali-rolling/run-JZkslH/keyrings/kali-archive-keyring.gpg] ] https://http.kali.org/kali kali-rolling contrib main non-free non-free-firmware",
+    "https://http.kali.org/kali/dists/kali-rolling/Release",
+    "https://http.kali.org/kali/dists/kali-rolling/contrib/binary-i386/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/contrib/binary-amd64/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/contrib/binary-armhf/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/contrib/binary-arm64/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/main/binary-i386/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/main/binary-amd64/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/main/binary-armhf/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/main/binary-arm64/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/non-free/binary-i386/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/non-free/binary-amd64/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/non-free/binary-armhf/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/non-free/binary-arm64/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/non-free-firmware/binary-i386/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/non-free-firmware/binary-amd64/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/non-free-firmware/binary-armhf/Packages.gz",
+    "https://http.kali.org/kali/dists/kali-rolling/non-free-firmware/binary-arm64/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/kali-rolling/run-ue47q4/var/lib/apt/lists/http.kali.org_kali_dists_kali-rolling_contrib_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kali-rolling/packages.raw/20260125T044315Z/http.kali.org_kali_dists_kali-rolling_contrib_binary-amd64_Packages",
+      "name": "contrib/binary-i386/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/contrib/binary-i386/Packages.gz",
+      "sha256": "7e1039b5ee26e250a217e3be75f233374a9f1bd67c7fc989e1d6f6eb83d4e32c",
+      "sizeBytes": 99732,
+      "suite": "kali-rolling",
+      "component": "contrib",
+      "arch": "i386"
+    },
+    {
+      "name": "contrib/binary-amd64/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/contrib/binary-amd64/Packages.gz",
+      "sha256": "1019b5835ba7334e7a0f9e3ff0123ea71c20ab86021d5af20be5e659137ac06c",
+      "sizeBytes": 117099,
       "suite": "kali-rolling",
       "component": "contrib",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/kali-rolling/run-ue47q4/var/lib/apt/lists/http.kali.org_kali_dists_kali-rolling_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kali-rolling/packages.raw/20260125T044315Z/http.kali.org_kali_dists_kali-rolling_main_binary-amd64_Packages",
+      "name": "contrib/binary-arm64/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/contrib/binary-arm64/Packages.gz",
+      "sha256": "71f0459c6a3d933e408a963ac0bea1953b43baf6493cee4c9ba5465391cc6295",
+      "sizeBytes": 103182,
+      "suite": "kali-rolling",
+      "component": "contrib",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/main/binary-i386/Packages.gz",
+      "sha256": "47e1881d450293b72fc7e04368b5e950e594c58b80065cb18f6e8706522a835d",
+      "sizeBytes": 20193433,
       "suite": "kali-rolling",
       "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/main/binary-armhf/Packages.gz",
+      "sha256": "fcb4f511878b8b7945a9017ea902d0a5c3dfbbc52c86932fd927b9dcd595ed9a",
+      "sizeBytes": 19891233,
+      "suite": "kali-rolling",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/main/binary-arm64/Packages.gz",
+      "sha256": "1198182d2997d22516efabbe630992f8b92df74c64614a7a01a0d861728d50b4",
+      "sizeBytes": 20561163,
+      "suite": "kali-rolling",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "non-free/binary-i386/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/non-free/binary-i386/Packages.gz",
+      "sha256": "4c3f8255960c15424cc26dd176718388009729792d188afa399710271a6cbe03",
+      "sizeBytes": 144775,
+      "suite": "kali-rolling",
+      "component": "non-free",
+      "arch": "i386"
+    },
+    {
+      "name": "non-free/binary-amd64/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/non-free/binary-amd64/Packages.gz",
+      "sha256": "5cd1cb755221cd45c0eddccfb2bb5e0139bcf16a61018801fe2cb535ee209002",
+      "sizeBytes": 190355,
+      "suite": "kali-rolling",
+      "component": "non-free",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/kali-rolling/run-ue47q4/var/lib/apt/lists/http.kali.org_kali_dists_kali-rolling_non-free-firmware_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kali-rolling/packages.raw/20260125T044315Z/http.kali.org_kali_dists_kali-rolling_non-free-firmware_binary-amd64_Packages",
+      "name": "non-free/binary-armhf/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/non-free/binary-armhf/Packages.gz",
+      "sha256": "8ac010b30783e48d8fa6351065f1f7e0fa3db24f322d602f729ad5cd19c81682",
+      "sizeBytes": 116288,
+      "suite": "kali-rolling",
+      "component": "non-free",
+      "arch": "armhf"
+    },
+    {
+      "name": "non-free/binary-arm64/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/non-free/binary-arm64/Packages.gz",
+      "sha256": "5c467eddbcb9cde448211038499ab3f9ca7aa6bfb79a457a02ce418dbd8c0cf1",
+      "sizeBytes": 150020,
+      "suite": "kali-rolling",
+      "component": "non-free",
+      "arch": "arm64"
+    },
+    {
+      "name": "non-free-firmware/binary-i386/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/non-free-firmware/binary-i386/Packages.gz",
+      "sha256": "f5cf7e91df9618f07052c90defacc7ba3dd308dca5d317a82d821d906c094d21",
+      "sizeBytes": 11350,
+      "suite": "kali-rolling",
+      "component": "non-free-firmware",
+      "arch": "i386"
+    },
+    {
+      "name": "non-free-firmware/binary-amd64/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/non-free-firmware/binary-amd64/Packages.gz",
+      "sha256": "1b09e667044d009072e16975b6f23b2daa3b252c2f6395d2c6b8f24bd110b873",
+      "sizeBytes": 11839,
       "suite": "kali-rolling",
       "component": "non-free-firmware",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/kali-rolling/run-ue47q4/var/lib/apt/lists/http.kali.org_kali_dists_kali-rolling_non-free_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/kali-rolling/packages.raw/20260125T044315Z/http.kali.org_kali_dists_kali-rolling_non-free_binary-amd64_Packages",
+      "name": "non-free-firmware/binary-armhf/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/non-free-firmware/binary-armhf/Packages.gz",
+      "sha256": "c54894399eb8644eb910306c038f423687fbcaf4b7d65093c7f5f175bfdb8c7b",
+      "sizeBytes": 10494,
       "suite": "kali-rolling",
-      "component": "non-free",
-      "arch": "amd64"
+      "component": "non-free-firmware",
+      "arch": "armhf"
+    },
+    {
+      "name": "non-free-firmware/binary-arm64/Packages.gz",
+      "url": "https://http.kali.org/kali/dists/kali-rolling/non-free-firmware/binary-arm64/Packages.gz",
+      "sha256": "86d0d39d8545f14ca75f3a30eff9f78ad3047712ca71767a25597c46a3cf5c6e",
+      "sizeBytes": 10998,
+      "suite": "kali-rolling",
+      "component": "non-free-firmware",
+      "arch": "arm64"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://kali.download/kali kali-rolling InRelease [34.0 kB]\nErr:1 https://kali.download/kali kali-rolling InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ED65462EC8D5E4C5\nReading package lists...\n\nW: GPG error: https://kali.download/kali kali-rolling InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ED65462EC8D5E4C5\nE: The repository 'https://http.kali.org/kali kali-rolling InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Failed to fetch contrib/binary-armhf/Packages.gz",
+      "detail": "fetch failed"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "contrib/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Failed to fetch main/binary-amd64/Packages.gz",
+      "detail": "terminated"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "non-free/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "non-free-firmware/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
 }

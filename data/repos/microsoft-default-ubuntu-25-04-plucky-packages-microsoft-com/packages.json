@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-25T07:09:16.741Z",
+  "generatedAt": "2026-01-26T20:01:45.966Z",
   "packageCount": 5,
   "packages": [
     {
@@ -9,10 +9,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.0.033070001",
@@ -22,9 +19,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.0.031620001",
@@ -35,10 +30,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.0.030830001",
@@ -49,10 +41,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.0.030600001",
@@ -63,10 +52,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.0.033070001",
@@ -116,10 +102,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.0.033070001",
@@ -129,9 +112,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.0.031620001",
@@ -142,10 +123,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.0.030830001",
@@ -156,10 +134,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1.0.030600001",
@@ -170,10 +145,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.0.033070001",
@@ -214,11 +186,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2.5.6",
@@ -230,11 +198,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "2.4.17",
@@ -246,11 +210,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "2.4.16",
@@ -262,11 +222,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "2.4.15",
@@ -278,11 +234,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-arm64_Packages",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-armhf_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2.5.6",
@@ -328,9 +280,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "101.25102.0005",
@@ -340,9 +290,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25092.0005",
@@ -352,9 +300,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25092.0002",
@@ -364,9 +310,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25092.0001",
@@ -376,9 +320,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25082.0003",
@@ -388,9 +330,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25072.0003",
@@ -400,9 +340,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25062.0003",
@@ -412,9 +350,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25052.0007",
@@ -424,9 +360,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25042.0003",
@@ -436,9 +370,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25042.0002",
@@ -448,9 +380,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25032.0010",
@@ -460,9 +390,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "101.25032.0008",
@@ -472,9 +400,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "101.25102.0005",
@@ -510,9 +436,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-all_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1.1-ubuntu25.04",
@@ -522,9 +446,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com/packages.raw/20260125T044254Z/packages.microsoft.com_ubuntu_25.04_prod_dists_plucky_main_binary-all_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1.1-ubuntu25.04",

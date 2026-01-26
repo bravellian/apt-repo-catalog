@@ -1,0 +1,700 @@
+{
+  "fetchedAt": "2026-01-26T20:03:27.873Z",
+  "repoId": "tailscale-debian-bookworm",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://pkgs.tailscale.com/stable/debian",
+    "suites": [
+      {
+        "suite": "bullseye",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "buster",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "stretch",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trixie",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bookworm",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "bullseye",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "bullseye",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "buster",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "buster",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "stretch",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "stretch",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "trixie",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "trixie",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    },
+    {
+      "suite": "bookworm",
+      "release": {
+        "Date": "Mon, 26 Jan 2026 18:42:09 UTC",
+        "Codename": "bookworm",
+        "Origin": "Tailscale",
+        "Label": "Tailscale",
+        "Architectures": "all amd64 arm64 armhf i386 mips mips64 mips64el mips64le mipsel riscv64",
+        "Components": "main",
+        "Description": "Packages from Tailscale Inc. (https://www.tailscale.com)"
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-debian-bookworm/run-wg4LLa/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/debian bullseye main",
+    "https://pkgs.tailscale.com/stable/debian/dists/bullseye/Release",
+    "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-debian-bookworm/run-X7iZYt/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/debian buster main",
+    "https://pkgs.tailscale.com/stable/debian/dists/buster/Release",
+    "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-debian-bookworm/run-KGnkkb/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/debian stretch main",
+    "https://pkgs.tailscale.com/stable/debian/dists/stretch/Release",
+    "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-debian-bookworm/run-ggNW3I/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/debian trixie main",
+    "https://pkgs.tailscale.com/stable/debian/dists/trixie/Release",
+    "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-riscv64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/tailscale-debian-bookworm/run-u2vbSM/keyrings/tailscale-ubuntu-jammy.gpg] ] https://pkgs.tailscale.com/stable/debian bookworm main",
+    "https://pkgs.tailscale.com/stable/debian/dists/bookworm/Release",
+    "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-all/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-amd64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-arm64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-armhf/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-i386/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-mips/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-mips64/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-mips64el/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-mips64le/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-mipsel/Packages.gz",
+    "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-riscv64/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bullseye/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "buster",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "buster",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "buster",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "buster",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "buster",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "buster",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "buster",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "buster",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "buster",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "buster",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/buster/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "buster",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "stretch",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "stretch",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "stretch",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "stretch",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "stretch",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "stretch",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "stretch",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "stretch",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "stretch",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "stretch",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/stretch/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "stretch",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/trixie/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "riscv64"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-all/Packages.gz",
+      "sha256": "e973b78734e9ecf9da4b96d90f546e9e8890df0fde6235bc0d062f1c7225a676",
+      "sizeBytes": 354,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-amd64/Packages.gz",
+      "sha256": "00aad42de9c3a16c3a5afd5db39dcee1ff9a8344fa9104e46c21a0110a807f81",
+      "sizeBytes": 14366,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-arm64/Packages.gz",
+      "sha256": "a9f2e86dcd424a57b5162dbd9230faec3433b656a0d2413e7f80890fe96e2761",
+      "sizeBytes": 14020,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-armhf/Packages.gz",
+      "sha256": "21759a2affb32832c29257d7c043b70393b74488ec0709b04e4141dbdb081c45",
+      "sizeBytes": 13897,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-i386/Packages.gz",
+      "sha256": "0a488f71902b0bdad10b7738c733af56e9be53fa2864f58ecb177727c2c6b29a",
+      "sizeBytes": 13940,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-mips/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-mips/Packages.gz",
+      "sha256": "6eb2773c2c2b604e101d27e98887c5e07a132322b4536c3dee85a0ec879ae8d6",
+      "sizeBytes": 13405,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "name": "main/binary-mips64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-mips64/Packages.gz",
+      "sha256": "7fa73005d633f9c3474489653c2d5a506f3fd274f7d1ebe7206db679cdd50420",
+      "sizeBytes": 4189,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "mips64"
+    },
+    {
+      "name": "main/binary-mips64el/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-mips64el/Packages.gz",
+      "sha256": "45ace4014e8e7c7fc09736fc87d390fcfba8a68089eb4627993ad7087792fffe",
+      "sizeBytes": 6516,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "mips64el"
+    },
+    {
+      "name": "main/binary-mips64le/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-mips64le/Packages.gz",
+      "sha256": "a5eba70d604dc11f9e56432199b7843be25929bce0c2a886e803e5f786542f4a",
+      "sizeBytes": 4212,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "mips64le"
+    },
+    {
+      "name": "main/binary-mipsel/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-mipsel/Packages.gz",
+      "sha256": "a7fd6afc0cc9ce3576688e2cde1c27356d3ccc06e1a1774ad3b265996c56df7e",
+      "sizeBytes": 12503,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "name": "main/binary-riscv64/Packages.gz",
+      "url": "https://pkgs.tailscale.com/stable/debian/dists/bookworm/main/binary-riscv64/Packages.gz",
+      "sha256": "68b3d44e92c3b1a6020b99491ce6c007a6651cf88370d24583b752068b36827e",
+      "sizeBytes": 11148,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "riscv64"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/debian bullseye InRelease\nErr:1 https://pkgs.tailscale.com/stable/debian bullseye InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/debian bullseye InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/debian bullseye InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/debian buster InRelease\nErr:1 https://pkgs.tailscale.com/stable/debian buster InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/debian buster InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/debian buster InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/debian stretch InRelease\nErr:1 https://pkgs.tailscale.com/stable/debian stretch InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/debian stretch InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/debian stretch InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/debian trixie InRelease\nErr:1 https://pkgs.tailscale.com/stable/debian trixie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/debian trixie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/debian trixie InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkgs.tailscale.com/stable/debian bookworm InRelease\nErr:1 https://pkgs.tailscale.com/stable/debian bookworm InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nReading package lists...\n\nW: GPG error: https://pkgs.tailscale.com/stable/debian bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 458CA832957F5868\nE: The repository 'https://pkgs.tailscale.com/stable/debian bookworm InRelease' is not signed."
+    }
+  ]
+}

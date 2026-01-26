@@ -1,0 +1,36 @@
+{
+  "fetchedAt": "2026-01-26T19:57:51.299Z",
+  "repoId": "jenkins-debian-stable",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://pkg.jenkins.io/debian-stable",
+    "suites": [
+      {
+        "suite": "binary/",
+        "components": [],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/jenkins-debian-stable/run-2Qy4Hm/keyrings/jenkins.gpg] ] https://pkg.jenkins.io/debian-stable binary/",
+    "https://pkg.jenkins.io/debian-stable/dists/binary//Release",
+    "https://pkg.jenkins.io/debian-stable/dists/binary//InRelease"
+  ],
+  "packageFiles": [],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Ign:1 https://pkg.jenkins.io/debian-stable binary/ InRelease\nGet:2 https://pkg.jenkins.io/debian-stable binary/ Release [2044 B]\nGet:3 https://pkg.jenkins.io/debian-stable binary/ Release.gpg [833 B]\nIgn:3 https://pkg.jenkins.io/debian-stable binary/ Release.gpg\nReading package lists...\n\nW: GPG error: https://pkg.jenkins.io/debian-stable binary/ Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7198F4B714ABFC68\nE: The repository 'https://pkg.jenkins.io/debian-stable binary/ Release' is not signed."
+    },
+    {
+      "stage": "release",
+      "message": "Failed to fetch Release/InRelease",
+      "detail": "Fetch failed with status 404 for https://pkg.jenkins.io/debian-stable/dists/binary//InRelease"
+    }
+  ]
+}

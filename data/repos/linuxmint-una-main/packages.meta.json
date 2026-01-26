@@ -1,47 +1,544 @@
 {
-  "fetchedAt": "2026-01-25T04:43:36.588Z",
+  "fetchedAt": "2026-01-26T20:00:02.562Z",
   "repoId": "linuxmint-una-main",
   "mode": "auto",
   "source": {
-    "line": "deb http://packages.linuxmint.com una main upstream import backport",
-    "suite": null,
-    "components": null,
+    "baseUrl": "http://packages.linuxmint.com",
+    "suites": [
+      {
+        "suite": "tricia",
+        "components": [
+          "backport",
+          "import",
+          "main",
+          "upstream"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "una",
+        "components": [
+          "backport",
+          "import",
+          "main",
+          "upstream"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "virginia",
+        "components": [
+          "backport",
+          "import",
+          "main",
+          "upstream"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "zena",
+        "components": [
+          "backport",
+          "import",
+          "main",
+          "upstream"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": null,
+  "releases": [
+    {
+      "suite": "tricia",
+      "release": {
+        "Origin": "linuxmint",
+        "Label": "linuxmint",
+        "Suite": "tricia",
+        "Codename": "tricia",
+        "Version": "19.3",
+        "Date": "Wed, 12 Mar 2025 10:28:05 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "main upstream import backport romeo universe multiverse",
+        "Description": "Linux Mint 19.3 official repository"
+      }
+    },
+    {
+      "suite": "una",
+      "release": {
+        "Origin": "linuxmint",
+        "Label": "linuxmint",
+        "Suite": "una",
+        "Codename": "una",
+        "Version": "20.3",
+        "Date": "Sun, 21 Dec 2025 16:12:34 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "main upstream import backport romeo universe multiverse",
+        "Description": "Linux Mint 20.3 official repository"
+      }
+    },
+    {
+      "suite": "virginia",
+      "release": {
+        "Origin": "linuxmint",
+        "Label": "linuxmint",
+        "Suite": "virginia",
+        "Codename": "virginia",
+        "Version": "21.3",
+        "Date": "Sun, 25 Jan 2026 14:00:23 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "main upstream import backport romeo universe multiverse",
+        "Description": "Linux Mint 21.3 official repository"
+      }
+    },
+    {
+      "suite": "zena",
+      "release": {
+        "Origin": "linuxmint",
+        "Label": "linuxmint",
+        "Suite": "zena",
+        "Codename": "zena",
+        "Version": "22.3",
+        "Date": "Sun, 25 Jan 2026 14:00:28 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "main upstream import backport romeo universe multiverse",
+        "Description": "Linux Mint 22.3 official repository"
+      }
+    }
+  ],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/linuxmint-una-main/run-pkMwmk/keyrings/linuxmint-archive-keyring.gpg] http://packages.linuxmint.com una main upstream import backport"
+    "deb [[object Object signed-by=/tmp/apt-inventory/linuxmint-una-main/run-kyvPpS/keyrings/linuxmint-archive-keyring.gpg] ] http://packages.linuxmint.com tricia backport import main upstream",
+    "http://packages.linuxmint.com/dists/tricia/Release",
+    "http://packages.linuxmint.com/dists/tricia/backport/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/tricia/backport/binary-amd64/Packages.gz",
+    "http://packages.linuxmint.com/dists/tricia/import/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/tricia/import/binary-amd64/Packages.gz",
+    "http://packages.linuxmint.com/dists/tricia/main/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/tricia/main/binary-amd64/Packages.gz",
+    "http://packages.linuxmint.com/dists/tricia/upstream/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/tricia/upstream/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/linuxmint-una-main/run-5MSqVu/keyrings/linuxmint-archive-keyring.gpg] ] http://packages.linuxmint.com una backport import main upstream",
+    "http://packages.linuxmint.com/dists/una/Release",
+    "http://packages.linuxmint.com/dists/una/backport/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/una/backport/binary-amd64/Packages.gz",
+    "http://packages.linuxmint.com/dists/una/import/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/una/import/binary-amd64/Packages.gz",
+    "http://packages.linuxmint.com/dists/una/main/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/una/main/binary-amd64/Packages.gz",
+    "http://packages.linuxmint.com/dists/una/upstream/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/una/upstream/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/linuxmint-una-main/run-VzpPf5/keyrings/linuxmint-archive-keyring.gpg] ] http://packages.linuxmint.com virginia backport import main upstream",
+    "http://packages.linuxmint.com/dists/virginia/Release",
+    "http://packages.linuxmint.com/dists/virginia/backport/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/virginia/backport/binary-amd64/Packages.gz",
+    "http://packages.linuxmint.com/dists/virginia/import/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/virginia/import/binary-amd64/Packages.gz",
+    "http://packages.linuxmint.com/dists/virginia/main/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/virginia/main/binary-amd64/Packages.gz",
+    "http://packages.linuxmint.com/dists/virginia/upstream/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/virginia/upstream/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/linuxmint-una-main/run-UjIuVX/keyrings/linuxmint-archive-keyring.gpg] ] http://packages.linuxmint.com zena backport import main upstream",
+    "http://packages.linuxmint.com/dists/zena/Release",
+    "http://packages.linuxmint.com/dists/zena/backport/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/zena/backport/binary-amd64/Packages.gz",
+    "http://packages.linuxmint.com/dists/zena/import/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/zena/import/binary-amd64/Packages.gz",
+    "http://packages.linuxmint.com/dists/zena/main/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/zena/main/binary-amd64/Packages.gz",
+    "http://packages.linuxmint.com/dists/zena/upstream/binary-i386/Packages.gz",
+    "http://packages.linuxmint.com/dists/zena/upstream/binary-amd64/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/linuxmint-una-main/run-pkMwmk/var/lib/apt/lists/packages.linuxmint.com_dists_una_backport_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/linuxmint-una-main/packages.raw/20260125T044336Z/packages.linuxmint.com_dists_una_backport_binary-amd64_Packages",
+      "name": "backport/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/tricia/backport/binary-i386/Packages.gz",
+      "sha256": "51e2cbfaf460928533cfe1241b4e264f4bc56d11abbce34b234bb85db29cad85",
+      "sizeBytes": 79725,
+      "suite": "tricia",
+      "component": "backport",
+      "arch": "i386"
+    },
+    {
+      "name": "backport/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/tricia/backport/binary-amd64/Packages.gz",
+      "sha256": "57d8e569c5ee593d4eee1d92982fe1d178f2a36ea800394e537b774a78c0e048",
+      "sizeBytes": 79737,
+      "suite": "tricia",
+      "component": "backport",
+      "arch": "amd64"
+    },
+    {
+      "name": "import/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/tricia/import/binary-i386/Packages.gz",
+      "sha256": "1502e7ef4a28bbc360a9fbddaf05b53c67873898c14fcd837de0d408cb6047c2",
+      "sizeBytes": 7610,
+      "suite": "tricia",
+      "component": "import",
+      "arch": "i386"
+    },
+    {
+      "name": "import/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/tricia/import/binary-amd64/Packages.gz",
+      "sha256": "6c87af025c530e62e90443d45737fb456d2b371b568051152b9bb70a9004cd70",
+      "sizeBytes": 8626,
+      "suite": "tricia",
+      "component": "import",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/tricia/main/binary-i386/Packages.gz",
+      "sha256": "55301fa4398a08f9c52802b02d1115b774f41f8a07e477a74713905865a789ed",
+      "sizeBytes": 14325,
+      "suite": "tricia",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/tricia/main/binary-amd64/Packages.gz",
+      "sha256": "6b2319ada339a4d3b88fa9f4fbe031dd8c1be7a553fcadd0db7effd6558a10c0",
+      "sizeBytes": 14981,
+      "suite": "tricia",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "upstream/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/tricia/upstream/binary-i386/Packages.gz",
+      "sha256": "b45ca83aca0f191d58ff7fe7675fb942ed7e1c58ed6cdb920fd283326d4c37d6",
+      "sizeBytes": 41344,
+      "suite": "tricia",
+      "component": "upstream",
+      "arch": "i386"
+    },
+    {
+      "name": "upstream/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/tricia/upstream/binary-amd64/Packages.gz",
+      "sha256": "060f23a72c6600984e9a90258562716e3528546d689a0b1cc9ada9fd607aafcb",
+      "sizeBytes": 41366,
+      "suite": "tricia",
+      "component": "upstream",
+      "arch": "amd64"
+    },
+    {
+      "name": "backport/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/una/backport/binary-i386/Packages.gz",
+      "sha256": "c53bacbba4e96686acaa5c26af185722772048433aac4f17b34b928f7a8ed06f",
+      "sizeBytes": 27069,
+      "suite": "una",
+      "component": "backport",
+      "arch": "i386"
+    },
+    {
+      "name": "backport/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/una/backport/binary-amd64/Packages.gz",
+      "sha256": "ff110ab7941d7fbf514e7d5228fe1da6e138f7dc6b57b430c488f50f74d362da",
+      "sizeBytes": 90280,
       "suite": "una",
       "component": "backport",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/linuxmint-una-main/run-pkMwmk/var/lib/apt/lists/packages.linuxmint.com_dists_una_import_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/linuxmint-una-main/packages.raw/20260125T044336Z/packages.linuxmint.com_dists_una_import_binary-amd64_Packages",
+      "name": "import/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/una/import/binary-i386/Packages.gz",
+      "sha256": "fb7919838613949afd2356c3cdb851174e6acf2081acb6a3480763d5708a783c",
+      "sizeBytes": 3273,
+      "suite": "una",
+      "component": "import",
+      "arch": "i386"
+    },
+    {
+      "name": "import/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/una/import/binary-amd64/Packages.gz",
+      "sha256": "a2d4e23661b05a9dee619554c93453c4985c9250a4ba68173c279974cedcd3c6",
+      "sizeBytes": 7783,
       "suite": "una",
       "component": "import",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/linuxmint-una-main/run-pkMwmk/var/lib/apt/lists/packages.linuxmint.com_dists_una_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/linuxmint-una-main/packages.raw/20260125T044336Z/packages.linuxmint.com_dists_una_main_binary-amd64_Packages",
+      "name": "main/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/una/main/binary-i386/Packages.gz",
+      "sha256": "cfa9c55207ff7162bec6f323b043c6b7ad0956203ea23d3f85c8b46bc331adcc",
+      "sizeBytes": 15643,
+      "suite": "una",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/una/main/binary-amd64/Packages.gz",
+      "sha256": "2f30349a8ede27d280cee936ec0d3220b573fad1e46f4c246ce109e48f21343d",
+      "sizeBytes": 16227,
       "suite": "una",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/linuxmint-una-main/run-pkMwmk/var/lib/apt/lists/packages.linuxmint.com_dists_una_upstream_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/linuxmint-una-main/packages.raw/20260125T044336Z/packages.linuxmint.com_dists_una_upstream_binary-amd64_Packages",
+      "name": "upstream/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/una/upstream/binary-i386/Packages.gz",
+      "sha256": "9c6d4d8c4e9a738e0d65accca2c43807444ade5637060fb8833472d95ff7b9c9",
+      "sizeBytes": 13476,
       "suite": "una",
+      "component": "upstream",
+      "arch": "i386"
+    },
+    {
+      "name": "upstream/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/una/upstream/binary-amd64/Packages.gz",
+      "sha256": "fd5735740da52d204e1d470d3c56e63c3190ede25bc7418a69218c211713a035",
+      "sizeBytes": 50394,
+      "suite": "una",
+      "component": "upstream",
+      "arch": "amd64"
+    },
+    {
+      "name": "backport/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/virginia/backport/binary-i386/Packages.gz",
+      "sha256": "0a4bf35df487b19604bf4f0cbcaf8b7a1aa41ba983daa62e0d247accbb4db509",
+      "sizeBytes": 8307,
+      "suite": "virginia",
+      "component": "backport",
+      "arch": "i386"
+    },
+    {
+      "name": "backport/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/virginia/backport/binary-amd64/Packages.gz",
+      "sha256": "a5a39b42c0c137129120993adeed30803516261bfe50e262f16d7ca4c7657fc8",
+      "sizeBytes": 54871,
+      "suite": "virginia",
+      "component": "backport",
+      "arch": "amd64"
+    },
+    {
+      "name": "import/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/virginia/import/binary-i386/Packages.gz",
+      "sha256": "0c85ad958182c6f7b24d13fe873333a61ba2aee4615565432b1d9f501fcd1347",
+      "sizeBytes": 3678,
+      "suite": "virginia",
+      "component": "import",
+      "arch": "i386"
+    },
+    {
+      "name": "import/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/virginia/import/binary-amd64/Packages.gz",
+      "sha256": "1ccec4c7ca9fa53c6a5f728d052b34a6b7c566fe321e92dffa9a5491d2421e88",
+      "sizeBytes": 8306,
+      "suite": "virginia",
+      "component": "import",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/virginia/main/binary-i386/Packages.gz",
+      "sha256": "137ba0b53764b1bb58b6d554fd287ddff00fe1cea758abc5281b74d310474b51",
+      "sizeBytes": 17897,
+      "suite": "virginia",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/virginia/main/binary-amd64/Packages.gz",
+      "sha256": "4039000db243532467bbede57ee0dce9459703de0cb54e24f801e217b1e0437f",
+      "sizeBytes": 18487,
+      "suite": "virginia",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "upstream/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/virginia/upstream/binary-i386/Packages.gz",
+      "sha256": "0835a023c1abc654562133544285ea43f1bf30a8f5883da1a09ff9ea2b3a7342",
+      "sizeBytes": 14603,
+      "suite": "virginia",
+      "component": "upstream",
+      "arch": "i386"
+    },
+    {
+      "name": "upstream/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/virginia/upstream/binary-amd64/Packages.gz",
+      "sha256": "e4a2263fe0ab537c6f038663f833f1ef3833ba710c59af28a1b9d269662ec7a2",
+      "sizeBytes": 48847,
+      "suite": "virginia",
+      "component": "upstream",
+      "arch": "amd64"
+    },
+    {
+      "name": "backport/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/zena/backport/binary-i386/Packages.gz",
+      "sha256": "3d0a93fd6544b7a5a9e95a328a5f23bec27e3fe1bfc1a5f75eac8e1a2de568d9",
+      "sizeBytes": 6742,
+      "suite": "zena",
+      "component": "backport",
+      "arch": "i386"
+    },
+    {
+      "name": "backport/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/zena/backport/binary-amd64/Packages.gz",
+      "sha256": "cf3fa68cad4626836cbc2ac59457fee1f900e1d7c3f8316a8bb42aa6d8259047",
+      "sizeBytes": 32419,
+      "suite": "zena",
+      "component": "backport",
+      "arch": "amd64"
+    },
+    {
+      "name": "import/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/zena/import/binary-i386/Packages.gz",
+      "sha256": "67c786c83887a0c3ad938dfffb4feb3c48b25d4b664de90c421d36eeb69949f0",
+      "sizeBytes": 3213,
+      "suite": "zena",
+      "component": "import",
+      "arch": "i386"
+    },
+    {
+      "name": "import/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/zena/import/binary-amd64/Packages.gz",
+      "sha256": "cf8d1e55f6f5d46f205b20983c50fc1fe941370e67f2e68b0de30c932b3e063a",
+      "sizeBytes": 5658,
+      "suite": "zena",
+      "component": "import",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/zena/main/binary-i386/Packages.gz",
+      "sha256": "548e3a5ce36bc5ebf8b374a027e16b9d7613a31bab4a3d80fa7fc28224862dad",
+      "sizeBytes": 20296,
+      "suite": "zena",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/zena/main/binary-amd64/Packages.gz",
+      "sha256": "1440ff32ebf9e867667005b913da70542f4d6c48a99a85a5c5c185ef5c2d0099",
+      "sizeBytes": 20933,
+      "suite": "zena",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "upstream/binary-i386/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/zena/upstream/binary-i386/Packages.gz",
+      "sha256": "76fb7fd1bece0a1879a92c00d3f5f8566fbea6f0b519c7b0c9480eabf7ab1d26",
+      "sizeBytes": 22559,
+      "suite": "zena",
+      "component": "upstream",
+      "arch": "i386"
+    },
+    {
+      "name": "upstream/binary-amd64/Packages.gz",
+      "url": "http://packages.linuxmint.com/dists/zena/upstream/binary-amd64/Packages.gz",
+      "sha256": "e9668126fea9ba4e5c5de01161b293da8c10d9ea9ce5d225cf7a49cf7a0a8aaa",
+      "sizeBytes": 61701,
+      "suite": "zena",
       "component": "upstream",
       "arch": "amd64"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Ign:1 http://packages.linuxmint.com tricia InRelease\nGet:2 http://packages.linuxmint.com tricia Release [24.1 kB]\nGet:3 http://packages.linuxmint.com tricia Release.gpg [833 B]\nIgn:3 http://packages.linuxmint.com tricia Release.gpg\nReading package lists...\n\nW: GPG error: http://packages.linuxmint.com tricia Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A6616109451BBBF2\nE: The repository 'http://packages.linuxmint.com tricia Release' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "backport/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "import/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "upstream/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Ign:1 http://packages.linuxmint.com una InRelease\nGet:2 http://packages.linuxmint.com una Release [24.1 kB]\nGet:3 http://packages.linuxmint.com una Release.gpg [833 B]\nIgn:3 http://packages.linuxmint.com una Release.gpg\nReading package lists...\n\nW: GPG error: http://packages.linuxmint.com una Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A6616109451BBBF2\nE: The repository 'http://packages.linuxmint.com una Release' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "backport/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "import/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "upstream/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Ign:1 http://packages.linuxmint.com virginia InRelease\nGet:2 http://packages.linuxmint.com virginia Release [24.1 kB]\nGet:3 http://packages.linuxmint.com virginia Release.gpg [833 B]\nIgn:3 http://packages.linuxmint.com virginia Release.gpg\nReading package lists...\n\nW: GPG error: http://packages.linuxmint.com virginia Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A6616109451BBBF2\nE: The repository 'http://packages.linuxmint.com virginia Release' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "backport/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "import/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "upstream/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Ign:1 http://packages.linuxmint.com zena InRelease\nGet:2 http://packages.linuxmint.com zena Release [27.6 kB]\nGet:3 http://packages.linuxmint.com zena Release.gpg [833 B]\nIgn:3 http://packages.linuxmint.com zena Release.gpg\nReading package lists...\n\nW: GPG error: http://packages.linuxmint.com zena Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A6616109451BBBF2\nE: The repository 'http://packages.linuxmint.com zena Release' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "backport/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "import/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "upstream/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
 }

@@ -1,35 +1,766 @@
 {
-  "fetchedAt": "2026-01-25T04:44:03.881Z",
+  "fetchedAt": "2026-01-26T19:57:26.647Z",
   "repoId": "hashicorp",
   "mode": "auto",
   "source": {
-    "line": "deb https://apt.releases.hashicorp.com jammy main",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://apt.releases.hashicorp.com",
+    "suites": [
+      {
+        "suite": "bookworm",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bullseye",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "focal",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "noble",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "oracular",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "plucky",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trixie",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jammy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "Artifactory",
-    "Label": "Artifactory",
-    "Suite": "jammy",
-    "Codename": "jammy",
-    "Architectures": "amd64 arm arm64 armhf i386 ppc64el s390x",
-    "Components": "main test",
-    "inReleasePath": "/tmp/apt-inventory/hashicorp/run-F5KYWQ/var/lib/apt/lists/apt.releases.hashicorp.com_dists_jammy_InRelease",
-    "inReleaseSha256": "f8aef692341453fabe31f2abff471b889397cd323a5482fd3e554503220147b8"
-  },
+  "releases": [
+    {
+      "suite": "bookworm",
+      "release": {
+        "Origin": "Artifactory",
+        "Label": "Artifactory",
+        "Suite": "bookworm",
+        "Codename": "bookworm",
+        "Date": "Mon, 26 Jan 2026 19:12:45 UTC",
+        "Acquire-By-Hash": "yes",
+        "Components": "main test",
+        "Architectures": "amd64 arm arm64 armhf i386 ppc64el s390x"
+      }
+    },
+    {
+      "suite": "bullseye",
+      "release": {
+        "Origin": "Artifactory",
+        "Label": "Artifactory",
+        "Suite": "bullseye",
+        "Codename": "bullseye",
+        "Date": "Mon, 26 Jan 2026 19:12:46 UTC",
+        "Acquire-By-Hash": "yes",
+        "Components": "main test",
+        "Architectures": "amd64 arm arm64 armhf i386 ppc64el s390x"
+      }
+    },
+    {
+      "suite": "focal",
+      "release": {
+        "Origin": "Artifactory",
+        "Label": "Artifactory",
+        "Suite": "focal",
+        "Codename": "focal",
+        "Date": "Fri, 06 Jun 2025 15:21:21 UTC",
+        "Acquire-By-Hash": "yes",
+        "Components": "main test",
+        "Architectures": "amd64 i386"
+      }
+    },
+    {
+      "suite": "noble",
+      "release": {
+        "Origin": "Artifactory",
+        "Label": "Artifactory",
+        "Suite": "noble",
+        "Codename": "noble",
+        "Date": "Mon, 26 Jan 2026 19:12:10 UTC",
+        "Acquire-By-Hash": "yes",
+        "Components": "main test",
+        "Architectures": "amd64 arm arm64 armhf i386 ppc64el s390x"
+      }
+    },
+    {
+      "suite": "oracular",
+      "release": {
+        "Origin": "Artifactory",
+        "Label": "Artifactory",
+        "Suite": "oracular",
+        "Codename": "oracular",
+        "Date": "Mon, 26 Jan 2026 19:10:14 UTC",
+        "Acquire-By-Hash": "yes",
+        "Components": "main test",
+        "Architectures": "amd64 arm64 armhf i386 s390x"
+      }
+    },
+    {
+      "suite": "plucky",
+      "release": {
+        "Origin": "Artifactory",
+        "Label": "Artifactory",
+        "Suite": "plucky",
+        "Codename": "plucky",
+        "Date": "Mon, 26 Jan 2026 19:11:12 UTC",
+        "Acquire-By-Hash": "yes",
+        "Components": "main test",
+        "Architectures": "amd64 arm arm64 armhf i386 ppc64el s390x"
+      }
+    },
+    {
+      "suite": "trixie",
+      "release": {
+        "Origin": "Artifactory",
+        "Label": "Artifactory",
+        "Suite": "trixie",
+        "Codename": "trixie",
+        "Date": "Mon, 26 Jan 2026 19:11:10 UTC",
+        "Acquire-By-Hash": "yes",
+        "Components": "main test",
+        "Architectures": "amd64 arm arm64 armhf i386 ppc64el s390x"
+      }
+    },
+    {
+      "suite": "jammy",
+      "release": {
+        "Origin": "Artifactory",
+        "Label": "Artifactory",
+        "Suite": "jammy",
+        "Codename": "jammy",
+        "Date": "Mon, 26 Jan 2026 19:12:46 UTC",
+        "Acquire-By-Hash": "yes",
+        "Components": "main test",
+        "Architectures": "amd64 arm arm64 armhf i386 ppc64el s390x"
+      }
+    }
+  ],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/hashicorp/run-F5KYWQ/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com jammy main"
+    "deb [[object Object signed-by=/tmp/apt-inventory/hashicorp/run-ERIdB7/keyrings/hashicorp.gpg] ] https://apt.releases.hashicorp.com bookworm main",
+    "https://apt.releases.hashicorp.com/dists/bookworm/Release",
+    "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-amd64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-arm/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-arm64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-armhf/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-i386/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-ppc64el/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-s390x/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/hashicorp/run-KoPpdb/keyrings/hashicorp.gpg] ] https://apt.releases.hashicorp.com bullseye main",
+    "https://apt.releases.hashicorp.com/dists/bullseye/Release",
+    "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-amd64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-arm/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-arm64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-armhf/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-i386/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-ppc64el/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-s390x/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/hashicorp/run-8oV9fK/keyrings/hashicorp.gpg] ] https://apt.releases.hashicorp.com focal main",
+    "https://apt.releases.hashicorp.com/dists/focal/Release",
+    "https://apt.releases.hashicorp.com/dists/focal/main/binary-amd64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/focal/main/binary-i386/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/hashicorp/run-dY676Y/keyrings/hashicorp.gpg] ] https://apt.releases.hashicorp.com noble main",
+    "https://apt.releases.hashicorp.com/dists/noble/Release",
+    "https://apt.releases.hashicorp.com/dists/noble/main/binary-amd64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/noble/main/binary-arm/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/noble/main/binary-arm64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/noble/main/binary-armhf/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/noble/main/binary-i386/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/noble/main/binary-ppc64el/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/noble/main/binary-s390x/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/hashicorp/run-iZlTLq/keyrings/hashicorp.gpg] ] https://apt.releases.hashicorp.com oracular main",
+    "https://apt.releases.hashicorp.com/dists/oracular/Release",
+    "https://apt.releases.hashicorp.com/dists/oracular/main/binary-amd64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/oracular/main/binary-arm64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/oracular/main/binary-armhf/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/oracular/main/binary-i386/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/oracular/main/binary-s390x/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/hashicorp/run-OqpbTQ/keyrings/hashicorp.gpg] ] https://apt.releases.hashicorp.com plucky main",
+    "https://apt.releases.hashicorp.com/dists/plucky/Release",
+    "https://apt.releases.hashicorp.com/dists/plucky/main/binary-amd64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/plucky/main/binary-arm/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/plucky/main/binary-arm64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/plucky/main/binary-armhf/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/plucky/main/binary-i386/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/plucky/main/binary-ppc64el/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/plucky/main/binary-s390x/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/hashicorp/run-P58E8t/keyrings/hashicorp.gpg] ] https://apt.releases.hashicorp.com trixie main",
+    "https://apt.releases.hashicorp.com/dists/trixie/Release",
+    "https://apt.releases.hashicorp.com/dists/trixie/main/binary-amd64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/trixie/main/binary-arm/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/trixie/main/binary-arm64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/trixie/main/binary-armhf/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/trixie/main/binary-i386/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/trixie/main/binary-ppc64el/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/trixie/main/binary-s390x/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/hashicorp/run-9lxhUv/keyrings/hashicorp.gpg] ] https://apt.releases.hashicorp.com jammy main",
+    "https://apt.releases.hashicorp.com/dists/jammy/Release",
+    "https://apt.releases.hashicorp.com/dists/jammy/main/binary-amd64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/jammy/main/binary-arm/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/jammy/main/binary-arm64/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/jammy/main/binary-armhf/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/jammy/main/binary-i386/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/jammy/main/binary-ppc64el/Packages.gz",
+    "https://apt.releases.hashicorp.com/dists/jammy/main/binary-s390x/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/hashicorp/run-F5KYWQ/var/lib/apt/lists/apt.releases.hashicorp.com_dists_jammy_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/hashicorp/packages.raw/20260125T044403Z/apt.releases.hashicorp.com_dists_jammy_main_binary-amd64_Packages",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-amd64/Packages.gz",
+      "sha256": "f408c152ba06d17361c4bc1037dba124e4de9fdfb0e8b4ff1f190b8d2c808ec9",
+      "sizeBytes": 269162,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-arm/Packages.gz",
+      "sha256": "62a54d5a02c07cbeb16b716d2b40eeca88199774b2f64cf2e5b9b0951bc60ef6",
+      "sizeBytes": 8593,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "arm"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-arm64/Packages.gz",
+      "sha256": "91cc8d8275c475362cfa4b257ccd86ef82cb6e9cabcec5779644939238228fe5",
+      "sizeBytes": 184769,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-armhf/Packages.gz",
+      "sha256": "3aa7133b49573a568c1d0124487c9dcc72acff9568430d2c8978d2eaa573de0b",
+      "sizeBytes": 105760,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-i386/Packages.gz",
+      "sha256": "bd3383eb3904da7271aae842a845d4b33e94abfa748262ebda8a80399dd1c2f2",
+      "sizeBytes": 108757,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-ppc64el/Packages.gz",
+      "sha256": "f471ed940624fc83bbdc2609c96a8501d058b3a44ff2b7deb412d8ff105088d5",
+      "sizeBytes": 2371,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bookworm/main/binary-s390x/Packages.gz",
+      "sha256": "098b59206e288e5a5e40db5b2fe9b5ca065bcbee1f38b2aa060fe2d6200c1aa0",
+      "sizeBytes": 21724,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-amd64/Packages.gz",
+      "sha256": "a44572a3045f43f691c754c3740f6ee7f8b45357e03cbc2597936015b1a9a1a3",
+      "sizeBytes": 268856,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-arm/Packages.gz",
+      "sha256": "62a54d5a02c07cbeb16b716d2b40eeca88199774b2f64cf2e5b9b0951bc60ef6",
+      "sizeBytes": 8593,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "arm"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-arm64/Packages.gz",
+      "sha256": "91cc8d8275c475362cfa4b257ccd86ef82cb6e9cabcec5779644939238228fe5",
+      "sizeBytes": 184769,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-armhf/Packages.gz",
+      "sha256": "3aa7133b49573a568c1d0124487c9dcc72acff9568430d2c8978d2eaa573de0b",
+      "sizeBytes": 105760,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-i386/Packages.gz",
+      "sha256": "bd3383eb3904da7271aae842a845d4b33e94abfa748262ebda8a80399dd1c2f2",
+      "sizeBytes": 108757,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-ppc64el/Packages.gz",
+      "sha256": "f471ed940624fc83bbdc2609c96a8501d058b3a44ff2b7deb412d8ff105088d5",
+      "sizeBytes": 2371,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/bullseye/main/binary-s390x/Packages.gz",
+      "sha256": "098b59206e288e5a5e40db5b2fe9b5ca065bcbee1f38b2aa060fe2d6200c1aa0",
+      "sizeBytes": 21724,
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/focal/main/binary-amd64/Packages.gz",
+      "sha256": "ac73670af3abed54ac6fb4695131f4099be9fbe39d6076c5d0264a6bbdae9d83",
+      "sizeBytes": 20,
+      "suite": "focal",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/focal/main/binary-i386/Packages.gz",
+      "sha256": "ac73670af3abed54ac6fb4695131f4099be9fbe39d6076c5d0264a6bbdae9d83",
+      "sizeBytes": 20,
+      "suite": "focal",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/noble/main/binary-amd64/Packages.gz",
+      "sha256": "f408c152ba06d17361c4bc1037dba124e4de9fdfb0e8b4ff1f190b8d2c808ec9",
+      "sizeBytes": 269162,
+      "suite": "noble",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/noble/main/binary-arm/Packages.gz",
+      "sha256": "62a54d5a02c07cbeb16b716d2b40eeca88199774b2f64cf2e5b9b0951bc60ef6",
+      "sizeBytes": 8593,
+      "suite": "noble",
+      "component": "main",
+      "arch": "arm"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/noble/main/binary-arm64/Packages.gz",
+      "sha256": "91cc8d8275c475362cfa4b257ccd86ef82cb6e9cabcec5779644939238228fe5",
+      "sizeBytes": 184769,
+      "suite": "noble",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/noble/main/binary-armhf/Packages.gz",
+      "sha256": "3aa7133b49573a568c1d0124487c9dcc72acff9568430d2c8978d2eaa573de0b",
+      "sizeBytes": 105760,
+      "suite": "noble",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/noble/main/binary-i386/Packages.gz",
+      "sha256": "bd3383eb3904da7271aae842a845d4b33e94abfa748262ebda8a80399dd1c2f2",
+      "sizeBytes": 108757,
+      "suite": "noble",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/noble/main/binary-ppc64el/Packages.gz",
+      "sha256": "f471ed940624fc83bbdc2609c96a8501d058b3a44ff2b7deb412d8ff105088d5",
+      "sizeBytes": 2371,
+      "suite": "noble",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/noble/main/binary-s390x/Packages.gz",
+      "sha256": "098b59206e288e5a5e40db5b2fe9b5ca065bcbee1f38b2aa060fe2d6200c1aa0",
+      "sizeBytes": 21724,
+      "suite": "noble",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/oracular/main/binary-amd64/Packages.gz",
+      "sha256": "babf84a3675939b8f29b60ed949f46488d6bc4b74e375014bad12d08f913eb61",
+      "sizeBytes": 462,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/oracular/main/binary-arm64/Packages.gz",
+      "sha256": "ec9cae35ec0d0504f94a1582d7a5ae7472a5614e94568537493a6d0a61cb790e",
+      "sizeBytes": 457,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/oracular/main/binary-armhf/Packages.gz",
+      "sha256": "63c167437bfea0c46ea004b4af420ef03bc7f55ce19af72d83c9b92b6e501a7b",
+      "sizeBytes": 358,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/oracular/main/binary-i386/Packages.gz",
+      "sha256": "3aa53f5f5d2fadcd73df3459a9d507024d277b6c265c5a636982ed8faaa557c6",
+      "sizeBytes": 359,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/oracular/main/binary-s390x/Packages.gz",
+      "sha256": "daefecc2cabd4051101eb2150a91155ba3d71e70955d8eeefd5dbc9bf32e0df5",
+      "sizeBytes": 359,
+      "suite": "oracular",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/plucky/main/binary-amd64/Packages.gz",
+      "sha256": "a44572a3045f43f691c754c3740f6ee7f8b45357e03cbc2597936015b1a9a1a3",
+      "sizeBytes": 268856,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/plucky/main/binary-arm/Packages.gz",
+      "sha256": "62a54d5a02c07cbeb16b716d2b40eeca88199774b2f64cf2e5b9b0951bc60ef6",
+      "sizeBytes": 8593,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "arm"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/plucky/main/binary-arm64/Packages.gz",
+      "sha256": "91cc8d8275c475362cfa4b257ccd86ef82cb6e9cabcec5779644939238228fe5",
+      "sizeBytes": 184769,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/plucky/main/binary-armhf/Packages.gz",
+      "sha256": "3aa7133b49573a568c1d0124487c9dcc72acff9568430d2c8978d2eaa573de0b",
+      "sizeBytes": 105760,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/plucky/main/binary-i386/Packages.gz",
+      "sha256": "bd3383eb3904da7271aae842a845d4b33e94abfa748262ebda8a80399dd1c2f2",
+      "sizeBytes": 108757,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/plucky/main/binary-ppc64el/Packages.gz",
+      "sha256": "f471ed940624fc83bbdc2609c96a8501d058b3a44ff2b7deb412d8ff105088d5",
+      "sizeBytes": 2371,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/plucky/main/binary-s390x/Packages.gz",
+      "sha256": "098b59206e288e5a5e40db5b2fe9b5ca065bcbee1f38b2aa060fe2d6200c1aa0",
+      "sizeBytes": 21724,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/trixie/main/binary-amd64/Packages.gz",
+      "sha256": "5fff1dde38eb5655ed0423184c2fe1f24cd81498bcdc7ba38b543c7b05c0880d",
+      "sizeBytes": 268619,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/trixie/main/binary-arm/Packages.gz",
+      "sha256": "62a54d5a02c07cbeb16b716d2b40eeca88199774b2f64cf2e5b9b0951bc60ef6",
+      "sizeBytes": 8593,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "arm"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/trixie/main/binary-arm64/Packages.gz",
+      "sha256": "f1bc531aaebe3be51cc3978859af97ae25b169bb20cb6699b16bfadfdf74ec78",
+      "sizeBytes": 184600,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/trixie/main/binary-armhf/Packages.gz",
+      "sha256": "49c3d2b1b148acfd87b6a170d6af91721a49ae419f1a4968ee343273d16ec8e1",
+      "sizeBytes": 105662,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/trixie/main/binary-i386/Packages.gz",
+      "sha256": "2f49e419d87f912afcb48f57742197025bc7c0d89c752ec3335771236c7ef81a",
+      "sizeBytes": 108659,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/trixie/main/binary-ppc64el/Packages.gz",
+      "sha256": "f471ed940624fc83bbdc2609c96a8501d058b3a44ff2b7deb412d8ff105088d5",
+      "sizeBytes": 2371,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/trixie/main/binary-s390x/Packages.gz",
+      "sha256": "c1e7925f6f9d4b90ea95205959030cb83cb8d64525855e992d060f047a7d5313",
+      "sizeBytes": 21561,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/jammy/main/binary-amd64/Packages.gz",
+      "sha256": "f408c152ba06d17361c4bc1037dba124e4de9fdfb0e8b4ff1f190b8d2c808ec9",
+      "sizeBytes": 269162,
       "suite": "jammy",
       "component": "main",
       "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/jammy/main/binary-arm/Packages.gz",
+      "sha256": "62a54d5a02c07cbeb16b716d2b40eeca88199774b2f64cf2e5b9b0951bc60ef6",
+      "sizeBytes": 8593,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "arm"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/jammy/main/binary-arm64/Packages.gz",
+      "sha256": "91cc8d8275c475362cfa4b257ccd86ef82cb6e9cabcec5779644939238228fe5",
+      "sizeBytes": 184769,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/jammy/main/binary-armhf/Packages.gz",
+      "sha256": "3aa7133b49573a568c1d0124487c9dcc72acff9568430d2c8978d2eaa573de0b",
+      "sizeBytes": 105760,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/jammy/main/binary-i386/Packages.gz",
+      "sha256": "bd3383eb3904da7271aae842a845d4b33e94abfa748262ebda8a80399dd1c2f2",
+      "sizeBytes": 108757,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-ppc64el/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/jammy/main/binary-ppc64el/Packages.gz",
+      "sha256": "f471ed940624fc83bbdc2609c96a8501d058b3a44ff2b7deb412d8ff105088d5",
+      "sizeBytes": 2371,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "main/binary-s390x/Packages.gz",
+      "url": "https://apt.releases.hashicorp.com/dists/jammy/main/binary-s390x/Packages.gz",
+      "sha256": "098b59206e288e5a5e40db5b2fe9b5ca065bcbee1f38b2aa060fe2d6200c1aa0",
+      "sizeBytes": 21724,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "s390x"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.releases.hashicorp.com bookworm InRelease [12.9 kB]\nErr:1 https://apt.releases.hashicorp.com bookworm InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nReading package lists...\n\nW: GPG error: https://apt.releases.hashicorp.com bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nE: The repository 'https://apt.releases.hashicorp.com bookworm InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.releases.hashicorp.com bullseye InRelease [12.9 kB]\nErr:1 https://apt.releases.hashicorp.com bullseye InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nReading package lists...\n\nW: GPG error: https://apt.releases.hashicorp.com bullseye InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nE: The repository 'https://apt.releases.hashicorp.com bullseye InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.releases.hashicorp.com focal InRelease [4429 B]\nErr:1 https://apt.releases.hashicorp.com focal InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nReading package lists...\n\nW: GPG error: https://apt.releases.hashicorp.com focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nE: The repository 'https://apt.releases.hashicorp.com focal InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.releases.hashicorp.com noble InRelease [12.9 kB]\nErr:1 https://apt.releases.hashicorp.com noble InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nReading package lists...\n\nW: GPG error: https://apt.releases.hashicorp.com noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nE: The repository 'https://apt.releases.hashicorp.com noble InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.releases.hashicorp.com oracular InRelease [6982 B]\nErr:1 https://apt.releases.hashicorp.com oracular InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nReading package lists...\n\nW: GPG error: https://apt.releases.hashicorp.com oracular InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nE: The repository 'https://apt.releases.hashicorp.com oracular InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.releases.hashicorp.com plucky InRelease [12.9 kB]\nErr:1 https://apt.releases.hashicorp.com plucky InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nReading package lists...\n\nW: GPG error: https://apt.releases.hashicorp.com plucky InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nE: The repository 'https://apt.releases.hashicorp.com plucky InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.releases.hashicorp.com trixie InRelease [12.9 kB]\nErr:1 https://apt.releases.hashicorp.com trixie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nReading package lists...\n\nW: GPG error: https://apt.releases.hashicorp.com trixie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nE: The repository 'https://apt.releases.hashicorp.com trixie InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.releases.hashicorp.com jammy InRelease [12.9 kB]\nErr:1 https://apt.releases.hashicorp.com jammy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nReading package lists...\n\nW: GPG error: https://apt.releases.hashicorp.com jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AA16FCBCA621E701\nE: The repository 'https://apt.releases.hashicorp.com jammy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
 }

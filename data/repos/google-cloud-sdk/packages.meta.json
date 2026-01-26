@@ -1,42 +1,97 @@
 {
-  "fetchedAt": "2026-01-25T04:44:10.587Z",
+  "fetchedAt": "2026-01-26T19:57:19.518Z",
   "repoId": "google-cloud-sdk",
   "mode": "auto",
   "source": {
-    "line": "deb https://packages.cloud.google.com/apt cloud-sdk main",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://packages.cloud.google.com/apt",
+    "suites": [
+      {
+        "suite": "cloud-sdk",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "cloud-sdk",
-    "Label": "cloud-sdk",
-    "Suite": "cloud-sdk",
-    "Codename": "cloud-sdk",
-    "Architectures": "all amd64 arm64 armhf i386",
-    "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/google-cloud-sdk/run-n4vqQF/var/lib/apt/lists/packages.cloud.google.com_apt_dists_cloud-sdk_InRelease",
-    "inReleaseSha256": "855efd513d0322c8654665074a11864cc3fbc82cc5a4bbad71e1b47152510d6b"
-  },
+  "releases": [
+    {
+      "suite": "cloud-sdk",
+      "release": {
+        "Origin": "cloud-sdk",
+        "Label": "cloud-sdk",
+        "Suite": "cloud-sdk",
+        "Codename": "cloud-sdk",
+        "Date": "Wed, 21 Jan 2026 17:03:41 UTC",
+        "Architectures": "all amd64 arm64 armhf i386",
+        "Components": "main",
+        "Description": "Virtual Repository pointing to cloud-sdk-bullseye"
+      }
+    }
+  ],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/google-cloud-sdk/run-n4vqQF/keyrings/google-cloud.gpg] https://packages.cloud.google.com/apt cloud-sdk main"
+    "deb [[object Object signed-by=/tmp/apt-inventory/google-cloud-sdk/run-Kq9Tww/keyrings/google-cloud.gpg] ] https://packages.cloud.google.com/apt cloud-sdk main",
+    "https://packages.cloud.google.com/apt/dists/cloud-sdk/Release",
+    "https://packages.cloud.google.com/apt/dists/cloud-sdk/main/binary-all/Packages",
+    "https://packages.cloud.google.com/apt/dists/cloud-sdk/main/binary-amd64/Packages",
+    "https://packages.cloud.google.com/apt/dists/cloud-sdk/main/binary-arm64/Packages",
+    "https://packages.cloud.google.com/apt/dists/cloud-sdk/main/binary-armhf/Packages",
+    "https://packages.cloud.google.com/apt/dists/cloud-sdk/main/binary-i386/Packages"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/google-cloud-sdk/run-n4vqQF/var/lib/apt/lists/packages.cloud.google.com_apt_dists_cloud-sdk_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-cloud-sdk/packages.raw/20260125T044410Z/packages.cloud.google.com_apt_dists_cloud-sdk_main_binary-all_Packages",
+      "name": "main/binary-all/Packages",
+      "url": "https://packages.cloud.google.com/apt/dists/cloud-sdk/main/binary-all/Packages",
+      "sha256": "333c3bd6a967d677675324be60edfddfd6a8d9d44ac4dc9a4af55bb539167a36",
+      "sizeBytes": 1916554,
       "suite": "cloud-sdk",
       "component": "main",
       "arch": "all"
     },
     {
-      "source": "/tmp/apt-inventory/google-cloud-sdk/run-n4vqQF/var/lib/apt/lists/packages.cloud.google.com_apt_dists_cloud-sdk_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-cloud-sdk/packages.raw/20260125T044410Z/packages.cloud.google.com_apt_dists_cloud-sdk_main_binary-amd64_Packages",
+      "name": "main/binary-amd64/Packages",
+      "url": "https://packages.cloud.google.com/apt/dists/cloud-sdk/main/binary-amd64/Packages",
+      "sha256": "b6f8fdaf383cd9062247898fba7ac4f5cea4d8e1329568b3324911a3c5359e51",
+      "sizeBytes": 4432420,
       "suite": "cloud-sdk",
       "component": "main",
       "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages",
+      "url": "https://packages.cloud.google.com/apt/dists/cloud-sdk/main/binary-arm64/Packages",
+      "sha256": "840c31472a11d1c416a552844367a8b8653b41bfdb112c32540dfd2d34c8a0f7",
+      "sizeBytes": 1936933,
+      "suite": "cloud-sdk",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-armhf/Packages",
+      "url": "https://packages.cloud.google.com/apt/dists/cloud-sdk/main/binary-armhf/Packages",
+      "sha256": "1f5a0c87dd56f59efc39fade17644bd687c17099b853b9d589a1a7b9fbed9e6f",
+      "sizeBytes": 1643,
+      "suite": "cloud-sdk",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "name": "main/binary-i386/Packages",
+      "url": "https://packages.cloud.google.com/apt/dists/cloud-sdk/main/binary-i386/Packages",
+      "sha256": "62665d179da49732f6aecfd1e082410435865d5a0f52b087f13f45857501c9de",
+      "sizeBytes": 1069419,
+      "suite": "cloud-sdk",
+      "component": "main",
+      "arch": "i386"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://packages.cloud.google.com/apt cloud-sdk InRelease [1620 B]\nErr:1 https://packages.cloud.google.com/apt cloud-sdk InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY C0BA5CE6DC6315A3\nReading package lists...\n\nW: GPG error: https://packages.cloud.google.com/apt cloud-sdk InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY C0BA5CE6DC6315A3\nE: The repository 'https://packages.cloud.google.com/apt cloud-sdk InRelease' is not signed."
+    }
+  ]
 }

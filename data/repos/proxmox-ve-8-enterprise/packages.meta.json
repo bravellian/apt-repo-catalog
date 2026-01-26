@@ -1,17 +1,24 @@
 {
-  "fetchedAt": "2026-01-25T04:43:44.581Z",
+  "fetchedAt": "2026-01-26T20:02:45.912Z",
   "repoId": "proxmox-ve-8-enterprise",
   "mode": "auto",
   "source": {
-    "line": "deb https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://enterprise.proxmox.com/debian/pve",
+    "suites": [
+      {
+        "suite": "bookworm",
+        "components": [
+          "pve-enterprise"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": null,
+  "releases": [],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/proxmox-ve-8-enterprise/run-wZr6yq/keyrings/proxmox-release-bookworm.gpg] https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise",
+    "deb [[object Object signed-by=/tmp/apt-inventory/proxmox-ve-8-enterprise/run-TOZNsy/keyrings/proxmox-release-bookworm.gpg] ] https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise",
     "https://enterprise.proxmox.com/debian/pve/dists/bookworm/Release",
     "https://enterprise.proxmox.com/debian/pve/dists/bookworm/InRelease"
   ],

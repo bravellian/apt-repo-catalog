@@ -1,17 +1,24 @@
 {
-  "fetchedAt": "2026-01-25T04:43:47.644Z",
+  "fetchedAt": "2026-01-26T20:02:39.167Z",
   "repoId": "proxmox-ve-7-enterprise",
   "mode": "auto",
   "source": {
-    "line": "deb https://enterprise.proxmox.com/debian/pve bullseye pve-enterprise",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://enterprise.proxmox.com/debian/pve",
+    "suites": [
+      {
+        "suite": "bullseye",
+        "components": [
+          "pve-enterprise"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": null,
+  "releases": [],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/proxmox-ve-7-enterprise/run-iPORmD/keyrings/proxmox-release-bullseye.gpg] https://enterprise.proxmox.com/debian/pve bullseye pve-enterprise",
+    "deb [[object Object signed-by=/tmp/apt-inventory/proxmox-ve-7-enterprise/run-yTUNzA/keyrings/proxmox-release-bullseye.gpg] ] https://enterprise.proxmox.com/debian/pve bullseye pve-enterprise",
     "https://enterprise.proxmox.com/debian/pve/dists/bullseye/Release",
     "https://enterprise.proxmox.com/debian/pve/dists/bullseye/InRelease"
   ],

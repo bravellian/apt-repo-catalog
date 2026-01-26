@@ -1,35 +1,138 @@
 {
-  "fetchedAt": "2026-01-25T04:43:59.495Z",
+  "fetchedAt": "2026-01-26T20:02:35.886Z",
   "repoId": "proxmox-ceph-squid-test",
   "mode": "auto",
   "source": {
-    "line": "deb http://download.proxmox.com/debian/ceph-squid trixie test",
-    "suite": null,
-    "components": null,
+    "baseUrl": "http://download.proxmox.com/debian/ceph-squid",
+    "suites": [
+      {
+        "suite": "bookworm",
+        "components": [
+          "no-subscription",
+          "test"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trixie",
+        "components": [
+          "no-subscription",
+          "test"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "Proxmox",
-    "Label": "Proxmox Ceph 19 Squid Debian Repository",
-    "Suite": "stable",
-    "Codename": "trixie",
-    "Architectures": "amd64",
-    "Components": "no-subscription test",
-    "inReleasePath": "/tmp/apt-inventory/proxmox-ceph-squid-test/run-a7FBWN/var/lib/apt/lists/download.proxmox.com_debian_ceph-squid_dists_trixie_InRelease",
-    "inReleaseSha256": "15b5beec9b22eb04902f69685c32aae0fa435286e38f8b39ba96b803de7ca503"
-  },
+  "releases": [
+    {
+      "suite": "bookworm",
+      "release": {
+        "Architectures": "amd64",
+        "Changelogs": "https://metadata.cdn.proxmox.com/download/changelogs/ceph-squid/dists/bookworm/@CHANGEPATH@.changelog",
+        "Codename": "bookworm",
+        "Components": "no-subscription test",
+        "Date": "Thu, 15 Jan 2026 19:58:32 +0000",
+        "Label": "Proxmox Ceph 19 Squid Debian Repository",
+        "Origin": "Proxmox",
+        "Suite": "stable",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "trixie",
+      "release": {
+        "Architectures": "amd64",
+        "Changelogs": "https://metadata.cdn.proxmox.com/download/changelogs/ceph-squid/dists/trixie/@CHANGEPATH@.changelog",
+        "Codename": "trixie",
+        "Components": "no-subscription test",
+        "Date": "Thu, 15 Jan 2026 20:00:10 +0000",
+        "Label": "Proxmox Ceph 19 Squid Debian Repository",
+        "Origin": "Proxmox",
+        "Suite": "stable",
+        "SHA512": ""
+      }
+    }
+  ],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/proxmox-ceph-squid-test/run-a7FBWN/keyrings/proxmox-archive-keyring-trixie.gpg] http://download.proxmox.com/debian/ceph-squid trixie test"
+    "deb [[object Object signed-by=/tmp/apt-inventory/proxmox-ceph-squid-test/run-WQWd7p/keyrings/proxmox-archive-keyring-trixie.gpg] ] http://download.proxmox.com/debian/ceph-squid bookworm no-subscription test",
+    "http://download.proxmox.com/debian/ceph-squid/dists/bookworm/Release",
+    "http://download.proxmox.com/debian/ceph-squid/dists/bookworm/no-subscription/binary-amd64/Packages.gz",
+    "http://download.proxmox.com/debian/ceph-squid/dists/bookworm/test/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/proxmox-ceph-squid-test/run-VemPI7/keyrings/proxmox-archive-keyring-trixie.gpg] ] http://download.proxmox.com/debian/ceph-squid trixie no-subscription test",
+    "http://download.proxmox.com/debian/ceph-squid/dists/trixie/Release",
+    "http://download.proxmox.com/debian/ceph-squid/dists/trixie/no-subscription/binary-amd64/Packages.gz",
+    "http://download.proxmox.com/debian/ceph-squid/dists/trixie/test/binary-amd64/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/proxmox-ceph-squid-test/run-a7FBWN/var/lib/apt/lists/download.proxmox.com_debian_ceph-squid_dists_trixie_test_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/proxmox-ceph-squid-test/packages.raw/20260125T044359Z/download.proxmox.com_debian_ceph-squid_dists_trixie_test_binary-amd64_Packages",
+      "name": "no-subscription/binary-amd64/Packages.gz",
+      "url": "http://download.proxmox.com/debian/ceph-squid/dists/bookworm/no-subscription/binary-amd64/Packages.gz",
+      "sha256": "514470f76f1e993150b5b748d8a4f3f1f6dfdbc97a0769631dc8421770bb4cef",
+      "sizeBytes": 77141,
+      "suite": "bookworm",
+      "component": "no-subscription",
+      "arch": "amd64"
+    },
+    {
+      "name": "test/binary-amd64/Packages.gz",
+      "url": "http://download.proxmox.com/debian/ceph-squid/dists/bookworm/test/binary-amd64/Packages.gz",
+      "sha256": "56d62092dd00ed7b8eaca80e0df9fd0d4123690843e52c8a53717621723d7c8a",
+      "sizeBytes": 85808,
+      "suite": "bookworm",
+      "component": "test",
+      "arch": "amd64"
+    },
+    {
+      "name": "no-subscription/binary-amd64/Packages.gz",
+      "url": "http://download.proxmox.com/debian/ceph-squid/dists/trixie/no-subscription/binary-amd64/Packages.gz",
+      "sha256": "90abb3922abf74bf1adc1446c38ec791e2f354fb493b6c1115c9dd4b533018be",
+      "sizeBytes": 33159,
+      "suite": "trixie",
+      "component": "no-subscription",
+      "arch": "amd64"
+    },
+    {
+      "name": "test/binary-amd64/Packages.gz",
+      "url": "http://download.proxmox.com/debian/ceph-squid/dists/trixie/test/binary-amd64/Packages.gz",
+      "sha256": "069a4441708143b9f032dd76084b0af019f28e65beaecf1126bbe94f092f56e8",
+      "sizeBytes": 42480,
       "suite": "trixie",
       "component": "test",
       "arch": "amd64"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://download.proxmox.com/debian/ceph-squid bookworm InRelease [2740 B]\nErr:1 http://download.proxmox.com/debian/ceph-squid bookworm InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 1140AF8F639E0C39\nReading package lists...\n\nW: GPG error: http://download.proxmox.com/debian/ceph-squid bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 1140AF8F639E0C39\nE: The repository 'http://download.proxmox.com/debian/ceph-squid bookworm InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "no-subscription/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "test/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://download.proxmox.com/debian/ceph-squid trixie InRelease [2736 B]\nErr:1 http://download.proxmox.com/debian/ceph-squid trixie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A7BCD1420BFE778E\nReading package lists...\n\nW: GPG error: http://download.proxmox.com/debian/ceph-squid trixie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A7BCD1420BFE778E\nE: The repository 'http://download.proxmox.com/debian/ceph-squid trixie InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "no-subscription/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "test/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
 }

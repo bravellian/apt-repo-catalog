@@ -1,56 +1,90 @@
 {
-  "fetchedAt": "2026-01-25T04:42:58.729Z",
+  "fetchedAt": "2026-01-26T20:00:58.507Z",
   "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
   "mode": "auto",
   "source": {
-    "line": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/debian/13/prod trixie main",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://packages.microsoft.com/debian/13/prod",
+    "suites": [
+      {
+        "suite": "trixie",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64,arm64,armhf"
+        }
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "microsoft-debian-trixie-prod trixie",
-    "Label": "microsoft-debian-trixie-prod trixie",
-    "Suite": "trixie",
-    "Codename": "trixie",
-    "Architectures": "amd64 arm64 armhf all",
-    "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-debian-13-trixie-packages-microsoft-com/run-TUcURt/var/lib/apt/lists/packages.microsoft.com_debian_13_prod_dists_trixie_InRelease",
-    "inReleaseSha256": "26501da851d4874265ec165481fa38144cf8464eeb56a9a811dfd94357d3ce64"
-  },
+  "releases": [
+    {
+      "suite": "trixie",
+      "release": {
+        "Origin": "microsoft-debian-trixie-prod trixie",
+        "Label": "microsoft-debian-trixie-prod trixie",
+        "Suite": "trixie",
+        "Codename": "trixie",
+        "Date": "Fri, 23 Jan 2026 06:40:11 +0000",
+        "Architectures": "amd64 arm64 armhf all",
+        "Components": "main",
+        "Acquire-By-Hash": "yes",
+        "SHA512": ""
+      }
+    }
+  ],
   "sources": [
-    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-debian-13-trixie-packages-microsoft-com/run-TUcURt/keyrings/microsoft-microsoft-2025-EE4D7792F748182B.gpg] https://packages.microsoft.com/debian/13/prod trixie main"
+    "deb [[object Object signed-by=/tmp/apt-inventory/microsoft-default-debian-13-trixie-packages-microsoft-com/run-wKo60R/keyrings/microsoft-microsoft-2025-EE4D7792F748182B.gpg] ] https://packages.microsoft.com/debian/13/prod trixie main",
+    "https://packages.microsoft.com/debian/13/prod/dists/trixie/Release",
+    "https://packages.microsoft.com/debian/13/prod/dists/trixie/main/binary-amd64/Packages.gz",
+    "https://packages.microsoft.com/debian/13/prod/dists/trixie/main/binary-arm64/Packages.gz",
+    "https://packages.microsoft.com/debian/13/prod/dists/trixie/main/binary-armhf/Packages.gz",
+    "https://packages.microsoft.com/debian/13/prod/dists/trixie/main/binary-all/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-debian-13-trixie-packages-microsoft-com/run-TUcURt/var/lib/apt/lists/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-all_Packages",
-      "suite": "trixie",
-      "component": "main",
-      "arch": "all"
-    },
-    {
-      "source": "/tmp/apt-inventory/microsoft-default-debian-13-trixie-packages-microsoft-com/run-TUcURt/var/lib/apt/lists/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-amd64_Packages",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://packages.microsoft.com/debian/13/prod/dists/trixie/main/binary-amd64/Packages.gz",
+      "sha256": "843bcae67c12e1f607af55d0454dbcb535135345a1e233550ec5af4eeaa5ed01",
+      "sizeBytes": 7960,
       "suite": "trixie",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-debian-13-trixie-packages-microsoft-com/run-TUcURt/var/lib/apt/lists/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-arm64_Packages",
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://packages.microsoft.com/debian/13/prod/dists/trixie/main/binary-arm64/Packages.gz",
+      "sha256": "b5c3fbed5647d9c198e9d79fc28d5f2b4889f21818418bd2bf876db7d947799d",
+      "sizeBytes": 3846,
       "suite": "trixie",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-debian-13-trixie-packages-microsoft-com/run-TUcURt/var/lib/apt/lists/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-armhf_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-13-trixie-packages-microsoft-com/packages.raw/20260125T044258Z/packages.microsoft.com_debian_13_prod_dists_trixie_main_binary-armhf_Packages",
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://packages.microsoft.com/debian/13/prod/dists/trixie/main/binary-armhf/Packages.gz",
+      "sha256": "d09f1cee4ebb6b32b28fb588a903d931d4d7f54ac3dfe81261584428288a6e4f",
+      "sizeBytes": 573,
       "suite": "trixie",
       "component": "main",
       "arch": "armhf"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://packages.microsoft.com/debian/13/prod/dists/trixie/main/binary-all/Packages.gz",
+      "sha256": "dcc4a9de963c51065163bb272ab20f4c9b19ec298cd793dfe8ebbdb8f3385fa9",
+      "sizeBytes": 344,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "all"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://packages.microsoft.com/debian/13/prod trixie InRelease [3952 B]\nErr:1 https://packages.microsoft.com/debian/13/prod trixie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EE4D7792F748182B\nReading package lists...\n\nW: GPG error: https://packages.microsoft.com/debian/13/prod trixie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EE4D7792F748182B\nE: The repository 'https://packages.microsoft.com/debian/13/prod trixie InRelease' is not signed."
+    }
+  ]
 }

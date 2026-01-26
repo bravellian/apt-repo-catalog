@@ -1,17 +1,15 @@
 {
-  "generatedAt": "2026-01-25T07:09:18.102Z",
-  "packageCount": 4,
+  "generatedAt": "2026-01-26T20:04:20.739Z",
+  "packageCount": 27,
   "packages": [
     {
       "name": "deb.torproject.org-keyring",
       "repoId": "torproject",
-      "suite": "jammy",
+      "suite": "bookworm",
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "2025.08.08",
@@ -21,9 +19,1254 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "2025.08.08",
+      "latestByArch": {
+        "all": "2025.08.08"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GnuPG archive key of the deb.torproject.org repository",
+      "homepage": "",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "misc",
+      "priority": "important"
+    },
+    {
+      "name": "tor",
+      "repoId": "torproject",
+      "suite": "bookworm",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~d12.bookworm+1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~d12.bookworm+1",
+      "latestByArch": {
+        "amd64": "0.4.8.21-1~d12.bookworm+1",
+        "arm64": "0.4.8.21-1~d12.bookworm+1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "anonymizing overlay network for TCP",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "adduser",
+          "libc6 (>= 2.34)",
+          "libcap2 (>= 1:2.10)",
+          "libevent-2.1-7 (>= 2.1.8-stable)",
+          "liblzma5 (>= 5.1.1alpha+20120614)",
+          "libseccomp2 (>= 0.0.0~20120605)",
+          "libssl3 (>= 3.0.0)",
+          "libsystemd0",
+          "libzstd1 (>= 1.5.2)",
+          "lsb-base",
+          "runit-helper (>= 2.14.0~)",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [
+          "logrotate",
+          "tor-geoipdb",
+          "torsocks"
+        ],
+        "suggests": [
+          "apparmor-utils",
+          "mixmaster",
+          "nyx",
+          "obfs4proxy",
+          "socat",
+          "torbrowser-launcher"
+        ],
+        "conflicts": [
+          "libssl0.9.8 (<< 0.9.8g-9)"
+        ],
+        "breaks": [
+          "runit (<< 2.1.2-51~)"
+        ],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-dbgsym",
+      "repoId": "torproject",
+      "suite": "bookworm",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~d12.bookworm+1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~d12.bookworm+1",
+      "latestByArch": {
+        "amd64": "0.4.8.21-1~d12.bookworm+1",
+        "arm64": "0.4.8.21-1~d12.bookworm+1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "debug symbols for tor",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "tor (= 0.4.8.21-1~d12.bookworm+1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor-dbg (<< 0.3.1.5-alpha)"
+        ],
+        "replaces": [
+          "tor-dbg (<< 0.3.1.5-alpha)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "debug",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-geoipdb",
+      "repoId": "torproject",
+      "suite": "bookworm",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~d12.bookworm+1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~d12.bookworm+1",
+      "latestByArch": {
+        "all": "0.4.8.21-1~d12.bookworm+1"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GeoIP database for Tor",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "tor (>= 0.4.8.21-1~d12.bookworm+1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "replaces": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "deb.torproject.org-keyring",
+      "repoId": "torproject",
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "2025.08.08",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "2025.08.08",
+      "latestByArch": {
+        "all": "2025.08.08"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GnuPG archive key of the deb.torproject.org repository",
+      "homepage": "",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "misc",
+      "priority": "important"
+    },
+    {
+      "name": "tor",
+      "repoId": "torproject",
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~noble+1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~noble+1",
+      "latestByArch": {
+        "amd64": "0.4.8.21-1~noble+1",
+        "arm64": "0.4.8.21-1~noble+1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "anonymizing overlay network for TCP",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "adduser",
+          "libc6 (>= 2.38)",
+          "libcap2 (>= 1:2.10)",
+          "libevent-2.1-7t64 (>= 2.1.8-stable)",
+          "liblzma5 (>= 5.1.1alpha+20120614)",
+          "libseccomp2 (>= 0.0.0~20120605)",
+          "libssl3t64 (>= 3.0.0)",
+          "libsystemd0",
+          "libzstd1 (>= 1.5.5)",
+          "lsb-base",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [
+          "logrotate",
+          "tor-geoipdb",
+          "torsocks"
+        ],
+        "suggests": [
+          "apparmor-utils",
+          "mixmaster",
+          "nyx",
+          "obfs4proxy",
+          "socat",
+          "torbrowser-launcher"
+        ],
+        "conflicts": [
+          "libssl0.9.8 (<< 0.9.8g-9)"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-dbgsym",
+      "repoId": "torproject",
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.14-1+tpo1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.14-1+tpo1",
+      "latestByArch": {
+        "amd64": "0.4.8.14-1+tpo1",
+        "arm64": "0.4.8.14-1+tpo1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "debug symbols for tor",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "tor (= 0.4.8.14-1+tpo1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor-dbg (<< 0.3.1.5-alpha)"
+        ],
+        "replaces": [
+          "tor-dbg (<< 0.3.1.5-alpha)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "debug",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-geoipdb",
+      "repoId": "torproject",
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~noble+1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~noble+1",
+      "latestByArch": {
+        "all": "0.4.8.21-1~noble+1"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GeoIP database for Tor",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "tor (>= 0.4.8.21-1~noble+1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "replaces": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "deb.torproject.org-keyring",
+      "repoId": "torproject",
+      "suite": "plucky",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "2025.08.08",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "2025.08.08",
+      "latestByArch": {
+        "all": "2025.08.08"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GnuPG archive key of the deb.torproject.org repository",
+      "homepage": "",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "misc",
+      "priority": "important"
+    },
+    {
+      "name": "tor",
+      "repoId": "torproject",
+      "suite": "plucky",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~plucky+1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~plucky+1",
+      "latestByArch": {
+        "amd64": "0.4.8.21-1~plucky+1",
+        "arm64": "0.4.8.21-1~plucky+1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "anonymizing overlay network for TCP",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "adduser",
+          "libc6 (>= 2.38)",
+          "libcap2 (>= 1:2.10)",
+          "libevent-2.1-7t64 (>= 2.1.8-stable)",
+          "liblzma5 (>= 5.1.1alpha+20120614)",
+          "libseccomp2 (>= 0.0.0~20120605)",
+          "libssl3t64 (>= 3.0.0)",
+          "libsystemd0",
+          "libzstd1 (>= 1.5.5)",
+          "lsb-base",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [
+          "logrotate",
+          "tor-geoipdb",
+          "torsocks"
+        ],
+        "suggests": [
+          "apparmor-utils",
+          "mixmaster",
+          "nyx",
+          "obfs4proxy",
+          "socat",
+          "torbrowser-launcher"
+        ],
+        "conflicts": [
+          "libssl0.9.8 (<< 0.9.8g-9)"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-geoipdb",
+      "repoId": "torproject",
+      "suite": "plucky",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~plucky+1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~plucky+1",
+      "latestByArch": {
+        "all": "0.4.8.21-1~plucky+1"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GeoIP database for Tor",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "tor (>= 0.4.8.21-1~plucky+1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "replaces": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "deb.torproject.org-keyring",
+      "repoId": "torproject",
+      "suite": "questing",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "2025.08.08",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "2025.08.08",
+      "latestByArch": {
+        "all": "2025.08.08"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GnuPG archive key of the deb.torproject.org repository",
+      "homepage": "",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "misc",
+      "priority": "important"
+    },
+    {
+      "name": "tor",
+      "repoId": "torproject",
+      "suite": "questing",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~questing+1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~questing+1",
+      "latestByArch": {
+        "amd64": "0.4.8.21-1~questing+1",
+        "arm64": "0.4.8.21-1~questing+1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "anonymizing overlay network for TCP",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "adduser",
+          "libc6 (>= 2.38)",
+          "libcap2 (>= 1:2.10)",
+          "libevent-2.1-7t64 (>= 2.1.8-stable)",
+          "liblzma5 (>= 5.1.1alpha+20120614)",
+          "libseccomp2 (>= 0.0.0~20120605)",
+          "libssl3t64 (>= 3.0.0)",
+          "libsystemd0",
+          "libzstd1 (>= 1.5.5)",
+          "lsb-base",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [
+          "logrotate",
+          "tor-geoipdb",
+          "torsocks"
+        ],
+        "suggests": [
+          "apparmor-utils",
+          "mixmaster",
+          "nyx",
+          "obfs4proxy",
+          "socat",
+          "torbrowser-launcher"
+        ],
+        "conflicts": [
+          "libssl0.9.8 (<< 0.9.8g-9)"
+        ],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-dbgsym",
+      "repoId": "torproject",
+      "suite": "questing",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.14-1+tpo1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.14-1+tpo1",
+      "latestByArch": {
+        "amd64": "0.4.8.14-1+tpo1",
+        "arm64": "0.4.8.14-1+tpo1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "debug symbols for tor",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "tor (= 0.4.8.14-1+tpo1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor-dbg (<< 0.3.1.5-alpha)"
+        ],
+        "replaces": [
+          "tor-dbg (<< 0.3.1.5-alpha)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "debug",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-geoipdb",
+      "repoId": "torproject",
+      "suite": "questing",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~questing+1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~questing+1",
+      "latestByArch": {
+        "all": "0.4.8.21-1~questing+1"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GeoIP database for Tor",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "tor (>= 0.4.8.21-1~questing+1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "replaces": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "deb.torproject.org-keyring",
+      "repoId": "torproject",
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "2025.08.08",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "2025.08.08",
+      "latestByArch": {
+        "all": "2025.08.08"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GnuPG archive key of the deb.torproject.org repository",
+      "homepage": "",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "misc",
+      "priority": "important"
+    },
+    {
+      "name": "tor",
+      "repoId": "torproject",
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~d13.trixie+1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~d13.trixie+1",
+      "latestByArch": {
+        "amd64": "0.4.8.21-1~d13.trixie+1",
+        "arm64": "0.4.8.21-1~d13.trixie+1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "anonymizing overlay network for TCP",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "adduser",
+          "libc6 (>= 2.38)",
+          "libcap2 (>= 1:2.10)",
+          "libevent-2.1-7t64 (>= 2.1.8-stable)",
+          "liblzma5 (>= 5.1.1alpha+20120614)",
+          "libseccomp2 (>= 0.0.0~20120605)",
+          "libssl3t64 (>= 3.0.0)",
+          "libsystemd0",
+          "libzstd1 (>= 1.5.5)",
+          "lsb-base",
+          "runit-helper (>= 2.14.0~)",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [
+          "logrotate",
+          "tor-geoipdb",
+          "torsocks"
+        ],
+        "suggests": [
+          "apparmor-utils",
+          "mixmaster",
+          "nyx",
+          "obfs4proxy",
+          "socat",
+          "torbrowser-launcher"
+        ],
+        "conflicts": [
+          "libssl0.9.8 (<< 0.9.8g-9)"
+        ],
+        "breaks": [
+          "runit (<< 2.1.2-51~)"
+        ],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-dbgsym",
+      "repoId": "torproject",
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~d13.trixie+1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~d13.trixie+1",
+      "latestByArch": {
+        "amd64": "0.4.8.21-1~d13.trixie+1",
+        "arm64": "0.4.8.21-1~d13.trixie+1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "debug symbols for tor",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "tor (= 0.4.8.21-1~d13.trixie+1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor-dbg (<< 0.3.1.5-alpha)"
+        ],
+        "replaces": [
+          "tor-dbg (<< 0.3.1.5-alpha)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "debug",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-geoipdb",
+      "repoId": "torproject",
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~d13.trixie+1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~d13.trixie+1",
+      "latestByArch": {
+        "all": "0.4.8.21-1~d13.trixie+1"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GeoIP database for Tor",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "tor (>= 0.4.8.21-1~d13.trixie+1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "replaces": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "deb.torproject.org-keyring",
+      "repoId": "torproject",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "2025.08.08",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "2025.08.08",
+      "latestByArch": {
+        "all": "2025.08.08"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GnuPG archive key of the deb.torproject.org repository",
+      "homepage": "",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "misc",
+      "priority": "important"
+    },
+    {
+      "name": "tor",
+      "repoId": "torproject",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~d13.trixie+1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~d13.trixie+1",
+      "latestByArch": {
+        "amd64": "0.4.8.21-1~d13.trixie+1",
+        "arm64": "0.4.8.21-1~d13.trixie+1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "anonymizing overlay network for TCP",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "adduser",
+          "libc6 (>= 2.38)",
+          "libcap2 (>= 1:2.10)",
+          "libevent-2.1-7t64 (>= 2.1.8-stable)",
+          "liblzma5 (>= 5.1.1alpha+20120614)",
+          "libseccomp2 (>= 0.0.0~20120605)",
+          "libssl3t64 (>= 3.0.0)",
+          "libsystemd0",
+          "libzstd1 (>= 1.5.5)",
+          "lsb-base",
+          "runit-helper (>= 2.14.0~)",
+          "zlib1g (>= 1:1.1.4)"
+        ],
+        "preDepends": [],
+        "recommends": [
+          "logrotate",
+          "tor-geoipdb",
+          "torsocks"
+        ],
+        "suggests": [
+          "apparmor-utils",
+          "mixmaster",
+          "nyx",
+          "obfs4proxy",
+          "socat",
+          "torbrowser-launcher"
+        ],
+        "conflicts": [
+          "libssl0.9.8 (<< 0.9.8g-9)"
+        ],
+        "breaks": [
+          "runit (<< 2.1.2-51~)"
+        ],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-dbgsym",
+      "repoId": "torproject",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~d13.trixie+1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~d13.trixie+1",
+      "latestByArch": {
+        "amd64": "0.4.8.21-1~d13.trixie+1",
+        "arm64": "0.4.8.21-1~d13.trixie+1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "debug symbols for tor",
+      "homepage": "",
+      "relationships": {
+        "depends": [
+          "tor (= 0.4.8.21-1~d13.trixie+1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor-dbg (<< 0.3.1.5-alpha)"
+        ],
+        "replaces": [
+          "tor-dbg (<< 0.3.1.5-alpha)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "debug",
+      "priority": "optional"
+    },
+    {
+      "name": "tor-geoipdb",
+      "repoId": "torproject",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "0.4.8.21-1~d13.trixie+1",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
+        }
+      ],
+      "latestVersion": "0.4.8.21-1~d13.trixie+1",
+      "latestByArch": {
+        "all": "0.4.8.21-1~d13.trixie+1"
+      },
+      "architectures": [
+        "all"
+      ],
+      "descriptionShort": "GeoIP database for Tor",
+      "homepage": "https://www.torproject.org/",
+      "relationships": {
+        "depends": [
+          "tor (>= 0.4.8.21-1~d13.trixie+1)"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "replaces": [
+          "tor (<< 0.2.4.8)"
+        ],
+        "provides": []
+      },
+      "maintainer": "Peter Palfrader <weasel@debian.org>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "deb.torproject.org-keyring",
+      "repoId": "torproject",
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [],
+      "versions": [
+        {
+          "version": "2025.08.08",
+          "architectures": [
+            "all"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "2025.08.08",
@@ -56,29 +1299,28 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "0.4.8.21-1~jammy+1",
           "architectures": [
-            "amd64"
+            "amd64",
+            "arm64"
           ],
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "0.4.8.21-1~jammy+1",
       "latestByArch": {
-        "amd64": "0.4.8.21-1~jammy+1"
+        "amd64": "0.4.8.21-1~jammy+1",
+        "arm64": "0.4.8.21-1~jammy+1"
       },
       "architectures": [
-        "amd64"
+        "amd64",
+        "arm64"
       ],
       "descriptionShort": "anonymizing overlay network for TCP",
       "homepage": "https://www.torproject.org/",
@@ -128,29 +1370,28 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "0.4.8.14-1+tpo1",
           "architectures": [
-            "amd64"
+            "amd64",
+            "arm64"
           ],
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "0.4.8.14-1+tpo1",
       "latestByArch": {
-        "amd64": "0.4.8.14-1+tpo1"
+        "amd64": "0.4.8.14-1+tpo1",
+        "arm64": "0.4.8.14-1+tpo1"
       },
       "architectures": [
-        "amd64"
+        "amd64",
+        "arm64"
       ],
       "descriptionShort": "debug symbols for tor",
       "homepage": "",
@@ -181,9 +1422,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "0.4.8.21-1~jammy+1",
@@ -193,9 +1432,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "0.4.8.21-1~jammy+1",

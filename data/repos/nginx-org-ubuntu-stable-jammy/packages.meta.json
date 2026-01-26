@@ -1,0 +1,1132 @@
+{
+  "fetchedAt": "2026-01-26T20:01:55.310Z",
+  "repoId": "nginx-org-ubuntu-stable-jammy",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://nginx.org/packages/ubuntu",
+    "suites": [
+      {
+        "suite": "artful",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bionic",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "cosmic",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "disco",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "eoan",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "focal",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "groovy",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "hirsute",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "impish",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "kinetic",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "lunar",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "mantic",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "noble",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "oracular",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "plucky",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "questing",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trusty",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "xenial",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "yakkety",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "zesty",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jammy",
+        "components": [
+          "nginx"
+        ],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "artful",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "artful",
+        "Date": "Tue, 31 Jul 2018 12:16:12 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "bionic",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "bionic",
+        "Date": "Tue, 11 Apr 2023 17:47:30 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "cosmic",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "cosmic",
+        "Date": "Tue, 21 May 2019 16:37:05 UTC",
+        "Architectures": "amd64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "disco",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "disco",
+        "Date": "Tue, 21 Jan 2020 16:22:57 UTC",
+        "Architectures": "amd64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "eoan",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "eoan",
+        "Date": "Tue, 11 Aug 2020 17:08:38 UTC",
+        "Architectures": "amd64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "focal",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "focal",
+        "Date": "Tue, 06 May 2025 17:47:09 UTC",
+        "Architectures": "amd64 arm64 s390x",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "groovy",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "groovy",
+        "Date": "Tue, 29 Jun 2021 12:57:14 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "hirsute",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "hirsute",
+        "Date": "Thu, 10 Feb 2022 10:09:07 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "impish",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "impish",
+        "Date": "Tue, 21 Jun 2022 17:41:02 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "kinetic",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "kinetic",
+        "Date": "Thu, 06 Jul 2023 19:40:13 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "lunar",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "lunar",
+        "Date": "Tue, 22 Oct 2024 18:48:26 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "mantic",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "mantic",
+        "Date": "Tue, 22 Oct 2024 18:48:27 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "noble",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "noble",
+        "Date": "Tue, 13 Jan 2026 22:20:26 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "oracular",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "oracular",
+        "Date": "Thu, 10 Jul 2025 20:58:02 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "plucky",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "plucky",
+        "Date": "Tue, 13 Jan 2026 22:20:27 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "questing",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "questing",
+        "Date": "Tue, 13 Jan 2026 22:20:27 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "trusty",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "trusty",
+        "Date": "Tue, 23 Apr 2019 15:15:08 UTC",
+        "Architectures": "i386 amd64 arm64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "xenial",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "xenial",
+        "Date": "Tue, 15 Jun 2021 14:31:07 UTC",
+        "Architectures": "i386 amd64 arm64 ppc64el",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "yakkety",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "yakkety",
+        "Date": "Tue, 11 Jul 2017 14:22:08 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "zesty",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "zesty",
+        "Date": "Tue, 17 Oct 2017 13:48:33 UTC",
+        "Architectures": "i386 amd64",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    },
+    {
+      "suite": "jammy",
+      "release": {
+        "Origin": "nginx",
+        "Label": "nginx",
+        "Suite": "stable",
+        "Codename": "jammy",
+        "Date": "Tue, 13 Jan 2026 22:20:25 UTC",
+        "Architectures": "amd64 arm64 s390x",
+        "Components": "nginx",
+        "Description": "nginx apt repository"
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-jVzx6C/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu artful nginx",
+    "https://nginx.org/packages/ubuntu/dists/artful/Release",
+    "https://nginx.org/packages/ubuntu/dists/artful/nginx/binary-i386/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/artful/nginx/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-aXk7Ox/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu bionic nginx",
+    "https://nginx.org/packages/ubuntu/dists/bionic/Release",
+    "https://nginx.org/packages/ubuntu/dists/bionic/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/bionic/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-KwxtMZ/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu cosmic nginx",
+    "https://nginx.org/packages/ubuntu/dists/cosmic/Release",
+    "https://nginx.org/packages/ubuntu/dists/cosmic/nginx/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-aG96jc/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu disco nginx",
+    "https://nginx.org/packages/ubuntu/dists/disco/Release",
+    "https://nginx.org/packages/ubuntu/dists/disco/nginx/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-zezhDp/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu eoan nginx",
+    "https://nginx.org/packages/ubuntu/dists/eoan/Release",
+    "https://nginx.org/packages/ubuntu/dists/eoan/nginx/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-iyryCE/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu focal nginx",
+    "https://nginx.org/packages/ubuntu/dists/focal/Release",
+    "https://nginx.org/packages/ubuntu/dists/focal/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/focal/nginx/binary-arm64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/focal/nginx/binary-s390x/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-uibrlD/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu groovy nginx",
+    "https://nginx.org/packages/ubuntu/dists/groovy/Release",
+    "https://nginx.org/packages/ubuntu/dists/groovy/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/groovy/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-CuF5vA/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu hirsute nginx",
+    "https://nginx.org/packages/ubuntu/dists/hirsute/Release",
+    "https://nginx.org/packages/ubuntu/dists/hirsute/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/hirsute/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-GIsJSd/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu impish nginx",
+    "https://nginx.org/packages/ubuntu/dists/impish/Release",
+    "https://nginx.org/packages/ubuntu/dists/impish/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/impish/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-TE8bDs/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu kinetic nginx",
+    "https://nginx.org/packages/ubuntu/dists/kinetic/Release",
+    "https://nginx.org/packages/ubuntu/dists/kinetic/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/kinetic/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-vgGCN0/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu lunar nginx",
+    "https://nginx.org/packages/ubuntu/dists/lunar/Release",
+    "https://nginx.org/packages/ubuntu/dists/lunar/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/lunar/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-3KbG4m/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu mantic nginx",
+    "https://nginx.org/packages/ubuntu/dists/mantic/Release",
+    "https://nginx.org/packages/ubuntu/dists/mantic/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/mantic/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-q0ZCoJ/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu noble nginx",
+    "https://nginx.org/packages/ubuntu/dists/noble/Release",
+    "https://nginx.org/packages/ubuntu/dists/noble/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/noble/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-mECV1d/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu oracular nginx",
+    "https://nginx.org/packages/ubuntu/dists/oracular/Release",
+    "https://nginx.org/packages/ubuntu/dists/oracular/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/oracular/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-XEZVbi/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu plucky nginx",
+    "https://nginx.org/packages/ubuntu/dists/plucky/Release",
+    "https://nginx.org/packages/ubuntu/dists/plucky/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/plucky/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-58X0fj/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu questing nginx",
+    "https://nginx.org/packages/ubuntu/dists/questing/Release",
+    "https://nginx.org/packages/ubuntu/dists/questing/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/questing/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-LquySt/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu trusty nginx",
+    "https://nginx.org/packages/ubuntu/dists/trusty/Release",
+    "https://nginx.org/packages/ubuntu/dists/trusty/nginx/binary-i386/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/trusty/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/trusty/nginx/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-E45aEn/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu xenial nginx",
+    "https://nginx.org/packages/ubuntu/dists/xenial/Release",
+    "https://nginx.org/packages/ubuntu/dists/xenial/nginx/binary-i386/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/xenial/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/xenial/nginx/binary-arm64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/xenial/nginx/binary-ppc64el/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-TTKn0k/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu yakkety nginx",
+    "https://nginx.org/packages/ubuntu/dists/yakkety/Release",
+    "https://nginx.org/packages/ubuntu/dists/yakkety/nginx/binary-i386/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/yakkety/nginx/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-AluL8F/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu zesty nginx",
+    "https://nginx.org/packages/ubuntu/dists/zesty/Release",
+    "https://nginx.org/packages/ubuntu/dists/zesty/nginx/binary-i386/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/zesty/nginx/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/nginx-org-ubuntu-stable-jammy/run-Ub18AT/keyrings/nginx-org.gpg] ] https://nginx.org/packages/ubuntu jammy nginx",
+    "https://nginx.org/packages/ubuntu/dists/jammy/Release",
+    "https://nginx.org/packages/ubuntu/dists/jammy/nginx/binary-amd64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/jammy/nginx/binary-arm64/Packages.gz",
+    "https://nginx.org/packages/ubuntu/dists/jammy/nginx/binary-s390x/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "name": "nginx/binary-i386/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/artful/nginx/binary-i386/Packages.gz",
+      "sha256": "d784464adf4e108c1ff1d17251e4bd21ed657d6ea85564a31279b5cf47c0ecbb",
+      "sizeBytes": 4887,
+      "suite": "artful",
+      "component": "nginx",
+      "arch": "i386"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/artful/nginx/binary-amd64/Packages.gz",
+      "sha256": "5dfd50566b7f428bcfb99e46ed8236f926e0e4910ef358ff5880593e4e76e106",
+      "sizeBytes": 4900,
+      "suite": "artful",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/bionic/nginx/binary-amd64/Packages.gz",
+      "sha256": "2906b1fa8fa2950b6d7af6f086150c72d074a6fcce19d1ca52ecf1693ae00767",
+      "sizeBytes": 38314,
+      "suite": "bionic",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/bionic/nginx/binary-arm64/Packages.gz",
+      "sha256": "47c5964ce4b58ec524ed5a270ed356574a0d08f3155bbb92a31b257cf120f26d",
+      "sizeBytes": 32794,
+      "suite": "bionic",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/cosmic/nginx/binary-amd64/Packages.gz",
+      "sha256": "bbd82f144b50edcba96c88b2c087fd7451f46ecc36c270711dec9efd5baad56e",
+      "sizeBytes": 8241,
+      "suite": "cosmic",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/disco/nginx/binary-amd64/Packages.gz",
+      "sha256": "09dfd4927c5c8b82dde477ce112a779c490cc26b1a68840bc0985002703410b5",
+      "sizeBytes": 9280,
+      "suite": "disco",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/eoan/nginx/binary-amd64/Packages.gz",
+      "sha256": "ee8faacee38fa30515d4fce2d1b36b76343e8e58b9840e9f0eb31b141f6fc27b",
+      "sizeBytes": 7552,
+      "suite": "eoan",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/focal/nginx/binary-amd64/Packages.gz",
+      "sha256": "241fbf2016b8d4992e4687492d46a90399a0c30b932090b8c685bebcce52f9a5",
+      "sizeBytes": 41835,
+      "suite": "focal",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/focal/nginx/binary-arm64/Packages.gz",
+      "sha256": "cf455dec5af426b92e6d0034afcf3b358e2611a2c79939f63941c34a2a394509",
+      "sizeBytes": 41820,
+      "suite": "focal",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-s390x/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/focal/nginx/binary-s390x/Packages.gz",
+      "sha256": "45fb66f52a8b878b05a1f500e5debb16712de541836c61640f41a2b5a4d952ce",
+      "sizeBytes": 21241,
+      "suite": "focal",
+      "component": "nginx",
+      "arch": "s390x"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/groovy/nginx/binary-amd64/Packages.gz",
+      "sha256": "6f54cf7633dad7570402985e337a14764a090ea2f9fa59f7f34cd0b17491accc",
+      "sizeBytes": 9609,
+      "suite": "groovy",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/groovy/nginx/binary-arm64/Packages.gz",
+      "sha256": "ade80dc7353561eb8d06374a154958481dcf03f6997d930fb4984ac66d68fb01",
+      "sizeBytes": 9618,
+      "suite": "groovy",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/hirsute/nginx/binary-amd64/Packages.gz",
+      "sha256": "dcf681c25d6685444cf0986101f1c4c4d0a8b1b71cb2108238a4e79b71c1a317",
+      "sizeBytes": 2239,
+      "suite": "hirsute",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/hirsute/nginx/binary-arm64/Packages.gz",
+      "sha256": "e5e9bbd2caf579a9a3a1e3c1baf1e9420b81b78459e0738c5dfeae81e4fc4d49",
+      "sizeBytes": 2238,
+      "suite": "hirsute",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/impish/nginx/binary-amd64/Packages.gz",
+      "sha256": "4ee2df002cae7af9b9ed055532616e1cc4382b323bfd6f30e0b062210fb4a796",
+      "sizeBytes": 9571,
+      "suite": "impish",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/impish/nginx/binary-arm64/Packages.gz",
+      "sha256": "32f576a0138639abf3c69d9576b46deb3b6929a2fa8bfa99b3bf1389c63fa454",
+      "sizeBytes": 9570,
+      "suite": "impish",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/kinetic/nginx/binary-amd64/Packages.gz",
+      "sha256": "6105ffd5f007299f96c48b1ff1bee8ab4deb8ea30054a5eb4a862b9722ca26e7",
+      "sizeBytes": 7707,
+      "suite": "kinetic",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/kinetic/nginx/binary-arm64/Packages.gz",
+      "sha256": "c8c19d7ae3091be18ba2e42efbad0cf7a0bce4e9140e7845a86e0718c88b16d4",
+      "sizeBytes": 7694,
+      "suite": "kinetic",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/lunar/nginx/binary-amd64/Packages.gz",
+      "sha256": "b62226a4d83128fe38e2cf6818dd0c06fe56fe1dc17ded5920e2546273116a54",
+      "sizeBytes": 15597,
+      "suite": "lunar",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/lunar/nginx/binary-arm64/Packages.gz",
+      "sha256": "515ec3ba83cfdccd7b02ad7dadc5dfc8f402cc3fda2fe0c8125ed6ef722ee355",
+      "sizeBytes": 15596,
+      "suite": "lunar",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/mantic/nginx/binary-amd64/Packages.gz",
+      "sha256": "1192a99eb1e04a978b356c1cbd86b4100b3dc440baa1f2073f7b96419b026924",
+      "sizeBytes": 14557,
+      "suite": "mantic",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/mantic/nginx/binary-arm64/Packages.gz",
+      "sha256": "6e327bdee1b317bade0cd66dfd310a00e739f2e38ddd67727416b4f54ce8a97f",
+      "sizeBytes": 14523,
+      "suite": "mantic",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/noble/nginx/binary-amd64/Packages.gz",
+      "sha256": "71ed9ab57c64f7e974e82b69aa1630eded46c790d1a02953122ac64a8d886782",
+      "sizeBytes": 23399,
+      "suite": "noble",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/noble/nginx/binary-arm64/Packages.gz",
+      "sha256": "88d2eab8290e6b26f1a0fa0605875a9b3af9a1db12e9e00d8dc6cae369034e07",
+      "sizeBytes": 23463,
+      "suite": "noble",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/oracular/nginx/binary-amd64/Packages.gz",
+      "sha256": "5d7a3cde5aa051fe36c657076880d7fda68b3ad4bbee328f7c326557988b0a72",
+      "sizeBytes": 11251,
+      "suite": "oracular",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/oracular/nginx/binary-arm64/Packages.gz",
+      "sha256": "1bbb9ccd34ec3ac580ca5957fe13e1f0bffb47a937e9bbe7311f51685535f7ca",
+      "sizeBytes": 11234,
+      "suite": "oracular",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/plucky/nginx/binary-amd64/Packages.gz",
+      "sha256": "c55096c75fdae39f77a8ed13c8f6a55e30b1e04bdc14c5d8c073aa7e1f253f9c",
+      "sizeBytes": 9925,
+      "suite": "plucky",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/plucky/nginx/binary-arm64/Packages.gz",
+      "sha256": "8adbd9d7bceee11c6214eb83f5a98228a0e0d40618b01e57ef2723729709d5ea",
+      "sizeBytes": 9931,
+      "suite": "plucky",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/questing/nginx/binary-amd64/Packages.gz",
+      "sha256": "1e1e53141b0615451a3ef7562d2000f77a9745084c43295749cc482f90ce78a0",
+      "sizeBytes": 8477,
+      "suite": "questing",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/questing/nginx/binary-arm64/Packages.gz",
+      "sha256": "1dc03ea434973dfb745e694d532907172d45062f88da405fe4b8718aae3d44f5",
+      "sizeBytes": 8457,
+      "suite": "questing",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-i386/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/trusty/nginx/binary-i386/Packages.gz",
+      "sha256": "04e83a0946556167025bfe759f79444a91a04644c6de20b272fbf847b33f384d",
+      "sizeBytes": 18013,
+      "suite": "trusty",
+      "component": "nginx",
+      "arch": "i386"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/trusty/nginx/binary-amd64/Packages.gz",
+      "sha256": "d67207c42923271f6e354c5ce7a6a22be67bde9a2fba148e619c0a3fda5bf76b",
+      "sizeBytes": 17987,
+      "suite": "trusty",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/trusty/nginx/binary-arm64/Packages.gz",
+      "sha256": "b0ee8dbfd63cadd52a0410419ddb717d318aa77a6afdc038ec68b5b086c5d37c",
+      "sizeBytes": 16208,
+      "suite": "trusty",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-i386/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/xenial/nginx/binary-i386/Packages.gz",
+      "sha256": "eb0805049aeedbd5b7bf8811107e6f280a64b2db488c1f1a547a320e98b75f3e",
+      "sizeBytes": 35729,
+      "suite": "xenial",
+      "component": "nginx",
+      "arch": "i386"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/xenial/nginx/binary-amd64/Packages.gz",
+      "sha256": "243d6a0a3b2c85dddfce31d5792b3dd685b36aa4ae5b7e41de45bc207f7fe64f",
+      "sizeBytes": 35728,
+      "suite": "xenial",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/xenial/nginx/binary-arm64/Packages.gz",
+      "sha256": "844975384f1d833821d912a5fb8073c56ee198ad118d999256956c5c33061d4e",
+      "sizeBytes": 29964,
+      "suite": "xenial",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-ppc64el/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/xenial/nginx/binary-ppc64el/Packages.gz",
+      "sha256": "df342e64431144d00b2423cd9129d781b1ba9b50ecda85d0e03efd7df1bfdb46",
+      "sizeBytes": 34645,
+      "suite": "xenial",
+      "component": "nginx",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "nginx/binary-i386/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/yakkety/nginx/binary-i386/Packages.gz",
+      "sha256": "409bbbb4d5d2d2e11b3fae6258b2f6ff93a623d2cd9d7fbd9d4a0245609836f6",
+      "sizeBytes": 7419,
+      "suite": "yakkety",
+      "component": "nginx",
+      "arch": "i386"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/yakkety/nginx/binary-amd64/Packages.gz",
+      "sha256": "cf79081b2b2d992d8308a337526f163b6366073c99f58a937b743c73faa9c320",
+      "sizeBytes": 7435,
+      "suite": "yakkety",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-i386/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/zesty/nginx/binary-i386/Packages.gz",
+      "sha256": "f908da6732fe130d55e356962cbea62f5facb92cd385d46098c8bb808387890e",
+      "sizeBytes": 5723,
+      "suite": "zesty",
+      "component": "nginx",
+      "arch": "i386"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/zesty/nginx/binary-amd64/Packages.gz",
+      "sha256": "82a967f1b18d93b2c46180996084769ee870a2a52ab823232886d0ea251e5e4a",
+      "sizeBytes": 5732,
+      "suite": "zesty",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-amd64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/jammy/nginx/binary-amd64/Packages.gz",
+      "sha256": "063ee8a40ca566c5e990fbde3e3fae694df48a19fe3fdf6e142025ba3d3b5aa0",
+      "sizeBytes": 35567,
+      "suite": "jammy",
+      "component": "nginx",
+      "arch": "amd64"
+    },
+    {
+      "name": "nginx/binary-arm64/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/jammy/nginx/binary-arm64/Packages.gz",
+      "sha256": "086062562f88d20bbc1153e5c1eecfb2776e2f06a0cb748806813923922cbec2",
+      "sizeBytes": 35524,
+      "suite": "jammy",
+      "component": "nginx",
+      "arch": "arm64"
+    },
+    {
+      "name": "nginx/binary-s390x/Packages.gz",
+      "url": "https://nginx.org/packages/ubuntu/dists/jammy/nginx/binary-s390x/Packages.gz",
+      "sha256": "18b54e25500e40615a777e5b403f0633dcf215b034d64002bcb4b60362656c4d",
+      "sizeBytes": 18597,
+      "suite": "jammy",
+      "component": "nginx",
+      "arch": "s390x"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu artful InRelease [2834 B]\nErr:1 https://nginx.org/packages/ubuntu artful InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu artful InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu artful InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu bionic InRelease [2862 B]\nErr:1 https://nginx.org/packages/ubuntu bionic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu bionic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu bionic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu cosmic InRelease [2109 B]\nErr:1 https://nginx.org/packages/ubuntu cosmic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu cosmic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu cosmic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu disco InRelease [2108 B]\nErr:1 https://nginx.org/packages/ubuntu disco InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu disco InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu disco InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu eoan InRelease [2107 B]\nErr:1 https://nginx.org/packages/ubuntu eoan InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu eoan InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu eoan InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu focal InRelease [3584 B]\nErr:1 https://nginx.org/packages/ubuntu focal InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu focal InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu groovy InRelease [2844 B]\nErr:1 https://nginx.org/packages/ubuntu groovy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu groovy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu groovy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Ign:1 https://nginx.org/packages/ubuntu hirsute InRelease\nGet:2 https://nginx.org/packages/ubuntu hirsute Release [2314 B]\nIgn:3 https://nginx.org/packages/ubuntu hirsute Release.gpg\nReading package lists...\n\nE: The repository 'https://nginx.org/packages/ubuntu hirsute Release' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu impish InRelease [2844 B]\nErr:1 https://nginx.org/packages/ubuntu impish InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu impish InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu impish InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu kinetic InRelease [2845 B]\nErr:1 https://nginx.org/packages/ubuntu kinetic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu kinetic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu kinetic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu lunar InRelease [2852 B]\nErr:1 https://nginx.org/packages/ubuntu lunar InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu lunar InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu lunar InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu mantic InRelease [2850 B]\nErr:1 https://nginx.org/packages/ubuntu mantic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu mantic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu mantic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu noble InRelease [3275 B]\nErr:1 https://nginx.org/packages/ubuntu noble InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nE: The repository 'https://nginx.org/packages/ubuntu noble InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu oracular InRelease [3269 B]\nErr:1 https://nginx.org/packages/ubuntu oracular InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu oracular InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nE: The repository 'https://nginx.org/packages/ubuntu oracular InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu plucky InRelease [3261 B]\nErr:1 https://nginx.org/packages/ubuntu plucky InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu plucky InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nE: The repository 'https://nginx.org/packages/ubuntu plucky InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu questing InRelease [3263 B]\nErr:1 https://nginx.org/packages/ubuntu questing InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu questing InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nE: The repository 'https://nginx.org/packages/ubuntu questing InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu trusty InRelease [3581 B]\nErr:1 https://nginx.org/packages/ubuntu trusty InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu trusty InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu trusty InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu xenial InRelease [4354 B]\nErr:1 https://nginx.org/packages/ubuntu xenial InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu xenial InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu yakkety InRelease [2835 B]\nErr:1 https://nginx.org/packages/ubuntu yakkety InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu yakkety InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu yakkety InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu zesty InRelease [2833 B]\nErr:1 https://nginx.org/packages/ubuntu zesty InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu zesty InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ABF5BD827BD9BF62\nE: The repository 'https://nginx.org/packages/ubuntu zesty InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://nginx.org/packages/ubuntu jammy InRelease [4025 B]\nErr:1 https://nginx.org/packages/ubuntu jammy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nReading package lists...\n\nW: GPG error: https://nginx.org/packages/ubuntu jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 2FD21310B49F6B46\nE: The repository 'https://nginx.org/packages/ubuntu jammy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "nginx/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
+}

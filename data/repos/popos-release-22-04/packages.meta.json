@@ -1,0 +1,227 @@
+{
+  "fetchedAt": "2026-01-26T20:02:23.342Z",
+  "repoId": "popos-release-22-04",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "http://apt.pop-os.org/release",
+    "suites": [
+      {
+        "suite": "impish",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jammy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "noble",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "impish",
+      "release": {
+        "Architectures": "amd64 i386 arm64 src",
+        "Codename": "impish",
+        "Components": "main",
+        "Date": "Mon, 26 Jan 2026 18:56:19 +0000",
+        "Description": "Pop!_OS Release impish 21.10",
+        "Label": "Pop!_OS Release",
+        "Origin": "pop-os-release",
+        "Suite": "impish",
+        "Version": "21.10",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "jammy",
+      "release": {
+        "Architectures": "amd64 i386 arm64 src",
+        "Codename": "jammy",
+        "Components": "main",
+        "Date": "Mon, 26 Jan 2026 18:57:54 +0000",
+        "Description": "Pop!_OS Release jammy 22.04",
+        "Label": "Pop!_OS Release",
+        "Origin": "pop-os-release",
+        "Suite": "jammy",
+        "Version": "22.04",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "noble",
+      "release": {
+        "Architectures": "amd64 i386 arm64 src",
+        "Codename": "noble",
+        "Components": "main",
+        "Date": "Mon, 26 Jan 2026 18:59:36 +0000",
+        "Description": "Pop!_OS Release noble 24.04",
+        "Label": "Pop!_OS Release",
+        "Origin": "pop-os-release",
+        "Suite": "noble",
+        "Version": "24.04",
+        "SHA512": ""
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/popos-release-22-04/run-dOQC9a/keyrings/popos-lookup-204dd8aec33a7aff.gpg] ] http://apt.pop-os.org/release impish main",
+    "http://apt.pop-os.org/release/dists/impish/Release",
+    "http://apt.pop-os.org/release/dists/impish/main/binary-amd64/Packages.gz",
+    "http://apt.pop-os.org/release/dists/impish/main/binary-i386/Packages.gz",
+    "http://apt.pop-os.org/release/dists/impish/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/popos-release-22-04/run-oAcY2d/keyrings/popos-lookup-204dd8aec33a7aff.gpg] ] http://apt.pop-os.org/release jammy main",
+    "http://apt.pop-os.org/release/dists/jammy/Release",
+    "http://apt.pop-os.org/release/dists/jammy/main/binary-amd64/Packages.gz",
+    "http://apt.pop-os.org/release/dists/jammy/main/binary-i386/Packages.gz",
+    "http://apt.pop-os.org/release/dists/jammy/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/popos-release-22-04/run-RpjcEE/keyrings/popos-lookup-204dd8aec33a7aff.gpg] ] http://apt.pop-os.org/release noble main",
+    "http://apt.pop-os.org/release/dists/noble/Release",
+    "http://apt.pop-os.org/release/dists/noble/main/binary-amd64/Packages.gz",
+    "http://apt.pop-os.org/release/dists/noble/main/binary-i386/Packages.gz",
+    "http://apt.pop-os.org/release/dists/noble/main/binary-arm64/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://apt.pop-os.org/release/dists/impish/main/binary-amd64/Packages.gz",
+      "sha256": "ee16c224a10a0ac90c9de398c5b2366246e8e5743d1d47e7b52a6f9cb5527c31",
+      "sizeBytes": 150549,
+      "suite": "impish",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "http://apt.pop-os.org/release/dists/impish/main/binary-i386/Packages.gz",
+      "sha256": "65f1e556ac6b69361c82c9fb1bb4f46ad30ac1348d355c3b4af1d638150e6f16",
+      "sizeBytes": 76013,
+      "suite": "impish",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "http://apt.pop-os.org/release/dists/impish/main/binary-arm64/Packages.gz",
+      "sha256": "9bd0aa8b054e29a054cb2c82870565521690d8c03cc550c6fe7bab3a91246c67",
+      "sizeBytes": 91612,
+      "suite": "impish",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://apt.pop-os.org/release/dists/jammy/main/binary-amd64/Packages.gz",
+      "sha256": "b6379245bc2cc415fdde73347ab3cbe7d07f64034b8ef2499d2484801d977667",
+      "sizeBytes": 275871,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "http://apt.pop-os.org/release/dists/jammy/main/binary-i386/Packages.gz",
+      "sha256": "3daabff3e612eb07d5cec24835138915cdcf3034024edddd57cfada5dc5c30af",
+      "sizeBytes": 120963,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "http://apt.pop-os.org/release/dists/jammy/main/binary-arm64/Packages.gz",
+      "sha256": "ef54f1bf59a9427c761d66a3fb870f1826dfc1711850ff46391c0bfa5e06a668",
+      "sizeBytes": 223887,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "http://apt.pop-os.org/release/dists/noble/main/binary-amd64/Packages.gz",
+      "sha256": "1c4ef245ac8e3268a6237d9872aa46444ff37aff06f9f5a934e5fd86263f0090",
+      "sizeBytes": 232324,
+      "suite": "noble",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-i386/Packages.gz",
+      "url": "http://apt.pop-os.org/release/dists/noble/main/binary-i386/Packages.gz",
+      "sha256": "5445834980bc2cddbc9037b8cee3db586f31344bfc244a1a78f5602cb0499668",
+      "sizeBytes": 94701,
+      "suite": "noble",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "http://apt.pop-os.org/release/dists/noble/main/binary-arm64/Packages.gz",
+      "sha256": "eace48eddab38fb2bf7bc2a266eef83c708dabce148a2ab99ebc8ceac1bf10af",
+      "sizeBytes": 186098,
+      "suite": "noble",
+      "component": "main",
+      "arch": "arm64"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://apt.pop-os.org/release impish InRelease [16.6 kB]\nErr:1 http://apt.pop-os.org/release impish InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nReading package lists...\n\nW: GPG error: http://apt.pop-os.org/release impish InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nE: The repository 'http://apt.pop-os.org/release impish InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-src/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://apt.pop-os.org/release jammy InRelease [16.6 kB]\nErr:1 http://apt.pop-os.org/release jammy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nReading package lists...\n\nW: GPG error: http://apt.pop-os.org/release jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nE: The repository 'http://apt.pop-os.org/release jammy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-src/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 http://apt.pop-os.org/release noble InRelease [16.6 kB]\nErr:1 http://apt.pop-os.org/release noble InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nReading package lists...\n\nW: GPG error: http://apt.pop-os.org/release noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 204DD8AEC33A7AFF\nE: The repository 'http://apt.pop-os.org/release noble InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-src/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
+}

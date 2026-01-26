@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-25T07:09:08.820Z",
+  "generatedAt": "2026-01-26T19:57:19.492Z",
   "packageCount": 4,
   "packages": [
     {
@@ -9,9 +9,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-chrome/packages.raw/20260125T044412Z/dl.google.com_linux_chrome_deb_dists_stable_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "145.0.7632.18-1",
@@ -21,9 +19,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-chrome/packages.raw/20260125T044412Z/dl.google.com_linux_chrome_deb_dists_stable_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "145.0.7632.18-1",
@@ -91,26 +87,22 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-chrome/packages.raw/20260125T044412Z/dl.google.com_linux_chrome_deb_dists_stable_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
-          "version": "146.0.7651.0-1",
+          "version": "146.0.7652.0-1",
           "architectures": [
             "amd64"
           ],
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-chrome/packages.raw/20260125T044412Z/dl.google.com_linux_chrome_deb_dists_stable_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
-      "latestVersion": "146.0.7651.0-1",
+      "latestVersion": "146.0.7652.0-1",
       "latestByArch": {
-        "amd64": "146.0.7651.0-1"
+        "amd64": "146.0.7652.0-1"
       },
       "architectures": [
         "amd64"
@@ -173,9 +165,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-chrome/packages.raw/20260125T044412Z/dl.google.com_linux_chrome_deb_dists_stable_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "144.0.7559.96-1",
@@ -185,9 +175,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-chrome/packages.raw/20260125T044412Z/dl.google.com_linux_chrome_deb_dists_stable_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "144.0.7559.96-1",
@@ -255,9 +243,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-chrome/packages.raw/20260125T044412Z/dl.google.com_linux_chrome_deb_dists_stable_main_binary-amd64_Packages"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "146.0.7647.3-1",
@@ -267,9 +253,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/google-chrome/packages.raw/20260125T044412Z/dl.google.com_linux_chrome_deb_dists_stable_main_binary-amd64_Packages"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "146.0.7647.3-1",

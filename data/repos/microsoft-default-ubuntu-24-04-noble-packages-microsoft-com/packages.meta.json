@@ -1,56 +1,90 @@
 {
-  "fetchedAt": "2026-01-25T04:42:52.882Z",
+  "fetchedAt": "2026-01-26T20:01:40.799Z",
   "repoId": "microsoft-default-ubuntu-24-04-noble-packages-microsoft-com",
   "mode": "auto",
   "source": {
-    "line": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/ubuntu/24.04/prod noble main",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://packages.microsoft.com/ubuntu/24.04/prod",
+    "suites": [
+      {
+        "suite": "noble",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64,arm64,armhf"
+        }
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "microsoft-ubuntu-noble-prod noble",
-    "Label": "microsoft-ubuntu-noble-prod noble",
-    "Suite": "noble",
-    "Codename": "noble",
-    "Architectures": "amd64 arm64 armhf all",
-    "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com/run-FgYTiQ/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.04_prod_dists_noble_InRelease",
-    "inReleaseSha256": "3c0c8ef82b8074c28332bfb49c610620e74e6542a023fded41ad4689c1d49220"
-  },
+  "releases": [
+    {
+      "suite": "noble",
+      "release": {
+        "Origin": "microsoft-ubuntu-noble-prod noble",
+        "Label": "microsoft-ubuntu-noble-prod noble",
+        "Suite": "noble",
+        "Codename": "noble",
+        "Date": "Mon, 26 Jan 2026 17:37:11 +0000",
+        "Architectures": "amd64 arm64 armhf all",
+        "Components": "main",
+        "Acquire-By-Hash": "yes",
+        "SHA512": ""
+      }
+    }
+  ],
   "sources": [
-    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com/run-FgYTiQ/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/ubuntu/24.04/prod noble main"
+    "deb [[object Object signed-by=/tmp/apt-inventory/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com/run-GprAx1/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] ] https://packages.microsoft.com/ubuntu/24.04/prod noble main",
+    "https://packages.microsoft.com/ubuntu/24.04/prod/dists/noble/Release",
+    "https://packages.microsoft.com/ubuntu/24.04/prod/dists/noble/main/binary-amd64/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/24.04/prod/dists/noble/main/binary-arm64/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/24.04/prod/dists/noble/main/binary-armhf/Packages.gz",
+    "https://packages.microsoft.com/ubuntu/24.04/prod/dists/noble/main/binary-all/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com/run-FgYTiQ/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.04_prod_dists_noble_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com/packages.raw/20260125T044252Z/packages.microsoft.com_ubuntu_24.04_prod_dists_noble_main_binary-all_Packages",
-      "suite": "noble",
-      "component": "main",
-      "arch": "all"
-    },
-    {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com/run-FgYTiQ/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.04_prod_dists_noble_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com/packages.raw/20260125T044252Z/packages.microsoft.com_ubuntu_24.04_prod_dists_noble_main_binary-amd64_Packages",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/24.04/prod/dists/noble/main/binary-amd64/Packages.gz",
+      "sha256": "256aed821537652e3db6eccc2a06694673d0ac312509b4a52303c63edd6e4d18",
+      "sizeBytes": 85514,
       "suite": "noble",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com/run-FgYTiQ/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.04_prod_dists_noble_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com/packages.raw/20260125T044252Z/packages.microsoft.com_ubuntu_24.04_prod_dists_noble_main_binary-arm64_Packages",
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/24.04/prod/dists/noble/main/binary-arm64/Packages.gz",
+      "sha256": "3c1dce498c9a3c0ee6f9dc994dc0a93aa2e8b863fd1b61e464e8ee90757eb21d",
+      "sizeBytes": 66383,
       "suite": "noble",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com/run-FgYTiQ/var/lib/apt/lists/packages.microsoft.com_ubuntu_24.04_prod_dists_noble_main_binary-armhf_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com/packages.raw/20260125T044252Z/packages.microsoft.com_ubuntu_24.04_prod_dists_noble_main_binary-armhf_Packages",
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/24.04/prod/dists/noble/main/binary-armhf/Packages.gz",
+      "sha256": "35d6a06e77f7e94babedd7cd49b52bab510373217d7bab438fcda1799c9de543",
+      "sizeBytes": 12267,
       "suite": "noble",
       "component": "main",
       "arch": "armhf"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://packages.microsoft.com/ubuntu/24.04/prod/dists/noble/main/binary-all/Packages.gz",
+      "sha256": "bd1bdbc52752b395584a03a62f7cb44327693b825c0a88028745f37bdea1fcc7",
+      "sizeBytes": 650,
+      "suite": "noble",
+      "component": "main",
+      "arch": "all"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]\nErr:1 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EB3E94ADBE1229CF\nReading package lists...\n\nW: GPG error: https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EB3E94ADBE1229CF\nE: The repository 'https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease' is not signed."
+    }
+  ]
 }

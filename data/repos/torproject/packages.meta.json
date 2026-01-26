@@ -1,35 +1,377 @@
 {
-  "fetchedAt": "2026-01-25T04:44:15.206Z",
+  "fetchedAt": "2026-01-26T20:04:08.491Z",
   "repoId": "torproject",
   "mode": "auto",
   "source": {
-    "line": "deb https://deb.torproject.org/torproject.org jammy main",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://deb.torproject.org/torproject.org",
+    "suites": [
+      {
+        "suite": "bookworm",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "noble",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "plucky",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "questing",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "stable",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trixie",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jammy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "TorProject",
-    "Label": null,
-    "Suite": "jammy",
-    "Codename": "jammy",
-    "Architectures": "amd64 arm64",
-    "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/torproject/run-AMtXLu/var/lib/apt/lists/deb.torproject.org_torproject.org_dists_jammy_InRelease",
-    "inReleaseSha256": "87734a3b64c7376df41b9ad4a5f4b404d1c1d9aa98b93ad029b14fb731e24653"
-  },
+  "releases": [
+    {
+      "suite": "bookworm",
+      "release": {
+        "Origin": "TorProject",
+        "Suite": "oldstable",
+        "Codename": "bookworm",
+        "Date": "Fri, 23 Jan 2026 11:28:01 UTC",
+        "Valid-Until": "Wed, 04 Mar 2026 11:28:01 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "main"
+      }
+    },
+    {
+      "suite": "noble",
+      "release": {
+        "Origin": "TorProject",
+        "Suite": "noble",
+        "Codename": "noble",
+        "Date": "Fri, 23 Jan 2026 11:28:01 UTC",
+        "Valid-Until": "Wed, 04 Mar 2026 11:28:01 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "main"
+      }
+    },
+    {
+      "suite": "plucky",
+      "release": {
+        "Origin": "TorProject",
+        "Suite": "plucky",
+        "Codename": "plucky",
+        "Date": "Fri, 23 Jan 2026 11:28:01 UTC",
+        "Valid-Until": "Wed, 04 Mar 2026 11:28:01 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "main"
+      }
+    },
+    {
+      "suite": "questing",
+      "release": {
+        "Origin": "TorProject",
+        "Suite": "questing",
+        "Codename": "questing",
+        "Date": "Fri, 23 Jan 2026 11:28:02 UTC",
+        "Valid-Until": "Wed, 04 Mar 2026 11:28:02 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "main"
+      }
+    },
+    {
+      "suite": "stable",
+      "release": {
+        "Origin": "TorProject",
+        "Suite": "stable",
+        "Codename": "trixie",
+        "Date": "Fri, 23 Jan 2026 11:28:01 UTC",
+        "Valid-Until": "Wed, 04 Mar 2026 11:28:01 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "main"
+      }
+    },
+    {
+      "suite": "trixie",
+      "release": {
+        "Origin": "TorProject",
+        "Suite": "stable",
+        "Codename": "trixie",
+        "Date": "Fri, 23 Jan 2026 11:28:01 UTC",
+        "Valid-Until": "Wed, 04 Mar 2026 11:28:01 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "main"
+      }
+    },
+    {
+      "suite": "jammy",
+      "release": {
+        "Origin": "TorProject",
+        "Suite": "jammy",
+        "Codename": "jammy",
+        "Date": "Fri, 23 Jan 2026 11:28:01 UTC",
+        "Valid-Until": "Wed, 04 Mar 2026 11:28:01 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "main"
+      }
+    }
+  ],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/torproject/run-AMtXLu/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org jammy main"
+    "deb [[object Object signed-by=/tmp/apt-inventory/torproject/run-hX4nwv/keyrings/torproject.gpg] ] https://deb.torproject.org/torproject.org bookworm main",
+    "https://deb.torproject.org/torproject.org/dists/bookworm/Release",
+    "https://deb.torproject.org/torproject.org/dists/bookworm/main/binary-amd64/Packages.gz",
+    "https://deb.torproject.org/torproject.org/dists/bookworm/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/torproject/run-qtbSgy/keyrings/torproject.gpg] ] https://deb.torproject.org/torproject.org noble main",
+    "https://deb.torproject.org/torproject.org/dists/noble/Release",
+    "https://deb.torproject.org/torproject.org/dists/noble/main/binary-amd64/Packages.gz",
+    "https://deb.torproject.org/torproject.org/dists/noble/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/torproject/run-0pNZS6/keyrings/torproject.gpg] ] https://deb.torproject.org/torproject.org plucky main",
+    "https://deb.torproject.org/torproject.org/dists/plucky/Release",
+    "https://deb.torproject.org/torproject.org/dists/plucky/main/binary-amd64/Packages.gz",
+    "https://deb.torproject.org/torproject.org/dists/plucky/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/torproject/run-3HR03d/keyrings/torproject.gpg] ] https://deb.torproject.org/torproject.org questing main",
+    "https://deb.torproject.org/torproject.org/dists/questing/Release",
+    "https://deb.torproject.org/torproject.org/dists/questing/main/binary-amd64/Packages.gz",
+    "https://deb.torproject.org/torproject.org/dists/questing/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/torproject/run-rg9A8N/keyrings/torproject.gpg] ] https://deb.torproject.org/torproject.org stable main",
+    "https://deb.torproject.org/torproject.org/dists/stable/Release",
+    "https://deb.torproject.org/torproject.org/dists/stable/main/binary-amd64/Packages.gz",
+    "https://deb.torproject.org/torproject.org/dists/stable/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/torproject/run-JEQmcE/keyrings/torproject.gpg] ] https://deb.torproject.org/torproject.org trixie main",
+    "https://deb.torproject.org/torproject.org/dists/trixie/Release",
+    "https://deb.torproject.org/torproject.org/dists/trixie/main/binary-amd64/Packages.gz",
+    "https://deb.torproject.org/torproject.org/dists/trixie/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/torproject/run-1TWgrA/keyrings/torproject.gpg] ] https://deb.torproject.org/torproject.org jammy main",
+    "https://deb.torproject.org/torproject.org/dists/jammy/Release",
+    "https://deb.torproject.org/torproject.org/dists/jammy/main/binary-amd64/Packages.gz",
+    "https://deb.torproject.org/torproject.org/dists/jammy/main/binary-arm64/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/torproject/run-AMtXLu/var/lib/apt/lists/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/torproject/packages.raw/20260125T044415Z/deb.torproject.org_torproject.org_dists_jammy_main_binary-amd64_Packages",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/bookworm/main/binary-amd64/Packages.gz",
+      "sha256": "3cfff2edef9eec4ff176a0a0be4377b5273b39334440e40c1ea75dc03e7484f0",
+      "sizeBytes": 2443,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/bookworm/main/binary-arm64/Packages.gz",
+      "sha256": "6e7075dd73706c61207933a5d0281ac85338c6c0f682728b49a6722c3785684c",
+      "sizeBytes": 2429,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/noble/main/binary-amd64/Packages.gz",
+      "sha256": "8caf6d1c068a791d9bf6ff60ef444a3f66ff3dc043184beb8c5d07d524d64767",
+      "sizeBytes": 2423,
+      "suite": "noble",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/noble/main/binary-arm64/Packages.gz",
+      "sha256": "7d138dcce8c185e8527480a115fb87879bd6f7be89e41a88c6b36a56e73982a6",
+      "sizeBytes": 2409,
+      "suite": "noble",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/plucky/main/binary-amd64/Packages.gz",
+      "sha256": "3c49bd1c1b9bedb091cb5d66e8eaf8a2f15bef5f62ef280dbff64b49070d1743",
+      "sizeBytes": 2100,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/plucky/main/binary-arm64/Packages.gz",
+      "sha256": "abfcf664163c1855b9483778840320ed1cfe804dd74459982399d60501a0cd00",
+      "sizeBytes": 2087,
+      "suite": "plucky",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/questing/main/binary-amd64/Packages.gz",
+      "sha256": "75f0f02cef9d3ba675aceb72b4689e14a3ca7c1ed766e281ecbe942e9c9f153a",
+      "sizeBytes": 2424,
+      "suite": "questing",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/questing/main/binary-arm64/Packages.gz",
+      "sha256": "3bd84310353ba6fb756a1de12e306581a444e900643fce97e095fafbe0c95cac",
+      "sizeBytes": 2412,
+      "suite": "questing",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/stable/main/binary-amd64/Packages.gz",
+      "sha256": "0f601f15cf5354280ab912ac7f44a5bf607746bf58cf0c9cf5da5e17edea77b3",
+      "sizeBytes": 2446,
+      "suite": "stable",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/stable/main/binary-arm64/Packages.gz",
+      "sha256": "9f246d4800744294066aaa757fb08aacf66448fc564254320e35f020bca23f17",
+      "sizeBytes": 2429,
+      "suite": "stable",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/trixie/main/binary-amd64/Packages.gz",
+      "sha256": "0f601f15cf5354280ab912ac7f44a5bf607746bf58cf0c9cf5da5e17edea77b3",
+      "sizeBytes": 2446,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/trixie/main/binary-arm64/Packages.gz",
+      "sha256": "9f246d4800744294066aaa757fb08aacf66448fc564254320e35f020bca23f17",
+      "sizeBytes": 2429,
+      "suite": "trixie",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/jammy/main/binary-amd64/Packages.gz",
+      "sha256": "7271401d50769c8df2d7e693867466324412152cb65cc845507ff282fc886ba3",
+      "sizeBytes": 2426,
       "suite": "jammy",
       "component": "main",
       "arch": "amd64"
+    },
+    {
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://deb.torproject.org/torproject.org/dists/jammy/main/binary-arm64/Packages.gz",
+      "sha256": "86e90183ba324f17f48e7760bd6a38275a071457037caf484b300f3f6f98ddc1",
+      "sizeBytes": 2417,
+      "suite": "jammy",
+      "component": "main",
+      "arch": "arm64"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://deb.torproject.org/torproject.org bookworm InRelease [2819 B]\nErr:1 https://deb.torproject.org/torproject.org bookworm InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nReading package lists...\n\nW: GPG error: https://deb.torproject.org/torproject.org bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nE: The repository 'https://deb.torproject.org/torproject.org bookworm InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://deb.torproject.org/torproject.org noble InRelease [2812 B]\nErr:1 https://deb.torproject.org/torproject.org noble InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nReading package lists...\n\nW: GPG error: https://deb.torproject.org/torproject.org noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nE: The repository 'https://deb.torproject.org/torproject.org noble InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://deb.torproject.org/torproject.org plucky InRelease [2814 B]\nErr:1 https://deb.torproject.org/torproject.org plucky InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nReading package lists...\n\nW: GPG error: https://deb.torproject.org/torproject.org plucky InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nE: The repository 'https://deb.torproject.org/torproject.org plucky InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://deb.torproject.org/torproject.org questing InRelease [2818 B]\nErr:1 https://deb.torproject.org/torproject.org questing InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nReading package lists...\n\nW: GPG error: https://deb.torproject.org/torproject.org questing InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nE: The repository 'https://deb.torproject.org/torproject.org questing InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://deb.torproject.org/torproject.org stable InRelease [2814 B]\nErr:1 https://deb.torproject.org/torproject.org stable InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nReading package lists...\n\nW: GPG error: https://deb.torproject.org/torproject.org stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nE: The repository 'https://deb.torproject.org/torproject.org stable InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://deb.torproject.org/torproject.org trixie InRelease [2814 B]\nErr:1 https://deb.torproject.org/torproject.org trixie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nReading package lists...\n\nW: GPG error: https://deb.torproject.org/torproject.org trixie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nE: The repository 'https://deb.torproject.org/torproject.org trixie InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://deb.torproject.org/torproject.org jammy InRelease [2812 B]\nErr:1 https://deb.torproject.org/torproject.org jammy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nReading package lists...\n\nW: GPG error: https://deb.torproject.org/torproject.org jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 74A941BA219EC810\nE: The repository 'https://deb.torproject.org/torproject.org jammy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
 }

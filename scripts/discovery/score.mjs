@@ -128,9 +128,13 @@ export function curateRepos(repos, config) {
       }
     })();
     const allowlisted = config.discovery.allowedDomains.some((domain) => host.endsWith(domain));
-    const meetsSelectivity =
+    const meetsThresholds =
       occurrences >= config.discovery.minOccurrencesForCuration &&
-      distinctSources >= config.discovery.minDistinctSourcesForCuration &&
+      distinctSources >= config.discovery.minDistinctSourcesForCuration;
+    const allowlistBypass =
+      Boolean(config.discovery.allowlistBypassesThresholds) && allowlisted;
+    const meetsSelectivity =
+      (meetsThresholds || allowlistBypass) &&
       (!config.discovery.requireAllowlistForCuration || allowlisted);
     const reasons = [];
     if (!verifiedOk) {

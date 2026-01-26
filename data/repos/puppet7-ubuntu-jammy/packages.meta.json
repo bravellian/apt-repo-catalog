@@ -1,0 +1,1760 @@
+{
+  "fetchedAt": "2026-01-26T20:02:59.206Z",
+  "repoId": "puppet7-ubuntu-jammy",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://apt.puppet.com",
+    "suites": [
+      {
+        "suite": "bookworm",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bionic",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bullseye",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "buster",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "cosmic",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "focal",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jessie",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "noble",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "stretch",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trusty",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "wheezy",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "xenial",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "yakkety",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jammy",
+        "components": [
+          "puppet7"
+        ],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "bookworm",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "bookworm",
+        "Codename": "bookworm",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "puppet puppet7 puppet8 puppet-tools",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Wed, 09 Apr 2025 17:50:09 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "bionic",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "bionic",
+        "Codename": "bionic",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "PC1 puppet puppet5 puppet6 puppet6-release puppet7 puppet8 puppet-enterprise-tools puppet-nightly puppet-release puppet-tools",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Wed, 09 Apr 2025 17:50:08 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "bullseye",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "bullseye",
+        "Codename": "bullseye",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "puppet puppet5 puppet6 puppet7 puppet8 puppet-tools",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Wed, 09 Apr 2025 17:50:08 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "buster",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "buster",
+        "Codename": "buster",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "puppet puppet5 puppet6 puppet6-release puppet7 puppet8 puppet-release puppet-tools",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Wed, 09 Apr 2025 17:50:09 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "cosmic",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "cosmic",
+        "Codename": "cosmic",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Thu, 16 Dec 2021 21:11:44 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "focal",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "focal",
+        "Codename": "focal",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "puppet puppet5 puppet6 puppet6-release puppet7 puppet8 puppet-enterprise-tools puppet-release puppet-tools",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Wed, 09 Apr 2025 17:50:09 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "jessie",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "jessie",
+        "Codename": "jessie",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "dependencies main PC1 puppet puppet5 puppet6 puppet7 puppet-enterprise-tools puppet-tools",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Thu, 16 Dec 2021 21:11:44 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "noble",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "noble",
+        "Codename": "noble",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "puppet puppet7 puppet8 puppet-tools",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Wed, 09 Apr 2025 17:50:09 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "stretch",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "stretch",
+        "Codename": "stretch",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "PC1 puppet puppet5 puppet6 puppet6-release puppet7 puppet-enterprise-tools puppet-release puppet-tools",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Thu, 17 Nov 2022 17:52:41 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "trusty",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "trusty",
+        "Codename": "trusty",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "dependencies devel main PC1 puppet puppet5 puppet6 puppet-enterprise-tools puppet-tools",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Thu, 17 Nov 2022 17:52:41 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "wheezy",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "wheezy",
+        "Codename": "wheezy",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "dependencies devel main PC1 puppet5",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Mon, 15 Jun 2020 21:56:47 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "xenial",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "xenial",
+        "Codename": "xenial",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "main PC1 puppet puppet5 puppet6 puppet6-release puppet7 puppet-enterprise-tools puppet-release puppet-tools",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Thu, 17 Nov 2022 17:52:41 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "yakkety",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "yakkety",
+        "Codename": "yakkety",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "PC1 puppet5-nightly puppet-nightly",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Thu, 05 Oct 2017 18:14:31 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "jammy",
+      "release": {
+        "Origin": "Puppetlabs",
+        "Label": "Puppetlabs",
+        "Suite": "jammy",
+        "Codename": "jammy",
+        "NotAutomatic": "no",
+        "ButAutomaticUpgrades": "no",
+        "Components": "puppet puppet5 puppet6 puppet6-release puppet7 puppet8 puppet-release puppet-tools",
+        "Architectures": "i386 amd64 arm64 armel armhf powerpc sparc mips mipsel ppc64el all",
+        "Date": "Wed, 09 Apr 2025 17:50:08 UTC",
+        "Valid-Until": "Tue, 30 Nov 2038 00:00:00 UTC",
+        "SHA512": ""
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-UIlZbN/keyrings/puppet.gpg] ] https://apt.puppet.com bookworm puppet7",
+    "https://apt.puppet.com/dists/bookworm/Release",
+    "https://apt.puppet.com/dists/bookworm/puppet7/binary-i386/Packages.gz",
+    "https://apt.puppet.com/dists/bookworm/puppet7/binary-amd64/Packages.gz",
+    "https://apt.puppet.com/dists/bookworm/puppet7/binary-arm64/Packages.gz",
+    "https://apt.puppet.com/dists/bookworm/puppet7/binary-armel/Packages.gz",
+    "https://apt.puppet.com/dists/bookworm/puppet7/binary-armhf/Packages.gz",
+    "https://apt.puppet.com/dists/bookworm/puppet7/binary-powerpc/Packages.gz",
+    "https://apt.puppet.com/dists/bookworm/puppet7/binary-sparc/Packages.gz",
+    "https://apt.puppet.com/dists/bookworm/puppet7/binary-mips/Packages.gz",
+    "https://apt.puppet.com/dists/bookworm/puppet7/binary-mipsel/Packages.gz",
+    "https://apt.puppet.com/dists/bookworm/puppet7/binary-ppc64el/Packages.gz",
+    "https://apt.puppet.com/dists/bookworm/puppet7/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-ok2xic/keyrings/puppet.gpg] ] https://apt.puppet.com bionic puppet7",
+    "https://apt.puppet.com/dists/bionic/Release",
+    "https://apt.puppet.com/dists/bionic/puppet7/binary-i386/Packages.gz",
+    "https://apt.puppet.com/dists/bionic/puppet7/binary-amd64/Packages.gz",
+    "https://apt.puppet.com/dists/bionic/puppet7/binary-arm64/Packages.gz",
+    "https://apt.puppet.com/dists/bionic/puppet7/binary-armel/Packages.gz",
+    "https://apt.puppet.com/dists/bionic/puppet7/binary-armhf/Packages.gz",
+    "https://apt.puppet.com/dists/bionic/puppet7/binary-powerpc/Packages.gz",
+    "https://apt.puppet.com/dists/bionic/puppet7/binary-sparc/Packages.gz",
+    "https://apt.puppet.com/dists/bionic/puppet7/binary-mips/Packages.gz",
+    "https://apt.puppet.com/dists/bionic/puppet7/binary-mipsel/Packages.gz",
+    "https://apt.puppet.com/dists/bionic/puppet7/binary-ppc64el/Packages.gz",
+    "https://apt.puppet.com/dists/bionic/puppet7/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-fiN5Oa/keyrings/puppet.gpg] ] https://apt.puppet.com bullseye puppet7",
+    "https://apt.puppet.com/dists/bullseye/Release",
+    "https://apt.puppet.com/dists/bullseye/puppet7/binary-i386/Packages.gz",
+    "https://apt.puppet.com/dists/bullseye/puppet7/binary-amd64/Packages.gz",
+    "https://apt.puppet.com/dists/bullseye/puppet7/binary-arm64/Packages.gz",
+    "https://apt.puppet.com/dists/bullseye/puppet7/binary-armel/Packages.gz",
+    "https://apt.puppet.com/dists/bullseye/puppet7/binary-armhf/Packages.gz",
+    "https://apt.puppet.com/dists/bullseye/puppet7/binary-powerpc/Packages.gz",
+    "https://apt.puppet.com/dists/bullseye/puppet7/binary-sparc/Packages.gz",
+    "https://apt.puppet.com/dists/bullseye/puppet7/binary-mips/Packages.gz",
+    "https://apt.puppet.com/dists/bullseye/puppet7/binary-mipsel/Packages.gz",
+    "https://apt.puppet.com/dists/bullseye/puppet7/binary-ppc64el/Packages.gz",
+    "https://apt.puppet.com/dists/bullseye/puppet7/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-sR3Ltf/keyrings/puppet.gpg] ] https://apt.puppet.com buster puppet7",
+    "https://apt.puppet.com/dists/buster/Release",
+    "https://apt.puppet.com/dists/buster/puppet7/binary-i386/Packages.gz",
+    "https://apt.puppet.com/dists/buster/puppet7/binary-amd64/Packages.gz",
+    "https://apt.puppet.com/dists/buster/puppet7/binary-arm64/Packages.gz",
+    "https://apt.puppet.com/dists/buster/puppet7/binary-armel/Packages.gz",
+    "https://apt.puppet.com/dists/buster/puppet7/binary-armhf/Packages.gz",
+    "https://apt.puppet.com/dists/buster/puppet7/binary-powerpc/Packages.gz",
+    "https://apt.puppet.com/dists/buster/puppet7/binary-sparc/Packages.gz",
+    "https://apt.puppet.com/dists/buster/puppet7/binary-mips/Packages.gz",
+    "https://apt.puppet.com/dists/buster/puppet7/binary-mipsel/Packages.gz",
+    "https://apt.puppet.com/dists/buster/puppet7/binary-ppc64el/Packages.gz",
+    "https://apt.puppet.com/dists/buster/puppet7/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-J8zoEF/keyrings/puppet.gpg] ] https://apt.puppet.com cosmic puppet7",
+    "https://apt.puppet.com/dists/cosmic/Release",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-WxYQkG/keyrings/puppet.gpg] ] https://apt.puppet.com focal puppet7",
+    "https://apt.puppet.com/dists/focal/Release",
+    "https://apt.puppet.com/dists/focal/puppet7/binary-i386/Packages.gz",
+    "https://apt.puppet.com/dists/focal/puppet7/binary-amd64/Packages.gz",
+    "https://apt.puppet.com/dists/focal/puppet7/binary-arm64/Packages.gz",
+    "https://apt.puppet.com/dists/focal/puppet7/binary-armel/Packages.gz",
+    "https://apt.puppet.com/dists/focal/puppet7/binary-armhf/Packages.gz",
+    "https://apt.puppet.com/dists/focal/puppet7/binary-powerpc/Packages.gz",
+    "https://apt.puppet.com/dists/focal/puppet7/binary-sparc/Packages.gz",
+    "https://apt.puppet.com/dists/focal/puppet7/binary-mips/Packages.gz",
+    "https://apt.puppet.com/dists/focal/puppet7/binary-mipsel/Packages.gz",
+    "https://apt.puppet.com/dists/focal/puppet7/binary-ppc64el/Packages.gz",
+    "https://apt.puppet.com/dists/focal/puppet7/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-Ti9TGY/keyrings/puppet.gpg] ] https://apt.puppet.com jessie puppet7",
+    "https://apt.puppet.com/dists/jessie/Release",
+    "https://apt.puppet.com/dists/jessie/puppet7/binary-i386/Packages.gz",
+    "https://apt.puppet.com/dists/jessie/puppet7/binary-amd64/Packages.gz",
+    "https://apt.puppet.com/dists/jessie/puppet7/binary-arm64/Packages.gz",
+    "https://apt.puppet.com/dists/jessie/puppet7/binary-armel/Packages.gz",
+    "https://apt.puppet.com/dists/jessie/puppet7/binary-armhf/Packages.gz",
+    "https://apt.puppet.com/dists/jessie/puppet7/binary-powerpc/Packages.gz",
+    "https://apt.puppet.com/dists/jessie/puppet7/binary-sparc/Packages.gz",
+    "https://apt.puppet.com/dists/jessie/puppet7/binary-mips/Packages.gz",
+    "https://apt.puppet.com/dists/jessie/puppet7/binary-mipsel/Packages.gz",
+    "https://apt.puppet.com/dists/jessie/puppet7/binary-ppc64el/Packages.gz",
+    "https://apt.puppet.com/dists/jessie/puppet7/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-Bn3arq/keyrings/puppet.gpg] ] https://apt.puppet.com noble puppet7",
+    "https://apt.puppet.com/dists/noble/Release",
+    "https://apt.puppet.com/dists/noble/puppet7/binary-i386/Packages.gz",
+    "https://apt.puppet.com/dists/noble/puppet7/binary-amd64/Packages.gz",
+    "https://apt.puppet.com/dists/noble/puppet7/binary-arm64/Packages.gz",
+    "https://apt.puppet.com/dists/noble/puppet7/binary-armel/Packages.gz",
+    "https://apt.puppet.com/dists/noble/puppet7/binary-armhf/Packages.gz",
+    "https://apt.puppet.com/dists/noble/puppet7/binary-powerpc/Packages.gz",
+    "https://apt.puppet.com/dists/noble/puppet7/binary-sparc/Packages.gz",
+    "https://apt.puppet.com/dists/noble/puppet7/binary-mips/Packages.gz",
+    "https://apt.puppet.com/dists/noble/puppet7/binary-mipsel/Packages.gz",
+    "https://apt.puppet.com/dists/noble/puppet7/binary-ppc64el/Packages.gz",
+    "https://apt.puppet.com/dists/noble/puppet7/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-AC8C5o/keyrings/puppet.gpg] ] https://apt.puppet.com stretch puppet7",
+    "https://apt.puppet.com/dists/stretch/Release",
+    "https://apt.puppet.com/dists/stretch/puppet7/binary-i386/Packages.gz",
+    "https://apt.puppet.com/dists/stretch/puppet7/binary-amd64/Packages.gz",
+    "https://apt.puppet.com/dists/stretch/puppet7/binary-arm64/Packages.gz",
+    "https://apt.puppet.com/dists/stretch/puppet7/binary-armel/Packages.gz",
+    "https://apt.puppet.com/dists/stretch/puppet7/binary-armhf/Packages.gz",
+    "https://apt.puppet.com/dists/stretch/puppet7/binary-powerpc/Packages.gz",
+    "https://apt.puppet.com/dists/stretch/puppet7/binary-sparc/Packages.gz",
+    "https://apt.puppet.com/dists/stretch/puppet7/binary-mips/Packages.gz",
+    "https://apt.puppet.com/dists/stretch/puppet7/binary-mipsel/Packages.gz",
+    "https://apt.puppet.com/dists/stretch/puppet7/binary-ppc64el/Packages.gz",
+    "https://apt.puppet.com/dists/stretch/puppet7/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-XiDjAF/keyrings/puppet.gpg] ] https://apt.puppet.com trusty puppet7",
+    "https://apt.puppet.com/dists/trusty/Release",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-uCzBrf/keyrings/puppet.gpg] ] https://apt.puppet.com wheezy puppet7",
+    "https://apt.puppet.com/dists/wheezy/Release",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-JNaIrD/keyrings/puppet.gpg] ] https://apt.puppet.com xenial puppet7",
+    "https://apt.puppet.com/dists/xenial/Release",
+    "https://apt.puppet.com/dists/xenial/puppet7/binary-i386/Packages.gz",
+    "https://apt.puppet.com/dists/xenial/puppet7/binary-amd64/Packages.gz",
+    "https://apt.puppet.com/dists/xenial/puppet7/binary-arm64/Packages.gz",
+    "https://apt.puppet.com/dists/xenial/puppet7/binary-armel/Packages.gz",
+    "https://apt.puppet.com/dists/xenial/puppet7/binary-armhf/Packages.gz",
+    "https://apt.puppet.com/dists/xenial/puppet7/binary-powerpc/Packages.gz",
+    "https://apt.puppet.com/dists/xenial/puppet7/binary-sparc/Packages.gz",
+    "https://apt.puppet.com/dists/xenial/puppet7/binary-mips/Packages.gz",
+    "https://apt.puppet.com/dists/xenial/puppet7/binary-mipsel/Packages.gz",
+    "https://apt.puppet.com/dists/xenial/puppet7/binary-ppc64el/Packages.gz",
+    "https://apt.puppet.com/dists/xenial/puppet7/binary-all/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-8k3LCC/keyrings/puppet.gpg] ] https://apt.puppet.com yakkety puppet7",
+    "https://apt.puppet.com/dists/yakkety/Release",
+    "deb [[object Object signed-by=/tmp/apt-inventory/puppet7-ubuntu-jammy/run-a55LtQ/keyrings/puppet.gpg] ] https://apt.puppet.com jammy puppet7",
+    "https://apt.puppet.com/dists/jammy/Release",
+    "https://apt.puppet.com/dists/jammy/puppet7/binary-i386/Packages.gz",
+    "https://apt.puppet.com/dists/jammy/puppet7/binary-amd64/Packages.gz",
+    "https://apt.puppet.com/dists/jammy/puppet7/binary-arm64/Packages.gz",
+    "https://apt.puppet.com/dists/jammy/puppet7/binary-armel/Packages.gz",
+    "https://apt.puppet.com/dists/jammy/puppet7/binary-armhf/Packages.gz",
+    "https://apt.puppet.com/dists/jammy/puppet7/binary-powerpc/Packages.gz",
+    "https://apt.puppet.com/dists/jammy/puppet7/binary-sparc/Packages.gz",
+    "https://apt.puppet.com/dists/jammy/puppet7/binary-mips/Packages.gz",
+    "https://apt.puppet.com/dists/jammy/puppet7/binary-mipsel/Packages.gz",
+    "https://apt.puppet.com/dists/jammy/puppet7/binary-ppc64el/Packages.gz",
+    "https://apt.puppet.com/dists/jammy/puppet7/binary-all/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "name": "puppet7/binary-i386/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bookworm/puppet7/binary-i386/Packages.gz",
+      "sha256": "866f48a33c9b464a79fe770be3fbd93208ede10f1433b5ce1e47a26fdca93e8e",
+      "sizeBytes": 3452,
+      "suite": "bookworm",
+      "component": "puppet7",
+      "arch": "i386"
+    },
+    {
+      "name": "puppet7/binary-amd64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bookworm/puppet7/binary-amd64/Packages.gz",
+      "sha256": "7dbce39c5091a100e571df8278a783aa5b924ca17eb42fe5e23bd8ba5056965b",
+      "sizeBytes": 52207,
+      "suite": "bookworm",
+      "component": "puppet7",
+      "arch": "amd64"
+    },
+    {
+      "name": "puppet7/binary-arm64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bookworm/puppet7/binary-arm64/Packages.gz",
+      "sha256": "4b2c4f3b578bc9621a668366da37c69e412997052ed2319d51c4cec49faeeebb",
+      "sizeBytes": 37403,
+      "suite": "bookworm",
+      "component": "puppet7",
+      "arch": "arm64"
+    },
+    {
+      "name": "puppet7/binary-armel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bookworm/puppet7/binary-armel/Packages.gz",
+      "sha256": "866f48a33c9b464a79fe770be3fbd93208ede10f1433b5ce1e47a26fdca93e8e",
+      "sizeBytes": 3452,
+      "suite": "bookworm",
+      "component": "puppet7",
+      "arch": "armel"
+    },
+    {
+      "name": "puppet7/binary-armhf/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bookworm/puppet7/binary-armhf/Packages.gz",
+      "sha256": "866f48a33c9b464a79fe770be3fbd93208ede10f1433b5ce1e47a26fdca93e8e",
+      "sizeBytes": 3452,
+      "suite": "bookworm",
+      "component": "puppet7",
+      "arch": "armhf"
+    },
+    {
+      "name": "puppet7/binary-powerpc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bookworm/puppet7/binary-powerpc/Packages.gz",
+      "sha256": "866f48a33c9b464a79fe770be3fbd93208ede10f1433b5ce1e47a26fdca93e8e",
+      "sizeBytes": 3452,
+      "suite": "bookworm",
+      "component": "puppet7",
+      "arch": "powerpc"
+    },
+    {
+      "name": "puppet7/binary-sparc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bookworm/puppet7/binary-sparc/Packages.gz",
+      "sha256": "866f48a33c9b464a79fe770be3fbd93208ede10f1433b5ce1e47a26fdca93e8e",
+      "sizeBytes": 3452,
+      "suite": "bookworm",
+      "component": "puppet7",
+      "arch": "sparc"
+    },
+    {
+      "name": "puppet7/binary-mips/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bookworm/puppet7/binary-mips/Packages.gz",
+      "sha256": "866f48a33c9b464a79fe770be3fbd93208ede10f1433b5ce1e47a26fdca93e8e",
+      "sizeBytes": 3452,
+      "suite": "bookworm",
+      "component": "puppet7",
+      "arch": "mips"
+    },
+    {
+      "name": "puppet7/binary-mipsel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bookworm/puppet7/binary-mipsel/Packages.gz",
+      "sha256": "866f48a33c9b464a79fe770be3fbd93208ede10f1433b5ce1e47a26fdca93e8e",
+      "sizeBytes": 3452,
+      "suite": "bookworm",
+      "component": "puppet7",
+      "arch": "mipsel"
+    },
+    {
+      "name": "puppet7/binary-ppc64el/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bookworm/puppet7/binary-ppc64el/Packages.gz",
+      "sha256": "866f48a33c9b464a79fe770be3fbd93208ede10f1433b5ce1e47a26fdca93e8e",
+      "sizeBytes": 3452,
+      "suite": "bookworm",
+      "component": "puppet7",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "puppet7/binary-all/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bookworm/puppet7/binary-all/Packages.gz",
+      "sha256": "866f48a33c9b464a79fe770be3fbd93208ede10f1433b5ce1e47a26fdca93e8e",
+      "sizeBytes": 3452,
+      "suite": "bookworm",
+      "component": "puppet7",
+      "arch": "all"
+    },
+    {
+      "name": "puppet7/binary-i386/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bionic/puppet7/binary-i386/Packages.gz",
+      "sha256": "e50a6576e7e86a1c319f09d3f6dffb2b73d27ece0c05ae755b29490d8cb5c661",
+      "sizeBytes": 24636,
+      "suite": "bionic",
+      "component": "puppet7",
+      "arch": "i386"
+    },
+    {
+      "name": "puppet7/binary-amd64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bionic/puppet7/binary-amd64/Packages.gz",
+      "sha256": "d10a83d8a48174532d5ad6cd2b8edd78b863d310e5874420452642c532e8c4e2",
+      "sizeBytes": 45966,
+      "suite": "bionic",
+      "component": "puppet7",
+      "arch": "amd64"
+    },
+    {
+      "name": "puppet7/binary-arm64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bionic/puppet7/binary-arm64/Packages.gz",
+      "sha256": "b7c7fb0aac2b41f8ff97ecff49c221ef221da9aa94304e29edadbb542801cfe6",
+      "sizeBytes": 31524,
+      "suite": "bionic",
+      "component": "puppet7",
+      "arch": "arm64"
+    },
+    {
+      "name": "puppet7/binary-armel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bionic/puppet7/binary-armel/Packages.gz",
+      "sha256": "e50a6576e7e86a1c319f09d3f6dffb2b73d27ece0c05ae755b29490d8cb5c661",
+      "sizeBytes": 24636,
+      "suite": "bionic",
+      "component": "puppet7",
+      "arch": "armel"
+    },
+    {
+      "name": "puppet7/binary-armhf/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bionic/puppet7/binary-armhf/Packages.gz",
+      "sha256": "e50a6576e7e86a1c319f09d3f6dffb2b73d27ece0c05ae755b29490d8cb5c661",
+      "sizeBytes": 24636,
+      "suite": "bionic",
+      "component": "puppet7",
+      "arch": "armhf"
+    },
+    {
+      "name": "puppet7/binary-powerpc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bionic/puppet7/binary-powerpc/Packages.gz",
+      "sha256": "e50a6576e7e86a1c319f09d3f6dffb2b73d27ece0c05ae755b29490d8cb5c661",
+      "sizeBytes": 24636,
+      "suite": "bionic",
+      "component": "puppet7",
+      "arch": "powerpc"
+    },
+    {
+      "name": "puppet7/binary-sparc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bionic/puppet7/binary-sparc/Packages.gz",
+      "sha256": "e50a6576e7e86a1c319f09d3f6dffb2b73d27ece0c05ae755b29490d8cb5c661",
+      "sizeBytes": 24636,
+      "suite": "bionic",
+      "component": "puppet7",
+      "arch": "sparc"
+    },
+    {
+      "name": "puppet7/binary-mips/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bionic/puppet7/binary-mips/Packages.gz",
+      "sha256": "e50a6576e7e86a1c319f09d3f6dffb2b73d27ece0c05ae755b29490d8cb5c661",
+      "sizeBytes": 24636,
+      "suite": "bionic",
+      "component": "puppet7",
+      "arch": "mips"
+    },
+    {
+      "name": "puppet7/binary-mipsel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bionic/puppet7/binary-mipsel/Packages.gz",
+      "sha256": "e50a6576e7e86a1c319f09d3f6dffb2b73d27ece0c05ae755b29490d8cb5c661",
+      "sizeBytes": 24636,
+      "suite": "bionic",
+      "component": "puppet7",
+      "arch": "mipsel"
+    },
+    {
+      "name": "puppet7/binary-ppc64el/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bionic/puppet7/binary-ppc64el/Packages.gz",
+      "sha256": "e50a6576e7e86a1c319f09d3f6dffb2b73d27ece0c05ae755b29490d8cb5c661",
+      "sizeBytes": 24636,
+      "suite": "bionic",
+      "component": "puppet7",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "puppet7/binary-all/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bionic/puppet7/binary-all/Packages.gz",
+      "sha256": "e50a6576e7e86a1c319f09d3f6dffb2b73d27ece0c05ae755b29490d8cb5c661",
+      "sizeBytes": 24636,
+      "suite": "bionic",
+      "component": "puppet7",
+      "arch": "all"
+    },
+    {
+      "name": "puppet7/binary-i386/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bullseye/puppet7/binary-i386/Packages.gz",
+      "sha256": "80bdc8abb8d72213302028baeb3c092dece93232c30091ad043a81c231d7031a",
+      "sizeBytes": 16982,
+      "suite": "bullseye",
+      "component": "puppet7",
+      "arch": "i386"
+    },
+    {
+      "name": "puppet7/binary-amd64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bullseye/puppet7/binary-amd64/Packages.gz",
+      "sha256": "2e6f3672091373b26b9c12e333901cf3f882af75aec5d43915692857e12eb4c7",
+      "sizeBytes": 236970,
+      "suite": "bullseye",
+      "component": "puppet7",
+      "arch": "amd64"
+    },
+    {
+      "name": "puppet7/binary-arm64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bullseye/puppet7/binary-arm64/Packages.gz",
+      "sha256": "e81b8e51c712d9a8a07cc2af3a98a8b071ad9b5791a7eec511930f74681aac97",
+      "sizeBytes": 57754,
+      "suite": "bullseye",
+      "component": "puppet7",
+      "arch": "arm64"
+    },
+    {
+      "name": "puppet7/binary-armel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bullseye/puppet7/binary-armel/Packages.gz",
+      "sha256": "80bdc8abb8d72213302028baeb3c092dece93232c30091ad043a81c231d7031a",
+      "sizeBytes": 16982,
+      "suite": "bullseye",
+      "component": "puppet7",
+      "arch": "armel"
+    },
+    {
+      "name": "puppet7/binary-armhf/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bullseye/puppet7/binary-armhf/Packages.gz",
+      "sha256": "80bdc8abb8d72213302028baeb3c092dece93232c30091ad043a81c231d7031a",
+      "sizeBytes": 16982,
+      "suite": "bullseye",
+      "component": "puppet7",
+      "arch": "armhf"
+    },
+    {
+      "name": "puppet7/binary-powerpc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bullseye/puppet7/binary-powerpc/Packages.gz",
+      "sha256": "80bdc8abb8d72213302028baeb3c092dece93232c30091ad043a81c231d7031a",
+      "sizeBytes": 16982,
+      "suite": "bullseye",
+      "component": "puppet7",
+      "arch": "powerpc"
+    },
+    {
+      "name": "puppet7/binary-sparc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bullseye/puppet7/binary-sparc/Packages.gz",
+      "sha256": "80bdc8abb8d72213302028baeb3c092dece93232c30091ad043a81c231d7031a",
+      "sizeBytes": 16982,
+      "suite": "bullseye",
+      "component": "puppet7",
+      "arch": "sparc"
+    },
+    {
+      "name": "puppet7/binary-mips/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bullseye/puppet7/binary-mips/Packages.gz",
+      "sha256": "80bdc8abb8d72213302028baeb3c092dece93232c30091ad043a81c231d7031a",
+      "sizeBytes": 16982,
+      "suite": "bullseye",
+      "component": "puppet7",
+      "arch": "mips"
+    },
+    {
+      "name": "puppet7/binary-mipsel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bullseye/puppet7/binary-mipsel/Packages.gz",
+      "sha256": "80bdc8abb8d72213302028baeb3c092dece93232c30091ad043a81c231d7031a",
+      "sizeBytes": 16982,
+      "suite": "bullseye",
+      "component": "puppet7",
+      "arch": "mipsel"
+    },
+    {
+      "name": "puppet7/binary-ppc64el/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bullseye/puppet7/binary-ppc64el/Packages.gz",
+      "sha256": "80bdc8abb8d72213302028baeb3c092dece93232c30091ad043a81c231d7031a",
+      "sizeBytes": 16982,
+      "suite": "bullseye",
+      "component": "puppet7",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "puppet7/binary-all/Packages.gz",
+      "url": "https://apt.puppet.com/dists/bullseye/puppet7/binary-all/Packages.gz",
+      "sha256": "80bdc8abb8d72213302028baeb3c092dece93232c30091ad043a81c231d7031a",
+      "sizeBytes": 16982,
+      "suite": "bullseye",
+      "component": "puppet7",
+      "arch": "all"
+    },
+    {
+      "name": "puppet7/binary-i386/Packages.gz",
+      "url": "https://apt.puppet.com/dists/buster/puppet7/binary-i386/Packages.gz",
+      "sha256": "15d98f2624f4ca5249f24c5d4d187b803bbb9eb2aa4c722d2890a96a95b1c49d",
+      "sizeBytes": 24615,
+      "suite": "buster",
+      "component": "puppet7",
+      "arch": "i386"
+    },
+    {
+      "name": "puppet7/binary-amd64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/buster/puppet7/binary-amd64/Packages.gz",
+      "sha256": "09be712b50fa21590eb077925d2169bdeb34c9db3c18eee723a80bc46bd9f87f",
+      "sizeBytes": 136852,
+      "suite": "buster",
+      "component": "puppet7",
+      "arch": "amd64"
+    },
+    {
+      "name": "puppet7/binary-arm64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/buster/puppet7/binary-arm64/Packages.gz",
+      "sha256": "15d98f2624f4ca5249f24c5d4d187b803bbb9eb2aa4c722d2890a96a95b1c49d",
+      "sizeBytes": 24615,
+      "suite": "buster",
+      "component": "puppet7",
+      "arch": "arm64"
+    },
+    {
+      "name": "puppet7/binary-armel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/buster/puppet7/binary-armel/Packages.gz",
+      "sha256": "15d98f2624f4ca5249f24c5d4d187b803bbb9eb2aa4c722d2890a96a95b1c49d",
+      "sizeBytes": 24615,
+      "suite": "buster",
+      "component": "puppet7",
+      "arch": "armel"
+    },
+    {
+      "name": "puppet7/binary-armhf/Packages.gz",
+      "url": "https://apt.puppet.com/dists/buster/puppet7/binary-armhf/Packages.gz",
+      "sha256": "15d98f2624f4ca5249f24c5d4d187b803bbb9eb2aa4c722d2890a96a95b1c49d",
+      "sizeBytes": 24615,
+      "suite": "buster",
+      "component": "puppet7",
+      "arch": "armhf"
+    },
+    {
+      "name": "puppet7/binary-powerpc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/buster/puppet7/binary-powerpc/Packages.gz",
+      "sha256": "15d98f2624f4ca5249f24c5d4d187b803bbb9eb2aa4c722d2890a96a95b1c49d",
+      "sizeBytes": 24615,
+      "suite": "buster",
+      "component": "puppet7",
+      "arch": "powerpc"
+    },
+    {
+      "name": "puppet7/binary-sparc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/buster/puppet7/binary-sparc/Packages.gz",
+      "sha256": "15d98f2624f4ca5249f24c5d4d187b803bbb9eb2aa4c722d2890a96a95b1c49d",
+      "sizeBytes": 24615,
+      "suite": "buster",
+      "component": "puppet7",
+      "arch": "sparc"
+    },
+    {
+      "name": "puppet7/binary-mips/Packages.gz",
+      "url": "https://apt.puppet.com/dists/buster/puppet7/binary-mips/Packages.gz",
+      "sha256": "15d98f2624f4ca5249f24c5d4d187b803bbb9eb2aa4c722d2890a96a95b1c49d",
+      "sizeBytes": 24615,
+      "suite": "buster",
+      "component": "puppet7",
+      "arch": "mips"
+    },
+    {
+      "name": "puppet7/binary-mipsel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/buster/puppet7/binary-mipsel/Packages.gz",
+      "sha256": "15d98f2624f4ca5249f24c5d4d187b803bbb9eb2aa4c722d2890a96a95b1c49d",
+      "sizeBytes": 24615,
+      "suite": "buster",
+      "component": "puppet7",
+      "arch": "mipsel"
+    },
+    {
+      "name": "puppet7/binary-ppc64el/Packages.gz",
+      "url": "https://apt.puppet.com/dists/buster/puppet7/binary-ppc64el/Packages.gz",
+      "sha256": "15d98f2624f4ca5249f24c5d4d187b803bbb9eb2aa4c722d2890a96a95b1c49d",
+      "sizeBytes": 24615,
+      "suite": "buster",
+      "component": "puppet7",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "puppet7/binary-all/Packages.gz",
+      "url": "https://apt.puppet.com/dists/buster/puppet7/binary-all/Packages.gz",
+      "sha256": "15d98f2624f4ca5249f24c5d4d187b803bbb9eb2aa4c722d2890a96a95b1c49d",
+      "sizeBytes": 24615,
+      "suite": "buster",
+      "component": "puppet7",
+      "arch": "all"
+    },
+    {
+      "name": "puppet7/binary-i386/Packages.gz",
+      "url": "https://apt.puppet.com/dists/focal/puppet7/binary-i386/Packages.gz",
+      "sha256": "989bd7f931d4684f5b615695f64874ed5b41dd51d64776be8dcd5b89813755c3",
+      "sizeBytes": 24596,
+      "suite": "focal",
+      "component": "puppet7",
+      "arch": "i386"
+    },
+    {
+      "name": "puppet7/binary-amd64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/focal/puppet7/binary-amd64/Packages.gz",
+      "sha256": "549a0b0d743cea2acd7a2cdebbd0d79e288b625f55fc143bc9477eb7c68fb4bb",
+      "sizeBytes": 45933,
+      "suite": "focal",
+      "component": "puppet7",
+      "arch": "amd64"
+    },
+    {
+      "name": "puppet7/binary-arm64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/focal/puppet7/binary-arm64/Packages.gz",
+      "sha256": "f0c2ec0ee7efbc83af1fef4a948e2d7a232481d3320f42fbe006cf0bf61b9ea9",
+      "sizeBytes": 33619,
+      "suite": "focal",
+      "component": "puppet7",
+      "arch": "arm64"
+    },
+    {
+      "name": "puppet7/binary-armel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/focal/puppet7/binary-armel/Packages.gz",
+      "sha256": "989bd7f931d4684f5b615695f64874ed5b41dd51d64776be8dcd5b89813755c3",
+      "sizeBytes": 24596,
+      "suite": "focal",
+      "component": "puppet7",
+      "arch": "armel"
+    },
+    {
+      "name": "puppet7/binary-armhf/Packages.gz",
+      "url": "https://apt.puppet.com/dists/focal/puppet7/binary-armhf/Packages.gz",
+      "sha256": "989bd7f931d4684f5b615695f64874ed5b41dd51d64776be8dcd5b89813755c3",
+      "sizeBytes": 24596,
+      "suite": "focal",
+      "component": "puppet7",
+      "arch": "armhf"
+    },
+    {
+      "name": "puppet7/binary-powerpc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/focal/puppet7/binary-powerpc/Packages.gz",
+      "sha256": "989bd7f931d4684f5b615695f64874ed5b41dd51d64776be8dcd5b89813755c3",
+      "sizeBytes": 24596,
+      "suite": "focal",
+      "component": "puppet7",
+      "arch": "powerpc"
+    },
+    {
+      "name": "puppet7/binary-sparc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/focal/puppet7/binary-sparc/Packages.gz",
+      "sha256": "989bd7f931d4684f5b615695f64874ed5b41dd51d64776be8dcd5b89813755c3",
+      "sizeBytes": 24596,
+      "suite": "focal",
+      "component": "puppet7",
+      "arch": "sparc"
+    },
+    {
+      "name": "puppet7/binary-mips/Packages.gz",
+      "url": "https://apt.puppet.com/dists/focal/puppet7/binary-mips/Packages.gz",
+      "sha256": "989bd7f931d4684f5b615695f64874ed5b41dd51d64776be8dcd5b89813755c3",
+      "sizeBytes": 24596,
+      "suite": "focal",
+      "component": "puppet7",
+      "arch": "mips"
+    },
+    {
+      "name": "puppet7/binary-mipsel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/focal/puppet7/binary-mipsel/Packages.gz",
+      "sha256": "989bd7f931d4684f5b615695f64874ed5b41dd51d64776be8dcd5b89813755c3",
+      "sizeBytes": 24596,
+      "suite": "focal",
+      "component": "puppet7",
+      "arch": "mipsel"
+    },
+    {
+      "name": "puppet7/binary-ppc64el/Packages.gz",
+      "url": "https://apt.puppet.com/dists/focal/puppet7/binary-ppc64el/Packages.gz",
+      "sha256": "989bd7f931d4684f5b615695f64874ed5b41dd51d64776be8dcd5b89813755c3",
+      "sizeBytes": 24596,
+      "suite": "focal",
+      "component": "puppet7",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "puppet7/binary-all/Packages.gz",
+      "url": "https://apt.puppet.com/dists/focal/puppet7/binary-all/Packages.gz",
+      "sha256": "989bd7f931d4684f5b615695f64874ed5b41dd51d64776be8dcd5b89813755c3",
+      "sizeBytes": 24596,
+      "suite": "focal",
+      "component": "puppet7",
+      "arch": "all"
+    },
+    {
+      "name": "puppet7/binary-i386/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jessie/puppet7/binary-i386/Packages.gz",
+      "sha256": "d545347c1f99f34d5fa642bc2868cc97d1e3acc7d1509540fc9ac3241e8dfd46",
+      "sizeBytes": 2472,
+      "suite": "jessie",
+      "component": "puppet7",
+      "arch": "i386"
+    },
+    {
+      "name": "puppet7/binary-amd64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jessie/puppet7/binary-amd64/Packages.gz",
+      "sha256": "a2eb643403d547ec798612b6f4aadb0263112bac85a778324d520c668d61f2e5",
+      "sizeBytes": 3406,
+      "suite": "jessie",
+      "component": "puppet7",
+      "arch": "amd64"
+    },
+    {
+      "name": "puppet7/binary-arm64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jessie/puppet7/binary-arm64/Packages.gz",
+      "sha256": "d545347c1f99f34d5fa642bc2868cc97d1e3acc7d1509540fc9ac3241e8dfd46",
+      "sizeBytes": 2472,
+      "suite": "jessie",
+      "component": "puppet7",
+      "arch": "arm64"
+    },
+    {
+      "name": "puppet7/binary-armel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jessie/puppet7/binary-armel/Packages.gz",
+      "sha256": "d545347c1f99f34d5fa642bc2868cc97d1e3acc7d1509540fc9ac3241e8dfd46",
+      "sizeBytes": 2472,
+      "suite": "jessie",
+      "component": "puppet7",
+      "arch": "armel"
+    },
+    {
+      "name": "puppet7/binary-armhf/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jessie/puppet7/binary-armhf/Packages.gz",
+      "sha256": "d545347c1f99f34d5fa642bc2868cc97d1e3acc7d1509540fc9ac3241e8dfd46",
+      "sizeBytes": 2472,
+      "suite": "jessie",
+      "component": "puppet7",
+      "arch": "armhf"
+    },
+    {
+      "name": "puppet7/binary-powerpc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jessie/puppet7/binary-powerpc/Packages.gz",
+      "sha256": "d545347c1f99f34d5fa642bc2868cc97d1e3acc7d1509540fc9ac3241e8dfd46",
+      "sizeBytes": 2472,
+      "suite": "jessie",
+      "component": "puppet7",
+      "arch": "powerpc"
+    },
+    {
+      "name": "puppet7/binary-sparc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jessie/puppet7/binary-sparc/Packages.gz",
+      "sha256": "d545347c1f99f34d5fa642bc2868cc97d1e3acc7d1509540fc9ac3241e8dfd46",
+      "sizeBytes": 2472,
+      "suite": "jessie",
+      "component": "puppet7",
+      "arch": "sparc"
+    },
+    {
+      "name": "puppet7/binary-mips/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jessie/puppet7/binary-mips/Packages.gz",
+      "sha256": "d545347c1f99f34d5fa642bc2868cc97d1e3acc7d1509540fc9ac3241e8dfd46",
+      "sizeBytes": 2472,
+      "suite": "jessie",
+      "component": "puppet7",
+      "arch": "mips"
+    },
+    {
+      "name": "puppet7/binary-mipsel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jessie/puppet7/binary-mipsel/Packages.gz",
+      "sha256": "d545347c1f99f34d5fa642bc2868cc97d1e3acc7d1509540fc9ac3241e8dfd46",
+      "sizeBytes": 2472,
+      "suite": "jessie",
+      "component": "puppet7",
+      "arch": "mipsel"
+    },
+    {
+      "name": "puppet7/binary-ppc64el/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jessie/puppet7/binary-ppc64el/Packages.gz",
+      "sha256": "d545347c1f99f34d5fa642bc2868cc97d1e3acc7d1509540fc9ac3241e8dfd46",
+      "sizeBytes": 2472,
+      "suite": "jessie",
+      "component": "puppet7",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "puppet7/binary-all/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jessie/puppet7/binary-all/Packages.gz",
+      "sha256": "d545347c1f99f34d5fa642bc2868cc97d1e3acc7d1509540fc9ac3241e8dfd46",
+      "sizeBytes": 2472,
+      "suite": "jessie",
+      "component": "puppet7",
+      "arch": "all"
+    },
+    {
+      "name": "puppet7/binary-i386/Packages.gz",
+      "url": "https://apt.puppet.com/dists/noble/puppet7/binary-i386/Packages.gz",
+      "sha256": "4081ce779935af0b3789df7f96cb5a8ce86e175f1b9df6bdc50355a471c65561",
+      "sizeBytes": 717,
+      "suite": "noble",
+      "component": "puppet7",
+      "arch": "i386"
+    },
+    {
+      "name": "puppet7/binary-amd64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/noble/puppet7/binary-amd64/Packages.gz",
+      "sha256": "3f462e0813cdcaa4f5fc5844406c7d8ef51f559883f7053ffe8a865f05160e32",
+      "sizeBytes": 2647,
+      "suite": "noble",
+      "component": "puppet7",
+      "arch": "amd64"
+    },
+    {
+      "name": "puppet7/binary-arm64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/noble/puppet7/binary-arm64/Packages.gz",
+      "sha256": "113324ce156b1eb8ff26c2ca3876c870015b71d8088a5b45aecf2e9f2664f7b0",
+      "sizeBytes": 2649,
+      "suite": "noble",
+      "component": "puppet7",
+      "arch": "arm64"
+    },
+    {
+      "name": "puppet7/binary-armel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/noble/puppet7/binary-armel/Packages.gz",
+      "sha256": "4081ce779935af0b3789df7f96cb5a8ce86e175f1b9df6bdc50355a471c65561",
+      "sizeBytes": 717,
+      "suite": "noble",
+      "component": "puppet7",
+      "arch": "armel"
+    },
+    {
+      "name": "puppet7/binary-armhf/Packages.gz",
+      "url": "https://apt.puppet.com/dists/noble/puppet7/binary-armhf/Packages.gz",
+      "sha256": "4081ce779935af0b3789df7f96cb5a8ce86e175f1b9df6bdc50355a471c65561",
+      "sizeBytes": 717,
+      "suite": "noble",
+      "component": "puppet7",
+      "arch": "armhf"
+    },
+    {
+      "name": "puppet7/binary-powerpc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/noble/puppet7/binary-powerpc/Packages.gz",
+      "sha256": "4081ce779935af0b3789df7f96cb5a8ce86e175f1b9df6bdc50355a471c65561",
+      "sizeBytes": 717,
+      "suite": "noble",
+      "component": "puppet7",
+      "arch": "powerpc"
+    },
+    {
+      "name": "puppet7/binary-sparc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/noble/puppet7/binary-sparc/Packages.gz",
+      "sha256": "4081ce779935af0b3789df7f96cb5a8ce86e175f1b9df6bdc50355a471c65561",
+      "sizeBytes": 717,
+      "suite": "noble",
+      "component": "puppet7",
+      "arch": "sparc"
+    },
+    {
+      "name": "puppet7/binary-mips/Packages.gz",
+      "url": "https://apt.puppet.com/dists/noble/puppet7/binary-mips/Packages.gz",
+      "sha256": "4081ce779935af0b3789df7f96cb5a8ce86e175f1b9df6bdc50355a471c65561",
+      "sizeBytes": 717,
+      "suite": "noble",
+      "component": "puppet7",
+      "arch": "mips"
+    },
+    {
+      "name": "puppet7/binary-mipsel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/noble/puppet7/binary-mipsel/Packages.gz",
+      "sha256": "4081ce779935af0b3789df7f96cb5a8ce86e175f1b9df6bdc50355a471c65561",
+      "sizeBytes": 717,
+      "suite": "noble",
+      "component": "puppet7",
+      "arch": "mipsel"
+    },
+    {
+      "name": "puppet7/binary-ppc64el/Packages.gz",
+      "url": "https://apt.puppet.com/dists/noble/puppet7/binary-ppc64el/Packages.gz",
+      "sha256": "4081ce779935af0b3789df7f96cb5a8ce86e175f1b9df6bdc50355a471c65561",
+      "sizeBytes": 717,
+      "suite": "noble",
+      "component": "puppet7",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "puppet7/binary-all/Packages.gz",
+      "url": "https://apt.puppet.com/dists/noble/puppet7/binary-all/Packages.gz",
+      "sha256": "4081ce779935af0b3789df7f96cb5a8ce86e175f1b9df6bdc50355a471c65561",
+      "sizeBytes": 717,
+      "suite": "noble",
+      "component": "puppet7",
+      "arch": "all"
+    },
+    {
+      "name": "puppet7/binary-i386/Packages.gz",
+      "url": "https://apt.puppet.com/dists/stretch/puppet7/binary-i386/Packages.gz",
+      "sha256": "fab5ff384224343049bc53b2da7196a28cff3c28bdb52f927af32ad0d7995995",
+      "sizeBytes": 72801,
+      "suite": "stretch",
+      "component": "puppet7",
+      "arch": "i386"
+    },
+    {
+      "name": "puppet7/binary-amd64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/stretch/puppet7/binary-amd64/Packages.gz",
+      "sha256": "fe6b3f4a2c805d1b3cad206c2e19af73ed02dd9754eba6082a4ec4fa0368b4ba",
+      "sizeBytes": 208468,
+      "suite": "stretch",
+      "component": "puppet7",
+      "arch": "amd64"
+    },
+    {
+      "name": "puppet7/binary-arm64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/stretch/puppet7/binary-arm64/Packages.gz",
+      "sha256": "4c19d803150404e462951c9ed839c21e384b1fca68ecb3dc3dbcf611c0ab324a",
+      "sizeBytes": 13440,
+      "suite": "stretch",
+      "component": "puppet7",
+      "arch": "arm64"
+    },
+    {
+      "name": "puppet7/binary-armel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/stretch/puppet7/binary-armel/Packages.gz",
+      "sha256": "4c19d803150404e462951c9ed839c21e384b1fca68ecb3dc3dbcf611c0ab324a",
+      "sizeBytes": 13440,
+      "suite": "stretch",
+      "component": "puppet7",
+      "arch": "armel"
+    },
+    {
+      "name": "puppet7/binary-armhf/Packages.gz",
+      "url": "https://apt.puppet.com/dists/stretch/puppet7/binary-armhf/Packages.gz",
+      "sha256": "4c19d803150404e462951c9ed839c21e384b1fca68ecb3dc3dbcf611c0ab324a",
+      "sizeBytes": 13440,
+      "suite": "stretch",
+      "component": "puppet7",
+      "arch": "armhf"
+    },
+    {
+      "name": "puppet7/binary-powerpc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/stretch/puppet7/binary-powerpc/Packages.gz",
+      "sha256": "4c19d803150404e462951c9ed839c21e384b1fca68ecb3dc3dbcf611c0ab324a",
+      "sizeBytes": 13440,
+      "suite": "stretch",
+      "component": "puppet7",
+      "arch": "powerpc"
+    },
+    {
+      "name": "puppet7/binary-sparc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/stretch/puppet7/binary-sparc/Packages.gz",
+      "sha256": "4c19d803150404e462951c9ed839c21e384b1fca68ecb3dc3dbcf611c0ab324a",
+      "sizeBytes": 13440,
+      "suite": "stretch",
+      "component": "puppet7",
+      "arch": "sparc"
+    },
+    {
+      "name": "puppet7/binary-mips/Packages.gz",
+      "url": "https://apt.puppet.com/dists/stretch/puppet7/binary-mips/Packages.gz",
+      "sha256": "4c19d803150404e462951c9ed839c21e384b1fca68ecb3dc3dbcf611c0ab324a",
+      "sizeBytes": 13440,
+      "suite": "stretch",
+      "component": "puppet7",
+      "arch": "mips"
+    },
+    {
+      "name": "puppet7/binary-mipsel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/stretch/puppet7/binary-mipsel/Packages.gz",
+      "sha256": "4c19d803150404e462951c9ed839c21e384b1fca68ecb3dc3dbcf611c0ab324a",
+      "sizeBytes": 13440,
+      "suite": "stretch",
+      "component": "puppet7",
+      "arch": "mipsel"
+    },
+    {
+      "name": "puppet7/binary-ppc64el/Packages.gz",
+      "url": "https://apt.puppet.com/dists/stretch/puppet7/binary-ppc64el/Packages.gz",
+      "sha256": "4c19d803150404e462951c9ed839c21e384b1fca68ecb3dc3dbcf611c0ab324a",
+      "sizeBytes": 13440,
+      "suite": "stretch",
+      "component": "puppet7",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "puppet7/binary-all/Packages.gz",
+      "url": "https://apt.puppet.com/dists/stretch/puppet7/binary-all/Packages.gz",
+      "sha256": "4c19d803150404e462951c9ed839c21e384b1fca68ecb3dc3dbcf611c0ab324a",
+      "sizeBytes": 13440,
+      "suite": "stretch",
+      "component": "puppet7",
+      "arch": "all"
+    },
+    {
+      "name": "puppet7/binary-i386/Packages.gz",
+      "url": "https://apt.puppet.com/dists/xenial/puppet7/binary-i386/Packages.gz",
+      "sha256": "4c24b01567de9cc6aa23ca31457c9efcfed1f8b808caf9ff2be849b52512afa4",
+      "sizeBytes": 23579,
+      "suite": "xenial",
+      "component": "puppet7",
+      "arch": "i386"
+    },
+    {
+      "name": "puppet7/binary-amd64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/xenial/puppet7/binary-amd64/Packages.gz",
+      "sha256": "8c587d46b785f165fcf42a42c34d9865b32c674f33c022fed83fea005c7989fe",
+      "sizeBytes": 25571,
+      "suite": "xenial",
+      "component": "puppet7",
+      "arch": "amd64"
+    },
+    {
+      "name": "puppet7/binary-arm64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/xenial/puppet7/binary-arm64/Packages.gz",
+      "sha256": "1d33ba0c28bc4c29418b33818073cb8466487a49f40270dbdb47dbbadcd07c11",
+      "sizeBytes": 12846,
+      "suite": "xenial",
+      "component": "puppet7",
+      "arch": "arm64"
+    },
+    {
+      "name": "puppet7/binary-armel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/xenial/puppet7/binary-armel/Packages.gz",
+      "sha256": "1d33ba0c28bc4c29418b33818073cb8466487a49f40270dbdb47dbbadcd07c11",
+      "sizeBytes": 12846,
+      "suite": "xenial",
+      "component": "puppet7",
+      "arch": "armel"
+    },
+    {
+      "name": "puppet7/binary-armhf/Packages.gz",
+      "url": "https://apt.puppet.com/dists/xenial/puppet7/binary-armhf/Packages.gz",
+      "sha256": "1d33ba0c28bc4c29418b33818073cb8466487a49f40270dbdb47dbbadcd07c11",
+      "sizeBytes": 12846,
+      "suite": "xenial",
+      "component": "puppet7",
+      "arch": "armhf"
+    },
+    {
+      "name": "puppet7/binary-powerpc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/xenial/puppet7/binary-powerpc/Packages.gz",
+      "sha256": "1d33ba0c28bc4c29418b33818073cb8466487a49f40270dbdb47dbbadcd07c11",
+      "sizeBytes": 12846,
+      "suite": "xenial",
+      "component": "puppet7",
+      "arch": "powerpc"
+    },
+    {
+      "name": "puppet7/binary-sparc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/xenial/puppet7/binary-sparc/Packages.gz",
+      "sha256": "1d33ba0c28bc4c29418b33818073cb8466487a49f40270dbdb47dbbadcd07c11",
+      "sizeBytes": 12846,
+      "suite": "xenial",
+      "component": "puppet7",
+      "arch": "sparc"
+    },
+    {
+      "name": "puppet7/binary-mips/Packages.gz",
+      "url": "https://apt.puppet.com/dists/xenial/puppet7/binary-mips/Packages.gz",
+      "sha256": "1d33ba0c28bc4c29418b33818073cb8466487a49f40270dbdb47dbbadcd07c11",
+      "sizeBytes": 12846,
+      "suite": "xenial",
+      "component": "puppet7",
+      "arch": "mips"
+    },
+    {
+      "name": "puppet7/binary-mipsel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/xenial/puppet7/binary-mipsel/Packages.gz",
+      "sha256": "1d33ba0c28bc4c29418b33818073cb8466487a49f40270dbdb47dbbadcd07c11",
+      "sizeBytes": 12846,
+      "suite": "xenial",
+      "component": "puppet7",
+      "arch": "mipsel"
+    },
+    {
+      "name": "puppet7/binary-ppc64el/Packages.gz",
+      "url": "https://apt.puppet.com/dists/xenial/puppet7/binary-ppc64el/Packages.gz",
+      "sha256": "1d33ba0c28bc4c29418b33818073cb8466487a49f40270dbdb47dbbadcd07c11",
+      "sizeBytes": 12846,
+      "suite": "xenial",
+      "component": "puppet7",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "puppet7/binary-all/Packages.gz",
+      "url": "https://apt.puppet.com/dists/xenial/puppet7/binary-all/Packages.gz",
+      "sha256": "1d33ba0c28bc4c29418b33818073cb8466487a49f40270dbdb47dbbadcd07c11",
+      "sizeBytes": 12846,
+      "suite": "xenial",
+      "component": "puppet7",
+      "arch": "all"
+    },
+    {
+      "name": "puppet7/binary-i386/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jammy/puppet7/binary-i386/Packages.gz",
+      "sha256": "d76b5a54c1827e963d62d8db38a9ce96feb8cc54d574104adef77927babeffd7",
+      "sizeBytes": 9909,
+      "suite": "jammy",
+      "component": "puppet7",
+      "arch": "i386"
+    },
+    {
+      "name": "puppet7/binary-amd64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jammy/puppet7/binary-amd64/Packages.gz",
+      "sha256": "64856c6dbf0ad4e39e6924238e7d978f5deda1ab08833f0189857845e3a3f66e",
+      "sizeBytes": 18975,
+      "suite": "jammy",
+      "component": "puppet7",
+      "arch": "amd64"
+    },
+    {
+      "name": "puppet7/binary-arm64/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jammy/puppet7/binary-arm64/Packages.gz",
+      "sha256": "f6ccc1434a34c56df3b9621af73d65f8c44cfe489cbe1c85f8afd31541b72bc8",
+      "sizeBytes": 13265,
+      "suite": "jammy",
+      "component": "puppet7",
+      "arch": "arm64"
+    },
+    {
+      "name": "puppet7/binary-armel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jammy/puppet7/binary-armel/Packages.gz",
+      "sha256": "d76b5a54c1827e963d62d8db38a9ce96feb8cc54d574104adef77927babeffd7",
+      "sizeBytes": 9909,
+      "suite": "jammy",
+      "component": "puppet7",
+      "arch": "armel"
+    },
+    {
+      "name": "puppet7/binary-armhf/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jammy/puppet7/binary-armhf/Packages.gz",
+      "sha256": "d76b5a54c1827e963d62d8db38a9ce96feb8cc54d574104adef77927babeffd7",
+      "sizeBytes": 9909,
+      "suite": "jammy",
+      "component": "puppet7",
+      "arch": "armhf"
+    },
+    {
+      "name": "puppet7/binary-powerpc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jammy/puppet7/binary-powerpc/Packages.gz",
+      "sha256": "d76b5a54c1827e963d62d8db38a9ce96feb8cc54d574104adef77927babeffd7",
+      "sizeBytes": 9909,
+      "suite": "jammy",
+      "component": "puppet7",
+      "arch": "powerpc"
+    },
+    {
+      "name": "puppet7/binary-sparc/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jammy/puppet7/binary-sparc/Packages.gz",
+      "sha256": "d76b5a54c1827e963d62d8db38a9ce96feb8cc54d574104adef77927babeffd7",
+      "sizeBytes": 9909,
+      "suite": "jammy",
+      "component": "puppet7",
+      "arch": "sparc"
+    },
+    {
+      "name": "puppet7/binary-mips/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jammy/puppet7/binary-mips/Packages.gz",
+      "sha256": "d76b5a54c1827e963d62d8db38a9ce96feb8cc54d574104adef77927babeffd7",
+      "sizeBytes": 9909,
+      "suite": "jammy",
+      "component": "puppet7",
+      "arch": "mips"
+    },
+    {
+      "name": "puppet7/binary-mipsel/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jammy/puppet7/binary-mipsel/Packages.gz",
+      "sha256": "d76b5a54c1827e963d62d8db38a9ce96feb8cc54d574104adef77927babeffd7",
+      "sizeBytes": 9909,
+      "suite": "jammy",
+      "component": "puppet7",
+      "arch": "mipsel"
+    },
+    {
+      "name": "puppet7/binary-ppc64el/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jammy/puppet7/binary-ppc64el/Packages.gz",
+      "sha256": "d76b5a54c1827e963d62d8db38a9ce96feb8cc54d574104adef77927babeffd7",
+      "sizeBytes": 9909,
+      "suite": "jammy",
+      "component": "puppet7",
+      "arch": "ppc64el"
+    },
+    {
+      "name": "puppet7/binary-all/Packages.gz",
+      "url": "https://apt.puppet.com/dists/jammy/puppet7/binary-all/Packages.gz",
+      "sha256": "d76b5a54c1827e963d62d8db38a9ce96feb8cc54d574104adef77927babeffd7",
+      "sizeBytes": 9909,
+      "suite": "jammy",
+      "component": "puppet7",
+      "arch": "all"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com bookworm InRelease [56.5 kB]\nErr:1 https://apt.puppet.com bookworm InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nReading package lists...\n\nW: GPG error: https://apt.puppet.com bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nE: The repository 'https://apt.puppet.com bookworm InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com bionic InRelease [157 kB]\nErr:1 https://apt.puppet.com bionic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nReading package lists...\n\nW: GPG error: https://apt.puppet.com bionic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nE: The repository 'https://apt.puppet.com bionic InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com bullseye InRelease [83.8 kB]\nErr:1 https://apt.puppet.com bullseye InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nReading package lists...\n\nW: GPG error: https://apt.puppet.com bullseye InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nE: The repository 'https://apt.puppet.com bullseye InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com buster InRelease [113 kB]\nErr:1 https://apt.puppet.com buster InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nReading package lists...\n\nW: GPG error: https://apt.puppet.com buster InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nE: The repository 'https://apt.puppet.com buster InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com cosmic InRelease [1183 B]\nErr:1 https://apt.puppet.com cosmic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nReading package lists...\n\nW: GPG error: https://apt.puppet.com cosmic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nE: The repository 'https://apt.puppet.com cosmic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-amd64/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-arm64/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-armel/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-armhf/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-powerpc/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-sparc/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-mips/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-mipsel/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-ppc64el/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com focal InRelease [129 kB]\nErr:1 https://apt.puppet.com focal InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nReading package lists...\n\nW: GPG error: https://apt.puppet.com focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nE: The repository 'https://apt.puppet.com focal InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com jessie InRelease [131 kB]\nErr:1 https://apt.puppet.com jessie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nReading package lists...\n\nW: GPG error: https://apt.puppet.com jessie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nE: The repository 'https://apt.puppet.com jessie InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com noble InRelease [56.2 kB]\nErr:1 https://apt.puppet.com noble InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nReading package lists...\n\nW: GPG error: https://apt.puppet.com noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nE: The repository 'https://apt.puppet.com noble InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com stretch InRelease [130 kB]\nErr:1 https://apt.puppet.com stretch InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nReading package lists...\n\nW: GPG error: https://apt.puppet.com stretch InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nE: The repository 'https://apt.puppet.com stretch InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com trusty InRelease [132 kB]\nErr:1 https://apt.puppet.com trusty InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nReading package lists...\n\nW: GPG error: https://apt.puppet.com trusty InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nE: The repository 'https://apt.puppet.com trusty InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-amd64/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-arm64/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-armel/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-armhf/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-powerpc/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-sparc/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-mips/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-mipsel/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-ppc64el/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com wheezy InRelease [75.2 kB]\nErr:1 https://apt.puppet.com wheezy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7F438280EF8D349F\nReading package lists...\n\nW: GPG error: https://apt.puppet.com wheezy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7F438280EF8D349F\nE: The repository 'https://apt.puppet.com wheezy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-amd64/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-arm64/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-armel/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-armhf/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-powerpc/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-sparc/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-mips/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-mipsel/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-ppc64el/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com xenial InRelease [144 kB]\nErr:1 https://apt.puppet.com xenial InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nReading package lists...\n\nW: GPG error: https://apt.puppet.com xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nE: The repository 'https://apt.puppet.com xenial InRelease' is not signed."
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Ign:1 https://apt.puppet.com yakkety InRelease\nGet:2 https://apt.puppet.com yakkety Release [42.3 kB]\nGet:3 https://apt.puppet.com yakkety Release.gpg [801 B]\nIgn:3 https://apt.puppet.com yakkety Release.gpg\nReading package lists...\n\nW: GPG error: https://apt.puppet.com yakkety Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7F438280EF8D349F\nE: The repository 'https://apt.puppet.com yakkety Release' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-i386/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-amd64/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-arm64/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-armel/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-armhf/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-powerpc/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-sparc/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-mips/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-mipsel/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-ppc64el/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "puppet7/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://apt.puppet.com jammy InRelease [113 kB]\nErr:1 https://apt.puppet.com jammy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nReading package lists...\n\nW: GPG error: https://apt.puppet.com jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4528B6CD9E61EF26\nE: The repository 'https://apt.puppet.com jammy InRelease' is not signed."
+    }
+  ]
+}

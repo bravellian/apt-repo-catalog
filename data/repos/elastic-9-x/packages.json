@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-26T16:43:10.789Z",
+  "generatedAt": "2026-01-26T19:48:54.157Z",
   "packageCount": 16,
   "packages": [
     {
@@ -9,10 +9,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -23,10 +20,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -37,10 +31,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -51,10 +42,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -65,10 +53,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -79,10 +64,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -93,10 +75,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -107,10 +86,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -121,10 +97,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -135,10 +108,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -149,10 +119,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -163,10 +130,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -177,10 +141,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.3",
@@ -191,10 +152,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.2",
@@ -205,10 +163,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.1",
@@ -219,10 +174,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.0",
@@ -233,10 +185,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.8",
@@ -247,10 +196,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.7",
@@ -261,10 +207,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.6",
@@ -275,10 +218,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.5",
@@ -289,10 +229,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.4",
@@ -303,10 +240,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.3",
@@ -317,10 +251,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.2",
@@ -331,10 +262,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.1",
@@ -345,10 +273,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.0",
@@ -359,10 +284,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -397,10 +319,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -411,10 +330,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -425,10 +341,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -439,10 +352,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -453,10 +363,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -467,10 +374,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -481,10 +385,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -495,10 +396,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -509,10 +407,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -523,10 +418,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -537,10 +429,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -551,10 +440,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -565,10 +451,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.3",
@@ -579,10 +462,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.2",
@@ -593,10 +473,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.1",
@@ -607,10 +484,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.0",
@@ -621,10 +495,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.8",
@@ -635,10 +506,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.7",
@@ -649,10 +517,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.6",
@@ -663,10 +528,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.5",
@@ -677,10 +539,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.4",
@@ -691,10 +550,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.3",
@@ -705,10 +561,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.2",
@@ -719,10 +572,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.1",
@@ -733,10 +583,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.0",
@@ -747,10 +594,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -787,10 +631,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -801,10 +642,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -815,10 +653,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -829,10 +664,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -843,10 +675,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -857,10 +686,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -871,10 +697,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -885,10 +708,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -899,10 +719,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -913,10 +730,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -927,10 +741,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -941,10 +752,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -955,10 +763,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -995,10 +800,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -1009,10 +811,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -1023,10 +822,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -1037,10 +833,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -1051,10 +844,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -1065,10 +855,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -1079,10 +866,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -1093,10 +877,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -1107,10 +888,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -1121,10 +899,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -1135,10 +910,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -1149,10 +921,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -1163,10 +932,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.3",
@@ -1177,10 +943,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.2",
@@ -1191,10 +954,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.1",
@@ -1205,10 +965,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.0",
@@ -1219,10 +976,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.8",
@@ -1233,10 +987,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.7",
@@ -1247,10 +998,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.6",
@@ -1261,10 +1009,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.5",
@@ -1275,10 +1020,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.4",
@@ -1289,10 +1031,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.3",
@@ -1303,10 +1042,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.2",
@@ -1317,10 +1053,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.1",
@@ -1331,10 +1064,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.0",
@@ -1345,10 +1075,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -1383,10 +1110,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -1397,10 +1121,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -1411,10 +1132,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -1425,10 +1143,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -1439,10 +1154,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -1453,10 +1165,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -1467,10 +1176,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -1481,10 +1187,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -1495,10 +1198,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -1509,10 +1209,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -1523,10 +1220,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -1537,10 +1231,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -1551,10 +1242,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.3",
@@ -1565,10 +1253,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.2",
@@ -1579,10 +1264,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.1",
@@ -1593,10 +1275,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.0",
@@ -1607,10 +1286,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.8",
@@ -1621,10 +1297,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.7",
@@ -1635,10 +1308,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.6",
@@ -1649,10 +1319,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.5",
@@ -1663,10 +1330,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.4",
@@ -1677,10 +1341,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.3",
@@ -1691,10 +1352,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.2",
@@ -1705,10 +1363,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.1",
@@ -1719,10 +1374,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.0",
@@ -1733,10 +1385,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -1778,10 +1427,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -1792,10 +1438,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -1806,10 +1449,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -1820,10 +1460,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -1834,10 +1471,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -1848,10 +1482,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -1862,10 +1493,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -1876,10 +1504,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -1890,10 +1515,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -1904,10 +1526,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -1918,10 +1537,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -1932,10 +1548,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -1946,10 +1559,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.3",
@@ -1960,10 +1570,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.2",
@@ -1974,10 +1581,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.1",
@@ -1988,10 +1592,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.0",
@@ -2002,10 +1603,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.8",
@@ -2016,10 +1614,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.7",
@@ -2030,10 +1625,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.6",
@@ -2044,10 +1636,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.5",
@@ -2058,10 +1647,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.4",
@@ -2072,10 +1658,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.3",
@@ -2086,10 +1669,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.2",
@@ -2100,10 +1680,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.1",
@@ -2114,10 +1691,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.0",
@@ -2128,10 +1702,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -2168,10 +1739,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -2182,10 +1750,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -2196,10 +1761,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -2210,10 +1772,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -2224,10 +1783,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -2238,10 +1794,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -2252,10 +1805,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -2266,10 +1816,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -2280,10 +1827,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -2294,10 +1838,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -2308,10 +1849,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -2322,10 +1860,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -2336,10 +1871,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -2376,10 +1908,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -2390,10 +1919,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -2404,10 +1930,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -2418,10 +1941,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -2432,10 +1952,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -2446,10 +1963,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -2460,10 +1974,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -2474,10 +1985,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -2488,10 +1996,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -2502,10 +2007,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -2516,10 +2018,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -2530,10 +2029,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -2544,10 +2040,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.3",
@@ -2558,10 +2051,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.2",
@@ -2572,10 +2062,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.1",
@@ -2586,10 +2073,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.0",
@@ -2600,10 +2084,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.8",
@@ -2614,10 +2095,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.7",
@@ -2628,10 +2106,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.6",
@@ -2642,10 +2117,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.5",
@@ -2656,10 +2128,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.4",
@@ -2670,10 +2139,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.3",
@@ -2684,10 +2150,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.2",
@@ -2698,10 +2161,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.1",
@@ -2712,10 +2172,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.0",
@@ -2726,10 +2183,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -2764,10 +2218,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -2778,10 +2229,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -2792,10 +2240,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -2806,10 +2251,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -2820,10 +2262,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -2834,10 +2273,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -2848,10 +2284,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -2862,10 +2295,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -2876,10 +2306,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -2890,10 +2317,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -2904,10 +2328,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -2918,10 +2339,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -2932,10 +2350,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.3",
@@ -2946,10 +2361,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.2",
@@ -2960,10 +2372,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.1",
@@ -2974,10 +2383,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.0",
@@ -2988,10 +2394,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.8",
@@ -3002,10 +2405,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.7",
@@ -3016,10 +2416,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.6",
@@ -3030,10 +2427,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.5",
@@ -3044,10 +2438,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.4",
@@ -3058,10 +2449,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.3",
@@ -3072,10 +2460,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.2",
@@ -3086,10 +2471,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.1",
@@ -3100,10 +2482,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.0",
@@ -3114,10 +2493,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -3154,10 +2530,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "1:9.2.4-1",
@@ -3168,10 +2541,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.2.3-1",
@@ -3182,10 +2552,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.2.2-1",
@@ -3196,10 +2563,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.2.1-1",
@@ -3210,10 +2574,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.2.0-1",
@@ -3224,10 +2585,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.1.10-1",
@@ -3238,10 +2596,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.1.9-1",
@@ -3252,10 +2607,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.1.8-1",
@@ -3266,10 +2618,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.1.7-1",
@@ -3280,10 +2629,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.1.6-1",
@@ -3294,10 +2640,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.1.5-1",
@@ -3308,10 +2651,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.1.4-1",
@@ -3322,10 +2662,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.1.3-1",
@@ -3336,10 +2673,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.1.2-1",
@@ -3350,10 +2684,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.1.1-1",
@@ -3364,10 +2695,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.1.0-1",
@@ -3378,10 +2706,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.0.8-1",
@@ -3392,10 +2717,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.0.7-1",
@@ -3406,10 +2728,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.0.6-1",
@@ -3420,10 +2739,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.0.5-1",
@@ -3434,10 +2750,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.0.4-1",
@@ -3448,10 +2761,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.0.3-1",
@@ -3462,10 +2772,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.0.2-1",
@@ -3476,10 +2783,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.0.1-1",
@@ -3490,10 +2794,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "1:9.0.0-1",
@@ -3504,10 +2805,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "1:9.2.4-1",
@@ -3546,10 +2844,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -3560,10 +2855,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -3574,10 +2866,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -3588,10 +2877,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -3602,10 +2888,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -3616,10 +2899,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -3630,10 +2910,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -3644,10 +2921,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -3658,10 +2932,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -3672,10 +2943,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -3686,10 +2954,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -3700,10 +2965,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -3714,10 +2976,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.3",
@@ -3728,10 +2987,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.2",
@@ -3742,10 +2998,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.1",
@@ -3756,10 +3009,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.0",
@@ -3770,10 +3020,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.8",
@@ -3784,10 +3031,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.7",
@@ -3798,10 +3042,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.6",
@@ -3812,10 +3053,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.5",
@@ -3826,10 +3064,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.4",
@@ -3840,10 +3075,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.3",
@@ -3854,10 +3086,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.2",
@@ -3868,10 +3097,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.1",
@@ -3882,10 +3108,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.0",
@@ -3896,10 +3119,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -3936,10 +3156,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -3950,10 +3167,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -3964,10 +3178,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -3978,10 +3189,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -3992,10 +3200,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -4006,10 +3211,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -4020,10 +3222,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -4034,10 +3233,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -4048,10 +3244,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -4062,10 +3255,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -4076,10 +3266,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -4090,10 +3277,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -4104,10 +3288,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -4144,10 +3325,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -4158,10 +3336,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -4172,10 +3347,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -4186,10 +3358,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -4200,10 +3369,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -4214,10 +3380,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -4228,10 +3391,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -4242,10 +3402,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -4256,10 +3413,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -4270,10 +3424,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -4284,10 +3435,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -4298,10 +3446,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -4312,10 +3457,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.3",
@@ -4326,10 +3468,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.2",
@@ -4340,10 +3479,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.1",
@@ -4354,10 +3490,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.0",
@@ -4368,10 +3501,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.8",
@@ -4382,10 +3512,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.7",
@@ -4396,10 +3523,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.6",
@@ -4410,10 +3534,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.5",
@@ -4424,10 +3545,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.4",
@@ -4438,10 +3556,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.3",
@@ -4452,10 +3567,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.2",
@@ -4466,10 +3578,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.1",
@@ -4480,10 +3589,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.0",
@@ -4494,10 +3600,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -4532,10 +3635,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -4546,10 +3646,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -4560,10 +3657,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -4574,10 +3668,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -4588,10 +3679,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -4602,10 +3690,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -4616,10 +3701,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -4630,10 +3712,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -4644,10 +3723,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -4658,10 +3734,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -4672,10 +3745,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -4686,10 +3756,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -4700,10 +3767,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.3",
@@ -4714,10 +3778,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.2",
@@ -4728,10 +3789,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.1",
@@ -4742,10 +3800,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.0",
@@ -4756,10 +3811,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.8",
@@ -4770,10 +3822,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.7",
@@ -4784,10 +3833,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.6",
@@ -4798,10 +3844,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.5",
@@ -4812,10 +3855,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.4",
@@ -4826,10 +3866,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.3",
@@ -4840,10 +3877,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.2",
@@ -4854,10 +3888,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.1",
@@ -4868,10 +3899,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.0",
@@ -4882,10 +3910,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -4920,10 +3945,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -4934,10 +3956,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -4948,10 +3967,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -4962,10 +3978,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -4976,10 +3989,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -4990,10 +4000,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -5004,10 +4011,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -5018,10 +4022,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -5032,10 +4033,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -5046,10 +4044,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -5060,10 +4055,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -5074,10 +4066,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -5088,10 +4077,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.3",
@@ -5102,10 +4088,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.2",
@@ -5116,10 +4099,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.1",
@@ -5130,10 +4110,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.0",
@@ -5144,10 +4121,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.8",
@@ -5158,10 +4132,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.7",
@@ -5172,10 +4143,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.6",
@@ -5186,10 +4154,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.5",
@@ -5200,10 +4165,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.4",
@@ -5214,10 +4176,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.3",
@@ -5228,10 +4187,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.2",
@@ -5242,10 +4198,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.1",
@@ -5256,10 +4209,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.0",
@@ -5270,10 +4220,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",
@@ -5308,10 +4255,7 @@
       "components": [
         "main"
       ],
-      "sourceIndexPaths": [
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-      ],
+      "sourceIndexPaths": [],
       "versions": [
         {
           "version": "9.2.4",
@@ -5322,10 +4266,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.3",
@@ -5336,10 +4277,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.2",
@@ -5350,10 +4288,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.1",
@@ -5364,10 +4299,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.2.0",
@@ -5378,10 +4310,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.10",
@@ -5392,10 +4321,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.9",
@@ -5406,10 +4332,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.8",
@@ -5420,10 +4343,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.7",
@@ -5434,10 +4354,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.6",
@@ -5448,10 +4365,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.5",
@@ -5462,10 +4376,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.4",
@@ -5476,10 +4387,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.3",
@@ -5490,10 +4398,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.2",
@@ -5504,10 +4409,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.1",
@@ -5518,10 +4420,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.1.0",
@@ -5532,10 +4431,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.8",
@@ -5546,10 +4442,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.7",
@@ -5560,10 +4453,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.6",
@@ -5574,10 +4464,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.5",
@@ -5588,10 +4475,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.4",
@@ -5602,10 +4486,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.3",
@@ -5616,10 +4497,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.2",
@@ -5630,10 +4508,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.1",
@@ -5644,10 +4519,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         },
         {
           "version": "9.0.0",
@@ -5658,10 +4530,7 @@
           "components": [
             "main"
           ],
-          "sourceIndexPaths": [
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
-            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz"
-          ]
+          "sourceIndexPaths": []
         }
       ],
       "latestVersion": "9.2.4",

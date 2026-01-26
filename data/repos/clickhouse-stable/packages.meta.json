@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-26T16:42:08.437Z",
+  "fetchedAt": "2026-01-26T19:47:45.668Z",
   "repoId": "clickhouse-stable",
   "mode": "auto",
   "source": {
@@ -33,22 +33,26 @@
     }
   ],
   "sources": [
-    "deb [[object Object signed-by=/tmp/apt-inventory/clickhouse-stable/run-IxRrRo/keyrings/clickhouse.gpg] ] https://packages.clickhouse.com/deb stable main",
+    "deb [[object Object signed-by=/tmp/apt-inventory/clickhouse-stable/run-z9qJE9/keyrings/clickhouse.gpg] ] https://packages.clickhouse.com/deb stable main",
     "https://packages.clickhouse.com/deb/dists/stable/Release",
     "https://packages.clickhouse.com/deb/dists/stable/main/binary-amd64/Packages.gz",
     "https://packages.clickhouse.com/deb/dists/stable/main/binary-arm64/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "https://packages.clickhouse.com/deb/dists/stable/main/binary-amd64/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/clickhouse-stable/packages.raw/20260126T164208Z/main/binary-amd64/Packages.gz",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://packages.clickhouse.com/deb/dists/stable/main/binary-amd64/Packages.gz",
+      "sha256": "f3605744fafe7678c7a6aa0543293390adf91deb0a064f9ed3277878ac44e92e",
+      "sizeBytes": 351075,
       "suite": "stable",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "https://packages.clickhouse.com/deb/dists/stable/main/binary-arm64/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/clickhouse-stable/packages.raw/20260126T164208Z/main/binary-arm64/Packages.gz",
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://packages.clickhouse.com/deb/dists/stable/main/binary-arm64/Packages.gz",
+      "sha256": "323d4d6e009b130ef9936fe8c6fb034b5e5ba1be84ccf78b1a11f9e95d4b326f",
+      "sizeBytes": 344533,
       "suite": "stable",
       "component": "main",
       "arch": "arm64"

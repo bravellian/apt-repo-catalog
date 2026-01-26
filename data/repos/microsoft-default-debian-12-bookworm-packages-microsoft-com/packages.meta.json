@@ -1,56 +1,90 @@
 {
-  "fetchedAt": "2026-01-25T04:42:57.948Z",
+  "fetchedAt": "2026-01-26T20:00:56.064Z",
   "repoId": "microsoft-default-debian-12-bookworm-packages-microsoft-com",
   "mode": "auto",
   "source": {
-    "line": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/debian/12/prod bookworm main",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://packages.microsoft.com/debian/12/prod",
+    "suites": [
+      {
+        "suite": "bookworm",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64,arm64,armhf"
+        }
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "microsoft-debian-bookworm-prod bookworm",
-    "Label": "microsoft-debian-bookworm-prod bookworm",
-    "Suite": "bookworm",
-    "Codename": "bookworm",
-    "Architectures": "amd64 arm64 armhf all",
-    "Components": "main",
-    "inReleasePath": "/tmp/apt-inventory/microsoft-default-debian-12-bookworm-packages-microsoft-com/run-OvFu8O/var/lib/apt/lists/packages.microsoft.com_debian_12_prod_dists_bookworm_InRelease",
-    "inReleaseSha256": "19c12b9f7a08f1a9ea2a7551f5092d742a71983d8e3330bf925ec178070984cf"
-  },
+  "releases": [
+    {
+      "suite": "bookworm",
+      "release": {
+        "Origin": "microsoft-debian-bookworm-prod bookworm",
+        "Label": "microsoft-debian-bookworm-prod bookworm",
+        "Suite": "bookworm",
+        "Codename": "bookworm",
+        "Date": "Mon, 26 Jan 2026 08:40:42 +0000",
+        "Architectures": "amd64 arm64 armhf all",
+        "Components": "main",
+        "Acquire-By-Hash": "yes",
+        "SHA512": ""
+      }
+    }
+  ],
   "sources": [
-    "deb [arch=amd64,arm64,armhf signed-by=/tmp/apt-inventory/microsoft-default-debian-12-bookworm-packages-microsoft-com/run-OvFu8O/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] https://packages.microsoft.com/debian/12/prod bookworm main"
+    "deb [[object Object signed-by=/tmp/apt-inventory/microsoft-default-debian-12-bookworm-packages-microsoft-com/run-tOfsQi/keyrings/microsoft-microsoft-eb3e94adbe1229cf.gpg] ] https://packages.microsoft.com/debian/12/prod bookworm main",
+    "https://packages.microsoft.com/debian/12/prod/dists/bookworm/Release",
+    "https://packages.microsoft.com/debian/12/prod/dists/bookworm/main/binary-amd64/Packages.gz",
+    "https://packages.microsoft.com/debian/12/prod/dists/bookworm/main/binary-arm64/Packages.gz",
+    "https://packages.microsoft.com/debian/12/prod/dists/bookworm/main/binary-armhf/Packages.gz",
+    "https://packages.microsoft.com/debian/12/prod/dists/bookworm/main/binary-all/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/microsoft-default-debian-12-bookworm-packages-microsoft-com/run-OvFu8O/var/lib/apt/lists/packages.microsoft.com_debian_12_prod_dists_bookworm_main_binary-all_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-12-bookworm-packages-microsoft-com/packages.raw/20260125T044257Z/packages.microsoft.com_debian_12_prod_dists_bookworm_main_binary-all_Packages",
-      "suite": "bookworm",
-      "component": "main",
-      "arch": "all"
-    },
-    {
-      "source": "/tmp/apt-inventory/microsoft-default-debian-12-bookworm-packages-microsoft-com/run-OvFu8O/var/lib/apt/lists/packages.microsoft.com_debian_12_prod_dists_bookworm_main_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-12-bookworm-packages-microsoft-com/packages.raw/20260125T044257Z/packages.microsoft.com_debian_12_prod_dists_bookworm_main_binary-amd64_Packages",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://packages.microsoft.com/debian/12/prod/dists/bookworm/main/binary-amd64/Packages.gz",
+      "sha256": "0a6fc221329a10ae4394794df251f407f7dd1fa166db19e7e3857a04597acad0",
+      "sizeBytes": 149709,
       "suite": "bookworm",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-debian-12-bookworm-packages-microsoft-com/run-OvFu8O/var/lib/apt/lists/packages.microsoft.com_debian_12_prod_dists_bookworm_main_binary-arm64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-12-bookworm-packages-microsoft-com/packages.raw/20260125T044257Z/packages.microsoft.com_debian_12_prod_dists_bookworm_main_binary-arm64_Packages",
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://packages.microsoft.com/debian/12/prod/dists/bookworm/main/binary-arm64/Packages.gz",
+      "sha256": "fff97a8fd98ab78de80f44f1686983e2bf7b33e84bedcda24e4e062e531db9db",
+      "sizeBytes": 56341,
       "suite": "bookworm",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "/tmp/apt-inventory/microsoft-default-debian-12-bookworm-packages-microsoft-com/run-OvFu8O/var/lib/apt/lists/packages.microsoft.com_debian_12_prod_dists_bookworm_main_binary-armhf_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/microsoft-default-debian-12-bookworm-packages-microsoft-com/packages.raw/20260125T044257Z/packages.microsoft.com_debian_12_prod_dists_bookworm_main_binary-armhf_Packages",
+      "name": "main/binary-armhf/Packages.gz",
+      "url": "https://packages.microsoft.com/debian/12/prod/dists/bookworm/main/binary-armhf/Packages.gz",
+      "sha256": "72a0bb62affb1f3a534ee4623f80f3b442b2afcbfbf5d6128dcfdbf21cac2415",
+      "sizeBytes": 18987,
       "suite": "bookworm",
       "component": "main",
       "arch": "armhf"
+    },
+    {
+      "name": "main/binary-all/Packages.gz",
+      "url": "https://packages.microsoft.com/debian/12/prod/dists/bookworm/main/binary-all/Packages.gz",
+      "sha256": "3255af9184369d160ccf5e25e924a4345f90e7b70211a21b3b143931929db499",
+      "sizeBytes": 573,
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "all"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://packages.microsoft.com/debian/12/prod bookworm InRelease [3618 B]\nErr:1 https://packages.microsoft.com/debian/12/prod bookworm InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EB3E94ADBE1229CF\nReading package lists...\n\nW: GPG error: https://packages.microsoft.com/debian/12/prod bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EB3E94ADBE1229CF\nE: The repository 'https://packages.microsoft.com/debian/12/prod bookworm InRelease' is not signed."
+    }
+  ]
 }

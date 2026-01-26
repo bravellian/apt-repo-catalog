@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-26T16:41:51.681Z",
+  "fetchedAt": "2026-01-26T19:47:12.036Z",
   "repoId": "aws-corretto-stable",
   "mode": "auto",
   "source": {
@@ -33,7 +33,7 @@
     }
   ],
   "sources": [
-    "deb [[object Object signed-by=/tmp/apt-inventory/aws-corretto-stable/run-dk7lPV/keyrings/aws-corretto.gpg] ] https://apt.corretto.aws stable main",
+    "deb [[object Object signed-by=/tmp/apt-inventory/aws-corretto-stable/run-h4ijK2/keyrings/aws-corretto.gpg] ] https://apt.corretto.aws stable main",
     "https://apt.corretto.aws/dists/stable/Release",
     "https://apt.corretto.aws/dists/stable/main/binary-amd64/Packages.gz",
     "https://apt.corretto.aws/dists/stable/main/binary-arm64/Packages.gz",
@@ -41,22 +41,28 @@
   ],
   "packageFiles": [
     {
-      "source": "https://apt.corretto.aws/dists/stable/main/binary-amd64/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/aws-corretto-stable/packages.raw/20260126T164151Z/main/binary-amd64/Packages.gz",
+      "name": "main/binary-amd64/Packages.gz",
+      "url": "https://apt.corretto.aws/dists/stable/main/binary-amd64/Packages.gz",
+      "sha256": "5850317b303da36913916d57ee22a506b79a2a99783fc132327f362bda57e3fa",
+      "sizeBytes": 27573,
       "suite": "stable",
       "component": "main",
       "arch": "amd64"
     },
     {
-      "source": "https://apt.corretto.aws/dists/stable/main/binary-arm64/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/aws-corretto-stable/packages.raw/20260126T164151Z/main/binary-arm64/Packages.gz",
+      "name": "main/binary-arm64/Packages.gz",
+      "url": "https://apt.corretto.aws/dists/stable/main/binary-arm64/Packages.gz",
+      "sha256": "e54de64a0ff72a116b6dc38b1566a9e1ae331315337a13626dd14850a5cf457d",
+      "sizeBytes": 28233,
       "suite": "stable",
       "component": "main",
       "arch": "arm64"
     },
     {
-      "source": "https://apt.corretto.aws/dists/stable/main/binary-i386/Packages.gz",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/aws-corretto-stable/packages.raw/20260126T164151Z/main/binary-i386/Packages.gz",
+      "name": "main/binary-i386/Packages.gz",
+      "url": "https://apt.corretto.aws/dists/stable/main/binary-i386/Packages.gz",
+      "sha256": "d89f785a44d529667ed27cde899eebdf6742c6833fcaabb168d6f35857d7e4e4",
+      "sizeBytes": 5982,
       "suite": "stable",
       "component": "main",
       "arch": "i386"
