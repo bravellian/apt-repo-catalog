@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apt Repo Catalog GUI</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Apt Repo Catalog</p>
+          <h1>Repository + Key Control Room</h1>
+          <p class="subtitle">
+            Add keys, wire repos, and run validations without juggling scripts.
+          </p>
+        </div>
+        <div class="status-card" id="status-card">
+          <div>
+            <div class="status-label">Server</div>
+            <div class="status-value" id="server-status">Connecting…</div>
+          </div>
+          <div>
+            <div class="status-label">Keys</div>
+            <div class="status-value" id="keys-count">–</div>
+          </div>
+        </div>
+      </header>
+
+      <nav class="top-nav">
+        <a href="./index.html" class="nav-link active">Repos</a>
+        <a href="./keys.html" class="nav-link">Keys</a>
+      </nav>
+
+      <main class="grid">
+        <section class="panel wide">
+          <h2>Repository Browser</h2>
+          <div class="repo-browser">
+            <div class="repo-list">
+              <input
+                type="text"
+                id="repo-search"
+                placeholder="Search repos by name, label, or base URL"
+              />
+              <div id="repo-list" class="scroll"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2>Add Signing Key</h2>
+          <form id="add-key-form">
+            <label>
+              Key URL
+              <input type="url" name="url" placeholder="https://example.com/key.asc" required />
+            </label>
+            <div class="row">
+              <label>
+                Vendor
+                <input type="text" name="vendor" placeholder="vendor" />
+              </label>
+              <label>
+                Label
+                <input type="text" name="label" placeholder="Repo Signing Key" />
+              </label>
+            </div>
+            <label>
+              Custom ID (optional)
+              <input type="text" name="id" placeholder="vendor-key-1234" />
+            </label>
+            <label>
+              Documentation URL
+              <input type="url" name="documentationUrl" placeholder="https://docs.example.com" />
+            </label>
+            <label>
+              Tags (comma separated)
+              <input type="text" name="tags" placeholder="database, devtools" />
+            </label>
+            <label>
+              Notes
+              <textarea name="notes" rows="3" placeholder="Key rotation notes…"></textarea>
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" name="force" />
+              Overwrite existing key entry
+            </label>
+            <button type="submit" class="primary">Add Key</button>
+          </form>
+        </section>
+
+        <section class="panel">
+          <h2>Find Existing Key</h2>
+          <form id="lookup-form">
+            <label>
+              Fingerprint
+              <input type="text" name="fingerprint" placeholder="ABCD1234…" />
+            </label>
+            <label>
+              or Key URL
+              <input type="url" name="url" placeholder="https://example.com/key.asc" />
+            </label>
+            <button type="submit" class="ghost">Lookup</button>
+          </form>
+          <div class="results" id="lookup-results"></div>
+        </section>
+
+        <section class="panel wide">
+          <h2>Import Repository</h2>
+          <form id="import-repo-form">
+            <label>
+              Repo URL or apt source line
+              <input type="text" name="source" placeholder="deb https://repo.example.com stable main" required />
+            </label>
+            <button type="submit" class="ghost">Fetch Metadata</button>
+          </form>
+          <div class="callout" id="import-status">Waiting for input.</div>
+
+          <form id="add-repo-form" class="stacked">
+            <div class="row">
+              <label>
+                Repo ID
+                <input type="text" name="id" placeholder="my-repo" required />
+              </label>
+              <label>
+                Label
+                <input type="text" name="label" placeholder="My Repo" required />
+              </label>
+            </div>
+            <div class="row">
+              <label>
+                Name (slug)
+                <input type="text" name="name" placeholder="my-repo" required />
+              </label>
+              <label>
+                Base URL
+                <input type="url" name="baseUrl" placeholder="https://repo.example.com/apt" required />
+              </label>
+            </div>
+            <label>
+              Key ID (matched by fingerprint when possible)
+              <select name="keyId" id="key-select" required>
+                <option value="">Loading keys…</option>
+              </select>
+            </label>
+            <div class="row">
+              <label>
+                Suites
+                <input type="text" name="suites" placeholder="bookworm, noble" />
+              </label>
+              <label>
+                Components
+                <input type="text" name="components" placeholder="main, stable" />
+              </label>
+              <label>
+                Architectures
+                <input type="text" name="architectures" placeholder="amd64, arm64" />
+              </label>
+            </div>
+            <label>
+              Documentation URL
+              <input type="url" name="documentationUrl" placeholder="https://docs.example.com" />
+            </label>
+            <label>
+              Tags (comma separated)
+              <input type="text" name="tags" placeholder="databases, vendor" />
+            </label>
+            <label>
+              Notes
+              <textarea name="notes" rows="3"></textarea>
+            </label>
+            <div class="row">
+              <label class="checkbox">
+                <input type="checkbox" name="force" />
+                Overwrite existing repo
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" name="allowDeprecatedKey" />
+                Allow deprecated key
+              </label>
+            </div>
+            <button type="submit" class="primary">Add Repo</button>
+          </form>
+        </section>
+
+        <section class="panel">
+          <h2>Catalog Actions</h2>
+          <div class="actions">
+            <button data-command="update-keys">Update Keys</button>
+            <button data-command="validate-keys">Validate Keys</button>
+            <button data-command="validate-repos">Validate Repos</button>
+            <button data-command="backfill-key-hints">Backfill Key Hints</button>
+            <button data-command="sync-catalog" class="primary">Sync Catalog</button>
+          </div>
+          <div class="callout">
+            <p>
+              Discovery (GitHub search) is intentionally excluded. If you
+              want to import keys from curated repos using signatures, use the
+              advanced panel below.
+            </p>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2>Quick Actions</h2>
+          <div class="actions">
+            <button data-command="update-keys">Update Keys</button>
+            <button data-command="validate-keys">Validate Keys</button>
+            <button data-command="validate-repos">Validate Repos</button>
+            <button data-command="backfill-key-hints">Backfill Key Hints</button>
+            <button data-command="sync-catalog" class="primary">Sync Catalog</button>
+          </div>
+        </section>
+
+        <section class="panel wide">
+          <h2>Command Log</h2>
+          <div class="log" id="command-log">Ready.</div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

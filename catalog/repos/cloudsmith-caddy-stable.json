@@ -1,0 +1,8 @@
+{
+  "id": "cloudsmith-caddy-stable",
+  "label": "cloudsmith/caddy/stable",
+  "name": "cloudsmith-caddy-stable",
+  "baseUrl": "https://dl.cloudsmith.io/public/caddy/stable/deb/debian",
+  "keyId": "cloudsmith-gpg-key-155b6d79ca56ea34",
+  "documentationUrl": "https://cloudsmith.io/~caddy/repos/"
+}

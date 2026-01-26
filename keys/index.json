@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-01-26T22:03:10.550Z",
-  "keyCount": 68,
+  "generatedAt": "2026-01-26T23:36:21.715Z",
+  "keyCount": 61,
   "keys": [
     {
       "id": "microsoft-microsoft-eb3e94adbe1229cf",
@@ -1095,46 +1095,6 @@
       }
     },
     {
-      "id": "winehq",
-      "vendor": "winehq",
-      "label": "WineHQ Repository Key",
-      "status": "active",
-      "sourceUrl": "https://dl.winehq.org/wine-builds/winehq.key",
-      "sourceUrls": [
-        "https://dl.winehq.org/wine-builds/winehq.key"
-      ],
-      "retrievedAt": "2026-01-25T04:42:01.183Z",
-      "fingerprints": [
-        "D43F640145369C51D786DDEA76F1A20FF987672F"
-      ],
-      "keyCount": 1,
-      "userIds": [
-        "WineHQ packages <wine-devel@winehq.org>"
-      ],
-      "primaryUserId": "WineHQ packages <wine-devel@winehq.org>",
-      "keyIds": [
-        {
-          "fingerprint": "D43F640145369C51D786DDEA76F1A20FF987672F",
-          "keyIdLong": "76F1A20FF987672F",
-          "keyIdShort": "F987672F"
-        }
-      ],
-      "downloaded": {
-        "sha256": "d965d646defe94b3dfba6d5b4406900ac6c81065428bf9d9303ad7a72ee8d1b8",
-        "sizeBytes": 3212,
-        "contentType": "armored"
-      },
-      "cached": {
-        "sha256": "73395232829a381fd76ffe4647c9207d1cf40831ddc69e08d473a2ee3315009c",
-        "sizeBytes": 3215,
-        "outputPath": "keys/winehq.asc"
-      },
-      "hints": {
-        "primaryFingerprint": "D43F640145369C51D786DDEA76F1A20FF987672F",
-        "fingerprintSuffix16": "76F1A20FF987672F"
-      }
-    },
-    {
       "id": "aws-corretto",
       "vendor": "amazon",
       "label": "Amazon Corretto (APT) signing key",
@@ -1709,46 +1669,6 @@
       }
     },
     {
-      "id": "intel-apt-repos-intel-com-signing-key-bac6f0c353d04109",
-      "vendor": "intel",
-      "label": "apt.repos.intel.com signing key",
-      "status": "active",
-      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xBAC6F0C353D04109",
-      "sourceUrls": [
-        "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xBAC6F0C353D04109"
-      ],
-      "retrievedAt": "2026-01-26T22:03:10.550Z",
-      "fingerprints": [
-        "E9BF0AFC46D6E8B7DA5882F1BAC6F0C353D04109"
-      ],
-      "keyCount": 1,
-      "userIds": [
-        "CN=Intel(R) Software Development Products"
-      ],
-      "primaryUserId": "CN=Intel(R) Software Development Products",
-      "keyIds": [
-        {
-          "fingerprint": "E9BF0AFC46D6E8B7DA5882F1BAC6F0C353D04109",
-          "keyIdLong": "BAC6F0C353D04109",
-          "keyIdShort": "53D04109"
-        }
-      ],
-      "downloaded": {
-        "sha256": "c5f3cdf691dc79ebe21758d1b7ae7d3e76058c4cff2ac2bc260109abe90f445d",
-        "sizeBytes": 985,
-        "contentType": "armored"
-      },
-      "cached": {
-        "sha256": "0276eafe0d0d4bf6ed27557a6a014af57d9ab6de743feec896e5e4810cf7c80d",
-        "sizeBytes": 942,
-        "outputPath": "keys/intel-apt-repos-intel-com-signing-key-bac6f0c353d04109.asc"
-      },
-      "hints": {
-        "primaryFingerprint": "E9BF0AFC46D6E8B7DA5882F1BAC6F0C353D04109",
-        "fingerprintSuffix16": "BAC6F0C353D04109"
-      }
-    },
-    {
       "id": "debian-deb-debian-org-signing-key-254cf3b5aec0a8f0",
       "vendor": "debian",
       "label": "deb.debian.org signing key",
@@ -1826,47 +1746,6 @@
       "hints": {
         "primaryFingerprint": "FBA2E162F2F44657B38F0309E5665F9BD5970C47",
         "fingerprintSuffix16": "E5665F9BD5970C47"
-      }
-    },
-    {
-      "id": "steampowered-repo-steampowered-com-signing-key-f24aea9fb05498b7",
-      "vendor": "steampowered",
-      "label": "repo.steampowered.com signing key",
-      "status": "active",
-      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xF24AEA9FB05498B7",
-      "sourceUrls": [
-        "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xF24AEA9FB05498B7"
-      ],
-      "retrievedAt": "2026-01-26T22:03:10.550Z",
-      "fingerprints": [
-        "BA1816EF8E75005FCF5E27A1F24AEA9FB05498B7"
-      ],
-      "keyCount": 1,
-      "userIds": [
-        "Valve Corporation <linux@steampowered.com>",
-        "Valve Software LLC <linux@steampowered.com>"
-      ],
-      "primaryUserId": "Valve Corporation <linux@steampowered.com>",
-      "keyIds": [
-        {
-          "fingerprint": "BA1816EF8E75005FCF5E27A1F24AEA9FB05498B7",
-          "keyIdLong": "F24AEA9FB05498B7",
-          "keyIdShort": "B05498B7"
-        }
-      ],
-      "downloaded": {
-        "sha256": "c59972ee7f987dc6b347208f1d9f71abf8694f6124eecee8c1d456e5bda78e52",
-        "sizeBytes": 7363,
-        "contentType": "armored"
-      },
-      "cached": {
-        "sha256": "9bf81b198e5983c5b5ad6ded8a6e24eae59913e5ea2a597172dd275fb515d164",
-        "sizeBytes": 7326,
-        "outputPath": "keys/steampowered-repo-steampowered-com-signing-key-f24aea9fb05498b7.asc"
-      },
-      "hints": {
-        "primaryFingerprint": "BA1816EF8E75005FCF5E27A1F24AEA9FB05498B7",
-        "fingerprintSuffix16": "F24AEA9FB05498B7"
       }
     },
     {
@@ -1950,46 +1829,6 @@
       "hints": {
         "primaryFingerprint": "F6ECB3762474EDA9D21B7022871920D1991BC93C",
         "fingerprintSuffix16": "871920D1991BC93C"
-      }
-    },
-    {
-      "id": "parrot-deb-parrot-sh-signing-key-7a8286af0e81ee4a",
-      "vendor": "parrot",
-      "label": "deb.parrot.sh signing key",
-      "status": "active",
-      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x7A8286AF0E81EE4A",
-      "sourceUrls": [
-        "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x7A8286AF0E81EE4A"
-      ],
-      "retrievedAt": "2026-01-26T22:03:10.550Z",
-      "fingerprints": [
-        "B711822346552E4D92DA02DF7A8286AF0E81EE4A"
-      ],
-      "keyCount": 1,
-      "userIds": [
-        "Parrot Project (2024-2026) <team@parrotsec.org>"
-      ],
-      "primaryUserId": "Parrot Project (2024-2026) <team@parrotsec.org>",
-      "keyIds": [
-        {
-          "fingerprint": "B711822346552E4D92DA02DF7A8286AF0E81EE4A",
-          "keyIdLong": "7A8286AF0E81EE4A",
-          "keyIdShort": "0E81EE4A"
-        }
-      ],
-      "downloaded": {
-        "sha256": "5cfdd559d0fa205ea8e9eab83d93236bef618f7f91fb3e22c0279a10ba5327b4",
-        "sizeBytes": 3252,
-        "contentType": "armored"
-      },
-      "cached": {
-        "sha256": "fdf28f8c9bcb6880d4f97a403d61e495bf0a93e6371b2fc91372b5884b2be079",
-        "sizeBytes": 3211,
-        "outputPath": "keys/parrot-deb-parrot-sh-signing-key-7a8286af0e81ee4a.asc"
-      },
-      "hints": {
-        "primaryFingerprint": "B711822346552E4D92DA02DF7A8286AF0E81EE4A",
-        "fingerprintSuffix16": "7A8286AF0E81EE4A"
       }
     },
     {
@@ -2110,46 +1949,6 @@
       "hints": {
         "primaryFingerprint": "805E57E2327EE86EB8180E0669CEB9D53F0F56A8",
         "fingerprintSuffix16": "69CEB9D53F0F56A8"
-      }
-    },
-    {
-      "id": "opera-deb-opera-com-signing-key-11ee8c00b693a745",
-      "vendor": "opera",
-      "label": "deb.opera.com signing key",
-      "status": "active",
-      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x11EE8C00B693A745",
-      "sourceUrls": [
-        "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x11EE8C00B693A745"
-      ],
-      "retrievedAt": "2026-01-26T22:03:10.550Z",
-      "fingerprints": [
-        "6C86BE214648376680CA957B11EE8C00B693A745"
-      ],
-      "keyCount": 1,
-      "userIds": [
-        "Opera Software Archive Automatic Signing Key 2025 <packager@opera.com>"
-      ],
-      "primaryUserId": "Opera Software Archive Automatic Signing Key 2025 <packager@opera.com>",
-      "keyIds": [
-        {
-          "fingerprint": "6C86BE214648376680CA957B11EE8C00B693A745",
-          "keyIdLong": "11EE8C00B693A745",
-          "keyIdShort": "B693A745"
-        }
-      ],
-      "downloaded": {
-        "sha256": "79aa8c4a367da4891e33fbb031cddbe077c5d0534ef32a666fa3b01b42221c42",
-        "sizeBytes": 2549,
-        "contentType": "armored"
-      },
-      "cached": {
-        "sha256": "e5ccb6c7f4af5d661335295915b9986c574dc66067e11d8e25475939598fd4da",
-        "sizeBytes": 2507,
-        "outputPath": "keys/opera-deb-opera-com-signing-key-11ee8c00b693a745.asc"
-      },
-      "hints": {
-        "primaryFingerprint": "6C86BE214648376680CA957B11EE8C00B693A745",
-        "fingerprintSuffix16": "11EE8C00B693A745"
       }
     },
     {
@@ -2393,47 +2192,6 @@
       }
     },
     {
-      "id": "armbian-apt-armbian-com-signing-key-93d6889f9f0e78d5",
-      "vendor": "armbian",
-      "label": "apt.armbian.com signing key",
-      "status": "active",
-      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x93D6889F9F0E78D5",
-      "sourceUrls": [
-        "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x93D6889F9F0E78D5"
-      ],
-      "retrievedAt": "2026-01-26T22:03:10.550Z",
-      "fingerprints": [
-        "DF00FAF1C577104B50BF1D0093D6889F9F0E78D5"
-      ],
-      "keyCount": 1,
-      "userIds": [
-        "Igor Pecovnik <igor@armbian.com>",
-        "Igor Pecovnik (Ljubljana, Slovenia) <igor.pecovnik@gmail.com>"
-      ],
-      "primaryUserId": "Igor Pecovnik <igor@armbian.com>",
-      "keyIds": [
-        {
-          "fingerprint": "DF00FAF1C577104B50BF1D0093D6889F9F0E78D5",
-          "keyIdLong": "93D6889F9F0E78D5",
-          "keyIdShort": "9F0E78D5"
-        }
-      ],
-      "downloaded": {
-        "sha256": "0d0c809458c40bcaf63a615c013b996ee5e810e7271f36f690f0c659ae2bacf4",
-        "sizeBytes": 6315,
-        "contentType": "armored"
-      },
-      "cached": {
-        "sha256": "b13f454b72e38590584871352bd2e7df793720b71c600ae0f72ebb6193871df9",
-        "sizeBytes": 6277,
-        "outputPath": "keys/armbian-apt-armbian-com-signing-key-93d6889f9f0e78d5.asc"
-      },
-      "hints": {
-        "primaryFingerprint": "DF00FAF1C577104B50BF1D0093D6889F9F0E78D5",
-        "fingerprintSuffix16": "93D6889F9F0E78D5"
-      }
-    },
-    {
       "id": "teleport-apt-releases-teleport-dev-signing-key-c87ed53a6282c411",
       "vendor": "teleport",
       "label": "apt.releases.teleport.dev signing key",
@@ -2551,46 +2309,6 @@
       "hints": {
         "primaryFingerprint": "12D4CD600C2240A9F4A82071D7B0B66941D01538",
         "fingerprintSuffix16": "D7B0B66941D01538"
-      }
-    },
-    {
-      "id": "vyos-packages-vyos-net-signing-key-b2bdcede2ebf9c06",
-      "vendor": "vyos",
-      "label": "packages.vyos.net signing key",
-      "status": "active",
-      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xB2BDCEDE2EBF9C06",
-      "sourceUrls": [
-        "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xB2BDCEDE2EBF9C06"
-      ],
-      "retrievedAt": "2026-01-26T22:03:10.550Z",
-      "fingerprints": [
-        "DC22BB36263390A7B3F14B99B2BDCEDE2EBF9C06"
-      ],
-      "keyCount": 1,
-      "userIds": [
-        "VyOS maintainers (package signing) <pkgs@vyos.net>"
-      ],
-      "primaryUserId": "VyOS maintainers (package signing) <pkgs@vyos.net>",
-      "keyIds": [
-        {
-          "fingerprint": "DC22BB36263390A7B3F14B99B2BDCEDE2EBF9C06",
-          "keyIdLong": "B2BDCEDE2EBF9C06",
-          "keyIdShort": "2EBF9C06"
-        }
-      ],
-      "downloaded": {
-        "sha256": "bcef5e99b85c617c2b9a1a516ce0da021fd5b008cd6875a6255240e8a7eac336",
-        "sizeBytes": 3138,
-        "contentType": "armored"
-      },
-      "cached": {
-        "sha256": "b0c78ba2e458a67123056b4dc152e57707f615c370fc5d066859b8874b77575b",
-        "sizeBytes": 3097,
-        "outputPath": "keys/vyos-packages-vyos-net-signing-key-b2bdcede2ebf9c06.asc"
-      },
-      "hints": {
-        "primaryFingerprint": "DC22BB36263390A7B3F14B99B2BDCEDE2EBF9C06",
-        "fingerprintSuffix16": "B2BDCEDE2EBF9C06"
       }
     },
     {
@@ -2714,46 +2432,6 @@
       }
     },
     {
-      "id": "nvidia-repo-download-nvidia-com-signing-key-e6543461a9996195",
-      "vendor": "nvidia",
-      "label": "repo.download.nvidia.com signing key",
-      "status": "active",
-      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0D296FFB880FB004",
-      "sourceUrls": [
-        "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0D296FFB880FB004"
-      ],
-      "retrievedAt": "2026-01-26T22:03:10.550Z",
-      "fingerprints": [
-        "3C6D1FF3100C8C3ABB0869C0E6543461A9996195"
-      ],
-      "keyCount": 1,
-      "userIds": [
-        "NVIDIA Corporation <linux-tegra-bugs@nvidia.com>"
-      ],
-      "primaryUserId": "NVIDIA Corporation <linux-tegra-bugs@nvidia.com>",
-      "keyIds": [
-        {
-          "fingerprint": "3C6D1FF3100C8C3ABB0869C0E6543461A9996195",
-          "keyIdLong": "E6543461A9996195",
-          "keyIdShort": "A9996195"
-        }
-      ],
-      "downloaded": {
-        "sha256": "ed4f12a6e8d56ec2dbda40b5e622bc884e6810df98163ef7d13daeba0731c776",
-        "sizeBytes": 5453,
-        "contentType": "armored"
-      },
-      "cached": {
-        "sha256": "503df6726797418daf6792a525c9529bc528e09885aad7374a4a72544e9007f3",
-        "sizeBytes": 5415,
-        "outputPath": "keys/nvidia-repo-download-nvidia-com-signing-key-e6543461a9996195.asc"
-      },
-      "hints": {
-        "primaryFingerprint": "3C6D1FF3100C8C3ABB0869C0E6543461A9996195",
-        "fingerprintSuffix16": "E6543461A9996195"
-      }
-    },
-    {
       "id": "atomicorp-updates-atomicorp-com-signing-key-ffbd5d0a4520afa9",
       "vendor": "atomicorp",
       "label": "updates.atomicorp.com signing key",
@@ -2791,6 +2469,32 @@
       "hints": {
         "primaryFingerprint": "181866DF9DACA40E5B429B08FFBD5D0A4520AFA9",
         "fingerprintSuffix16": "FFBD5D0A4520AFA9"
+      }
+    },
+    {
+      "id": "cloudsmith-gpg-key-155b6d79ca56ea34",
+      "vendor": "cloudsmith",
+      "label": "Cloudsmith",
+      "status": "active",
+      "sourceUrl": "https://dl.cloudsmith.io/public/caddy/stable/gpg.key",
+      "retrievedAt": "2026-01-26T23:27:32.672Z",
+      "fingerprints": [
+        "65760C51EDEA2017CEA2CA15155B6D79CA56EA34"
+      ],
+      "keyCount": 1,
+      "downloaded": {
+        "sha256": "783dfee04b19e851a928cd87b34710213ebbe7628f98d9f34595ab83be578c00",
+        "sizeBytes": 6884,
+        "contentType": "armored"
+      },
+      "cached": {
+        "sha256": "e81d969be242ffb9a70a4d2d57b109b6ec53420eeaf9d0e76dd281001785daff",
+        "sizeBytes": 6891,
+        "outputPath": "keys/cloudsmith-gpg-key-155b6d79ca56ea34.asc"
+      },
+      "hints": {
+        "primaryFingerprint": "65760C51EDEA2017CEA2CA15155B6D79CA56EA34",
+        "fingerprintSuffix16": "155B6D79CA56EA34"
       }
     }
   ]

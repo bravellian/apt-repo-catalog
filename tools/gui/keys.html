@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Key Browser</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Key Browser</p>
+          <h1>Signing Keys</h1>
+          <p class="subtitle">
+            Scan fingerprints and URLs without running any commands.
+          </p>
+        </div>
+      </header>
+
+      <nav class="top-nav">
+        <a href="./index.html" class="nav-link">Repos</a>
+        <a href="./keys.html" class="nav-link active">Keys</a>
+      </nav>
+
+      <section class="panel wide">
+        <h2>Keys</h2>
+        <input
+          type="text"
+          id="keys-search"
+          placeholder="Search by id, label, or fingerprint"
+        />
+        <div id="keys-list" class="scroll"></div>
+      </section>
+
+      <section class="panel wide">
+        <h2>Command Log</h2>
+        <div class="log" id="command-log">Ready.</div>
+      </section>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

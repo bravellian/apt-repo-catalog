@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-01-26T23:33:27.875Z",
+  "repoId": "cloudsmith-caddy-stable",
+  "baseUrl": "https://dl.cloudsmith.io/public/caddy/stable/deb/debian",
+  "keyId": "cloudsmith-gpg-key-155b6d79ca56ea34",
+  "suites": [
+    {
+      "suite": "any-version",
+      "components": [
+        "main",
+        "multiverse",
+        "restricted",
+        "universe"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "armv7l",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    }
+  ]
+}
