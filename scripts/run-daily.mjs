@@ -9,11 +9,7 @@ function run(command, args = []) {
 
 run("npm", ["ci"]);
 run("node", ["scripts/update-keys.mjs"]);
-run("node", ["scripts/smoke-test-repos.mjs", "--os", "ubuntu-24.04"]);
-run("node", ["scripts/smoke-test-repos.mjs", "--os", "ubuntu-22.04"]);
-run("node", ["scripts/smoke-test-repos.mjs", "--os", "debian-13"]);
-run("node", ["scripts/smoke-test-repos.mjs", "--os", "debian-12"]);
-run("node", ["scripts/smoke-test-repos.mjs", "--os", "debian-11"]);
+run("node", ["scripts/smoke-test-repos.mjs"]);
 run("node", [
   "scripts/build-latest-report.mjs",
   "--inDir",

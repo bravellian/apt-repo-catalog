@@ -1,9 +1,8 @@
 {
   "id": "grafana",
   "label": "Grafana Stable",
-  "os": "ubuntu-22.04",
   "name": "grafana",
-  "source": "deb https://apt.grafana.com stable main",
+  "baseUrl": "https://apt.grafana.com",
   "keyId": "grafana",
   "documentationUrl": "https://apt.grafana.com/",
   "tags": [

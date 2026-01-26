@@ -1,9 +1,8 @@
 {
   "id": "puppet7-ubuntu-jammy",
   "label": "Puppet 7 (Ubuntu 22.04 Jammy)",
-  "os": "ubuntu-22.04",
   "name": "puppet7",
-  "source": "deb https://apt.puppet.com jammy puppet7",
+  "baseUrl": "https://apt.puppet.com",
   "keyId": "puppet",
   "documentationUrl": "https://apt.puppet.com/",
   "tags": [

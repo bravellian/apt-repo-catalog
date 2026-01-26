@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.517Z",
+  "repoId": "linuxmint-una-main",
+  "baseUrl": "http://packages.linuxmint.com",
+  "keyId": "linuxmint-archive-keyring",
+  "suites": [
+    {
+      "suite": "tricia",
+      "components": [
+        "backport",
+        "import",
+        "main",
+        "upstream"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "linuxmint-tricia"
+      ]
+    },
+    {
+      "suite": "una",
+      "components": [
+        "backport",
+        "import",
+        "main",
+        "upstream"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "linuxmint-una"
+      ]
+    },
+    {
+      "suite": "virginia",
+      "components": [
+        "backport",
+        "import",
+        "main",
+        "upstream"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "linuxmint-virginia"
+      ]
+    },
+    {
+      "suite": "zena",
+      "components": [
+        "backport",
+        "import",
+        "main",
+        "upstream"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "linuxmint-zena"
+      ]
+    }
+  ]
+}

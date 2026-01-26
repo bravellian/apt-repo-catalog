@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.614Z",
+  "repoId": "proxmox-ve-8-enterprise",
+  "baseUrl": "https://enterprise.proxmox.com/debian/pve",
+  "keyId": "proxmox-release-bookworm",
+  "suites": [
+    {
+      "suite": "bookworm",
+      "components": [
+        "pve-enterprise"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "proxmox-8"
+      ]
+    }
+  ]
+}

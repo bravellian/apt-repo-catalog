@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.603Z",
+  "repoId": "proxmox-ceph-squid-enterprise-bookworm",
+  "baseUrl": "https://enterprise.proxmox.com/debian/ceph-squid",
+  "keyId": "proxmox-release-bookworm",
+  "suites": [
+    {
+      "suite": "bookworm",
+      "components": [
+        "enterprise"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "proxmox-8"
+      ]
+    }
+  ]
+}

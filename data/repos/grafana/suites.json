@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.510Z",
+  "repoId": "grafana",
+  "baseUrl": "https://apt.grafana.com",
+  "keyId": "grafana",
+  "suites": [
+    {
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    }
+  ]
+}

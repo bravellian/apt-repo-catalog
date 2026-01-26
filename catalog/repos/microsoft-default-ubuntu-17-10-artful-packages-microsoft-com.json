@@ -1,9 +1,8 @@
 {
   "id": "microsoft-default-ubuntu-17-10-artful-packages-microsoft-com",
   "label": "Microsoft - ubuntu-17.10 - default",
-  "os": "ubuntu-17.10",
   "name": "microsoft",
-  "source": "deb [arch=amd64] https://packages.microsoft.com/ubuntu/17.10/prod artful main",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/17.10/prod",
   "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
   "documentationUrl": "https://packages.microsoft.com/config/ubuntu/17.10",
   "tags": [

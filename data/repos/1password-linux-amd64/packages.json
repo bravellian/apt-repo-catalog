@@ -1,0 +1,121 @@
+{
+  "generatedAt": "2026-01-26T16:41:51.537Z",
+  "packageCount": 2,
+  "packages": [
+    {
+      "name": "1password",
+      "repoId": "1password-linux-amd64",
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/1password-linux-amd64/packages.raw/20260126T164149Z/main/binary-amd64/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "8.12.0",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/1password-linux-amd64/packages.raw/20260126T164149Z/main/binary-amd64/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "8.12.0",
+      "latestByArch": {
+        "amd64": "8.12.0"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "",
+      "homepage": "https://1password.com",
+      "relationships": {
+        "depends": [
+          "curl",
+          "gnupg2",
+          "libasound2",
+          "libatk-bridge2.0-0",
+          "libatk1.0-0",
+          "libc6 (>= 2.27)",
+          "libcurl4",
+          "libdrm2",
+          "libgbm1",
+          "libgtk-3-0",
+          "libnotify4",
+          "libnss3",
+          "libudev1",
+          "libxcb-shape0",
+          "libxcb-xfixes0",
+          "libxshmfence1",
+          "xdg-utils"
+        ],
+        "preDepends": [],
+        "recommends": [
+          "libappindicator1",
+          "libappindicator3-1"
+        ],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "1Password <support@1password.com>",
+      "section": "default",
+      "priority": "optional"
+    },
+    {
+      "name": "1password-cli",
+      "repoId": "1password-linux-amd64",
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/1password-linux-amd64/packages.raw/20260126T164149Z/main/binary-amd64/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.32.0-3",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/1password-linux-amd64/packages.raw/20260126T164149Z/main/binary-amd64/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.32.0-3",
+      "latestByArch": {
+        "amd64": "2.32.0-3"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "The official 1Password command-line tool.",
+      "homepage": "https://agilebits.com/",
+      "relationships": {
+        "depends": [],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "1Password <support@1password.com>",
+      "section": null,
+      "priority": null
+    }
+  ]
+}

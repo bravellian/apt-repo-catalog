@@ -1,9 +1,8 @@
 {
   "id": "gitlab-ce-ubuntu-jammy",
   "label": "GitLab CE (Ubuntu 22.04 Jammy)",
-  "os": "ubuntu-22.04",
   "name": "gitlab-ce",
-  "source": "deb [signed-by=/usr/share/keyrings/gitlab_gitlab-ce-archive-keyring.gpg] https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu jammy main",
+  "baseUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu",
   "keyId": "gitlab-ce",
   "documentationUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/install",
   "tags": [

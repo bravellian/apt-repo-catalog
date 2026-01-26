@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.503Z",
+  "repoId": "gitlab-ce-debian-bookworm",
+  "baseUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/debian",
+  "keyId": "gitlab-ce",
+  "suites": [
+    {
+      "suite": "bullseye",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-11"
+      ]
+    },
+    {
+      "suite": "buster",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-10"
+      ]
+    },
+    {
+      "suite": "jessie",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-8"
+      ]
+    },
+    {
+      "suite": "stretch",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-9"
+      ]
+    },
+    {
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13"
+      ]
+    },
+    {
+      "suite": "wheezy",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-7"
+      ]
+    },
+    {
+      "suite": "bookworm",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12"
+      ]
+    }
+  ]
+}

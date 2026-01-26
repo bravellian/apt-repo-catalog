@@ -1,9 +1,8 @@
 {
   "id": "microsoft-default-debian-12-bookworm-packages-microsoft-com",
   "label": "Microsoft - debian-12 - default",
-  "os": "debian-12",
   "name": "microsoft",
-  "source": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/debian/12/prod bookworm main",
+  "baseUrl": "https://packages.microsoft.com/debian/12/prod",
   "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
   "documentationUrl": "https://packages.microsoft.com/config/debian/12",
   "tags": [

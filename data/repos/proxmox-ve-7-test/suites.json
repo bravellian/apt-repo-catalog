@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.611Z",
+  "repoId": "proxmox-ve-7-test",
+  "baseUrl": "http://download.proxmox.com/debian/pve",
+  "keyId": "proxmox-release-bullseye",
+  "suites": [
+    {
+      "suite": "bookworm",
+      "components": [
+        "pve-no-subscription",
+        "pvetest"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12"
+      ]
+    },
+    {
+      "suite": "trixie",
+      "components": [
+        "pve-no-subscription",
+        "pvetest"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13"
+      ]
+    },
+    {
+      "suite": "bullseye",
+      "components": [
+        "pve-no-subscription",
+        "pvetest"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-11",
+        "proxmox-7"
+      ]
+    }
+  ]
+}

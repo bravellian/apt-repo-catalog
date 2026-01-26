@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.498Z",
+  "repoId": "docker-ubuntu-eoan-stable",
+  "baseUrl": "https://download.docker.com/linux/ubuntu",
+  "keyId": "docker-gpg-8d81803c0ebfcd88",
+  "suites": [
+    {
+      "suite": "artful",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-17.10"
+      ]
+    },
+    {
+      "suite": "bionic",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.04"
+      ]
+    },
+    {
+      "suite": "cosmic",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.10"
+      ]
+    },
+    {
+      "suite": "disco",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-19.04"
+      ]
+    },
+    {
+      "suite": "eoan",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-19.10"
+      ]
+    },
+    {
+      "suite": "focal",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.04"
+      ]
+    },
+    {
+      "suite": "groovy",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.10"
+      ]
+    },
+    {
+      "suite": "hirsute",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-21.04"
+      ]
+    },
+    {
+      "suite": "impish",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-21.10"
+      ]
+    },
+    {
+      "suite": "jammy",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    },
+    {
+      "suite": "kinetic",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.10"
+      ]
+    },
+    {
+      "suite": "lunar",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-23.04"
+      ]
+    },
+    {
+      "suite": "mantic",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-23.10"
+      ]
+    },
+    {
+      "suite": "noble",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.04"
+      ]
+    },
+    {
+      "suite": "oracular",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.10"
+      ]
+    },
+    {
+      "suite": "plucky",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-25.04"
+      ]
+    },
+    {
+      "suite": "questing",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-25.10"
+      ]
+    },
+    {
+      "suite": "trusty",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-14.04"
+      ]
+    },
+    {
+      "suite": "xenial",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-16.04"
+      ]
+    },
+    {
+      "suite": "yakkety",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-16.10"
+      ]
+    },
+    {
+      "suite": "zesty",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-17.04"
+      ]
+    }
+  ]
+}

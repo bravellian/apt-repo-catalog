@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.607Z",
+  "repoId": "proxmox-ceph-squid-test-bookworm",
+  "baseUrl": "http://download.proxmox.com/debian/ceph-squid",
+  "keyId": "proxmox-release-bookworm",
+  "suites": [
+    {
+      "suite": "trixie",
+      "components": [
+        "no-subscription",
+        "test"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13"
+      ]
+    },
+    {
+      "suite": "bookworm",
+      "components": [
+        "no-subscription",
+        "test"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12",
+        "proxmox-8"
+      ]
+    }
+  ]
+}

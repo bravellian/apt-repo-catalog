@@ -1,9 +1,8 @@
 {
   "id": "gitlab-ce-debian-bookworm",
   "label": "GitLab CE (Debian 12 Bookworm)",
-  "os": "debian-12",
   "name": "gitlab-ce",
-  "source": "deb [signed-by=/usr/share/keyrings/gitlab_gitlab-ce-archive-keyring.gpg] https://packages.gitlab.com/gitlab/gitlab-ce/debian bookworm main",
+  "baseUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/debian",
   "keyId": "gitlab-ce",
   "documentationUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/install",
   "tags": [

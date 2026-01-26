@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.512Z",
+  "repoId": "hashicorp",
+  "baseUrl": "https://apt.releases.hashicorp.com",
+  "keyId": "hashicorp",
+  "suites": [
+    {
+      "suite": "bookworm",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12"
+      ]
+    },
+    {
+      "suite": "bullseye",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-11"
+      ]
+    },
+    {
+      "suite": "focal",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.04"
+      ]
+    },
+    {
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.04"
+      ]
+    },
+    {
+      "suite": "oracular",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.10"
+      ]
+    },
+    {
+      "suite": "plucky",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-25.04"
+      ]
+    },
+    {
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13"
+      ]
+    },
+    {
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    }
+  ]
+}

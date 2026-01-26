@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.489Z",
+  "repoId": "aws-corretto-stable",
+  "baseUrl": "https://apt.corretto.aws",
+  "keyId": "aws-corretto",
+  "suites": [
+    {
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "generic"
+      ]
+    }
+  ]
+}

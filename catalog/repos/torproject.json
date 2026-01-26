@@ -1,9 +1,8 @@
 {
   "id": "torproject",
   "label": "Tor Project (Debian/Ubuntu)",
-  "os": "ubuntu-22.04",
   "name": "torproject",
-  "source": "deb https://deb.torproject.org/torproject.org jammy main",
+  "baseUrl": "https://deb.torproject.org/torproject.org",
   "keyId": "torproject",
   "documentationUrl": "https://support.torproject.org/apt/tor-deb-repo/",
   "tags": [

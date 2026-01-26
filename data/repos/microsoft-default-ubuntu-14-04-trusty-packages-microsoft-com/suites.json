@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.530Z",
+  "repoId": "microsoft-default-ubuntu-14-04-trusty-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/14.04/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "trusty",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-14.04"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    }
+  ]
+}

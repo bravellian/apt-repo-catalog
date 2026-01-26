@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.583Z",
+  "repoId": "microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/22.04/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf"
+      ],
+      "observedOs": [
+        "ubuntu-22.04"
+      ],
+      "options": {
+        "arch": "amd64,arm64,armhf"
+      }
+    }
+  ]
+}

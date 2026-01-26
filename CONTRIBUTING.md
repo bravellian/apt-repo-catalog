@@ -37,6 +37,7 @@ node scripts/apt-inventory.mjs fetch-packages --repo-id microsoft-default-debian
 node scripts/apt-inventory.mjs fetch-packages-all --os debian-12
 node scripts/apt-inventory.mjs fetch-packages-all --only-ids docker-debian-trixie-stable,kubernetes-core-stable-v1.35-debian-13
 node scripts/apt-inventory.mjs expand-repo-suites --repo-id docker-debian-trixie-stable --write-catalog
+node scripts/apt-inventory.mjs expand-repo-suites --repo-id yarn-stable --os-list "ubuntu-20.04,ubuntu-22.04,ubuntu-24.04" --write-catalog
 node scripts/apt-inventory.mjs expand-repo-suites --all --suite-candidates "bookworm,bullseye" --write-catalog
 node scripts/apt-inventory.mjs cleanup-catalog --write-catalog
 ```

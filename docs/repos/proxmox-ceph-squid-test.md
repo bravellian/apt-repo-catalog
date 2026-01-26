@@ -1,13 +1,23 @@
-# Proxmox Ceph Squid - test (proxmox-9)
+# Proxmox Ceph Squid - test
 
 ## Repository
 - Repository ID: `proxmox-ceph-squid-test`
-- OS: `proxmox-9`
-- Source: `http://download.proxmox.com/debian/ceph-squid trixie test`
+- Base URL: `http://download.proxmox.com/debian/ceph-squid`
+- Host: `download.proxmox.com`
 
 ## Upstream documentation
 - Documentation URL: https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories
 - Key documentation URL: https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories
+
+## Suites
+- Suite: `bookworm`
+  - Components: no-subscription, test
+  - Architectures: (not listed)
+  - Observed OSes: debian-12
+- Suite: `trixie`
+  - Components: no-subscription, test
+  - Architectures: (not listed)
+  - Observed OSes: debian-13, proxmox-9
 
 ## Key reference
 - Key ID: `proxmox-archive-keyring-trixie`
@@ -18,12 +28,14 @@
 
 ## Install instructions
 
+### Suite: bookworm
+
 Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/proxmox-archive-keyring-trixie.asc | gpg --dearmor | sudo tee /usr/share/keyrings/proxmox-archive-keyring-trixie.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/proxmox-archive-keyring-trixie.gpg] http://download.proxmox.com/debian/ceph-squid trixie test" | sudo tee /etc/apt/sources.list.d/proxmox-ceph-squid-test.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/proxmox-archive-keyring-trixie.gpg] http://download.proxmox.com/debian/ceph-squid bookworm no-subscription test" | sudo tee /etc/apt/sources.list.d/proxmox-ceph-squid-test-bookworm.list >/dev/null
 sudo apt-get update
 ```
 
@@ -33,9 +45,31 @@ Variant B (store ASCII key, dearmor file explicitly):
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/proxmox-archive-keyring-trixie.asc -o /tmp/proxmox-archive-keyring-trixie.asc
 gpg --dearmor /tmp/proxmox-archive-keyring-trixie.asc
 sudo install -m 0644 /tmp/proxmox-archive-keyring-trixie.gpg /usr/share/keyrings/proxmox-archive-keyring-trixie.gpg
-echo "deb [signed-by=/usr/share/keyrings/proxmox-archive-keyring-trixie.gpg] http://download.proxmox.com/debian/ceph-squid trixie test" | sudo tee /etc/apt/sources.list.d/proxmox-ceph-squid-test.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/proxmox-archive-keyring-trixie.gpg] http://download.proxmox.com/debian/ceph-squid bookworm no-subscription test" | sudo tee /etc/apt/sources.list.d/proxmox-ceph-squid-test-bookworm.list >/dev/null
 sudo apt-get update
 ```
+
+### Suite: trixie
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/proxmox-archive-keyring-trixie.asc | gpg --dearmor | sudo tee /usr/share/keyrings/proxmox-archive-keyring-trixie.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/proxmox-archive-keyring-trixie.gpg] http://download.proxmox.com/debian/ceph-squid trixie no-subscription test" | sudo tee /etc/apt/sources.list.d/proxmox-ceph-squid-test-trixie.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/proxmox-archive-keyring-trixie.asc -o /tmp/proxmox-archive-keyring-trixie.asc
+gpg --dearmor /tmp/proxmox-archive-keyring-trixie.asc
+sudo install -m 0644 /tmp/proxmox-archive-keyring-trixie.gpg /usr/share/keyrings/proxmox-archive-keyring-trixie.gpg
+echo "deb [signed-by=/usr/share/keyrings/proxmox-archive-keyring-trixie.gpg] http://download.proxmox.com/debian/ceph-squid trixie no-subscription test" | sudo tee /etc/apt/sources.list.d/proxmox-ceph-squid-test-trixie.list >/dev/null
+sudo apt-get update
+```
+
 
 ## Packages
 
@@ -1090,7 +1124,7 @@ sudo apt-get update
 </details>
 
 ## Notes
-- OS support: verify upstream documentation for supported releases.
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
 - The trust anchor is the fingerprint; validate it before use.
 - Repo notes: Test repository; use with caution.
 - Repo tags: proxmox, ceph, debian-derivative, apt

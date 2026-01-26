@@ -1,35 +1,487 @@
 {
-  "fetchedAt": "2026-01-25T04:43:01.734Z",
+  "fetchedAt": "2026-01-26T16:42:26.282Z",
   "repoId": "docker-debian-buster-stable",
   "mode": "auto",
   "source": {
-    "line": "deb https://download.docker.com/linux/debian buster stable",
-    "suite": null,
-    "components": null,
+    "baseUrl": "https://download.docker.com/linux/debian",
+    "suites": [
+      {
+        "suite": "bookworm",
+        "components": [
+          "stable"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bullseye",
+        "components": [
+          "stable"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "buster",
+        "components": [
+          "stable"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jessie",
+        "components": [
+          "stable"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "stretch",
+        "components": [
+          "stable"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trixie",
+        "components": [
+          "stable"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "wheezy",
+        "components": [
+          "stable"
+        ],
+        "options": {}
+      }
+    ],
     "arch": null
   },
   "repoFromCatalog": true,
-  "release": {
-    "Origin": "Docker",
-    "Label": "Docker CE",
-    "Suite": "buster",
-    "Codename": null,
-    "Architectures": "amd64 arm64 armhf s390x ppc64el",
-    "Components": "stable edge test nightly",
-    "inReleasePath": "/tmp/apt-inventory/docker-debian-buster-stable/run-C5xDml/var/lib/apt/lists/download.docker.com_linux_debian_dists_buster_InRelease",
-    "inReleaseSha256": "f6265cde0d74dd987087aeb8d2bbc5695ddbd108053539847cf2e64b2742835b"
-  },
+  "releases": [
+    {
+      "suite": "bookworm",
+      "release": {
+        "Architectures": "amd64 arm64 armhf s390x ppc64el",
+        "Components": "stable edge test nightly",
+        "Date": "Mon, 26 Jan 2026 10:33:41 +0000",
+        "Label": "Docker CE",
+        "Origin": "Docker",
+        "Suite": "bookworm",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "bullseye",
+      "release": {
+        "Architectures": "amd64 arm64 armhf s390x ppc64el",
+        "Components": "stable edge test nightly",
+        "Date": "Mon, 26 Jan 2026 10:33:41 +0000",
+        "Label": "Docker CE",
+        "Origin": "Docker",
+        "Suite": "bullseye",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "buster",
+      "release": {
+        "Architectures": "amd64 arm64 armhf s390x ppc64el",
+        "Components": "stable edge test nightly",
+        "Date": "Mon, 17 Jun 2024 16:53:50 +0000",
+        "Label": "Docker CE",
+        "Origin": "Docker",
+        "Suite": "buster",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "jessie",
+      "release": {
+        "Architectures": "amd64 arm64 armhf s390x ppc64el",
+        "Components": "stable edge test nightly",
+        "Date": "Thu, 27 Jun 2019 18:47:28 +0000",
+        "Label": "Docker CE",
+        "Origin": "Docker",
+        "Suite": "jessie",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "stretch",
+      "release": {
+        "Architectures": "amd64 arm64 armhf s390x ppc64el",
+        "Components": "stable edge test nightly",
+        "Date": "Mon, 01 Feb 2021 21:46:06 +0000",
+        "Label": "Docker CE",
+        "Origin": "Docker",
+        "Suite": "stretch",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "trixie",
+      "release": {
+        "Architectures": "amd64 arm64 armhf s390x ppc64el",
+        "Components": "stable edge test nightly",
+        "Date": "Mon, 26 Jan 2026 10:33:41 +0000",
+        "Label": "Docker CE",
+        "Origin": "Docker",
+        "Suite": "trixie",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "wheezy",
+      "release": {
+        "Architectures": "amd64 arm64 armhf s390x ppc64el",
+        "Components": "stable edge test nightly",
+        "Date": "Fri, 18 May 2018 15:50:38 UTC",
+        "Label": "Docker CE",
+        "Origin": "Docker",
+        "Suite": "wheezy",
+        "SHA512": ""
+      }
+    }
+  ],
   "sources": [
-    "deb [signed-by=/tmp/apt-inventory/docker-debian-buster-stable/run-C5xDml/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] https://download.docker.com/linux/debian buster stable"
+    "deb [[object Object signed-by=/tmp/apt-inventory/docker-debian-buster-stable/run-6EeGLh/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] ] https://download.docker.com/linux/debian bookworm stable",
+    "https://download.docker.com/linux/debian/dists/bookworm/Release",
+    "https://download.docker.com/linux/debian/dists/bookworm/stable/binary-amd64/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/bookworm/stable/binary-arm64/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/bookworm/stable/binary-armhf/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/bookworm/stable/binary-s390x/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/bookworm/stable/binary-ppc64el/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/docker-debian-buster-stable/run-puuF3u/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] ] https://download.docker.com/linux/debian bullseye stable",
+    "https://download.docker.com/linux/debian/dists/bullseye/Release",
+    "https://download.docker.com/linux/debian/dists/bullseye/stable/binary-amd64/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/bullseye/stable/binary-arm64/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/bullseye/stable/binary-armhf/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/bullseye/stable/binary-ppc64el/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/docker-debian-buster-stable/run-qrXvb5/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] ] https://download.docker.com/linux/debian buster stable",
+    "https://download.docker.com/linux/debian/dists/buster/Release",
+    "https://download.docker.com/linux/debian/dists/buster/stable/binary-amd64/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/buster/stable/binary-arm64/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/buster/stable/binary-armhf/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/buster/stable/binary-ppc64el/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/docker-debian-buster-stable/run-IIxzsB/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] ] https://download.docker.com/linux/debian jessie stable",
+    "https://download.docker.com/linux/debian/dists/jessie/Release",
+    "https://download.docker.com/linux/debian/dists/jessie/stable/binary-amd64/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/jessie/stable/binary-arm64/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/jessie/stable/binary-armhf/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/docker-debian-buster-stable/run-iUM56K/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] ] https://download.docker.com/linux/debian stretch stable",
+    "https://download.docker.com/linux/debian/dists/stretch/Release",
+    "https://download.docker.com/linux/debian/dists/stretch/stable/binary-amd64/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/stretch/stable/binary-arm64/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/stretch/stable/binary-armhf/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/docker-debian-buster-stable/run-UG7WlK/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] ] https://download.docker.com/linux/debian trixie stable",
+    "https://download.docker.com/linux/debian/dists/trixie/Release",
+    "https://download.docker.com/linux/debian/dists/trixie/stable/binary-amd64/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/trixie/stable/binary-arm64/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/trixie/stable/binary-armhf/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/trixie/stable/binary-s390x/Packages.gz",
+    "https://download.docker.com/linux/debian/dists/trixie/stable/binary-ppc64el/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/docker-debian-buster-stable/run-IU4CQt/keyrings/docker-gpg-8d81803c0ebfcd88.gpg] ] https://download.docker.com/linux/debian wheezy stable",
+    "https://download.docker.com/linux/debian/dists/wheezy/Release",
+    "https://download.docker.com/linux/debian/dists/wheezy/stable/binary-amd64/Packages.gz"
   ],
   "packageFiles": [
     {
-      "source": "/tmp/apt-inventory/docker-debian-buster-stable/run-C5xDml/var/lib/apt/lists/download.docker.com_linux_debian_dists_buster_stable_binary-amd64_Packages",
-      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260125T044301Z/download.docker.com_linux_debian_dists_buster_stable_binary-amd64_Packages",
+      "source": "https://download.docker.com/linux/debian/dists/bookworm/stable/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-amd64/Packages.gz",
+      "suite": "bookworm",
+      "component": "stable",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/bookworm/stable/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-arm64/Packages.gz",
+      "suite": "bookworm",
+      "component": "stable",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/bookworm/stable/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-armhf/Packages.gz",
+      "suite": "bookworm",
+      "component": "stable",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/bookworm/stable/binary-s390x/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-s390x/Packages.gz",
+      "suite": "bookworm",
+      "component": "stable",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/bookworm/stable/binary-ppc64el/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-ppc64el/Packages.gz",
+      "suite": "bookworm",
+      "component": "stable",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/bullseye/stable/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-amd64/Packages.gz",
+      "suite": "bullseye",
+      "component": "stable",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/bullseye/stable/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-arm64/Packages.gz",
+      "suite": "bullseye",
+      "component": "stable",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/bullseye/stable/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-armhf/Packages.gz",
+      "suite": "bullseye",
+      "component": "stable",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/bullseye/stable/binary-ppc64el/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-ppc64el/Packages.gz",
+      "suite": "bullseye",
+      "component": "stable",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/buster/stable/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-amd64/Packages.gz",
       "suite": "buster",
+      "component": "stable",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/buster/stable/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-arm64/Packages.gz",
+      "suite": "buster",
+      "component": "stable",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/buster/stable/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-armhf/Packages.gz",
+      "suite": "buster",
+      "component": "stable",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/buster/stable/binary-ppc64el/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-ppc64el/Packages.gz",
+      "suite": "buster",
+      "component": "stable",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/jessie/stable/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-amd64/Packages.gz",
+      "suite": "jessie",
+      "component": "stable",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/jessie/stable/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-arm64/Packages.gz",
+      "suite": "jessie",
+      "component": "stable",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/jessie/stable/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-armhf/Packages.gz",
+      "suite": "jessie",
+      "component": "stable",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/stretch/stable/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-amd64/Packages.gz",
+      "suite": "stretch",
+      "component": "stable",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/stretch/stable/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-arm64/Packages.gz",
+      "suite": "stretch",
+      "component": "stable",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/stretch/stable/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-armhf/Packages.gz",
+      "suite": "stretch",
+      "component": "stable",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/trixie/stable/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-amd64/Packages.gz",
+      "suite": "trixie",
+      "component": "stable",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/trixie/stable/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-arm64/Packages.gz",
+      "suite": "trixie",
+      "component": "stable",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/trixie/stable/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-armhf/Packages.gz",
+      "suite": "trixie",
+      "component": "stable",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/trixie/stable/binary-s390x/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-s390x/Packages.gz",
+      "suite": "trixie",
+      "component": "stable",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/trixie/stable/binary-ppc64el/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-ppc64el/Packages.gz",
+      "suite": "trixie",
+      "component": "stable",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://download.docker.com/linux/debian/dists/wheezy/stable/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/docker-debian-buster-stable/packages.raw/20260126T164226Z/stable/binary-amd64/Packages.gz",
+      "suite": "wheezy",
       "component": "stable",
       "arch": "amd64"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.docker.com/linux/debian bookworm InRelease [46.6 kB]\nErr:1 https://download.docker.com/linux/debian bookworm InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nReading package lists...\n\nW: GPG error: https://download.docker.com/linux/debian bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nE: The repository 'https://download.docker.com/linux/debian bookworm InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.docker.com/linux/debian bullseye InRelease [43.0 kB]\nErr:1 https://download.docker.com/linux/debian bullseye InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nReading package lists...\n\nW: GPG error: https://download.docker.com/linux/debian bullseye InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nE: The repository 'https://download.docker.com/linux/debian bullseye InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-s390x/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.docker.com/linux/debian buster InRelease [53.9 kB]\nErr:1 https://download.docker.com/linux/debian buster InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nReading package lists...\n\nW: GPG error: https://download.docker.com/linux/debian buster InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nE: The repository 'https://download.docker.com/linux/debian buster InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-s390x/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.docker.com/linux/debian jessie InRelease [44.8 kB]\nErr:1 https://download.docker.com/linux/debian jessie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nReading package lists...\n\nW: GPG error: https://download.docker.com/linux/debian jessie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nE: The repository 'https://download.docker.com/linux/debian jessie InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-s390x/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-ppc64el/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.docker.com/linux/debian stretch InRelease [44.8 kB]\nErr:1 https://download.docker.com/linux/debian stretch InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nReading package lists...\n\nW: GPG error: https://download.docker.com/linux/debian stretch InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nE: The repository 'https://download.docker.com/linux/debian stretch InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-s390x/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-ppc64el/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.docker.com/linux/debian trixie InRelease [32.5 kB]\nErr:1 https://download.docker.com/linux/debian trixie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nReading package lists...\n\nW: GPG error: https://download.docker.com/linux/debian trixie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nE: The repository 'https://download.docker.com/linux/debian trixie InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://download.docker.com/linux/debian wheezy InRelease [15.3 kB]\nErr:1 https://download.docker.com/linux/debian wheezy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nReading package lists...\n\nW: GPG error: https://download.docker.com/linux/debian wheezy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8\nE: The repository 'https://download.docker.com/linux/debian wheezy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-arm64/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-armhf/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-s390x/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-ppc64el/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "stable/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
 }

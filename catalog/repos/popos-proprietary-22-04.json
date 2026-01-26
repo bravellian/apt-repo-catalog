@@ -1,0 +1,13 @@
+{
+  "id": "popos-proprietary-22-04",
+  "label": "Pop!_OS proprietary - 22.04",
+  "name": "popos",
+  "baseUrl": "http://apt.pop-os.org/proprietary",
+  "keyId": "popos-lookup-204dd8aec33a7aff",
+  "documentationUrl": "https://support.system76.com/articles/apt-repository/",
+  "tags": [
+    "popos",
+    "ubuntu-derivative",
+    "apt"
+  ]
+}

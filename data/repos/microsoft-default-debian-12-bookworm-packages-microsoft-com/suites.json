@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.523Z",
+  "repoId": "microsoft-default-debian-12-bookworm-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/debian/12/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "bookworm",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf"
+      ],
+      "observedOs": [
+        "debian-12"
+      ],
+      "options": {
+        "arch": "amd64,arm64,armhf"
+      }
+    }
+  ]
+}

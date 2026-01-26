@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.594Z",
+  "repoId": "nginx-org-ubuntu-stable-jammy",
+  "baseUrl": "https://nginx.org/packages/ubuntu",
+  "keyId": "nginx-org",
+  "suites": [
+    {
+      "suite": "artful",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-17.10"
+      ]
+    },
+    {
+      "suite": "bionic",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.04"
+      ]
+    },
+    {
+      "suite": "cosmic",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.10"
+      ]
+    },
+    {
+      "suite": "disco",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-19.04"
+      ]
+    },
+    {
+      "suite": "eoan",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-19.10"
+      ]
+    },
+    {
+      "suite": "focal",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.04"
+      ]
+    },
+    {
+      "suite": "groovy",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.10"
+      ]
+    },
+    {
+      "suite": "hirsute",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-21.04"
+      ]
+    },
+    {
+      "suite": "impish",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-21.10"
+      ]
+    },
+    {
+      "suite": "kinetic",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.10"
+      ]
+    },
+    {
+      "suite": "lunar",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-23.04"
+      ]
+    },
+    {
+      "suite": "mantic",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-23.10"
+      ]
+    },
+    {
+      "suite": "noble",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.04"
+      ]
+    },
+    {
+      "suite": "oracular",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.10"
+      ]
+    },
+    {
+      "suite": "plucky",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-25.04"
+      ]
+    },
+    {
+      "suite": "questing",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-25.10"
+      ]
+    },
+    {
+      "suite": "trusty",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-14.04"
+      ]
+    },
+    {
+      "suite": "xenial",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-16.04"
+      ]
+    },
+    {
+      "suite": "yakkety",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-16.10"
+      ]
+    },
+    {
+      "suite": "zesty",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-17.04"
+      ]
+    },
+    {
+      "suite": "jammy",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    }
+  ]
+}

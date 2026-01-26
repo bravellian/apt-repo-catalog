@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.494Z",
+  "repoId": "cloudflare-warp-ubuntu-jammy",
+  "baseUrl": "https://pkg.cloudflareclient.com",
+  "keyId": "cloudflare-warp",
+  "suites": [
+    {
+      "suite": "bookworm",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12"
+      ]
+    },
+    {
+      "suite": "bionic",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.04"
+      ]
+    },
+    {
+      "suite": "bullseye",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-11"
+      ]
+    },
+    {
+      "suite": "buster",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-10"
+      ]
+    },
+    {
+      "suite": "focal",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.04"
+      ]
+    },
+    {
+      "suite": "stretch",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-9"
+      ]
+    },
+    {
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13"
+      ]
+    },
+    {
+      "suite": "xenial",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-16.04"
+      ]
+    },
+    {
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    },
+    {
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.04"
+      ]
+    }
+  ]
+}

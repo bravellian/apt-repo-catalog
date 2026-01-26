@@ -1,0 +1,995 @@
+{
+  "fetchedAt": "2026-01-26T16:43:10.859Z",
+  "repoId": "github-cli-stable",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://cli.github.com/packages",
+    "suites": [
+      {
+        "suite": "bionic",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "bullseye",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "buster",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "cosmic",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "disco",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "eoan",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "focal",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "groovy",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "hirsute",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "impish",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "jessie",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "stretch",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "trusty",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "xenial",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      },
+      {
+        "suite": "stable",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "bionic",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "bionic",
+        "Date": "Wed, 21 Jan 2026 18:07:17 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - ubuntu bionic repo"
+      }
+    },
+    {
+      "suite": "bullseye",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "bullseye",
+        "Date": "Wed, 21 Jan 2026 18:07:08 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - debian bullseye repo"
+      }
+    },
+    {
+      "suite": "buster",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "buster",
+        "Date": "Wed, 21 Jan 2026 18:07:06 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - debian buster repo"
+      }
+    },
+    {
+      "suite": "cosmic",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "cosmic",
+        "Date": "Wed, 21 Jan 2026 18:06:38 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - ubuntu cosmic repo"
+      }
+    },
+    {
+      "suite": "disco",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "disco",
+        "Date": "Wed, 21 Jan 2026 18:06:44 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - ubuntu disco repo"
+      }
+    },
+    {
+      "suite": "eoan",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "eoan",
+        "Date": "Wed, 21 Jan 2026 18:06:41 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - ubuntu eoan repo"
+      }
+    },
+    {
+      "suite": "focal",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "focal",
+        "Date": "Wed, 21 Jan 2026 18:06:49 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - ubuntu focal repo"
+      }
+    },
+    {
+      "suite": "groovy",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "groovy",
+        "Date": "Wed, 21 Jan 2026 18:06:46 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - ubuntu groovy repo"
+      }
+    },
+    {
+      "suite": "hirsute",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "hirsute",
+        "Date": "Wed, 21 Jan 2026 18:07:28 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - ubuntu hirsute repo"
+      }
+    },
+    {
+      "suite": "impish",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "impish",
+        "Date": "Wed, 21 Jan 2026 18:07:30 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - ubuntu impish repo"
+      }
+    },
+    {
+      "suite": "jessie",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "jessie",
+        "Date": "Wed, 21 Jan 2026 18:07:14 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - debian jessie repo"
+      }
+    },
+    {
+      "suite": "stretch",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "stretch",
+        "Date": "Wed, 21 Jan 2026 18:07:11 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - debian stretch repo"
+      }
+    },
+    {
+      "suite": "trusty",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "trusty",
+        "Date": "Wed, 21 Jan 2026 18:07:19 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - ubuntu trusty repo"
+      }
+    },
+    {
+      "suite": "xenial",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "xenial",
+        "Date": "Wed, 21 Jan 2026 18:07:25 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - ubuntu xenial repo"
+      }
+    },
+    {
+      "suite": "stable",
+      "release": {
+        "Origin": "gh",
+        "Label": "gh",
+        "Codename": "stable",
+        "Date": "Wed, 21 Jan 2026 18:06:52 UTC",
+        "Architectures": "i386 amd64 armhf arm64",
+        "Components": "main",
+        "Description": "The GitHub CLI - debian stable repo"
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-buU0D5/keyrings/github-cli.gpg] ] https://cli.github.com/packages bionic main",
+    "https://cli.github.com/packages/dists/bionic/Release",
+    "https://cli.github.com/packages/dists/bionic/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/bionic/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/bionic/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/bionic/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-b7H6pb/keyrings/github-cli.gpg] ] https://cli.github.com/packages bullseye main",
+    "https://cli.github.com/packages/dists/bullseye/Release",
+    "https://cli.github.com/packages/dists/bullseye/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/bullseye/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/bullseye/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/bullseye/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-Q9vkQf/keyrings/github-cli.gpg] ] https://cli.github.com/packages buster main",
+    "https://cli.github.com/packages/dists/buster/Release",
+    "https://cli.github.com/packages/dists/buster/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/buster/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/buster/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/buster/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-bg6v2P/keyrings/github-cli.gpg] ] https://cli.github.com/packages cosmic main",
+    "https://cli.github.com/packages/dists/cosmic/Release",
+    "https://cli.github.com/packages/dists/cosmic/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/cosmic/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/cosmic/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/cosmic/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-APlZKa/keyrings/github-cli.gpg] ] https://cli.github.com/packages disco main",
+    "https://cli.github.com/packages/dists/disco/Release",
+    "https://cli.github.com/packages/dists/disco/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/disco/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/disco/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/disco/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-vNrwlL/keyrings/github-cli.gpg] ] https://cli.github.com/packages eoan main",
+    "https://cli.github.com/packages/dists/eoan/Release",
+    "https://cli.github.com/packages/dists/eoan/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/eoan/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/eoan/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/eoan/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-Oti20R/keyrings/github-cli.gpg] ] https://cli.github.com/packages focal main",
+    "https://cli.github.com/packages/dists/focal/Release",
+    "https://cli.github.com/packages/dists/focal/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/focal/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/focal/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/focal/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-klqHBc/keyrings/github-cli.gpg] ] https://cli.github.com/packages groovy main",
+    "https://cli.github.com/packages/dists/groovy/Release",
+    "https://cli.github.com/packages/dists/groovy/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/groovy/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/groovy/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/groovy/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-e6bz5C/keyrings/github-cli.gpg] ] https://cli.github.com/packages hirsute main",
+    "https://cli.github.com/packages/dists/hirsute/Release",
+    "https://cli.github.com/packages/dists/hirsute/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/hirsute/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/hirsute/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/hirsute/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-V9F2PS/keyrings/github-cli.gpg] ] https://cli.github.com/packages impish main",
+    "https://cli.github.com/packages/dists/impish/Release",
+    "https://cli.github.com/packages/dists/impish/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/impish/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/impish/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/impish/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-Nyl50J/keyrings/github-cli.gpg] ] https://cli.github.com/packages jessie main",
+    "https://cli.github.com/packages/dists/jessie/Release",
+    "https://cli.github.com/packages/dists/jessie/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/jessie/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/jessie/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/jessie/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-8tRynw/keyrings/github-cli.gpg] ] https://cli.github.com/packages stretch main",
+    "https://cli.github.com/packages/dists/stretch/Release",
+    "https://cli.github.com/packages/dists/stretch/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/stretch/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/stretch/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/stretch/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-mfV57P/keyrings/github-cli.gpg] ] https://cli.github.com/packages trusty main",
+    "https://cli.github.com/packages/dists/trusty/Release",
+    "https://cli.github.com/packages/dists/trusty/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/trusty/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/trusty/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/trusty/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-rTKb00/keyrings/github-cli.gpg] ] https://cli.github.com/packages xenial main",
+    "https://cli.github.com/packages/dists/xenial/Release",
+    "https://cli.github.com/packages/dists/xenial/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/xenial/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/xenial/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/xenial/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/github-cli-stable/run-0hMdtl/keyrings/github-cli.gpg] ] https://cli.github.com/packages stable main",
+    "https://cli.github.com/packages/dists/stable/Release",
+    "https://cli.github.com/packages/dists/stable/main/binary-i386/Packages.gz",
+    "https://cli.github.com/packages/dists/stable/main/binary-amd64/Packages.gz",
+    "https://cli.github.com/packages/dists/stable/main/binary-armhf/Packages.gz",
+    "https://cli.github.com/packages/dists/stable/main/binary-arm64/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "source": "https://cli.github.com/packages/dists/bionic/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/bionic/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/bionic/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/bionic/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/bullseye/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/bullseye/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/bullseye/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/bullseye/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/buster/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/buster/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/buster/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/buster/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/cosmic/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "cosmic",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/cosmic/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "cosmic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/cosmic/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "cosmic",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/cosmic/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "cosmic",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/disco/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "disco",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/disco/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "disco",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/disco/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "disco",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/disco/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "disco",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/eoan/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "eoan",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/eoan/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "eoan",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/eoan/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "eoan",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/eoan/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "eoan",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/focal/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/focal/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/focal/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/focal/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/groovy/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "groovy",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/groovy/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "groovy",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/groovy/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "groovy",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/groovy/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "groovy",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/hirsute/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/hirsute/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/hirsute/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/hirsute/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "hirsute",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/impish/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "impish",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/impish/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "impish",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/impish/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "impish",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/impish/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "impish",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/jessie/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/jessie/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/jessie/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/jessie/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/stretch/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/stretch/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/stretch/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/stretch/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/trusty/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/trusty/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/trusty/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/trusty/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/xenial/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/xenial/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/xenial/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/xenial/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/stable/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz",
+      "suite": "stable",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/stable/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+      "suite": "stable",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/stable/main/binary-armhf/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+      "suite": "stable",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://cli.github.com/packages/dists/stable/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+      "suite": "stable",
+      "component": "main",
+      "arch": "arm64"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages bionic InRelease [3917 B]\nErr:1 https://cli.github.com/packages bionic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages bionic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages bionic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages bullseye InRelease [3921 B]\nErr:1 https://cli.github.com/packages bullseye InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages bullseye InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages bullseye InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages buster InRelease [3917 B]\nErr:1 https://cli.github.com/packages buster InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages buster InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages buster InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages cosmic InRelease [3917 B]\nErr:1 https://cli.github.com/packages cosmic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages cosmic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages cosmic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages disco InRelease [3915 B]\nErr:1 https://cli.github.com/packages disco InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages disco InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages disco InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages eoan InRelease [3913 B]\nErr:1 https://cli.github.com/packages eoan InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages eoan InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages eoan InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages focal InRelease [3915 B]\nErr:1 https://cli.github.com/packages focal InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages focal InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages groovy InRelease [3917 B]\nErr:1 https://cli.github.com/packages groovy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages groovy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages groovy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages hirsute InRelease [3919 B]\nErr:1 https://cli.github.com/packages hirsute InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages hirsute InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages hirsute InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages impish InRelease [3917 B]\nErr:1 https://cli.github.com/packages impish InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages impish InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages impish InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages jessie InRelease [3917 B]\nErr:1 https://cli.github.com/packages jessie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages jessie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages jessie InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages stretch InRelease [3919 B]\nErr:1 https://cli.github.com/packages stretch InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages stretch InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages stretch InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages trusty InRelease [3917 B]\nErr:1 https://cli.github.com/packages trusty InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages trusty InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages trusty InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages xenial InRelease [3917 B]\nErr:1 https://cli.github.com/packages xenial InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages xenial InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://cli.github.com/packages stable InRelease [3917 B]\nErr:1 https://cli.github.com/packages stable InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nReading package lists...\n\nW: GPG error: https://cli.github.com/packages stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23F3D4EA75716059\nE: The repository 'https://cli.github.com/packages stable InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
+}

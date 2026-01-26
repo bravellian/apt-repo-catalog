@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.620Z",
+  "repoId": "tailscale-debian-bookworm",
+  "baseUrl": "https://pkgs.tailscale.com/stable/debian",
+  "keyId": "tailscale-ubuntu-jammy",
+  "suites": [
+    {
+      "suite": "bullseye",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-11"
+      ]
+    },
+    {
+      "suite": "buster",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-10"
+      ]
+    },
+    {
+      "suite": "stretch",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-9"
+      ]
+    },
+    {
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13"
+      ]
+    },
+    {
+      "suite": "bookworm",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12"
+      ]
+    }
+  ]
+}

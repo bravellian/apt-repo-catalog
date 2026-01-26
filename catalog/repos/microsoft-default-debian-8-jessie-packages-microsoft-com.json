@@ -1,9 +1,8 @@
 {
   "id": "microsoft-default-debian-8-jessie-packages-microsoft-com",
   "label": "Microsoft - debian-8 - default",
-  "os": "debian-8",
   "name": "microsoft",
-  "source": "deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/8/prod jessie main",
+  "baseUrl": "https://packages.microsoft.com/debian/8/prod",
   "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
   "documentationUrl": "https://packages.microsoft.com/config/debian/8",
   "tags": [

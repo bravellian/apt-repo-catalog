@@ -1,13 +1,19 @@
-# Yarn (Stable) (ubuntu-22.04)
+# Yarn (Stable)
 
 ## Repository
 - Repository ID: `yarn-stable`
-- OS: `ubuntu-22.04`
-- Source: `https://dl.yarnpkg.com/debian/ stable main`
+- Base URL: `https://dl.yarnpkg.com/debian`
+- Host: `dl.yarnpkg.com`
 
 ## Upstream documentation
 - Documentation URL: https://classic.yarnpkg.com/lang/en/docs/install/
 - Key documentation URL: https://classic.yarnpkg.com/lang/en/docs/install/
+
+## Suites
+- Suite: `stable`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-22.04
 
 ## Key reference
 - Key ID: `yarn`
@@ -17,12 +23,14 @@
 
 ## Install instructions
 
+### Suite: stable
+
 Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/yarn.asc | gpg --dearmor | sudo tee /usr/share/keyrings/yarn.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/yarn.gpg] https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn-stable.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/yarn.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn-stable-stable.list >/dev/null
 sudo apt-get update
 ```
 
@@ -32,9 +40,10 @@ Variant B (store ASCII key, dearmor file explicitly):
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/yarn.asc -o /tmp/yarn.asc
 gpg --dearmor /tmp/yarn.asc
 sudo install -m 0644 /tmp/yarn.gpg /usr/share/keyrings/yarn.gpg
-echo "deb [signed-by=/usr/share/keyrings/yarn.gpg] https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn-stable.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/yarn.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn-stable-stable.list >/dev/null
 sudo apt-get update
 ```
+
 
 ## Packages
 
@@ -76,7 +85,7 @@ sudo apt-get update
 </details>
 
 ## Notes
-- OS support: verify upstream documentation for supported releases.
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
 - The trust anchor is the fingerprint; validate it before use.
 - Repo notes: Yarn stable distribution repo
 - Repo tags: javascript, package manager

@@ -1,9 +1,8 @@
 {
   "id": "kali-rolling",
   "label": "Kali Rolling",
-  "os": "kali-rolling",
   "name": "kali",
-  "source": "deb https://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware",
+  "baseUrl": "https://http.kali.org/kali",
   "keyId": "kali-archive-keyring",
   "documentationUrl": "https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/",
   "tags": [

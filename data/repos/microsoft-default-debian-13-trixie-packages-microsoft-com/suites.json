@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.525Z",
+  "repoId": "microsoft-default-debian-13-trixie-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/debian/13/prod",
+  "keyId": "microsoft-microsoft-2025-EE4D7792F748182B",
+  "suites": [
+    {
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf"
+      ],
+      "observedOs": [
+        "debian-13"
+      ],
+      "options": {
+        "arch": "amd64,arm64,armhf"
+      }
+    }
+  ]
+}

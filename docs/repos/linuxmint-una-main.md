@@ -1,13 +1,31 @@
-# Linux Mint Una - main (linuxmint-una)
+# Linux Mint Una - main
 
 ## Repository
 - Repository ID: `linuxmint-una-main`
-- OS: `linuxmint-una`
-- Source: `http://packages.linuxmint.com una main upstream import backport`
+- Base URL: `http://packages.linuxmint.com`
+- Host: `packages.linuxmint.com`
 
 ## Upstream documentation
 - Documentation URL: https://linuxmint.com/documentation.php
 - Key documentation URL: https://linuxmint.com/documentation.php
+
+## Suites
+- Suite: `tricia`
+  - Components: backport, import, main, upstream
+  - Architectures: (not listed)
+  - Observed OSes: linuxmint-tricia
+- Suite: `una`
+  - Components: backport, import, main, upstream
+  - Architectures: (not listed)
+  - Observed OSes: linuxmint-una
+- Suite: `virginia`
+  - Components: backport, import, main, upstream
+  - Architectures: (not listed)
+  - Observed OSes: linuxmint-virginia
+- Suite: `zena`
+  - Components: backport, import, main, upstream
+  - Architectures: (not listed)
+  - Observed OSes: linuxmint-zena
 
 ## Key reference
 - Key ID: `linuxmint-archive-keyring`
@@ -20,12 +38,14 @@
 
 ## Install instructions
 
+### Suite: tricia
+
 Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/linuxmint-archive-keyring.asc | gpg --dearmor | sudo tee /usr/share/keyrings/linuxmint-archive-keyring.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/linuxmint-archive-keyring.gpg] http://packages.linuxmint.com una main upstream import backport" | sudo tee /etc/apt/sources.list.d/linuxmint-una-main.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/linuxmint-archive-keyring.gpg] http://packages.linuxmint.com tricia backport import main upstream" | sudo tee /etc/apt/sources.list.d/linuxmint-una-main-tricia.list >/dev/null
 sudo apt-get update
 ```
 
@@ -35,9 +55,73 @@ Variant B (store ASCII key, dearmor file explicitly):
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/linuxmint-archive-keyring.asc -o /tmp/linuxmint-archive-keyring.asc
 gpg --dearmor /tmp/linuxmint-archive-keyring.asc
 sudo install -m 0644 /tmp/linuxmint-archive-keyring.gpg /usr/share/keyrings/linuxmint-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/linuxmint-archive-keyring.gpg] http://packages.linuxmint.com una main upstream import backport" | sudo tee /etc/apt/sources.list.d/linuxmint-una-main.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/linuxmint-archive-keyring.gpg] http://packages.linuxmint.com tricia backport import main upstream" | sudo tee /etc/apt/sources.list.d/linuxmint-una-main-tricia.list >/dev/null
 sudo apt-get update
 ```
+
+### Suite: una
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/linuxmint-archive-keyring.asc | gpg --dearmor | sudo tee /usr/share/keyrings/linuxmint-archive-keyring.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/linuxmint-archive-keyring.gpg] http://packages.linuxmint.com una backport import main upstream" | sudo tee /etc/apt/sources.list.d/linuxmint-una-main-una.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/linuxmint-archive-keyring.asc -o /tmp/linuxmint-archive-keyring.asc
+gpg --dearmor /tmp/linuxmint-archive-keyring.asc
+sudo install -m 0644 /tmp/linuxmint-archive-keyring.gpg /usr/share/keyrings/linuxmint-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/linuxmint-archive-keyring.gpg] http://packages.linuxmint.com una backport import main upstream" | sudo tee /etc/apt/sources.list.d/linuxmint-una-main-una.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: virginia
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/linuxmint-archive-keyring.asc | gpg --dearmor | sudo tee /usr/share/keyrings/linuxmint-archive-keyring.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/linuxmint-archive-keyring.gpg] http://packages.linuxmint.com virginia backport import main upstream" | sudo tee /etc/apt/sources.list.d/linuxmint-una-main-virginia.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/linuxmint-archive-keyring.asc -o /tmp/linuxmint-archive-keyring.asc
+gpg --dearmor /tmp/linuxmint-archive-keyring.asc
+sudo install -m 0644 /tmp/linuxmint-archive-keyring.gpg /usr/share/keyrings/linuxmint-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/linuxmint-archive-keyring.gpg] http://packages.linuxmint.com virginia backport import main upstream" | sudo tee /etc/apt/sources.list.d/linuxmint-una-main-virginia.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: zena
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/linuxmint-archive-keyring.asc | gpg --dearmor | sudo tee /usr/share/keyrings/linuxmint-archive-keyring.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/linuxmint-archive-keyring.gpg] http://packages.linuxmint.com zena backport import main upstream" | sudo tee /etc/apt/sources.list.d/linuxmint-una-main-zena.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/linuxmint-archive-keyring.asc -o /tmp/linuxmint-archive-keyring.asc
+gpg --dearmor /tmp/linuxmint-archive-keyring.asc
+sudo install -m 0644 /tmp/linuxmint-archive-keyring.gpg /usr/share/keyrings/linuxmint-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/linuxmint-archive-keyring.gpg] http://packages.linuxmint.com zena backport import main upstream" | sudo tee /etc/apt/sources.list.d/linuxmint-una-main-zena.list >/dev/null
+sudo apt-get update
+```
+
 
 ## Packages
 
@@ -12465,7 +12549,7 @@ sudo apt-get update
 </details>
 
 ## Notes
-- OS support: verify upstream documentation for supported releases.
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
 - The trust anchor is the fingerprint; validate it before use.
 - Repo notes: Linux Mint main repository; base Ubuntu repos are inherited.
 - Repo tags: linuxmint, ubuntu-derivative, apt

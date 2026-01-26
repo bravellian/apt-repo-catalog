@@ -1,9 +1,8 @@
 {
   "id": "winehq-stable",
   "label": "WineHQ Stable",
-  "os": "ubuntu-22.04",
   "name": "winehq-stable",
-  "source": "deb https://dl.winehq.org/wine-builds/ubuntu jammy main",
+  "baseUrl": "https://dl.winehq.org/wine-builds/ubuntu",
   "keyId": "winehq",
   "documentationUrl": "https://wiki.winehq.org/Ubuntu",
   "tags": [

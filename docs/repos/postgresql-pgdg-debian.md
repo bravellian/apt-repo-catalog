@@ -1,13 +1,23 @@
-# PostgreSQL (PGDG) - Debian (debian-12)
+# PostgreSQL (PGDG) - Debian
 
 ## Repository
 - Repository ID: `postgresql-pgdg-debian`
-- OS: `debian-12`
-- Source: `https://apt.postgresql.org/pub/repos/apt bookworm-pgdg main`
+- Base URL: `https://apt.postgresql.org/pub/repos/apt`
+- Host: `apt.postgresql.org`
 
 ## Upstream documentation
 - Documentation URL: https://wiki.postgresql.org/wiki/Apt
 - Key documentation URL: https://wiki.postgresql.org/wiki/Apt
+
+## Suites
+- Suite: `bookworm-pgdg`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: debian-12
+- Suite: `jammy-pgdg`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-22.04
 
 ## Key reference
 - Key ID: `postgresql`
@@ -17,12 +27,14 @@
 
 ## Install instructions
 
+### Suite: bookworm-pgdg
+
 Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/postgresql.asc | gpg --dearmor | sudo tee /usr/share/keyrings/postgresql.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/postgresql.gpg] https://apt.postgresql.org/pub/repos/apt bookworm-pgdg main" | sudo tee /etc/apt/sources.list.d/postgresql-pgdg-debian.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/postgresql.gpg] https://apt.postgresql.org/pub/repos/apt bookworm-pgdg main" | sudo tee /etc/apt/sources.list.d/postgresql-pgdg-debian-bookworm-pgdg.list >/dev/null
 sudo apt-get update
 ```
 
@@ -32,9 +44,31 @@ Variant B (store ASCII key, dearmor file explicitly):
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/postgresql.asc -o /tmp/postgresql.asc
 gpg --dearmor /tmp/postgresql.asc
 sudo install -m 0644 /tmp/postgresql.gpg /usr/share/keyrings/postgresql.gpg
-echo "deb [signed-by=/usr/share/keyrings/postgresql.gpg] https://apt.postgresql.org/pub/repos/apt bookworm-pgdg main" | sudo tee /etc/apt/sources.list.d/postgresql-pgdg-debian.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/postgresql.gpg] https://apt.postgresql.org/pub/repos/apt bookworm-pgdg main" | sudo tee /etc/apt/sources.list.d/postgresql-pgdg-debian-bookworm-pgdg.list >/dev/null
 sudo apt-get update
 ```
+
+### Suite: jammy-pgdg
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/postgresql.asc | gpg --dearmor | sudo tee /usr/share/keyrings/postgresql.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/postgresql.gpg] https://apt.postgresql.org/pub/repos/apt jammy-pgdg main" | sudo tee /etc/apt/sources.list.d/postgresql-pgdg-debian-jammy-pgdg.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/postgresql.asc -o /tmp/postgresql.asc
+gpg --dearmor /tmp/postgresql.asc
+sudo install -m 0644 /tmp/postgresql.gpg /usr/share/keyrings/postgresql.gpg
+echo "deb [signed-by=/usr/share/keyrings/postgresql.gpg] https://apt.postgresql.org/pub/repos/apt jammy-pgdg main" | sudo tee /etc/apt/sources.list.d/postgresql-pgdg-debian-jammy-pgdg.list >/dev/null
+sudo apt-get update
+```
+
 
 ## Packages
 
@@ -46109,7 +46143,7 @@ sudo apt-get update
 </details>
 
 ## Notes
-- OS support: verify upstream documentation for supported releases.
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
 - The trust anchor is the fingerprint; validate it before use.
 - Repo notes: PostgreSQL packages for Debian from PGDG repository
 - Repo tags: database

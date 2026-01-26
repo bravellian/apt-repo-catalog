@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.602Z",
+  "repoId": "postgresql-pgdg-debian",
+  "baseUrl": "https://apt.postgresql.org/pub/repos/apt",
+  "keyId": "postgresql",
+  "suites": [
+    {
+      "suite": "bookworm-pgdg",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12"
+      ]
+    },
+    {
+      "suite": "jammy-pgdg",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    }
+  ]
+}

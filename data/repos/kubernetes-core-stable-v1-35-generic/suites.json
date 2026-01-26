@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.516Z",
+  "repoId": "kubernetes-core-stable-v1-35-generic",
+  "baseUrl": "https://pkgs.k8s.io/core:/stable:/v1.35/deb",
+  "keyId": "kubernetes-release-key-234654da9a296436",
+  "suites": [
+    {
+      "suite": "/",
+      "components": [],
+      "architectures": [],
+      "observedOs": [
+        "generic"
+      ]
+    }
+  ]
+}

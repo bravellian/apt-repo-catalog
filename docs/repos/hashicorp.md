@@ -1,13 +1,47 @@
-# HashiCorp Official Repository (ubuntu-22.04)
+# HashiCorp Official Repository
 
 ## Repository
 - Repository ID: `hashicorp`
-- OS: `ubuntu-22.04`
-- Source: `https://apt.releases.hashicorp.com jammy main`
+- Base URL: `https://apt.releases.hashicorp.com`
+- Host: `apt.releases.hashicorp.com`
 
 ## Upstream documentation
 - Documentation URL: https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository
 - Key documentation URL: https://www.hashicorp.com/blog/announcing-the-hashicorp-linux-repository
+
+## Suites
+- Suite: `bookworm`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: debian-12
+- Suite: `bullseye`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: debian-11
+- Suite: `focal`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-20.04
+- Suite: `noble`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-24.04
+- Suite: `oracular`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-24.10
+- Suite: `plucky`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-25.04
+- Suite: `trixie`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: debian-13
+- Suite: `jammy`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-22.04
 
 ## Key reference
 - Key ID: `hashicorp`
@@ -17,12 +51,14 @@
 
 ## Install instructions
 
+### Suite: bookworm
+
 Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com jammy main" | sudo tee /etc/apt/sources.list.d/hashicorp.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com bookworm main" | sudo tee /etc/apt/sources.list.d/hashicorp-bookworm.list >/dev/null
 sudo apt-get update
 ```
 
@@ -32,9 +68,157 @@ Variant B (store ASCII key, dearmor file explicitly):
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc -o /tmp/hashicorp.asc
 gpg --dearmor /tmp/hashicorp.asc
 sudo install -m 0644 /tmp/hashicorp.gpg /usr/share/keyrings/hashicorp.gpg
-echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com jammy main" | sudo tee /etc/apt/sources.list.d/hashicorp.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com bookworm main" | sudo tee /etc/apt/sources.list.d/hashicorp-bookworm.list >/dev/null
 sudo apt-get update
 ```
+
+### Suite: bullseye
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com bullseye main" | sudo tee /etc/apt/sources.list.d/hashicorp-bullseye.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc -o /tmp/hashicorp.asc
+gpg --dearmor /tmp/hashicorp.asc
+sudo install -m 0644 /tmp/hashicorp.gpg /usr/share/keyrings/hashicorp.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com bullseye main" | sudo tee /etc/apt/sources.list.d/hashicorp-bullseye.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: focal
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com focal main" | sudo tee /etc/apt/sources.list.d/hashicorp-focal.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc -o /tmp/hashicorp.asc
+gpg --dearmor /tmp/hashicorp.asc
+sudo install -m 0644 /tmp/hashicorp.gpg /usr/share/keyrings/hashicorp.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com focal main" | sudo tee /etc/apt/sources.list.d/hashicorp-focal.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: noble
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com noble main" | sudo tee /etc/apt/sources.list.d/hashicorp-noble.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc -o /tmp/hashicorp.asc
+gpg --dearmor /tmp/hashicorp.asc
+sudo install -m 0644 /tmp/hashicorp.gpg /usr/share/keyrings/hashicorp.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com noble main" | sudo tee /etc/apt/sources.list.d/hashicorp-noble.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: oracular
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com oracular main" | sudo tee /etc/apt/sources.list.d/hashicorp-oracular.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc -o /tmp/hashicorp.asc
+gpg --dearmor /tmp/hashicorp.asc
+sudo install -m 0644 /tmp/hashicorp.gpg /usr/share/keyrings/hashicorp.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com oracular main" | sudo tee /etc/apt/sources.list.d/hashicorp-oracular.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: plucky
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com plucky main" | sudo tee /etc/apt/sources.list.d/hashicorp-plucky.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc -o /tmp/hashicorp.asc
+gpg --dearmor /tmp/hashicorp.asc
+sudo install -m 0644 /tmp/hashicorp.gpg /usr/share/keyrings/hashicorp.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com plucky main" | sudo tee /etc/apt/sources.list.d/hashicorp-plucky.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: trixie
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com trixie main" | sudo tee /etc/apt/sources.list.d/hashicorp-trixie.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc -o /tmp/hashicorp.asc
+gpg --dearmor /tmp/hashicorp.asc
+sudo install -m 0644 /tmp/hashicorp.gpg /usr/share/keyrings/hashicorp.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com trixie main" | sudo tee /etc/apt/sources.list.d/hashicorp-trixie.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: jammy
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com jammy main" | sudo tee /etc/apt/sources.list.d/hashicorp-jammy.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/hashicorp.asc -o /tmp/hashicorp.asc
+gpg --dearmor /tmp/hashicorp.asc
+sudo install -m 0644 /tmp/hashicorp.gpg /usr/share/keyrings/hashicorp.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] https://apt.releases.hashicorp.com jammy main" | sudo tee /etc/apt/sources.list.d/hashicorp-jammy.list >/dev/null
+sudo apt-get update
+```
+
 
 ## Packages
 
@@ -1148,7 +1332,7 @@ sudo apt-get update
 </details>
 
 ## Notes
-- OS support: verify upstream documentation for supported releases.
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
 - The trust anchor is the fingerprint; validate it before use.
 - Repo notes: HashiCorp Debian/Ubuntu package repository
 - Repo tags: devops, infrastructure

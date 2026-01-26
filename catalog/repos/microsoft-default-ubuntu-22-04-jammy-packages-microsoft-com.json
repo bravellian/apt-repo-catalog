@@ -1,9 +1,8 @@
 {
   "id": "microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com",
   "label": "Microsoft - ubuntu-22.04 - default",
-  "os": "ubuntu-22.04",
   "name": "microsoft",
-  "source": "deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/ubuntu/22.04/prod jammy main",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/22.04/prod",
   "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
   "documentationUrl": "https://packages.microsoft.com/config/ubuntu/22.04",
   "tags": [

@@ -1,9 +1,8 @@
 {
   "id": "cloudflare-warp-ubuntu-jammy",
   "label": "Cloudflare WARP (Ubuntu 22.04 Jammy)",
-  "os": "ubuntu-22.04",
   "name": "cloudflare-warp",
-  "source": "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ jammy main",
+  "baseUrl": "https://pkg.cloudflareclient.com",
   "keyId": "cloudflare-warp",
   "documentationUrl": "https://pkg.cloudflareclient.com/",
   "tags": [

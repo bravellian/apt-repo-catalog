@@ -1,9 +1,8 @@
 {
   "id": "proxmox-ceph-squid-enterprise",
   "label": "Proxmox Ceph Squid - enterprise",
-  "os": "proxmox-9",
   "name": "proxmox",
-  "source": "deb https://enterprise.proxmox.com/debian/ceph-squid trixie enterprise",
+  "baseUrl": "https://enterprise.proxmox.com/debian/ceph-squid",
   "keyId": "proxmox-archive-keyring-trixie",
   "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
   "tags": [

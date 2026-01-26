@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.533Z",
+  "repoId": "microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/16.04/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "xenial",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-16.04"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    }
+  ]
+}

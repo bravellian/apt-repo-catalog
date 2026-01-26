@@ -1,9 +1,8 @@
 {
   "id": "docker-debian-buster-stable",
   "label": "Docker - Debian (Buster) - stable",
-  "os": "debian-10",
   "name": "docker",
-  "source": "deb https://download.docker.com/linux/debian buster stable",
+  "baseUrl": "https://download.docker.com/linux/debian",
   "keyId": "docker-gpg-8d81803c0ebfcd88",
   "documentationUrl": "https://docs.docker.com/engine/install/debian",
   "tags": [

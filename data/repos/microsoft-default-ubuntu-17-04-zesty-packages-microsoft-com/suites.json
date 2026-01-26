@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.568Z",
+  "repoId": "microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/17.04/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "zesty",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-17.04"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    }
+  ]
+}

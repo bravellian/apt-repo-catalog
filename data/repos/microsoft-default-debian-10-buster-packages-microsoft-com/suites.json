@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.520Z",
+  "repoId": "microsoft-default-debian-10-buster-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/debian/10/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "buster",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "debian-10"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    }
+  ]
+}

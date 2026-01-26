@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.527Z",
+  "repoId": "microsoft-default-debian-8-jessie-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/debian/8/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "jessie",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf"
+      ],
+      "observedOs": [
+        "debian-8"
+      ],
+      "options": {
+        "arch": "amd64,arm64,armhf"
+      }
+    }
+  ]
+}

@@ -1,13 +1,107 @@
-# Oracle VirtualBox (ubuntu-22.04)
+# Oracle VirtualBox
 
 ## Repository
 - Repository ID: `virtualbox`
-- OS: `ubuntu-22.04`
-- Source: `https://download.virtualbox.org/virtualbox/debian jammy contrib`
+- Base URL: `https://download.virtualbox.org/virtualbox/debian`
+- Host: `download.virtualbox.org`
 
 ## Upstream documentation
 - Documentation URL: https://www.virtualbox.org/wiki/Linux_Downloads
 - Key documentation URL: https://www.virtualbox.org/wiki/Linux_Downloads
+
+## Suites
+- Suite: `artful`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-17.10
+- Suite: `bionic`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-18.04
+- Suite: `bookworm`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: debian-12
+- Suite: `bullseye`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: debian-11
+- Suite: `buster`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: debian-10
+- Suite: `cosmic`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-18.10
+- Suite: `disco`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-19.04
+- Suite: `eoan`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-19.10
+- Suite: `focal`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-20.04
+- Suite: `groovy`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-20.10
+- Suite: `hirsute`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-21.04
+- Suite: `jessie`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: debian-8
+- Suite: `noble`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-24.04
+- Suite: `oracular`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-24.10
+- Suite: `plucky`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-25.04
+- Suite: `stretch`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: debian-9
+- Suite: `trixie`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: debian-13
+- Suite: `trusty`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-14.04
+- Suite: `wheezy`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: debian-7
+- Suite: `xenial`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-16.04
+- Suite: `yakkety`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-16.10
+- Suite: `zesty`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-17.04
+- Suite: `jammy`
+  - Components: contrib
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-22.04
 
 ## Key reference
 - Key ID: `oracle-vbox2016`
@@ -17,12 +111,14 @@
 
 ## Install instructions
 
+### Suite: artful
+
 Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian jammy contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian artful contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-artful.list >/dev/null
 sudo apt-get update
 ```
 
@@ -32,9 +128,472 @@ Variant B (store ASCII key, dearmor file explicitly):
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
 gpg --dearmor /tmp/oracle-vbox2016.asc
 sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
-echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian jammy contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian artful contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-artful.list >/dev/null
 sudo apt-get update
 ```
+
+### Suite: bionic
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian bionic contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-bionic.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian bionic contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-bionic.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: bookworm
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian bookworm contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-bookworm.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian bookworm contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-bookworm.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: bullseye
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian bullseye contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-bullseye.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian bullseye contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-bullseye.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: buster
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian buster contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-buster.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian buster contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-buster.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: cosmic
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian cosmic contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-cosmic.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian cosmic contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-cosmic.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: disco
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian disco contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-disco.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian disco contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-disco.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: eoan
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian eoan contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-eoan.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian eoan contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-eoan.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: focal
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian focal contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-focal.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian focal contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-focal.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: groovy
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian groovy contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-groovy.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian groovy contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-groovy.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: hirsute
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian hirsute contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-hirsute.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian hirsute contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-hirsute.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: jessie
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian jessie contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-jessie.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian jessie contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-jessie.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: noble
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian noble contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-noble.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian noble contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-noble.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: oracular
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian oracular contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-oracular.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian oracular contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-oracular.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: plucky
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian plucky contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-plucky.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian plucky contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-plucky.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: stretch
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian stretch contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-stretch.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian stretch contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-stretch.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: trixie
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian trixie contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-trixie.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian trixie contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-trixie.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: trusty
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian trusty contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-trusty.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian trusty contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-trusty.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: wheezy
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian wheezy contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-wheezy.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian wheezy contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-wheezy.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: xenial
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian xenial contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-xenial.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian xenial contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-xenial.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: yakkety
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian yakkety contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-yakkety.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian yakkety contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-yakkety.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: zesty
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian zesty contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-zesty.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian zesty contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-zesty.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: jammy
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/oracle-vbox2016.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian jammy contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-jammy.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/oracle-vbox2016.asc -o /tmp/oracle-vbox2016.asc
+gpg --dearmor /tmp/oracle-vbox2016.asc
+sudo install -m 0644 /tmp/oracle-vbox2016.gpg /usr/share/keyrings/oracle-vbox2016.gpg
+echo "deb [signed-by=/usr/share/keyrings/oracle-vbox2016.gpg] https://download.virtualbox.org/virtualbox/debian jammy contrib" | sudo tee /etc/apt/sources.list.d/virtualbox-jammy.list >/dev/null
+sudo apt-get update
+```
+
 
 ## Packages
 
@@ -147,7 +706,7 @@ sudo apt-get update
 </details>
 
 ## Notes
-- OS support: verify upstream documentation for supported releases.
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
 - The trust anchor is the fingerprint; validate it before use.
 - Repo notes: Official VirtualBox package repository
 - Repo tags: virtualization

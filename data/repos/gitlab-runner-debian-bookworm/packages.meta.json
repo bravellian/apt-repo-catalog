@@ -1,0 +1,1322 @@
+{
+  "fetchedAt": "2026-01-26T16:21:04.849Z",
+  "repoId": "gitlab-runner-debian-bookworm",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://packages.gitlab.com/runner/gitlab-runner/debian",
+    "suites": [
+      {
+        "suite": "bullseye",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "buster",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jessie",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "stretch",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trixie",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "wheezy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bookworm",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "bullseye",
+      "release": {
+        "Origin": "packages.gitlab.com/runner/gitlab-runner",
+        "Label": "gitlab-runner",
+        "Date": "Thu, 15 Jan 2026 17:24:56 +0000",
+        "Suite": "bullseye",
+        "Codename": "bullseye",
+        "Version": "1",
+        "Components": "main",
+        "Architectures": "amd64 armel armhf i386 ia64 mips mipsel powerpc ppc64el s390 s390x sparc alpha avr32 hppa m32 m68k sh arm64",
+        "Description": "",
+        "Acquire-By-Hash": "yes"
+      }
+    },
+    {
+      "suite": "buster",
+      "release": {
+        "Origin": "packages.gitlab.com/runner/gitlab-runner",
+        "Label": "gitlab-runner",
+        "Date": "Mon, 15 Dec 2025 15:48:44 +0000",
+        "Suite": "buster",
+        "Codename": "buster",
+        "Version": "1",
+        "Components": "main",
+        "Architectures": "amd64 armel armhf i386 ia64 mips mipsel powerpc ppc64el s390 s390x sparc alpha avr32 hppa m32 m68k sh arm64",
+        "Description": "",
+        "Acquire-By-Hash": "yes"
+      }
+    },
+    {
+      "suite": "jessie",
+      "release": {
+        "Origin": "packages.gitlab.com/runner/gitlab-runner",
+        "Label": "gitlab-runner",
+        "Date": "Thu, 11 Dec 2025 19:54:15 +0000",
+        "Suite": "jessie",
+        "Codename": "jessie",
+        "Version": "1",
+        "Components": "main",
+        "Architectures": "amd64 armel armhf i386 ia64 mips mipsel powerpc ppc64el s390 s390x sparc alpha avr32 hppa m32 m68k sh arm64",
+        "Description": "",
+        "Acquire-By-Hash": "yes"
+      }
+    },
+    {
+      "suite": "stretch",
+      "release": {
+        "Origin": "packages.gitlab.com/runner/gitlab-runner",
+        "Label": "gitlab-runner",
+        "Date": "Mon, 15 Dec 2025 16:44:16 +0000",
+        "Suite": "stretch",
+        "Codename": "stretch",
+        "Version": "1",
+        "Components": "main",
+        "Architectures": "amd64 armel armhf i386 ia64 mips mipsel powerpc ppc64el s390 s390x sparc alpha avr32 hppa m32 m68k sh arm64",
+        "Description": "",
+        "Acquire-By-Hash": "yes"
+      }
+    },
+    {
+      "suite": "trixie",
+      "release": {
+        "Origin": "packages.gitlab.com/runner/gitlab-runner",
+        "Label": "gitlab-runner",
+        "Date": "Thu, 15 Jan 2026 17:18:39 +0000",
+        "Suite": "trixie",
+        "Codename": "trixie",
+        "Version": "1",
+        "Components": "main",
+        "Architectures": "amd64 armel armhf i386 ia64 mips mipsel powerpc ppc64el s390 s390x sparc alpha avr32 hppa m32 m68k sh arm64",
+        "Description": "",
+        "Acquire-By-Hash": "yes"
+      }
+    },
+    {
+      "suite": "wheezy",
+      "release": {
+        "Origin": "packages.gitlab.com/runner/gitlab-runner",
+        "Label": "gitlab-runner",
+        "Date": "Sat, 17 Dec 2022 01:58:05 +0000",
+        "Suite": "wheezy",
+        "Codename": "wheezy",
+        "Version": "1",
+        "Components": "main",
+        "Architectures": "amd64 armel armhf i386 ia64 mips mipsel powerpc ppc64el s390 s390x sparc alpha avr32 hppa m32 m68k sh arm64",
+        "Description": "",
+        "Acquire-By-Hash": "yes"
+      }
+    },
+    {
+      "suite": "bookworm",
+      "release": {
+        "Origin": "packages.gitlab.com/runner/gitlab-runner",
+        "Label": "gitlab-runner",
+        "Date": "Thu, 15 Jan 2026 17:21:53 +0000",
+        "Suite": "bookworm",
+        "Codename": "bookworm",
+        "Version": "1",
+        "Components": "main",
+        "Architectures": "amd64 armel armhf i386 ia64 mips mipsel powerpc ppc64el s390 s390x sparc alpha avr32 hppa m32 m68k sh arm64",
+        "Description": "",
+        "Acquire-By-Hash": "yes"
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-runner-debian-bookworm\\run-f6O3ye\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/runner/gitlab-runner/debian bullseye main",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/Release",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-runner-debian-bookworm\\run-02c0JX\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/runner/gitlab-runner/debian buster main",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/Release",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-runner-debian-bookworm\\run-74cysi\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/runner/gitlab-runner/debian jessie main",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/Release",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-runner-debian-bookworm\\run-OtlwMK\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/runner/gitlab-runner/debian stretch main",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/Release",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-runner-debian-bookworm\\run-4jyXYX\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/runner/gitlab-runner/debian trixie main",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/Release",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-runner-debian-bookworm\\run-A4tUgl\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/runner/gitlab-runner/debian wheezy main",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/Release",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-runner-debian-bookworm\\run-iUmsxV\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/runner/gitlab-runner/debian bookworm main",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/Release",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-arm64/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-amd64/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armel/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armhf/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-i386/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ia64/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mips/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mipsel/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-powerpc/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ppc64el/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390x/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sparc/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-alpha/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-avr32/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-hppa/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m32/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m68k/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sh/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bullseye/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-arm64/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-amd64/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armel/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armhf/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-i386/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ia64/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mips/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mipsel/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-powerpc/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ppc64el/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390x/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sparc/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-alpha/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-avr32/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-hppa/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m32/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m68k/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sh/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/buster/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-arm64/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-amd64/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armel/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armhf/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-i386/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ia64/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mips/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mipsel/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-powerpc/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ppc64el/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390x/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sparc/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-alpha/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-avr32/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-hppa/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m32/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m68k/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sh/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/jessie/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-arm64/Packages.gz",
+      "suite": "jessie",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-amd64/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armel/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armhf/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-i386/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ia64/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mips/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mipsel/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-powerpc/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ppc64el/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390x/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sparc/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-alpha/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-avr32/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-hppa/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m32/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m68k/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sh/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/stretch/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-arm64/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-amd64/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armel/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armhf/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-i386/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ia64/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mips/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mipsel/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-powerpc/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ppc64el/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390x/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sparc/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-alpha/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-avr32/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-hppa/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m32/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m68k/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sh/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/trixie/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-arm64/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-amd64/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armel/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armhf/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-i386/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ia64/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mips/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mipsel/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-powerpc/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ppc64el/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390x/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sparc/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-alpha/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-avr32/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-hppa/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m32/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m68k/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sh/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/wheezy/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-arm64/Packages.gz",
+      "suite": "wheezy",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-amd64/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armel/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-armhf/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-i386/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ia64/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mips/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-mipsel/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-powerpc/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-ppc64el/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-s390x/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sparc/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-alpha/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-avr32/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-hppa/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m32/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-m68k/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-sh/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/runner/gitlab-runner/debian/dists/bookworm/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-runner-debian-bookworm/packages.raw/20260126T162104Z/main/binary-arm64/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "arm64"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
+}

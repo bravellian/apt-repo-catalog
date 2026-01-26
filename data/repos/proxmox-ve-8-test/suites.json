@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.610Z",
+  "repoId": "proxmox-ve-8-test",
+  "baseUrl": "http://download.proxmox.com/debian/pve",
+  "keyId": "proxmox-release-bookworm",
+  "suites": [
+    {
+      "suite": "trixie",
+      "components": [
+        "pve-no-subscription",
+        "pvetest"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13"
+      ]
+    },
+    {
+      "suite": "bookworm",
+      "components": [
+        "pve-no-subscription",
+        "pvetest"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12",
+        "proxmox-8"
+      ]
+    },
+    {
+      "suite": "bullseye",
+      "components": [
+        "pve-no-subscription",
+        "pvetest"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-11"
+      ]
+    }
+  ]
+}

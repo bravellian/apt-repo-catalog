@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.504Z",
+  "repoId": "gitlab-ce-ubuntu-jammy",
+  "baseUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu",
+  "keyId": "gitlab-ce",
+  "suites": [
+    {
+      "suite": "bionic",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.04"
+      ]
+    },
+    {
+      "suite": "focal",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.04"
+      ]
+    },
+    {
+      "suite": "trusty",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-14.04"
+      ]
+    },
+    {
+      "suite": "xenial",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-16.04"
+      ]
+    },
+    {
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    },
+    {
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.04"
+      ]
+    }
+  ]
+}

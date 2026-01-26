@@ -4,27 +4,22 @@ import { loadReposCatalog } from "./lib/repos-catalog.mjs";
 
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
-const osPath = path.join(root, "catalog", "os.json");
+const urlPattern = /^https?:\/\//i;
 const allowedFields = new Set([
   "id",
   "name",
   "label",
-  "os",
-  "source",
+  "baseUrl",
   "documentationUrl",
   "docsUrl",
   "tags",
   "notes",
   "allowDeprecatedKey",
-  "allowTemplateTokens",
   "allowMissingDocsUrl",
   "allowUnknownFields",
   "keyId",
   "key_id",
-  "base_url",
-  "suite",
-  "components",
-  "architectures"
+  "base_url"
 ]);
 
 function loadJson(filePath) {
@@ -33,10 +28,6 @@ function loadJson(filePath) {
 
 function getKeyId(repo) {
   return repo.keyId ?? repo.key_id;
-}
-
-function hasTemplateTokens(source) {
-  return /\$\{[^}]+\}/.test(source) || /\{\{[^}]+\}\}/.test(source);
 }
 
 function parseArgs(argv) {
@@ -54,10 +45,9 @@ function parseArgs(argv) {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const [keysCatalog, reposCatalog, osCatalog] = await Promise.all([
+  const [keysCatalog, reposCatalog] = await Promise.all([
     loadJson(keysPath),
-    loadReposCatalog({ root }),
-    loadJson(osPath)
+    loadReposCatalog({ root })
   ]);
 
   if (!Array.isArray(keysCatalog.keys)) {
@@ -66,11 +56,6 @@ async function main() {
   if (!Array.isArray(reposCatalog.repos)) {
     throw new Error("catalog/repos must include a repos array");
   }
-  if (!Array.isArray(osCatalog.oses)) {
-    throw new Error("catalog/os.json must include an oses array");
-  }
-  const osIds = new Set(osCatalog.oses.map((entry) => entry.id));
-
   const keysById = new Map();
   for (const key of keysCatalog.keys) {
     if (key?.id) {
@@ -122,16 +107,6 @@ async function main() {
       }
     }
 
-    if (!repo?.os) {
-      const message = `Repo ${repoId} missing os`;
-      issues.push(message);
-      repoIssues.set(repoId, (repoIssues.get(repoId) ?? []).concat(message));
-    } else if (!osIds.has(repo.os)) {
-      const message = `Repo ${repoId} has invalid os: ${repo.os}`;
-      issues.push(message);
-      repoIssues.set(repoId, (repoIssues.get(repoId) ?? []).concat(message));
-    }
-
     if (!repo?.documentationUrl && repo.allowMissingDocsUrl !== true) {
       const message = `Repo ${repoId} missing documentationUrl`;
       issues.push(message);
@@ -170,16 +145,17 @@ async function main() {
       repoIssues.set(repoId, (repoIssues.get(repoId) ?? []).concat(message));
     }
 
-    if (!repo?.source) {
-      const message = `Repo ${repoId} missing source`;
+    const baseUrl = repo?.baseUrl ?? repo?.base_url;
+    if (!baseUrl) {
+      const message = `Repo ${repoId} missing baseUrl`;
       issues.push(message);
       repoIssues.set(repoId, (repoIssues.get(repoId) ?? []).concat(message));
-    } else if (!repo.source.startsWith("deb ")) {
-      const message = `Repo ${repoId} source must start with "deb "`;
+    } else if (typeof baseUrl !== "string" || baseUrl.trim() === "") {
+      const message = `Repo ${repoId} baseUrl must be a non-empty string`;
       issues.push(message);
       repoIssues.set(repoId, (repoIssues.get(repoId) ?? []).concat(message));
-    } else if (hasTemplateTokens(repo.source) && repo.allowTemplateTokens !== true) {
-      const message = `Repo ${repoId} source contains template tokens without allowTemplateTokens`;
+    } else if (!urlPattern.test(baseUrl.trim())) {
+      const message = `Repo ${repoId} baseUrl must start with http:// or https://`;
       issues.push(message);
       repoIssues.set(repoId, (repoIssues.get(repoId) ?? []).concat(message));
     }

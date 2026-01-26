@@ -1,13 +1,23 @@
-# Signal Desktop (ubuntu-22.04)
+# Signal Desktop
 
 ## Repository
 - Repository ID: `signal-desktop`
-- OS: `ubuntu-22.04`
-- Source: `[arch=amd64] https://updates.signal.org/desktop/apt xenial main`
+- Base URL: `https://updates.signal.org/desktop/apt`
+- Host: `updates.signal.org`
 
 ## Upstream documentation
 - Documentation URL: https://signal.org/download/
 - Key documentation URL: https://signal.org/download/
+
+## Suites
+- Suite: `artful`
+  - Components: main
+  - Architectures: amd64
+  - Observed OSes: ubuntu-17.10
+- Suite: `xenial`
+  - Components: main
+  - Architectures: amd64
+  - Observed OSes: ubuntu-16.04, ubuntu-22.04
 
 ## Key reference
 - Key ID: `signal-desktop`
@@ -17,12 +27,14 @@
 
 ## Install instructions
 
+### Suite: artful
+
 Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/signal-desktop.asc | gpg --dearmor | sudo tee /usr/share/keyrings/signal-desktop.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/signal-desktop.gpg] [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sudo tee /etc/apt/sources.list.d/signal-desktop.list >/dev/null
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop.gpg] https://updates.signal.org/desktop/apt artful main" | sudo tee /etc/apt/sources.list.d/signal-desktop-artful.list >/dev/null
 sudo apt-get update
 ```
 
@@ -32,9 +44,31 @@ Variant B (store ASCII key, dearmor file explicitly):
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/signal-desktop.asc -o /tmp/signal-desktop.asc
 gpg --dearmor /tmp/signal-desktop.asc
 sudo install -m 0644 /tmp/signal-desktop.gpg /usr/share/keyrings/signal-desktop.gpg
-echo "deb [signed-by=/usr/share/keyrings/signal-desktop.gpg] [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sudo tee /etc/apt/sources.list.d/signal-desktop.list >/dev/null
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop.gpg] https://updates.signal.org/desktop/apt artful main" | sudo tee /etc/apt/sources.list.d/signal-desktop-artful.list >/dev/null
 sudo apt-get update
 ```
+
+### Suite: xenial
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/signal-desktop.asc | gpg --dearmor | sudo tee /usr/share/keyrings/signal-desktop.gpg >/dev/null
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop.gpg] https://updates.signal.org/desktop/apt xenial main" | sudo tee /etc/apt/sources.list.d/signal-desktop-xenial.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/signal-desktop.asc -o /tmp/signal-desktop.asc
+gpg --dearmor /tmp/signal-desktop.asc
+sudo install -m 0644 /tmp/signal-desktop.gpg /usr/share/keyrings/signal-desktop.gpg
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop.gpg] https://updates.signal.org/desktop/apt xenial main" | sudo tee /etc/apt/sources.list.d/signal-desktop-xenial.list >/dev/null
+sudo apt-get update
+```
+
 
 ## Packages
 
@@ -95,7 +129,7 @@ sudo apt-get update
 </details>
 
 ## Notes
-- OS support: verify upstream documentation for supported releases.
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
 - The trust anchor is the fingerprint; validate it before use.
 - Repo notes: Signal Desktop client repository (uses 'xenial' as codename)
 - Repo tags: messaging, security

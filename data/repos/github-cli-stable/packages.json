@@ -1,0 +1,966 @@
+{
+  "generatedAt": "2026-01-26T16:43:39.846Z",
+  "packageCount": 15,
+  "packages": [
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "bionic",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": "Development",
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "bullseye",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": null,
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "buster",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": null,
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "cosmic",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": "Development",
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "disco",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": "Development",
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "eoan",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": "Development",
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "focal",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": "Development",
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "groovy",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": "Development",
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "hirsute",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": "Development",
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": "Development",
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "jessie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": null,
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "stretch",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": null,
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "trusty",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": "Development",
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "xenial",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": "Development",
+      "priority": "optional"
+    },
+    {
+      "name": "gh",
+      "repoId": "github-cli-stable",
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2.86.0",
+          "architectures": [
+            "amd64",
+            "arm64",
+            "armhf",
+            "i386"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-arm64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-armhf/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/github-cli-stable/packages.raw/20260126T164310Z/main/binary-i386/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2.86.0",
+      "latestByArch": {
+        "amd64": "2.86.0",
+        "arm64": "2.86.0",
+        "armhf": "2.86.0",
+        "i386": "2.86.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ],
+      "descriptionShort": "GitHub’s official command line tool.",
+      "homepage": "https://github.com/cli/cli",
+      "relationships": {
+        "depends": [
+          "git"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "GitHub",
+      "section": null,
+      "priority": "optional"
+    }
+  ]
+}

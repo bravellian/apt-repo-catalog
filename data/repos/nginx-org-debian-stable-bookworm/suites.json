@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.592Z",
+  "repoId": "nginx-org-debian-stable-bookworm",
+  "baseUrl": "https://nginx.org/packages/debian",
+  "keyId": "nginx-org",
+  "suites": [
+    {
+      "suite": "bullseye",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-11"
+      ]
+    },
+    {
+      "suite": "buster",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-10"
+      ]
+    },
+    {
+      "suite": "jessie",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-8"
+      ]
+    },
+    {
+      "suite": "stretch",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-9"
+      ]
+    },
+    {
+      "suite": "trixie",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13"
+      ]
+    },
+    {
+      "suite": "wheezy",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-7"
+      ]
+    },
+    {
+      "suite": "bookworm",
+      "components": [
+        "nginx"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12"
+      ]
+    }
+  ]
+}

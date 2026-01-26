@@ -1,0 +1,233 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.501Z",
+  "repoId": "github-cli-stable",
+  "baseUrl": "https://cli.github.com/packages",
+  "keyId": "github-cli",
+  "suites": [
+    {
+      "suite": "bionic",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-18.04"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "bullseye",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "debian-11"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "buster",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "debian-10"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "cosmic",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-18.10"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "disco",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-19.04"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "eoan",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-19.10"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "focal",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-20.04"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "groovy",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-20.10"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "hirsute",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-21.04"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-21.10"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "jessie",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "debian-8"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "stretch",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "debian-9"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "trusty",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-14.04"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "xenial",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-16.04"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "generic"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    }
+  ]
+}

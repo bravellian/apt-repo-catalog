@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.586Z",
+  "repoId": "microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/23.04/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "lunar",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf"
+      ],
+      "observedOs": [
+        "ubuntu-23.04"
+      ],
+      "options": {
+        "arch": "amd64,armhf,arm64"
+      }
+    }
+  ]
+}

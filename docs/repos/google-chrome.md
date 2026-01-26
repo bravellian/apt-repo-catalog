@@ -1,13 +1,19 @@
-# Google Chrome (Stable) (ubuntu-22.04)
+# Google Chrome (Stable)
 
 ## Repository
 - Repository ID: `google-chrome`
-- OS: `ubuntu-22.04`
-- Source: `[arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main`
+- Base URL: `http://dl.google.com/linux/chrome/deb`
+- Host: `dl.google.com`
 
 ## Upstream documentation
 - Documentation URL: https://www.google.com/linuxrepositories/
 - Key documentation URL: https://www.google.com/linuxrepositories/
+
+## Suites
+- Suite: `stable`
+  - Components: main
+  - Architectures: amd64
+  - Observed OSes: ubuntu-22.04
 
 ## Key reference
 - Key ID: `google-linux`
@@ -17,12 +23,14 @@
 
 ## Install instructions
 
+### Suite: stable
+
 Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/google-linux.asc | gpg --dearmor | sudo tee /usr/share/keyrings/google-linux.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/google-linux.gpg] [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list >/dev/null
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-linux.gpg] http://dl.google.com/linux/chrome/deb stable main" | sudo tee /etc/apt/sources.list.d/google-chrome-stable.list >/dev/null
 sudo apt-get update
 ```
 
@@ -32,9 +40,10 @@ Variant B (store ASCII key, dearmor file explicitly):
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/google-linux.asc -o /tmp/google-linux.asc
 gpg --dearmor /tmp/google-linux.asc
 sudo install -m 0644 /tmp/google-linux.gpg /usr/share/keyrings/google-linux.gpg
-echo "deb [signed-by=/usr/share/keyrings/google-linux.gpg] [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list >/dev/null
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-linux.gpg] http://dl.google.com/linux/chrome/deb stable main" | sudo tee /etc/apt/sources.list.d/google-chrome-stable.list >/dev/null
 sudo apt-get update
 ```
+
 
 ## Packages
 
@@ -135,7 +144,7 @@ sudo apt-get update
 </details>
 
 ## Notes
-- OS support: verify upstream documentation for supported releases.
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
 - The trust anchor is the fingerprint; validate it before use.
 - Repo notes: Google Chrome browser APT repository (64-bit)
 - Repo tags: web browser

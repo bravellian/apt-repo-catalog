@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.572Z",
+  "repoId": "microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/18.10/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "cosmic",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-18.10"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    }
+  ]
+}

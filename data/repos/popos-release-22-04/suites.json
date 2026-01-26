@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.600Z",
+  "repoId": "popos-release-22-04",
+  "baseUrl": "http://apt.pop-os.org/release",
+  "keyId": "popos-lookup-204dd8aec33a7aff",
+  "suites": [
+    {
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-21.10"
+      ]
+    },
+    {
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "popos-22.04",
+        "ubuntu-22.04"
+      ]
+    },
+    {
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "popos-24.04",
+        "ubuntu-24.04"
+      ]
+    }
+  ]
+}

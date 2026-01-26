@@ -1,0 +1,69 @@
+{
+  "fetchedAt": "2026-01-26T16:42:08.437Z",
+  "repoId": "clickhouse-stable",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://packages.clickhouse.com/deb",
+    "suites": [
+      {
+        "suite": "stable",
+        "components": [
+          "main"
+        ],
+        "options": {
+          "arch": "amd64"
+        }
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "stable",
+      "release": {
+        "Origin": "ClickHouse",
+        "Label": "ClickHouse",
+        "Codename": "stable",
+        "Date": "Thu, 22 Jan 2026 12:11:24 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "main",
+        "SHA512": ""
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/clickhouse-stable/run-IxRrRo/keyrings/clickhouse.gpg] ] https://packages.clickhouse.com/deb stable main",
+    "https://packages.clickhouse.com/deb/dists/stable/Release",
+    "https://packages.clickhouse.com/deb/dists/stable/main/binary-amd64/Packages.gz",
+    "https://packages.clickhouse.com/deb/dists/stable/main/binary-arm64/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "source": "https://packages.clickhouse.com/deb/dists/stable/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/clickhouse-stable/packages.raw/20260126T164208Z/main/binary-amd64/Packages.gz",
+      "suite": "stable",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.clickhouse.com/deb/dists/stable/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/clickhouse-stable/packages.raw/20260126T164208Z/main/binary-arm64/Packages.gz",
+      "suite": "stable",
+      "component": "main",
+      "arch": "arm64"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://packages.clickhouse.com/deb stable InRelease [3486 B]\nErr:1 https://packages.clickhouse.com/deb stable InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 3E4AD4719DDE9A38\nReading package lists...\n\nW: GPG error: https://packages.clickhouse.com/deb stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 3E4AD4719DDE9A38\nE: The repository 'https://packages.clickhouse.com/deb stable InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
+}

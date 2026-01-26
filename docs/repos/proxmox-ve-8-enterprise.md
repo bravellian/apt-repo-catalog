@@ -1,13 +1,19 @@
-# Proxmox VE 8 - enterprise (proxmox-8)
+# Proxmox VE 8 - enterprise
 
 ## Repository
 - Repository ID: `proxmox-ve-8-enterprise`
-- OS: `proxmox-8`
-- Source: `https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise`
+- Base URL: `https://enterprise.proxmox.com/debian/pve`
+- Host: `enterprise.proxmox.com`
 
 ## Upstream documentation
 - Documentation URL: https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories
 - Key documentation URL: https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories
+
+## Suites
+- Suite: `bookworm`
+  - Components: pve-enterprise
+  - Architectures: (not listed)
+  - Observed OSes: proxmox-8
 
 ## Key reference
 - Key ID: `proxmox-release-bookworm`
@@ -17,12 +23,14 @@
 
 ## Install instructions
 
+### Suite: bookworm
+
 Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/proxmox-release-bookworm.asc | gpg --dearmor | sudo tee /usr/share/keyrings/proxmox-release-bookworm.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/proxmox-release-bookworm.gpg] https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise" | sudo tee /etc/apt/sources.list.d/proxmox-ve-8-enterprise.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/proxmox-release-bookworm.gpg] https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise" | sudo tee /etc/apt/sources.list.d/proxmox-ve-8-enterprise-bookworm.list >/dev/null
 sudo apt-get update
 ```
 
@@ -32,9 +40,10 @@ Variant B (store ASCII key, dearmor file explicitly):
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/proxmox-release-bookworm.asc -o /tmp/proxmox-release-bookworm.asc
 gpg --dearmor /tmp/proxmox-release-bookworm.asc
 sudo install -m 0644 /tmp/proxmox-release-bookworm.gpg /usr/share/keyrings/proxmox-release-bookworm.gpg
-echo "deb [signed-by=/usr/share/keyrings/proxmox-release-bookworm.gpg] https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise" | sudo tee /etc/apt/sources.list.d/proxmox-ve-8-enterprise.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/proxmox-release-bookworm.gpg] https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise" | sudo tee /etc/apt/sources.list.d/proxmox-ve-8-enterprise-bookworm.list >/dev/null
 sudo apt-get update
 ```
+
 
 ## Packages
 
@@ -56,7 +65,7 @@ Errors during fetch:
 </details>
 
 ## Notes
-- OS support: verify upstream documentation for supported releases.
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
 - The trust anchor is the fingerprint; validate it before use.
 - Repo notes: Requires a valid Proxmox subscription.
 - Repo tags: proxmox, debian-derivative, apt

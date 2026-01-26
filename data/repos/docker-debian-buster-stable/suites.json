@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.496Z",
+  "repoId": "docker-debian-buster-stable",
+  "baseUrl": "https://download.docker.com/linux/debian",
+  "keyId": "docker-gpg-8d81803c0ebfcd88",
+  "suites": [
+    {
+      "suite": "bookworm",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12"
+      ]
+    },
+    {
+      "suite": "bullseye",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-11"
+      ]
+    },
+    {
+      "suite": "buster",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-10"
+      ]
+    },
+    {
+      "suite": "jessie",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-8"
+      ]
+    },
+    {
+      "suite": "stretch",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-9"
+      ]
+    },
+    {
+      "suite": "trixie",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13"
+      ]
+    },
+    {
+      "suite": "wheezy",
+      "components": [
+        "stable"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-7"
+      ]
+    }
+  ]
+}

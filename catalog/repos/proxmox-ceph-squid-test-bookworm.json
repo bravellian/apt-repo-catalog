@@ -1,9 +1,8 @@
 {
   "id": "proxmox-ceph-squid-test-bookworm",
   "label": "Proxmox Ceph Squid - test (PVE 8)",
-  "os": "proxmox-8",
   "name": "proxmox",
-  "source": "deb http://download.proxmox.com/debian/ceph-squid bookworm test",
+  "baseUrl": "http://download.proxmox.com/debian/ceph-squid",
   "keyId": "proxmox-release-bookworm",
   "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
   "tags": [

@@ -1,0 +1,158 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.622Z",
+  "repoId": "tailscale-ubuntu-jammy",
+  "baseUrl": "https://pkgs.tailscale.com/stable/ubuntu",
+  "keyId": "tailscale-ubuntu-jammy",
+  "suites": [
+    {
+      "suite": "bionic",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.04"
+      ]
+    },
+    {
+      "suite": "eoan",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-19.10"
+      ]
+    },
+    {
+      "suite": "focal",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.04"
+      ]
+    },
+    {
+      "suite": "groovy",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.10"
+      ]
+    },
+    {
+      "suite": "hirsute",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-21.04"
+      ]
+    },
+    {
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-21.10"
+      ]
+    },
+    {
+      "suite": "kinetic",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.10"
+      ]
+    },
+    {
+      "suite": "lunar",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-23.04"
+      ]
+    },
+    {
+      "suite": "mantic",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-23.10"
+      ]
+    },
+    {
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.04"
+      ]
+    },
+    {
+      "suite": "oracular",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.10"
+      ]
+    },
+    {
+      "suite": "plucky",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-25.04"
+      ]
+    },
+    {
+      "suite": "questing",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-25.10"
+      ]
+    },
+    {
+      "suite": "xenial",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-16.04"
+      ]
+    },
+    {
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    }
+  ]
+}

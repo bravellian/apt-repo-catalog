@@ -1,9 +1,8 @@
 {
   "id": "gitlab-runner-debian-bookworm",
   "label": "GitLab Runner (Debian 12 Bookworm)",
-  "os": "debian-12",
   "name": "gitlab-runner",
-  "source": "deb [signed-by=/usr/share/keyrings/runner_gitlab-runner-archive-keyring.gpg] https://packages.gitlab.com/runner/gitlab-runner/debian bookworm main",
+  "baseUrl": "https://packages.gitlab.com/runner/gitlab-runner/debian",
   "keyId": "gitlab-ce",
   "documentationUrl": "https://docs.gitlab.com/runner/install/linux-repository/",
   "tags": [

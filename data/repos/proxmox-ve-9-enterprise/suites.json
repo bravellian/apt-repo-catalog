@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.615Z",
+  "repoId": "proxmox-ve-9-enterprise",
+  "baseUrl": "https://enterprise.proxmox.com/debian/pve",
+  "keyId": "proxmox-archive-keyring-trixie",
+  "suites": [
+    {
+      "suite": "trixie",
+      "components": [
+        "pve-enterprise"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "proxmox-9"
+      ]
+    }
+  ]
+}

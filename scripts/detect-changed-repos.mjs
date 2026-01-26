@@ -70,7 +70,6 @@ async function main() {
   }
 
   const changedRepoIds = Array.from(changed).sort();
-  const changedReposByOs = {};
   const removedRepoIds = [];
 
   for (const repoId of changedRepoIds) {
@@ -79,15 +78,6 @@ async function main() {
       removedRepoIds.push(repoId);
       continue;
     }
-    const os = repo.os ?? "unknown";
-    if (!changedReposByOs[os]) {
-      changedReposByOs[os] = [];
-    }
-    changedReposByOs[os].push(repoId);
-  }
-
-  for (const key of Object.keys(changedReposByOs)) {
-    changedReposByOs[key] = changedReposByOs[key].sort();
   }
 
   const payload = {
@@ -95,7 +85,6 @@ async function main() {
     baseRef,
     headRef,
     changedRepoIds,
-    changedReposByOs,
     removedRepoIds: removedRepoIds.sort(),
     hasRepoChanges: changedRepoIds.length > 0
   };

@@ -1,9 +1,8 @@
 {
   "id": "microsoft-default-debian-11-bullseye-packages-microsoft-com",
   "label": "Microsoft - debian-11 - default",
-  "os": "debian-11",
   "name": "microsoft",
-  "source": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/debian/11/prod bullseye main",
+  "baseUrl": "https://packages.microsoft.com/debian/11/prod",
   "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
   "documentationUrl": "https://packages.microsoft.com/config/debian/11",
   "tags": [

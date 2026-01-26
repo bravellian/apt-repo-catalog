@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.531Z",
+  "repoId": "microsoft-default-ubuntu-15-10-wily-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/15.10/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "wily",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-15.10"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    }
+  ]
+}

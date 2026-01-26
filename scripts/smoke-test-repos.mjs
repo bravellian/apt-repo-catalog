@@ -7,6 +7,7 @@ import { spawnSync } from "node:child_process";
 
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
+const dataReposDir = path.join(root, "data", "repos");
 
 function parseArgs(argv) {
   const args = {};
@@ -49,59 +50,28 @@ function getOutputPath(keyEntry, keyId) {
   return raw.replace(/\\/g, "/");
 }
 
-function stripDebPrefix(source) {
-  const trimmed = source.trim();
-  if (trimmed.startsWith("deb ")) {
-    return trimmed.slice(4).trimStart();
+function formatOptionValue(value) {
+  if (value === true) {
+    return null;
   }
-  return trimmed;
+  return String(value);
 }
 
-function parseSourceLine(source, keyringPath) {
-  const trimmed = source.trim();
-  let remaining = trimmed;
-  
-  // Remove "deb" or "deb-src" prefix
-  const debMatch = remaining.match(/^(deb-src|deb)\s+/);
-  const debType = debMatch ? debMatch[1] : "deb";
-  if (debMatch) {
-    remaining = remaining.slice(debMatch[0].length);
+function buildSourceLine({ baseUrl, suite, components = [], options = {}, keyringPath }) {
+  const merged = { ...options };
+  if (keyringPath) {
+    merged["signed-by"] = keyringPath;
   }
-  
-  // Check if there's an options block [...]
-  const optionsMatch = remaining.match(/^\[([^\]]+)\]\s*/);
-  let existingOptions = {};
-  if (optionsMatch) {
-    // Parse existing options
-    const optionsStr = optionsMatch[1];
-    const optionPairs = optionsStr.split(/\s+/);
-    for (const pair of optionPairs) {
-      const [key, value] = pair.split("=", 2);
-      if (key && value) {
-        existingOptions[key] = value;
-      } else if (key) {
-        // Option without value (boolean flag)
-        existingOptions[key] = true;
-      }
-    }
-    remaining = remaining.slice(optionsMatch[0].length);
-  }
-  
-  // Remove any existing signed-by and replace with our keyring
-  delete existingOptions["signed-by"];
-  existingOptions["signed-by"] = keyringPath;
-  
-  // Rebuild options string
-  const optionsArray = Object.entries(existingOptions).map(([key, value]) => {
-    if (value === true) {
-      return key;
-    }
-    return `${key}=${value}`;
-  });
-  const optionsStr = optionsArray.join(" ");
-  
-  // Return the complete source line
-  return `${debType} [${optionsStr}] ${remaining}`;
+  const optionParts = Object.entries(merged)
+    .filter(([key]) => key)
+    .map(([key, value]) => {
+      const normalized = formatOptionValue(value);
+      return normalized === null ? key : `${key}=${normalized}`;
+    })
+    .filter(Boolean);
+  const optionBlock = optionParts.length > 0 ? ` [${optionParts.join(" ")}]` : "";
+  const componentPart = components.length > 0 ? ` ${components.join(" ")}` : "";
+  return `deb${optionBlock} ${baseUrl} ${suite}${componentPart}`.trim();
 }
 
 function classifyFailure(text) {
@@ -260,14 +230,9 @@ function parseInRelease(text) {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const targetOs = args.os;
-  if (!targetOs) {
-    throw new Error("Missing required --os argument");
-  }
   const onlyIds = toList(args["only-ids"]);
   const timeoutSeconds = Number.parseInt(args.timeoutSeconds ?? "30", 10);
-  const outPath =
-    args.out ?? path.join(root, "reports", "smoke", `${targetOs}.json`);
+  const outPath = args.out ?? path.join(root, "reports", "smoke", "repos.json");
 
   if (Number.isNaN(timeoutSeconds) || timeoutSeconds <= 0) {
     throw new Error("timeoutSeconds must be a positive integer");
@@ -286,7 +251,7 @@ async function main() {
   }
 
   const keyMap = new Map(keysCatalog.keys.map((key) => [key.id, key]));
-  let repos = reposCatalog.repos.filter((repo) => repo.os === targetOs);
+  let repos = reposCatalog.repos;
   if (onlyIds && onlyIds.length > 0) {
     const allowed = new Set(onlyIds);
     repos = repos.filter((repo) => allowed.has(repo.id));
@@ -301,7 +266,7 @@ async function main() {
   for (const repo of repos) {
     const repoId = repo.id ?? "unknown";
     const keyId = getKeyId(repo);
-    logStatus(`Checking ${repoId} (${targetOs})`);
+    logStatus(`Checking ${repoId}`);
     if (!keyId) {
       results.push({
         repoId,
@@ -309,7 +274,7 @@ async function main() {
         durationMs: 0,
         classification: "apt_error",
         checkedAt: generatedAt,
-        repo: { source: repo.source ?? null, keyId: null },
+        repo: { baseUrl: repo.baseUrl ?? repo.base_url ?? null, keyId: null },
         error: {
           exitCode: null,
           message: "Repo entry missing keyId",
@@ -321,21 +286,22 @@ async function main() {
       continue;
     }
 
-    if (!repo.source) {
+    const baseUrl = repo.baseUrl ?? repo.base_url ?? null;
+    if (!baseUrl) {
       results.push({
         repoId,
         status: "failed",
         durationMs: 0,
         classification: "apt_error",
         checkedAt: generatedAt,
-        repo: { source: null, keyId },
+        repo: { baseUrl: null, keyId },
         error: {
           exitCode: null,
-          message: "Repo entry missing source",
+          message: "Repo entry missing baseUrl",
           rawTail: null
         }
       });
-      logError(`FAILED ${repoId}: missing source`);
+      logError(`FAILED ${repoId}: missing baseUrl`);
       failed += 1;
       continue;
     }
@@ -348,7 +314,7 @@ async function main() {
         durationMs: 0,
         classification: "apt_error",
         checkedAt: generatedAt,
-        repo: { source: repo.source, keyId },
+        repo: { baseUrl, keyId },
         error: {
           exitCode: null,
           message: `Key ${keyId} not found`,
@@ -386,7 +352,7 @@ async function main() {
         durationMs: 0,
         classification: "apt_error",
         checkedAt: generatedAt,
-        repo: { source: repo.source, keyId },
+        repo: { baseUrl: repo.baseUrl ?? repo.base_url ?? null, keyId },
         error: {
           exitCode: dearmor.status,
           message: "gpg --dearmor failed",
@@ -401,119 +367,178 @@ async function main() {
       continue;
     }
 
-    const sourceLine = parseSourceLine(repo.source, keyringPath);
-    await writeFile(sourceListPath, `${sourceLine}\n`, "utf8");
-
-    const aptArgs = [
-      "update",
-      "-o",
-      `Dir=${tempDir}`,
-      "-o",
-      `Dir::Etc::sourcelist=${path.join(tempDir, "etc", "apt", "sources.list")}`,
-      "-o",
-      `Dir::Etc::sourceparts=${path.join(tempDir, "etc", "apt", "sources.list.d")}`,
-      "-o",
-      `Dir::State=${path.join(tempDir, "var", "lib", "apt")}`,
-      "-o",
-      `Dir::State::status=${statusPath}`,
-      "-o",
-      `Dir::Cache=${path.join(tempDir, "var", "cache", "apt")}`,
-      "-o",
-      "Acquire::AllowInsecureRepositories=false",
-      "-o",
-      "Acquire::AllowDowngradeToInsecureRepositories=false",
-      "-o",
-      "APT::Sandbox::User=root",
-      "-o",
-      "Debug::Acquire::gpgv=true"
-    ];
-
-    const start = Date.now();
-    const aptResult = spawnSync("apt-get", aptArgs, {
-      encoding: "utf8",
-      env: {
-        ...process.env,
-        DEBIAN_FRONTEND: "noninteractive"
-      },
-      timeout: timeoutSeconds * 1000,
-      maxBuffer: 1024 * 1024 * 8
-    });
-    const durationMs = Date.now() - start;
-    const output = `${aptResult.stdout ?? ""}\n${aptResult.stderr ?? ""}`.trim();
-
-    if (aptResult.status !== 0) {
-      const rawTail = truncate(output);
-      const unsupportedReason = detectUnsupported(output);
-      if (unsupportedReason) {
-        results.push({
-          repoId,
-          status: "skipped",
-          durationMs,
-          classification: "unsupported",
-          checkedAt: generatedAt,
-          repo: { source: repo.source, keyId },
-          documentation: `${unsupportedReason} (${targetOs})`,
-          error: {
-            exitCode: aptResult.status,
-            message: "apt-get update reported missing Release/InRelease",
-            rawTail
-          }
-        });
-        logStatus(`SKIPPED ${repoId}: ${unsupportedReason} (${targetOs})`);
-        skipped += 1;
-        continue;
-      }
+    const suitesMetaPath = path.join(dataReposDir, repoId, "suites.json");
+    let suitesMeta = null;
+    try {
+      suitesMeta = await readJson(suitesMetaPath);
+    } catch {
+      suitesMeta = null;
+    }
+    const suites = Array.isArray(suitesMeta?.suites) ? suitesMeta.suites : [];
+    if (suites.length === 0) {
       results.push({
         repoId,
-        status: "failed",
-        durationMs,
-        classification: classifyFailure(output),
+        status: "skipped",
+        durationMs: 0,
+        classification: "missing_suites",
         checkedAt: generatedAt,
-        repo: { source: repo.source, keyId },
+        repo: { baseUrl, keyId },
         error: {
-          exitCode: aptResult.status,
-          message: "apt-get update failed",
-          rawTail
+          exitCode: null,
+          message: "Suite metadata missing; generate data/repos/<repoId>/suites.json",
+          rawTail: null
         }
       });
-      logError(`FAILED ${repoId}: apt-get update failed (${classifyFailure(output)})`);
-      if (rawTail) {
-        logError(rawTail);
-      }
-      failed += 1;
+      logStatus(`SKIPPED ${repoId}: suite metadata missing`);
+      skipped += 1;
       continue;
     }
 
-    const inReleasePath = await findNewestInRelease(listsDir);
-    let releaseIdentity = null;
-    if (inReleasePath) {
-      const inReleaseBytes = await readFile(inReleasePath);
-      const inReleaseText = inReleaseBytes.toString("utf8");
-      releaseIdentity = {
-        inReleasePath,
-        inReleaseSha256: sha256Hex(inReleaseBytes),
-        ...parseInRelease(inReleaseText)
-      };
-    }
+    for (const suiteEntry of suites) {
+      const suite = suiteEntry.suite ?? "";
+      if (!suite) {
+        results.push({
+          repoId,
+          status: "skipped",
+          durationMs: 0,
+          classification: "missing_suite",
+          checkedAt: generatedAt,
+          repo: { baseUrl, keyId },
+          error: {
+            exitCode: null,
+            message: "Suite entry missing suite name",
+            rawTail: null
+          }
+        });
+        skipped += 1;
+        continue;
+      }
 
-    results.push({
-      repoId,
-      status: "passed",
-      durationMs,
-      classification: "ok",
-      checkedAt: generatedAt,
-      repo: { source: repo.source, keyId },
-      releaseIdentity
-    });
-    logStatus(`PASSED ${repoId}`);
-    passed += 1;
+      const components = Array.isArray(suiteEntry.components) ? suiteEntry.components : [];
+      const options =
+        suiteEntry.options && typeof suiteEntry.options === "object" ? suiteEntry.options : {};
+      const sourceLine = buildSourceLine({
+        baseUrl,
+        suite,
+        components,
+        options,
+        keyringPath
+      });
+      await writeFile(sourceListPath, `${sourceLine}\n`, "utf8");
+
+      const aptArgs = [
+        "update",
+        "-o",
+        `Dir=${tempDir}`,
+        "-o",
+        `Dir::Etc::sourcelist=${path.join(tempDir, "etc", "apt", "sources.list")}`,
+        "-o",
+        `Dir::Etc::sourceparts=${path.join(tempDir, "etc", "apt", "sources.list.d")}`,
+        "-o",
+        `Dir::State=${path.join(tempDir, "var", "lib", "apt")}`,
+        "-o",
+        `Dir::State::status=${statusPath}`,
+        "-o",
+        `Dir::Cache=${path.join(tempDir, "var", "cache", "apt")}`,
+        "-o",
+        "Acquire::AllowInsecureRepositories=false",
+        "-o",
+        "Acquire::AllowDowngradeToInsecureRepositories=false",
+        "-o",
+        "APT::Sandbox::User=root",
+        "-o",
+        "Debug::Acquire::gpgv=true"
+      ];
+
+      const start = Date.now();
+      const aptResult = spawnSync("apt-get", aptArgs, {
+        encoding: "utf8",
+        env: {
+          ...process.env,
+          DEBIAN_FRONTEND: "noninteractive"
+        },
+        timeout: timeoutSeconds * 1000,
+        maxBuffer: 1024 * 1024 * 8
+      });
+      const durationMs = Date.now() - start;
+      const output = `${aptResult.stdout ?? ""}\n${aptResult.stderr ?? ""}`.trim();
+
+      if (aptResult.status !== 0) {
+        const rawTail = truncate(output);
+        const unsupportedReason = detectUnsupported(output);
+        if (unsupportedReason) {
+          results.push({
+            repoId,
+            suite,
+            status: "skipped",
+            durationMs,
+            classification: "unsupported",
+            checkedAt: generatedAt,
+            repo: { baseUrl, keyId, suite, components },
+            documentation: unsupportedReason,
+            error: {
+              exitCode: aptResult.status,
+              message: "apt-get update reported missing Release/InRelease",
+              rawTail
+            }
+          });
+          logStatus(`SKIPPED ${repoId}: ${unsupportedReason} (${suite})`);
+          skipped += 1;
+          continue;
+        }
+        results.push({
+          repoId,
+          suite,
+          status: "failed",
+          durationMs,
+          classification: classifyFailure(output),
+          checkedAt: generatedAt,
+          repo: { baseUrl, keyId, suite, components },
+          error: {
+            exitCode: aptResult.status,
+            message: "apt-get update failed",
+            rawTail
+          }
+        });
+        logError(`FAILED ${repoId}: apt-get update failed (${classifyFailure(output)})`);
+        if (rawTail) {
+          logError(rawTail);
+        }
+        failed += 1;
+        continue;
+      }
+
+      const inReleasePath = await findNewestInRelease(listsDir);
+      let releaseIdentity = null;
+      if (inReleasePath) {
+        const inReleaseBytes = await readFile(inReleasePath);
+        const inReleaseText = inReleaseBytes.toString("utf8");
+        releaseIdentity = {
+          inReleasePath,
+          inReleaseSha256: sha256Hex(inReleaseBytes),
+          ...parseInRelease(inReleaseText)
+        };
+      }
+
+      results.push({
+        repoId,
+        suite,
+        status: "passed",
+        durationMs,
+        classification: "ok",
+        checkedAt: generatedAt,
+        repo: { baseUrl, keyId, suite, components },
+        releaseIdentity
+      });
+      logStatus(`PASSED ${repoId} (${suite})`);
+      passed += 1;
+    }
   }
 
   const report = {
     generatedAt,
-    os: targetOs,
     totals: {
-      tested: repos.length,
+      tested: passed + failed + skipped,
       passed,
       failed,
       skipped

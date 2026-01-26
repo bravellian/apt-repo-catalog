@@ -1,9 +1,8 @@
 {
   "id": "postgresql-pgdg-debian",
   "label": "PostgreSQL (PGDG) - Debian",
-  "os": "debian-12",
   "name": "postgresql-pgdg",
-  "source": "deb https://apt.postgresql.org/pub/repos/apt bookworm-pgdg main",
+  "baseUrl": "https://apt.postgresql.org/pub/repos/apt",
   "keyId": "postgresql",
   "documentationUrl": "https://wiki.postgresql.org/wiki/Apt",
   "tags": [

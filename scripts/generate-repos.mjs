@@ -1,23 +1,12 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { loadReposCatalog, writeReposCatalog } from "./lib/repos-catalog.mjs";
 
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
-const osPattern = /^(ubuntu|debian)(?:-([0-9]{2}\.[0-9]{2}|[0-9]{1,2}))?$/;
+const dataReposDir = path.join(root, "data", "repos");
 
-const ubuntuCodenameToVersion = {
-  jammy: "22.04",
-  noble: "24.04",
-  focal: "20.04"
-};
-
-const debianCodenameToVersion = {
-  bullseye: "11",
-  bookworm: "12",
-  trixie: "13"
-};
 
 function parseArgs(argv) {
   const args = {};
@@ -90,58 +79,22 @@ function normalizeRootUri(value) {
   return trimmed;
 }
 
-function resolveOs(distro, suite, mode) {
-  const codename = suite.toLowerCase();
-  if (mode === "codename") {
-    return `${distro}-${codename}`;
-  }
-  if (distro === "ubuntu") {
-    const version = ubuntuCodenameToVersion[codename];
-    if (!version) {
-      throw new Error(`Unknown Ubuntu suite ${suite} for version mapping`);
-    }
-    return `ubuntu-${version}`;
-  }
-  if (distro === "debian") {
-    const version = debianCodenameToVersion[codename];
-    if (!version) {
-      throw new Error(`Unknown Debian suite ${suite} for version mapping`);
-    }
-    return `debian-${version}`;
-  }
-  throw new Error(`Unsupported distro ${distro}`);
-}
-
-function buildLabel({ labelPrefix, distro, suite, component, osMode }) {
-  if (distro === "ubuntu" && osMode === "version") {
-    const version = ubuntuCodenameToVersion[suite.toLowerCase()];
-    return `${labelPrefix} - Ubuntu ${version} (${titleCase(suite)}) - ${component}`;
-  }
-  if (distro === "debian" && osMode === "version") {
-    const version = debianCodenameToVersion[suite.toLowerCase()];
-    return `${labelPrefix} - Debian ${version} (${titleCase(suite)}) - ${component}`;
-  }
-  return `${labelPrefix} - ${titleCase(distro)} (${titleCase(suite)}) - ${component}`;
+function buildLabel({ labelPrefix }) {
+  return labelPrefix;
 }
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   const vendor = ensureString(args.vendor, "vendor");
   const rootUri = normalizeRootUri(ensureString(args.rootUri, "rootUri"));
-  const distro = ensureString(args.distro, "distro");
-  if (distro !== "ubuntu" && distro !== "debian") {
-    throw new Error("distro must be ubuntu or debian");
-  }
+  const distro = args.distro ?? "";
   const suites = parseList(ensureString(args.suites, "suites"));
   const components = parseList(ensureString(args.components, "components"));
   const keyId = ensureString(args.keyId, "keyId");
   const documentationUrl = ensureString(args.documentationUrl, "documentationUrl");
   const name = args.name ?? vendor;
   const labelPrefix = args.labelPrefix ?? titleCase(vendor);
-  const osMode = args["os-mode"] ?? "version";
-  if (osMode !== "version" && osMode !== "codename") {
-    throw new Error("os-mode must be version or codename");
-  }
+  const architectures = parseList(args.architectures);
 
   const tags = parseTags(args.tags);
   const notes = args.notes;
@@ -167,55 +120,30 @@ async function main() {
   }
 
   const existingIds = new Set(reposCatalog.repos.map((repo) => repo.id));
-  const existingBySignature = new Map();
-  for (const repo of reposCatalog.repos) {
-    if (!repo.source || !repo.os) {
-      continue;
-    }
-    const signature = `${repo.os}|${repo.source}|${repo.keyId ?? repo.key_id ?? ""}`;
-    existingBySignature.set(signature, repo);
-  }
-
   const planned = [];
   const skipped = [];
 
-  for (const suite of suites) {
-    const osValue = resolveOs(distro, suite, osMode);
-    if (!osPattern.test(osValue)) {
-      throw new Error(`Generated os ${osValue} is invalid for suite ${suite}`);
+  const baseId = normalizeSlug([vendor, distro].filter(Boolean).join("-")) || normalizeSlug(vendor);
+  let id = baseId;
+  if (existingIds.has(id)) {
+    let counter = 2;
+    while (existingIds.has(`${baseId}-${counter}`)) {
+      counter += 1;
     }
-    for (const component of components) {
-      const source = `deb ${rootUri} ${suite} ${component}`;
-      const signature = `${osValue}|${source}|${keyId}`;
-      if (existingBySignature.has(signature)) {
-        skipped.push({ reason: "duplicate-existing", source });
-        continue;
-      }
-
-      const baseId = normalizeSlug(`${vendor}-${distro}-${suite}-${component}`);
-      let id = baseId;
-      if (existingIds.has(id)) {
-        let counter = 2;
-        while (existingIds.has(`${baseId}-${counter}`)) {
-          counter += 1;
-        }
-        id = `${baseId}-${counter}`;
-      }
-      existingIds.add(id);
-
-      planned.push({
-        id,
-        label: buildLabel({ labelPrefix, distro, suite, component, osMode }),
-        os: osValue,
-        name,
-        source,
-        keyId,
-        documentationUrl,
-        tags,
-        notes
-      });
-    }
+    id = `${baseId}-${counter}`;
   }
+  existingIds.add(id);
+
+  planned.push({
+    id,
+    label: buildLabel({ labelPrefix }),
+    name,
+    baseUrl: rootUri,
+    keyId,
+    documentationUrl,
+    tags,
+    notes
+  });
 
   let added = 0;
   let replaced = 0;
@@ -253,6 +181,25 @@ async function main() {
   }
 
   await writeReposCatalog({ root, repos: reposCatalog.repos, preferDir: true, clean: true });
+
+  const suitesPayload = {
+    generatedAt: new Date().toISOString(),
+    repoId: planned[0].id,
+    baseUrl: rootUri,
+    keyId,
+    suites: suites.map((suite) => ({
+      suite,
+      components,
+      architectures
+    }))
+  };
+  const repoDir = path.join(dataReposDir, planned[0].id);
+  await mkdir(repoDir, { recursive: true });
+  await writeFile(
+    path.join(repoDir, "suites.json"),
+    JSON.stringify(suitesPayload, null, 2) + "\n",
+    "utf8"
+  );
 
   const validateRepos = spawnSync("node", ["scripts/validate-repos.mjs"], {
     stdio: "inherit",

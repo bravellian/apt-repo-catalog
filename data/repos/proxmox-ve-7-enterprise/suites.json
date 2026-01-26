@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.608Z",
+  "repoId": "proxmox-ve-7-enterprise",
+  "baseUrl": "https://enterprise.proxmox.com/debian/pve",
+  "keyId": "proxmox-release-bullseye",
+  "suites": [
+    {
+      "suite": "bullseye",
+      "components": [
+        "pve-enterprise"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "proxmox-7"
+      ]
+    }
+  ]
+}

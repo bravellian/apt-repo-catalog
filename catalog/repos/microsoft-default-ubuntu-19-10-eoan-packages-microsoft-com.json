@@ -1,9 +1,8 @@
 {
   "id": "microsoft-default-ubuntu-19-10-eoan-packages-microsoft-com",
   "label": "Microsoft - ubuntu-19.10 - default",
-  "os": "ubuntu-19.10",
   "name": "microsoft",
-  "source": "deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/ubuntu/19.10/prod eoan main",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/19.10/prod",
   "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
   "documentationUrl": "https://packages.microsoft.com/config/ubuntu/19.10",
   "tags": [

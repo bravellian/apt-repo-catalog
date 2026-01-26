@@ -1,9 +1,8 @@
 {
   "id": "docker-ubuntu-eoan-stable",
   "label": "Docker - Ubuntu (Eoan) - stable",
-  "os": "ubuntu-19.10",
   "name": "docker",
-  "source": "deb https://download.docker.com/linux/ubuntu eoan stable",
+  "baseUrl": "https://download.docker.com/linux/ubuntu",
   "keyId": "docker-gpg-8d81803c0ebfcd88",
   "documentationUrl": "https://docs.docker.com/engine/install/ubuntu",
   "tags": [

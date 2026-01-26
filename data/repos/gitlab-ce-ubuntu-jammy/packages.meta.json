@@ -1,0 +1,1160 @@
+{
+  "fetchedAt": "2026-01-26T16:19:36.510Z",
+  "repoId": "gitlab-ce-ubuntu-jammy",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu",
+    "suites": [
+      {
+        "suite": "bionic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "focal",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trusty",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "xenial",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jammy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "noble",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "bionic",
+      "release": {
+        "Origin": "packages.gitlab.com/gitlab/gitlab-ce",
+        "Label": "gitlab-ce",
+        "Suite": "bionic",
+        "Version": "1",
+        "Codename": "bionic",
+        "Date": "Wed, 26 Nov 2025 06:10:20 +0000",
+        "Architectures": "alpha amd64 arm64 armel armhf avr32 hppa i386 ia64 m32 m68k mips mipsel powerpc ppc64el s390 s390x sh sparc all",
+        "Components": "main",
+        "Description": "APT/YUM repository for GitLab Community Edition packages",
+        "Acquire-By-Hash": "no",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "focal",
+      "release": {
+        "Origin": "packages.gitlab.com/gitlab/gitlab-ce",
+        "Label": "gitlab-ce",
+        "Suite": "focal",
+        "Version": "1",
+        "Codename": "focal",
+        "Date": "Wed, 21 Jan 2026 03:40:36 +0000",
+        "Architectures": "alpha amd64 arm64 armel armhf avr32 hppa i386 ia64 m32 m68k mips mipsel powerpc ppc64el s390 s390x sh sparc all",
+        "Components": "main",
+        "Description": "APT/YUM repository for GitLab Community Edition packages",
+        "Acquire-By-Hash": "no",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "trusty",
+      "release": {
+        "Origin": "packages.gitlab.com/gitlab/gitlab-ce",
+        "Label": "gitlab-ce",
+        "Suite": "trusty",
+        "Version": "1",
+        "Codename": "trusty",
+        "Date": "Mon, 24 Nov 2025 15:12:24 +0000",
+        "Architectures": "alpha amd64 arm64 armel armhf avr32 hppa i386 ia64 m32 m68k mips mipsel powerpc ppc64el s390 s390x sh sparc all",
+        "Components": "main",
+        "Description": "APT/YUM repository for GitLab Community Edition packages",
+        "Acquire-By-Hash": "no",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "xenial",
+      "release": {
+        "Origin": "packages.gitlab.com/gitlab/gitlab-ce",
+        "Label": "gitlab-ce",
+        "Suite": "xenial",
+        "Version": "1",
+        "Codename": "xenial",
+        "Date": "Mon, 24 Nov 2025 15:36:17 +0000",
+        "Architectures": "alpha amd64 arm64 armel armhf avr32 hppa i386 ia64 m32 m68k mips mipsel powerpc ppc64el s390 s390x sh sparc all",
+        "Components": "main",
+        "Description": "APT/YUM repository for GitLab Community Edition packages",
+        "Acquire-By-Hash": "no",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "jammy",
+      "release": {
+        "Origin": "packages.gitlab.com/gitlab/gitlab-ce",
+        "Label": "gitlab-ce",
+        "Suite": "jammy",
+        "Version": "1",
+        "Codename": "jammy",
+        "Date": "Wed, 21 Jan 2026 03:41:53 +0000",
+        "Architectures": "alpha amd64 arm64 armel armhf avr32 hppa i386 ia64 m32 m68k mips mipsel powerpc ppc64el s390 s390x sh sparc all",
+        "Components": "main",
+        "Description": "APT/YUM repository for GitLab Community Edition packages",
+        "Acquire-By-Hash": "no",
+        "SHA512": ""
+      }
+    },
+    {
+      "suite": "noble",
+      "release": {
+        "Origin": "packages.gitlab.com/gitlab/gitlab-ce",
+        "Label": "gitlab-ce",
+        "Suite": "noble",
+        "Version": "1",
+        "Codename": "noble",
+        "Date": "Wed, 21 Jan 2026 03:40:42 +0000",
+        "Architectures": "alpha amd64 arm64 armel armhf avr32 hppa i386 ia64 m32 m68k mips mipsel powerpc ppc64el s390 s390x sh sparc all",
+        "Components": "main",
+        "Description": "APT/YUM repository for GitLab Community Edition packages",
+        "Acquire-By-Hash": "no",
+        "SHA512": ""
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-ce-ubuntu-jammy\\run-mAxYS7\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu bionic main",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/Release",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-arm64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-ce-ubuntu-jammy\\run-mVojik\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu focal main",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/Release",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-arm64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-ce-ubuntu-jammy\\run-0achQj\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu trusty main",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/Release",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-arm64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-ce-ubuntu-jammy\\run-9vRbfW\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu xenial main",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/Release",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-arm64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-ce-ubuntu-jammy\\run-ojvOJh\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu jammy main",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/Release",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-arm64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-all/Packages.gz",
+    "deb [[object Object signed-by=C:\\Users\\SAMUEL~1\\AppData\\Local\\Temp\\apt-inventory\\gitlab-ce-ubuntu-jammy\\run-bjHK8j\\keyrings\\gitlab-ce.gpg] ] https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu noble main",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/Release",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-alpha/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-amd64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-arm64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-armel/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-armhf/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-avr32/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-hppa/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-i386/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-ia64/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-m32/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-m68k/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-mips/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-mipsel/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-powerpc/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-ppc64el/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-s390/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-s390x/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-sh/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-sparc/Packages.gz",
+    "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-all/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-alpha/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-amd64/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-arm64/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-armel/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-armhf/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-avr32/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-hppa/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-i386/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-ia64/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-m32/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-m68k/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-mips/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-mipsel/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-powerpc/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-ppc64el/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-s390/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-s390x/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-sh/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-sparc/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/bionic/main/binary-all/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-all/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-alpha/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-amd64/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-arm64/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-armel/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-armhf/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-avr32/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-hppa/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-i386/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-ia64/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-m32/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-m68k/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-mips/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-mipsel/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-powerpc/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-ppc64el/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-s390/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-s390x/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-sh/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-sparc/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/focal/main/binary-all/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-all/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-alpha/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-amd64/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-arm64/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-armel/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-armhf/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-avr32/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-hppa/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-i386/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-ia64/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-m32/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-m68k/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-mips/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-mipsel/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-powerpc/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-ppc64el/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-s390/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-s390x/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-sh/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-sparc/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/trusty/main/binary-all/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-all/Packages.gz",
+      "suite": "trusty",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-alpha/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-amd64/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-arm64/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-armel/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-armhf/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-avr32/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-hppa/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-i386/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-ia64/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-m32/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-m68k/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-mips/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-mipsel/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-powerpc/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-ppc64el/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-s390/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-s390x/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-sh/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-sparc/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/xenial/main/binary-all/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-all/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-alpha/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-amd64/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-arm64/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-armel/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-armhf/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-avr32/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-hppa/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-i386/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-ia64/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-m32/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-m68k/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-mips/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-mipsel/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-powerpc/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-ppc64el/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-s390/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-s390x/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-sh/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-sparc/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/jammy/main/binary-all/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-all/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "all"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-alpha/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-alpha/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "alpha"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-amd64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-amd64/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-arm64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-arm64/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-armel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-armel/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "armel"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-armhf/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-armhf/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "armhf"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-avr32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-avr32/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "avr32"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-hppa/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-hppa/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "hppa"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-i386/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-i386/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "i386"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-ia64/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-ia64/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "ia64"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-m32/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-m32/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "m32"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-m68k/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-m68k/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "m68k"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-mips/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-mips/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "mips"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-mipsel/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-mipsel/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "mipsel"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-powerpc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-powerpc/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "powerpc"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-ppc64el/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-ppc64el/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "ppc64el"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-s390/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-s390/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "s390"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-s390x/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-s390x/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "s390x"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-sh/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-sh/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "sh"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-sparc/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-sparc/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "sparc"
+    },
+    {
+      "source": "https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu/dists/noble/main/binary-all/Packages.gz",
+      "rawPath": "C:/src/bravellian/apt-repo-catalog/data/repos/gitlab-ce-ubuntu-jammy/packages.raw/20260126T161936Z/main/binary-all/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "all"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": ""
+    }
+  ]
+}

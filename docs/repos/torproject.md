@@ -1,13 +1,43 @@
-# Tor Project (Debian/Ubuntu) (ubuntu-22.04)
+# Tor Project (Debian/Ubuntu)
 
 ## Repository
 - Repository ID: `torproject`
-- OS: `ubuntu-22.04`
-- Source: `https://deb.torproject.org/torproject.org jammy main`
+- Base URL: `https://deb.torproject.org/torproject.org`
+- Host: `deb.torproject.org`
 
 ## Upstream documentation
 - Documentation URL: https://support.torproject.org/apt/tor-deb-repo/
 - Key documentation URL: https://support.torproject.org/apt/tor-deb-repo/
+
+## Suites
+- Suite: `bookworm`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: debian-12
+- Suite: `noble`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-24.04
+- Suite: `plucky`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-25.04
+- Suite: `questing`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-25.10
+- Suite: `stable`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: debian-13
+- Suite: `trixie`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: debian-13
+- Suite: `jammy`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-22.04
 
 ## Key reference
 - Key ID: `torproject`
@@ -17,12 +47,14 @@
 
 ## Install instructions
 
+### Suite: bookworm
+
 Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc | gpg --dearmor | sudo tee /usr/share/keyrings/torproject.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org jammy main" | sudo tee /etc/apt/sources.list.d/torproject.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org bookworm main" | sudo tee /etc/apt/sources.list.d/torproject-bookworm.list >/dev/null
 sudo apt-get update
 ```
 
@@ -32,9 +64,136 @@ Variant B (store ASCII key, dearmor file explicitly):
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc -o /tmp/torproject.asc
 gpg --dearmor /tmp/torproject.asc
 sudo install -m 0644 /tmp/torproject.gpg /usr/share/keyrings/torproject.gpg
-echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org jammy main" | sudo tee /etc/apt/sources.list.d/torproject.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org bookworm main" | sudo tee /etc/apt/sources.list.d/torproject-bookworm.list >/dev/null
 sudo apt-get update
 ```
+
+### Suite: noble
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc | gpg --dearmor | sudo tee /usr/share/keyrings/torproject.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org noble main" | sudo tee /etc/apt/sources.list.d/torproject-noble.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc -o /tmp/torproject.asc
+gpg --dearmor /tmp/torproject.asc
+sudo install -m 0644 /tmp/torproject.gpg /usr/share/keyrings/torproject.gpg
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org noble main" | sudo tee /etc/apt/sources.list.d/torproject-noble.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: plucky
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc | gpg --dearmor | sudo tee /usr/share/keyrings/torproject.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org plucky main" | sudo tee /etc/apt/sources.list.d/torproject-plucky.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc -o /tmp/torproject.asc
+gpg --dearmor /tmp/torproject.asc
+sudo install -m 0644 /tmp/torproject.gpg /usr/share/keyrings/torproject.gpg
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org plucky main" | sudo tee /etc/apt/sources.list.d/torproject-plucky.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: questing
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc | gpg --dearmor | sudo tee /usr/share/keyrings/torproject.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org questing main" | sudo tee /etc/apt/sources.list.d/torproject-questing.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc -o /tmp/torproject.asc
+gpg --dearmor /tmp/torproject.asc
+sudo install -m 0644 /tmp/torproject.gpg /usr/share/keyrings/torproject.gpg
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org questing main" | sudo tee /etc/apt/sources.list.d/torproject-questing.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: stable
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc | gpg --dearmor | sudo tee /usr/share/keyrings/torproject.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org stable main" | sudo tee /etc/apt/sources.list.d/torproject-stable.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc -o /tmp/torproject.asc
+gpg --dearmor /tmp/torproject.asc
+sudo install -m 0644 /tmp/torproject.gpg /usr/share/keyrings/torproject.gpg
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org stable main" | sudo tee /etc/apt/sources.list.d/torproject-stable.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: trixie
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc | gpg --dearmor | sudo tee /usr/share/keyrings/torproject.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org trixie main" | sudo tee /etc/apt/sources.list.d/torproject-trixie.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc -o /tmp/torproject.asc
+gpg --dearmor /tmp/torproject.asc
+sudo install -m 0644 /tmp/torproject.gpg /usr/share/keyrings/torproject.gpg
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org trixie main" | sudo tee /etc/apt/sources.list.d/torproject-trixie.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: jammy
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc | gpg --dearmor | sudo tee /usr/share/keyrings/torproject.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org jammy main" | sudo tee /etc/apt/sources.list.d/torproject-jammy.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/torproject.asc -o /tmp/torproject.asc
+gpg --dearmor /tmp/torproject.asc
+sudo install -m 0644 /tmp/torproject.gpg /usr/share/keyrings/torproject.gpg
+echo "deb [signed-by=/usr/share/keyrings/torproject.gpg] https://deb.torproject.org/torproject.org jammy main" | sudo tee /etc/apt/sources.list.d/torproject-jammy.list >/dev/null
+sudo apt-get update
+```
+
 
 ## Packages
 
@@ -138,7 +297,7 @@ sudo apt-get update
 </details>
 
 ## Notes
-- OS support: verify upstream documentation for supported releases.
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
 - The trust anchor is the fingerprint; validate it before use.
 - Repo notes: Tor official apt repository for system Tor
 - Repo tags: privacy, security

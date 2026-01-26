@@ -1,9 +1,8 @@
 {
   "id": "gitlab-runner-ubuntu-jammy",
   "label": "GitLab Runner (Ubuntu 22.04 Jammy)",
-  "os": "ubuntu-22.04",
   "name": "gitlab-runner",
-  "source": "deb [signed-by=/usr/share/keyrings/runner_gitlab-runner-archive-keyring.gpg] https://packages.gitlab.com/runner/gitlab-runner/ubuntu jammy main",
+  "baseUrl": "https://packages.gitlab.com/runner/gitlab-runner/ubuntu",
   "keyId": "gitlab-ce",
   "documentationUrl": "https://docs.gitlab.com/runner/install/linux-repository/",
   "tags": [

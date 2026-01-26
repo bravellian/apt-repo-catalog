@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.624Z",
+  "repoId": "torproject",
+  "baseUrl": "https://deb.torproject.org/torproject.org",
+  "keyId": "torproject",
+  "suites": [
+    {
+      "suite": "bookworm",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12"
+      ]
+    },
+    {
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.04"
+      ]
+    },
+    {
+      "suite": "plucky",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-25.04"
+      ]
+    },
+    {
+      "suite": "questing",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-25.10"
+      ]
+    },
+    {
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13"
+      ]
+    },
+    {
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13"
+      ]
+    },
+    {
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    }
+  ]
+}

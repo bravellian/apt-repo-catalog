@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, readdir, unlink } from "node:fs/promises";
 import path from "node:path";
 import { loadReposCatalog } from "./lib/repos-catalog.mjs";
 import { loadPackagesIndex } from "./lib/packages-index.mjs";
@@ -61,12 +61,43 @@ function getDocsUrl(repo) {
   return repo.documentationUrl ?? repo.docsUrl ?? "";
 }
 
-function stripDebPrefix(source) {
-  const trimmed = String(source ?? "").trim();
-  if (trimmed.startsWith("deb ")) {
-    return trimmed.slice(4).trimStart();
+function getRepoBaseUrl(repo) {
+  return repo.baseUrl ?? repo.base_url ?? "";
+}
+
+function getRepoHost(baseUrl) {
+  if (!baseUrl) {
+    return "";
   }
-  return trimmed;
+  try {
+    return new URL(baseUrl).hostname;
+  } catch {
+    return "";
+  }
+}
+
+function formatOptionValue(value) {
+  if (value === true) {
+    return null;
+  }
+  return String(value);
+}
+
+function buildSourceLine({ baseUrl, suite, components = [], options = {}, signedByPath }) {
+  const merged = { ...options };
+  if (signedByPath) {
+    merged["signed-by"] = signedByPath;
+  }
+  const optionParts = Object.entries(merged)
+    .filter(([key]) => key)
+    .map(([key, value]) => {
+      const normalized = formatOptionValue(value);
+      return normalized === null ? key : `${key}=${normalized}`;
+    })
+    .filter(Boolean);
+  const optionBlock = optionParts.length > 0 ? ` [${optionParts.join(" ")}]` : "";
+  const componentPart = components.length > 0 ? ` ${components.join(" ")}` : "";
+  return `deb${optionBlock} ${baseUrl} ${suite}${componentPart}`.trim();
 }
 
 function formatPackageGroups(packages) {
@@ -198,19 +229,20 @@ function buildPackagesSection(packagesData, metaData) {
   ].join("\n");
 }
 
-function buildRepoDoc({ repo, keyEntry, packagesData, packagesMeta }) {
+function buildRepoDoc({ repo, keyEntry, packagesData, packagesMeta, suitesMeta }) {
   const repoId = repo.id ?? "";
-  const os = repo.os ?? "";
   const label = getRepoLabel(repo);
   const docsUrl = getDocsUrl(repo);
   const keyDocsUrl = getKeyDocsUrl(keyEntry);
   const keyId = getKeyId(repo);
+  const baseUrl = getRepoBaseUrl(repo);
+  const repoHost = getRepoHost(baseUrl);
   const fingerprints = getExpectedFingerprints(keyEntry);
   const keySourceUrl = getKeySourceUrl(keyEntry);
-  const sourceLine = stripDebPrefix(repo.source);
   const rawKeyPlaceholder = `https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/${keyId}.asc`;
   const repoTags = Array.isArray(repo.tags) ? repo.tags : [];
   const keyTags = Array.isArray(keyEntry?.tags) ? keyEntry.tags : [];
+  const suites = Array.isArray(suitesMeta?.suites) ? suitesMeta.suites : [];
 
   const fingerprintLines =
     fingerprints.length > 0
@@ -218,16 +250,43 @@ function buildRepoDoc({ repo, keyEntry, packagesData, packagesMeta }) {
       : "- (not set)";
 
   return [
-    `# ${label} (${os})`,
+    `# ${label}`,
     "",
     "## Repository",
     `- Repository ID: \`${repoId}\``,
-    `- OS: \`${os}\``,
-    `- Source: \`${sourceLine}\``,
+    `- Base URL: \`${baseUrl || "(not set)"}\``,
+    repoHost ? `- Host: \`${repoHost}\`` : "- Host: (not set)",
     "",
     "## Upstream documentation",
     docsUrl ? `- Documentation URL: ${docsUrl}` : "- Documentation URL: (not set)",
     keyDocsUrl ? `- Key documentation URL: ${keyDocsUrl}` : "- Key documentation URL: (not set)",
+    "",
+    "## Suites",
+    suites.length > 0
+      ? suites
+          .map((suiteEntry) => {
+            const components = Array.isArray(suiteEntry.components) ? suiteEntry.components : [];
+            const architectures = Array.isArray(suiteEntry.architectures)
+              ? suiteEntry.architectures
+              : [];
+            const observedOs = Array.isArray(suiteEntry.observedOs) ? suiteEntry.observedOs : [];
+            const suiteLabel = suiteEntry.suite ? `- Suite: \`${suiteEntry.suite}\`` : "- Suite: (unknown)";
+            const componentLine =
+              components.length > 0
+                ? `  - Components: ${components.join(", ")}`
+                : "  - Components: (not listed)";
+            const archLine =
+              architectures.length > 0
+                ? `  - Architectures: ${architectures.join(", ")}`
+                : "  - Architectures: (not listed)";
+            const osLine =
+              observedOs.length > 0
+                ? `  - Observed OSes: ${observedOs.join(", ")}`
+                : "  - Observed OSes: (not listed)";
+            return [suiteLabel, componentLine, archLine, osLine].join("\n");
+          })
+          .join("\n")
+      : "- Suite metadata has not been generated for this repository.",
     "",
     "## Key reference",
     `- Key ID: \`${keyId}\``,
@@ -240,28 +299,49 @@ function buildRepoDoc({ repo, keyEntry, packagesData, packagesMeta }) {
     "",
     "## Install instructions",
     "",
-    "Variant A (recommended modern apt with signed-by + dearmor):",
-    "",
-    "```bash",
-    "sudo install -d -m 0755 /usr/share/keyrings",
-    `curl -fsSL ${rawKeyPlaceholder} | gpg --dearmor | sudo tee /usr/share/keyrings/${keyId}.gpg >/dev/null`,
-    `echo \"deb [signed-by=/usr/share/keyrings/${keyId}.gpg] ${sourceLine}\" | sudo tee /etc/apt/sources.list.d/${repoId}.list >/dev/null`,
-    "sudo apt-get update",
-    "```",
-    "",
-    "Variant B (store ASCII key, dearmor file explicitly):",
-    "",
-    "```bash",
-    `curl -fsSL ${rawKeyPlaceholder} -o /tmp/${keyId}.asc`,
-    `gpg --dearmor /tmp/${keyId}.asc`,
-    `sudo install -m 0644 /tmp/${keyId}.gpg /usr/share/keyrings/${keyId}.gpg`,
-    `echo \"deb [signed-by=/usr/share/keyrings/${keyId}.gpg] ${sourceLine}\" | sudo tee /etc/apt/sources.list.d/${repoId}.list >/dev/null`,
-    "sudo apt-get update",
-    "```",
+    suites.length > 0
+      ? suites
+          .map((suiteEntry) => {
+            const components = Array.isArray(suiteEntry.components) ? suiteEntry.components : [];
+            const options = suiteEntry.options && typeof suiteEntry.options === "object" ? suiteEntry.options : {};
+            const suiteLabel = suiteEntry.suite || "(unknown)";
+            const sourceLine = buildSourceLine({
+              baseUrl,
+              suite: suiteLabel,
+              components,
+              options,
+              signedByPath: `/usr/share/keyrings/${keyId}.gpg`
+            });
+            return [
+              `### Suite: ${suiteLabel}`,
+              "",
+              "Variant A (recommended modern apt with signed-by + dearmor):",
+              "",
+              "```bash",
+              "sudo install -d -m 0755 /usr/share/keyrings",
+              `curl -fsSL ${rawKeyPlaceholder} | gpg --dearmor | sudo tee /usr/share/keyrings/${keyId}.gpg >/dev/null`,
+              `echo \"${sourceLine}\" | sudo tee /etc/apt/sources.list.d/${repoId}-${suiteLabel}.list >/dev/null`,
+              "sudo apt-get update",
+              "```",
+              "",
+              "Variant B (store ASCII key, dearmor file explicitly):",
+              "",
+              "```bash",
+              `curl -fsSL ${rawKeyPlaceholder} -o /tmp/${keyId}.asc`,
+              `gpg --dearmor /tmp/${keyId}.asc`,
+              `sudo install -m 0644 /tmp/${keyId}.gpg /usr/share/keyrings/${keyId}.gpg`,
+              `echo \"${sourceLine}\" | sudo tee /etc/apt/sources.list.d/${repoId}-${suiteLabel}.list >/dev/null`,
+              "sudo apt-get update",
+              "```",
+              ""
+            ].join("\n");
+          })
+          .join("\n")
+      : "Suite metadata is required to generate install commands.",
     "",
     buildPackagesSection(packagesData, packagesMeta),
     "## Notes",
-    "- OS support: verify upstream documentation for supported releases.",
+    "- Suite availability is derived from Release metadata; verify upstream documentation for support policy.",
     "- The trust anchor is the fingerprint; validate it before use.",
     ...(repo.notes ? [`- Repo notes: ${repo.notes}`] : []),
     ...(repoTags.length ? [`- Repo tags: ${repoTags.join(", ")}`] : []),
@@ -332,13 +412,19 @@ function buildAggregatedPackagesSection(packageIndex) {
 }
 
 async function buildDocsIndex(repos) {
-  const grouped = new Map();
+  const vendorMap = new Map();
+  const hostMap = new Map();
   for (const repo of repos) {
-    const os = repo.os ?? "unknown";
-    if (!grouped.has(os)) {
-      grouped.set(os, []);
+    const vendor = repo.name ?? "unknown";
+    if (!vendorMap.has(vendor)) {
+      vendorMap.set(vendor, []);
     }
-    grouped.get(os).push(repo);
+    vendorMap.get(vendor).push(repo);
+    const host = getRepoHost(getRepoBaseUrl(repo)) || "unknown";
+    if (!hostMap.has(host)) {
+      hostMap.set(host, []);
+    }
+    hostMap.get(host).push(repo);
   }
 
   const packageIndex = new Map();
@@ -386,22 +472,49 @@ async function buildDocsIndex(repos) {
     "# Repository Docs",
     "",
     "_This file is generated from catalog data. Do not edit manually._",
+    "",
+    "## All repositories",
+    ...repos
+      .slice()
+      .sort((a, b) => String(a.id ?? "").localeCompare(String(b.id ?? "")))
+      .map((repo) => `- [${getRepoLabel(repo)} (${repo.id})](repos/${repo.id}.md)`),
+    "",
+    "## By vendor",
+    ...Array.from(vendorMap.keys())
+      .sort((a, b) => a.localeCompare(b))
+      .flatMap((vendor) => {
+        const items = vendorMap
+          .get(vendor)
+          .sort((a, b) => String(a.id ?? "").localeCompare(String(b.id ?? "")));
+        return [
+          "<details>",
+          `<summary>${vendor} (${items.length})</summary>`,
+          "",
+          ...items.map((repo) => `- [${getRepoLabel(repo)} (${repo.id})](repos/${repo.id}.md)`),
+          "",
+          "</details>",
+          ""
+        ];
+      }),
+    "## By host",
+    ...Array.from(hostMap.keys())
+      .sort((a, b) => a.localeCompare(b))
+      .flatMap((host) => {
+        const items = hostMap
+          .get(host)
+          .sort((a, b) => String(a.id ?? "").localeCompare(String(b.id ?? "")));
+        return [
+          "<details>",
+          `<summary>${host} (${items.length})</summary>`,
+          "",
+          ...items.map((repo) => `- [${getRepoLabel(repo)} (${repo.id})](repos/${repo.id}.md)`),
+          "",
+          "</details>",
+          ""
+        ];
+      }),
     ""
   ];
-
-  const osList = Array.from(grouped.keys()).sort();
-  for (const os of osList) {
-    lines.push(`## ${os}`);
-    const reposForOs = grouped.get(os).sort((a, b) =>
-      String(a.id ?? "").localeCompare(String(b.id ?? ""))
-    );
-    for (const repo of reposForOs) {
-      const repoId = repo.id ?? "";
-      const label = getRepoLabel(repo);
-      lines.push(`- [${label} (${repoId})](repos/${repoId}.md)`);
-    }
-    lines.push("");
-  }
 
   lines.push(buildAggregatedPackagesSection(packageIndex));
 
@@ -425,19 +538,34 @@ async function main() {
 
   await mkdir(reposDocsDir, { recursive: true });
 
+  const repoIds = new Set();
   for (const repo of reposCatalog.repos) {
     const repoId = repo.id ?? "";
     if (!repoId) {
       continue;
     }
+    repoIds.add(repoId);
     const keyId = getKeyId(repo);
     const keyEntry = keyMap.get(keyId);
     const packagesMetaPath = path.join(dataReposDir, repoId, "packages.meta.json");
+    const suitesMetaPath = path.join(dataReposDir, repoId, "suites.json");
     const packagesData = await loadPackagesIndex(path.join(dataReposDir, repoId));
     const packagesMeta = await readOptionalJson(packagesMetaPath);
-    const doc = buildRepoDoc({ repo, keyEntry, packagesData, packagesMeta });
+    const suitesMeta = await readOptionalJson(suitesMetaPath);
+    const doc = buildRepoDoc({ repo, keyEntry, packagesData, packagesMeta, suitesMeta });
     const docPath = path.join(reposDocsDir, `${repoId}.md`);
     await writeFile(docPath, doc, "utf8");
+  }
+
+  const existingDocs = await readdir(reposDocsDir, { withFileTypes: true });
+  for (const entry of existingDocs) {
+    if (!entry.isFile() || !entry.name.endsWith(".md")) {
+      continue;
+    }
+    const repoId = entry.name.slice(0, -3);
+    if (!repoIds.has(repoId)) {
+      await unlink(path.join(reposDocsDir, entry.name));
+    }
   }
 
   const indexDoc = await buildDocsIndex(reposCatalog.repos);

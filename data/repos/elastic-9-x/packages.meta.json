@@ -1,0 +1,76 @@
+{
+  "fetchedAt": "2026-01-26T16:43:09.183Z",
+  "repoId": "elastic-9-x",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://artifacts.elastic.co/packages/9.x/apt",
+    "suites": [
+      {
+        "suite": "stable",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "stable",
+      "release": {
+        "Origin": "elastic",
+        "Label": ". stable",
+        "Suite": "stable",
+        "Codename": "stable",
+        "Date": "Tue, 13 Jan 2026 12:12:01 UTC",
+        "Acquire-By-Hash": "yes",
+        "Components": "main",
+        "Architectures": "amd64 arm64 i386"
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/elastic-9-x/run-7IfbvD/keyrings/elasticsearch.gpg] ] https://artifacts.elastic.co/packages/9.x/apt stable main",
+    "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/Release",
+    "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-amd64/Packages.gz",
+    "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-arm64/Packages.gz",
+    "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-i386/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "source": "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-amd64/Packages.gz",
+      "suite": "stable",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-arm64/Packages.gz",
+      "suite": "stable",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://artifacts.elastic.co/packages/9.x/apt/dists/stable/main/binary-i386/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/elastic-9-x/packages.raw/20260126T164309Z/main/binary-i386/Packages.gz",
+      "suite": "stable",
+      "component": "main",
+      "arch": "i386"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://artifacts.elastic.co/packages/9.x/apt stable InRelease [3248 B]\nErr:1 https://artifacts.elastic.co/packages/9.x/apt stable InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY D27D666CD88E42B4\nReading package lists...\n\nW: GPG error: https://artifacts.elastic.co/packages/9.x/apt stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY D27D666CD88E42B4\nE: The repository 'https://artifacts.elastic.co/packages/9.x/apt stable InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
+}

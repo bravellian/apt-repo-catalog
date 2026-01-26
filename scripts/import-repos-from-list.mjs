@@ -1,11 +1,11 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { loadReposCatalog, writeReposCatalog } from "./lib/repos-catalog.mjs";
 
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
-const osPattern = /^(ubuntu|debian)(?:-([0-9]{2}\.[0-9]{2}|[0-9]{1,2}))?$/;
+const dataReposDir = path.join(root, "data", "repos");
 
 function parseArgs(argv) {
   const args = { sources: [] };
@@ -92,7 +92,7 @@ function parseDebLine(line) {
   const uri = parts[index];
   const suite = parts[index + 1];
   const components = parts.slice(index + 2);
-  if (!uri || !suite || components.length === 0) {
+  if (!uri || !suite) {
     return null;
   }
   return { uri, suite, components };
@@ -114,8 +114,8 @@ function extractFilename(source) {
   return path.basename(source);
 }
 
-function buildId({ vendor, channel, os, suite, host }) {
-  return normalizeSlug([vendor, channel, os, suite, host].filter(Boolean).join("-"));
+function buildId({ vendor, channel, suite, host }) {
+  return normalizeSlug([vendor, channel, suite, host].filter(Boolean).join("-"));
 }
 
 function ensureUniqueId(id, existingIds) {
@@ -133,14 +133,13 @@ function ensureUniqueId(id, existingIds) {
   return candidate;
 }
 
-function toDocsLabel(prefix, os, channel) {
-  const parts = [prefix, os, channel].filter(Boolean);
+function toDocsLabel(prefix, channel) {
+  const parts = [prefix, channel].filter(Boolean);
   return parts.join(" - ");
 }
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const os = ensureString(args.os, "os");
   const keyId = ensureString(args.keyId, "keyId");
   const documentationUrl = ensureString(args.documentationUrl, "documentationUrl");
   const vendor = ensureString(args.vendor, "vendor");
@@ -155,9 +154,6 @@ async function main() {
   const notes = args.notes;
   const channelFromFilename = args.channelFromFilename === true;
 
-  if (!osPattern.test(os)) {
-    throw new Error(`Invalid os ${os}. Use ubuntu-24.04 or debian-12 (or ubuntu/debian).`);
-  }
 
   const keysCatalog = JSON.parse(await readFile(keysPath, "utf8"));
   if (!Array.isArray(keysCatalog.keys)) {
@@ -177,17 +173,19 @@ async function main() {
   }
 
   const existingIds = new Set(reposCatalog.repos.map((repo) => repo.id));
-  const existingBySignature = new Map();
+  const existingByBase = new Map();
   for (const repo of reposCatalog.repos) {
-    if (!repo.source || !repo.os) {
+    const baseUrl = repo.baseUrl ?? repo.base_url ?? "";
+    const repoKey = repo.keyId ?? repo.key_id ?? "";
+    if (!baseUrl || !repoKey) {
       continue;
     }
-    const signature = `${repo.os}|${repo.source}|${repo.keyId ?? repo.key_id ?? ""}`;
-    existingBySignature.set(signature, repo);
+    existingByBase.set(`${baseUrl}|${repoKey}`, repo);
   }
 
   const seenSources = new Set();
   const planned = [];
+  const suitesByRepo = new Map();
   const skipped = [];
   let debLines = 0;
   const processed = [];
@@ -228,38 +226,45 @@ async function main() {
             args["id-format"]
               .replaceAll("{vendor}", vendor)
               .replaceAll("{channel}", channel || "default")
-              .replaceAll("{os}", os)
               .replaceAll("{suite}", parsed.suite)
               .replaceAll("{host}", host)
           )
         : buildId({
             vendor,
             channel: channel || "default",
-            os,
             suite: parsed.suite,
             host
           });
-      const id = ensureUniqueId(baseId, existingIds);
-      const signature = `${os}|${normalized}|${keyId}`;
+      const baseKey = `${parsed.uri}|${keyId}`;
+      let repoEntry = existingByBase.get(baseKey);
 
-      if (existingBySignature.has(signature)) {
-        skipped.push({ reason: "duplicate-existing", source: normalized });
-        continue;
+      if (!repoEntry) {
+        const id = ensureUniqueId(baseId, existingIds);
+        repoEntry = {
+          id,
+          label: toDocsLabel(labelPrefix, channel || "default"),
+          name,
+          baseUrl: parsed.uri,
+          keyId,
+          documentationUrl,
+          tags,
+          notes
+        };
+        planned.push(repoEntry);
+        existingByBase.set(baseKey, repoEntry);
       }
 
-      const entry = {
-        id,
-        label: toDocsLabel(labelPrefix, os, channel || "default"),
-        os,
-        name,
-        source: normalized,
-        keyId,
-        documentationUrl,
-        tags,
-        notes
-      };
-
-      planned.push(entry);
+      if (!suitesByRepo.has(repoEntry.id)) {
+        suitesByRepo.set(repoEntry.id, new Map());
+      }
+      const suiteMap = suitesByRepo.get(repoEntry.id);
+      if (!suiteMap.has(parsed.suite)) {
+        suiteMap.set(parsed.suite, new Set());
+      }
+      const components = parsed.components.length > 0 ? parsed.components : [];
+      for (const component of components) {
+        suiteMap.get(parsed.suite).add(component);
+      }
     }
   }
 
@@ -299,6 +304,30 @@ async function main() {
   }
 
   await writeReposCatalog({ root, repos: reposCatalog.repos, preferDir: true, clean: true });
+
+  for (const [repoId, suiteMap] of suitesByRepo.entries()) {
+    const repo = reposCatalog.repos.find((item) => item.id === repoId);
+    if (!repo) {
+      continue;
+    }
+    const suitesPayload = {
+      generatedAt: new Date().toISOString(),
+      repoId,
+      baseUrl: repo.baseUrl ?? repo.base_url ?? "",
+      keyId: repo.keyId ?? repo.key_id ?? "",
+      suites: Array.from(suiteMap.entries()).map(([suite, componentsSet]) => ({
+        suite,
+        components: Array.from(componentsSet).sort((a, b) => a.localeCompare(b))
+      }))
+    };
+    const repoDir = path.join(dataReposDir, repoId);
+    await mkdir(repoDir, { recursive: true });
+    await writeFile(
+      path.join(repoDir, "suites.json"),
+      JSON.stringify(suitesPayload, null, 2) + "\n",
+      "utf8"
+    );
+  }
 
   const validateRepos = spawnSync("node", ["scripts/validate-repos.mjs"], {
     stdio: "inherit",

@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.574Z",
+  "repoId": "microsoft-default-ubuntu-19-04-disco-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/19.04/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "disco",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-19.04"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    }
+  ]
+}

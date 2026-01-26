@@ -1,9 +1,8 @@
 {
   "id": "brave-browser",
   "label": "Brave Browser (Stable)",
-  "os": "ubuntu-22.04",
   "name": "brave-browser",
-  "source": "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main",
+  "baseUrl": "https://brave-browser-apt-release.s3.brave.com",
   "keyId": "brave-browser",
   "documentationUrl": "https://brave.com/linux/",
   "tags": [

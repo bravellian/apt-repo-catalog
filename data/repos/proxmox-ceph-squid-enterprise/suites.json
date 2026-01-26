@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.604Z",
+  "repoId": "proxmox-ceph-squid-enterprise",
+  "baseUrl": "https://enterprise.proxmox.com/debian/ceph-squid",
+  "keyId": "proxmox-archive-keyring-trixie",
+  "suites": [
+    {
+      "suite": "trixie",
+      "components": [
+        "enterprise"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "proxmox-9"
+      ]
+    }
+  ]
+}

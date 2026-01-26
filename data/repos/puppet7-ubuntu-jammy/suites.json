@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.617Z",
+  "repoId": "puppet7-ubuntu-jammy",
+  "baseUrl": "https://apt.puppet.com",
+  "keyId": "puppet",
+  "suites": [
+    {
+      "suite": "bookworm",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12"
+      ]
+    },
+    {
+      "suite": "bionic",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.04"
+      ]
+    },
+    {
+      "suite": "bullseye",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-11"
+      ]
+    },
+    {
+      "suite": "buster",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-10"
+      ]
+    },
+    {
+      "suite": "cosmic",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.10"
+      ]
+    },
+    {
+      "suite": "focal",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.04"
+      ]
+    },
+    {
+      "suite": "jessie",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-8"
+      ]
+    },
+    {
+      "suite": "noble",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.04"
+      ]
+    },
+    {
+      "suite": "stretch",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-9"
+      ]
+    },
+    {
+      "suite": "trusty",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-14.04"
+      ]
+    },
+    {
+      "suite": "wheezy",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-7"
+      ]
+    },
+    {
+      "suite": "xenial",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-16.04"
+      ]
+    },
+    {
+      "suite": "yakkety",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-16.10"
+      ]
+    },
+    {
+      "suite": "jammy",
+      "components": [
+        "puppet7"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    }
+  ]
+}

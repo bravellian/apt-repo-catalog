@@ -1,9 +1,8 @@
 {
   "id": "proxmox-ve-7-enterprise",
   "label": "Proxmox VE 7 - enterprise",
-  "os": "proxmox-7",
   "name": "proxmox",
-  "source": "deb https://enterprise.proxmox.com/debian/pve bullseye pve-enterprise",
+  "baseUrl": "https://enterprise.proxmox.com/debian/pve",
   "keyId": "proxmox-release-bullseye",
   "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
   "tags": [

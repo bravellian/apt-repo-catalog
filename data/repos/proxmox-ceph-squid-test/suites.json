@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.606Z",
+  "repoId": "proxmox-ceph-squid-test",
+  "baseUrl": "http://download.proxmox.com/debian/ceph-squid",
+  "keyId": "proxmox-archive-keyring-trixie",
+  "suites": [
+    {
+      "suite": "bookworm",
+      "components": [
+        "no-subscription",
+        "test"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12"
+      ]
+    },
+    {
+      "suite": "trixie",
+      "components": [
+        "no-subscription",
+        "test"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13",
+        "proxmox-9"
+      ]
+    }
+  ]
+}

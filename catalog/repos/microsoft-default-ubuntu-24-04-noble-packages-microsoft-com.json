@@ -1,9 +1,8 @@
 {
   "id": "microsoft-default-ubuntu-24-04-noble-packages-microsoft-com",
   "label": "Microsoft - ubuntu-24.04 - default",
-  "os": "ubuntu-24.04",
   "name": "microsoft",
-  "source": "deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/ubuntu/24.04/prod noble main",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/24.04/prod",
   "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
   "documentationUrl": "https://packages.microsoft.com/config/ubuntu/24.04",
   "tags": [

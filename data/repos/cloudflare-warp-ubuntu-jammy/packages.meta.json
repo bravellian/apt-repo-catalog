@@ -1,0 +1,484 @@
+{
+  "fetchedAt": "2026-01-26T16:42:11.127Z",
+  "repoId": "cloudflare-warp-ubuntu-jammy",
+  "mode": "auto",
+  "source": {
+    "baseUrl": "https://pkg.cloudflareclient.com",
+    "suites": [
+      {
+        "suite": "bookworm",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bionic",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "bullseye",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "buster",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "focal",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "stretch",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "trixie",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "xenial",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "jammy",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      },
+      {
+        "suite": "noble",
+        "components": [
+          "main"
+        ],
+        "options": {}
+      }
+    ],
+    "arch": null
+  },
+  "repoFromCatalog": true,
+  "releases": [
+    {
+      "suite": "bookworm",
+      "release": {
+        "Origin": "pkg.cloudflareclient.com",
+        "Label": "Cloudflare Package Repository",
+        "Suite": "bookworm",
+        "Codename": "bookworm",
+        "Date": "Tue, 13 Jan 2026 01:05:40 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "bookworm/main",
+        "Description": "apt repository for cloudflare-warp - bookworm"
+      }
+    },
+    {
+      "suite": "bionic",
+      "release": {
+        "Origin": "pkg.cloudflareclient.com",
+        "Label": "Cloudflare Package Repository",
+        "Suite": "bionic",
+        "Codename": "bionic",
+        "Date": "Fri, 12 Apr 2024 15:03:22 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "bionic/main",
+        "Description": "apt repository for cloudflare-warp - bionic"
+      }
+    },
+    {
+      "suite": "bullseye",
+      "release": {
+        "Origin": "pkg.cloudflareclient.com",
+        "Label": "Cloudflare Package Repository",
+        "Suite": "bullseye",
+        "Codename": "bullseye",
+        "Date": "Tue, 13 Jan 2026 01:05:39 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "bullseye/main",
+        "Description": "apt repository for cloudflare-warp - bullseye"
+      }
+    },
+    {
+      "suite": "buster",
+      "release": {
+        "Origin": "pkg.cloudflareclient.com",
+        "Label": "Cloudflare Package Repository",
+        "Suite": "buster",
+        "Codename": "buster",
+        "Date": "Tue, 19 Aug 2025 20:30:50 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "buster/main",
+        "Description": "apt repository for cloudflare-warp - buster"
+      }
+    },
+    {
+      "suite": "focal",
+      "release": {
+        "Origin": "pkg.cloudflareclient.com",
+        "Label": "Cloudflare Package Repository",
+        "Suite": "focal",
+        "Codename": "focal",
+        "Date": "Tue, 13 Jan 2026 01:05:35 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "focal/main",
+        "Description": "apt repository for cloudflare-warp - focal"
+      }
+    },
+    {
+      "suite": "stretch",
+      "release": {
+        "Origin": "pkg.cloudflareclient.com",
+        "Label": "Cloudflare Package Repository",
+        "Suite": "stretch",
+        "Codename": "stretch",
+        "Date": "Thu, 13 Jul 2023 18:20:58 UTC",
+        "Architectures": "amd64",
+        "Components": "stretch/main",
+        "Description": "apt repository for cloudflare-warp - stretch"
+      }
+    },
+    {
+      "suite": "trixie",
+      "release": {
+        "Origin": "pkg.cloudflareclient.com",
+        "Label": "Cloudflare Package Repository",
+        "Suite": "trixie",
+        "Codename": "trixie",
+        "Date": "Tue, 13 Jan 2026 01:05:41 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "trixie/main",
+        "Description": "apt repository for cloudflare-warp - trixie"
+      }
+    },
+    {
+      "suite": "xenial",
+      "release": {
+        "Origin": "pkg.cloudflareclient.com",
+        "Label": "Cloudflare Package Repository",
+        "Suite": "xenial",
+        "Codename": "xenial",
+        "Date": "Thu, 13 Jul 2023 18:20:57 UTC",
+        "Architectures": "amd64",
+        "Components": "xenial/main",
+        "Description": "apt repository for cloudflare-warp - xenial"
+      }
+    },
+    {
+      "suite": "jammy",
+      "release": {
+        "Origin": "pkg.cloudflareclient.com",
+        "Label": "Cloudflare Package Repository",
+        "Suite": "jammy",
+        "Codename": "jammy",
+        "Date": "Tue, 13 Jan 2026 01:05:36 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "jammy/main",
+        "Description": "apt repository for cloudflare-warp - jammy"
+      }
+    },
+    {
+      "suite": "noble",
+      "release": {
+        "Origin": "pkg.cloudflareclient.com",
+        "Label": "Cloudflare Package Repository",
+        "Suite": "noble",
+        "Codename": "noble",
+        "Date": "Tue, 13 Jan 2026 01:05:37 UTC",
+        "Architectures": "amd64 arm64",
+        "Components": "noble/main",
+        "Description": "apt repository for cloudflare-warp - noble"
+      }
+    }
+  ],
+  "sources": [
+    "deb [[object Object signed-by=/tmp/apt-inventory/cloudflare-warp-ubuntu-jammy/run-KVQ9se/keyrings/cloudflare-warp.gpg] ] https://pkg.cloudflareclient.com bookworm main",
+    "https://pkg.cloudflareclient.com/dists/bookworm/Release",
+    "https://pkg.cloudflareclient.com/dists/bookworm/main/binary-amd64/Packages.gz",
+    "https://pkg.cloudflareclient.com/dists/bookworm/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/cloudflare-warp-ubuntu-jammy/run-vsGTrc/keyrings/cloudflare-warp.gpg] ] https://pkg.cloudflareclient.com bionic main",
+    "https://pkg.cloudflareclient.com/dists/bionic/Release",
+    "https://pkg.cloudflareclient.com/dists/bionic/main/binary-amd64/Packages.gz",
+    "https://pkg.cloudflareclient.com/dists/bionic/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/cloudflare-warp-ubuntu-jammy/run-aBvojJ/keyrings/cloudflare-warp.gpg] ] https://pkg.cloudflareclient.com bullseye main",
+    "https://pkg.cloudflareclient.com/dists/bullseye/Release",
+    "https://pkg.cloudflareclient.com/dists/bullseye/main/binary-amd64/Packages.gz",
+    "https://pkg.cloudflareclient.com/dists/bullseye/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/cloudflare-warp-ubuntu-jammy/run-JfAGV4/keyrings/cloudflare-warp.gpg] ] https://pkg.cloudflareclient.com buster main",
+    "https://pkg.cloudflareclient.com/dists/buster/Release",
+    "https://pkg.cloudflareclient.com/dists/buster/main/binary-amd64/Packages.gz",
+    "https://pkg.cloudflareclient.com/dists/buster/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/cloudflare-warp-ubuntu-jammy/run-nYqO6m/keyrings/cloudflare-warp.gpg] ] https://pkg.cloudflareclient.com focal main",
+    "https://pkg.cloudflareclient.com/dists/focal/Release",
+    "https://pkg.cloudflareclient.com/dists/focal/main/binary-amd64/Packages.gz",
+    "https://pkg.cloudflareclient.com/dists/focal/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/cloudflare-warp-ubuntu-jammy/run-mUBHpG/keyrings/cloudflare-warp.gpg] ] https://pkg.cloudflareclient.com stretch main",
+    "https://pkg.cloudflareclient.com/dists/stretch/Release",
+    "https://pkg.cloudflareclient.com/dists/stretch/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/cloudflare-warp-ubuntu-jammy/run-R0dLZx/keyrings/cloudflare-warp.gpg] ] https://pkg.cloudflareclient.com trixie main",
+    "https://pkg.cloudflareclient.com/dists/trixie/Release",
+    "https://pkg.cloudflareclient.com/dists/trixie/main/binary-amd64/Packages.gz",
+    "https://pkg.cloudflareclient.com/dists/trixie/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/cloudflare-warp-ubuntu-jammy/run-c1oXUu/keyrings/cloudflare-warp.gpg] ] https://pkg.cloudflareclient.com xenial main",
+    "https://pkg.cloudflareclient.com/dists/xenial/Release",
+    "https://pkg.cloudflareclient.com/dists/xenial/main/binary-amd64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/cloudflare-warp-ubuntu-jammy/run-qM45uf/keyrings/cloudflare-warp.gpg] ] https://pkg.cloudflareclient.com jammy main",
+    "https://pkg.cloudflareclient.com/dists/jammy/Release",
+    "https://pkg.cloudflareclient.com/dists/jammy/main/binary-amd64/Packages.gz",
+    "https://pkg.cloudflareclient.com/dists/jammy/main/binary-arm64/Packages.gz",
+    "deb [[object Object signed-by=/tmp/apt-inventory/cloudflare-warp-ubuntu-jammy/run-mqQ3XV/keyrings/cloudflare-warp.gpg] ] https://pkg.cloudflareclient.com noble main",
+    "https://pkg.cloudflareclient.com/dists/noble/Release",
+    "https://pkg.cloudflareclient.com/dists/noble/main/binary-amd64/Packages.gz",
+    "https://pkg.cloudflareclient.com/dists/noble/main/binary-arm64/Packages.gz"
+  ],
+  "packageFiles": [
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/bookworm/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/bookworm/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz",
+      "suite": "bookworm",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/bionic/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/bionic/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz",
+      "suite": "bionic",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/bullseye/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/bullseye/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz",
+      "suite": "bullseye",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/buster/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/buster/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz",
+      "suite": "buster",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/focal/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/focal/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz",
+      "suite": "focal",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/stretch/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+      "suite": "stretch",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/trixie/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/trixie/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz",
+      "suite": "trixie",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/xenial/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+      "suite": "xenial",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/jammy/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/jammy/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz",
+      "suite": "jammy",
+      "component": "main",
+      "arch": "arm64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/noble/main/binary-amd64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "amd64"
+    },
+    {
+      "source": "https://pkg.cloudflareclient.com/dists/noble/main/binary-arm64/Packages.gz",
+      "rawPath": "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz",
+      "suite": "noble",
+      "component": "main",
+      "arch": "arm64"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkg.cloudflareclient.com bookworm InRelease [2579 B]\nErr:1 https://pkg.cloudflareclient.com bookworm InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nReading package lists...\n\nW: GPG error: https://pkg.cloudflareclient.com bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nE: The repository 'https://pkg.cloudflareclient.com bookworm InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkg.cloudflareclient.com bionic InRelease [2571 B]\nErr:1 https://pkg.cloudflareclient.com bionic InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nReading package lists...\n\nW: GPG error: https://pkg.cloudflareclient.com bionic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nE: The repository 'https://pkg.cloudflareclient.com bionic InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkg.cloudflareclient.com bullseye InRelease [2579 B]\nErr:1 https://pkg.cloudflareclient.com bullseye InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nReading package lists...\n\nW: GPG error: https://pkg.cloudflareclient.com bullseye InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nE: The repository 'https://pkg.cloudflareclient.com bullseye InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkg.cloudflareclient.com buster InRelease [2571 B]\nErr:1 https://pkg.cloudflareclient.com buster InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nReading package lists...\n\nW: GPG error: https://pkg.cloudflareclient.com buster InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nE: The repository 'https://pkg.cloudflareclient.com buster InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkg.cloudflareclient.com focal InRelease [2567 B]\nErr:1 https://pkg.cloudflareclient.com focal InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nReading package lists...\n\nW: GPG error: https://pkg.cloudflareclient.com focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nE: The repository 'https://pkg.cloudflareclient.com focal InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkg.cloudflareclient.com stretch InRelease [1858 B]\nErr:1 https://pkg.cloudflareclient.com stretch InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nReading package lists...\n\nW: GPG error: https://pkg.cloudflareclient.com stretch InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nE: The repository 'https://pkg.cloudflareclient.com stretch InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkg.cloudflareclient.com trixie InRelease [2571 B]\nErr:1 https://pkg.cloudflareclient.com trixie InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nReading package lists...\n\nW: GPG error: https://pkg.cloudflareclient.com trixie InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nE: The repository 'https://pkg.cloudflareclient.com trixie InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkg.cloudflareclient.com xenial InRelease [1854 B]\nErr:1 https://pkg.cloudflareclient.com xenial InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nReading package lists...\n\nW: GPG error: https://pkg.cloudflareclient.com xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nE: The repository 'https://pkg.cloudflareclient.com xenial InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkg.cloudflareclient.com jammy InRelease [2567 B]\nErr:1 https://pkg.cloudflareclient.com jammy InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nReading package lists...\n\nW: GPG error: https://pkg.cloudflareclient.com jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nE: The repository 'https://pkg.cloudflareclient.com jammy InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    },
+    {
+      "stage": "apt-get",
+      "message": "apt-get update failed",
+      "detail": "Get:1 https://pkg.cloudflareclient.com noble InRelease [2567 B]\nErr:1 https://pkg.cloudflareclient.com noble InRelease\n  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nReading package lists...\n\nW: GPG error: https://pkg.cloudflareclient.com noble InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6E2DD2174FA1C3BA\nE: The repository 'https://pkg.cloudflareclient.com noble InRelease' is not signed."
+    },
+    {
+      "stage": "packages",
+      "message": "Packages index not listed in Release",
+      "detail": "main/binary-all/Packages (.gz/.xz) missing"
+    }
+  ]
+}

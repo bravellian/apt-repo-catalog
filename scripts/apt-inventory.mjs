@@ -14,6 +14,7 @@ import { writePackagesIndex } from "./lib/packages-index.mjs";
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
 const osPath = path.join(root, "catalog", "os.json");
+const dataReposDir = path.join(root, "data", "repos");
 
 const ubuntuCodenameToVersion = {
   trusty: "14.04",
@@ -123,6 +124,14 @@ function toList(value) {
 
 function readJson(filePath) {
   return readFile(filePath, "utf8").then((raw) => JSON.parse(raw));
+}
+
+async function readOptionalJson(filePath) {
+  try {
+    return await readJson(filePath);
+  } catch {
+    return null;
+  }
 }
 
 function getKeyId(repo) {
@@ -852,12 +861,62 @@ async function main() {
         `deb ${overrideBaseUrl} ${overrideSuite} ${components.join(" ")}`.trim();
       repo = {
         id: repoId,
-        source: sourceLine
+        source: sourceLine,
+        baseUrl: overrideBaseUrl ?? undefined,
+        suite: overrideSuite ?? undefined,
+        components: components.length > 0 ? components : undefined
       };
     }
 
     const keyId = getKeyId(repo);
     const keyEntry = keysCatalog.keys.find((item) => item.id === keyId);
+
+    const baseUrl = repo.baseUrl ?? repo.base_url ?? null;
+    const suitesMetaPath = path.join(dataReposDir, repoId, "suites.json");
+    const suitesMeta = await readOptionalJson(suitesMetaPath);
+
+    const suiteTargets = [];
+    if (overrideSuite || overrideSource || overrideBaseUrl) {
+      const parsed = parseDebLine(overrideSource ?? repo.source ?? "");
+      const suite = overrideSuite ?? parsed.suite;
+      const components = overrideComponents.length > 0 ? overrideComponents : parsed.components;
+      if (!suite) {
+        throw new Error(`Suite is required for ${repoId}`);
+      }
+      suiteTargets.push({
+        suite,
+        components,
+        options: parsed.options,
+        baseUrl: overrideBaseUrl ?? baseUrl ?? parsed.uri
+      });
+    } else if (repo.source) {
+      const parsed = parseDebLine(repo.source);
+      if (!parsed.suite) {
+        throw new Error(`Suite is required for ${repoId}`);
+      }
+      suiteTargets.push({
+        suite: parsed.suite,
+        components: parsed.components,
+        options: parsed.options,
+        baseUrl: baseUrl ?? parsed.uri
+      });
+    } else if (suitesMeta?.suites && Array.isArray(suitesMeta.suites)) {
+      for (const suiteEntry of suitesMeta.suites) {
+        if (!suiteEntry?.suite) {
+          continue;
+        }
+        suiteTargets.push({
+          suite: suiteEntry.suite,
+          components: Array.isArray(suiteEntry.components) ? suiteEntry.components : [],
+          options: suiteEntry.options && typeof suiteEntry.options === "object" ? suiteEntry.options : {},
+          baseUrl: baseUrl ?? suitesMeta.baseUrl ?? ""
+        });
+      }
+    }
+
+    if (suiteTargets.length === 0) {
+      throw new Error(`No suite metadata available for ${repoId}`);
+    }
 
     const repoDir = path.join(outRoot, repoId);
     const rawDir = path.join(repoDir, "packages.raw", timestampId());
@@ -870,79 +929,103 @@ async function main() {
       repoId,
       mode,
       source: {
-        line: repo.source,
-        suite: overrideSuite ?? null,
-        components: overrideComponents.length > 0 ? overrideComponents : null,
+        baseUrl: baseUrl ?? null,
+        suites: suiteTargets.map((suiteEntry) => ({
+          suite: suiteEntry.suite,
+          components: suiteEntry.components,
+          options: suiteEntry.options
+        })),
         arch: archList.length > 0 ? archList : null
       },
       repoFromCatalog: Boolean(repoFromCatalog),
-      release: null,
+      releases: [],
       sources: [],
       packageFiles: [],
       errors: []
     };
+    const packages = [];
 
-    let entries = [];
-    if (mode === "apt" || mode === "auto") {
-      const result = await runAptAssisted({
-        repo,
-        keyEntry,
-        outputRawDir: rawDir,
-        timeoutSeconds,
-        archList
+    for (const suiteTarget of suiteTargets) {
+      const suiteSourceLine = buildSourceLine({
+        debType: "deb",
+        options: suiteTarget.options ?? {},
+        uri: suiteTarget.baseUrl ?? baseUrl ?? "",
+        suite: suiteTarget.suite,
+        components: suiteTarget.components ?? []
       });
-      meta.sources.push(...result.sources);
-      meta.packageFiles.push(...result.packageFiles);
-      meta.errors.push(...result.errors);
-      if (result.release) {
-        meta.release = result.release;
-      }
-      entries = result.entries ?? [];
-      if (mode === "apt" && !result.ok) {
-        meta.errors.push({
-          stage: "apt-get",
-          message: "APT-assisted mode failed",
-          detail: "Use --mode direct to bypass apt-get"
+      const suiteRepo = {
+        ...repo,
+        source: suiteSourceLine,
+        baseUrl: suiteTarget.baseUrl ?? baseUrl ?? undefined,
+        suite: suiteTarget.suite,
+        components: suiteTarget.components ?? []
+      };
+
+      let entries = [];
+      if (mode === "apt" || mode === "auto") {
+        const result = await runAptAssisted({
+          repo: suiteRepo,
+          keyEntry,
+          outputRawDir: rawDir,
+          timeoutSeconds,
+          archList
         });
+        meta.sources.push(...result.sources);
+        meta.packageFiles.push(...result.packageFiles);
+        meta.errors.push(...result.errors);
+        if (result.release) {
+          meta.releases.push({ suite: suiteTarget.suite, release: result.release });
+        }
+        entries = result.entries ?? [];
+        if (mode === "apt" && !result.ok) {
+          meta.errors.push({
+            stage: "apt-get",
+            message: `APT-assisted mode failed (${suiteTarget.suite})`,
+            detail: "Use --mode direct to bypass apt-get"
+          });
+        }
+        if (mode === "auto" && (!result.ok || entries.length === 0)) {
+          const direct = await runDirectFetch({
+            repo: suiteRepo,
+            outputRawDir: rawDir,
+            archList,
+            overrideSuite: suiteTarget.suite,
+            overrideComponents: suiteTarget.components
+          });
+          meta.sources.push(...direct.sources);
+          meta.packageFiles.push(...direct.packageFiles);
+          meta.errors.push(...direct.errors);
+          if (direct.release) {
+            meta.releases.push({ suite: suiteTarget.suite, release: direct.release });
+          }
+          entries = direct.entries ?? entries;
+        }
       }
-      if (mode === "auto" && (!result.ok || entries.length === 0)) {
+
+      if (mode === "direct") {
         const direct = await runDirectFetch({
-          repo,
+          repo: suiteRepo,
           outputRawDir: rawDir,
           archList,
-          overrideSuite,
-          overrideComponents
+          overrideSuite: suiteTarget.suite,
+          overrideComponents: suiteTarget.components
         });
         meta.sources.push(...direct.sources);
         meta.packageFiles.push(...direct.packageFiles);
         meta.errors.push(...direct.errors);
-        if (!meta.release && direct.release) {
-          meta.release = direct.release;
+        if (direct.release) {
+          meta.releases.push({ suite: suiteTarget.suite, release: direct.release });
         }
-        entries = direct.entries ?? entries;
+        entries = direct.entries ?? [];
       }
-    }
 
-    if (mode === "direct") {
-      const direct = await runDirectFetch({
-        repo,
-        outputRawDir: rawDir,
-        archList,
-        overrideSuite,
-        overrideComponents
+      const normalized = normalizePackages(entries, {
+        repoId,
+        suite: suiteTarget.suite,
+        component: ""
       });
-      meta.sources.push(...direct.sources);
-      meta.packageFiles.push(...direct.packageFiles);
-      meta.errors.push(...direct.errors);
-      meta.release = direct.release;
-      entries = direct.entries ?? [];
+      packages.push(...normalized);
     }
-
-    const packages = normalizePackages(entries, {
-      repoId,
-      suite: overrideSuite ?? parseDebLine(repo.source).suite,
-      component: ""
-    });
 
     const packagesMetaPath = path.join(repoDir, "packages.meta.json");
 
@@ -1146,8 +1229,9 @@ async function main() {
     const duplicateRepoSignatures = [];
     for (const repo of reposById.values()) {
       const keyId = getKeyId(repo) ?? "";
-      const signature = `${repo.os ?? ""}|${normalizeDebLine(repo.source ?? "")}|${keyId}`;
-      if (!repo.os || !repo.source) {
+      const baseUrl = repo.baseUrl ?? repo.base_url ?? "";
+      const signature = `${baseUrl}|${normalizeDebLine(repo.source ?? "")}|${keyId}`;
+      if (!baseUrl && !repo.source) {
         missingRepoSignatureCount += 1;
         const fallbackId = `${repo.id ?? "unknown"}|${signature}|${missingRepoSignatureCount}`;
         reposBySignature.set(fallbackId, repo);
@@ -1225,6 +1309,13 @@ async function main() {
     if (fallbackOs && !osIds.has(fallbackOs)) {
       throw new Error(`Unknown fallback os ${fallbackOs} in catalog/os.json`);
     }
+    const osList = toList(args["os-list"]);
+    if (osList.length > 0) {
+      const invalid = osList.filter((value) => !osIds.has(value));
+      if (invalid.length > 0) {
+        throw new Error(`Unknown os in --os-list: ${invalid.join(", ")}`);
+      }
+    }
 
     const existingIds = new Set(reposCatalog.repos.map((item) => item.id));
     const existingBySignature = new Map();
@@ -1262,8 +1353,15 @@ async function main() {
         }
         const releaseSuiteRaw = release.fields.Codename || release.fields.Suite || suite;
         const releaseSuite = splitSuiteList(releaseSuiteRaw)[0] ?? suite;
-        const osId = resolveOsIdForSuite(releaseSuite, osIds, fallbackOs);
-        if (!osId) {
+        const resolvedOs = resolveOsIdForSuite(releaseSuite, osIds, null);
+        const osTargets = resolvedOs
+          ? [resolvedOs]
+          : osList.length > 0
+            ? osList
+            : fallbackOs
+              ? [fallbackOs]
+              : [];
+        if (osTargets.length === 0) {
           skipped.push({ suite, reason: "unknown-os", detail: releaseSuite });
           continue;
         }
@@ -1283,53 +1381,59 @@ async function main() {
           suite,
           components
         });
-        const signature = `${osId}|${source}|${getKeyId(repo) ?? ""}`;
-        if (existingBySignature.has(signature)) {
-          skipped.push({ suite, reason: "duplicate-existing" });
-          continue;
-        }
+        const idTemplate =
+          args["id-format"] ?? (osList.length > 0 ? "{baseId}-{suite}-{os}" : "{baseId}-{suite}");
+        const labelTemplate =
+          args["label-format"] ??
+          (osList.length > 0 ? "{baseLabel} - {suite} - {os}" : "{baseLabel} - {suite}");
 
-        const idTemplate = args["id-format"] ?? "{baseId}-{suite}";
-        const labelTemplate = args["label-format"] ?? "{baseLabel} - {suite}";
-        const tokens = {
-          baseId: repo.id,
-          baseLabel: repo.label ?? repo.id,
-          suite,
-          os: osId,
-          codename: releaseSuite
-        };
-        const baseId = normalizeRepoId(formatTemplate(idTemplate, tokens));
-        let id = baseId;
-        if (existingIds.has(id)) {
-          let counter = 2;
-          while (existingIds.has(`${baseId}-${counter}`)) {
-            counter += 1;
+        for (const osTarget of osTargets) {
+          const signature = `${osTarget}|${source}|${getKeyId(repo) ?? ""}`;
+          if (existingBySignature.has(signature)) {
+            skipped.push({ suite, reason: "duplicate-existing" });
+            continue;
           }
-          id = `${baseId}-${counter}`;
-        }
-        existingIds.add(id);
 
-        const entry = {
-          id,
-          label: formatTemplate(labelTemplate, tokens),
-          os: osId,
-          name: repo.name,
-          source,
-          keyId: getKeyId(repo),
-          documentationUrl: repo.documentationUrl,
-          tags: repo.tags,
-          notes: repo.notes
-        };
-        if (!entry.documentationUrl) {
-          entry.allowMissingDocsUrl = true;
-        }
-        if (repo.allowDeprecatedKey) {
-          entry.allowDeprecatedKey = true;
-        }
+          const tokens = {
+            baseId: repo.id,
+            baseLabel: repo.label ?? repo.id,
+            suite,
+            os: osTarget,
+            codename: releaseSuite
+          };
+          const baseId = normalizeRepoId(formatTemplate(idTemplate, tokens));
+          let id = baseId;
+          if (existingIds.has(id)) {
+            let counter = 2;
+            while (existingIds.has(`${baseId}-${counter}`)) {
+              counter += 1;
+            }
+            id = `${baseId}-${counter}`;
+          }
+          existingIds.add(id);
 
-        planned.push(entry);
-        probed.push({ suite, url: release.url, os: osId });
-        existingBySignature.set(signature, entry);
+          const entry = {
+            id,
+            label: formatTemplate(labelTemplate, tokens),
+            os: osTarget,
+            name: repo.name,
+            source,
+            keyId: getKeyId(repo),
+            documentationUrl: repo.documentationUrl,
+            tags: repo.tags,
+            notes: repo.notes
+          };
+          if (!entry.documentationUrl) {
+            entry.allowMissingDocsUrl = true;
+          }
+          if (repo.allowDeprecatedKey) {
+            entry.allowDeprecatedKey = true;
+          }
+
+          planned.push(entry);
+          probed.push({ suite, url: release.url, os: osTarget });
+          existingBySignature.set(signature, entry);
+        }
       }
 
       return { planned, skipped, probed, suitesCount: suites.length };

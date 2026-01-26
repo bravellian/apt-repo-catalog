@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.528Z",
+  "repoId": "microsoft-default-debian-9-stretch-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/debian/9/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "stretch",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf"
+      ],
+      "observedOs": [
+        "debian-9"
+      ],
+      "options": {
+        "arch": "amd64,arm64,armhf"
+      }
+    }
+  ]
+}

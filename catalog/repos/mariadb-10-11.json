@@ -1,0 +1,13 @@
+{
+  "id": "mariadb-10-11",
+  "label": "MariaDB 10.11 (Stable)",
+  "name": "mariadb-10.11",
+  "baseUrl": "https://deb.mariadb.org/10.11/ubuntu",
+  "keyId": "mariadb",
+  "documentationUrl": "https://mariadb.org/download/?t=repo-config",
+  "tags": [
+    "database",
+    "mysql"
+  ],
+  "notes": "MariaDB 10.11 repository for Ubuntu"
+}

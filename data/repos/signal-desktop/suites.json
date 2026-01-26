@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.618Z",
+  "repoId": "signal-desktop",
+  "baseUrl": "https://updates.signal.org/desktop/apt",
+  "keyId": "signal-desktop",
+  "suites": [
+    {
+      "suite": "artful",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-17.10"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    },
+    {
+      "suite": "xenial",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "observedOs": [
+        "ubuntu-16.04",
+        "ubuntu-22.04"
+      ],
+      "options": {
+        "arch": "amd64"
+      }
+    }
+  ]
+}

@@ -1,13 +1,19 @@
-# Proxmox Ceph Squid - enterprise (proxmox-9)
+# Proxmox Ceph Squid - enterprise
 
 ## Repository
 - Repository ID: `proxmox-ceph-squid-enterprise`
-- OS: `proxmox-9`
-- Source: `https://enterprise.proxmox.com/debian/ceph-squid trixie enterprise`
+- Base URL: `https://enterprise.proxmox.com/debian/ceph-squid`
+- Host: `enterprise.proxmox.com`
 
 ## Upstream documentation
 - Documentation URL: https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories
 - Key documentation URL: https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories
+
+## Suites
+- Suite: `trixie`
+  - Components: enterprise
+  - Architectures: (not listed)
+  - Observed OSes: proxmox-9
 
 ## Key reference
 - Key ID: `proxmox-archive-keyring-trixie`
@@ -18,12 +24,14 @@
 
 ## Install instructions
 
+### Suite: trixie
+
 Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/proxmox-archive-keyring-trixie.asc | gpg --dearmor | sudo tee /usr/share/keyrings/proxmox-archive-keyring-trixie.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/proxmox-archive-keyring-trixie.gpg] https://enterprise.proxmox.com/debian/ceph-squid trixie enterprise" | sudo tee /etc/apt/sources.list.d/proxmox-ceph-squid-enterprise.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/proxmox-archive-keyring-trixie.gpg] https://enterprise.proxmox.com/debian/ceph-squid trixie enterprise" | sudo tee /etc/apt/sources.list.d/proxmox-ceph-squid-enterprise-trixie.list >/dev/null
 sudo apt-get update
 ```
 
@@ -33,9 +41,10 @@ Variant B (store ASCII key, dearmor file explicitly):
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/proxmox-archive-keyring-trixie.asc -o /tmp/proxmox-archive-keyring-trixie.asc
 gpg --dearmor /tmp/proxmox-archive-keyring-trixie.asc
 sudo install -m 0644 /tmp/proxmox-archive-keyring-trixie.gpg /usr/share/keyrings/proxmox-archive-keyring-trixie.gpg
-echo "deb [signed-by=/usr/share/keyrings/proxmox-archive-keyring-trixie.gpg] https://enterprise.proxmox.com/debian/ceph-squid trixie enterprise" | sudo tee /etc/apt/sources.list.d/proxmox-ceph-squid-enterprise.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/proxmox-archive-keyring-trixie.gpg] https://enterprise.proxmox.com/debian/ceph-squid trixie enterprise" | sudo tee /etc/apt/sources.list.d/proxmox-ceph-squid-enterprise-trixie.list >/dev/null
 sudo apt-get update
 ```
+
 
 ## Packages
 
@@ -57,7 +66,7 @@ Errors during fetch:
 </details>
 
 ## Notes
-- OS support: verify upstream documentation for supported releases.
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
 - The trust anchor is the fingerprint; validate it before use.
 - Repo notes: Requires a valid Proxmox subscription.
 - Repo tags: proxmox, ceph, debian-derivative, apt

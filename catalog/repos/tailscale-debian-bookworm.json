@@ -1,9 +1,8 @@
 {
   "id": "tailscale-debian-bookworm",
   "label": "Tailscale (Debian 12 Bookworm)",
-  "os": "debian-12",
   "name": "tailscale",
-  "source": "deb [signed-by=/usr/share/keyrings/tailscale-archive-keyring.gpg] https://pkgs.tailscale.com/stable/debian bookworm main",
+  "baseUrl": "https://pkgs.tailscale.com/stable/debian",
   "keyId": "tailscale-ubuntu-jammy",
   "documentationUrl": "https://pkgs.tailscale.com/stable/",
   "tags": [

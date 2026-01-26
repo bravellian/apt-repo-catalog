@@ -1,9 +1,8 @@
 {
   "id": "proxmox-ve-9-test",
   "label": "Proxmox VE 9 - test",
-  "os": "proxmox-9",
   "name": "proxmox",
-  "source": "deb http://download.proxmox.com/debian/pve trixie pve-test",
+  "baseUrl": "http://download.proxmox.com/debian/pve",
   "keyId": "proxmox-archive-keyring-trixie",
   "documentationUrl": "https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_package_repositories",
   "tags": [

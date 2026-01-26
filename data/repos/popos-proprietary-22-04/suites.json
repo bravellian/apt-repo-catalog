@@ -1,0 +1,100 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.599Z",
+  "repoId": "popos-proprietary-22-04",
+  "baseUrl": "http://apt.pop-os.org/proprietary",
+  "keyId": "popos-lookup-204dd8aec33a7aff",
+  "suites": [
+    {
+      "suite": "bionic",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.04"
+      ]
+    },
+    {
+      "suite": "disco",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-19.04"
+      ]
+    },
+    {
+      "suite": "eoan",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-19.10"
+      ]
+    },
+    {
+      "suite": "focal",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.04"
+      ]
+    },
+    {
+      "suite": "groovy",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.10"
+      ]
+    },
+    {
+      "suite": "hirsute",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-21.04"
+      ]
+    },
+    {
+      "suite": "impish",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-21.10"
+      ]
+    },
+    {
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "popos-22.04",
+        "ubuntu-22.04"
+      ]
+    },
+    {
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "popos-24.04",
+        "ubuntu-24.04"
+      ]
+    }
+  ]
+}

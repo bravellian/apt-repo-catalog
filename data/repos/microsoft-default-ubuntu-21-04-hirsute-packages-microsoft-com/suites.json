@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.580Z",
+  "repoId": "microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/21.04/prod",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "suites": [
+    {
+      "suite": "hirsute",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf"
+      ],
+      "observedOs": [
+        "ubuntu-21.04"
+      ],
+      "options": {
+        "arch": "amd64,armhf,arm64"
+      }
+    }
+  ]
+}

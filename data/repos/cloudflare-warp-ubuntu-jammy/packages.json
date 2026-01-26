@@ -1,0 +1,642 @@
+{
+  "generatedAt": "2026-01-26T16:42:26.095Z",
+  "packageCount": 10,
+  "packages": [
+    {
+      "name": "cloudflare-warp",
+      "repoId": "cloudflare-warp-ubuntu-jammy",
+      "suite": "bookworm",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2025.10.186.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2025.10.186.0",
+      "latestByArch": {
+        "amd64": "2025.10.186.0",
+        "arm64": "2025.10.186.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Cloudflare Warp Client",
+      "homepage": "https://1.1.1.1",
+      "relationships": {
+        "depends": [
+          "ca-certificates",
+          "desktop-file-utils",
+          "gnupg2",
+          "iproute2",
+          "libc6",
+          "libcap2-bin",
+          "libdbus-1-3",
+          "libnss3-tools",
+          "libpcap0.8",
+          "nftables"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [
+          "traceroute"
+        ],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Cloudflare <support@cloudflare.com>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "cloudflare-warp",
+      "repoId": "cloudflare-warp-ubuntu-jammy",
+      "suite": "bionic",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2024.4.133-1",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2024.4.133-1",
+      "latestByArch": {
+        "amd64": "2024.4.133-1",
+        "arm64": "2024.4.133-1"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Cloudflare Warp Client",
+      "homepage": "https://1.1.1.1",
+      "relationships": {
+        "depends": [
+          "ca-certificates",
+          "desktop-file-utils",
+          "gnupg2",
+          "iproute2",
+          "libc6",
+          "libcap2-bin",
+          "libdbus-1-3",
+          "libnss3-tools",
+          "libpcap0.8",
+          "nftables"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [
+          "traceroute"
+        ],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Cloudflare <support@cloudflare.com>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "cloudflare-warp",
+      "repoId": "cloudflare-warp-ubuntu-jammy",
+      "suite": "bullseye",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2025.10.186.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2025.10.186.0",
+      "latestByArch": {
+        "amd64": "2025.10.186.0",
+        "arm64": "2025.10.186.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Cloudflare Warp Client",
+      "homepage": "https://1.1.1.1",
+      "relationships": {
+        "depends": [
+          "ca-certificates",
+          "desktop-file-utils",
+          "gnupg2",
+          "iproute2",
+          "libc6",
+          "libcap2-bin",
+          "libdbus-1-3",
+          "libnss3-tools",
+          "libpcap0.8",
+          "nftables"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [
+          "traceroute"
+        ],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Cloudflare <support@cloudflare.com>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "cloudflare-warp",
+      "repoId": "cloudflare-warp-ubuntu-jammy",
+      "suite": "buster",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2025.6.1335.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2025.6.1335.0",
+      "latestByArch": {
+        "amd64": "2025.6.1335.0",
+        "arm64": "2025.6.1335.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Cloudflare Warp Client",
+      "homepage": "https://1.1.1.1",
+      "relationships": {
+        "depends": [
+          "ca-certificates",
+          "desktop-file-utils",
+          "gnupg2",
+          "iproute2",
+          "libc6",
+          "libcap2-bin",
+          "libdbus-1-3",
+          "libnss3-tools",
+          "libpcap0.8",
+          "nftables"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [
+          "traceroute"
+        ],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Cloudflare <support@cloudflare.com>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "cloudflare-warp",
+      "repoId": "cloudflare-warp-ubuntu-jammy",
+      "suite": "focal",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2025.10.186.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2025.10.186.0",
+      "latestByArch": {
+        "amd64": "2025.10.186.0",
+        "arm64": "2025.10.186.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Cloudflare Warp Client",
+      "homepage": "https://1.1.1.1",
+      "relationships": {
+        "depends": [
+          "ca-certificates",
+          "desktop-file-utils",
+          "gnupg2",
+          "iproute2",
+          "libc6",
+          "libcap2-bin",
+          "libdbus-1-3",
+          "libnss3-tools",
+          "libpcap0.8",
+          "nftables"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [
+          "traceroute"
+        ],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Cloudflare <support@cloudflare.com>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "cloudflare-warp",
+      "repoId": "cloudflare-warp-ubuntu-jammy",
+      "suite": "stretch",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2023.7.40-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2023.7.40-1",
+      "latestByArch": {
+        "amd64": "2023.7.40-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Cloudflare Warp Client",
+      "homepage": "https://1.1.1.1",
+      "relationships": {
+        "depends": [
+          "desktop-file-utils",
+          "gnupg2",
+          "iproute2",
+          "libc6",
+          "libcap2-bin",
+          "libdbus-1-3",
+          "libnss3-tools",
+          "nftables"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [
+          "traceroute"
+        ],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Cloudflare <support@cloudflare.com>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "cloudflare-warp",
+      "repoId": "cloudflare-warp-ubuntu-jammy",
+      "suite": "trixie",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2025.10.186.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2025.10.186.0",
+      "latestByArch": {
+        "amd64": "2025.10.186.0",
+        "arm64": "2025.10.186.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Cloudflare Warp Client",
+      "homepage": "https://1.1.1.1",
+      "relationships": {
+        "depends": [
+          "ca-certificates",
+          "desktop-file-utils",
+          "gnupg2",
+          "iproute2",
+          "libc6",
+          "libcap2-bin",
+          "libdbus-1-3",
+          "libnss3-tools",
+          "libpcap0.8",
+          "nftables"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [
+          "traceroute"
+        ],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Cloudflare <support@cloudflare.com>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "cloudflare-warp",
+      "repoId": "cloudflare-warp-ubuntu-jammy",
+      "suite": "xenial",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2023.7.40-1",
+          "architectures": [
+            "amd64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2023.7.40-1",
+      "latestByArch": {
+        "amd64": "2023.7.40-1"
+      },
+      "architectures": [
+        "amd64"
+      ],
+      "descriptionShort": "Cloudflare Warp Client",
+      "homepage": "https://1.1.1.1",
+      "relationships": {
+        "depends": [
+          "desktop-file-utils",
+          "gnupg2",
+          "iproute2",
+          "libc6",
+          "libcap2-bin",
+          "libdbus-1-3",
+          "libnss3-tools",
+          "nftables"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [
+          "traceroute"
+        ],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Cloudflare <support@cloudflare.com>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "cloudflare-warp",
+      "repoId": "cloudflare-warp-ubuntu-jammy",
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2025.10.186.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2025.10.186.0",
+      "latestByArch": {
+        "amd64": "2025.10.186.0",
+        "arm64": "2025.10.186.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Cloudflare Warp Client",
+      "homepage": "https://1.1.1.1",
+      "relationships": {
+        "depends": [
+          "ca-certificates",
+          "desktop-file-utils",
+          "gnupg2",
+          "iproute2",
+          "libc6",
+          "libcap2-bin",
+          "libdbus-1-3",
+          "libnss3-tools",
+          "libpcap0.8",
+          "nftables"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [
+          "traceroute"
+        ],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Cloudflare <support@cloudflare.com>",
+      "section": "net",
+      "priority": "optional"
+    },
+    {
+      "name": "cloudflare-warp",
+      "repoId": "cloudflare-warp-ubuntu-jammy",
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "sourceIndexPaths": [
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+        "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+      ],
+      "versions": [
+        {
+          "version": "2025.10.186.0",
+          "architectures": [
+            "amd64",
+            "arm64"
+          ],
+          "components": [
+            "main"
+          ],
+          "sourceIndexPaths": [
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-amd64/Packages.gz",
+            "/mnt/c/src/bravellian/apt-repo-catalog/data/repos/cloudflare-warp-ubuntu-jammy/packages.raw/20260126T164211Z/main/binary-arm64/Packages.gz"
+          ]
+        }
+      ],
+      "latestVersion": "2025.10.186.0",
+      "latestByArch": {
+        "amd64": "2025.10.186.0",
+        "arm64": "2025.10.186.0"
+      },
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "descriptionShort": "Cloudflare Warp Client",
+      "homepage": "https://1.1.1.1",
+      "relationships": {
+        "depends": [
+          "ca-certificates",
+          "desktop-file-utils",
+          "gnupg2",
+          "iproute2",
+          "libc6",
+          "libcap2-bin",
+          "libdbus-1-3",
+          "libnss3-tools",
+          "libpcap0.8",
+          "nftables"
+        ],
+        "preDepends": [],
+        "recommends": [],
+        "suggests": [
+          "traceroute"
+        ],
+        "conflicts": [],
+        "breaks": [],
+        "replaces": [],
+        "provides": []
+      },
+      "maintainer": "Cloudflare <support@cloudflare.com>",
+      "section": "net",
+      "priority": "optional"
+    }
+  ]
+}

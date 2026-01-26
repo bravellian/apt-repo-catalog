@@ -1,9 +1,8 @@
 {
   "id": "microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com",
   "label": "Microsoft - ubuntu-21.04 - default",
-  "os": "ubuntu-21.04",
   "name": "microsoft",
-  "source": "deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/21.04/prod hirsute main",
+  "baseUrl": "https://packages.microsoft.com/ubuntu/21.04/prod",
   "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
   "documentationUrl": "https://packages.microsoft.com/config/ubuntu/21.04",
   "tags": [

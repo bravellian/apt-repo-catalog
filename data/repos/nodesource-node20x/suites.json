@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.596Z",
+  "repoId": "nodesource-node20x",
+  "baseUrl": "https://deb.nodesource.com/node_20.x",
+  "keyId": "nodesource",
+  "suites": [
+    {
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    }
+  ]
+}

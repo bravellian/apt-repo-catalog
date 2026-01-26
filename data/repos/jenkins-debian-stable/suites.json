@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.513Z",
+  "repoId": "jenkins-debian-stable",
+  "baseUrl": "https://pkg.jenkins.io/debian-stable",
+  "keyId": "jenkins",
+  "suites": [
+    {
+      "suite": "binary/",
+      "components": [],
+      "architectures": [],
+      "observedOs": [
+        "generic"
+      ]
+    }
+  ]
+}

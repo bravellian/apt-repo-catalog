@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.519Z",
+  "repoId": "mariadb-10-11",
+  "baseUrl": "https://deb.mariadb.org/10.11/ubuntu",
+  "keyId": "mariadb",
+  "suites": [
+    {
+      "suite": "bionic",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.04"
+      ]
+    },
+    {
+      "suite": "focal",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.04",
+        "ubuntu-22.04"
+      ]
+    },
+    {
+      "suite": "jammy",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    },
+    {
+      "suite": "kinetic",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.10"
+      ]
+    },
+    {
+      "suite": "lunar",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-23.04"
+      ]
+    },
+    {
+      "suite": "mantic",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-23.10"
+      ]
+    },
+    {
+      "suite": "noble",
+      "components": [
+        "main"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.04"
+      ]
+    }
+  ]
+}

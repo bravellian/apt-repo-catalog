@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.625Z",
+  "repoId": "virtualbox",
+  "baseUrl": "https://download.virtualbox.org/virtualbox/debian",
+  "keyId": "oracle-vbox2016",
+  "suites": [
+    {
+      "suite": "artful",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-17.10"
+      ]
+    },
+    {
+      "suite": "bionic",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.04"
+      ]
+    },
+    {
+      "suite": "bookworm",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-12"
+      ]
+    },
+    {
+      "suite": "bullseye",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-11"
+      ]
+    },
+    {
+      "suite": "buster",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-10"
+      ]
+    },
+    {
+      "suite": "cosmic",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-18.10"
+      ]
+    },
+    {
+      "suite": "disco",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-19.04"
+      ]
+    },
+    {
+      "suite": "eoan",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-19.10"
+      ]
+    },
+    {
+      "suite": "focal",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.04"
+      ]
+    },
+    {
+      "suite": "groovy",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-20.10"
+      ]
+    },
+    {
+      "suite": "hirsute",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-21.04"
+      ]
+    },
+    {
+      "suite": "jessie",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-8"
+      ]
+    },
+    {
+      "suite": "noble",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.04"
+      ]
+    },
+    {
+      "suite": "oracular",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-24.10"
+      ]
+    },
+    {
+      "suite": "plucky",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-25.04"
+      ]
+    },
+    {
+      "suite": "stretch",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-9"
+      ]
+    },
+    {
+      "suite": "trixie",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-13"
+      ]
+    },
+    {
+      "suite": "trusty",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-14.04"
+      ]
+    },
+    {
+      "suite": "wheezy",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "debian-7"
+      ]
+    },
+    {
+      "suite": "xenial",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-16.04"
+      ]
+    },
+    {
+      "suite": "yakkety",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-16.10"
+      ]
+    },
+    {
+      "suite": "zesty",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-17.04"
+      ]
+    },
+    {
+      "suite": "jammy",
+      "components": [
+        "contrib"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "ubuntu-22.04"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-01-26T16:14:05.514Z",
+  "repoId": "kali-rolling",
+  "baseUrl": "https://http.kali.org/kali",
+  "keyId": "kali-archive-keyring",
+  "suites": [
+    {
+      "suite": "kali-rolling",
+      "components": [
+        "contrib",
+        "main",
+        "non-free",
+        "non-free-firmware"
+      ],
+      "architectures": [],
+      "observedOs": [
+        "kali-rolling"
+      ]
+    }
+  ]
+}

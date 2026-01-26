@@ -1,11 +1,11 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { loadReposCatalog, writeReposCatalog } from "./lib/repos-catalog.mjs";
 
 const root = process.cwd();
 const keysPath = path.join(root, "catalog", "keys.json");
-const osPath = path.join(root, "catalog", "os.json");
+const dataReposDir = path.join(root, "data", "repos");
 
 function parseArgs(argv) {
   const args = {};
@@ -41,9 +41,14 @@ async function loadJson(filePath) {
   return JSON.parse(raw);
 }
 
-function normalizeSource(value) {
-  const trimmed = value.trim();
-  return trimmed.startsWith("deb ") ? trimmed : `deb ${trimmed}`;
+function parseList(value) {
+  if (!value) {
+    return [];
+  }
+  return String(value)
+    .split(",")
+    .map((item) => item.trim())
+    .filter(Boolean);
 }
 
 function parseTags(value) {
@@ -61,19 +66,16 @@ async function main() {
   const args = parseArgs(process.argv.slice(2));
   const id = ensureString(args.id, "id");
   const label = ensureString(args.label, "label");
-  const os = ensureString(args.os, "os");
   const name = ensureString(args.name, "name");
-  const source = normalizeSource(ensureString(args.source, "source"));
+  const baseUrl = ensureString(args.baseUrl ?? args.base_url, "baseUrl");
   const keyId = ensureString(args.keyId, "keyId");
   const documentationUrl = args.documentationUrl;
   const tags = parseTags(args.tags);
   const notes = args.notes;
+  const suites = parseList(args.suites);
+  const components = parseList(args.components);
+  const architectures = parseList(args.architectures);
 
-  const osCatalog = await loadJson(osPath);
-  const osIds = new Set((osCatalog.oses ?? []).map((entry) => entry.id));
-  if (!osIds.has(os)) {
-    throw new Error(`Invalid os ${os}. Add it to catalog/os.json first.`);
-  }
   if (documentationUrl !== undefined && documentationUrl.trim() === "") {
     throw new Error("documentationUrl must be a non-empty string");
   }
@@ -107,9 +109,8 @@ async function main() {
   const entry = {
     id,
     label,
-    os,
     name,
-    source,
+    baseUrl,
     keyId,
     documentationUrl,
     tags,
@@ -130,6 +131,27 @@ async function main() {
     reposCatalog.repos.splice(existingIndex, 1, entry);
   }
   await writeReposCatalog({ root, repos: reposCatalog.repos, preferDir: true, clean: true });
+
+  if (suites.length > 0) {
+    const suitesPayload = {
+      generatedAt: new Date().toISOString(),
+      repoId: id,
+      baseUrl,
+      keyId,
+      suites: suites.map((suite) => ({
+        suite,
+        components,
+        architectures
+      }))
+    };
+    const repoDir = path.join(dataReposDir, id);
+    await mkdir(repoDir, { recursive: true });
+    await writeFile(
+      path.join(repoDir, "suites.json"),
+      JSON.stringify(suitesPayload, null, 2) + "\n",
+      "utf8"
+    );
+  }
 
   const validateRepos = spawnSync("node", ["scripts/validate-repos.mjs"], {
     stdio: "inherit",

@@ -1,9 +1,8 @@
 {
   "id": "microsoft-default-debian-10-buster-packages-microsoft-com",
   "label": "Microsoft - debian-10 - default",
-  "os": "debian-10",
   "name": "microsoft",
-  "source": "deb [arch=amd64] https://packages.microsoft.com/debian/10/prod buster main",
+  "baseUrl": "https://packages.microsoft.com/debian/10/prod",
   "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
   "documentationUrl": "https://packages.microsoft.com/config/debian/10",
   "tags": [

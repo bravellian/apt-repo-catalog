@@ -1,13 +1,99 @@
-# WineHQ Stable (ubuntu-22.04)
+# WineHQ Stable
 
 ## Repository
 - Repository ID: `winehq-stable`
-- OS: `ubuntu-22.04`
-- Source: `https://dl.winehq.org/wine-builds/ubuntu jammy main`
+- Base URL: `https://dl.winehq.org/wine-builds/ubuntu`
+- Host: `dl.winehq.org`
 
 ## Upstream documentation
 - Documentation URL: https://wiki.winehq.org/Ubuntu
 - Key documentation URL: https://wiki.winehq.org/Ubuntu
+
+## Suites
+- Suite: `artful`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-17.10
+- Suite: `bionic`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-18.04
+- Suite: `cosmic`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-18.10
+- Suite: `disco`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-19.04
+- Suite: `eoan`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-19.10
+- Suite: `focal`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-20.04
+- Suite: `groovy`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-20.10
+- Suite: `hirsute`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-21.04
+- Suite: `impish`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-21.10
+- Suite: `kinetic`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-22.10
+- Suite: `lunar`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-23.04
+- Suite: `mantic`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-23.10
+- Suite: `noble`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-24.04
+- Suite: `oracular`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-24.10
+- Suite: `plucky`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-25.04
+- Suite: `questing`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-25.10
+- Suite: `trusty`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-14.04
+- Suite: `xenial`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-16.04
+- Suite: `yakkety`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-16.10
+- Suite: `zesty`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-17.04
+- Suite: `jammy`
+  - Components: main
+  - Architectures: (not listed)
+  - Observed OSes: ubuntu-22.04
 
 ## Key reference
 - Key ID: `winehq`
@@ -17,12 +103,14 @@
 
 ## Install instructions
 
+### Suite: artful
+
 Variant A (recommended modern apt with signed-by + dearmor):
 
 ```bash
 sudo install -d -m 0755 /usr/share/keyrings
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu jammy main" | sudo tee /etc/apt/sources.list.d/winehq-stable.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu artful main" | sudo tee /etc/apt/sources.list.d/winehq-stable-artful.list >/dev/null
 sudo apt-get update
 ```
 
@@ -32,9 +120,430 @@ Variant B (store ASCII key, dearmor file explicitly):
 curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
 gpg --dearmor /tmp/winehq.asc
 sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
-echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu jammy main" | sudo tee /etc/apt/sources.list.d/winehq-stable.list >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu artful main" | sudo tee /etc/apt/sources.list.d/winehq-stable-artful.list >/dev/null
 sudo apt-get update
 ```
+
+### Suite: bionic
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/winehq-stable-bionic.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/winehq-stable-bionic.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: cosmic
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu cosmic main" | sudo tee /etc/apt/sources.list.d/winehq-stable-cosmic.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu cosmic main" | sudo tee /etc/apt/sources.list.d/winehq-stable-cosmic.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: disco
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu disco main" | sudo tee /etc/apt/sources.list.d/winehq-stable-disco.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu disco main" | sudo tee /etc/apt/sources.list.d/winehq-stable-disco.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: eoan
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu eoan main" | sudo tee /etc/apt/sources.list.d/winehq-stable-eoan.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu eoan main" | sudo tee /etc/apt/sources.list.d/winehq-stable-eoan.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: focal
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/winehq-stable-focal.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/winehq-stable-focal.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: groovy
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu groovy main" | sudo tee /etc/apt/sources.list.d/winehq-stable-groovy.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu groovy main" | sudo tee /etc/apt/sources.list.d/winehq-stable-groovy.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: hirsute
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu hirsute main" | sudo tee /etc/apt/sources.list.d/winehq-stable-hirsute.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu hirsute main" | sudo tee /etc/apt/sources.list.d/winehq-stable-hirsute.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: impish
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu impish main" | sudo tee /etc/apt/sources.list.d/winehq-stable-impish.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu impish main" | sudo tee /etc/apt/sources.list.d/winehq-stable-impish.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: kinetic
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu kinetic main" | sudo tee /etc/apt/sources.list.d/winehq-stable-kinetic.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu kinetic main" | sudo tee /etc/apt/sources.list.d/winehq-stable-kinetic.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: lunar
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu lunar main" | sudo tee /etc/apt/sources.list.d/winehq-stable-lunar.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu lunar main" | sudo tee /etc/apt/sources.list.d/winehq-stable-lunar.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: mantic
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu mantic main" | sudo tee /etc/apt/sources.list.d/winehq-stable-mantic.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu mantic main" | sudo tee /etc/apt/sources.list.d/winehq-stable-mantic.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: noble
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu noble main" | sudo tee /etc/apt/sources.list.d/winehq-stable-noble.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu noble main" | sudo tee /etc/apt/sources.list.d/winehq-stable-noble.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: oracular
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu oracular main" | sudo tee /etc/apt/sources.list.d/winehq-stable-oracular.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu oracular main" | sudo tee /etc/apt/sources.list.d/winehq-stable-oracular.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: plucky
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu plucky main" | sudo tee /etc/apt/sources.list.d/winehq-stable-plucky.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu plucky main" | sudo tee /etc/apt/sources.list.d/winehq-stable-plucky.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: questing
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu questing main" | sudo tee /etc/apt/sources.list.d/winehq-stable-questing.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu questing main" | sudo tee /etc/apt/sources.list.d/winehq-stable-questing.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: trusty
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu trusty main" | sudo tee /etc/apt/sources.list.d/winehq-stable-trusty.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu trusty main" | sudo tee /etc/apt/sources.list.d/winehq-stable-trusty.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: xenial
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu xenial main" | sudo tee /etc/apt/sources.list.d/winehq-stable-xenial.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu xenial main" | sudo tee /etc/apt/sources.list.d/winehq-stable-xenial.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: yakkety
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu yakkety main" | sudo tee /etc/apt/sources.list.d/winehq-stable-yakkety.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu yakkety main" | sudo tee /etc/apt/sources.list.d/winehq-stable-yakkety.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: zesty
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu zesty main" | sudo tee /etc/apt/sources.list.d/winehq-stable-zesty.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu zesty main" | sudo tee /etc/apt/sources.list.d/winehq-stable-zesty.list >/dev/null
+sudo apt-get update
+```
+
+### Suite: jammy
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc | gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu jammy main" | sudo tee /etc/apt/sources.list.d/winehq-stable-jammy.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/winehq.asc -o /tmp/winehq.asc
+gpg --dearmor /tmp/winehq.asc
+sudo install -m 0644 /tmp/winehq.gpg /usr/share/keyrings/winehq.gpg
+echo "deb [signed-by=/usr/share/keyrings/winehq.gpg] https://dl.winehq.org/wine-builds/ubuntu jammy main" | sudo tee /etc/apt/sources.list.d/winehq-stable-jammy.list >/dev/null
+sudo apt-get update
+```
+
 
 ## Packages
 
@@ -536,7 +1045,7 @@ sudo apt-get update
 </details>
 
 ## Notes
-- OS support: verify upstream documentation for supported releases.
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
 - The trust anchor is the fingerprint; validate it before use.
 - Repo notes: Official WineHQ repository for stable Wine releases
 - Repo tags: compatibility

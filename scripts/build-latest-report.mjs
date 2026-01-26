@@ -62,11 +62,10 @@ async function main() {
   }
 
   const totals = { tested: 0, passed: 0, failed: 0, skipped: 0 };
-  const byOs = {};
   const failures = [];
+  const mergedResults = [];
 
   for (const report of reports) {
-    const os = report.os ?? "unknown";
     const reportTotals = getTotals(report);
     totals.tested += reportTotals.tested;
     totals.passed += reportTotals.passed;
@@ -74,23 +73,13 @@ async function main() {
     totals.skipped += reportTotals.skipped;
 
     const results = Array.isArray(report.results) ? report.results : [];
-    const failedRepoIds = results
-      .filter((result) => result.status === "failed")
-      .map((result) => result.repoId)
-      .filter(Boolean);
-
-    byOs[os] = {
-      generatedAt: report.generatedAt ?? null,
-      totals: reportTotals,
-      failedRepoIds,
-      failedCount: failedRepoIds.length
-    };
+    mergedResults.push(...results);
 
     for (const result of results) {
       if (result.status === "failed") {
         failures.push({
-          os,
           repoId: result.repoId ?? "unknown",
+          suite: result.suite ?? "",
           classification: result.classification ?? "apt_error"
         });
       }
@@ -100,7 +89,7 @@ async function main() {
   const payload = {
     generatedAt: new Date().toISOString(),
     totals,
-    byOs,
+    results: mergedResults,
     failures
   };
 

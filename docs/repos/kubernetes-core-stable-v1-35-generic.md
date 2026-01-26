@@ -1,0 +1,55 @@
+# Kubernetes core stable v1.35 (generic)
+
+## Repository
+- Repository ID: `kubernetes-core-stable-v1-35-generic`
+- Base URL: `https://pkgs.k8s.io/core:/stable:/v1.35/deb`
+- Host: `pkgs.k8s.io`
+
+## Upstream documentation
+- Documentation URL: (not set)
+- Key documentation URL: https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+
+## Suites
+- Suite: `/`
+  - Components: (not listed)
+  - Architectures: (not listed)
+  - Observed OSes: generic
+
+## Key reference
+- Key ID: `kubernetes-release-key-234654da9a296436`
+- Expected fingerprints:
+  - DE15B14486CD377B9E876E1A234654DA9A296436
+- Key source URL: https://pkgs.k8s.io/core:/stable:/v1.35/deb/Release.key
+
+## Install instructions
+
+### Suite: /
+
+Variant A (recommended modern apt with signed-by + dearmor):
+
+```bash
+sudo install -d -m 0755 /usr/share/keyrings
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/kubernetes-release-key-234654da9a296436.asc | gpg --dearmor | sudo tee /usr/share/keyrings/kubernetes-release-key-234654da9a296436.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/kubernetes-release-key-234654da9a296436.gpg] https://pkgs.k8s.io/core:/stable:/v1.35/deb /" | sudo tee /etc/apt/sources.list.d/kubernetes-core-stable-v1-35-generic-/.list >/dev/null
+sudo apt-get update
+```
+
+Variant B (store ASCII key, dearmor file explicitly):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bravellian/apt-repo-catalog/refs/heads/main/keys/kubernetes-release-key-234654da9a296436.asc -o /tmp/kubernetes-release-key-234654da9a296436.asc
+gpg --dearmor /tmp/kubernetes-release-key-234654da9a296436.asc
+sudo install -m 0644 /tmp/kubernetes-release-key-234654da9a296436.gpg /usr/share/keyrings/kubernetes-release-key-234654da9a296436.gpg
+echo "deb [signed-by=/usr/share/keyrings/kubernetes-release-key-234654da9a296436.gpg] https://pkgs.k8s.io/core:/stable:/v1.35/deb /" | sudo tee /etc/apt/sources.list.d/kubernetes-core-stable-v1-35-generic-/.list >/dev/null
+sudo apt-get update
+```
+
+
+## Packages
+
+Package inventory has not been generated for this repository.
+
+## Notes
+- Suite availability is derived from Release metadata; verify upstream documentation for support policy.
+- The trust anchor is the fingerprint; validate it before use.
+- Repo notes: Upstream repo does not use a distro-specific suite; this entry is shared across Debian/Ubuntu.
