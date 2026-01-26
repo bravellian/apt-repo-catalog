@@ -1,0 +1,13 @@
+{
+  "id": "packages-sury-org",
+  "label": "deb.sury.org",
+  "name": "deb-sury-org",
+  "baseUrl": "https://packages.sury.org/php",
+  "keyId": "sury-packages-sury-org-signing-key-b188e2b695bd4743",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "debian",
+    "packages.sury.org"
+  ]
+}

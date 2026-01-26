@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://nginx.org/packages/mainline/debian",
+  "generatedAt": "2026-01-26T22:38:37.096Z",
+  "keyId": "nginx-org",
+  "repoId": "nginx-org",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "nginx"
+      ],
+      "suite": "bullseye"
+    }
+  ]
+}

@@ -693,6 +693,440 @@
       "notes": "Non-expiring key published by Puppet",
       "createdAt": "2026-01-25T04:53:10.203Z",
       "keyCount": 1
+    },
+    {
+      "id": "debian-deb-debian-org-signing-key-b7c5d7d6350947f8",
+      "vendor": "debian",
+      "label": "deb.debian.org signing key",
+      "expectedFingerprints": [
+        "B8B80B5B623EAB6AD8775C45B7C5D7D6350947F8"
+      ],
+      "outputPath": "keys/debian-deb-debian-org-signing-key-b7c5d7d6350947f8.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:00:05.059Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x6ED0E7B82643E131",
+      "notes": "Discovered via InRelease signature for https://deb.debian.org/debian."
+    },
+    {
+      "id": "sury-packages-sury-org-signing-key-b188e2b695bd4743",
+      "vendor": "sury",
+      "label": "packages.sury.org signing key",
+      "expectedFingerprints": [
+        "15058500A0235D97F5D10063B188E2B695BD4743"
+      ],
+      "outputPath": "keys/sury-packages-sury-org-signing-key-b188e2b695bd4743.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:00:08.046Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xB188E2B695BD4743",
+      "notes": "Discovered via InRelease signature for https://packages.sury.org/php."
+    },
+    {
+      "id": "xpra-xpra-org-signing-key-73254cad17978faf",
+      "vendor": "xpra",
+      "label": "xpra.org signing key",
+      "expectedFingerprints": [
+        "B4993B57323148E37977E5D873254CAD17978FAF"
+      ],
+      "outputPath": "keys/xpra-xpra-org-signing-key-73254cad17978faf.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:00:09.836Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x73254CAD17978FAF",
+      "notes": "Discovered via InRelease signature for https://xpra.org."
+    },
+    {
+      "id": "vscodium-download-vscodium-com-signing-key-54678cf75a278d9c",
+      "vendor": "vscodium",
+      "label": "download.vscodium.com signing key",
+      "expectedFingerprints": [
+        "1302DE60231889FE1EBACADC54678CF75A278D9C"
+      ],
+      "outputPath": "keys/vscodium-download-vscodium-com-signing-key-54678cf75a278d9c.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:00:10.457Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x54678CF75A278D9C",
+      "notes": "Discovered via InRelease signature for https://download.vscodium.com/debs."
+    },
+    {
+      "id": "intel-apt-repos-intel-com-signing-key-bac6f0c353d04109",
+      "vendor": "intel",
+      "label": "apt.repos.intel.com signing key",
+      "expectedFingerprints": [
+        "E9BF0AFC46D6E8B7DA5882F1BAC6F0C353D04109"
+      ],
+      "outputPath": "keys/intel-apt-repos-intel-com-signing-key-bac6f0c353d04109.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:00:25.136Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xBAC6F0C353D04109",
+      "notes": "Discovered via InRelease signature for https://apt.repos.intel.com/oneapi."
+    },
+    {
+      "id": "debian-deb-debian-org-signing-key-254cf3b5aec0a8f0",
+      "vendor": "debian",
+      "label": "deb.debian.org signing key",
+      "expectedFingerprints": [
+        "05AB90340C0C5E797F44A8C8254CF3B5AEC0A8F0"
+      ],
+      "outputPath": "keys/debian-deb-debian-org-signing-key-254cf3b5aec0a8f0.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:00:25.799Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xBDE6D2B9216EC7A8",
+      "notes": "Discovered via InRelease signature for https://deb.debian.org/debian-security."
+    },
+    {
+      "id": "syncthing-apt-syncthing-net-signing-key-e5665f9bd5970c47",
+      "vendor": "syncthing",
+      "label": "apt.syncthing.net signing key",
+      "expectedFingerprints": [
+        "FBA2E162F2F44657B38F0309E5665F9BD5970C47"
+      ],
+      "outputPath": "keys/syncthing-apt-syncthing-net-signing-key-e5665f9bd5970c47.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:00:46.341Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE5665F9BD5970C47",
+      "notes": "Discovered via InRelease signature for https://apt.syncthing.net."
+    },
+    {
+      "id": "steampowered-repo-steampowered-com-signing-key-f24aea9fb05498b7",
+      "vendor": "steampowered",
+      "label": "repo.steampowered.com signing key",
+      "expectedFingerprints": [
+        "BA1816EF8E75005FCF5E27A1F24AEA9FB05498B7"
+      ],
+      "outputPath": "keys/steampowered-repo-steampowered-com-signing-key-f24aea9fb05498b7.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:00:49.354Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xF24AEA9FB05498B7",
+      "notes": "Discovered via InRelease signature for https://repo.steampowered.com/steam."
+    },
+    {
+      "id": "github-set-soft-github-io-signing-key-b5ba3682cb1d08eb",
+      "vendor": "github",
+      "label": "set-soft.github.io signing key",
+      "expectedFingerprints": [
+        "8EF8993CA43394155E5D6CE2B5BA3682CB1D08EB"
+      ],
+      "outputPath": "keys/github-set-soft-github-io-signing-key-b5ba3682cb1d08eb.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:00:49.798Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xB5BA3682CB1D08EB",
+      "notes": "Discovered via InRelease signature for https://set-soft.github.io/debian."
+    },
+    {
+      "id": "ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c",
+      "vendor": "ubuntu",
+      "label": "archive.ubuntu.com signing key",
+      "expectedFingerprints": [
+        "F6ECB3762474EDA9D21B7022871920D1991BC93C"
+      ],
+      "outputPath": "keys/ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:00:51.976Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x871920D1991BC93C",
+      "notes": "Discovered via InRelease signature for https://archive.ubuntu.com/ubuntu."
+    },
+    {
+      "id": "parrot-deb-parrot-sh-signing-key-7a8286af0e81ee4a",
+      "vendor": "parrot",
+      "label": "deb.parrot.sh signing key",
+      "expectedFingerprints": [
+        "B711822346552E4D92DA02DF7A8286AF0E81EE4A"
+      ],
+      "outputPath": "keys/parrot-deb-parrot-sh-signing-key-7a8286af0e81ee4a.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:00:52.971Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x7A8286AF0E81EE4A",
+      "notes": "Discovered via InRelease signature for https://deb.parrot.sh/parrot."
+    },
+    {
+      "id": "cloudflare-pkg-cloudflare-com-signing-key-254b391d8caccbf8",
+      "vendor": "cloudflare",
+      "label": "pkg.cloudflare.com signing key",
+      "expectedFingerprints": [
+        "FBA8C0EE63617C5EED695C43254B391D8CACCBF8"
+      ],
+      "outputPath": "keys/cloudflare-pkg-cloudflare-com-signing-key-254b391d8caccbf8.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:00:55.558Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x254B391D8CACCBF8",
+      "notes": "Discovered via InRelease signature for https://pkg.cloudflare.com/cloudflared."
+    },
+    {
+      "id": "wikimedia-apt-wikimedia-org-signing-key-9d392d3ffadf18fb",
+      "vendor": "wikimedia",
+      "label": "apt.wikimedia.org signing key",
+      "expectedFingerprints": [
+        "B8A2DF05748F9D524A3A2ADE9D392D3FFADF18FB"
+      ],
+      "outputPath": "keys/wikimedia-apt-wikimedia-org-signing-key-9d392d3ffadf18fb.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:01:00.490Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x9D392D3FFADF18FB",
+      "notes": "Discovered via InRelease signature for https://apt.wikimedia.org/wikimedia."
+    },
+    {
+      "id": "ruby-lang-cache-ruby-lang-org-signing-key-69ceb9d53f0f56a8",
+      "vendor": "ruby-lang",
+      "label": "cache.ruby-lang.org signing key",
+      "expectedFingerprints": [
+        "805E57E2327EE86EB8180E0669CEB9D53F0F56A8"
+      ],
+      "outputPath": "keys/ruby-lang-cache-ruby-lang-org-signing-key-69ceb9d53f0f56a8.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:01:02.029Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x69CEB9D53F0F56A8",
+      "notes": "Discovered via InRelease signature for https://cache.ruby-lang.org/lab/sorah/deb."
+    },
+    {
+      "id": "opera-deb-opera-com-signing-key-11ee8c00b693a745",
+      "vendor": "opera",
+      "label": "deb.opera.com signing key",
+      "expectedFingerprints": [
+        "6C86BE214648376680CA957B11EE8C00B693A745"
+      ],
+      "outputPath": "keys/opera-deb-opera-com-signing-key-11ee8c00b693a745.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:01:04.493Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x11EE8C00B693A745",
+      "notes": "Discovered via InRelease signature for https://deb.opera.com/opera-stable."
+    },
+    {
+      "id": "zulip-download-zulip-com-signing-key-2424be5ae9bd10d9",
+      "vendor": "zulip",
+      "label": "download.zulip.com signing key",
+      "expectedFingerprints": [
+        "69AD12704E71A4803DCA3A682424BE5AE9BD10D9"
+      ],
+      "outputPath": "keys/zulip-download-zulip-com-signing-key-2424be5ae9bd10d9.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:01:04.976Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2424BE5AE9BD10D9",
+      "notes": "Discovered via InRelease signature for https://download.zulip.com/desktop/apt."
+    },
+    {
+      "id": "plex-downloads-plex-tv-signing-key-97203c7b3adca79d",
+      "vendor": "plex",
+      "label": "downloads.plex.tv signing key",
+      "expectedFingerprints": [
+        "CD665CBA0E2F88B7373F7CB997203C7B3ADCA79D"
+      ],
+      "outputPath": "keys/plex-downloads-plex-tv-signing-key-97203c7b3adca79d.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:01:05.396Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x97203C7B3ADCA79D",
+      "notes": "Discovered via InRelease signature for https://downloads.plex.tv/repo/deb."
+    },
+    {
+      "id": "lunarg-packages-lunarg-com-signing-key-aa8452080e383f7e",
+      "vendor": "lunarg",
+      "label": "packages.lunarg.com signing key",
+      "expectedFingerprints": [
+        "03F5D621A3710FA95A93D89BAA8452080E383F7E"
+      ],
+      "outputPath": "keys/lunarg-packages-lunarg-com-signing-key-aa8452080e383f7e.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:01:41.568Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xAA8452080E383F7E",
+      "notes": "Discovered via InRelease signature for https://packages.lunarg.com/vulkan."
+    },
+    {
+      "id": "anaconda-repo-anaconda-com-signing-key-8aeb4f8b29d82806",
+      "vendor": "anaconda",
+      "label": "repo.anaconda.com signing key",
+      "expectedFingerprints": [
+        "34161F5BF5EB1D4BFBBB8F0A8AEB4F8B29D82806"
+      ],
+      "outputPath": "keys/anaconda-repo-anaconda-com-signing-key-8aeb4f8b29d82806.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:01:41.937Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8AEB4F8B29D82806",
+      "notes": "Discovered via InRelease signature for https://repo.anaconda.com/pkgs/misc/debrepo/conda."
+    },
+    {
+      "id": "nordvpn-repo-nordvpn-com-signing-key-6b219e535c964ca1",
+      "vendor": "nordvpn",
+      "label": "repo.nordvpn.com signing key",
+      "expectedFingerprints": [
+        "BC5480EFEC5C081CE5BCFBE26B219E535C964CA1"
+      ],
+      "outputPath": "keys/nordvpn-repo-nordvpn-com-signing-key-6b219e535c964ca1.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:01:42.341Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x6B219E535C964CA1",
+      "notes": "Discovered via InRelease signature for https://repo.nordvpn.com/deb/nordvpn/debian."
+    },
+    {
+      "id": "ui-www-ui-com-signing-key-06e85760c0a52c50",
+      "vendor": "ui",
+      "label": "www.ui.com signing key",
+      "expectedFingerprints": [
+        "4A228B2D358A5094178285BE06E85760C0A52C50"
+      ],
+      "outputPath": "keys/ui-www-ui-com-signing-key-06e85760c0a52c50.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:01:42.998Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x06E85760C0A52C50",
+      "notes": "Discovered via InRelease signature for https://www.ui.com/downloads/unifi/debian."
+    },
+    {
+      "id": "armbian-apt-armbian-com-signing-key-93d6889f9f0e78d5",
+      "vendor": "armbian",
+      "label": "apt.armbian.com signing key",
+      "expectedFingerprints": [
+        "DF00FAF1C577104B50BF1D0093D6889F9F0E78D5"
+      ],
+      "outputPath": "keys/armbian-apt-armbian-com-signing-key-93d6889f9f0e78d5.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:01:43.786Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x93D6889F9F0E78D5",
+      "notes": "Discovered via InRelease signature for https://apt.armbian.com."
+    },
+    {
+      "id": "teleport-apt-releases-teleport-dev-signing-key-c87ed53a6282c411",
+      "vendor": "teleport",
+      "label": "apt.releases.teleport.dev signing key",
+      "expectedFingerprints": [
+        "0C5E8BA5658E320D1B031179C87ED53A6282C411"
+      ],
+      "outputPath": "keys/teleport-apt-releases-teleport-dev-signing-key-c87ed53a6282c411.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:01:44.852Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC87ED53A6282C411",
+      "notes": "Discovered via InRelease signature for https://apt.releases.teleport.dev/ubuntu."
+    },
+    {
+      "id": "postgresql-ftp-postgresql-org-signing-key-8881b2a8210976f2",
+      "vendor": "postgresql",
+      "label": "ftp.postgresql.org signing key",
+      "expectedFingerprints": [
+        "E8697E2EEF76C02D3A6332778881B2A8210976F2"
+      ],
+      "outputPath": "keys/postgresql-ftp-postgresql-org-signing-key-8881b2a8210976f2.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:02:03.720Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8881B2A8210976F2",
+      "notes": "Discovered via InRelease signature for https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/noble."
+    },
+    {
+      "id": "riot-packages-riot-im-signing-key-d7b0b66941d01538",
+      "vendor": "riot",
+      "label": "packages.riot.im signing key",
+      "expectedFingerprints": [
+        "12D4CD600C2240A9F4A82071D7B0B66941D01538"
+      ],
+      "outputPath": "keys/riot-packages-riot-im-signing-key-d7b0b66941d01538.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:02:05.437Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC2850B265AC085BD",
+      "notes": "Discovered via InRelease signature for https://packages.riot.im/debian."
+    },
+    {
+      "id": "vyos-packages-vyos-net-signing-key-b2bdcede2ebf9c06",
+      "vendor": "vyos",
+      "label": "packages.vyos.net signing key",
+      "expectedFingerprints": [
+        "DC22BB36263390A7B3F14B99B2BDCEDE2EBF9C06"
+      ],
+      "outputPath": "keys/vyos-packages-vyos-net-signing-key-b2bdcede2ebf9c06.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:02:06.194Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xB2BDCEDE2EBF9C06",
+      "notes": "Discovered via InRelease signature for https://packages.vyos.net/repositories/current."
+    },
+    {
+      "id": "techaro-pkgs-techaro-lol-signing-key-56375da2df02abff",
+      "vendor": "techaro",
+      "label": "pkgs.techaro.lol signing key",
+      "expectedFingerprints": [
+        "833F64161167B501058C394756375DA2DF02ABFF"
+      ],
+      "outputPath": "keys/techaro-pkgs-techaro-lol-signing-key-56375da2df02abff.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:02:06.829Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x56375DA2DF02ABFF",
+      "notes": "Discovered via InRelease signature for https://pkgs.techaro.lol/deb/unstable."
+    },
+    {
+      "id": "intel-apt-repos-intel-com-signing-key-acfa9fc57e6c5dbe",
+      "vendor": "intel",
+      "label": "apt.repos.intel.com signing key",
+      "expectedFingerprints": [
+        "52ABD6E87E421793971873FFACFA9FC57E6C5DBE"
+      ],
+      "outputPath": "keys/intel-apt-repos-intel-com-signing-key-acfa9fc57e6c5dbe.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:02:42.699Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xACFA9FC57E6C5DBE",
+      "notes": "Discovered via InRelease signature for https://apt.repos.intel.com/openvino/2019."
+    },
+    {
+      "id": "nodesource-deb-nodesource-com-signing-key-1655a0ab68576280",
+      "vendor": "nodesource",
+      "label": "deb.nodesource.com signing key",
+      "expectedFingerprints": [
+        "9FD3B784BC1C6FC31A8A0A1C1655A0AB68576280"
+      ],
+      "outputPath": "keys/nodesource-deb-nodesource-com-signing-key-1655a0ab68576280.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:02:42.986Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x1655A0AB68576280",
+      "notes": "Discovered via InRelease signature for https://deb.nodesource.com/node_7.x."
+    },
+    {
+      "id": "nvidia-repo-download-nvidia-com-signing-key-e6543461a9996195",
+      "vendor": "nvidia",
+      "label": "repo.download.nvidia.com signing key",
+      "expectedFingerprints": [
+        "3C6D1FF3100C8C3ABB0869C0E6543461A9996195"
+      ],
+      "outputPath": "keys/nvidia-repo-download-nvidia-com-signing-key-e6543461a9996195.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:02:43.602Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0D296FFB880FB004",
+      "notes": "Discovered via InRelease signature for https://repo.download.nvidia.com/jetson/t210."
+    },
+    {
+      "id": "atomicorp-updates-atomicorp-com-signing-key-ffbd5d0a4520afa9",
+      "vendor": "atomicorp",
+      "label": "updates.atomicorp.com signing key",
+      "expectedFingerprints": [
+        "181866DF9DACA40E5B429B08FFBD5D0A4520AFA9"
+      ],
+      "outputPath": "keys/atomicorp-updates-atomicorp-com-signing-key-ffbd5d0a4520afa9.asc",
+      "status": "active",
+      "createdAt": "2026-01-26T22:02:44.621Z",
+      "keyCount": 1,
+      "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xFFBD5D0A4520AFA9",
+      "notes": "Discovered via InRelease signature for https://updates.atomicorp.com/channels/atomic/debian."
     }
   ]
 }

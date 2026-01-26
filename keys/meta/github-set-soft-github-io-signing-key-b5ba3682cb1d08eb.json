@@ -1,0 +1,43 @@
+{
+  "id": "github-set-soft-github-io-signing-key-b5ba3682cb1d08eb",
+  "vendor": "github",
+  "label": "set-soft.github.io signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xB5BA3682CB1D08EB",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xB5BA3682CB1D08EB"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "8EF8993CA43394155E5D6CE2B5BA3682CB1D08EB"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Salvador E. Tropea <salvador@inti.gob.ar>",
+    "Salvador Eduardo Tropea <salvador@inti.gov.ar>",
+    "Salvador E. Tropea <set@ieee.org>",
+    "Salvador E. Tropea <salvador@inti.gov.ar>"
+  ],
+  "primaryUserId": "Salvador E. Tropea <salvador@inti.gob.ar>",
+  "keyIds": [
+    {
+      "fingerprint": "8EF8993CA43394155E5D6CE2B5BA3682CB1D08EB",
+      "keyIdLong": "B5BA3682CB1D08EB",
+      "keyIdShort": "CB1D08EB"
+    }
+  ],
+  "downloaded": {
+    "sha256": "eb9744964a52d8c7941e68cfb3b4cdba57cbc014779b9631053e68d3e68ba6aa",
+    "sizeBytes": 5908,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "105b50ad8d5ff41e4723f67e826814ff4fe08e73fb3b78e83ea5a10577b565d6",
+    "sizeBytes": 5870,
+    "outputPath": "keys/github-set-soft-github-io-signing-key-b5ba3682cb1d08eb.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "8EF8993CA43394155E5D6CE2B5BA3682CB1D08EB",
+    "fingerprintSuffix16": "B5BA3682CB1D08EB"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "dl-yarnpkg-com",
+  "label": "yarn",
+  "name": "yarn",
+  "baseUrl": "https://dl.yarnpkg.com/debian",
+  "keyId": "yarn",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "debian",
+    "dl.yarnpkg.com"
+  ]
+}

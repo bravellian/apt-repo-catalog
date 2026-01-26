@@ -1,0 +1,12 @@
+{
+  "id": "download-docker-com",
+  "label": "Docker",
+  "name": "docker",
+  "baseUrl": "https://download.docker.com/linux/ubuntu",
+  "keyId": "docker-gpg-8d81803c0ebfcd88",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "download.docker.com"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "postgresql-ftp-postgresql-org-signing-key-8881b2a8210976f2",
+  "vendor": "postgresql",
+  "label": "ftp.postgresql.org signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8881B2A8210976F2",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8881B2A8210976F2"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "E8697E2EEF76C02D3A6332778881B2A8210976F2"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Package Manager (Package Signing Key) <packages@pgadmin.org>"
+  ],
+  "primaryUserId": "Package Manager (Package Signing Key) <packages@pgadmin.org>",
+  "keyIds": [
+    {
+      "fingerprint": "E8697E2EEF76C02D3A6332778881B2A8210976F2",
+      "keyIdLong": "8881B2A8210976F2",
+      "keyIdShort": "210976F2"
+    }
+  ],
+  "downloaded": {
+    "sha256": "61291d5372b8fa88d219dce5da8665f367e89180d6583e84d28507865762d30e",
+    "sizeBytes": 4994,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "f5d730a262372fbf8658641d94ab1c63217610dad5eefaadd27e26677fb2591b",
+    "sizeBytes": 4955,
+    "outputPath": "keys/postgresql-ftp-postgresql-org-signing-key-8881b2a8210976f2.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "E8697E2EEF76C02D3A6332778881B2A8210976F2",
+    "fingerprintSuffix16": "8881B2A8210976F2"
+  }
+}

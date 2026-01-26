@@ -1,0 +1,12 @@
+{
+  "id": "cdn-repo-cloudeka-id",
+  "label": "Ubuntu",
+  "name": "ubuntu",
+  "baseUrl": "https://cdn.repo.cloudeka.id/ubuntu",
+  "keyId": "ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "cdn.repo.cloudeka.id"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "download-virtualbox-org",
+  "label": "Oracle Corporation",
+  "name": "oracle-corporation",
+  "baseUrl": "https://download.virtualbox.org/virtualbox/debian",
+  "keyId": "oracle-vbox2016",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "download.virtualbox.org",
+    "ubuntu"
+  ]
+}

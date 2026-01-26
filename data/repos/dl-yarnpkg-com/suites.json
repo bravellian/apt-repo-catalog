@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://dl.yarnpkg.com/debian",
+  "generatedAt": "2026-01-26T22:38:37.082Z",
+  "keyId": "yarn",
+  "repoId": "dl-yarnpkg-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "stable"
+    }
+  ]
+}

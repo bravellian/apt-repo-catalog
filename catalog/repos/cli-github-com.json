@@ -1,0 +1,13 @@
+{
+  "id": "cli-github-com",
+  "label": "gh",
+  "name": "gh",
+  "baseUrl": "https://cli.github.com/packages",
+  "keyId": "github-cli",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "cli.github.com",
+    "debian"
+  ]
+}

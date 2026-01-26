@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://apt.grafana.com",
+  "generatedAt": "2026-01-26T22:38:37.054Z",
+  "keyId": "grafana",
+  "repoId": "apt-grafana-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "stable"
+    }
+  ]
+}

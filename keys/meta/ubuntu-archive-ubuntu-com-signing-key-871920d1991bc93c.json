@@ -1,0 +1,40 @@
+{
+  "id": "ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c",
+  "vendor": "ubuntu",
+  "label": "archive.ubuntu.com signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x871920D1991BC93C",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x871920D1991BC93C"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "F6ECB3762474EDA9D21B7022871920D1991BC93C"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Ubuntu Archive Automatic Signing Key (2018) <ftpmaster@ubuntu.com>"
+  ],
+  "primaryUserId": "Ubuntu Archive Automatic Signing Key (2018) <ftpmaster@ubuntu.com>",
+  "keyIds": [
+    {
+      "fingerprint": "F6ECB3762474EDA9D21B7022871920D1991BC93C",
+      "keyIdLong": "871920D1991BC93C",
+      "keyIdShort": "991BC93C"
+    }
+  ],
+  "downloaded": {
+    "sha256": "85309b698b7bdac6f21de64aa1eaa998470bbd9c8c853ea274d0c27a95013210",
+    "sizeBytes": 4747,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "a4fa6412d0a309d198eedaf8550836d1835914ff61e6614d99a4d6150559490b",
+    "sizeBytes": 4707,
+    "outputPath": "keys/ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "F6ECB3762474EDA9D21B7022871920D1991BC93C",
+    "fingerprintSuffix16": "871920D1991BC93C"
+  }
+}

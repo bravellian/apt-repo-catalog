@@ -1,0 +1,17 @@
+{
+  "baseUrl": "https://cli.github.com/packages",
+  "generatedAt": "2026-01-26T22:38:37.072Z",
+  "keyId": "github-cli",
+  "repoId": "cli-github-com",
+  "suites": [
+    {
+      "architectures": [
+        "{{"
+      ],
+      "components": [
+        "main"
+      ],
+      "suite": "stable"
+    }
+  ]
+}

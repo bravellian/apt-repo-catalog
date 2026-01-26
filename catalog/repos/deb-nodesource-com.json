@@ -1,0 +1,12 @@
+{
+  "id": "deb-nodesource-com",
+  "label": ". nodistro",
+  "name": "nodistro",
+  "baseUrl": "https://deb.nodesource.com/node_22.x",
+  "keyId": "nodesource",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "deb.nodesource.com"
+  ]
+}

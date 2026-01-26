@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://deb.nodesource.com/node_22.x",
+  "generatedAt": "2026-01-26T22:38:37.075Z",
+  "keyId": "nodesource",
+  "repoId": "deb-nodesource-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "nodistro"
+    }
+  ]
+}

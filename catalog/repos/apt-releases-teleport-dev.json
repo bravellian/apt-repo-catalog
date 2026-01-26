@@ -1,0 +1,13 @@
+{
+  "id": "apt-releases-teleport-dev",
+  "label": "ubuntu noble",
+  "name": "ubuntu-noble",
+  "baseUrl": "https://apt.releases.teleport.dev/ubuntu",
+  "keyId": "teleport-apt-releases-teleport-dev-signing-key-c87ed53a6282c411",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "apt.releases.teleport.dev",
+    "ubuntu"
+  ]
+}

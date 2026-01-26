@@ -1,0 +1,12 @@
+{
+  "id": "atl-mirrors-clouvider-net",
+  "label": "Ubuntu",
+  "name": "ubuntu",
+  "baseUrl": "https://atl.mirrors.clouvider.net/ubuntu",
+  "keyId": "ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "atl.mirrors.clouvider.net"
+  ]
+}

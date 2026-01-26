@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://apt.repos.intel.com/oneapi",
+  "generatedAt": "2026-01-26T22:38:37.057Z",
+  "keyId": "intel-apt-repos-intel-com-signing-key-bac6f0c353d04109",
+  "repoId": "apt-repos-intel-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "all"
+    }
+  ]
+}

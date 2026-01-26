@@ -1,0 +1,13 @@
+{
+  "id": "brave-browser-apt-release-s3-brave-com",
+  "label": "Brave Software",
+  "name": "brave-software",
+  "baseUrl": "https://brave-browser-apt-release.s3.brave.com",
+  "keyId": "brave-browser",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "brave-browser-apt-release.s3.brave.com",
+    "debian"
+  ]
+}

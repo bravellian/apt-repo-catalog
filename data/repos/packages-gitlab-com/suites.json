@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/debian",
+  "generatedAt": "2026-01-26T22:38:37.100Z",
+  "keyId": "gitlab-ce",
+  "repoId": "packages-gitlab-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "bullseye"
+    }
+  ]
+}

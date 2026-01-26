@@ -1,0 +1,40 @@
+{
+  "id": "anaconda-repo-anaconda-com-signing-key-8aeb4f8b29d82806",
+  "vendor": "anaconda",
+  "label": "repo.anaconda.com signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8AEB4F8B29D82806",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8AEB4F8B29D82806"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "34161F5BF5EB1D4BFBBB8F0A8AEB4F8B29D82806"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Distribution Team <distribution_team@anaconda.com>"
+  ],
+  "primaryUserId": "Distribution Team <distribution_team@anaconda.com>",
+  "keyIds": [
+    {
+      "fingerprint": "34161F5BF5EB1D4BFBBB8F0A8AEB4F8B29D82806",
+      "keyIdLong": "8AEB4F8B29D82806",
+      "keyIdShort": "29D82806"
+    }
+  ],
+  "downloaded": {
+    "sha256": "1388d73d316b25adff5ba2c3f17eb1301c37e3d7b5ede4e2bf8e88e28fce401d",
+    "sizeBytes": 1753,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "4364b0a04131c392e4b056f36b4a7cb11fa3de8b3d2fa2a507fc19fcc6b44d02",
+    "sizeBytes": 1710,
+    "outputPath": "keys/anaconda-repo-anaconda-com-signing-key-8aeb4f8b29d82806.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "34161F5BF5EB1D4BFBBB8F0A8AEB4F8B29D82806",
+    "fingerprintSuffix16": "8AEB4F8B29D82806"
+  }
+}

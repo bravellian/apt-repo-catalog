@@ -1,0 +1,13 @@
+{
+  "id": "packages-microsoft-com",
+  "label": "code stable",
+  "name": "code-stable",
+  "baseUrl": "https://packages.microsoft.com/repos/code",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "debian",
+    "packages.microsoft.com"
+  ]
+}

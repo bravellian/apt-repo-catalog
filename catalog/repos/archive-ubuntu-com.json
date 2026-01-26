@@ -1,0 +1,13 @@
+{
+  "id": "archive-ubuntu-com",
+  "label": "Ubuntu",
+  "name": "ubuntu",
+  "baseUrl": "https://archive.ubuntu.com/ubuntu",
+  "keyId": "ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "archive.ubuntu.com",
+    "ubuntu"
+  ]
+}

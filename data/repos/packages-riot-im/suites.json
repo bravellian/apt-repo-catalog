@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://packages.riot.im/debian",
+  "generatedAt": "2026-01-26T22:38:37.121Z",
+  "keyId": "riot-packages-riot-im-signing-key-d7b0b66941d01538",
+  "repoId": "packages-riot-im",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "default"
+    }
+  ]
+}

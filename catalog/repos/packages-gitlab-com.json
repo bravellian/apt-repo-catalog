@@ -1,0 +1,13 @@
+{
+  "id": "packages-gitlab-com",
+  "label": "packages.gitlab.com/gitlab/gitlab-ce",
+  "name": "packages-gitlab-com-gitlab-gitlab-ce",
+  "baseUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/debian",
+  "keyId": "gitlab-ce",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "debian",
+    "packages.gitlab.com"
+  ]
+}

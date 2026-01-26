@@ -1,0 +1,13 @@
+{
+  "id": "pkgs-tailscale-com",
+  "label": "Tailscale",
+  "name": "tailscale",
+  "baseUrl": "https://pkgs.tailscale.com/stable/debian",
+  "keyId": "tailscale-ubuntu-jammy",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "debian",
+    "pkgs.tailscale.com"
+  ]
+}

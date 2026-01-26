@@ -1,0 +1,17 @@
+{
+  "baseUrl": "https://artifacts.elastic.co/packages/8.x/apt",
+  "generatedAt": "2026-01-26T22:38:37.064Z",
+  "keyId": "elasticsearch",
+  "repoId": "artifacts-elastic-co",
+  "suites": [
+    {
+      "architectures": [
+        "amd64"
+      ],
+      "components": [
+        "main"
+      ],
+      "suite": "stable"
+    }
+  ]
+}

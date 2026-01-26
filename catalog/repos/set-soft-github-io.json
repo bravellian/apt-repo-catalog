@@ -1,0 +1,13 @@
+{
+  "id": "set-soft-github-io",
+  "label": "set-soft.github.io/debian",
+  "name": "set-soft-github-io-debian",
+  "baseUrl": "https://set-soft.github.io/debian",
+  "keyId": "github-set-soft-github-io-signing-key-b5ba3682cb1d08eb",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "debian",
+    "set-soft.github.io"
+  ]
+}

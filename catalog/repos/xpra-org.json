@@ -1,0 +1,13 @@
+{
+  "id": "xpra-org",
+  "label": "xpra.org",
+  "name": "xpra-org",
+  "baseUrl": "https://xpra.org",
+  "keyId": "xpra-xpra-org-signing-key-73254cad17978faf",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "debian",
+    "xpra.org"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "nvidia-repo-download-nvidia-com-signing-key-e6543461a9996195",
+  "vendor": "nvidia",
+  "label": "repo.download.nvidia.com signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0D296FFB880FB004",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0D296FFB880FB004"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "3C6D1FF3100C8C3ABB0869C0E6543461A9996195"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "NVIDIA Corporation <linux-tegra-bugs@nvidia.com>"
+  ],
+  "primaryUserId": "NVIDIA Corporation <linux-tegra-bugs@nvidia.com>",
+  "keyIds": [
+    {
+      "fingerprint": "3C6D1FF3100C8C3ABB0869C0E6543461A9996195",
+      "keyIdLong": "E6543461A9996195",
+      "keyIdShort": "A9996195"
+    }
+  ],
+  "downloaded": {
+    "sha256": "ed4f12a6e8d56ec2dbda40b5e622bc884e6810df98163ef7d13daeba0731c776",
+    "sizeBytes": 5453,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "503df6726797418daf6792a525c9529bc528e09885aad7374a4a72544e9007f3",
+    "sizeBytes": 5415,
+    "outputPath": "keys/nvidia-repo-download-nvidia-com-signing-key-e6543461a9996195.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "3C6D1FF3100C8C3ABB0869C0E6543461A9996195",
+    "fingerprintSuffix16": "E6543461A9996195"
+  }
+}

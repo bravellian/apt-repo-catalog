@@ -1,0 +1,13 @@
+{
+  "id": "packages-lunarg-com",
+  "label": "vulkan.lunarg.com",
+  "name": "vulkan-lunarg-com",
+  "baseUrl": "https://packages.lunarg.com/vulkan",
+  "keyId": "lunarg-packages-lunarg-com-signing-key-aa8452080e383f7e",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "packages.lunarg.com",
+    "ubuntu"
+  ]
+}

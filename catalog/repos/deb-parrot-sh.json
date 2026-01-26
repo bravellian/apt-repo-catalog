@@ -1,0 +1,12 @@
+{
+  "id": "deb-parrot-sh",
+  "label": "Parrot",
+  "name": "parrot",
+  "baseUrl": "https://deb.parrot.sh/parrot",
+  "keyId": "parrot-deb-parrot-sh-signing-key-7a8286af0e81ee4a",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "deb.parrot.sh"
+  ]
+}

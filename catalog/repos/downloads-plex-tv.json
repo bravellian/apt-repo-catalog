@@ -1,0 +1,12 @@
+{
+  "id": "downloads-plex-tv",
+  "label": "Artifactory",
+  "name": "artifactory",
+  "baseUrl": "https://downloads.plex.tv/repo/deb",
+  "keyId": "plex-downloads-plex-tv-signing-key-97203c7b3adca79d",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "downloads.plex.tv"
+  ]
+}

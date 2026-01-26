@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://www.ui.com/downloads/unifi/debian",
+  "generatedAt": "2026-01-26T22:38:37.140Z",
+  "keyId": "ui-www-ui-com-signing-key-06e85760c0a52c50",
+  "repoId": "www-ui-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "ubiquiti"
+      ],
+      "suite": "stable"
+    }
+  ]
+}

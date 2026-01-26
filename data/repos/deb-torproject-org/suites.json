@@ -1,0 +1,68 @@
+{
+  "baseUrl": "https://deb.torproject.org/torproject.org",
+  "generatedAt": "2026-01-26T22:38:37.079Z",
+  "keyId": "torproject",
+  "repoId": "deb-torproject-org",
+  "suites": [
+    {
+      "architectures": [
+        "amd64"
+      ],
+      "components": [
+        "}}",
+        "ansible_distribution_release",
+        "main"
+      ],
+      "suite": "{{"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "bookworm"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "bullseye"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "focal"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "stretch"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "suite"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "testing"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "trixie"
+    }
+  ]
+}

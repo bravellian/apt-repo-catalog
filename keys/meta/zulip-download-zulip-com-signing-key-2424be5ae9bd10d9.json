@@ -1,0 +1,40 @@
+{
+  "id": "zulip-download-zulip-com-signing-key-2424be5ae9bd10d9",
+  "vendor": "zulip",
+  "label": "download.zulip.com signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2424BE5AE9BD10D9",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2424BE5AE9BD10D9"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "69AD12704E71A4803DCA3A682424BE5AE9BD10D9"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Zulip APT Repository Signing Key Bintray (Production) <support@zulipchat.com>"
+  ],
+  "primaryUserId": "Zulip APT Repository Signing Key Bintray (Production) <support@zulipchat.com>",
+  "keyIds": [
+    {
+      "fingerprint": "69AD12704E71A4803DCA3A682424BE5AE9BD10D9",
+      "keyIdLong": "2424BE5AE9BD10D9",
+      "keyIdShort": "E9BD10D9"
+    }
+  ],
+  "downloaded": {
+    "sha256": "8174021a15913691d419c21ef8a53ef4f7f0de037e5fde239402d52e93447c6e",
+    "sizeBytes": 2858,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "82e64b2a232deeaa2b5a587ccf5f16cf01d2dd693c71b7983d47efe7eab6ccb8",
+    "sizeBytes": 2816,
+    "outputPath": "keys/zulip-download-zulip-com-signing-key-2424be5ae9bd10d9.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "69AD12704E71A4803DCA3A682424BE5AE9BD10D9",
+    "fingerprintSuffix16": "2424BE5AE9BD10D9"
+  }
+}

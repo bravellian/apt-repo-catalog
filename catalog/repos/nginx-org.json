@@ -1,0 +1,13 @@
+{
+  "id": "nginx-org",
+  "label": "nginx",
+  "name": "nginx",
+  "baseUrl": "https://nginx.org/packages/mainline/debian",
+  "keyId": "nginx-org",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "debian",
+    "nginx.org"
+  ]
+}

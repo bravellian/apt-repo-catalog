@@ -1,0 +1,38 @@
+{
+  "baseUrl": "https://archive.ubuntu.com/ubuntu",
+  "generatedAt": "2026-01-26T22:38:37.063Z",
+  "keyId": "ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c",
+  "repoId": "archive-ubuntu-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main",
+        "multiverse",
+        "restricted",
+        "universe"
+      ],
+      "suite": "jammy"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main",
+        "multiverse",
+        "restricted",
+        "universe"
+      ],
+      "suite": "jammy-backports"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main",
+        "multiverse",
+        "restricted",
+        "universe"
+      ],
+      "suite": "jammy-updates"
+    }
+  ]
+}

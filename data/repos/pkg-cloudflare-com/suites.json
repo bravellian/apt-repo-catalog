@@ -1,0 +1,29 @@
+{
+  "baseUrl": "https://pkg.cloudflare.com/cloudflared",
+  "generatedAt": "2026-01-26T22:38:37.127Z",
+  "keyId": "cloudflare-pkg-cloudflare-com-signing-key-254b391d8caccbf8",
+  "repoId": "pkg-cloudflare-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "bookworm"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "jammy"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "noble"
+    }
+  ]
+}

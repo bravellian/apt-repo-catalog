@@ -1,0 +1,40 @@
+{
+  "id": "debian-deb-debian-org-signing-key-254cf3b5aec0a8f0",
+  "vendor": "debian",
+  "label": "deb.debian.org signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xBDE6D2B9216EC7A8",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xBDE6D2B9216EC7A8"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "05AB90340C0C5E797F44A8C8254CF3B5AEC0A8F0"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Debian Security Archive Automatic Signing Key (12/bookworm) <ftpmaster@debian.org>"
+  ],
+  "primaryUserId": "Debian Security Archive Automatic Signing Key (12/bookworm) <ftpmaster@debian.org>",
+  "keyIds": [
+    {
+      "fingerprint": "05AB90340C0C5E797F44A8C8254CF3B5AEC0A8F0",
+      "keyIdLong": "254CF3B5AEC0A8F0",
+      "keyIdShort": "AEC0A8F0"
+    }
+  ],
+  "downloaded": {
+    "sha256": "83af4ddfef57f105115c7031e87ce8ebdfabdc6123683888c15ff6c0cc9322e9",
+    "sizeBytes": 11917,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "ecfb875bfeddd6a3b39b4879f79eb229499a1a61c0f48e572dee944ce95e443c",
+    "sizeBytes": 11885,
+    "outputPath": "keys/debian-deb-debian-org-signing-key-254cf3b5aec0a8f0.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "05AB90340C0C5E797F44A8C8254CF3B5AEC0A8F0",
+    "fingerprintSuffix16": "254CF3B5AEC0A8F0"
+  }
+}

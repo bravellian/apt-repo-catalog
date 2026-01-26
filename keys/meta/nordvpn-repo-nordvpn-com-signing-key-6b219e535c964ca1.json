@@ -1,0 +1,40 @@
+{
+  "id": "nordvpn-repo-nordvpn-com-signing-key-6b219e535c964ca1",
+  "vendor": "nordvpn",
+  "label": "repo.nordvpn.com signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x6B219E535C964CA1",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x6B219E535C964CA1"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "BC5480EFEC5C081CE5BCFBE26B219E535C964CA1"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "NordVPN <admin@nordvpn.com>"
+  ],
+  "primaryUserId": "NordVPN <admin@nordvpn.com>",
+  "keyIds": [
+    {
+      "fingerprint": "BC5480EFEC5C081CE5BCFBE26B219E535C964CA1",
+      "keyIdLong": "6B219E535C964CA1",
+      "keyIdShort": "5C964CA1"
+    }
+  ],
+  "downloaded": {
+    "sha256": "127025e577f4f7329fa414283db0ac11a690b64db9df3b7a70d086156eb211df",
+    "sizeBytes": 6818,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "ca10ec4661b872c61676a10e3df24fc5184c1cdaee3a27ed82ff84572d255979",
+    "sizeBytes": 6781,
+    "outputPath": "keys/nordvpn-repo-nordvpn-com-signing-key-6b219e535c964ca1.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "BC5480EFEC5C081CE5BCFBE26B219E535C964CA1",
+    "fingerprintSuffix16": "6B219E535C964CA1"
+  }
+}

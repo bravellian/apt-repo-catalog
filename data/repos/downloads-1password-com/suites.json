@@ -1,0 +1,17 @@
+{
+  "baseUrl": "https://downloads.1password.com/linux/debian/amd64",
+  "generatedAt": "2026-01-26T22:38:37.091Z",
+  "keyId": "1password",
+  "repoId": "downloads-1password-com",
+  "suites": [
+    {
+      "architectures": [
+        "amd64"
+      ],
+      "components": [
+        "main"
+      ],
+      "suite": "stable"
+    }
+  ]
+}

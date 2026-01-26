@@ -1,0 +1,13 @@
+{
+  "id": "www-ui-com",
+  "label": "Ubiquiti Networks, Inc.",
+  "name": "ubiquiti-networks-inc",
+  "baseUrl": "https://www.ui.com/downloads/unifi/debian",
+  "keyId": "ui-www-ui-com-signing-key-06e85760c0a52c50",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "debian",
+    "www.ui.com"
+  ]
+}

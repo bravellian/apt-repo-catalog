@@ -1,0 +1,31 @@
+{
+  "baseUrl": "https://packages.sury.org/php",
+  "generatedAt": "2026-01-26T22:38:37.123Z",
+  "keyId": "sury-packages-sury-org-signing-key-b188e2b695bd4743",
+  "repoId": "packages-sury-org",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "}}",
+        "grains.oscodename",
+        "main"
+      ],
+      "suite": "{{"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "bookworm"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "stretch"
+    }
+  ]
+}

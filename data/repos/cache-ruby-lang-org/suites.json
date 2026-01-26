@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://cache.ruby-lang.org/lab/sorah/deb",
+  "generatedAt": "2026-01-26T22:38:37.069Z",
+  "keyId": "ruby-lang-cache-ruby-lang-org-signing-key-69ceb9d53f0f56a8",
+  "repoId": "cache-ruby-lang-org",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "focal"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "jammy"
+    }
+  ]
+}

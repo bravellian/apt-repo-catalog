@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://pkgs.techaro.lol/deb/unstable",
+  "generatedAt": "2026-01-26T22:38:37.129Z",
+  "keyId": "techaro-pkgs-techaro-lol-signing-key-56375da2df02abff",
+  "repoId": "pkgs-techaro-lol",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "stable"
+    }
+  ]
+}

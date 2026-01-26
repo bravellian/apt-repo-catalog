@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://packages.grafana.com/oss/deb",
+  "generatedAt": "2026-01-26T22:38:37.111Z",
+  "keyId": "grafana",
+  "repoId": "packages-grafana-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "stable"
+    }
+  ]
+}

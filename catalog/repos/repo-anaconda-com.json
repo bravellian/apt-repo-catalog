@@ -1,0 +1,13 @@
+{
+  "id": "repo-anaconda-com",
+  "label": ". stable",
+  "name": "stable",
+  "baseUrl": "https://repo.anaconda.com/pkgs/misc/debrepo/conda",
+  "keyId": "anaconda-repo-anaconda-com-signing-key-8aeb4f8b29d82806",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "debian",
+    "repo.anaconda.com"
+  ]
+}

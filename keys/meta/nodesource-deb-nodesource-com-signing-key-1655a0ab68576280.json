@@ -1,0 +1,40 @@
+{
+  "id": "nodesource-deb-nodesource-com-signing-key-1655a0ab68576280",
+  "vendor": "nodesource",
+  "label": "deb.nodesource.com signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x1655A0AB68576280",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x1655A0AB68576280"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "9FD3B784BC1C6FC31A8A0A1C1655A0AB68576280"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "NodeSource <gpg@nodesource.com>"
+  ],
+  "primaryUserId": "NodeSource <gpg@nodesource.com>",
+  "keyIds": [
+    {
+      "fingerprint": "9FD3B784BC1C6FC31A8A0A1C1655A0AB68576280",
+      "keyIdLong": "1655A0AB68576280",
+      "keyIdShort": "68576280"
+    }
+  ],
+  "downloaded": {
+    "sha256": "227b71a5099abcbbb5e209e27c02650aeb112e1e246a20a7edfc62929c123b0c",
+    "sizeBytes": 4470,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "fb57615a0fd4fc31ece69087014c2fe3ce54df2245ae3cc344ca26417fbca33d",
+    "sizeBytes": 4431,
+    "outputPath": "keys/nodesource-deb-nodesource-com-signing-key-1655a0ab68576280.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "9FD3B784BC1C6FC31A8A0A1C1655A0AB68576280",
+    "fingerprintSuffix16": "1655A0AB68576280"
+  }
+}

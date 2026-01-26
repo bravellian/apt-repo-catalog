@@ -1,0 +1,13 @@
+{
+  "id": "apt-grafana-com",
+  "label": ". stable",
+  "name": "stable",
+  "baseUrl": "https://apt.grafana.com",
+  "keyId": "grafana",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "apt.grafana.com",
+    "debian"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "atomicorp-updates-atomicorp-com-signing-key-ffbd5d0a4520afa9",
+  "vendor": "atomicorp",
+  "label": "updates.atomicorp.com signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xFFBD5D0A4520AFA9",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xFFBD5D0A4520AFA9"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "181866DF9DACA40E5B429B08FFBD5D0A4520AFA9"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Atomicorp (Atomicorp Official Signing Key) <support@atomicorp.com>"
+  ],
+  "primaryUserId": "Atomicorp (Atomicorp Official Signing Key) <support@atomicorp.com>",
+  "keyIds": [
+    {
+      "fingerprint": "181866DF9DACA40E5B429B08FFBD5D0A4520AFA9",
+      "keyIdLong": "FFBD5D0A4520AFA9",
+      "keyIdShort": "4520AFA9"
+    }
+  ],
+  "downloaded": {
+    "sha256": "6b2d1dcf2f10f649a0fbbc05aa6ae6a8dec021900a09102a1bdbafd9fe45e2fb",
+    "sizeBytes": 3053,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "1b3ba5826bfacec3495d6c32263123790c0788bb2acb739e9c8da80a88e8d12c",
+    "sizeBytes": 3012,
+    "outputPath": "keys/atomicorp-updates-atomicorp-com-signing-key-ffbd5d0a4520afa9.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "181866DF9DACA40E5B429B08FFBD5D0A4520AFA9",
+    "fingerprintSuffix16": "FFBD5D0A4520AFA9"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "download-vscodium-com",
+  "label": "download.vscodium.com",
+  "name": "download-vscodium-com",
+  "baseUrl": "https://download.vscodium.com/debs",
+  "keyId": "vscodium-download-vscodium-com-signing-key-54678cf75a278d9c",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "download.vscodium.com"
+  ]
+}

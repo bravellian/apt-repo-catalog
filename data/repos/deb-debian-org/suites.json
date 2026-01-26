@@ -1,0 +1,188 @@
+{
+  "baseUrl": "https://deb.debian.org/debian",
+  "generatedAt": "2026-01-26T22:38:37.073Z",
+  "keyId": "debian-deb-debian-org-signing-key-b7c5d7d6350947f8",
+  "repoId": "deb-debian-org",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "/etc/apt/sources.list",
+        "|",
+        "${debian_sections}\"",
+        "sudo",
+        "tee"
+      ],
+      "suite": "${debian_release}"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "-a",
+        "/etc/apt/sources.list",
+        "|",
+        "${debian_sections}\"",
+        "sudo",
+        "tee"
+      ],
+      "suite": "${debian_release}-updates"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main",
+        "non-free-firmware"
+      ],
+      "suite": "bookworm"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main",
+        "non-free-firmware"
+      ],
+      "suite": "bookworm-updates"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "contrib",
+        "main",
+        "non-free"
+      ],
+      "suite": "bullseye"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "contrib",
+        "main",
+        "non-free"
+      ],
+      "suite": "bullseye-updates"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "buster"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "buster-updates"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "contrib",
+        "main",
+        "non-free",
+        "non-free-firmware"
+      ],
+      "suite": "experimental"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main",
+        "non-free-firmware"
+      ],
+      "suite": "forky"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main",
+        "non-free-firmware"
+      ],
+      "suite": "forky-updates"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "RELEASE"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "contrib",
+        "main",
+        "non-free"
+      ],
+      "suite": "RELEASE-updates"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "contrib",
+        "main",
+        "non-free",
+        "non-free-firmware"
+      ],
+      "suite": "sid"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "contrib",
+        "main",
+        "non-free",
+        "non-free-firmware"
+      ],
+      "suite": "stable"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "contrib",
+        "main",
+        "non-free",
+        "non-free-firmware"
+      ],
+      "suite": "stable-updates"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "contrib",
+        "main",
+        "non-free"
+      ],
+      "suite": "stretch"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "contrib",
+        "main",
+        "non-free"
+      ],
+      "suite": "stretch-proposed-updates"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "contrib",
+        "main",
+        "non-free"
+      ],
+      "suite": "stretch-updates"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "contrib",
+        "main",
+        "non-free",
+        "non-free-firmware"
+      ],
+      "suite": "testing"
+    }
+  ]
+}

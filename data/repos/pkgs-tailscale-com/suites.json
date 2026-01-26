@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://pkgs.tailscale.com/stable/debian",
+  "generatedAt": "2026-01-26T22:38:37.128Z",
+  "keyId": "tailscale-ubuntu-jammy",
+  "repoId": "pkgs-tailscale-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "bookworm"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "trixie"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "artifacts-elastic-co",
+  "label": "elastic",
+  "name": "elastic",
+  "baseUrl": "https://artifacts.elastic.co/packages/8.x/apt",
+  "keyId": "elasticsearch",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "artifacts.elastic.co",
+    "debian"
+  ]
+}

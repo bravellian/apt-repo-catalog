@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://deb.opera.com/opera-stable",
+  "generatedAt": "2026-01-26T22:38:37.076Z",
+  "keyId": "opera-deb-opera-com-signing-key-11ee8c00b693a745",
+  "repoId": "deb-opera-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "non-free"
+      ],
+      "suite": "stable"
+    }
+  ]
+}

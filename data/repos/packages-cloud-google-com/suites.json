@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://packages.cloud.google.com/apt",
+  "generatedAt": "2026-01-26T22:38:37.097Z",
+  "keyId": "google-cloud",
+  "repoId": "packages-cloud-google-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "cloud-sdk"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "cloud-sdk-bionic"
+    }
+  ]
+}

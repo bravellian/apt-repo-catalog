@@ -1,0 +1,13 @@
+{
+  "id": "cache-ruby-lang-org",
+  "label": ". focal",
+  "name": "focal",
+  "baseUrl": "https://cache.ruby-lang.org/lab/sorah/deb",
+  "keyId": "ruby-lang-cache-ruby-lang-org-signing-key-69ceb9d53f0f56a8",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "cache.ruby-lang.org",
+    "ubuntu"
+  ]
+}

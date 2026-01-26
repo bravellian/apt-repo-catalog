@@ -1,0 +1,40 @@
+{
+  "id": "plex-downloads-plex-tv-signing-key-97203c7b3adca79d",
+  "vendor": "plex",
+  "label": "downloads.plex.tv signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x97203C7B3ADCA79D",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x97203C7B3ADCA79D"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "CD665CBA0E2F88B7373F7CB997203C7B3ADCA79D"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Plex Inc."
+  ],
+  "primaryUserId": "Plex Inc.",
+  "keyIds": [
+    {
+      "fingerprint": "CD665CBA0E2F88B7373F7CB997203C7B3ADCA79D",
+      "keyIdLong": "97203C7B3ADCA79D",
+      "keyIdShort": "3ADCA79D"
+    }
+  ],
+  "downloaded": {
+    "sha256": "75e5bdf5c248086466cf8d929d90ba927b74e2234e7d688f8e71492247686994",
+    "sizeBytes": 3243,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "649374d814537e8ead8d50d3a15535dd53fbf303db56cf8a63977b3df293e766",
+    "sizeBytes": 3203,
+    "outputPath": "keys/plex-downloads-plex-tv-signing-key-97203c7b3adca79d.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "CD665CBA0E2F88B7373F7CB997203C7B3ADCA79D",
+    "fingerprintSuffix16": "97203C7B3ADCA79D"
+  }
+}

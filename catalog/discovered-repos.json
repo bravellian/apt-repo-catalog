@@ -1,3 +1,636 @@
 {
-  "repos": []
+  "repos": [
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://apt.armbian.com",
+      "id": "apt-armbian-com",
+      "keyId": "armbian-apt-armbian-com-signing-key-93d6889f9f0e78d5",
+      "label": "Armbian",
+      "name": "armbian",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "apt.armbian.com",
+        "ubuntu"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://apt.grafana.com",
+      "id": "apt-grafana-com",
+      "keyId": "grafana",
+      "label": ". stable",
+      "name": "stable",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "apt.grafana.com",
+        "debian"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://apt.releases.teleport.dev/ubuntu",
+      "id": "apt-releases-teleport-dev",
+      "keyId": "teleport-apt-releases-teleport-dev-signing-key-c87ed53a6282c411",
+      "label": "ubuntu noble",
+      "name": "ubuntu-noble",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "apt.releases.teleport.dev",
+        "ubuntu"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://apt.repos.intel.com/oneapi",
+      "id": "apt-repos-intel-com",
+      "keyId": "intel-apt-repos-intel-com-signing-key-bac6f0c353d04109",
+      "label": "Intel Corporation",
+      "name": "intel-corporation",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "apt.repos.intel.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://apt.syncthing.net",
+      "id": "apt-syncthing-net",
+      "keyId": "syncthing-apt-syncthing-net-signing-key-e5665f9bd5970c47",
+      "label": "Syncthing",
+      "name": "syncthing",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "apt.syncthing.net"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://apt.wikimedia.org/wikimedia",
+      "id": "apt-wikimedia-org",
+      "keyId": "wikimedia-apt-wikimedia-org-signing-key-9d392d3ffadf18fb",
+      "label": "Wikimedia",
+      "name": "wikimedia",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "apt.wikimedia.org"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://archive.ubuntu.com/ubuntu",
+      "id": "archive-ubuntu-com",
+      "keyId": "ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c",
+      "label": "Ubuntu",
+      "name": "ubuntu",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "archive.ubuntu.com",
+        "ubuntu"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://artifacts.elastic.co/packages/8.x/apt",
+      "id": "artifacts-elastic-co",
+      "keyId": "elasticsearch",
+      "label": "elastic",
+      "name": "elastic",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "artifacts.elastic.co",
+        "debian"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://atl.mirrors.clouvider.net/ubuntu",
+      "id": "atl-mirrors-clouvider-net",
+      "keyId": "ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c",
+      "label": "Ubuntu",
+      "name": "ubuntu",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "atl.mirrors.clouvider.net"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://brave-browser-apt-release.s3.brave.com",
+      "id": "brave-browser-apt-release-s3-brave-com",
+      "keyId": "brave-browser",
+      "label": "Brave Software",
+      "name": "brave-software",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "brave-browser-apt-release.s3.brave.com",
+        "debian"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://cache.ruby-lang.org/lab/sorah/deb",
+      "id": "cache-ruby-lang-org",
+      "keyId": "ruby-lang-cache-ruby-lang-org-signing-key-69ceb9d53f0f56a8",
+      "label": ". focal",
+      "name": "focal",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "cache.ruby-lang.org",
+        "ubuntu"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://cdn.repo.cloudeka.id/ubuntu",
+      "id": "cdn-repo-cloudeka-id",
+      "keyId": "ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c",
+      "label": "Ubuntu",
+      "name": "ubuntu",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "cdn.repo.cloudeka.id"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://cli.github.com/packages",
+      "id": "cli-github-com",
+      "keyId": "github-cli",
+      "label": "gh",
+      "name": "gh",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "cli.github.com",
+        "debian"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://deb.debian.org/debian",
+      "id": "deb-debian-org",
+      "keyId": "debian-deb-debian-org-signing-key-b7c5d7d6350947f8",
+      "label": "Debian",
+      "name": "debian",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "deb.debian.org",
+        "debian"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://deb.nodesource.com/node_22.x",
+      "id": "deb-nodesource-com",
+      "keyId": "nodesource",
+      "label": ". nodistro",
+      "name": "nodistro",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "deb.nodesource.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://deb.opera.com/opera-stable",
+      "id": "deb-opera-com",
+      "keyId": "opera-deb-opera-com-signing-key-11ee8c00b693a745",
+      "label": "Opera Software AS",
+      "name": "opera-software-as",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "deb.opera.com",
+        "debian"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://deb.parrot.sh/parrot",
+      "id": "deb-parrot-sh",
+      "keyId": "parrot-deb-parrot-sh-signing-key-7a8286af0e81ee4a",
+      "label": "Parrot",
+      "name": "parrot",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "deb.parrot.sh"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://deb.torproject.org/torproject.org",
+      "id": "deb-torproject-org",
+      "keyId": "torproject",
+      "label": "TorProject",
+      "name": "torproject",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "deb.torproject.org",
+        "debian"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://dl.google.com/linux/chrome/deb",
+      "id": "dl-google-com",
+      "keyId": "google-linux",
+      "label": "Google LLC",
+      "name": "google-llc",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "dl.google.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://dl.winehq.org/wine-builds/ubuntu",
+      "id": "dl-winehq-org",
+      "keyId": "winehq",
+      "label": "dl.winehq.org",
+      "name": "dl-winehq-org",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "dl.winehq.org",
+        "ubuntu"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://dl.yarnpkg.com/debian",
+      "id": "dl-yarnpkg-com",
+      "keyId": "yarn",
+      "label": "yarn",
+      "name": "yarn",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "dl.yarnpkg.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://download.docker.com/linux/ubuntu",
+      "id": "download-docker-com",
+      "keyId": "docker-gpg-8d81803c0ebfcd88",
+      "label": "Docker",
+      "name": "docker",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "download.docker.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://download.virtualbox.org/virtualbox/debian",
+      "id": "download-virtualbox-org",
+      "keyId": "oracle-vbox2016",
+      "label": "Oracle Corporation",
+      "name": "oracle-corporation",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "download.virtualbox.org",
+        "ubuntu"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://download.vscodium.com/debs",
+      "id": "download-vscodium-com",
+      "keyId": "vscodium-download-vscodium-com-signing-key-54678cf75a278d9c",
+      "label": "download.vscodium.com",
+      "name": "download-vscodium-com",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "download.vscodium.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://download.zulip.com/desktop/apt",
+      "id": "download-zulip-com",
+      "keyId": "zulip-download-zulip-com-signing-key-2424be5ae9bd10d9",
+      "label": "Zulip",
+      "name": "zulip",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "download.zulip.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://downloads.1password.com/linux/debian/amd64",
+      "id": "downloads-1password-com",
+      "keyId": "1password",
+      "label": ". stable",
+      "name": "stable",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "downloads.1password.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://downloads.plex.tv/repo/deb",
+      "id": "downloads-plex-tv",
+      "keyId": "plex-downloads-plex-tv-signing-key-97203c7b3adca79d",
+      "label": "Artifactory",
+      "name": "artifactory",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "downloads.plex.tv"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/noble",
+      "id": "ftp-postgresql-org",
+      "keyId": "postgresql-ftp-postgresql-org-signing-key-8881b2a8210976f2",
+      "label": "pgAdmin Development Team",
+      "name": "pgadmin-development-team",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "ftp.postgresql.org"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://nginx.org/packages/mainline/debian",
+      "id": "nginx-org",
+      "keyId": "nginx-org",
+      "label": "nginx",
+      "name": "nginx",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "nginx.org"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://packages.cloud.google.com/apt",
+      "id": "packages-cloud-google-com",
+      "keyId": "google-cloud",
+      "label": "cloud-sdk",
+      "name": "cloud-sdk",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "packages.cloud.google.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://packages.gitlab.com/gitlab/gitlab-ce/debian",
+      "id": "packages-gitlab-com",
+      "keyId": "gitlab-ce",
+      "label": "packages.gitlab.com/gitlab/gitlab-ce",
+      "name": "packages-gitlab-com-gitlab-gitlab-ce",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "packages.gitlab.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://packages.grafana.com/oss/deb",
+      "id": "packages-grafana-com",
+      "keyId": "grafana",
+      "label": ". stable",
+      "name": "stable",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "packages.grafana.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://packages.lunarg.com/vulkan",
+      "id": "packages-lunarg-com",
+      "keyId": "lunarg-packages-lunarg-com-signing-key-aa8452080e383f7e",
+      "label": "vulkan.lunarg.com",
+      "name": "vulkan-lunarg-com",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "packages.lunarg.com",
+        "ubuntu"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://packages.microsoft.com/repos/code",
+      "id": "packages-microsoft-com",
+      "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+      "label": "code stable",
+      "name": "code-stable",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "packages.microsoft.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://packages.mozilla.org/apt",
+      "id": "packages-mozilla-org",
+      "keyId": "google-cloud",
+      "label": "namespaces/moz-fx-productdelivery-pr-38b5/repositories/mozilla",
+      "name": "namespaces-moz-fx-productdelivery-pr-38b5-repositories-mozilla",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "packages.mozilla.org"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://packages.riot.im/debian",
+      "id": "packages-riot-im",
+      "keyId": "riot-packages-riot-im-signing-key-d7b0b66941d01538",
+      "label": "riot.im",
+      "name": "riot-im",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "packages.riot.im"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://packages.sury.org/php",
+      "id": "packages-sury-org",
+      "keyId": "sury-packages-sury-org-signing-key-b188e2b695bd4743",
+      "label": "deb.sury.org",
+      "name": "deb-sury-org",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "packages.sury.org"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://packages.vyos.net/repositories/current",
+      "id": "packages-vyos-net",
+      "keyId": "vyos-packages-vyos-net-signing-key-b2bdcede2ebf9c06",
+      "label": "repositories/current current",
+      "name": "repositories-current-current",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "packages.vyos.net"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://pkg.cloudflare.com/cloudflared",
+      "id": "pkg-cloudflare-com",
+      "keyId": "cloudflare-pkg-cloudflare-com-signing-key-254b391d8caccbf8",
+      "label": "cloudflared",
+      "name": "cloudflared",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "pkg.cloudflare.com",
+        "ubuntu"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://pkgs.tailscale.com/stable/debian",
+      "id": "pkgs-tailscale-com",
+      "keyId": "tailscale-ubuntu-jammy",
+      "label": "Tailscale",
+      "name": "tailscale",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "pkgs.tailscale.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://pkgs.techaro.lol/deb/unstable",
+      "id": "pkgs-techaro-lol",
+      "keyId": "techaro-pkgs-techaro-lol-signing-key-56375da2df02abff",
+      "label": ". stable",
+      "name": "stable",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "pkgs.techaro.lol"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://repo.anaconda.com/pkgs/misc/debrepo/conda",
+      "id": "repo-anaconda-com",
+      "keyId": "anaconda-repo-anaconda-com-signing-key-8aeb4f8b29d82806",
+      "label": ". stable",
+      "name": "stable",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "repo.anaconda.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://repo.download.nvidia.com/jetson/t210",
+      "id": "repo-download-nvidia-com",
+      "keyId": "nvidia-repo-download-nvidia-com-signing-key-e6543461a9996195",
+      "label": "Nvidia",
+      "name": "nvidia",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "repo.download.nvidia.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://repo.nordvpn.com/deb/nordvpn/debian",
+      "id": "repo-nordvpn-com",
+      "keyId": "nordvpn-repo-nordvpn-com-signing-key-6b219e535c964ca1",
+      "label": "Stable",
+      "name": "stable",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "repo.nordvpn.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://repo.steampowered.com/steam",
+      "id": "repo-steampowered-com",
+      "keyId": "steampowered-repo-steampowered-com-signing-key-f24aea9fb05498b7",
+      "label": "Valve Software LLC",
+      "name": "valve-software-llc",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "repo.steampowered.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://security.ubuntu.com/ubuntu",
+      "id": "security-ubuntu-com",
+      "keyId": "ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c",
+      "label": "Ubuntu",
+      "name": "ubuntu",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "security.ubuntu.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://set-soft.github.io/debian",
+      "id": "set-soft-github-io",
+      "keyId": "github-set-soft-github-io-signing-key-b5ba3682cb1d08eb",
+      "label": "set-soft.github.io/debian",
+      "name": "set-soft-github-io-debian",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "set-soft.github.io"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://updates.atomicorp.com/channels/atomic/debian",
+      "id": "updates-atomicorp-com",
+      "keyId": "atomicorp-updates-atomicorp-com-signing-key-ffbd5d0a4520afa9",
+      "label": "Atomicorp",
+      "name": "atomicorp",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "updates.atomicorp.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://www.ui.com/downloads/unifi/debian",
+      "id": "www-ui-com",
+      "keyId": "ui-www-ui-com-signing-key-06e85760c0a52c50",
+      "label": "Ubiquiti Networks, Inc.",
+      "name": "ubiquiti-networks-inc",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "www.ui.com"
+      ]
+    },
+    {
+      "allowMissingDocsUrl": true,
+      "baseUrl": "https://xpra.org",
+      "id": "xpra-org",
+      "keyId": "xpra-xpra-org-signing-key-73254cad17978faf",
+      "label": "xpra.org",
+      "name": "xpra-org",
+      "notes": "Discovered via GitHub mining",
+      "tags": [
+        "debian",
+        "xpra.org"
+      ]
+    }
+  ]
 }

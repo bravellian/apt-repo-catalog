@@ -1,0 +1,17 @@
+{
+  "baseUrl": "https://apt.syncthing.net",
+  "generatedAt": "2026-01-26T22:38:37.058Z",
+  "keyId": "syncthing-apt-syncthing-net-signing-key-e5665f9bd5970c47",
+  "repoId": "apt-syncthing-net",
+  "suites": [
+    {
+      "architectures": [
+        "amd64"
+      ],
+      "components": [
+        "stable"
+      ],
+      "suite": "syncthing"
+    }
+  ]
+}

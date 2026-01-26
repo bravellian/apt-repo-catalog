@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/noble",
+  "generatedAt": "2026-01-26T22:38:37.094Z",
+  "keyId": "postgresql-ftp-postgresql-org-signing-key-8881b2a8210976f2",
+  "repoId": "ftp-postgresql-org",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main"
+      ],
+      "suite": "pgadmin4"
+    }
+  ]
+}

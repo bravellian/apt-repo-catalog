@@ -1,0 +1,28 @@
+{
+  "baseUrl": "https://xpra.org",
+  "generatedAt": "2026-01-26T22:38:37.141Z",
+  "keyId": "xpra-xpra-org-signing-key-73254cad17978faf",
+  "repoId": "xpra-org",
+  "suites": [
+    {
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "components": [
+        "main"
+      ],
+      "suite": "sid"
+    },
+    {
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "components": [
+        "main"
+      ],
+      "suite": "xenial"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "deb-torproject-org",
+  "label": "TorProject",
+  "name": "torproject",
+  "baseUrl": "https://deb.torproject.org/torproject.org",
+  "keyId": "torproject",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "deb.torproject.org",
+    "debian"
+  ]
+}

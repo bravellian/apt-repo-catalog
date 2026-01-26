@@ -1,0 +1,40 @@
+{
+  "id": "ui-www-ui-com-signing-key-06e85760c0a52c50",
+  "vendor": "ui",
+  "label": "www.ui.com signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x06E85760C0A52C50",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x06E85760C0A52C50"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "4A228B2D358A5094178285BE06E85760C0A52C50"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "UniFi Developers <unifi-dev@ubnt.com>"
+  ],
+  "primaryUserId": "UniFi Developers <unifi-dev@ubnt.com>",
+  "keyIds": [
+    {
+      "fingerprint": "4A228B2D358A5094178285BE06E85760C0A52C50",
+      "keyIdLong": "06E85760C0A52C50",
+      "keyIdShort": "C0A52C50"
+    }
+  ],
+  "downloaded": {
+    "sha256": "d1266e010d271dc94e7827f7523b74ddf9255c570584cc800b2dcb5af7f5c0a6",
+    "sizeBytes": 1732,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "b153943b7abbda0f3b4c9aa00f3bc1babea136664c1d637980f8db1aeee8f45e",
+    "sizeBytes": 1690,
+    "outputPath": "keys/ui-www-ui-com-signing-key-06e85760c0a52c50.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "4A228B2D358A5094178285BE06E85760C0A52C50",
+    "fingerprintSuffix16": "06E85760C0A52C50"
+  }
+}

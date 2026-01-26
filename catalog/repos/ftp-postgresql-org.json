@@ -1,0 +1,12 @@
+{
+  "id": "ftp-postgresql-org",
+  "label": "pgAdmin Development Team",
+  "name": "pgadmin-development-team",
+  "baseUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/noble",
+  "keyId": "postgresql-ftp-postgresql-org-signing-key-8881b2a8210976f2",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "ftp.postgresql.org"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "packages-cloud-google-com",
+  "label": "cloud-sdk",
+  "name": "cloud-sdk",
+  "baseUrl": "https://packages.cloud.google.com/apt",
+  "keyId": "google-cloud",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "packages.cloud.google.com"
+  ]
+}

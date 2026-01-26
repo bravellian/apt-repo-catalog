@@ -1,0 +1,40 @@
+{
+  "id": "xpra-xpra-org-signing-key-73254cad17978faf",
+  "vendor": "xpra",
+  "label": "xpra.org signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x73254CAD17978FAF",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x73254CAD17978FAF"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "B4993B57323148E37977E5D873254CAD17978FAF"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Xpra <xpra@xpra.org>"
+  ],
+  "primaryUserId": "Xpra <xpra@xpra.org>",
+  "keyIds": [
+    {
+      "fingerprint": "B4993B57323148E37977E5D873254CAD17978FAF",
+      "keyIdLong": "73254CAD17978FAF",
+      "keyIdShort": "17978FAF"
+    }
+  ],
+  "downloaded": {
+    "sha256": "6707496e3200d150a389b3bbdd8d33a9dfc47b25345dcbb1a78e0e77fc227cb3",
+    "sizeBytes": 1805,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "202b54756c3352ecc03a6fb6d7ebc6a8d96ee9d4aa2e50aae0013f6bb5817adf",
+    "sizeBytes": 1763,
+    "outputPath": "keys/xpra-xpra-org-signing-key-73254cad17978faf.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "B4993B57323148E37977E5D873254CAD17978FAF",
+    "fingerprintSuffix16": "73254CAD17978FAF"
+  }
+}

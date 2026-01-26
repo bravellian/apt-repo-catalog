@@ -1,0 +1,12 @@
+{
+  "id": "security-ubuntu-com",
+  "label": "Ubuntu",
+  "name": "ubuntu",
+  "baseUrl": "https://security.ubuntu.com/ubuntu",
+  "keyId": "ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "security.ubuntu.com"
+  ]
+}

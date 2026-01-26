@@ -1,0 +1,25 @@
+{
+  "baseUrl": "https://atl.mirrors.clouvider.net/ubuntu",
+  "generatedAt": "2026-01-26T22:38:37.066Z",
+  "keyId": "ubuntu-archive-ubuntu-com-signing-key-871920d1991bc93c",
+  "repoId": "atl-mirrors-clouvider-net",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main",
+        "multiverse",
+        "restricted",
+        "universe"
+      ],
+      "suite": "jammy-backports"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "multiverse"
+      ],
+      "suite": "noble-updates"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "baseUrl": "https://packages.microsoft.com/repos/code",
+  "generatedAt": "2026-01-26T22:38:37.117Z",
+  "keyId": "microsoft-microsoft-eb3e94adbe1229cf",
+  "repoId": "packages-microsoft-com",
+  "suites": [
+    {
+      "architectures": [
+        "amd64",
+        "arm64",
+        "armhf"
+      ],
+      "components": [
+        "main"
+      ],
+      "suite": "stable"
+    }
+  ]
+}

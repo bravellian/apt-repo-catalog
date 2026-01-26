@@ -1,0 +1,13 @@
+{
+  "id": "updates-atomicorp-com",
+  "label": "Atomicorp",
+  "name": "atomicorp",
+  "baseUrl": "https://updates.atomicorp.com/channels/atomic/debian",
+  "keyId": "atomicorp-updates-atomicorp-com-signing-key-ffbd5d0a4520afa9",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "debian",
+    "updates.atomicorp.com"
+  ]
+}

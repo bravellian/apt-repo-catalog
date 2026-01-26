@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://apt.releases.teleport.dev/ubuntu",
+  "generatedAt": "2026-01-26T22:38:37.055Z",
+  "keyId": "teleport-apt-releases-teleport-dev-signing-key-c87ed53a6282c411",
+  "repoId": "apt-releases-teleport-dev",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "stable/v17"
+      ],
+      "suite": "noble"
+    }
+  ]
+}

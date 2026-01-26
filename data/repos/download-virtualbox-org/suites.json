@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://download.virtualbox.org/virtualbox/debian",
+  "generatedAt": "2026-01-26T22:38:37.086Z",
+  "keyId": "oracle-vbox2016",
+  "repoId": "download-virtualbox-org",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "contrib"
+      ],
+      "suite": "xenial"
+    }
+  ]
+}

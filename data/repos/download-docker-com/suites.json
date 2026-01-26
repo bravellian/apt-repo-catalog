@@ -1,0 +1,71 @@
+{
+  "baseUrl": "https://download.docker.com/linux/ubuntu",
+  "generatedAt": "2026-01-26T22:38:37.084Z",
+  "keyId": "docker-gpg-8d81803c0ebfcd88",
+  "repoId": "download-docker-com",
+  "suites": [
+    {
+      "architectures": [
+        "{{",
+        "amd64"
+      ],
+      "components": [
+        "}}",
+        "ansible_distribution_release",
+        "docker_apt_repo_distrib",
+        "stable"
+      ],
+      "suite": "{{"
+    },
+    {
+      "architectures": [
+        "$(dpkg"
+      ],
+      "components": [
+        "/dev/null",
+        "/etc/apt/sources.list.d/docker.list",
+        ">",
+        "|",
+        "stable\"",
+        "sudo",
+        "tee"
+      ],
+      "suite": "${UBUNTU_BASE_VERSION}"
+    },
+    {
+      "architectures": [
+        "amd64"
+      ],
+      "components": [
+        "stable"
+      ],
+      "suite": "bionic"
+    },
+    {
+      "architectures": [
+        "amd64"
+      ],
+      "components": [
+        "stable"
+      ],
+      "suite": "eoan"
+    },
+    {
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "components": [
+        "stable"
+      ],
+      "suite": "focal"
+    },
+    {
+      "architectures": [],
+      "components": [
+        "stable"
+      ],
+      "suite": "noble"
+    }
+  ]
+}

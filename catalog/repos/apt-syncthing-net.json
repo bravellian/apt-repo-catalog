@@ -1,0 +1,12 @@
+{
+  "id": "apt-syncthing-net",
+  "label": "Syncthing",
+  "name": "syncthing",
+  "baseUrl": "https://apt.syncthing.net",
+  "keyId": "syncthing-apt-syncthing-net-signing-key-e5665f9bd5970c47",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "apt.syncthing.net"
+  ]
+}

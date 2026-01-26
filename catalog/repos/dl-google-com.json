@@ -1,0 +1,13 @@
+{
+  "id": "dl-google-com",
+  "label": "Google LLC",
+  "name": "google-llc",
+  "baseUrl": "https://dl.google.com/linux/chrome/deb",
+  "keyId": "google-linux",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "debian",
+    "dl.google.com"
+  ]
+}

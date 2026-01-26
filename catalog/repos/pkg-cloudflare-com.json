@@ -1,0 +1,13 @@
+{
+  "id": "pkg-cloudflare-com",
+  "label": "cloudflared",
+  "name": "cloudflared",
+  "baseUrl": "https://pkg.cloudflare.com/cloudflared",
+  "keyId": "cloudflare-pkg-cloudflare-com-signing-key-254b391d8caccbf8",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "pkg.cloudflare.com",
+    "ubuntu"
+  ]
+}

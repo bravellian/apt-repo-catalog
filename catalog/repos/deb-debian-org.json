@@ -1,0 +1,13 @@
+{
+  "id": "deb-debian-org",
+  "label": "Debian",
+  "name": "debian",
+  "baseUrl": "https://deb.debian.org/debian",
+  "keyId": "debian-deb-debian-org-signing-key-b7c5d7d6350947f8",
+  "allowMissingDocsUrl": true,
+  "notes": "Discovered via GitHub mining",
+  "tags": [
+    "deb.debian.org",
+    "debian"
+  ]
+}

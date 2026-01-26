@@ -1,0 +1,40 @@
+{
+  "id": "sury-packages-sury-org-signing-key-b188e2b695bd4743",
+  "vendor": "sury",
+  "label": "packages.sury.org signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xB188E2B695BD4743",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xB188E2B695BD4743"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "15058500A0235D97F5D10063B188E2B695BD4743"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "DEB.SURY.ORG Automatic Signing Key <deb@sury.org>"
+  ],
+  "primaryUserId": "DEB.SURY.ORG Automatic Signing Key <deb@sury.org>",
+  "keyIds": [
+    {
+      "fingerprint": "15058500A0235D97F5D10063B188E2B695BD4743",
+      "keyIdLong": "B188E2B695BD4743",
+      "keyIdShort": "95BD4743"
+    }
+  ],
+  "downloaded": {
+    "sha256": "44792b97556b151206f1fe89ba5d2e7049b3218fc9fdd9aa8f53594876c6d9e5",
+    "sizeBytes": 6831,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "e54d47499667e44b87eaef12c2a39c40c21a5d8ecfd9e1e9c62aa9259cd7a630",
+    "sizeBytes": 6794,
+    "outputPath": "keys/sury-packages-sury-org-signing-key-b188e2b695bd4743.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "15058500A0235D97F5D10063B188E2B695BD4743",
+    "fingerprintSuffix16": "B188E2B695BD4743"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "intel-apt-repos-intel-com-signing-key-acfa9fc57e6c5dbe",
+  "vendor": "intel",
+  "label": "apt.repos.intel.com signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xACFA9FC57E6C5DBE",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xACFA9FC57E6C5DBE"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "52ABD6E87E421793971873FFACFA9FC57E6C5DBE"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Intel(R) Software Development Products"
+  ],
+  "primaryUserId": "Intel(R) Software Development Products",
+  "keyIds": [
+    {
+      "fingerprint": "52ABD6E87E421793971873FFACFA9FC57E6C5DBE",
+      "keyIdLong": "ACFA9FC57E6C5DBE",
+      "keyIdShort": "7E6C5DBE"
+    }
+  ],
+  "downloaded": {
+    "sha256": "08508248a17ff2978088a23b8045a29c51f444a1fd085a3647d6807dbe52f2cc",
+    "sizeBytes": 3109,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "4e03aad1d0668f2a2255ba6065ef7b71f6fdfe722201b71aff764697ea587ff6",
+    "sizeBytes": 3068,
+    "outputPath": "keys/intel-apt-repos-intel-com-signing-key-acfa9fc57e6c5dbe.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "52ABD6E87E421793971873FFACFA9FC57E6C5DBE",
+    "fingerprintSuffix16": "ACFA9FC57E6C5DBE"
+  }
+}

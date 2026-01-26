@@ -1,0 +1,17 @@
+{
+  "baseUrl": "https://apt.armbian.com",
+  "generatedAt": "2026-01-26T22:38:37.049Z",
+  "keyId": "armbian-apt-armbian-com-signing-key-93d6889f9f0e78d5",
+  "repoId": "apt-armbian-com",
+  "suites": [
+    {
+      "architectures": [],
+      "components": [
+        "main",
+        "noble-desktop",
+        "noble-utils"
+      ],
+      "suite": "noble"
+    }
+  ]
+}

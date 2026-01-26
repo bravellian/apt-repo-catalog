@@ -1,0 +1,40 @@
+{
+  "id": "cloudflare-pkg-cloudflare-com-signing-key-254b391d8caccbf8",
+  "vendor": "cloudflare",
+  "label": "pkg.cloudflare.com signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x254B391D8CACCBF8",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x254B391D8CACCBF8"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "FBA8C0EE63617C5EED695C43254B391D8CACCBF8"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "CloudFlare Software Packaging <help@cloudflare.com>"
+  ],
+  "primaryUserId": "CloudFlare Software Packaging <help@cloudflare.com>",
+  "keyIds": [
+    {
+      "fingerprint": "FBA8C0EE63617C5EED695C43254B391D8CACCBF8",
+      "keyIdLong": "254B391D8CACCBF8",
+      "keyIdShort": "8CACCBF8"
+    }
+  ],
+  "downloaded": {
+    "sha256": "3e60196fd4e7090e9f26ee9282372a642c893d43e76f62e4b6664c365ac8519e",
+    "sizeBytes": 2407,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "886215c021a6bd02fe769cc44d155c1e2b7e869ecad55902dea68ec4f5bad36a",
+    "sizeBytes": 2365,
+    "outputPath": "keys/cloudflare-pkg-cloudflare-com-signing-key-254b391d8caccbf8.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "FBA8C0EE63617C5EED695C43254B391D8CACCBF8",
+    "fingerprintSuffix16": "254B391D8CACCBF8"
+  }
+}

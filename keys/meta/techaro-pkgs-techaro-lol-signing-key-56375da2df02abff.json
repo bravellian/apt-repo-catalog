@@ -1,0 +1,40 @@
+{
+  "id": "techaro-pkgs-techaro-lol-signing-key-56375da2df02abff",
+  "vendor": "techaro",
+  "label": "pkgs.techaro.lol signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x56375DA2DF02ABFF",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x56375DA2DF02ABFF"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "833F64161167B501058C394756375DA2DF02ABFF"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Techaro Packages Signatures <gpg+packages@techaro.lol>"
+  ],
+  "primaryUserId": "Techaro Packages Signatures <gpg+packages@techaro.lol>",
+  "keyIds": [
+    {
+      "fingerprint": "833F64161167B501058C394756375DA2DF02ABFF",
+      "keyIdLong": "56375DA2DF02ABFF",
+      "keyIdShort": "DF02ABFF"
+    }
+  ],
+  "downloaded": {
+    "sha256": "e37f7202eed4fa3c6acf9c11884172d8ecf857871bdbefc3892fc8db2fee690b",
+    "sizeBytes": 895,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "66eb4182fcfb680e755bcd9ecd3491fc739c90a3b489a836168378dbc4a1e70b",
+    "sizeBytes": 852,
+    "outputPath": "keys/techaro-pkgs-techaro-lol-signing-key-56375da2df02abff.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "833F64161167B501058C394756375DA2DF02ABFF",
+    "fingerprintSuffix16": "56375DA2DF02ABFF"
+  }
+}

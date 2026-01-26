@@ -1,0 +1,40 @@
+{
+  "id": "syncthing-apt-syncthing-net-signing-key-e5665f9bd5970c47",
+  "vendor": "syncthing",
+  "label": "apt.syncthing.net signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE5665F9BD5970C47",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE5665F9BD5970C47"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "FBA2E162F2F44657B38F0309E5665F9BD5970C47"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Syncthing Release Management <release@syncthing.net>"
+  ],
+  "primaryUserId": "Syncthing Release Management <release@syncthing.net>",
+  "keyIds": [
+    {
+      "fingerprint": "FBA2E162F2F44657B38F0309E5665F9BD5970C47",
+      "keyIdLong": "E5665F9BD5970C47",
+      "keyIdShort": "D5970C47"
+    }
+  ],
+  "downloaded": {
+    "sha256": "d345382981b7cafb0f1bdc86fa78d0b4f5d41267ac778d9023da1d3aa819fc29",
+    "sizeBytes": 3625,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "e535a420235f383e3f6b8a9f4ce362060cd91dfd7ac312796bf7273eddb74a4a",
+    "sizeBytes": 3585,
+    "outputPath": "keys/syncthing-apt-syncthing-net-signing-key-e5665f9bd5970c47.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "FBA2E162F2F44657B38F0309E5665F9BD5970C47",
+    "fingerprintSuffix16": "E5665F9BD5970C47"
+  }
+}

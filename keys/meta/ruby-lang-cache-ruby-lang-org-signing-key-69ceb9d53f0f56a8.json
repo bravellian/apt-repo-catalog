@@ -1,0 +1,40 @@
+{
+  "id": "ruby-lang-cache-ruby-lang-org-signing-key-69ceb9d53f0f56a8",
+  "vendor": "ruby-lang",
+  "label": "cache.ruby-lang.org signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x69CEB9D53F0F56A8",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x69CEB9D53F0F56A8"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "805E57E2327EE86EB8180E0669CEB9D53F0F56A8"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "sorah-rbpkg <sorah-rbpkg@sorah.jp>"
+  ],
+  "primaryUserId": "sorah-rbpkg <sorah-rbpkg@sorah.jp>",
+  "keyIds": [
+    {
+      "fingerprint": "805E57E2327EE86EB8180E0669CEB9D53F0F56A8",
+      "keyIdLong": "69CEB9D53F0F56A8",
+      "keyIdShort": "3F0F56A8"
+    }
+  ],
+  "downloaded": {
+    "sha256": "ec9c63f1906dbe27a8275b148b93c2fb5b0850fcda43360c1b845831daf1b77e",
+    "sizeBytes": 3971,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "fd07350e03c793cc07c657ebe9d2928bca3da5538fa76c863e960de1c5c54a92",
+    "sizeBytes": 3931,
+    "outputPath": "keys/ruby-lang-cache-ruby-lang-org-signing-key-69ceb9d53f0f56a8.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "805E57E2327EE86EB8180E0669CEB9D53F0F56A8",
+    "fingerprintSuffix16": "69CEB9D53F0F56A8"
+  }
+}

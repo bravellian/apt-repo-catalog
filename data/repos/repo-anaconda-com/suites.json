@@ -1,0 +1,17 @@
+{
+  "baseUrl": "https://repo.anaconda.com/pkgs/misc/debrepo/conda",
+  "generatedAt": "2026-01-26T22:38:37.131Z",
+  "keyId": "anaconda-repo-anaconda-com-signing-key-8aeb4f8b29d82806",
+  "repoId": "repo-anaconda-com",
+  "suites": [
+    {
+      "architectures": [
+        "amd64"
+      ],
+      "components": [
+        "main"
+      ],
+      "suite": "stable"
+    }
+  ]
+}

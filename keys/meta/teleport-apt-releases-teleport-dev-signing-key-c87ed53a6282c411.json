@@ -1,0 +1,40 @@
+{
+  "id": "teleport-apt-releases-teleport-dev-signing-key-c87ed53a6282c411",
+  "vendor": "teleport",
+  "label": "apt.releases.teleport.dev signing key",
+  "status": "active",
+  "sourceUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC87ED53A6282C411",
+  "sourceUrls": [
+    "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC87ED53A6282C411"
+  ],
+  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "fingerprints": [
+    "0C5E8BA5658E320D1B031179C87ED53A6282C411"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Gravitational, Inc <info@gravitational.com>"
+  ],
+  "primaryUserId": "Gravitational, Inc <info@gravitational.com>",
+  "keyIds": [
+    {
+      "fingerprint": "0C5E8BA5658E320D1B031179C87ED53A6282C411",
+      "keyIdLong": "C87ED53A6282C411",
+      "keyIdShort": "6282C411"
+    }
+  ],
+  "downloaded": {
+    "sha256": "48456b4bdb9312be90b6d3d9240799d8310b781ccf27f422d1967c34001981e4",
+    "sizeBytes": 3207,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "9f98bf545363ecd86a53366c47994e3fb66a65518bacd08560f2d9340aadc54a",
+    "sizeBytes": 3166,
+    "outputPath": "keys/teleport-apt-releases-teleport-dev-signing-key-c87ed53a6282c411.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "0C5E8BA5658E320D1B031179C87ED53A6282C411",
+    "fingerprintSuffix16": "C87ED53A6282C411"
+  }
+}
