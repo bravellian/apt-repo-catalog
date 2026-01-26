@@ -1,4 +1,4 @@
-# Docker - Debian (Buster) - stable
+# Docker - Debian - stable
 
 ## Repository
 - Repository ID: `docker-debian-buster-stable`
@@ -38,6 +38,12 @@
   - Components: stable
   - Architectures: (not listed)
   - Observed OSes: debian-7
+
+## OS hints
+- Debian
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
 
 ## Key reference
 - Key ID: `docker-gpg-8d81803c0ebfcd88`

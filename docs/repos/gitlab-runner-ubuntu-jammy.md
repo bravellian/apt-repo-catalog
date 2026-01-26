@@ -1,4 +1,4 @@
-# GitLab Runner (Ubuntu 22.04 Jammy)
+# GitLab Runner (Ubuntu 22.04)
 
 ## Repository
 - Repository ID: `gitlab-runner-ubuntu-jammy`
@@ -90,6 +90,12 @@
   - Components: main
   - Architectures: (not listed)
   - Observed OSes: ubuntu-22.04
+
+## OS hints
+- Ubuntu
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
 
 ## Key reference
 - Key ID: `gitlab-ce`

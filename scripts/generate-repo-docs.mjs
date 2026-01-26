@@ -8,6 +8,7 @@ const keysPath = path.join(root, "catalog", "keys.json");
 const docsDir = path.join(root, "docs");
 const reposDocsDir = path.join(docsDir, "repos");
 const dataReposDir = path.join(root, "data", "repos");
+const suitesByRepo = new Map();
 
 function readJson(filePath) {
   return readFile(filePath, "utf8").then((raw) => JSON.parse(raw));
@@ -55,6 +56,112 @@ function getKeyDocsUrl(keyEntry) {
 
 function getRepoLabel(repo) {
   return repo.label ?? repo.name ?? repo.id ?? "Repository";
+}
+
+function escapeRegex(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function baseUrlHintsOs(baseUrl) {
+  if (!baseUrl) {
+    return [];
+  }
+  try {
+    const { hostname, pathname } = new URL(baseUrl);
+    const combined = `${hostname}${pathname}`.toLowerCase();
+    const hints = [];
+    if (combined.includes("/ubuntu/") || combined.includes("ubuntu")) {
+      hints.push("Ubuntu");
+    }
+    if (combined.includes("/debian/") || combined.includes("debian")) {
+      hints.push("Debian");
+    }
+    if (combined.includes("/linuxmint/") || combined.includes("linuxmint")) {
+      hints.push("Linux Mint");
+    }
+    if (combined.includes("/pop-os/") || combined.includes("pop-os") || combined.includes("popos")) {
+      hints.push("Pop!_OS");
+    }
+    if (combined.includes("/kali/") || combined.includes("kali")) {
+      hints.push("Kali");
+    }
+    if (combined.includes("raspbian")) {
+      hints.push("Raspbian");
+    }
+    return Array.from(new Set(hints));
+  } catch {
+    return [];
+  }
+}
+
+function deriveOsHints(baseUrl, suitesMeta) {
+  const observed = new Set();
+  const suites = Array.isArray(suitesMeta?.suites) ? suitesMeta.suites : [];
+  for (const suite of suites) {
+    const oses = Array.isArray(suite.observedOs) ? suite.observedOs : [];
+    for (const os of oses) {
+      const family = String(os).split("-")[0];
+      if (!family || family === "generic") {
+        continue;
+      }
+      if (family === "ubuntu") {
+        observed.add("Ubuntu");
+      } else if (family === "debian") {
+        observed.add("Debian");
+      } else if (family === "linuxmint") {
+        observed.add("Linux Mint");
+      } else if (family === "popos" || family === "pop") {
+        observed.add("Pop!_OS");
+      } else if (family === "kali") {
+        observed.add("Kali");
+      } else {
+        observed.add(family);
+      }
+    }
+  }
+  const inferred = baseUrlHintsOs(baseUrl);
+  const merged = Array.from(new Set([...observed, ...inferred]));
+  return merged;
+}
+
+function normalizeLabel(label, suitesMeta, baseUrl) {
+  if (!label) {
+    return label;
+  }
+  const suites = Array.isArray(suitesMeta?.suites)
+    ? suitesMeta.suites.map((entry) => entry.suite).filter(Boolean)
+    : [];
+  if (suites.length <= 1) {
+    return label;
+  }
+  let normalized = label;
+  if (suites.length > 0) {
+    const suitePattern = suites.map(escapeRegex).join("|");
+    if (suitePattern) {
+      const suiteRegex = new RegExp(`\\b(${suitePattern})\\b`, "ig");
+      normalized = normalized.replace(suiteRegex, "");
+    }
+  }
+  const osHints = deriveOsHints(baseUrl, suitesMeta);
+  const shouldStripOs = osHints.length === 0;
+  if (shouldStripOs && /\b(ubuntu|debian|linux mint|pop!_?os|kali)\b/i.test(normalized)) {
+    normalized = normalized.replace(/\b\d+(?:\.\d+)?\b/g, "");
+  }
+  normalized = normalized.replace(/\(\s*([^)]+?)\s*\)/g, (_, content) => {
+    const trimmed = content.trim();
+    return trimmed ? `(${trimmed})` : "";
+  });
+  normalized = normalized.replace(/\(\s*\)/g, "");
+  normalized = normalized.replace(/\s{2,}/g, " ");
+  normalized = normalized.replace(/\s+-\s+-\s+/g, " - ");
+  normalized = normalized.replace(/\s+-\s*$/g, "");
+  normalized = normalized.trim();
+  return normalized || label;
+}
+
+function getDisplayLabel(repo, suitesMeta) {
+  const baseUrl = getRepoBaseUrl(repo);
+  return normalizeLabel(getRepoLabel(repo), suitesMeta, baseUrl);
 }
 
 function getDocsUrl(repo) {
@@ -231,7 +338,7 @@ function buildPackagesSection(packagesData, metaData) {
 
 function buildRepoDoc({ repo, keyEntry, packagesData, packagesMeta, suitesMeta }) {
   const repoId = repo.id ?? "";
-  const label = getRepoLabel(repo);
+  const label = getDisplayLabel(repo, suitesMeta);
   const docsUrl = getDocsUrl(repo);
   const keyDocsUrl = getKeyDocsUrl(keyEntry);
   const keyId = getKeyId(repo);
@@ -243,6 +350,7 @@ function buildRepoDoc({ repo, keyEntry, packagesData, packagesMeta, suitesMeta }
   const repoTags = Array.isArray(repo.tags) ? repo.tags : [];
   const keyTags = Array.isArray(keyEntry?.tags) ? keyEntry.tags : [];
   const suites = Array.isArray(suitesMeta?.suites) ? suitesMeta.suites : [];
+  const osHints = deriveOsHints(baseUrl, suitesMeta);
 
   const fingerprintLines =
     fingerprints.length > 0
@@ -287,6 +395,14 @@ function buildRepoDoc({ repo, keyEntry, packagesData, packagesMeta, suitesMeta }
           })
           .join("\n")
       : "- Suite metadata has not been generated for this repository.",
+    "",
+    "## OS hints",
+    osHints.length > 0 ? `- ${osHints.join(", ")}` : "- (not listed)",
+    "",
+    "## Usage notes",
+    osHints.length > 0
+      ? "- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns."
+      : "- Use the suite codename provided by your OS; OS hints are not available for this repo.",
     "",
     "## Key reference",
     `- Key ID: \`${keyId}\``,
@@ -473,11 +589,18 @@ async function buildDocsIndex(repos) {
     "",
     "_This file is generated from catalog data. Do not edit manually._",
     "",
+    "## About this index",
+    "- Repositories are defined by base URL (Release root), with suites/components discovered from Release metadata.",
+    "- OS hints are inferred from suites and base URL patterns; use suite codenames for install commands.",
+    "",
     "## All repositories",
     ...repos
       .slice()
       .sort((a, b) => String(a.id ?? "").localeCompare(String(b.id ?? "")))
-      .map((repo) => `- [${getRepoLabel(repo)} (${repo.id})](repos/${repo.id}.md)`),
+      .map((repo) => {
+        const suitesMeta = suitesByRepo.get(repo.id ?? "");
+        return `- [${getDisplayLabel(repo, suitesMeta)} (${repo.id})](repos/${repo.id}.md)`;
+      }),
     "",
     "## By vendor",
     ...Array.from(vendorMap.keys())
@@ -490,7 +613,10 @@ async function buildDocsIndex(repos) {
           "<details>",
           `<summary>${vendor} (${items.length})</summary>`,
           "",
-          ...items.map((repo) => `- [${getRepoLabel(repo)} (${repo.id})](repos/${repo.id}.md)`),
+          ...items.map((repo) => {
+            const suitesMeta = suitesByRepo.get(repo.id ?? "");
+            return `- [${getDisplayLabel(repo, suitesMeta)} (${repo.id})](repos/${repo.id}.md)`;
+          }),
           "",
           "</details>",
           ""
@@ -507,7 +633,10 @@ async function buildDocsIndex(repos) {
           "<details>",
           `<summary>${host} (${items.length})</summary>`,
           "",
-          ...items.map((repo) => `- [${getRepoLabel(repo)} (${repo.id})](repos/${repo.id}.md)`),
+          ...items.map((repo) => {
+            const suitesMeta = suitesByRepo.get(repo.id ?? "");
+            return `- [${getDisplayLabel(repo, suitesMeta)} (${repo.id})](repos/${repo.id}.md)`;
+          }),
           "",
           "</details>",
           ""
@@ -552,6 +681,7 @@ async function main() {
     const packagesData = await loadPackagesIndex(path.join(dataReposDir, repoId));
     const packagesMeta = await readOptionalJson(packagesMetaPath);
     const suitesMeta = await readOptionalJson(suitesMetaPath);
+    suitesByRepo.set(repoId, suitesMeta);
     const doc = buildRepoDoc({ repo, keyEntry, packagesData, packagesMeta, suitesMeta });
     const docPath = path.join(reposDocsDir, `${repoId}.md`);
     await writeFile(docPath, doc, "utf8");

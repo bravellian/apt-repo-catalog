@@ -1,4 +1,4 @@
-# Tailscale (Debian 12 Bookworm)
+# Tailscale (Debian 12)
 
 ## Repository
 - Repository ID: `tailscale-debian-bookworm`
@@ -30,6 +30,12 @@
   - Components: main
   - Architectures: (not listed)
   - Observed OSes: debian-12
+
+## OS hints
+- Debian
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
 
 ## Key reference
 - Key ID: `tailscale-ubuntu-jammy`

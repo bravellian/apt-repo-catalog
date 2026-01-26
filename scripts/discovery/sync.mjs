@@ -1,39 +1,6 @@
-import path from "node:path";
+import * as path from "node:path";
 import { readJson, writeJson, normalizeSlug, uniqueSorted } from "./utils.mjs";
 import { loadReposCatalog, writeReposCatalog } from "../lib/repos-catalog.mjs";
-
-const ubuntuCodenameToVersion = {
-  jammy: "22.04",
-  noble: "24.04",
-  focal: "20.04",
-  bionic: "18.04",
-  xenial: "16.04",
-  trusty: "14.04",
-  mantic: "23.10",
-  lunar: "23.04",
-  kinetic: "22.10",
-  groovy: "20.10",
-  hirsute: "21.04",
-  impish: "21.10",
-  disco: "19.04",
-  cosmic: "18.10",
-  zesty: "17.04",
-  yakkety: "16.10",
-  wily: "15.10",
-  plucky: "25.04",
-  questing: "25.10",
-  oracular: "24.10"
-};
-
-const debianCodenameToVersion = {
-  bullseye: "11",
-  bookworm: "12",
-  trixie: "13",
-  buster: "10",
-  stretch: "9",
-  jessie: "8",
-  wheezy: "7"
-};
 
 function pickReleaseLabel(repo) {
   const suites = repo.verification?.suites ?? [];
@@ -75,24 +42,7 @@ function matchKeyId(repo, keysCatalog) {
   return null;
 }
 
-function resolveOs(distroFamily, suite) {
-  const suiteValue = String(suite ?? "").toLowerCase();
-  if (distroFamily === "ubuntu") {
-    if (ubuntuCodenameToVersion[suiteValue]) {
-      return `ubuntu-${ubuntuCodenameToVersion[suiteValue]}`;
-    }
-    return "ubuntu";
-  }
-  if (distroFamily === "debian") {
-    if (debianCodenameToVersion[suiteValue]) {
-      return `debian-${debianCodenameToVersion[suiteValue]}`;
-    }
-    return "debian";
-  }
-  return null;
-}
-
-function buildRepoId({ baseUrl, suite, components }) {
+function buildRepoId({ baseUrl }) {
   const host = (() => {
     try {
       return new URL(baseUrl).hostname;
@@ -100,54 +50,39 @@ function buildRepoId({ baseUrl, suite, components }) {
       return "repo";
     }
   })();
-  const componentsSlug = components.length > 0 ? components.join("-") : "default";
-  const base = normalizeSlug(`${host}-${suite}-${componentsSlug}`);
-  return base;
+  return normalizeSlug(host);
 }
 
 export function toCatalogEntries(repos, keysCatalog) {
   const entries = [];
   const skipped = [];
+  const seen = new Set();
 
   for (const repo of repos) {
     const keyId = matchKeyId(repo, keysCatalog);
-    const suites = repo.suites ?? [];
-    const labelBase = pickReleaseLabel(repo) ?? new URL(repo.baseUrl).hostname;
-
-    for (const suiteEntry of suites) {
-      const suite = suiteEntry.suite ?? "";
-      const components = suiteEntry.components ?? [];
-      const osValue = resolveOs(repo.distroFamily, suite);
-      if (!keyId) {
-        skipped.push({
-          reason: "missing-key",
-          baseUrl: repo.baseUrl,
-          suite
-        });
-        continue;
-      }
-      if (!osValue) {
-        skipped.push({
-          reason: "unknown-os",
-          baseUrl: repo.baseUrl,
-          suite
-        });
-        continue;
-      }
-      const source = `deb ${repo.baseUrl} ${suite} ${components.join(" ")}`.trim();
-      const id = buildRepoId({ baseUrl: repo.baseUrl, suite, components });
-      entries.push({
-        id,
-        label: `${labelBase} - ${suite} - ${components.join(" ") || "default"}`,
-        os: osValue,
-        name: normalizeSlug(labelBase),
-        source,
-        keyId,
-        allowMissingDocsUrl: true,
-        notes: "Discovered via GitHub mining",
-        tags: uniqueSorted([repo.distroFamily, new URL(repo.baseUrl).hostname].filter(Boolean))
+    if (!keyId) {
+      skipped.push({
+        reason: "missing-key",
+        baseUrl: repo.baseUrl
       });
+      continue;
     }
+    const labelBase = pickReleaseLabel(repo) ?? new URL(repo.baseUrl).hostname;
+    const id = buildRepoId({ baseUrl: repo.baseUrl });
+    if (seen.has(id)) {
+      continue;
+    }
+    seen.add(id);
+    entries.push({
+      id,
+      label: labelBase,
+      name: normalizeSlug(labelBase),
+      baseUrl: repo.baseUrl,
+      keyId,
+      allowMissingDocsUrl: true,
+      notes: "Discovered via GitHub mining",
+      tags: uniqueSorted([repo.distroFamily, new URL(repo.baseUrl).hostname].filter(Boolean))
+    });
   }
 
   entries.sort((a, b) => a.id.localeCompare(b.id));
@@ -158,6 +93,7 @@ export async function syncCatalog({ curatedPath, outputPath, keysPath, writeCata
   const curated = await readJson(curatedPath);
   const keysCatalog = await readJson(keysPath);
   const { entries, skipped } = toCatalogEntries(curated, keysCatalog);
+  const byBaseUrl = new Map(curated.map((repo) => [repo.baseUrl, repo]));
 
   await writeJson(outputPath, { repos: entries });
 
@@ -173,6 +109,26 @@ export async function syncCatalog({ curatedPath, outputPath, keysPath, writeCata
     }
     merged.sort((a, b) => a.id.localeCompare(b.id));
     await writeReposCatalog({ root, repos: merged, preferDir: true, clean: true });
+
+    const dataReposDir = path.join(root, "data", "repos");
+    for (const entry of entries) {
+      const sourceRepo = byBaseUrl.get(entry.baseUrl);
+      if (!sourceRepo) {
+        continue;
+      }
+      const suites = (sourceRepo.verification?.suites ?? sourceRepo.suites ?? []).map((suite) => ({
+        suite: suite.suite,
+        components: suite.components ?? [],
+        architectures: suite.architectures ?? []
+      }));
+      await writeJson(path.join(dataReposDir, entry.id, "suites.json"), {
+        generatedAt: new Date().toISOString(),
+        repoId: entry.id,
+        baseUrl: entry.baseUrl,
+        keyId: entry.keyId,
+        suites
+      });
+    }
   }
 
   return { entries, skipped };

@@ -15,6 +15,12 @@
   - Architectures: amd64
   - Observed OSes: generic
 
+## OS hints
+- Debian
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
+
 ## Key reference
 - Key ID: `1password`
 - Expected fingerprints:

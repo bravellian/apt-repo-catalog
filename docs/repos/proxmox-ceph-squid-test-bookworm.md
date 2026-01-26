@@ -19,6 +19,12 @@
   - Architectures: (not listed)
   - Observed OSes: debian-12, proxmox-8
 
+## OS hints
+- Debian, proxmox
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
+
 ## Key reference
 - Key ID: `proxmox-release-bookworm`
 - Expected fingerprints:

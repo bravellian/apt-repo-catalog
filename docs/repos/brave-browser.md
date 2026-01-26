@@ -1,4 +1,4 @@
-# Brave Browser (Stable)
+# Brave Browser
 
 ## Repository
 - Repository ID: `brave-browser`
@@ -70,6 +70,12 @@
   - Components: main
   - Architectures: amd64
   - Observed OSes: ubuntu-22.04
+
+## OS hints
+- Ubuntu, Debian
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
 
 ## Key reference
 - Key ID: `brave-browser`

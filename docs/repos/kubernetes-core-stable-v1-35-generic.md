@@ -15,6 +15,12 @@
   - Architectures: (not listed)
   - Observed OSes: generic
 
+## OS hints
+- (not listed)
+
+## Usage notes
+- Use the suite codename provided by your OS; OS hints are not available for this repo.
+
 ## Key reference
 - Key ID: `kubernetes-release-key-234654da9a296436`
 - Expected fingerprints:

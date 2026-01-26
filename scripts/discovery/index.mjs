@@ -200,6 +200,7 @@ async function runVerify({ root, args }) {
     : config.verification.maxAgeDays;
   const onlyNew = Boolean(args["only-new"]);
   const noCache = Boolean(args["no-cache"]);
+  const includePackages = args["suite-only"] ? false : Boolean(args["include-packages"] ?? true);
 
   const repos = args.integration
     ? await readJson(path.join(root, "tests", "fixtures", "discovery-verify.json"))
@@ -324,7 +325,8 @@ async function runVerify({ root, args }) {
       const verifiedRepo = await verifyRepo({
         repo,
         config,
-        cacheDir: tempDir
+        cacheDir: tempDir,
+        includePackages
       });
       verifiedMap.set(repo.repoId ?? repo.baseUrl, verifiedRepo);
       writeChain = writeChain.then(writeSnapshot);
@@ -380,6 +382,7 @@ async function runCurate({ root, args }) {
       suite: suite.suite,
       components: suite.components ?? [],
       architectures: suite.architectures ?? [],
+      packagesSkipped: suite.packagesSkipped ?? false,
       release: suite.release
         ? {
             Origin: suite.release.Origin ?? null,

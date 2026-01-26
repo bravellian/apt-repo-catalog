@@ -461,6 +461,25 @@ async function main() {
         maxBuffer: 1024 * 1024 * 8
       });
       const durationMs = Date.now() - start;
+      if (aptResult.error && aptResult.error.code === "ENOENT") {
+        results.push({
+          repoId,
+          suite,
+          status: "skipped",
+          durationMs,
+          classification: "missing_apt",
+          checkedAt: generatedAt,
+          repo: { baseUrl, keyId, suite, components },
+          error: {
+            exitCode: null,
+            message: "apt-get not available on this host",
+            rawTail: null
+          }
+        });
+        logStatus(`SKIPPED ${repoId}: apt-get missing (${suite})`);
+        skipped += 1;
+        continue;
+      }
       const output = `${aptResult.stdout ?? ""}\n${aptResult.stderr ?? ""}`.trim();
 
       if (aptResult.status !== 0) {

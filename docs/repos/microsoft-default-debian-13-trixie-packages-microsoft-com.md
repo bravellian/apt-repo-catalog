@@ -15,6 +15,12 @@
   - Architectures: amd64, arm64, armhf
   - Observed OSes: debian-13
 
+## OS hints
+- Debian
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
+
 ## Key reference
 - Key ID: `microsoft-microsoft-2025-EE4D7792F748182B`
 - Expected fingerprints:

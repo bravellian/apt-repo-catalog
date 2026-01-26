@@ -13,9 +13,10 @@ Start here:
 - Catalog table: [CATALOG.md](CATALOG.md)
 - Repository docs: [docs/README.md](docs/README.md)
 - Per-repo install instructions: [docs/repos/<repoId>.md](docs/repos/)
- - OS catalog metadata: [catalog/os.json](catalog/os.json)
 
-Catalog entries may include documentation URLs, tags, and notes. Health status comes from smoke tests and is summarized in `reports/latest.json`.
+Catalog entries define the repository root (`baseUrl`). Suite/component metadata is derived from Release files and stored under `data/repos/<repoId>/suites.json`.
+
+Health status comes from smoke tests and is summarized in `reports/latest.json`.
 
 ## Quick start
 
@@ -39,7 +40,7 @@ Docs show package lists in a collapsible section. Compatibility is represented b
 
 ## Status & checks
 
-Current OSes are checked daily via smoke tests. Legacy OSes are kept for reference and shown as NOT CHECKED in the catalog.
+Smoke tests are repo/suite based; OS is hinted from suites and base URL patterns. Results are aggregated in `reports/latest.json`.
 
 ## Smoke tests
 
@@ -48,15 +49,35 @@ The smoke test runs a real `apt-get update` against each repo using the pinned k
 Run locally (Linux container or VM with `apt-get` and `gpg`):
 
 ```bash
-node scripts/smoke-test-repos.mjs --os ubuntu-24.04
-node scripts/smoke-test-repos.mjs --os debian-12
-node scripts/smoke-test-repos.mjs --os ubuntu-24.04 --only-ids docker-ubuntu
-node scripts/smoke-test-repos.mjs --os debian-12 --out reports/smoke/debian-12.json
+node scripts/smoke-test-repos.mjs --out reports/smoke/repos.json
+node scripts/smoke-test-repos.mjs --only-ids docker-debian-buster-stable,brave-browser
 ```
 
 ### Latest snapshot
 
-Scheduled smoke tests publish a combined health snapshot to `reports/latest.json`. This file aggregates per-OS smoke reports into a single current-status view.
+Scheduled smoke tests publish a combined health snapshot to `reports/latest.json`. This file aggregates per-suite smoke reports into a single current-status view.
+
+## Discovery & curation workflow
+
+Discovery now supports a suite-only verification pass to keep it lightweight. Use this to curate repositories before fetching full package inventories.
+
+Suite-only verification (Release/InRelease only):
+
+```bash
+node scripts/discovery/index.mjs verify --suite-only
+```
+
+When ready to index packages, run inventory separately:
+
+```bash
+node scripts/apt-inventory.mjs fetch-packages-all --allow-failures true
+```
+
+You can also scope inventory to specific repos:
+
+```bash
+node scripts/apt-inventory.mjs fetch-packages --only-ids repo1,repo2 --allow-failures true
+```
 
 ## For maintainers
 

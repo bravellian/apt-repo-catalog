@@ -19,6 +19,12 @@
   - Architectures: amd64
   - Observed OSes: ubuntu-16.04, ubuntu-22.04
 
+## OS hints
+- Ubuntu
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
+
 ## Key reference
 - Key ID: `signal-desktop`
 - Expected fingerprints:

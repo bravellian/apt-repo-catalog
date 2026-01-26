@@ -153,7 +153,16 @@ function buildCachePath(cacheDir, repoId, relativePath) {
   return path.join(cacheDir, repoId, relativePath.split("/").join(path.sep));
 }
 
-async function verifySuite({ baseUrl, suite, components, architectures, config, repoId, cacheDir }) {
+async function verifySuite({
+  baseUrl,
+  suite,
+  components,
+  architectures,
+  config,
+  repoId,
+  cacheDir,
+  includePackages
+}) {
   const results = {
     suite,
     components,
@@ -161,6 +170,7 @@ async function verifySuite({ baseUrl, suite, components, architectures, config, 
     release: null,
     inRelease: null,
     packages: [],
+    packagesSkipped: false,
     errors: []
   };
 
@@ -236,6 +246,11 @@ async function verifySuite({ baseUrl, suite, components, architectures, config, 
   const componentsToCheck = components.length > 0 ? components : releaseComponents;
   const archesToCheck = architectures.length > 0 ? architectures : releaseArchitectures;
   const archesWithAll = uniqueSorted([...archesToCheck, "all"]);
+
+  if (!includePackages) {
+    results.packagesSkipped = true;
+    return results;
+  }
 
   for (const component of componentsToCheck.length > 0 ? componentsToCheck : [""]) {
     for (const arch of archesWithAll) {
@@ -321,7 +336,7 @@ async function verifySuite({ baseUrl, suite, components, architectures, config, 
   return results;
 }
 
-export async function verifyRepo({ repo, config, cacheDir }) {
+export async function verifyRepo({ repo, config, cacheDir, includePackages = true }) {
   const suites = repo.suites ?? [];
   const suiteResults = [];
   for (const suiteEntry of suites) {
@@ -332,7 +347,8 @@ export async function verifyRepo({ repo, config, cacheDir }) {
       architectures: suiteEntry.architectures ?? config.verification.defaultArchitectures,
       config,
       repoId: repo.repoId ?? "repo",
-      cacheDir
+      cacheDir,
+      includePackages
     });
     suiteResults.push(result);
   }

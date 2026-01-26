@@ -1,4 +1,4 @@
-# GitLab CE (Debian 12 Bookworm)
+# GitLab CE (Debian 12)
 
 ## Repository
 - Repository ID: `gitlab-ce-debian-bookworm`
@@ -38,6 +38,12 @@
   - Components: main
   - Architectures: (not listed)
   - Observed OSes: debian-12
+
+## OS hints
+- Debian
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
 
 ## Key reference
 - Key ID: `gitlab-ce`

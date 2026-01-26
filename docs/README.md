@@ -2,20 +2,24 @@
 
 _This file is generated from catalog data. Do not edit manually._
 
+## About this index
+- Repositories are defined by base URL (Release root), with suites/components discovered from Release metadata.
+- OS hints are inferred from suites and base URL patterns; use suite codenames for install commands.
+
 ## All repositories
 - [1Password for Linux (amd64) (1password-linux-amd64)](repos/1password-linux-amd64.md)
 - [Amazon Corretto (stable) (aws-corretto-stable)](repos/aws-corretto-stable.md)
-- [Brave Browser (Stable) (brave-browser)](repos/brave-browser.md)
+- [Brave Browser (brave-browser)](repos/brave-browser.md)
 - [ClickHouse (stable) (clickhouse-stable)](repos/clickhouse-stable.md)
-- [Cloudflare WARP (Ubuntu 22.04 Jammy) (cloudflare-warp-ubuntu-jammy)](repos/cloudflare-warp-ubuntu-jammy.md)
-- [Docker - Debian (Buster) - stable (docker-debian-buster-stable)](repos/docker-debian-buster-stable.md)
-- [Docker - Ubuntu (Eoan) - stable (docker-ubuntu-eoan-stable)](repos/docker-ubuntu-eoan-stable.md)
+- [Cloudflare WARP (Ubuntu 22.04) (cloudflare-warp-ubuntu-jammy)](repos/cloudflare-warp-ubuntu-jammy.md)
+- [Docker - Debian - stable (docker-debian-buster-stable)](repos/docker-debian-buster-stable.md)
+- [Docker - Ubuntu - stable (docker-ubuntu-eoan-stable)](repos/docker-ubuntu-eoan-stable.md)
 - [Elastic 9.x (Stable) (elastic-9-x)](repos/elastic-9-x.md)
-- [GitHub CLI (stable) (github-cli-stable)](repos/github-cli-stable.md)
-- [GitLab CE (Debian 12 Bookworm) (gitlab-ce-debian-bookworm)](repos/gitlab-ce-debian-bookworm.md)
-- [GitLab CE (Ubuntu 22.04 Jammy) (gitlab-ce-ubuntu-jammy)](repos/gitlab-ce-ubuntu-jammy.md)
-- [GitLab Runner (Debian 12 Bookworm) (gitlab-runner-debian-bookworm)](repos/gitlab-runner-debian-bookworm.md)
-- [GitLab Runner (Ubuntu 22.04 Jammy) (gitlab-runner-ubuntu-jammy)](repos/gitlab-runner-ubuntu-jammy.md)
+- [GitHub CLI (github-cli-stable)](repos/github-cli-stable.md)
+- [GitLab CE (Debian 12) (gitlab-ce-debian-bookworm)](repos/gitlab-ce-debian-bookworm.md)
+- [GitLab CE (Ubuntu 22.04) (gitlab-ce-ubuntu-jammy)](repos/gitlab-ce-ubuntu-jammy.md)
+- [GitLab Runner (Debian 12) (gitlab-runner-debian-bookworm)](repos/gitlab-runner-debian-bookworm.md)
+- [GitLab Runner (Ubuntu 22.04) (gitlab-runner-ubuntu-jammy)](repos/gitlab-runner-ubuntu-jammy.md)
 - [Google Chrome (Stable) (google-chrome)](repos/google-chrome.md)
 - [Google Cloud SDK (google-cloud-sdk)](repos/google-cloud-sdk.md)
 - [Grafana Stable (grafana)](repos/grafana.md)
@@ -23,7 +27,7 @@ _This file is generated from catalog data. Do not edit manually._
 - [Jenkins (debian-stable) (jenkins-debian-stable)](repos/jenkins-debian-stable.md)
 - [Kali Rolling (kali-rolling)](repos/kali-rolling.md)
 - [Kubernetes core stable v1.35 (generic) (kubernetes-core-stable-v1-35-generic)](repos/kubernetes-core-stable-v1-35-generic.md)
-- [Linux Mint Una - main (linuxmint-una-main)](repos/linuxmint-una-main.md)
+- [Linux Mint - main (linuxmint-una-main)](repos/linuxmint-una-main.md)
 - [MariaDB 10.11 (Stable) (mariadb-10-11)](repos/mariadb-10-11.md)
 - [Microsoft - debian-10 - default (microsoft-default-debian-10-buster-packages-microsoft-com)](repos/microsoft-default-debian-10-buster-packages-microsoft-com.md)
 - [Microsoft - debian-11 - default (microsoft-default-debian-11-bullseye-packages-microsoft-com)](repos/microsoft-default-debian-11-bullseye-packages-microsoft-com.md)
@@ -69,10 +73,10 @@ _This file is generated from catalog data. Do not edit manually._
 - [Proxmox VE 8 - test (proxmox-ve-8-test)](repos/proxmox-ve-8-test.md)
 - [Proxmox VE 9 - enterprise (proxmox-ve-9-enterprise)](repos/proxmox-ve-9-enterprise.md)
 - [Proxmox VE 9 - test (proxmox-ve-9-test)](repos/proxmox-ve-9-test.md)
-- [Puppet 7 (Ubuntu 22.04 Jammy) (puppet7-ubuntu-jammy)](repos/puppet7-ubuntu-jammy.md)
+- [Puppet 7 (Ubuntu 22.04) (puppet7-ubuntu-jammy)](repos/puppet7-ubuntu-jammy.md)
 - [Signal Desktop (signal-desktop)](repos/signal-desktop.md)
-- [Tailscale (Debian 12 Bookworm) (tailscale-debian-bookworm)](repos/tailscale-debian-bookworm.md)
-- [Tailscale (Ubuntu 22.04 Jammy) (tailscale-ubuntu-jammy)](repos/tailscale-ubuntu-jammy.md)
+- [Tailscale (Debian 12) (tailscale-debian-bookworm)](repos/tailscale-debian-bookworm.md)
+- [Tailscale (Ubuntu 22.04) (tailscale-ubuntu-jammy)](repos/tailscale-ubuntu-jammy.md)
 - [Tor Project (Debian/Ubuntu) (torproject)](repos/torproject.md)
 - [Oracle VirtualBox (virtualbox)](repos/virtualbox.md)
 - [WineHQ Stable (winehq-stable)](repos/winehq-stable.md)
@@ -96,7 +100,7 @@ _This file is generated from catalog data. Do not edit manually._
 <details>
 <summary>brave-browser (1)</summary>
 
-- [Brave Browser (Stable) (brave-browser)](repos/brave-browser.md)
+- [Brave Browser (brave-browser)](repos/brave-browser.md)
 
 </details>
 
@@ -110,15 +114,15 @@ _This file is generated from catalog data. Do not edit manually._
 <details>
 <summary>cloudflare-warp (1)</summary>
 
-- [Cloudflare WARP (Ubuntu 22.04 Jammy) (cloudflare-warp-ubuntu-jammy)](repos/cloudflare-warp-ubuntu-jammy.md)
+- [Cloudflare WARP (Ubuntu 22.04) (cloudflare-warp-ubuntu-jammy)](repos/cloudflare-warp-ubuntu-jammy.md)
 
 </details>
 
 <details>
 <summary>docker (2)</summary>
 
-- [Docker - Debian (Buster) - stable (docker-debian-buster-stable)](repos/docker-debian-buster-stable.md)
-- [Docker - Ubuntu (Eoan) - stable (docker-ubuntu-eoan-stable)](repos/docker-ubuntu-eoan-stable.md)
+- [Docker - Debian - stable (docker-debian-buster-stable)](repos/docker-debian-buster-stable.md)
+- [Docker - Ubuntu - stable (docker-ubuntu-eoan-stable)](repos/docker-ubuntu-eoan-stable.md)
 
 </details>
 
@@ -132,23 +136,23 @@ _This file is generated from catalog data. Do not edit manually._
 <details>
 <summary>github-cli (1)</summary>
 
-- [GitHub CLI (stable) (github-cli-stable)](repos/github-cli-stable.md)
+- [GitHub CLI (github-cli-stable)](repos/github-cli-stable.md)
 
 </details>
 
 <details>
 <summary>gitlab-ce (2)</summary>
 
-- [GitLab CE (Debian 12 Bookworm) (gitlab-ce-debian-bookworm)](repos/gitlab-ce-debian-bookworm.md)
-- [GitLab CE (Ubuntu 22.04 Jammy) (gitlab-ce-ubuntu-jammy)](repos/gitlab-ce-ubuntu-jammy.md)
+- [GitLab CE (Debian 12) (gitlab-ce-debian-bookworm)](repos/gitlab-ce-debian-bookworm.md)
+- [GitLab CE (Ubuntu 22.04) (gitlab-ce-ubuntu-jammy)](repos/gitlab-ce-ubuntu-jammy.md)
 
 </details>
 
 <details>
 <summary>gitlab-runner (2)</summary>
 
-- [GitLab Runner (Debian 12 Bookworm) (gitlab-runner-debian-bookworm)](repos/gitlab-runner-debian-bookworm.md)
-- [GitLab Runner (Ubuntu 22.04 Jammy) (gitlab-runner-ubuntu-jammy)](repos/gitlab-runner-ubuntu-jammy.md)
+- [GitLab Runner (Debian 12) (gitlab-runner-debian-bookworm)](repos/gitlab-runner-debian-bookworm.md)
+- [GitLab Runner (Ubuntu 22.04) (gitlab-runner-ubuntu-jammy)](repos/gitlab-runner-ubuntu-jammy.md)
 
 </details>
 
@@ -204,7 +208,7 @@ _This file is generated from catalog data. Do not edit manually._
 <details>
 <summary>linuxmint (1)</summary>
 
-- [Linux Mint Una - main (linuxmint-una-main)](repos/linuxmint-una-main.md)
+- [Linux Mint - main (linuxmint-una-main)](repos/linuxmint-una-main.md)
 
 </details>
 
@@ -298,7 +302,7 @@ _This file is generated from catalog data. Do not edit manually._
 <details>
 <summary>puppet7 (1)</summary>
 
-- [Puppet 7 (Ubuntu 22.04 Jammy) (puppet7-ubuntu-jammy)](repos/puppet7-ubuntu-jammy.md)
+- [Puppet 7 (Ubuntu 22.04) (puppet7-ubuntu-jammy)](repos/puppet7-ubuntu-jammy.md)
 
 </details>
 
@@ -312,8 +316,8 @@ _This file is generated from catalog data. Do not edit manually._
 <details>
 <summary>tailscale (2)</summary>
 
-- [Tailscale (Debian 12 Bookworm) (tailscale-debian-bookworm)](repos/tailscale-debian-bookworm.md)
-- [Tailscale (Ubuntu 22.04 Jammy) (tailscale-ubuntu-jammy)](repos/tailscale-ubuntu-jammy.md)
+- [Tailscale (Debian 12) (tailscale-debian-bookworm)](repos/tailscale-debian-bookworm.md)
+- [Tailscale (Ubuntu 22.04) (tailscale-ubuntu-jammy)](repos/tailscale-ubuntu-jammy.md)
 
 </details>
 
@@ -378,7 +382,7 @@ _This file is generated from catalog data. Do not edit manually._
 <details>
 <summary>apt.puppet.com (1)</summary>
 
-- [Puppet 7 (Ubuntu 22.04 Jammy) (puppet7-ubuntu-jammy)](repos/puppet7-ubuntu-jammy.md)
+- [Puppet 7 (Ubuntu 22.04) (puppet7-ubuntu-jammy)](repos/puppet7-ubuntu-jammy.md)
 
 </details>
 
@@ -399,14 +403,14 @@ _This file is generated from catalog data. Do not edit manually._
 <details>
 <summary>brave-browser-apt-release.s3.brave.com (1)</summary>
 
-- [Brave Browser (Stable) (brave-browser)](repos/brave-browser.md)
+- [Brave Browser (brave-browser)](repos/brave-browser.md)
 
 </details>
 
 <details>
 <summary>cli.github.com (1)</summary>
 
-- [GitHub CLI (stable) (github-cli-stable)](repos/github-cli-stable.md)
+- [GitHub CLI (github-cli-stable)](repos/github-cli-stable.md)
 
 </details>
 
@@ -455,8 +459,8 @@ _This file is generated from catalog data. Do not edit manually._
 <details>
 <summary>download.docker.com (2)</summary>
 
-- [Docker - Debian (Buster) - stable (docker-debian-buster-stable)](repos/docker-debian-buster-stable.md)
-- [Docker - Ubuntu (Eoan) - stable (docker-ubuntu-eoan-stable)](repos/docker-ubuntu-eoan-stable.md)
+- [Docker - Debian - stable (docker-debian-buster-stable)](repos/docker-debian-buster-stable.md)
+- [Docker - Ubuntu - stable (docker-ubuntu-eoan-stable)](repos/docker-ubuntu-eoan-stable.md)
 
 </details>
 
@@ -528,17 +532,17 @@ _This file is generated from catalog data. Do not edit manually._
 <details>
 <summary>packages.gitlab.com (4)</summary>
 
-- [GitLab CE (Debian 12 Bookworm) (gitlab-ce-debian-bookworm)](repos/gitlab-ce-debian-bookworm.md)
-- [GitLab CE (Ubuntu 22.04 Jammy) (gitlab-ce-ubuntu-jammy)](repos/gitlab-ce-ubuntu-jammy.md)
-- [GitLab Runner (Debian 12 Bookworm) (gitlab-runner-debian-bookworm)](repos/gitlab-runner-debian-bookworm.md)
-- [GitLab Runner (Ubuntu 22.04 Jammy) (gitlab-runner-ubuntu-jammy)](repos/gitlab-runner-ubuntu-jammy.md)
+- [GitLab CE (Debian 12) (gitlab-ce-debian-bookworm)](repos/gitlab-ce-debian-bookworm.md)
+- [GitLab CE (Ubuntu 22.04) (gitlab-ce-ubuntu-jammy)](repos/gitlab-ce-ubuntu-jammy.md)
+- [GitLab Runner (Debian 12) (gitlab-runner-debian-bookworm)](repos/gitlab-runner-debian-bookworm.md)
+- [GitLab Runner (Ubuntu 22.04) (gitlab-runner-ubuntu-jammy)](repos/gitlab-runner-ubuntu-jammy.md)
 
 </details>
 
 <details>
 <summary>packages.linuxmint.com (1)</summary>
 
-- [Linux Mint Una - main (linuxmint-una-main)](repos/linuxmint-una-main.md)
+- [Linux Mint - main (linuxmint-una-main)](repos/linuxmint-una-main.md)
 
 </details>
 
@@ -579,7 +583,7 @@ _This file is generated from catalog data. Do not edit manually._
 <details>
 <summary>pkg.cloudflareclient.com (1)</summary>
 
-- [Cloudflare WARP (Ubuntu 22.04 Jammy) (cloudflare-warp-ubuntu-jammy)](repos/cloudflare-warp-ubuntu-jammy.md)
+- [Cloudflare WARP (Ubuntu 22.04) (cloudflare-warp-ubuntu-jammy)](repos/cloudflare-warp-ubuntu-jammy.md)
 
 </details>
 
@@ -600,8 +604,8 @@ _This file is generated from catalog data. Do not edit manually._
 <details>
 <summary>pkgs.tailscale.com (2)</summary>
 
-- [Tailscale (Debian 12 Bookworm) (tailscale-debian-bookworm)](repos/tailscale-debian-bookworm.md)
-- [Tailscale (Ubuntu 22.04 Jammy) (tailscale-ubuntu-jammy)](repos/tailscale-ubuntu-jammy.md)
+- [Tailscale (Debian 12) (tailscale-debian-bookworm)](repos/tailscale-debian-bookworm.md)
+- [Tailscale (Ubuntu 22.04) (tailscale-ubuntu-jammy)](repos/tailscale-ubuntu-jammy.md)
 
 </details>
 

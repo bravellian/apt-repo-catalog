@@ -103,6 +103,12 @@
   - Architectures: (not listed)
   - Observed OSes: ubuntu-22.04
 
+## OS hints
+- Ubuntu, Debian
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
+
 ## Key reference
 - Key ID: `oracle-vbox2016`
 - Expected fingerprints:

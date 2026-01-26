@@ -73,6 +73,9 @@ export function scoreRepo(repo, config) {
         packageArchitectures.add(arch);
       }
     }
+    for (const arch of suite.architectures ?? []) {
+      architectures.add(arch);
+    }
   }
   if (architectures.has("amd64") || packageArchitectures.has("amd64")) {
     completeness += 1;
@@ -106,9 +109,15 @@ export function curateRepos(repos, config) {
 
   for (const repo of repos) {
     const score = scoreRepo(repo, config);
-    const verifiedOk = (repo.verification?.suites ?? []).some((suite) =>
-      (suite.packages ?? []).some((pkg) => pkg.errors.length === 0)
-    );
+  const verifiedOk = (repo.verification?.suites ?? []).some((suite) => {
+    if (Array.isArray(suite.errors) && suite.errors.length > 0) {
+      return false;
+    }
+    if (suite.packagesSkipped) {
+      return true;
+    }
+    return (suite.packages ?? []).some((pkg) => (pkg.errors ?? []).length === 0);
+  });
     const occurrences = repo.occurrences ?? 0;
     const distinctSources = Array.isArray(repo.distinctSources) ? repo.distinctSources.length : 0;
     const host = (() => {

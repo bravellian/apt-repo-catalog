@@ -1,4 +1,4 @@
-# Linux Mint Una - main
+# Linux Mint - main
 
 ## Repository
 - Repository ID: `linuxmint-una-main`
@@ -26,6 +26,12 @@
   - Components: backport, import, main, upstream
   - Architectures: (not listed)
   - Observed OSes: linuxmint-zena
+
+## OS hints
+- Linux Mint
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
 
 ## Key reference
 - Key ID: `linuxmint-archive-keyring`

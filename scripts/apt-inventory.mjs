@@ -650,12 +650,12 @@ async function runAptAssisted({
       for (const stanza of stanzas) {
         stanza.__suite = context.suite;
         stanza.__component = context.component;
-        stanza.__sourceIndexPath = rawPath.replace(/\\/g, "/");
       }
       entries.push(...stanzas);
       packageFiles.push({
-        source: fullPath,
-        rawPath: rawPath.replace(/\\/g, "/"),
+        name,
+        sha256: sha256Hex(content),
+        sizeBytes: content.length,
         suite: context.suite,
         component: context.component,
         arch: context.arch
@@ -772,12 +772,13 @@ async function runDirectFetch({
         for (const stanza of stanzas) {
           stanza.__suite = suite;
           stanza.__component = component;
-          stanza.__sourceIndexPath = rawPath.replace(/\\/g, "/");
         }
         entries.push(...stanzas);
         packageFiles.push({
-          source: url,
-          rawPath: rawPath.replace(/\\/g, "/"),
+          name: selected,
+          url,
+          sha256: sha256Hex(bytes),
+          sizeBytes: bytes.length,
           suite,
           component,
           arch

@@ -11,82 +11,82 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 
 ## All repositories
 
-| Docs | Label | Host | FP Suffix16 | Status | Last Checked |
-| --- | --- | --- | --- | --- | --- |
-| [Docs](docs/repos/1password-linux-amd64.md) | 1Password for Linux (amd64) | downloads.1password.com | AC2D62742012EA22 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/aws-corretto-stable.md) | Amazon Corretto (stable) | apt.corretto.aws | A122542AB04F24E3 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/brave-browser.md) | Brave Browser (Stable) | brave-browser-apt-release.s3.brave.com | 68D513D36A73CD96 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/clickhouse-stable.md) | ClickHouse (stable) | packages.clickhouse.com | 8919F6BD2B48D754 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/cloudflare-warp-ubuntu-jammy.md) | Cloudflare WARP (Ubuntu 22.04 Jammy) | pkg.cloudflareclient.com | 6E2DD2174FA1C3BA | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/docker-debian-buster-stable.md) | Docker - Debian (Buster) - stable | download.docker.com | 8D81803C0EBFCD88 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/docker-ubuntu-eoan-stable.md) | Docker - Ubuntu (Eoan) - stable | download.docker.com | 8D81803C0EBFCD88 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/elastic-9-x.md) | Elastic 9.x (Stable) | artifacts.elastic.co | D27D666CD88E42B4 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/github-cli-stable.md) | GitHub CLI (stable) | cli.github.com | 23F3D4EA75716059 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/gitlab-ce-debian-bookworm.md) | GitLab CE (Debian 12 Bookworm) | packages.gitlab.com | 3F01618A51312F3F | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/gitlab-ce-ubuntu-jammy.md) | GitLab CE (Ubuntu 22.04 Jammy) | packages.gitlab.com | 3F01618A51312F3F | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/gitlab-runner-debian-bookworm.md) | GitLab Runner (Debian 12 Bookworm) | packages.gitlab.com | 3F01618A51312F3F | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/gitlab-runner-ubuntu-jammy.md) | GitLab Runner (Ubuntu 22.04 Jammy) | packages.gitlab.com | 3F01618A51312F3F | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/google-chrome.md) | Google Chrome (Stable) | dl.google.com | 7721F63BD38B4796 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/google-cloud-sdk.md) | Google Cloud SDK | packages.cloud.google.com | C0BA5CE6DC6315A3 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/grafana.md) | Grafana Stable | apt.grafana.com | 963FA27710458545 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/hashicorp.md) | HashiCorp Official Repository | apt.releases.hashicorp.com | AA16FCBCA621E701 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/jenkins-debian-stable.md) | Jenkins (debian-stable) | pkg.jenkins.io | 7198F4B714ABFC68 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/kali-rolling.md) | Kali Rolling | http.kali.org | ED444FF07D8D0BF6 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/kubernetes-core-stable-v1-35-generic.md) | Kubernetes core stable v1.35 (generic) | pkgs.k8s.io | 234654DA9A296436 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/linuxmint-una-main.md) | Linux Mint Una - main | packages.linuxmint.com | A6616109451BBBF2 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/mariadb-10-11.md) | MariaDB 10.11 (Stable) | deb.mariadb.org | F1656F24C74CD1D8 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-debian-10-buster-packages-microsoft-com.md) | Microsoft - debian-10 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-debian-11-bullseye-packages-microsoft-com.md) | Microsoft - debian-11 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-debian-12-bookworm-packages-microsoft-com.md) | Microsoft - debian-12 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-debian-13-trixie-packages-microsoft-com.md) | Microsoft - debian-13 - default | packages.microsoft.com | EE4D7792F748182B | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-debian-8-jessie-packages-microsoft-com.md) | Microsoft - debian-8 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-debian-9-stretch-packages-microsoft-com.md) | Microsoft - debian-9 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-14-04-trusty-packages-microsoft-com.md) | Microsoft - ubuntu-14.04 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-15-10-wily-packages-microsoft-com.md) | Microsoft - ubuntu-15.10 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com.md) | Microsoft - ubuntu-16.04 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com.md) | Microsoft - ubuntu-16.10 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com.md) | Microsoft - ubuntu-17.04 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-17-10-artful-packages-microsoft-com.md) | Microsoft - ubuntu-17.10 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com.md) | Microsoft - ubuntu-18.04 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com.md) | Microsoft - ubuntu-18.10 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com.md) | Microsoft - ubuntu-19.04 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-19-10-eoan-packages-microsoft-com.md) | Microsoft - ubuntu-19.10 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com.md) | Microsoft - ubuntu-20.04 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com.md) | Microsoft - ubuntu-20.10 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com.md) | Microsoft - ubuntu-21.04 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com.md) | Microsoft - ubuntu-21.10 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com.md) | Microsoft - ubuntu-22.04 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com.md) | Microsoft - ubuntu-22.10 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com.md) | Microsoft - ubuntu-23.04 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com.md) | Microsoft - ubuntu-23.10 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com.md) | Microsoft - ubuntu-24.04 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com.md) | Microsoft - ubuntu-24.10 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com.md) | Microsoft - ubuntu-25.04 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com.md) | Microsoft - ubuntu-25.10 - default | packages.microsoft.com | EB3E94ADBE1229CF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/nginx-org-debian-stable-bookworm.md) | NGINX (nginx.org stable, Debian 12) | nginx.org | ABF5BD827BD9BF62 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/nginx-org-ubuntu-stable-jammy.md) | NGINX (nginx.org stable, Ubuntu 22.04) | nginx.org | ABF5BD827BD9BF62 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/nodesource-node20x.md) | Node.js 20.x (NodeSource) | deb.nodesource.com | 2F59B5F99B1BE0B4 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/popos-proprietary-22-04.md) | Pop!_OS proprietary - 22.04 | apt.pop-os.org | 204DD8AEC33A7AFF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/popos-release-22-04.md) | Pop!_OS release - 22.04 | apt.pop-os.org | 204DD8AEC33A7AFF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/postgresql-pgdg-debian.md) | PostgreSQL (PGDG) - Debian | apt.postgresql.org | 7FCC7D46ACCC4CF8 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/proxmox-ceph-squid-enterprise.md) | Proxmox Ceph Squid - enterprise | enterprise.proxmox.com | A7BCD1420BFE778E | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/proxmox-ceph-squid-enterprise-bookworm.md) | Proxmox Ceph Squid - enterprise (PVE 8) | enterprise.proxmox.com | 1140AF8F639E0C39 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/proxmox-ceph-squid-test.md) | Proxmox Ceph Squid - test | download.proxmox.com | A7BCD1420BFE778E | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/proxmox-ceph-squid-test-bookworm.md) | Proxmox Ceph Squid - test (PVE 8) | download.proxmox.com | 1140AF8F639E0C39 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/proxmox-ve-7-enterprise.md) | Proxmox VE 7 - enterprise | enterprise.proxmox.com | DD4BA3917E23BF59 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/proxmox-ve-7-test.md) | Proxmox VE 7 - test | download.proxmox.com | DD4BA3917E23BF59 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/proxmox-ve-8-enterprise.md) | Proxmox VE 8 - enterprise | enterprise.proxmox.com | 1140AF8F639E0C39 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/proxmox-ve-8-test.md) | Proxmox VE 8 - test | download.proxmox.com | 1140AF8F639E0C39 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/proxmox-ve-9-enterprise.md) | Proxmox VE 9 - enterprise | enterprise.proxmox.com | A7BCD1420BFE778E | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/proxmox-ve-9-test.md) | Proxmox VE 9 - test | download.proxmox.com | A7BCD1420BFE778E | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/puppet7-ubuntu-jammy.md) | Puppet 7 (Ubuntu 22.04 Jammy) | apt.puppet.com | 4528B6CD9E61EF26 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/signal-desktop.md) | Signal Desktop | updates.signal.org | D980A17457F6FB06 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/tailscale-debian-bookworm.md) | Tailscale (Debian 12 Bookworm) | pkgs.tailscale.com | 458CA832957F5868 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/tailscale-ubuntu-jammy.md) | Tailscale (Ubuntu 22.04 Jammy) | pkgs.tailscale.com | 458CA832957F5868 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/torproject.md) | Tor Project (Debian/Ubuntu) | deb.torproject.org | EE8CBC9E886DDD89 | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/virtualbox.md) | Oracle VirtualBox | download.virtualbox.org | A2F683C52980AECF | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/winehq-stable.md) | WineHQ Stable | dl.winehq.org | 76F1A20FF987672F | FAIL | 2026-01-26T16:14:33.622Z |
-| [Docs](docs/repos/yarn-stable.md) | Yarn (Stable) | dl.yarnpkg.com | 1646B01B86E50310 | FAIL | 2026-01-26T16:14:33.622Z |
+| Docs | Label | Host | OS hints | FP Suffix16 | Status | Last Checked |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Docs](docs/repos/1password-linux-amd64.md) | 1Password for Linux (amd64) | downloads.1password.com | Debian | AC2D62742012EA22 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/aws-corretto-stable.md) | Amazon Corretto (stable) | apt.corretto.aws | (not listed) | A122542AB04F24E3 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/brave-browser.md) | Brave Browser | brave-browser-apt-release.s3.brave.com | Ubuntu, Debian | 68D513D36A73CD96 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/clickhouse-stable.md) | ClickHouse (stable) | packages.clickhouse.com | (not listed) | 8919F6BD2B48D754 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/cloudflare-warp-ubuntu-jammy.md) | Cloudflare WARP (Ubuntu 22.04) | pkg.cloudflareclient.com | Debian, Ubuntu | 6E2DD2174FA1C3BA | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/docker-debian-buster-stable.md) | Docker - Debian - stable | download.docker.com | Debian | 8D81803C0EBFCD88 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/docker-ubuntu-eoan-stable.md) | Docker - Ubuntu - stable | download.docker.com | Ubuntu | 8D81803C0EBFCD88 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/elastic-9-x.md) | Elastic 9.x (Stable) | artifacts.elastic.co | Ubuntu | D27D666CD88E42B4 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/github-cli-stable.md) | GitHub CLI | cli.github.com | Ubuntu, Debian | 23F3D4EA75716059 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/gitlab-ce-debian-bookworm.md) | GitLab CE (Debian 12) | packages.gitlab.com | Debian | 3F01618A51312F3F | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/gitlab-ce-ubuntu-jammy.md) | GitLab CE (Ubuntu 22.04) | packages.gitlab.com | Ubuntu | 3F01618A51312F3F | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/gitlab-runner-debian-bookworm.md) | GitLab Runner (Debian 12) | packages.gitlab.com | Debian | 3F01618A51312F3F | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/gitlab-runner-ubuntu-jammy.md) | GitLab Runner (Ubuntu 22.04) | packages.gitlab.com | Ubuntu | 3F01618A51312F3F | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/google-chrome.md) | Google Chrome (Stable) | dl.google.com | Ubuntu | 7721F63BD38B4796 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/google-cloud-sdk.md) | Google Cloud SDK | packages.cloud.google.com | Ubuntu | C0BA5CE6DC6315A3 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/grafana.md) | Grafana Stable | apt.grafana.com | Ubuntu | 963FA27710458545 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/hashicorp.md) | HashiCorp Official Repository | apt.releases.hashicorp.com | Debian, Ubuntu | AA16FCBCA621E701 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/jenkins-debian-stable.md) | Jenkins (debian-stable) | pkg.jenkins.io | Debian | 7198F4B714ABFC68 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/kali-rolling.md) | Kali Rolling | http.kali.org | Kali | ED444FF07D8D0BF6 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/kubernetes-core-stable-v1-35-generic.md) | Kubernetes core stable v1.35 (generic) | pkgs.k8s.io | (not listed) | 234654DA9A296436 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/linuxmint-una-main.md) | Linux Mint - main | packages.linuxmint.com | Linux Mint | A6616109451BBBF2 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/mariadb-10-11.md) | MariaDB 10.11 (Stable) | deb.mariadb.org | Ubuntu | F1656F24C74CD1D8 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-debian-10-buster-packages-microsoft-com.md) | Microsoft - debian-10 - default | packages.microsoft.com | Debian | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-debian-11-bullseye-packages-microsoft-com.md) | Microsoft - debian-11 - default | packages.microsoft.com | Debian | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-debian-12-bookworm-packages-microsoft-com.md) | Microsoft - debian-12 - default | packages.microsoft.com | Debian | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-debian-13-trixie-packages-microsoft-com.md) | Microsoft - debian-13 - default | packages.microsoft.com | Debian | EE4D7792F748182B | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-debian-8-jessie-packages-microsoft-com.md) | Microsoft - debian-8 - default | packages.microsoft.com | Debian | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-debian-9-stretch-packages-microsoft-com.md) | Microsoft - debian-9 - default | packages.microsoft.com | Debian | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-14-04-trusty-packages-microsoft-com.md) | Microsoft - ubuntu-14.04 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-15-10-wily-packages-microsoft-com.md) | Microsoft - ubuntu-15.10 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-16-04-xenial-packages-microsoft-com.md) | Microsoft - ubuntu-16.04 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-16-10-yakkety-packages-microsoft-com.md) | Microsoft - ubuntu-16.10 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-17-04-zesty-packages-microsoft-com.md) | Microsoft - ubuntu-17.04 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-17-10-artful-packages-microsoft-com.md) | Microsoft - ubuntu-17.10 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-18-04-bionic-packages-microsoft-com.md) | Microsoft - ubuntu-18.04 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-18-10-cosmic-packages-microsoft-com.md) | Microsoft - ubuntu-18.10 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-19-04-disco-packages-microsoft-com.md) | Microsoft - ubuntu-19.04 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-19-10-eoan-packages-microsoft-com.md) | Microsoft - ubuntu-19.10 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-20-04-focal-packages-microsoft-com.md) | Microsoft - ubuntu-20.04 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-20-10-groovy-packages-microsoft-com.md) | Microsoft - ubuntu-20.10 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-21-04-hirsute-packages-microsoft-com.md) | Microsoft - ubuntu-21.04 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-21-10-impish-packages-microsoft-com.md) | Microsoft - ubuntu-21.10 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-22-04-jammy-packages-microsoft-com.md) | Microsoft - ubuntu-22.04 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-22-10-kinetic-packages-microsoft-com.md) | Microsoft - ubuntu-22.10 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-23-04-lunar-packages-microsoft-com.md) | Microsoft - ubuntu-23.04 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-23-10-mantic-packages-microsoft-com.md) | Microsoft - ubuntu-23.10 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-24-04-noble-packages-microsoft-com.md) | Microsoft - ubuntu-24.04 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-24-10-oracular-packages-microsoft-com.md) | Microsoft - ubuntu-24.10 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-25-04-plucky-packages-microsoft-com.md) | Microsoft - ubuntu-25.04 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/microsoft-default-ubuntu-25-10-questing-packages-microsoft-com.md) | Microsoft - ubuntu-25.10 - default | packages.microsoft.com | Ubuntu | EB3E94ADBE1229CF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/nginx-org-debian-stable-bookworm.md) | NGINX (nginx.org stable, Debian 12) | nginx.org | Debian | ABF5BD827BD9BF62 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/nginx-org-ubuntu-stable-jammy.md) | NGINX (nginx.org stable, Ubuntu 22.04) | nginx.org | Ubuntu | ABF5BD827BD9BF62 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/nodesource-node20x.md) | Node.js 20.x (NodeSource) | deb.nodesource.com | Ubuntu | 2F59B5F99B1BE0B4 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/popos-proprietary-22-04.md) | Pop!_OS proprietary - 22.04 | apt.pop-os.org | Ubuntu, Pop!_OS | 204DD8AEC33A7AFF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/popos-release-22-04.md) | Pop!_OS release - 22.04 | apt.pop-os.org | Ubuntu, Pop!_OS | 204DD8AEC33A7AFF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/postgresql-pgdg-debian.md) | PostgreSQL (PGDG) - Debian | apt.postgresql.org | Debian, Ubuntu | 7FCC7D46ACCC4CF8 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/proxmox-ceph-squid-enterprise.md) | Proxmox Ceph Squid - enterprise | enterprise.proxmox.com | proxmox, Debian | A7BCD1420BFE778E | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/proxmox-ceph-squid-enterprise-bookworm.md) | Proxmox Ceph Squid - enterprise (PVE 8) | enterprise.proxmox.com | proxmox, Debian | 1140AF8F639E0C39 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/proxmox-ceph-squid-test.md) | Proxmox Ceph Squid - test | download.proxmox.com | Debian, proxmox | A7BCD1420BFE778E | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/proxmox-ceph-squid-test-bookworm.md) | Proxmox Ceph Squid - test (PVE 8) | download.proxmox.com | Debian, proxmox | 1140AF8F639E0C39 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/proxmox-ve-7-enterprise.md) | Proxmox VE 7 - enterprise | enterprise.proxmox.com | proxmox, Debian | DD4BA3917E23BF59 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/proxmox-ve-7-test.md) | Proxmox VE 7 - test | download.proxmox.com | Debian, proxmox | DD4BA3917E23BF59 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/proxmox-ve-8-enterprise.md) | Proxmox VE 8 - enterprise | enterprise.proxmox.com | proxmox, Debian | 1140AF8F639E0C39 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/proxmox-ve-8-test.md) | Proxmox VE 8 - test | download.proxmox.com | Debian, proxmox | 1140AF8F639E0C39 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/proxmox-ve-9-enterprise.md) | Proxmox VE 9 - enterprise | enterprise.proxmox.com | proxmox, Debian | A7BCD1420BFE778E | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/proxmox-ve-9-test.md) | Proxmox VE 9 - test | download.proxmox.com | Debian, proxmox | A7BCD1420BFE778E | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/puppet7-ubuntu-jammy.md) | Puppet 7 (Ubuntu 22.04) | apt.puppet.com | Debian, Ubuntu | 4528B6CD9E61EF26 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/signal-desktop.md) | Signal Desktop | updates.signal.org | Ubuntu | D980A17457F6FB06 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/tailscale-debian-bookworm.md) | Tailscale (Debian 12) | pkgs.tailscale.com | Debian | 458CA832957F5868 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/tailscale-ubuntu-jammy.md) | Tailscale (Ubuntu 22.04) | pkgs.tailscale.com | Ubuntu | 458CA832957F5868 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/torproject.md) | Tor Project (Debian/Ubuntu) | deb.torproject.org | Debian, Ubuntu | EE8CBC9E886DDD89 | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/virtualbox.md) | Oracle VirtualBox | download.virtualbox.org | Ubuntu, Debian | A2F683C52980AECF | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/winehq-stable.md) | WineHQ Stable | dl.winehq.org | Ubuntu | 76F1A20FF987672F | SKIP | 2026-01-26T17:09:04.002Z |
+| [Docs](docs/repos/yarn-stable.md) | Yarn (Stable) | dl.yarnpkg.com | Ubuntu, Debian | 1646B01B86E50310 | SKIP | 2026-01-26T17:09:04.002Z |
 
 • • •
 
@@ -109,7 +109,7 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 <details>
 <summary>brave-browser (1)</summary>
 
-- [Brave Browser (Stable) (brave-browser)](docs/repos/brave-browser.md)
+- [Brave Browser (brave-browser)](docs/repos/brave-browser.md)
 
 </details>
 
@@ -123,15 +123,15 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 <details>
 <summary>cloudflare-warp (1)</summary>
 
-- [Cloudflare WARP (Ubuntu 22.04 Jammy) (cloudflare-warp-ubuntu-jammy)](docs/repos/cloudflare-warp-ubuntu-jammy.md)
+- [Cloudflare WARP (Ubuntu 22.04) (cloudflare-warp-ubuntu-jammy)](docs/repos/cloudflare-warp-ubuntu-jammy.md)
 
 </details>
 
 <details>
 <summary>docker (2)</summary>
 
-- [Docker - Debian (Buster) - stable (docker-debian-buster-stable)](docs/repos/docker-debian-buster-stable.md)
-- [Docker - Ubuntu (Eoan) - stable (docker-ubuntu-eoan-stable)](docs/repos/docker-ubuntu-eoan-stable.md)
+- [Docker - Debian - stable (docker-debian-buster-stable)](docs/repos/docker-debian-buster-stable.md)
+- [Docker - Ubuntu - stable (docker-ubuntu-eoan-stable)](docs/repos/docker-ubuntu-eoan-stable.md)
 
 </details>
 
@@ -145,23 +145,23 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 <details>
 <summary>github-cli (1)</summary>
 
-- [GitHub CLI (stable) (github-cli-stable)](docs/repos/github-cli-stable.md)
+- [GitHub CLI (github-cli-stable)](docs/repos/github-cli-stable.md)
 
 </details>
 
 <details>
 <summary>gitlab-ce (2)</summary>
 
-- [GitLab CE (Debian 12 Bookworm) (gitlab-ce-debian-bookworm)](docs/repos/gitlab-ce-debian-bookworm.md)
-- [GitLab CE (Ubuntu 22.04 Jammy) (gitlab-ce-ubuntu-jammy)](docs/repos/gitlab-ce-ubuntu-jammy.md)
+- [GitLab CE (Debian 12) (gitlab-ce-debian-bookworm)](docs/repos/gitlab-ce-debian-bookworm.md)
+- [GitLab CE (Ubuntu 22.04) (gitlab-ce-ubuntu-jammy)](docs/repos/gitlab-ce-ubuntu-jammy.md)
 
 </details>
 
 <details>
 <summary>gitlab-runner (2)</summary>
 
-- [GitLab Runner (Debian 12 Bookworm) (gitlab-runner-debian-bookworm)](docs/repos/gitlab-runner-debian-bookworm.md)
-- [GitLab Runner (Ubuntu 22.04 Jammy) (gitlab-runner-ubuntu-jammy)](docs/repos/gitlab-runner-ubuntu-jammy.md)
+- [GitLab Runner (Debian 12) (gitlab-runner-debian-bookworm)](docs/repos/gitlab-runner-debian-bookworm.md)
+- [GitLab Runner (Ubuntu 22.04) (gitlab-runner-ubuntu-jammy)](docs/repos/gitlab-runner-ubuntu-jammy.md)
 
 </details>
 
@@ -217,7 +217,7 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 <details>
 <summary>linuxmint (1)</summary>
 
-- [Linux Mint Una - main (linuxmint-una-main)](docs/repos/linuxmint-una-main.md)
+- [Linux Mint - main (linuxmint-una-main)](docs/repos/linuxmint-una-main.md)
 
 </details>
 
@@ -311,7 +311,7 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 <details>
 <summary>puppet7 (1)</summary>
 
-- [Puppet 7 (Ubuntu 22.04 Jammy) (puppet7-ubuntu-jammy)](docs/repos/puppet7-ubuntu-jammy.md)
+- [Puppet 7 (Ubuntu 22.04) (puppet7-ubuntu-jammy)](docs/repos/puppet7-ubuntu-jammy.md)
 
 </details>
 
@@ -325,8 +325,8 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 <details>
 <summary>tailscale (2)</summary>
 
-- [Tailscale (Debian 12 Bookworm) (tailscale-debian-bookworm)](docs/repos/tailscale-debian-bookworm.md)
-- [Tailscale (Ubuntu 22.04 Jammy) (tailscale-ubuntu-jammy)](docs/repos/tailscale-ubuntu-jammy.md)
+- [Tailscale (Debian 12) (tailscale-debian-bookworm)](docs/repos/tailscale-debian-bookworm.md)
+- [Tailscale (Ubuntu 22.04) (tailscale-ubuntu-jammy)](docs/repos/tailscale-ubuntu-jammy.md)
 
 </details>
 
@@ -392,7 +392,7 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 <details>
 <summary>apt.puppet.com (1)</summary>
 
-- [Puppet 7 (Ubuntu 22.04 Jammy) (puppet7-ubuntu-jammy)](docs/repos/puppet7-ubuntu-jammy.md)
+- [Puppet 7 (Ubuntu 22.04) (puppet7-ubuntu-jammy)](docs/repos/puppet7-ubuntu-jammy.md)
 
 </details>
 
@@ -413,14 +413,14 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 <details>
 <summary>brave-browser-apt-release.s3.brave.com (1)</summary>
 
-- [Brave Browser (Stable) (brave-browser)](docs/repos/brave-browser.md)
+- [Brave Browser (brave-browser)](docs/repos/brave-browser.md)
 
 </details>
 
 <details>
 <summary>cli.github.com (1)</summary>
 
-- [GitHub CLI (stable) (github-cli-stable)](docs/repos/github-cli-stable.md)
+- [GitHub CLI (github-cli-stable)](docs/repos/github-cli-stable.md)
 
 </details>
 
@@ -469,8 +469,8 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 <details>
 <summary>download.docker.com (2)</summary>
 
-- [Docker - Debian (Buster) - stable (docker-debian-buster-stable)](docs/repos/docker-debian-buster-stable.md)
-- [Docker - Ubuntu (Eoan) - stable (docker-ubuntu-eoan-stable)](docs/repos/docker-ubuntu-eoan-stable.md)
+- [Docker - Debian - stable (docker-debian-buster-stable)](docs/repos/docker-debian-buster-stable.md)
+- [Docker - Ubuntu - stable (docker-ubuntu-eoan-stable)](docs/repos/docker-ubuntu-eoan-stable.md)
 
 </details>
 
@@ -542,17 +542,17 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 <details>
 <summary>packages.gitlab.com (4)</summary>
 
-- [GitLab CE (Debian 12 Bookworm) (gitlab-ce-debian-bookworm)](docs/repos/gitlab-ce-debian-bookworm.md)
-- [GitLab CE (Ubuntu 22.04 Jammy) (gitlab-ce-ubuntu-jammy)](docs/repos/gitlab-ce-ubuntu-jammy.md)
-- [GitLab Runner (Debian 12 Bookworm) (gitlab-runner-debian-bookworm)](docs/repos/gitlab-runner-debian-bookworm.md)
-- [GitLab Runner (Ubuntu 22.04 Jammy) (gitlab-runner-ubuntu-jammy)](docs/repos/gitlab-runner-ubuntu-jammy.md)
+- [GitLab CE (Debian 12) (gitlab-ce-debian-bookworm)](docs/repos/gitlab-ce-debian-bookworm.md)
+- [GitLab CE (Ubuntu 22.04) (gitlab-ce-ubuntu-jammy)](docs/repos/gitlab-ce-ubuntu-jammy.md)
+- [GitLab Runner (Debian 12) (gitlab-runner-debian-bookworm)](docs/repos/gitlab-runner-debian-bookworm.md)
+- [GitLab Runner (Ubuntu 22.04) (gitlab-runner-ubuntu-jammy)](docs/repos/gitlab-runner-ubuntu-jammy.md)
 
 </details>
 
 <details>
 <summary>packages.linuxmint.com (1)</summary>
 
-- [Linux Mint Una - main (linuxmint-una-main)](docs/repos/linuxmint-una-main.md)
+- [Linux Mint - main (linuxmint-una-main)](docs/repos/linuxmint-una-main.md)
 
 </details>
 
@@ -593,7 +593,7 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 <details>
 <summary>pkg.cloudflareclient.com (1)</summary>
 
-- [Cloudflare WARP (Ubuntu 22.04 Jammy) (cloudflare-warp-ubuntu-jammy)](docs/repos/cloudflare-warp-ubuntu-jammy.md)
+- [Cloudflare WARP (Ubuntu 22.04) (cloudflare-warp-ubuntu-jammy)](docs/repos/cloudflare-warp-ubuntu-jammy.md)
 
 </details>
 
@@ -614,8 +614,8 @@ _This file is generated from catalog data and smoke test reports. Do not edit ma
 <details>
 <summary>pkgs.tailscale.com (2)</summary>
 
-- [Tailscale (Debian 12 Bookworm) (tailscale-debian-bookworm)](docs/repos/tailscale-debian-bookworm.md)
-- [Tailscale (Ubuntu 22.04 Jammy) (tailscale-ubuntu-jammy)](docs/repos/tailscale-ubuntu-jammy.md)
+- [Tailscale (Debian 12) (tailscale-debian-bookworm)](docs/repos/tailscale-debian-bookworm.md)
+- [Tailscale (Ubuntu 22.04) (tailscale-ubuntu-jammy)](docs/repos/tailscale-ubuntu-jammy.md)
 
 </details>
 

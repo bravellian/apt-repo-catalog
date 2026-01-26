@@ -23,6 +23,12 @@
   - Architectures: (not listed)
   - Observed OSes: popos-24.04, ubuntu-24.04
 
+## OS hints
+- Ubuntu, Pop!_OS
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
+
 ## Key reference
 - Key ID: `popos-lookup-204dd8aec33a7aff`
 - Expected fingerprints:

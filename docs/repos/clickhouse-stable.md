@@ -15,6 +15,12 @@
   - Architectures: amd64
   - Observed OSes: generic
 
+## OS hints
+- (not listed)
+
+## Usage notes
+- Use the suite codename provided by your OS; OS hints are not available for this repo.
+
 ## Key reference
 - Key ID: `clickhouse`
 - Expected fingerprints:

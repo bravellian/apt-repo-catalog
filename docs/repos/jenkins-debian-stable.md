@@ -15,6 +15,12 @@
   - Architectures: (not listed)
   - Observed OSes: generic
 
+## OS hints
+- Debian
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
+
 ## Key reference
 - Key ID: `jenkins`
 - Expected fingerprints:

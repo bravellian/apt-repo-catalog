@@ -1,4 +1,4 @@
-# GitHub CLI (stable)
+# GitHub CLI
 
 ## Repository
 - Repository ID: `github-cli-stable`
@@ -70,6 +70,12 @@
   - Components: main
   - Architectures: amd64
   - Observed OSes: generic
+
+## OS hints
+- Ubuntu, Debian
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
 
 ## Key reference
 - Key ID: `github-cli`

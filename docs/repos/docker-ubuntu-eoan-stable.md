@@ -1,4 +1,4 @@
-# Docker - Ubuntu (Eoan) - stable
+# Docker - Ubuntu - stable
 
 ## Repository
 - Repository ID: `docker-ubuntu-eoan-stable`
@@ -94,6 +94,12 @@
   - Components: stable
   - Architectures: (not listed)
   - Observed OSes: ubuntu-17.04
+
+## OS hints
+- Ubuntu
+
+## Usage notes
+- Use the suite that matches your OS codename; OS hints are inferred from Release metadata and base URL patterns.
 
 ## Key reference
 - Key ID: `docker-gpg-8d81803c0ebfcd88`
