@@ -57,7 +57,7 @@ sudo apt-get update
 > there is no per-package OS field in the Packages metadata.
 
 <details>
-<summary>Packages (19)</summary>
+<summary>Packages (23)</summary>
 
 <div class="packages-nav">
 <a href="#packages-A">A</a> <a href="#packages-G">G</a> <a href="#packages-L">L</a> <a href="#packages-M">M</a> <a href="#packages-P">P</a> <a href="#packages-Q">Q</a> <a href="#packages-S">S</a> <a href="#packages-T">T</a>
@@ -68,7 +68,7 @@ sudo apt-get update
 
 - **alloy**
   - Latest version: 1.12.2-1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: Grafana Alloy is an OpenTelemetry Collector distribution with programmable pipelines.
@@ -89,7 +89,7 @@ sudo apt-get update
 
 - **grafana**
   - Latest version: 12.3.1
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: stable
   - Components: main
   - Description: Grafana
@@ -108,7 +108,7 @@ sudo apt-get update
 
 - **grafana-agent**
   - Latest version: 0.44.2-1
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: stable
   - Components: main
   - Description: no description given
@@ -126,7 +126,7 @@ sudo apt-get update
 
 - **grafana-agent-flow**
   - Latest version: 0.44.2-1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: no description given
@@ -144,7 +144,7 @@ sudo apt-get update
 
 - **grafana-enterprise**
   - Latest version: 12.3.1
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: stable
   - Components: main
   - Description: "Grafana Enterprise"
@@ -165,7 +165,7 @@ sudo apt-get update
 
 - **grafana-enterprise-nightly**
   - Latest version: 12.2.0-92475
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: stable
   - Components: main
   - Description: "Grafana Enterprise"
@@ -183,9 +183,50 @@ sudo apt-get update
 
   </details>
 
+- **grafana-enterprise-nightly-rpi**
+  - Latest version: 12.2.0-92475
+  - Architectures: armhf
+  - Suite: stable
+  - Components: main
+  - Description: "Grafana Enterprise"
+  - Homepage: https://grafana.com
+  - Install: `sudo apt-get install grafana-enterprise-nightly-rpi`
+  - Install (apt): `sudo apt install grafana-enterprise-nightly-rpi`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: contact@grafana.com
+  - Section: default
+  - Priority: optional
+  - depends: adduser, libfontconfig1, musl
+  - conflicts: grafana
+
+  </details>
+
+- **grafana-enterprise-rpi**
+  - Latest version: 12.3.1
+  - Architectures: armhf
+  - Suite: stable
+  - Components: main
+  - Description: "Grafana Enterprise"
+  - Homepage: https://grafana.com
+  - Install: `sudo apt-get install grafana-enterprise-rpi`
+  - Install (apt): `sudo apt install grafana-enterprise-rpi`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: contact@grafana.com
+  - Section: default
+  - Priority: optional
+  - depends: adduser, libfontconfig1, musl
+  - conflicts: grafana
+  - replaces: grafana
+
+  </details>
+
 - **grafana-nightly**
   - Latest version: 12.2.0-256818
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: stable
   - Components: main
   - Description: Grafana
@@ -202,12 +243,50 @@ sudo apt-get update
 
   </details>
 
+- **grafana-nightly-rpi**
+  - Latest version: 12.2.0-256818
+  - Architectures: armhf
+  - Suite: stable
+  - Components: main
+  - Description: Grafana
+  - Homepage: https://grafana.com
+  - Install: `sudo apt-get install grafana-nightly-rpi`
+  - Install (apt): `sudo apt install grafana-nightly-rpi`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: contact@grafana.com
+  - Section: default
+  - Priority: optional
+  - depends: adduser, libfontconfig1, musl
+
+  </details>
+
+- **grafana-rpi**
+  - Latest version: 12.3.1
+  - Architectures: armhf
+  - Suite: stable
+  - Components: main
+  - Description: Grafana
+  - Homepage: https://grafana.com
+  - Install: `sudo apt-get install grafana-rpi`
+  - Install (apt): `sudo apt install grafana-rpi`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: contact@grafana.com
+  - Section: default
+  - Priority: optional
+  - depends: adduser, libfontconfig1, musl
+
+  </details>
+
 
 ### <a id="packages-L"></a>L
 
 - **logcli**
   - Latest version: 3.6.4
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: LogCLI is the command-line interface to Loki.
@@ -226,7 +305,7 @@ sudo apt-get update
 
 - **loki**
   - Latest version: 3.6.4
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
@@ -245,7 +324,7 @@ sudo apt-get update
 
 - **loki-canary**
   - Latest version: 3.6.4
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: Loki Canary is a standalone app that audits the log-capturing performance of a Grafana Loki cluster.
@@ -267,7 +346,7 @@ sudo apt-get update
 
 - **metaconvert**
   - Latest version: 3.0.2
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: Grafana Metaconvert converts Cortex meta.json files to be on the Grafana Mimir format.
@@ -286,7 +365,7 @@ sudo apt-get update
 
 - **mimir**
   - Latest version: 3.0.2
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: Grafana Mimir provides horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus.
@@ -305,7 +384,7 @@ sudo apt-get update
 
 - **mimir-continuous-test**
   - Latest version: 2.17.4
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: As a developer, you can use the standalone mimir-continuous-test tool to run smoke tests on live Grafana Mimir clusters. This tool identifies a class of bugs that could be difficult to spot during development.
@@ -324,7 +403,7 @@ sudo apt-get update
 
 - **mimirtool**
   - Latest version: 3.0.2
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: Mimirtool is a command-line tool that operators and tenants can use to execute a number of common tasks that involve Grafana Mimir or Grafana Cloud Metrics.
@@ -346,7 +425,7 @@ sudo apt-get update
 
 - **promtail**
   - Latest version: 3.6.4
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: Promtail is an agent which ships the contents of local logs to a private Grafana Loki instance or Grafana Cloud.
@@ -365,7 +444,7 @@ sudo apt-get update
 
 - **pyroscope**
   - Latest version: 1.18.0
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: stable
   - Components: main
   - Description: no description given
@@ -386,7 +465,7 @@ sudo apt-get update
 
 - **query-tee**
   - Latest version: 3.0.2
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: The query-tee is a standalone tool that you can use for testing purposes when comparing the query results and performances of two Grafana Mimir clusters. The two Mimir clusters compared by the query-tee must ingest the same series and samples.
@@ -408,7 +487,7 @@ sudo apt-get update
 
 - **synthetic-monitoring-agent**
   - Latest version: 0.51.0-v0.51.0
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: Synthetic Monitoring Agent
@@ -429,7 +508,7 @@ sudo apt-get update
 
 - **tempo**
   - Latest version: 2.9.1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: stable
   - Components: main
   - Description: Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend.
@@ -444,6 +523,10 @@ sudo apt-get update
 
   </details>
 
+
+Errors during fetch:
+- apt-get update failed
+- Packages index not listed in Release
 
 </details>
 

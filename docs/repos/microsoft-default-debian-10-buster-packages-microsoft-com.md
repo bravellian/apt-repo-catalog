@@ -57,7 +57,7 @@ sudo apt-get update
 > there is no per-package OS field in the Packages metadata.
 
 <details>
-<summary>Packages (135)</summary>
+<summary>Packages (137)</summary>
 
 <div class="packages-nav">
 <a href="#packages-A">A</a> <a href="#packages-B">B</a> <a href="#packages-C">C</a> <a href="#packages-D">D</a> <a href="#packages-H">H</a> <a href="#packages-L">L</a> <a href="#packages-M">M</a> <a href="#packages-N">N</a> <a href="#packages-O">O</a> <a href="#packages-P">P</a> <a href="#packages-S">S</a> <a href="#packages-U">U</a> <a href="#packages-V">V</a>
@@ -65,6 +65,23 @@ sudo apt-get update
 
 
 ### <a id="packages-A"></a>A
+
+- **a64packagetest**
+  - Latest version: 1.0
+  - Architectures: arm64
+  - Suite: buster
+  - Components: main
+  - Description: Print linuxconfig.org on the screen
+  - Install: `sudo apt-get install a64packagetest`
+  - Install (apt): `sudo apt install a64packagetest`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: linuxconfig.org
+  - Section: custom
+  - Priority: optional
+
+  </details>
 
 - **aadlogin**
   - Latest version: 1.0.016050002
@@ -517,6 +534,26 @@ sudo apt-get update
 
   </details>
 
+- **aziot-identity-service**
+  - Latest version: 1.2.6-1
+  - Architectures: armhf
+  - Suite: buster
+  - Components: main
+  - Description: Azure IoT Identity Service and related services
+  - Homepage: https://github.com/azure/iot-identity-service
+  - Install: `sudo apt-get install aziot-identity-service`
+  - Install (apt): `sudo apt install aziot-identity-service`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Azure IoT Edge Devs
+  - Section: admin
+  - Priority: optional
+  - depends: libc6 (>= 2.28), libgcc1 (>= 1:4.3), libssl1.1 (>= 1.1.0g)
+  - conflicts: iotedge, libiothsm-std
+
+  </details>
+
 - **azure-ai-vision-dev-core**
   - Latest version: 0.9.0~beta.1
   - Architectures: amd64
@@ -609,7 +646,7 @@ sudo apt-get update
 
 - **azure-functions-core-tools**
   - Latest version: 4.6.0-1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: buster
   - Components: main
   - Description: Azure Function Core Tools v4
@@ -671,7 +708,7 @@ sudo apt-get update
 
 - **azure-functions-core-tools-4**
   - Latest version: 4.6.0-1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: buster
   - Components: main
   - Description: Azure Function Core Tools v4
@@ -774,7 +811,7 @@ sudo apt-get update
 
 - **defender-iot-micro-agent**
   - Latest version: 4.6.2
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: Microsoft Defender for IoT Micro Agent
@@ -785,15 +822,15 @@ sudo apt-get update
 
   - Maintainer: Microsoft
   - Priority: optional
-  - depends: dmidecode, libcurl4-openssl-dev, libpcap0.8, libssl1.1, libuuid1, libuv1, sudo, uuid-runtime
-  - recommends: dmidecode
+  - depends: dmidecode, libcurl4, libcurl4-openssl-dev, libpcap0.8, libssl1.1, libuuid1, libuv1, sudo, uuid, uuid-runtime
+  - recommends: dmidecode, dmidecode (>= 3.3)
   - conflicts: defender-iot-micro-agent-edge
 
   </details>
 
 - **defender-iot-micro-agent-edge**
   - Latest version: 4.6.2
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: Microsoft Defender for IoT Micro Agent
@@ -804,15 +841,15 @@ sudo apt-get update
 
   - Maintainer: Microsoft
   - Priority: optional
-  - depends: aziot-edge, dmidecode, libcurl4-openssl-dev, libpcap0.8, libssl1.1, libuuid1, libuv1, sudo, uuid-runtime
-  - recommends: dmidecode
+  - depends: aziot-edge, dmidecode, libcurl4, libcurl4-openssl-dev, libpcap0.8, libssl1.1, libuuid1, libuv1, sudo, uuid, uuid-runtime
+  - recommends: dmidecode, dmidecode (>= 3.3)
   - conflicts: defender-iot-micro-agent
 
   </details>
 
 - **deliveryoptimization-agent**
   - Latest version: 1.1.0
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: Delivery Optimization downloader with Microsoft Connected Cache support
@@ -825,13 +862,13 @@ sudo apt-get update
   - Maintainer: docloss@microsoft.com
   - Section: devel
   - Priority: optional
-  - depends: libboost-filesystem1.67.0, libboost-system1.67.0, libc6 (>= 2.25), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libproxy1v5 (>= 0.4.14), libstdc++6 (>= 6)
+  - depends: libboost-filesystem1.67.0, libboost-system1.67.0, libc6 (>= 2.25), libc6 (>= 2.28), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libgcc1 (>= 1:3.5), libproxy1v5 (>= 0.4.14), libstdc++6 (>= 6)
 
   </details>
 
 - **deliveryoptimization-plugin-apt**
   - Latest version: 0.5.1
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: Microsoft project that enables APT downloads to go through the Delivery Optimization Agent
@@ -844,13 +881,13 @@ sudo apt-get update
   - Maintainer: docloss@microsoft.com
   - Section: devel
   - Priority: optional
-  - depends: libboost-filesystem1.67.0, libboost-system1.67.0, libc6 (>= 2.4), libdeliveryoptimization, libgcc1 (>= 1:3.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libuuid1 (>= 2.16)
+  - depends: libboost-filesystem1.67.0, libboost-system1.67.0, libc6 (>= 2.17), libc6 (>= 2.4), libdeliveryoptimization, libgcc1 (>= 1:3.0), libgcc1 (>= 1:3.5), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libuuid1 (>= 2.16)
 
   </details>
 
 - **deviceupdate-agent**
   - Latest version: 1.1.0
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: Device update agent
@@ -863,7 +900,7 @@ sudo apt-get update
   - Maintainer: aduct@microsoft.com
   - Section: admin
   - Priority: extra
-  - depends: deliveryoptimization-agent (>= 1.0.0), libatomic1 (>= 4.8), libboost-filesystem1.67.0, libboost-system1.67.0, libc6 (>= 2.14), libcurl4 (>= 7.18.2), libcurl4 (>= 7.63.0), libcurl4-openssl-dev, libdeliveryoptimization (>= 1.0.0), libgcc1 (>= 1:3.0), libssl1.1 (>= 1.1.1), libstdc++6 (>= 7), libuuid1 (>= 2.16), libxml2 (>= 2.7.4)
+  - depends: deliveryoptimization-agent (>= 1.0.0), libatomic1 (>= 4.8), libboost-filesystem1.67.0, libboost-system1.67.0, libc6 (>= 2.14), libc6 (>= 2.17), libc6 (>= 2.28), libcurl4 (>= 7.18.2), libcurl4 (>= 7.63.0), libcurl4-openssl-dev, libdeliveryoptimization (>= 1.0.0), libgcc1 (>= 1:3.0), libgcc1 (>= 1:3.5), libgcc1 (>= 1:4.2), libssl1.1 (>= 1.1.1), libstdc++6 (>= 7), libuuid1 (>= 2.16), libxml2 (>= 2.7.4)
   - suggests: deliveryoptimization-plugin-apt
 
   </details>
@@ -1852,7 +1889,7 @@ sudo apt-get update
 
 - **libdeliveryoptimization**
   - Latest version: 1.1.0
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: The DO SDK is a Microsoft project for enabling IPC through native C++ code with the Delivery Optimization Agent for Linux
@@ -1865,13 +1902,13 @@ sudo apt-get update
   - Maintainer: docloss@microsoft.com
   - Section: devel
   - Priority: optional
-  - depends: deliveryoptimization-agent, libboost-filesystem1.67.0, libboost-system1.67.0, libc6 (>= 2.14), libc6 (>= 2.9), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+  - depends: deliveryoptimization-agent, libboost-filesystem1.67.0, libboost-system1.67.0, libc6 (>= 2.14), libc6 (>= 2.17), libc6 (>= 2.28), libc6 (>= 2.9), libgcc1 (>= 1:3.0), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
 
   </details>
 
 - **libdeliveryoptimization-dev**
   - Latest version: 1.1.0
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: The DO SDK is a Microsoft project for enabling IPC through native C++ code with the Delivery Optimization Agent for Linux
@@ -1890,7 +1927,7 @@ sudo apt-get update
 
 - **libmsquic**
   - Latest version: 2.4.8
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: Microsoft implementation of the IETF QUIC protocol
@@ -1990,7 +2027,7 @@ sudo apt-get update
 
 - **moby-buildx**
   - Latest version: 0.19.3-debian10u1
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: A Docker CLI plugin for extended build capabilities with BuildKit
@@ -2003,7 +2040,7 @@ sudo apt-get update
   - Maintainer: Microsoft <support@microsoft.com>
   - Section: admin
   - Priority: optional
-  - depends: libc6 (>= 2.3.2)
+  - depends: libc6 (>= 2.17), libc6 (>= 2.3.2), libc6 (>= 2.4)
   - recommends: moby-cli
   - conflicts: docker-buildx-plugin, docker-ce, docker-ee
   - replaces: docker-buildx-plugin
@@ -2012,7 +2049,7 @@ sudo apt-get update
 
 - **moby-cli**
   - Latest version: 20.10.25+azure-debian10u2
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: Moby: the open-source application container engine
@@ -2025,7 +2062,7 @@ sudo apt-get update
   - Maintainer: Microsoft <support@microsoft.com>
   - Section: admin
   - Priority: optional
-  - depends: libc6 (>= 2.3.2)
+  - depends: libc6 (>= 2.17), libc6 (>= 2.3.2), libc6 (>= 2.4)
   - recommends: ca-certificates, git, moby-buildx, moby-engine, pigz, xz-utils
   - suggests: moby-engine
   - conflicts: docker, docker-ce, docker-ce-cli, docker-ee, docker-ee-cli, docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
@@ -2035,7 +2072,7 @@ sudo apt-get update
 
 - **moby-compose**
   - Latest version: 2.32.4-debian10u1
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: A Docker CLI plugin which allows you to run Docker Compose applications from the Docker CLI.
@@ -2048,14 +2085,14 @@ sudo apt-get update
   - Maintainer: Microsoft <support@microsoft.com>
   - Section: admin
   - Priority: optional
-  - depends: libc6 (>= 2.3.2), moby-cli
+  - depends: libc6 (>= 2.17), libc6 (>= 2.3.2), libc6 (>= 2.4), moby-cli
   - conflicts: docker-ce, docker-ce-cli, docker-ee, docker-ee-cli
 
   </details>
 
 - **moby-containerd**
   - Latest version: 1.7.25-debian10u1
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: Industry-standard container runtime
@@ -2068,7 +2105,7 @@ sudo apt-get update
   - Maintainer: Microsoft <support@microsoft.com>
   - Section: admin
   - Priority: optional
-  - depends: libc6 (>= 2.3.2), libseccomp2 (>= 2.3.0), moby-runc (>= 1.0.0~rc10), moby-runc (>= 1.0.0~rc10~), moby-runc (>= 1.0.2)
+  - depends: libc6 (>= 2.17), libc6 (>= 2.3.2), libc6 (>= 2.4), libseccomp2 (>= 2.3.0), moby-runc (>= 1.0.0~rc10), moby-runc (>= 1.0.0~rc10~), moby-runc (>= 1.0.2)
   - recommends: ca-certificates, moby-runc (>= 1.0.0~rc10)
   - conflicts: containerd, containerd.io, moby-engine (<= 3.0.10), moby-engine (<= 3.0.12)
   - replaces: containerd, containerd.io
@@ -2078,7 +2115,7 @@ sudo apt-get update
 
 - **moby-containerd-shim-systemd**
   - Latest version: 0.1.0~beta.1+azure-debian10u1
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: A containerd shim runtime that uses systemd to monitor runc containers
@@ -2091,14 +2128,14 @@ sudo apt-get update
   - Maintainer: Microsoft <support@microsoft.com>
   - Section: admin
   - Priority: optional
-  - depends: libc6 (>= 2.14), moby-containerd (>= 1.6), systemd (>= 239)
+  - depends: libc6 (>= 2.14), libc6 (>= 2.17), libc6 (>= 2.28), moby-containerd (>= 1.6), systemd (>= 239)
   - recommends: moby-runc
 
   </details>
 
 - **moby-engine**
   - Latest version: 20.10.25+azure-debian10u2
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: Moby: the open-source application container engine
@@ -2111,7 +2148,7 @@ sudo apt-get update
   - Maintainer: Microsoft <support@microsoft.com>
   - Section: admin
   - Priority: optional
-  - depends: init-system-helpers (>= 1.18~), libc6 (>= 2.3.2), libdevmapper1.02.1 (>= 2:1.02.97), libseccomp2 (>= 2.1.0), moby-containerd (>= 1.2), moby-containerd (>= 1.3.9), moby-containerd (>= 1.4.3), moby-runc (>= 1.0.0~rc10), moby-runc (>= 1.0.0~rc93), moby-runc (>= 1.0.2)
+  - depends: init-system-helpers (>= 1.18~), libc6 (>= 2.17), libc6 (>= 2.3.2), libc6 (>= 2.4), libdevmapper1.02.1 (>= 2:1.02.97), libseccomp2 (>= 2.1.0), moby-containerd (>= 1.2), moby-containerd (>= 1.3.9), moby-containerd (>= 1.4.3), moby-runc (>= 1.0.0~rc10), moby-runc (>= 1.0.0~rc93), moby-runc (>= 1.0.2)
   - recommends: apparmor, ca-certificates, iptables, kmod, moby-cli, pigz, xz-utils
   - suggests: aufs-tools, cgroupfs-mount | cgroup-lite, git
   - conflicts: docker, docker-ce, docker-ee, docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package, moby-containerd, moby-runc
@@ -2121,7 +2158,7 @@ sudo apt-get update
 
 - **moby-runc**
   - Latest version: 1.1.15-debian10u1
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: CLI tool for spawning and running containers according to the OCI specification
@@ -2134,7 +2171,7 @@ sudo apt-get update
   - Maintainer: Microsoft <support@microsoft.com>
   - Section: admin
   - Priority: optional
-  - depends: libc6 (>= 2.14), libseccomp2 (>= 2.3.0)
+  - depends: libc6 (>= 2.14), libc6 (>= 2.17), libc6 (>= 2.28), libseccomp2 (>= 2.3.0)
   - suggests: moby-containerd
   - conflicts: moby-engine (<= 3.0.10), runc
   - replaces: runc
@@ -2144,7 +2181,7 @@ sudo apt-get update
 
 - **moby-tini**
   - Latest version: 0.19.0-debian10u1
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: tiny but valid init for containers
@@ -2198,7 +2235,7 @@ sudo apt-get update
 
 - **msopenjdk-11**
   - Latest version: 11.0.24-1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: buster
   - Components: main
   - Description: Microsoft Build of OpenJDK 11
@@ -2239,7 +2276,7 @@ sudo apt-get update
 
 - **msopenjdk-17**
   - Latest version: 17.0.12-1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: buster
   - Components: main
   - Description: Microsoft Build of OpenJDK 17
@@ -2260,7 +2297,7 @@ sudo apt-get update
 
 - **msopenjdk-21**
   - Latest version: 21.0.4-1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: buster
   - Components: main
   - Description: Microsoft Build of OpenJDK 21
@@ -2401,7 +2438,7 @@ sudo apt-get update
 
 - **osconfig**
   - Latest version: 1.0.5.2024032701
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: buster
   - Components: main
   - Description: Azure OSConfig
@@ -2635,7 +2672,7 @@ sudo apt-get update
 
 - **virtualclient**
   - Latest version: 2.0.28
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: buster
   - Components: main
   - Description: VirtualClient, the open sourced workload automation.
@@ -2666,6 +2703,9 @@ sudo apt-get update
 
   </details>
 
+
+Errors during fetch:
+- apt-get update failed
 
 </details>
 

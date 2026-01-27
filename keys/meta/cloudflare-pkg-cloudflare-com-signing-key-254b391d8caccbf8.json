@@ -7,7 +7,7 @@
   "sourceUrls": [
     "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x254B391D8CACCBF8"
   ],
-  "retrievedAt": "2026-01-26T22:03:10.550Z",
+  "retrievedAt": "2026-01-27T01:37:15.198Z",
   "fingerprints": [
     "FBA8C0EE63617C5EED695C43254B391D8CACCBF8"
   ],
@@ -24,7 +24,7 @@
     }
   ],
   "downloaded": {
-    "sha256": "3e60196fd4e7090e9f26ee9282372a642c893d43e76f62e4b6664c365ac8519e",
+    "sha256": "51f199d1bea3fd02bb504250249a25de4a420db0734f1062f811d675d6a9cf48",
     "sizeBytes": 2407,
     "contentType": "armored"
   },

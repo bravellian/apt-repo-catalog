@@ -357,14 +357,14 @@ sudo apt-get update
   - Architectures: all, amd64
   - Suite: artful
   - Components: main
-  - Description: Azure Function Cli 2.0
+  - Description: Azure Function Core Tools v4
   - Homepage: https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#run-azure-functions-core-tools
   - Install: `sudo apt-get install azure-functions-core-tools`
   - Install (apt): `sudo apt install azure-functions-core-tools`
   <details>
   <summary>More metadata</summary>
 
-  - Maintainer: ShunXian Cai <shucai@microsoft.com>
+  - Maintainer: Ahmed ElSayed <ahmels@microsoft.com>
   - Section: devel
   - Priority: optional
   - depends: dotnet-runtime-deps-2.1 (>= 2.1.1), dotnet-sdk-2.0.0
@@ -1826,7 +1826,7 @@ sudo apt-get update
   <details>
   <summary>More metadata</summary>
 
-  - Maintainer: root <root@f66f6bc14b8d>
+  - Maintainer: root <root@6bacc4c1c000000>
   - Section: alien
   - Priority: extra
 
@@ -2020,7 +2020,7 @@ sudo apt-get update
 
 - **virtualclient**
   - Latest version: 1.15.25
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: artful
   - Components: main
   - Description: VirtualClient, the open sourced workload automation.
@@ -2033,6 +2033,9 @@ sudo apt-get update
 
   </details>
 
+
+Errors during fetch:
+- apt-get update failed
 
 </details>
 

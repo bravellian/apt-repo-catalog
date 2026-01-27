@@ -528,7 +528,663 @@ sudo apt-get update
 
 ## Packages
 
-Package inventory has not been generated for this repository.
+> Package compatibility is defined by suite/component/architecture in the repository index;
+> there is no per-package OS field in the Packages metadata.
+
+<details>
+<summary>Packages (27)</summary>
+
+<div class="packages-nav">
+<a href="#packages-G">G</a>
+</div>
+
+
+### <a id="packages-G"></a>G
+
+- **gitlab-runner**
+  - Latest version: 15.7.0
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: artful
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta, gitlab-runner-fips
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 18.8.0-1
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: bionic
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, gitlab-runner-helper-images, gitlab-runner-helper-images (= 17.10.0-1), gitlab-runner-helper-images (= 17.10.1-1), gitlab-runner-helper-images (= 17.10.2-1), gitlab-runner-helper-images (= 17.11.0-1), gitlab-runner-helper-images (= 17.11.1-1), gitlab-runner-helper-images (= 17.11.2-1), gitlab-runner-helper-images (= 17.11.3-1), gitlab-runner-helper-images (= 17.11.4-1), gitlab-runner-helper-images (= 17.7.1-1), gitlab-runner-helper-images (= 17.8.0-1), gitlab-runner-helper-images (= 17.8.1-1), gitlab-runner-helper-images (= 17.8.2-1), gitlab-runner-helper-images (= 17.8.3-1), gitlab-runner-helper-images (= 17.8.4-1), gitlab-runner-helper-images (= 17.8.5-1), gitlab-runner-helper-images (= 17.9.0-1), gitlab-runner-helper-images (= 17.9.1-1), gitlab-runner-helper-images (= 17.9.2-1), gitlab-runner-helper-images (= 17.9.3-1), gitlab-runner-helper-images (= 18.0.0-1), gitlab-runner-helper-images (= 18.0.1-1), gitlab-runner-helper-images (= 18.0.2-1), gitlab-runner-helper-images (= 18.0.3-1), gitlab-runner-helper-images (= 18.0.4-1), gitlab-runner-helper-images (= 18.0.5-1), gitlab-runner-helper-images (= 18.1.0-1), gitlab-runner-helper-images (= 18.1.1-1), gitlab-runner-helper-images (= 18.1.2-1), gitlab-runner-helper-images (= 18.1.3-1), gitlab-runner-helper-images (= 18.2.0-1), gitlab-runner-helper-images (= 18.2.1-1), gitlab-runner-helper-images (= 18.2.2-1), gitlab-runner-helper-images (= 18.3.0-1), gitlab-runner-helper-images (= 18.3.1-1), gitlab-runner-helper-images (= 18.4.0-1), gitlab-runner-helper-images (= 18.5.0-1), gitlab-runner-helper-images (= 18.6.0-1), gitlab-runner-helper-images (= 18.6.1-1), gitlab-runner-helper-images (= 18.6.2-1), gitlab-runner-helper-images (= 18.6.3-1), gitlab-runner-helper-images (= 18.6.5-1), gitlab-runner-helper-images (= 18.6.6-1), gitlab-runner-helper-images (= 18.7.0-1), gitlab-runner-helper-images (= 18.7.1-1), gitlab-runner-helper-images (= 18.7.2-1), gitlab-runner-helper-images (= 18.8.0-1), tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta, gitlab-runner-fips
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 15.7.0
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: cosmic
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta, gitlab-runner-fips
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 15.7.0
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: disco
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta, gitlab-runner-fips
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 15.7.0
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: eoan
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta, gitlab-runner-fips
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 18.8.0-1
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: focal
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, gitlab-runner-helper-images, gitlab-runner-helper-images (= 17.10.0-1), gitlab-runner-helper-images (= 17.10.1-1), gitlab-runner-helper-images (= 17.10.2-1), gitlab-runner-helper-images (= 17.11.0-1), gitlab-runner-helper-images (= 17.11.1-1), gitlab-runner-helper-images (= 17.11.2-1), gitlab-runner-helper-images (= 17.11.3-1), gitlab-runner-helper-images (= 17.11.4-1), gitlab-runner-helper-images (= 17.7.1-1), gitlab-runner-helper-images (= 17.8.0-1), gitlab-runner-helper-images (= 17.8.1-1), gitlab-runner-helper-images (= 17.8.2-1), gitlab-runner-helper-images (= 17.8.3-1), gitlab-runner-helper-images (= 17.8.4-1), gitlab-runner-helper-images (= 17.8.5-1), gitlab-runner-helper-images (= 17.9.0-1), gitlab-runner-helper-images (= 17.9.1-1), gitlab-runner-helper-images (= 17.9.2-1), gitlab-runner-helper-images (= 17.9.3-1), gitlab-runner-helper-images (= 18.0.0-1), gitlab-runner-helper-images (= 18.0.1-1), gitlab-runner-helper-images (= 18.0.2-1), gitlab-runner-helper-images (= 18.0.3-1), gitlab-runner-helper-images (= 18.0.4-1), gitlab-runner-helper-images (= 18.0.5-1), gitlab-runner-helper-images (= 18.1.0-1), gitlab-runner-helper-images (= 18.1.1-1), gitlab-runner-helper-images (= 18.1.2-1), gitlab-runner-helper-images (= 18.1.3-1), gitlab-runner-helper-images (= 18.2.0-1), gitlab-runner-helper-images (= 18.2.1-1), gitlab-runner-helper-images (= 18.2.2-1), gitlab-runner-helper-images (= 18.3.0-1), gitlab-runner-helper-images (= 18.3.1-1), gitlab-runner-helper-images (= 18.4.0-1), gitlab-runner-helper-images (= 18.5.0-1), gitlab-runner-helper-images (= 18.6.0-1), gitlab-runner-helper-images (= 18.6.1-1), gitlab-runner-helper-images (= 18.6.2-1), gitlab-runner-helper-images (= 18.6.3-1), gitlab-runner-helper-images (= 18.6.5-1), gitlab-runner-helper-images (= 18.6.6-1), gitlab-runner-helper-images (= 18.7.0-1), gitlab-runner-helper-images (= 18.7.1-1), gitlab-runner-helper-images (= 18.7.2-1), gitlab-runner-helper-images (= 18.8.0-1), tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta, gitlab-runner-fips
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 15.7.0
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: groovy
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta, gitlab-runner-fips
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 15.7.0
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: hirsute
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta, gitlab-runner-fips
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 17.6.1-1
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: impish
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta, gitlab-runner-fips
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 17.6.1-1
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: kinetic
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 17.6.1-1
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: lunar
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 17.6.1-1
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: mantic
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 18.8.0-1
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: noble
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, gitlab-runner-helper-images, gitlab-runner-helper-images (= 17.10.0-1), gitlab-runner-helper-images (= 17.10.1-1), gitlab-runner-helper-images (= 17.10.2-1), gitlab-runner-helper-images (= 17.11.0-1), gitlab-runner-helper-images (= 17.11.1-1), gitlab-runner-helper-images (= 17.11.2-1), gitlab-runner-helper-images (= 17.11.3-1), gitlab-runner-helper-images (= 17.11.4-1), gitlab-runner-helper-images (= 17.7.1-1), gitlab-runner-helper-images (= 17.8.0-1), gitlab-runner-helper-images (= 17.8.1-1), gitlab-runner-helper-images (= 17.8.2-1), gitlab-runner-helper-images (= 17.8.3-1), gitlab-runner-helper-images (= 17.8.4-1), gitlab-runner-helper-images (= 17.8.5-1), gitlab-runner-helper-images (= 17.9.0-1), gitlab-runner-helper-images (= 17.9.1-1), gitlab-runner-helper-images (= 17.9.2-1), gitlab-runner-helper-images (= 17.9.3-1), gitlab-runner-helper-images (= 18.0.0-1), gitlab-runner-helper-images (= 18.0.1-1), gitlab-runner-helper-images (= 18.0.2-1), gitlab-runner-helper-images (= 18.0.3-1), gitlab-runner-helper-images (= 18.0.4-1), gitlab-runner-helper-images (= 18.0.5-1), gitlab-runner-helper-images (= 18.1.0-1), gitlab-runner-helper-images (= 18.1.1-1), gitlab-runner-helper-images (= 18.1.2-1), gitlab-runner-helper-images (= 18.1.3-1), gitlab-runner-helper-images (= 18.2.0-1), gitlab-runner-helper-images (= 18.2.1-1), gitlab-runner-helper-images (= 18.2.2-1), gitlab-runner-helper-images (= 18.3.0-1), gitlab-runner-helper-images (= 18.3.1-1), gitlab-runner-helper-images (= 18.4.0-1), gitlab-runner-helper-images (= 18.5.0-1), gitlab-runner-helper-images (= 18.6.0-1), gitlab-runner-helper-images (= 18.6.1-1), gitlab-runner-helper-images (= 18.6.2-1), gitlab-runner-helper-images (= 18.6.3-1), gitlab-runner-helper-images (= 18.6.5-1), gitlab-runner-helper-images (= 18.6.6-1), gitlab-runner-helper-images (= 18.7.0-1), gitlab-runner-helper-images (= 18.7.1-1), gitlab-runner-helper-images (= 18.7.2-1), gitlab-runner-helper-images (= 18.8.0-1), tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 18.7.2-1
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: oracular
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, gitlab-runner-helper-images, gitlab-runner-helper-images (= 17.10.0-1), gitlab-runner-helper-images (= 17.10.1-1), gitlab-runner-helper-images (= 17.10.2-1), gitlab-runner-helper-images (= 17.11.0-1), gitlab-runner-helper-images (= 17.11.1-1), gitlab-runner-helper-images (= 17.11.2-1), gitlab-runner-helper-images (= 17.11.3-1), gitlab-runner-helper-images (= 17.11.4-1), gitlab-runner-helper-images (= 17.7.1-1), gitlab-runner-helper-images (= 17.8.0-1), gitlab-runner-helper-images (= 17.8.1-1), gitlab-runner-helper-images (= 17.8.2-1), gitlab-runner-helper-images (= 17.8.3-1), gitlab-runner-helper-images (= 17.8.4-1), gitlab-runner-helper-images (= 17.8.5-1), gitlab-runner-helper-images (= 17.9.0-1), gitlab-runner-helper-images (= 17.9.1-1), gitlab-runner-helper-images (= 17.9.2-1), gitlab-runner-helper-images (= 17.9.3-1), gitlab-runner-helper-images (= 18.0.0-1), gitlab-runner-helper-images (= 18.0.1-1), gitlab-runner-helper-images (= 18.0.2-1), gitlab-runner-helper-images (= 18.0.3-1), gitlab-runner-helper-images (= 18.0.4-1), gitlab-runner-helper-images (= 18.0.5-1), gitlab-runner-helper-images (= 18.1.0-1), gitlab-runner-helper-images (= 18.1.1-1), gitlab-runner-helper-images (= 18.1.2-1), gitlab-runner-helper-images (= 18.1.3-1), gitlab-runner-helper-images (= 18.2.0-1), gitlab-runner-helper-images (= 18.2.1-1), gitlab-runner-helper-images (= 18.2.2-1), gitlab-runner-helper-images (= 18.3.0-1), gitlab-runner-helper-images (= 18.3.1-1), gitlab-runner-helper-images (= 18.4.0-1), gitlab-runner-helper-images (= 18.5.0-1), gitlab-runner-helper-images (= 18.6.0-1), gitlab-runner-helper-images (= 18.6.1-1), gitlab-runner-helper-images (= 18.6.2-1), gitlab-runner-helper-images (= 18.6.3-1), gitlab-runner-helper-images (= 18.6.5-1), gitlab-runner-helper-images (= 18.6.6-1), gitlab-runner-helper-images (= 18.7.0-1), gitlab-runner-helper-images (= 18.7.1-1), gitlab-runner-helper-images (= 18.7.2-1), tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 18.8.0-1
+  - Architectures: amd64, arm64, armel, armhf, ppc64el, s390x
+  - Suite: plucky
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, gitlab-runner-helper-images (= 18.6.0-1), gitlab-runner-helper-images (= 18.6.1-1), gitlab-runner-helper-images (= 18.6.2-1), gitlab-runner-helper-images (= 18.6.3-1), gitlab-runner-helper-images (= 18.6.5-1), gitlab-runner-helper-images (= 18.6.6-1), gitlab-runner-helper-images (= 18.7.0-1), gitlab-runner-helper-images (= 18.7.1-1), gitlab-runner-helper-images (= 18.7.2-1), gitlab-runner-helper-images (= 18.8.0-1), tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 11.11.4
+  - Architectures: amd64, armel, armhf, i386
+  - Suite: trusty
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 18.8.0-1
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: xenial
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, gitlab-runner-helper-images, gitlab-runner-helper-images (= 17.10.0-1), gitlab-runner-helper-images (= 17.10.1-1), gitlab-runner-helper-images (= 17.10.2-1), gitlab-runner-helper-images (= 17.11.0-1), gitlab-runner-helper-images (= 17.11.1-1), gitlab-runner-helper-images (= 17.11.2-1), gitlab-runner-helper-images (= 17.11.3-1), gitlab-runner-helper-images (= 17.11.4-1), gitlab-runner-helper-images (= 17.7.1-1), gitlab-runner-helper-images (= 17.8.0-1), gitlab-runner-helper-images (= 17.8.1-1), gitlab-runner-helper-images (= 17.8.2-1), gitlab-runner-helper-images (= 17.8.3-1), gitlab-runner-helper-images (= 17.8.4-1), gitlab-runner-helper-images (= 17.8.5-1), gitlab-runner-helper-images (= 17.9.0-1), gitlab-runner-helper-images (= 17.9.1-1), gitlab-runner-helper-images (= 17.9.2-1), gitlab-runner-helper-images (= 17.9.3-1), gitlab-runner-helper-images (= 18.0.0-1), gitlab-runner-helper-images (= 18.0.1-1), gitlab-runner-helper-images (= 18.0.2-1), gitlab-runner-helper-images (= 18.0.3-1), gitlab-runner-helper-images (= 18.0.4-1), gitlab-runner-helper-images (= 18.0.5-1), gitlab-runner-helper-images (= 18.1.0-1), gitlab-runner-helper-images (= 18.1.1-1), gitlab-runner-helper-images (= 18.1.2-1), gitlab-runner-helper-images (= 18.1.3-1), gitlab-runner-helper-images (= 18.2.0-1), gitlab-runner-helper-images (= 18.2.1-1), gitlab-runner-helper-images (= 18.2.2-1), gitlab-runner-helper-images (= 18.3.0-1), gitlab-runner-helper-images (= 18.3.1-1), gitlab-runner-helper-images (= 18.4.0-1), gitlab-runner-helper-images (= 18.5.0-1), gitlab-runner-helper-images (= 18.6.0-1), gitlab-runner-helper-images (= 18.6.1-1), gitlab-runner-helper-images (= 18.6.2-1), gitlab-runner-helper-images (= 18.6.3-1), gitlab-runner-helper-images (= 18.6.5-1), gitlab-runner-helper-images (= 18.6.6-1), gitlab-runner-helper-images (= 18.7.0-1), gitlab-runner-helper-images (= 18.7.1-1), gitlab-runner-helper-images (= 18.7.2-1), gitlab-runner-helper-images (= 18.8.0-1), tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta, gitlab-runner-fips
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 10.1.1
+  - Architectures: amd64, armel, armhf, i386
+  - Suite: yakkety
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 10.7.4
+  - Architectures: amd64, armel, armhf, i386
+  - Suite: zesty
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner**
+  - Latest version: 18.8.0-1
+  - Architectures: amd64, arm64, armel, armhf, i386, ppc64el, s390x
+  - Suite: jammy
+  - Components: main
+  - Description: GitLab Runner
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner`
+  - Install (apt): `sudo apt install gitlab-runner`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - depends: ca-certificates, curl, git, gitlab-runner-helper-images, gitlab-runner-helper-images (= 17.10.0-1), gitlab-runner-helper-images (= 17.10.1-1), gitlab-runner-helper-images (= 17.10.2-1), gitlab-runner-helper-images (= 17.11.0-1), gitlab-runner-helper-images (= 17.11.1-1), gitlab-runner-helper-images (= 17.11.2-1), gitlab-runner-helper-images (= 17.11.3-1), gitlab-runner-helper-images (= 17.11.4-1), gitlab-runner-helper-images (= 17.7.1-1), gitlab-runner-helper-images (= 17.8.0-1), gitlab-runner-helper-images (= 17.8.1-1), gitlab-runner-helper-images (= 17.8.2-1), gitlab-runner-helper-images (= 17.8.3-1), gitlab-runner-helper-images (= 17.8.4-1), gitlab-runner-helper-images (= 17.8.5-1), gitlab-runner-helper-images (= 17.9.0-1), gitlab-runner-helper-images (= 17.9.1-1), gitlab-runner-helper-images (= 17.9.2-1), gitlab-runner-helper-images (= 17.9.3-1), gitlab-runner-helper-images (= 18.0.0-1), gitlab-runner-helper-images (= 18.0.1-1), gitlab-runner-helper-images (= 18.0.2-1), gitlab-runner-helper-images (= 18.0.3-1), gitlab-runner-helper-images (= 18.0.4-1), gitlab-runner-helper-images (= 18.0.5-1), gitlab-runner-helper-images (= 18.1.0-1), gitlab-runner-helper-images (= 18.1.1-1), gitlab-runner-helper-images (= 18.1.2-1), gitlab-runner-helper-images (= 18.1.3-1), gitlab-runner-helper-images (= 18.2.0-1), gitlab-runner-helper-images (= 18.2.1-1), gitlab-runner-helper-images (= 18.2.2-1), gitlab-runner-helper-images (= 18.3.0-1), gitlab-runner-helper-images (= 18.3.1-1), gitlab-runner-helper-images (= 18.4.0-1), gitlab-runner-helper-images (= 18.5.0-1), gitlab-runner-helper-images (= 18.6.0-1), gitlab-runner-helper-images (= 18.6.1-1), gitlab-runner-helper-images (= 18.6.2-1), gitlab-runner-helper-images (= 18.6.3-1), gitlab-runner-helper-images (= 18.6.5-1), gitlab-runner-helper-images (= 18.6.6-1), gitlab-runner-helper-images (= 18.7.0-1), gitlab-runner-helper-images (= 18.7.1-1), gitlab-runner-helper-images (= 18.7.2-1), gitlab-runner-helper-images (= 18.8.0-1), tar
+  - suggests: docker-engine
+  - conflicts: gitlab-ci-multi-runner, gitlab-ci-multi-runner-beta, gitlab-runner-beta, gitlab-runner-fips
+  - replaces: gitlab-ci-multi-runner
+  - provides: gitlab-ci-multi-runner
+
+  </details>
+
+- **gitlab-runner-helper-images**
+  - Latest version: 18.8.0-1
+  - Architectures: all
+  - Suite: bionic
+  - Components: main
+  - Description: GitLab Runner Helper Docker Images
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner-helper-images`
+  - Install (apt): `sudo apt install gitlab-runner-helper-images`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - replaces: gitlab-runner
+  - provides: gitlab-runner-helper-images
+
+  </details>
+
+- **gitlab-runner-helper-images**
+  - Latest version: 18.8.0-1
+  - Architectures: all
+  - Suite: focal
+  - Components: main
+  - Description: GitLab Runner Helper Docker Images
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner-helper-images`
+  - Install (apt): `sudo apt install gitlab-runner-helper-images`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - replaces: gitlab-runner
+  - provides: gitlab-runner-helper-images
+
+  </details>
+
+- **gitlab-runner-helper-images**
+  - Latest version: 18.8.0-1
+  - Architectures: all
+  - Suite: noble
+  - Components: main
+  - Description: GitLab Runner Helper Docker Images
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner-helper-images`
+  - Install (apt): `sudo apt install gitlab-runner-helper-images`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - replaces: gitlab-runner
+  - provides: gitlab-runner-helper-images
+
+  </details>
+
+- **gitlab-runner-helper-images**
+  - Latest version: 18.7.2-1
+  - Architectures: all
+  - Suite: oracular
+  - Components: main
+  - Description: GitLab Runner Helper Docker Images
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner-helper-images`
+  - Install (apt): `sudo apt install gitlab-runner-helper-images`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - replaces: gitlab-runner
+  - provides: gitlab-runner-helper-images
+
+  </details>
+
+- **gitlab-runner-helper-images**
+  - Latest version: 18.8.0-1
+  - Architectures: all
+  - Suite: plucky
+  - Components: main
+  - Description: GitLab Runner Helper Docker Images
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner-helper-images`
+  - Install (apt): `sudo apt install gitlab-runner-helper-images`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - replaces: gitlab-runner
+  - provides: gitlab-runner-helper-images
+
+  </details>
+
+- **gitlab-runner-helper-images**
+  - Latest version: 18.8.0-1
+  - Architectures: all
+  - Suite: xenial
+  - Components: main
+  - Description: GitLab Runner Helper Docker Images
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner-helper-images`
+  - Install (apt): `sudo apt install gitlab-runner-helper-images`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - replaces: gitlab-runner
+  - provides: gitlab-runner-helper-images
+
+  </details>
+
+- **gitlab-runner-helper-images**
+  - Latest version: 18.8.0-1
+  - Architectures: all
+  - Suite: jammy
+  - Components: main
+  - Description: GitLab Runner Helper Docker Images
+  - Homepage: https://gitlab.com/gitlab-org/gitlab-runner
+  - Install: `sudo apt-get install gitlab-runner-helper-images`
+  - Install (apt): `sudo apt install gitlab-runner-helper-images`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: GitLab Inc. <support@gitlab.com>
+  - Section: admin
+  - Priority: optional
+  - replaces: gitlab-runner
+  - provides: gitlab-runner-helper-images
+
+  </details>
+
+
+Errors during fetch:
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+- apt-get update failed
+- Packages index not listed in Release
+
+</details>
 
 ## Notes
 - Suite availability is derived from Release metadata; verify upstream documentation for support policy.

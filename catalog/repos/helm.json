@@ -1,0 +1,8 @@
+{
+  "id": "helm",
+  "label": "helm",
+  "name": "Helm",
+  "baseUrl": "https://packages.buildkite.com/helm-linux/helm-debian/any/",
+  "keyId": "buildkite-gpgkey-62ba89d07698dbc6",
+  "documentationUrl": "https://buildkite.com/organizations/helm-linux/packages/registries/helm-debian"
+}

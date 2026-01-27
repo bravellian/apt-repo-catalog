@@ -221,7 +221,7 @@ sudo apt-get update
 
 - **virtualclient**
   - Latest version: 1.15.25
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: wily
   - Components: main
   - Description: VirtualClient, the open sourced workload automation.
@@ -234,6 +234,9 @@ sudo apt-get update
 
   </details>
 
+
+Errors during fetch:
+- apt-get update failed
 
 </details>
 

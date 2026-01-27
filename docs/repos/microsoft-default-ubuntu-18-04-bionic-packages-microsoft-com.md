@@ -688,7 +688,7 @@ sudo apt-get update
 
 - **aziot-edge**
   - Latest version: 1.4.20-1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: Azure IoT Edge Module Runtime
@@ -707,7 +707,7 @@ sudo apt-get update
 
 - **aziot-identity-service**
   - Latest version: 1.4.6-1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: Azure IoT Identity Service and related services
@@ -727,7 +727,7 @@ sudo apt-get update
 
 - **aznfs**
   - Latest version: 3.0.11
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: Mount helper program for correctly handling endpoint IP address changes for Azure Blob NFS mounts and providing a secure communication channel for Azure File NFS mounts
@@ -1086,7 +1086,7 @@ sudo apt-get update
 
 - **containernetworking-plugins**
   - Latest version: 1.7.1-ubuntu18.04u4
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: reference cni plugins (not azure but used by kubenet and containerd)
@@ -1098,7 +1098,7 @@ sudo apt-get update
 
   - Maintainer: Azure Container Upstream
   - Section: -
-  - depends: libc6 (>= 2.4), openssl
+  - depends: libc6 (>= 2.17), libc6 (>= 2.4), openssl
   - replaces: cni-plugins (<< 1.6.2), cni-plugins (<< 1.7.1)
   - provides: cni-plugins (= 1.6.2), cni-plugins (= 1.7.1)
 
@@ -2489,7 +2489,7 @@ sudo apt-get update
 
 - **ig**
   - Latest version: 0.45.0-ubuntu18.04u1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: Inspektor Gadget is a set of tools and framework for data collection and system inspection on Kubernetes clusters and Linux hosts using eBPF.
@@ -2501,7 +2501,7 @@ sudo apt-get update
 
   - Maintainer: Azure Container Upstream
   - Section: -
-  - depends: libc6 (>= 2.4), openssl
+  - depends: libc6 (>= 2.17), libc6 (>= 2.4), openssl
 
   </details>
 
@@ -2529,7 +2529,7 @@ sudo apt-get update
 
 - **jaz**
   - Latest version: 0.0.0~preview+20260120.1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: Azure Command Launcher for Java is a lightweight utility that simplifies how Java developers launch their applications on Azure.
@@ -2631,7 +2631,7 @@ sudo apt-get update
 
 - **kubectl-gadget**
   - Latest version: 0.45.0-ubuntu18.04u1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: Inspektor Gadget is a set of tools and framework for data collection and system inspection on Kubernetes clusters and Linux hosts using eBPF.
@@ -2643,13 +2643,13 @@ sudo apt-get update
 
   - Maintainer: Azure Container Upstream
   - Section: -
-  - depends: libc6 (>= 2.4), openssl
+  - depends: libc6 (>= 2.17), libc6 (>= 2.4), openssl
 
   </details>
 
 - **kubelogin**
   - Latest version: 0.2.12-ubuntu18.04u1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: This is a client-go credential (exec) plugin implementing azure authentication. This plugin provides features that are not available in kubectl. It is supported on kubectl v1.11+
@@ -2661,13 +2661,13 @@ sudo apt-get update
 
   - Maintainer: Azure Container Upstream
   - Section: -
-  - depends: libc6 (>= 2.4), openssl
+  - depends: libc6 (>= 2.17), libc6 (>= 2.4), openssl
 
   </details>
 
 - **kubernetes-cri-tools**
   - Latest version: 1.32.0-ubuntu18.04u3
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: foo description
@@ -2679,7 +2679,7 @@ sudo apt-get update
 
   - Maintainer: Azure Container Upstream
   - Section: -
-  - depends: libc6 (>= 2.4), openssl
+  - depends: libc6 (>= 2.17), libc6 (>= 2.4), openssl
 
   </details>
 
@@ -3003,7 +3003,7 @@ sudo apt-get update
 
 - **libmsquic**
   - Latest version: 2.4.8
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: bionic
   - Components: main
   - Description: Microsoft implementation of the IETF QUIC protocol
@@ -3112,7 +3112,7 @@ sudo apt-get update
   <details>
   <summary>More metadata</summary>
 
-  - Maintainer: root <root@f66f6bc14b8d>
+  - Maintainer: root <root@6bacc4c1c000000>
   - Section: alien
   - Priority: extra
 
@@ -3553,7 +3553,7 @@ sudo apt-get update
 
 - **moby-runc**
   - Latest version: 1.2.8-ubuntu18.04u1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: CLI tool for spawning and running containers according to the OCI specification
@@ -3566,7 +3566,7 @@ sudo apt-get update
   - Maintainer: Azure Container Upstream
   - Section: -
   - Priority: optional
-  - depends: libc6 (>= 2.14), libseccomp2 (>= 2.4.0), libseccomp2 (>= 2.5.0)
+  - depends: libc6 (>= 2.14), libc6 (>= 2.17), libseccomp2 (>= 2.4.0), libseccomp2 (>= 2.5.0)
   - suggests: moby-containerd
   - conflicts: moby-engine (<= 3.0.10), runc, runc-io
   - replaces: runc, runc (<= 1.2.7), runc (<= 1.2.8), runc-io (<= 1.2.7), runc-io (<= 1.2.8)
@@ -3576,7 +3576,7 @@ sudo apt-get update
 
 - **msft-golang**
   - Latest version: 1.25.3-ubuntu18.04u1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: The Microsoft build of the Go toolset
@@ -3968,7 +3968,7 @@ sudo apt-get update
 
 - **node-exporter-kubernetes**
   - Latest version: 1.9.1-ubuntu18.04u6
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: Node exporter.
@@ -3980,13 +3980,13 @@ sudo apt-get update
 
   - Maintainer: Azure Container Upstream
   - Section: -
-  - depends: libc6 (>= 2.4), openssl
+  - depends: libc6 (>= 2.17), libc6 (>= 2.4), openssl
 
   </details>
 
 - **node-problem-detector-kubernetes**
   - Latest version: 0.8.21-ubuntu18.04u6
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: Node problem detector.
@@ -3998,7 +3998,7 @@ sudo apt-get update
 
   - Maintainer: Azure Container Upstream
   - Section: -
-  - depends: libc6 (>= 2.3.4), libc6 (>= 2.4), openssl
+  - depends: libc6 (>= 2.17), libc6 (>= 2.3.4), libc6 (>= 2.4), openssl
 
   </details>
 
@@ -4378,7 +4378,7 @@ sudo apt-get update
 
 - **virtualclient**
   - Latest version: 2.0.28
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: bionic
   - Components: main
   - Description: VirtualClient, the open sourced workload automation.
@@ -4409,6 +4409,9 @@ sudo apt-get update
 
   </details>
 
+
+Errors during fetch:
+- apt-get update failed
 
 </details>
 

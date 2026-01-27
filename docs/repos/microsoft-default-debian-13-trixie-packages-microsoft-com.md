@@ -706,6 +706,9 @@ sudo apt-get update
   </details>
 
 
+Errors during fetch:
+- apt-get update failed
+
 </details>
 
 ## Notes

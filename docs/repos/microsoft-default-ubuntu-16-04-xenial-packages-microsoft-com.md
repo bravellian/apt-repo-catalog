@@ -641,7 +641,7 @@ sudo apt-get update
   <details>
   <summary>More metadata</summary>
 
-  - Maintainer: Emma Zhu<emmazhu@microsoft.com>
+  - Maintainer: AzCopy Dev<azcopydev@microsoft.com>
   - Section: admin
   - Priority: optional
   - depends: dotnet-dev-1.0.1(>= 1.0.1), dotnet-runtime-2.0.0, dotnet-sdk-2.0.0(>= 2.0.0), libc6 (>= 2.14), libcurl3 (>= 7.16.2), libgcc1 (>= 1:3.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libicu55, liblttng-ust0 (>= 2.5.0), libssl1.0.0, libstdc++6 (>= 4.8), libunwind8, libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
@@ -691,14 +691,14 @@ sudo apt-get update
   - Architectures: all, amd64
   - Suite: xenial
   - Components: main
-  - Description: Azure Function Cli 2.0
+  - Description: Azure Function Core Tools v3
   - Homepage: https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#run-azure-functions-core-tools
   - Install: `sudo apt-get install azure-functions-core-tools`
   - Install (apt): `sudo apt install azure-functions-core-tools`
   <details>
   <summary>More metadata</summary>
 
-  - Maintainer: ShunXian Cai <shucai@microsoft.com>
+  - Maintainer: Ahmed ElSayed <ahmels@microsoft.com>
   - Section: devel
   - Priority: optional
   - depends: dotnet-runtime-deps-2.1 (>= 2.1.1), dotnet-sdk-2.0.0
@@ -3151,7 +3151,7 @@ sudo apt-get update
 
 - **jaz**
   - Latest version: 0.0.0~preview+20251111.1
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: xenial
   - Components: main
   - Description: Azure Command Launcher for Java is a lightweight utility that simplifies how Java developers launch their applications on Azure.
@@ -3294,7 +3294,7 @@ sudo apt-get update
 
 - **libmsquic**
   - Latest version: 2.4.8
-  - Architectures: amd64
+  - Architectures: amd64, arm64, armhf
   - Suite: xenial
   - Components: main
   - Description: Microsoft implementation of the IETF QUIC protocol
@@ -3445,7 +3445,7 @@ sudo apt-get update
   <details>
   <summary>More metadata</summary>
 
-  - Maintainer: root <root@f66f6bc14b8d>
+  - Maintainer: root <root@fv-az130-376>
   - Section: alien
   - Priority: extra
 
@@ -5338,7 +5338,7 @@ sudo apt-get update
 
 - **virtualclient**
   - Latest version: 1.15.25
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: xenial
   - Components: main
   - Description: VirtualClient, the open sourced workload automation.
@@ -5369,6 +5369,9 @@ sudo apt-get update
 
   </details>
 
+
+Errors during fetch:
+- apt-get update failed
 
 </details>
 

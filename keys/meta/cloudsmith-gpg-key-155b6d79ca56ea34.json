@@ -1,0 +1,40 @@
+{
+  "id": "cloudsmith-gpg-key-155b6d79ca56ea34",
+  "vendor": "cloudsmith",
+  "label": "Cloudsmith",
+  "status": "active",
+  "sourceUrl": "https://dl.cloudsmith.io/public/caddy/stable/gpg.key",
+  "sourceUrls": [
+    "https://dl.cloudsmith.io/public/caddy/stable/gpg.key"
+  ],
+  "retrievedAt": "2026-01-27T01:37:15.198Z",
+  "fingerprints": [
+    "65760C51EDEA2017CEA2CA15155B6D79CA56EA34"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Caddy Web Server <contact@caddyserver.com>"
+  ],
+  "primaryUserId": "Caddy Web Server <contact@caddyserver.com>",
+  "keyIds": [
+    {
+      "fingerprint": "65760C51EDEA2017CEA2CA15155B6D79CA56EA34",
+      "keyIdLong": "155B6D79CA56EA34",
+      "keyIdShort": "CA56EA34"
+    }
+  ],
+  "downloaded": {
+    "sha256": "783dfee04b19e851a928cd87b34710213ebbe7628f98d9f34595ab83be578c00",
+    "sizeBytes": 6884,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "e81d969be242ffb9a70a4d2d57b109b6ec53420eeaf9d0e76dd281001785daff",
+    "sizeBytes": 6891,
+    "outputPath": "keys/cloudsmith-gpg-key-155b6d79ca56ea34.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "65760C51EDEA2017CEA2CA15155B6D79CA56EA34",
+    "fingerprintSuffix16": "155B6D79CA56EA34"
+  }
+}

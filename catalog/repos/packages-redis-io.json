@@ -1,0 +1,8 @@
+{
+  "id": "packages-redis-io",
+  "label": "packages.redis.io",
+  "name": "packages-redis-io",
+  "baseUrl": "https://packages.redis.io/deb",
+  "keyId": "redis-gpg-5f4349d6bf53aa0c",
+  "documentationUrl": "https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/install-redis-on-linux/"
+}

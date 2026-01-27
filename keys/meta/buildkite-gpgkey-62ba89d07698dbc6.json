@@ -1,0 +1,40 @@
+{
+  "id": "buildkite-gpgkey-62ba89d07698dbc6",
+  "vendor": "buildkite",
+  "label": "BuildKite",
+  "status": "active",
+  "sourceUrl": "https://packages.buildkite.com/helm-linux/helm-debian/gpgkey",
+  "sourceUrls": [
+    "https://packages.buildkite.com/helm-linux/helm-debian/gpgkey"
+  ],
+  "retrievedAt": "2026-01-27T01:37:15.198Z",
+  "fingerprints": [
+    "DDF78C3E6EBB2D2CC223C95C62BA89D07698DBC6"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "https://packagecloud.io/01981580-ed3a-4eeb-95d7-352421e223e9/0198a8a8-22e4-7820-80bc-caff06dd9e6c (https://packagecloud.io/docs#gpg_signing) <support@packagecloud.io>"
+  ],
+  "primaryUserId": "https://packagecloud.io/01981580-ed3a-4eeb-95d7-352421e223e9/0198a8a8-22e4-7820-80bc-caff06dd9e6c (https://packagecloud.io/docs#gpg_signing) <support@packagecloud.io>",
+  "keyIds": [
+    {
+      "fingerprint": "DDF78C3E6EBB2D2CC223C95C62BA89D07698DBC6",
+      "keyIdLong": "62BA89D07698DBC6",
+      "keyIdShort": "7698DBC6"
+    }
+  ],
+  "downloaded": {
+    "sha256": "dc6e3f91236491ab4af688c9cec2f5ea826817dc37181e59fc7a35e18800c4ab",
+    "sizeBytes": 4077,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "3b5cbb2bb70a52416216a24762a01f819101461ece2380d7376ed78739732c4e",
+    "sizeBytes": 4081,
+    "outputPath": "keys/buildkite-gpgkey-62ba89d07698dbc6.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "DDF78C3E6EBB2D2CC223C95C62BA89D07698DBC6",
+    "fingerprintSuffix16": "62BA89D07698DBC6"
+  }
+}

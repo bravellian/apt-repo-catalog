@@ -654,7 +654,7 @@ sudo apt-get update
   <details>
   <summary>More metadata</summary>
 
-  - Maintainer: root <root@f66f6bc14b8d>
+  - Maintainer: root <root@2eee4e85c000003>
   - Section: alien
   - Priority: extra
 
@@ -842,6 +842,9 @@ sudo apt-get update
 
   </details>
 
+
+Errors during fetch:
+- apt-get update failed
 
 </details>
 

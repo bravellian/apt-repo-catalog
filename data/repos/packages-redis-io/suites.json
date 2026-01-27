@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-01-27T01:29:42.746Z",
+  "repoId": "packages-redis-io",
+  "baseUrl": "https://packages.redis.io/deb",
+  "keyId": "redis-gpg-5f4349d6bf53aa0c",
+  "suites": [
+    {
+      "suite": "stable",
+      "components": [
+        "main"
+      ],
+      "architectures": [
+        "arm64",
+        "amd64",
+        "i386",
+        "armhf"
+      ]
+    }
+  ]
+}

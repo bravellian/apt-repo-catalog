@@ -343,7 +343,7 @@ sudo apt-get update
   <details>
   <summary>More metadata</summary>
 
-  - Maintainer: Emma Zhu<emmazhu@microsoft.com>
+  - Maintainer: AzCopy Dev<azcopydev@microsoft.com>
   - Section: admin
   - Priority: optional
   - depends: dotnet-dev-1.0.1(>= 1.0.1), dotnet-runtime-2.0.0, dotnet-sdk-2.0.0(>= 2.0.0), libc6 (>= 2.14), libcurl3 (>= 7.16.2), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libicu52, liblttng-ust0, libssl1.0.0, libstdc++6 (>= 4.8), libunwind8, libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
@@ -356,14 +356,14 @@ sudo apt-get update
   - Architectures: all, amd64
   - Suite: trusty
   - Components: main
-  - Description: Azure Function Cli 2.0
+  - Description: Azure Function Core Tools v4
   - Homepage: https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#run-azure-functions-core-tools
   - Install: `sudo apt-get install azure-functions-core-tools`
   - Install (apt): `sudo apt install azure-functions-core-tools`
   <details>
   <summary>More metadata</summary>
 
-  - Maintainer: ShunXian Cai <shucai@microsoft.com>
+  - Maintainer: Ahmed ElSayed <ahmels@microsoft.com>
   - Section: devel
   - Priority: optional
   - depends: dotnet-runtime-deps-2.1 (>= 2.1.1), dotnet-sdk-2.0.0
@@ -3361,7 +3361,7 @@ sudo apt-get update
 
 - **virtualclient**
   - Latest version: 1.15.25
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: trusty
   - Components: main
   - Description: VirtualClient, the open sourced workload automation.
@@ -3392,6 +3392,9 @@ sudo apt-get update
 
   </details>
 
+
+Errors during fetch:
+- apt-get update failed
 
 </details>
 

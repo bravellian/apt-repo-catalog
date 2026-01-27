@@ -403,7 +403,908 @@ sudo apt-get update
 
 ## Packages
 
-Package inventory has not been generated for this repository.
+> Package compatibility is defined by suite/component/architecture in the repository index;
+> there is no per-package OS field in the Packages metadata.
+
+<details>
+<summary>Packages (45)</summary>
+
+<div class="packages-nav">
+<a href="#packages-T">T</a>
+</div>
+
+
+### <a id="packages-T"></a>T
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: bionic
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: eoan
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: focal
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: groovy
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: hirsute
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: impish
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: kinetic
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: lunar
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: mantic
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: noble
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: oracular
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: plucky
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: questing
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: xenial
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale**
+  - Latest version: 1.92.5
+  - Architectures: amd64, arm64, armhf, i386, mips, mips64, mips64el, mips64le, mipsel, riscv64
+  - Suite: jammy
+  - Components: main
+  - Description: The easiest, most secure, cross platform way to use WireGuard + oauth2 + 2FA/SSO
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale`
+  - Install (apt): `sudo apt install tailscale`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+  - depends: iproute2, iptables
+  - recommends: iproute2, iptables, tailscale-archive-keyring (>= 1.35.181)
+  - conflicts: tailscale-relay
+  - replaces: tailscale-relay
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: bionic
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: eoan
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: focal
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: groovy
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: hirsute
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: impish
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: kinetic
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: lunar
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: mantic
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: noble
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: oracular
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: plucky
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: questing
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: xenial
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-archive-keyring**
+  - Latest version: 1.35.181
+  - Architectures: all
+  - Suite: jammy
+  - Components: main
+  - Description: GnuPG keys of the Tailscale package archive
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-archive-keyring`
+  - Install (apt): `sudo apt install tailscale-archive-keyring`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: bionic
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: eoan
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: focal
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: groovy
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: hirsute
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: impish
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: kinetic
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: lunar
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: mantic
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: noble
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: oracular
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: plucky
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: questing
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: xenial
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+- **tailscale-nginx-auth**
+  - Latest version: 0.1.3
+  - Architectures: amd64, arm64
+  - Suite: jammy
+  - Components: main
+  - Description: Tailscale NGINX authentication protocol handler
+  - Homepage: https://www.tailscale.com
+  - Install: `sudo apt-get install tailscale-nginx-auth`
+  - Install (apt): `sudo apt install tailscale-nginx-auth`
+  <details>
+  <summary>More metadata</summary>
+
+  - Maintainer: Tailscale Inc <info@tailscale.com>
+  - Section: net
+  - Priority: extra
+
+  </details>
+
+
+Errors during fetch:
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+- apt-get update failed
+
+</details>
 
 ## Notes
 - Suite availability is derived from Release metadata; verify upstream documentation for support policy.

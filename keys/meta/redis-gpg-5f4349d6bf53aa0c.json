@@ -1,0 +1,40 @@
+{
+  "id": "redis-gpg-5f4349d6bf53aa0c",
+  "vendor": "redis",
+  "label": "Redis",
+  "status": "active",
+  "sourceUrl": "https://packages.redis.io/gpg",
+  "sourceUrls": [
+    "https://packages.redis.io/gpg"
+  ],
+  "retrievedAt": "2026-01-27T01:37:15.198Z",
+  "fingerprints": [
+    "54318FA4052D1E61A6B6F7BB5F4349D6BF53AA0C"
+  ],
+  "keyCount": 1,
+  "userIds": [
+    "Redis (Package Signing) <redis-packages@redis.io>"
+  ],
+  "primaryUserId": "Redis (Package Signing) <redis-packages@redis.io>",
+  "keyIds": [
+    {
+      "fingerprint": "54318FA4052D1E61A6B6F7BB5F4349D6BF53AA0C",
+      "keyIdLong": "5F4349D6BF53AA0C",
+      "keyIdShort": "BF53AA0C"
+    }
+  ],
+  "downloaded": {
+    "sha256": "817b5a78358d00ed6b71884d70ad5d2eab9934badca1a34299fdc6a2e4a8ad20",
+    "sizeBytes": 3155,
+    "contentType": "armored"
+  },
+  "cached": {
+    "sha256": "73c4972a30f1d422346d11d0812a6bd865219c179e56cc1c596a2773525b17f8",
+    "sizeBytes": 3158,
+    "outputPath": "keys/redis-gpg-5f4349d6bf53aa0c.asc"
+  },
+  "hints": {
+    "primaryFingerprint": "54318FA4052D1E61A6B6F7BB5F4349D6BF53AA0C",
+    "fingerprintSuffix16": "5F4349D6BF53AA0C"
+  }
+}

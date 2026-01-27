@@ -626,7 +626,7 @@ sudo apt-get update
   <details>
   <summary>More metadata</summary>
 
-  - Maintainer: root <root@f66f6bc14b8d>
+  - Maintainer: root <root@6bacc4c1c000000>
   - Section: alien
   - Priority: extra
 
@@ -824,7 +824,7 @@ sudo apt-get update
 
 - **virtualclient**
   - Latest version: 2.0.28
-  - Architectures: amd64
+  - Architectures: amd64, arm64
   - Suite: cosmic
   - Components: main
   - Description: VirtualClient, the open sourced workload automation.
@@ -837,6 +837,9 @@ sudo apt-get update
 
   </details>
 
+
+Errors during fetch:
+- apt-get update failed
 
 </details>
 
