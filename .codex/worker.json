@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "name": "apt-repo-catalog",
+  "platform": {
+    "os": "debian",
+    "majorVersion": 13
+  },
+  "workingDirectory": ".",
+  "dependencies": {
+    "aptPackages": ["nodejs", "npm"],
+    "dotnet": null,
+    "node": {
+      "minimumMajor": 20
+    },
+    "codexCli": {
+      "install": true,
+      "updateOnBootstrap": true
+    }
+  },
+  "commands": {
+    "bootstrap": [
+      {
+        "file": "npm",
+        "args": ["ci"]
+      }
+    ],
+    "test": [
+      {
+        "file": "npm",
+        "args": ["run", "validate"]
+      }
+    ]
+  },
+  "readiness": {
+    "codexAuthenticationRequired": true
+  }
+}
